@@ -6,11 +6,11 @@ description: |
 
   実行フロー:
   - Phase 1: データ収集（12-22分、5並列最適化版）
-  - Phase 2: 分析・調査（35-55分、逐次実行 1→1.5→2→3、フィルタリング追加）
+  - Phase 2: 分析・調査（20-30分、STEP 2.1→2.15逐次 + STEP 2.2+2.3並列、LLM判定ワンパス化）
   - Phase 3: 投稿生成（15-20分、高野式7パターン + X/Threads派生）
   - Phase 4: マルチプラットフォーム予約投稿（5-10分、Late API、6投稿自動化）
 
-  所要時間: 67-107分（Phase 2フィルタリング追加により+5-10分）
+  所要時間: 52-77分（Phase 2最適化により▲15-30分短縮、従来比22-28%短縮）
   出力: 各フェーズの成果物 + final_summary.md
 
   投稿先（Option C対応）:
@@ -29,24 +29,24 @@ dependencies:
   - collect-x-timeline
   - extract-top-tweets
   - scrape-tweet-details
-  - extract-content
-  - filter-extracted-content  # Phase 2.15: AI関連コンテンツフィルタリング
+  - extract-content # LLM判定ワンパス化統合（filter-extracted-content廃止）
   - analyze-replies
   - research-topic
-  - generate-sns-posts-takano  # 高野式7パターン + X/Threads派生（v2.4）
+  - generate-sns-posts-takano # 高野式7パターン + X/Threads派生（v2.4）
   - approve-and-schedule
 
 output_file: Flow/{YYYYMM}/{YYYY-MM-DD}/sns_automation_summary.md
-execution_time: 67-107分
+execution_time: 52-77分
 priority: P0
-model: claude-sonnet-4-5-20250929  # Sonnet 4.5 (2026年1月時点の最新モデル)
+model: claude-sonnet-4-5-20250929 # Sonnet 4.5 (2026年1月時点の最新モデル)
 ---
 
-# SNS Automation Skill - Phase 1-4統合版
+# SNS Automation Skill - Phase 1-4 統合版
 
-Phase 1-4のSNS自動化全工程を実行するオーケストレータースキル。
+Phase 1-4 の SNS 自動化全工程を実行するオーケストレータースキル。
 
-**Version**: 2.0（Option C対応版 - X/Threads投稿数増加）
+**Version**: 2.2（Phase 2 最適化版 - 2 並列化 + LLM 判定ワンパス化、▲15-30 分短
+縮）
 
 ---
 
@@ -54,22 +54,25 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 ### 全サブスキル共通情報
 
-**必読**: [@sns_automation_shared_context.md](./sns_automation_shared_context.md)
+**必読**:
+[@sns_automation_shared_context.md](./sns_automation_shared_context.md)
 
-このファイルには以下の共通情報が記載されています（**並列実行時の重複読み込みを防ぐため、最初に1回のみ読み込んでください**）:
+このファイルには以下の共通情報が記載されています（**並列実行時の重複読み込みを防
+ぐため、最初に 1 回のみ読み込んでください**）:
+
 - プロジェクト概要・ターゲットオーディエンス
 - 実行フロー全体像
 - 共通ファイルパス・命名規則
-- 品質基準（高野メソッド7要素）
+- 品質基準（高野メソッド 7 要素）
 - エラーハンドリング基本方針
-- Late API設定
+- Late API 設定
 - 出力フォーマット
 
 ### ドキュメント構造
 
-このSKILL.mdは以下の構造で記述されています：
+この SKILL.md は以下の構造で記述されています：
 
-- **Core セクション** - 実行に必須の情報（Phase 1-4の概要）
+- **Core セクション** - 実行に必須の情報（Phase 1-4 の概要）
 - **Extended セクション** - オプショナル詳細（評価基準、進捗表示等）
 
 詳細情報は外部ファイルに分離されており、必要時のみ参照してください。
@@ -82,41 +85,44 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 ---
 
-## このSkillでできること
+## この Skill でできること
 
-1. **Phase 1: データ収集**（5並列最適化版、12-22分）
-   - Xタイムライン収集（200件）
-   - Top 10ツイート抽出
-   - ツイート詳細取得（リンク・リプライ、5並列処理）
+1. **Phase 1: データ収集**（5 並列最適化版、12-22 分）
 
-2. **Phase 2: 分析・調査**（逐次実行 1→1.5→2→3、35-55分）
-   - STEP 2.1: コンテンツ抽出（記事・YouTube・PDF、AI関連度スコア付与）
-   - STEP 2.15: コンテンツフィルタリング（AI関連のみ抽出、非AI関連除外）
-   - STEP 2.2: リプライ分析（インサイト抽出）※データなし時スキップ
-   - STEP 2.3: Web調査（ファクトチェック・専門家意見）
+   - X タイムライン収集（200 件）
+   - Top 10 ツイート抽出
+   - ツイート詳細取得（リンク・リプライ、5 並列処理）
 
-3. **Phase 3: 投稿生成**（順次実行、15-20分）
-   - 高野式7パターンからAIが最適3パターン自動選択
-   - LinkedIn投稿3案生成（厳格チェックリスト検証）
-   - X/Threads派生投稿生成（Option C対応）:
-     - X派生（Top 1トピック、フック変更）
-     - Xスレッド1（Top 2トピック、5-7ツイート深掘り型）
-     - Xスレッド2（Top 3トピック、5-7ツイート深掘り型）
-     - Threads派生（Top 1トピック、フック変更）
-     - Threads新規（Top 2トピック、LinkedIn似表現）
+2. **Phase 2: 分析・調査**（ハイブリッド実行、20-30 分）
 
-4. **Phase 4: マルチプラットフォーム予約投稿**（順次実行、5-10分）
-   - Late API既存予約との競合検出（4時間帯: 7:30, 8:00, 12:00, 20:00）
-   - 6投稿を同一日に分散予約（Late API経由）:
+   - STEP 2.1: コンテンツ抽出（記事・YouTube・PDF、LLM 判定ワンパス化）
+   - STEP 2.2 + 2.3: リプライ分析 + Web 調査（並列実行）
+
+3. **Phase 3: 投稿生成**（順次実行、15-20 分）
+
+   - 高野式 7 パターンから AI が最適 3 パターン自動選択
+   - LinkedIn 投稿 3 案生成
+   - X/Threads 派生投稿生成（Option C 対応）:
+     - X 派生（Top 1 トピック、フック変更）
+     - X スレッド 1（Top 2 トピック、5-7 ツイート深掘り型）
+     - X スレッド 2（Top 3 トピック、5-7 ツイート深掘り型）
+     - Threads 派生（Top 1 トピック、フック変更）
+     - Threads 新規（Top 2 トピック、LinkedIn 似表現）
+
+4. **Phase 4: マルチプラットフォーム予約投稿**（順次実行、5-10 分）
+
+   - Late API 既存予約との競合検出（4 時間帯: 7:30, 8:00, 12:00, 20:00）
+   - 6 投稿を同一日に分散予約（Late API 経由）:
      - LinkedIn: 8:00 JST（高野式メイン）
-     - X派生: 7:30 JST
-     - Xスレッド1: 12:00 JST
-     - Xスレッド2: 20:00 JST
-     - Threads派生: 7:30 JST
-     - Threads新規: 20:00 JST
-   - 失敗投稿のフォールバック（Markdown生成）
+     - X 派生: 7:30 JST
+     - X スレッド 1: 12:00 JST
+     - X スレッド 2: 20:00 JST
+     - Threads 派生: 7:30 JST
+     - Threads 新規: 20:00 JST
+   - 失敗投稿のフォールバック（Markdown 生成）
 
 5. **最終サマリー生成**
+
    - 各フェーズの実行時間
    - 成果物一覧
    - 投稿結果（URL、ステータス）
@@ -125,90 +131,111 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 ## 入力・出力
 
-| 項目 | 内容 |
-|------|------|
-| **入力** | なし（完全自動実行） |
-| **出力** | 各フェーズの成果物 + final_summary.md |
-| **次のアクション** | 投稿結果の確認、パフォーマンス分析 |
+| 項目               | 内容                                  |
+| ------------------ | ------------------------------------- |
+| **入力**           | なし（完全自動実行）                  |
+| **出力**           | 各フェーズの成果物 + final_summary.md |
+| **次のアクション** | 投稿結果の確認、パフォーマンス分析    |
 
 ---
 
 ## Instructions
 
-**実行モード**: 完全自律実行（人間介入なし）
-**推定所要時間**: 62-97分
-**日次投稿数**: 6投稿（LinkedIn 1 + X 3 + Threads 2）
+**実行モード**: 完全自律実行（人間介入なし） **推定所要時間**: 52-77 分（Phase 2
+最適化により ▲15-30 分短縮） **日次投稿数**: 6 投稿（LinkedIn 1 + X 3 + Threads
+2）
 
 ---
 
-### Phase 1: データ収集（5並列最適化版、12-22分）
+### Phase 1: データ収集（5 並列最適化版、12-22 分）
 
-**概要**: Xタイムラインから200件を収集し、AI関連度と高野式適合度でTop 10を抽出。詳細リンク・リプライを5並列処理で取得。
+**概要**: X タイムラインから 200 件を収集し、AI 関連度と高野式適合度で Top 10 を
+抽出。詳細リンク・リプライを 5 並列処理で取得。
 
 **主要ステップ**:
-- STEP 1.1: Xタイムライン収集（5-10分）
-- STEP 1.2: Top 10抽出・並列評価（5-8分）
-- STEP 1.3: ツイート詳細取得・5並列処理（2-4分）
+
+- STEP 1.1: X タイムライン収集（5-10 分）
+- STEP 1.2: Top 10 抽出・並列評価（5-8 分）
+- STEP 1.3: ツイート詳細取得・5 並列処理（2-4 分）
 
 **詳細手順**: [@phases/phase1_detailed.md](./phases/phase1_detailed.md)
 
-**エラーハンドリング**: 即時停止（[@_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参照）
+**エラーハンドリング**: 即時停止
+（[@\_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参
+照）
 
 ---
 
-### Phase 2: 分析・調査（逐次実行、30-45分）
+### Phase 2: 分析・調査（ハイブリッド実行、20-30 分）
 
-**概要**: Phase 1データから記事・YouTube・PDFコンテンツを抽出し、リプライを分析。トピックのWeb調査でファクトチェック実施。
+**概要**: Phase 1 データから記事・YouTube・PDF コンテンツを LLM 判定でワンパス抽
+出し、リプライ分析と Web 調査を並列実行。
 
 **主要ステップ**:
-- STEP 2.1: コンテンツ抽出（5-10分）
-- STEP 2.2: リプライ分析（10-15分、データなし時スキップ）
-- STEP 2.3: Web調査（15-20分）
+
+- STEP 2.1: コンテンツ抽出 + LLM 判定ワンパス化（7-14 分、従来比 ▲3-6 分短縮）
+- STEP 2.2 + 2.3: リプライ分析 + Web 調査（15-20 分、並列実行で ▲10-15 分短縮）
 
 **詳細手順**: [@phases/phase2_detailed.md](./phases/phase2_detailed.md)
 
-**エラーハンドリング**: STEP 2.1, 2.3成功必須（[@_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参照）
+**エラーハンドリング**: STEP 2.1, 2.3 成功必須
+（[@\_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参
+照）
+
+**最適化内容**:
+
+- LLM 判定ワンパス化: extract-content スキルがフィルタリング統合
+  、filter-extracted-content 廃止
+- 2 並列化: STEP 2.2 と STEP 2.3 を独立処理として並列実行
 
 ---
 
-### Phase 3: 投稿生成（順次実行、15-20分）
+### Phase 3: 投稿生成（順次実行、15-20 分）
 
-**概要**: 高野式7パターンからAIが最適3パターン選択。LinkedIn 3案＋X/Threads派生投稿を生成。
+**概要**: 高野式 7 パターンから AI が最適 3 パターン選択。LinkedIn 3 案＋
+X/Threads 派生投稿を生成。
 
 **主要ステップ**:
-- STEP 3.1: 高野式7パターン投稿3案生成（LinkedIn、10-15分）
-- STEP 3.2: X/Threads派生投稿生成（5分、Option C対応）
-  - X派生: LinkedIn→フック変更（280文字）
-  - Xスレッド1: Top 2トピック深掘り（5-7ツイート）
-  - Xスレッド2: Top 3トピック深掘り（5-7ツイート）
-  - Threads派生: LinkedIn→フック変更（500文字）
-  - Threads新規: Top 2トピック（500文字）
 
-**詳細手順**: [@phases/phase3_detailed.md](./phases/phase3_detailed.md)、[@generate-sns-posts-takano/SKILL.md](./generate-sns-posts-takano/SKILL.md)
+- STEP 3.1: 高野式 7 パターン投稿 3 案生成（LinkedIn、10-15 分）
+- STEP 3.2: X/Threads 派生投稿生成（5 分、Option C 対応）
+  - X 派生: LinkedIn→ フック変更（280 文字）
+  - X スレッド 1: Top 2 トピック深掘り（5-7 ツイート）
+  - X スレッド 2: Top 3 トピック深掘り（5-7 ツイート）
+  - Threads 派生: LinkedIn→ フック変更（500 文字）
+  - Threads 新規: Top 2 トピック（500 文字）
 
-**エラーハンドリング**: チェックリスト未達時は自動再生成（[@_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参照）
+**詳細手順**:
+[@phases/phase3_detailed.md](./phases/phase3_detailed.md)、[@generate-sns-posts-takano/SKILL.md](./generate-sns-posts-takano/SKILL.md)
+
+**エラーハンドリング**: チェックリスト未達時は自動再生成
+（[@\_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参
+照）
 
 ---
 
-### Phase 4: マルチプラットフォーム予約投稿（Late API、競合回避型、5-10分）
+### Phase 4: マルチプラットフォーム予約投稿（Late API、競合回避型、5-10 分）
 
-**概要**: Late APIから既存予約を検出し、4時間帯（7:30, 8:00, 12:00, 20:00）で競合を回避。6投稿を同一日に時間帯別予約投稿。
+**概要**: Late API から既存予約を検出し、4 時間帯（7:30, 8:00, 12:00, 20:00）で
+競合を回避。6 投稿を同一日に時間帯別予約投稿。
 
 **主要ステップ**:
-- STEP 4.0: 既存予約の競合検出（全4時間帯、30秒）
-- STEP 4.1: 利用可能日付検索（全時間帯で空いている日、30秒）
-- STEP 4.2: コンテンツ抽出（6投稿分、1-2分）
-- STEP 4.3: Late API予約投稿（6投稿個別POST、2-5分）
+
+- STEP 4.0: 既存予約の競合検出（全 4 時間帯、30 秒）
+- STEP 4.1: 利用可能日付検索（全時間帯で空いている日、30 秒）
+- STEP 4.2: コンテンツ抽出（6 投稿分、1-2 分）
+- STEP 4.3: Late API 予約投稿（6 投稿個別 POST、2-5 分）
 
 **投稿スケジュール（Option C）**:
-| 時刻 | プラットフォーム | 投稿タイプ |
-|------|----------------|-----------|
-| 7:30 | X | 派生（Top 1） |
-| 7:30 | Threads | 派生（Top 1） |
-| 8:00 | LinkedIn | 高野式メイン（Top 1） |
-| 12:00 | X | スレッド深掘り（Top 2） |
-| 20:00 | X | スレッド深掘り（Top 3） |
-| 20:00 | Threads | 新規（Top 2） |
+
+| 時刻  | プラットフォーム | 投稿タイプ              |
+| ----- | ---------------- | ----------------------- |
+| 7:30  | X                | 派生（Top 1）           |
+| 7:30  | Threads          | 派生（Top 1）           |
+| 8:00  | LinkedIn         | 高野式メイン（Top 1）   |
+| 12:00 | X                | スレッド深掘り（Top 2） |
+| 20:00 | X                | スレッド深掘り（Top 3） |
+| 20:00 | Threads          | 新規（Top 2）           |
 
 **投稿スクリプト**: `scripts/late_api_multi_post_v2.py`
 
@@ -216,7 +243,9 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 **詳細手順**: [@phases/phase4_detailed.md](./phases/phase4_detailed.md)
 
-**エラーハンドリング**: Late API失敗投稿はMarkdownファイル生成（[@_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参照）
+**エラーハンドリング**: Late API 失敗投稿は Markdown ファイル生成
+（[@\_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)参
+照）
 
 ---
 
@@ -224,22 +253,26 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 ### 基本方針
 
-| フェーズ | エラー時の対応 | 理由 |
-|---------|--------------|------|
-| **Phase 1** | **即時停止** | 後続処理が全て依存するため必須 |
-| **Phase 2** | **即時停止（全タスク成功必須）** | 品質重視 |
-| **Phase 3** | **即時停止** | 投稿生成は最重要 |
-| **Phase 4** | **即時停止** | 投稿は最終成果物 |
+| フェーズ    | エラー時の対応                   | 理由                           |
+| ----------- | -------------------------------- | ------------------------------ |
+| **Phase 1** | **即時停止**                     | 後続処理が全て依存するため必須 |
+| **Phase 2** | **即時停止（全タスク成功必須）** | 品質重視                       |
+| **Phase 3** | **即時停止**                     | 投稿生成は最重要               |
+| **Phase 4** | **即時停止**                     | 投稿は最終成果物               |
 
 ### 詳細なエラーハンドリング
 
 リトライ戦略、エラーレスポンス形式、パターン別対応は以下を参照：
 
-📖 **[@_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)**
+📖
+**[@\_shared/error_handling_patterns.md](../_shared/error_handling_patterns.md)**
 
 **スキル固有のエラー処理**:
-- **Cookie認証失敗**: ユーザーに再ログイン依頼 + 停止
-- **Late APIエラー**: [@phases/phase4_detailed.md#Late API統合詳細](./phases/phase4_detailed.md#late-api統合詳細)参照
+
+- **Cookie 認証失敗**: ユーザーに再ログイン依頼 + 停止
+- **Late API エラー**:
+  [@phases/phase4_detailed.md#Late API 統合詳細](./phases/phase4_detailed.md#late-api統合詳細)参
+  照
 
 ---
 
@@ -260,16 +293,20 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│ Phase 2: 分析・調査（逐次実行、30-45分）     │
+│ Phase 2: 分析・調査（ハイブリッド実行、20-30分）│
 ├─────────────────────────────────────────────┤
-│ 2.1 コンテンツ抽出 (5-10分)                 │
-│   → extracted_contents_{date}.json        │
+│ 2.1 コンテンツ抽出 + LLM判定ワンパス化 (7-14分) │
+│   → extracted_contents_filtered_{date}.json │
+│   → non_ai_contents_{date}.json           │
 │                    ↓                        │
-│ 2.2 リプライ分析 (10-15分, スキップ可)     │
-│   → reply_insights_{date}.json            │
-│                    ↓                        │
-│ 2.3 Web調査 (15-20分)                      │
-│   → research_findings_{date}.json         │
+│ ┌─────────────────────────────────────────┐ │
+│ │ 2.2 リプライ分析 (10-15分)  [並列実行]  │ │
+│ │   → reply_insights_{date}.json         │ │
+│ │                                         │ │
+│ │ 2.3 Web調査 (15-20分)      [並列実行]  │ │
+│ │   → research_findings_{date}.json      │ │
+│ └─────────────────────────────────────────┘ │
+│   並列実行により最大15-20分（▲10-15分短縮）  │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
@@ -303,50 +340,54 @@ Phase 1-4のSNS自動化全工程を実行するオーケストレータース�
 
 # 📚 Extended Section - オプショナル詳細情報
 
-このセクションには、出力フォーマット、評価基準、詳細設定などの補足情報が記載されています。
+このセクションには、出力フォーマット、評価基準、詳細設定などの補足情報が記載され
+ています。
 
-**通常の実行では参照不要**です。カスタマイズや詳細確認が必要な場合のみ参照してください。
+**通常の実行では参照不要**です。カスタマイズや詳細確認が必要な場合のみ参照してく
+ださい。
 
 ---
 
-## Knowledge Base参照
+## Knowledge Base 参照
 
-- **Task tool使用例**: `.claude/skills/orchestrate-review-loop/SKILL.md`
+- **Task tool 使用例**: `.claude/skills/orchestrate-review-loop/SKILL.md`
 - **エラーハンドリング**: `.claude/skills/_shared/error_handling_patterns.md`
 - **並列実行ルール**: `.claude/rules/parallel_execution.md`
-- **Phase別詳細**: `.claude/skills/sns-automation/phases/phase{N}_detailed.md`
-- **Late API統合提案**: `Flow/202601/2026-01-02/late_api_integration_proposals.md`
-- **Late API実装**: `Stock/programs/副業/projects/SNS/scripts/late_api_post.py`
-- **本番テストレポート**: `Stock/programs/副業/projects/SNS/PRODUCTION_TEST_REPORT_20260102.md`
+- **Phase 別詳細**: `.claude/skills/sns-automation/phases/phase{N}_detailed.md`
+- **Late API 統合提案**:
+  `Flow/202601/2026-01-02/late_api_integration_proposals.md`
+- **Late API 実装**: `Stock/programs/副業/projects/SNS/scripts/late_api_post.py`
+- **本番テストレポート**:
+  `Stock/programs/副業/projects/SNS/PRODUCTION_TEST_REPORT_20260102.md`
 - **進捗管理**: `Stock/programs/副業/projects/SNS/PROGRESS.md`
 
 ---
 
 ## 推定コスト
 
-### LLMコスト（ClaudeCode）
+### LLM コスト（ClaudeCode）
 
-- Phase 1: $0.05（haiku 15分）
-- Phase 2: $0.30（haiku+sonnet逐次）
-- Phase 3: $0.80（opus 25分）
-- Phase 4: $0.03（haiku 5分）
+- Phase 1: $0.05（haiku 15 分）
+- Phase 2: $0.30（haiku+sonnet 逐次）
+- Phase 3: $0.80（opus 25 分）
+- Phase 4: $0.03（haiku 5 分）
 - **合計**: 約$1.18/実行
 
-### Late APIコスト（月額）
+### Late API コスト（月額）
 
-| プラン | 料金 | レート制限 | 推奨用途 |
-|--------|------|----------|---------|
-| **Free** | $0 | 60リクエスト/分 | 検証・テスト |
-| **Starter** | $19 | 120リクエスト/分 | 個人利用 |
-| **Pro** | $49 | 300リクエスト/分 | 週3-5投稿（推奨★★★★★） |
-| **Unlimited** | $99 | 1,200リクエスト/分 | 大量投稿 |
+| プラン        | 料金 | レート制限          | 推奨用途                  |
+| ------------- | ---- | ------------------- | ------------------------- |
+| **Free**      | $0   | 60 リクエスト/分    | 検証・テスト              |
+| **Starter**   | $19  | 120 リクエスト/分   | 個人利用                  |
+| **Pro**       | $49  | 300 リクエスト/分   | 週 3-5 投稿（推奨 ★★★★★） |
+| **Unlimited** | $99  | 1,200 リクエスト/分 | 大量投稿                  |
 
-**推奨**: Proプラン（$49/月）- 週3投稿×12プラットフォーム対応可能
+**推奨**: Pro プラン（$49/月）- 週 3 投稿 ×12 プラットフォーム対応可能
 
 ### 総コスト試算
 
-- LLM: $1.18/実行 × 3回/週 = **$14.16/月**
-- Late API: **$49/月**（Proプラン）
+- LLM: $1.18/実行 × 3 回/週 = **$14.16/月**
+- Late API: **$49/月**（Pro プラン）
 - **月額合計**: 約$63.16
 
 ---
@@ -437,23 +478,23 @@ Skill:
 
 ## 更新履歴
 
-| 日時 | バージョン | 変更内容 |
-|------|----------|---------|
-| 2026-01-02 | 1.0 | 初版作成（Phase 1-4統合版） |
-| 2026-01-03 | 1.1 | Late API統合詳細を追加 |
-| 2026-01-03 | 1.2 | Null2実践から得た重要な注意点を追加 |
-| 2026-01-04 | 1.3 | Phase 3をgenerate-sns-posts-takano（高野式7パターン版）に変更 |
-| 2026-01-04 | 1.4 | 並列実行パターンを明示的なTask()コードブロックで記述 |
-| 2026-01-04 | 1.5 | STEP 1.2 Top10抽出ロジックを再設計 |
-| 2026-01-04 | 1.6 | Phase 4をLate API統合版に更新 |
-| 2026-01-05 | 1.7 | Phase 2を逐次実行（1→2→3）に変更 |
-| 2026-01-05 | 1.8 | Phase 4競合回避機能追加 |
-| 2026-01-06 | 1.9 | **Phase詳細ファイルを外部化**。STEP 1.1-4.3の詳細手順を`phases/`ディレクトリに分離。メインSKILL.mdを400-500行削減し、参照リンクで構成 |
-| 2026-01-12 | 2.0 | **STEP 1.3を5並列化**。ツイート詳細取得を2並列→5並列に変更。処理時間50%短縮（5-8分→2-4分）。Phase 1全体で12-22分に短縮、SNS自動化全体で62-97分に改善 |
+| 日時       | バージョン | 変更内容                                                                                                                                                                                                                                                                                                           |
+| ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2026-01-02 | 1.0        | 初版作成（Phase 1-4 統合版）                                                                                                                                                                                                                                                                                       |
+| 2026-01-03 | 1.1        | Late API 統合詳細を追加                                                                                                                                                                                                                                                                                            |
+| 2026-01-03 | 1.2        | Null2 実践から得た重要な注意点を追加                                                                                                                                                                                                                                                                               |
+| 2026-01-04 | 1.3        | Phase 3 を generate-sns-posts-takano（高野式 7 パターン版）に変更                                                                                                                                                                                                                                                  |
+| 2026-01-04 | 1.4        | 並列実行パターンを明示的な Task()コードブロックで記述                                                                                                                                                                                                                                                              |
+| 2026-01-04 | 1.5        | STEP 1.2 Top10 抽出ロジックを再設計                                                                                                                                                                                                                                                                                |
+| 2026-01-04 | 1.6        | Phase 4 を Late API 統合版に更新                                                                                                                                                                                                                                                                                   |
+| 2026-01-05 | 1.7        | Phase 2 を逐次実行（1→2→3）に変更                                                                                                                                                                                                                                                                                  |
+| 2026-01-05 | 1.8        | Phase 4 競合回避機能追加                                                                                                                                                                                                                                                                                           |
+| 2026-01-06 | 1.9        | **Phase 詳細ファイルを外部化**。STEP 1.1-4.3 の詳細手順を `phases/`ディレクトリに分離。メイン SKILL.md を 400-500 行削減し、参照リンクで構成                                                                                                                                                                       |
+| 2026-01-12 | 2.0        | **STEP 1.3 を 5 並列化**。ツイート詳細取得を 2 並列 →5 並列に変更。処理時間 50%短縮（5-8 分 →2-4 分）。Phase 1 全体で 12-22 分に短縮、SNS 自動化全体で 62-97 分に改善                                                                                                                                              |
+| 2026-01-12 | 2.1        | **Phase 2 にフィルタリングステップを追加**。STEP 2.15 で AI 関連コンテンツのみを抽出、非 AI 関連コンテンツを自動除外。extract-content で AI 関連度スコア付与、filter-extracted-content で 0 点コンテンツを除外。Phase 2 実行時間 35-55 分（+5-10 分）、全体 67-107 分。投稿品質向上のため非 AI 関連混入を 0%に改善 |
+| 2026-01-12 | 2.2        | **Phase 2 を 2 並列化 + LLM 判定ワンパス化**。STEP 2.2+2.3 を並列実行（▲10-15 分）、extract-content に LLM 判定統合で filter-extracted-content 廃止（▲3-6 分）。Phase 2 実行時間 20-30 分（▲15-25 分短縮、43%改善）、全体 52-77 分（▲15-30 分短縮、22-28%改善）。依存スキルを 8→7 に削減                           |
 
 ---
 
-**実装日**: 2026-01-02
-**統合スキル数**: 7スキル
-**バージョン**: 2.0（5並列最適化版）
-**最終更新**: 2026-01-12
+**実装日**: 2026-01-02 **統合スキル数**: 8 スキル（Phase 2 フィルタリング追加）
+**バージョン**: 2.1（Phase 2 フィルタリング統合版） **最終更新**: 2026-01-12

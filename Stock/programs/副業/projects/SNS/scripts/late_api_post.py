@@ -169,12 +169,9 @@ def post_to_late_api(
         platform_data["platformSpecificData"] = platform_specific_data
 
     request_body = {
-        "platforms": [platform_data]
+        "platforms": [platform_data],
+        "content": content  # threadItemsがある場合でも常に設定
     }
-
-    # contentはthreadItemsがない場合のみ設定
-    if not platform_specific_data or "threadItems" not in platform_specific_data:
-        request_body["content"] = content
 
     # スケジューリング設定
     if scheduled_for:

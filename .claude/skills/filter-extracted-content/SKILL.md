@@ -1,6 +1,12 @@
 ---
 name: filter-extracted-content
+deprecated: true
+deprecation_reason: "extract-contentスキルにLLM判定ワンパス化統合により廃止（v2.2、2026-01-12）"
+replacement: "extract-content（LLM判定ワンパス化版）"
 description: |
+  ⚠️ **DEPRECATED**: このスキルは廃止されました。extract-contentスキルがLLM判定ワンパス化により、フィルタリング機能を統合しました。
+
+  以下は参考情報です（使用しないでください）:
   抽出済みコンテンツをAI関連度でフィルタリングするスキル。
   記事タイトル・本文からAI関連度スコア（0-3点）を付与し、非AI関連コンテンツを除外します。
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-10",
+  "last_updated": "2026-01-12",
   "weeks": [
     {
       "week_id": "2026-W01",
@@ -109,6 +109,94 @@
           "衝撃的数値（Pattern #07）",
           "権威引用（Pattern #23）"
         ]
+      }
+    },
+    {
+      "week_id": "2026-W02",
+      "period_start": "2026-01-01",
+      "period_end": "2026-01-11",
+      "kpi": {
+        "total_posts": 190,
+        "total_impressions": 162943,
+        "total_engagement": 1053,
+        "engagement_rate": 0.57,
+        "platforms": {
+          "linkedin": {
+            "posts": 10,
+            "impressions": 85653,
+            "engagement": 559,
+            "engagement_rate": 0.6526332994757919,
+            "avg_impressions_per_post": 8565.3
+          },
+          "x": {
+            "posts": 116,
+            "impressions": 77290,
+            "engagement": 363,
+            "engagement_rate": 0.46965972312071425,
+            "avg_impressions_per_post": 666.2931034482758
+          },
+          "threads": {
+            "posts": 22,
+            "views": 13957,
+            "impressions": 0,
+            "engagement": 131,
+            "engagement_rate": 0.9385971197248693,
+            "avg_views_per_post": 634.4090909090909,
+            "note": "viewsフィールド使用。views>0の場合のみエンゲージメント率計算"
+          }
+        }
+      },
+      "top_posts": [
+        {
+          "rank": 1,
+          "platform": "twitter",
+          "published_at": "2026-01-04T11:05:08.095Z",
+          "impressions": 40040,
+          "engagement_rate": 0.49,
+          "theme": "未分類",
+          "text_preview": "N/A"
+        },
+        {
+          "rank": 2,
+          "platform": "linkedin",
+          "published_at": "2026-01-04T23:02:21.446Z",
+          "impressions": 36513,
+          "engagement_rate": 0.65,
+          "theme": "未分類",
+          "text_preview": "N/A"
+        },
+        {
+          "rank": 3,
+          "platform": "linkedin",
+          "published_at": "2026-01-07T23:40:29.777Z",
+          "impressions": 19803,
+          "engagement_rate": 0.27,
+          "theme": "未分類",
+          "text_preview": "N/A"
+        },
+        {
+          "rank": 4,
+          "platform": "twitter",
+          "published_at": "2026-01-04T11:05:07.000Z",
+          "impressions": 16907,
+          "engagement_rate": 0.22,
+          "theme": "未分類",
+          "text_preview": "N/A"
+        },
+        {
+          "rank": 5,
+          "platform": "linkedin",
+          "published_at": "2026-01-03T23:01:57.116Z",
+          "impressions": 14049,
+          "engagement_rate": 0.5,
+          "theme": "未分類",
+          "text_preview": "N/A"
+        }
+      ],
+      "success_patterns": {
+        "top_themes": [],
+        "pattern_library_reference": "x_patterns_detailed.md",
+        "high_performing_patterns": []
       }
     }
   ]
