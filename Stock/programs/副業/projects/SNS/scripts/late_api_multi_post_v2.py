@@ -147,8 +147,11 @@ def extract_x_derived_content(markdown: str) -> Optional[dict]:
     X派生投稿のコンテンツを抽出（フックのみ変更版）
 
     セクション: ## X派生投稿（Top 1トピック、フック変更）
+
+    メタ情報（**元ネタ**:, ---, **文字数**:）を除外して本文のみを抽出
     """
-    pattern = r'## X派生投稿（Top 1トピック、フック変更）.*?\n\n(.*?)(?=\n## |\Z)'
+    # **元ネタ**: ... と --- をスキップし、本文のみ抽出
+    pattern = r'## X派生投稿（Top 1トピック、フック変更）.*?\n\n\*\*元ネタ\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:
@@ -246,8 +249,11 @@ def extract_threads_derived_content(markdown: str) -> Optional[dict]:
     Threads派生投稿のコンテンツを抽出（フックのみ変更版）
 
     セクション: ## Threads派生投稿（Top 1トピック、フック変更）
+
+    メタ情報（**元ネタ**:, ---, **文字数**:）を除外して本文のみを抽出
     """
-    pattern = r'## Threads派生投稿（Top 1トピック、フック変更）.*?\n\n(.*?)(?=\n## |\Z)'
+    # **元ネタ**: ... と --- をスキップし、本文のみ抽出
+    pattern = r'## Threads派生投稿（Top 1トピック、フック変更）.*?\n\n\*\*元ネタ\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:
@@ -267,8 +273,11 @@ def extract_threads_new_content(markdown: str) -> Optional[dict]:
     Threads新規投稿のコンテンツを抽出（Top 2トピック、LinkedIn似表現）
 
     セクション: ## Threads新規投稿（Top 2トピック）
+
+    メタ情報（**トピック**:, ---, **文字数**:）を除外して本文のみを抽出
     """
-    pattern = r'## Threads新規投稿（Top 2トピック）.*?\n\n(.*?)(?=\n## |\Z)'
+    # **トピック**: ... と --- をスキップし、本文のみ抽出
+    pattern = r'## Threads新規投稿（Top 2トピック）.*?\n\n\*\*トピック\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
 
     if not match:

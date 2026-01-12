@@ -43,9 +43,19 @@ model: claude-sonnet-4-5-20250929  # Sonnet 4.5 (2026年1月時点の最新モ�
 
 1. **実行日時の取得**
 ```bash
-TODAY=$(date +%Y-%m-%d)
-WEEK_AGO=$(date -v-7d +%Y-%m-%d)  # macOS
-# Linux: WEEK_AGO=$(date -d '7 days ago' +%Y-%m-%d)
+# スキル引数から期間を取得（オプション）
+if [ -n "${START_DATE}" ]; then
+    WEEK_AGO="${START_DATE}"
+else
+    WEEK_AGO=$(date -v-7d +%Y-%m-%d)  # macOS
+    # Linux: WEEK_AGO=$(date -d '7 days ago' +%Y-%m-%d)
+fi
+
+if [ -n "${END_DATE}" ]; then
+    TODAY="${END_DATE}"
+else
+    TODAY=$(date +%Y-%m-%d)
+fi
 
 YYYYMMDD=$(date +%Y%m%d)
 YYYYMM=$(date +%Y%m)
@@ -63,6 +73,88 @@ REPORT_FILE="${OUTPUT_DIR}/sns_performance_report_${YYYYMMDD}.md"
 ```bash
 mkdir -p "${OUTPUT_DIR}"
 ```
+
+---
+
+### STEP 1.5: Facebookパフォーマンス収集（オプショナル）（20-30分）
+
+**重要**: このステップはオプショナルです。Facebook収集に失敗しても、Late APIプラットフォーム（LinkedIn, X, Threads）での分析は継続されます。
+
+#### 1-5-1. 実行条件確認
+
+```bash
+# Chrome MCP接続確認
+if ! tabs_context_mcp(createIfEmpty=True); then
+    echo "⚠️  Chrome MCP未接続: Facebook収集をスキップします"
+    FACEBOOK_COLLECTION_ENABLED=false
+fi
+
+# Facebook最終データ確認
+FACEBOOK_DATA_PATH="Stock/programs/副業/projects/SNS/data"
+FACEBOOK_DATA_FILE="${FACEBOOK_DATA_PATH}/fb_performance_${YYYY_MM_DD}.json"
+if [ -f "${FACEBOOK_DATA_FILE}" ]; then
+    echo "✅ Facebookデータ検出: ${FACEBOOK_DATA_FILE}"
+    FACEBOOK_COLLECTION_ENABLED=false  # 既存データ使用
+else
+    echo "⚠️  Facebookデータなし: 新規収集を試みます"
+    FACEBOOK_COLLECTION_ENABLED=true
+fi
+```
+
+#### 1-5-2. collect-facebook-performanceスキル実行
+
+**実行方法**: Task tool経由
+
+```python
+if FACEBOOK_COLLECTION_ENABLED:
+    try:
+        facebook_result = Task(
+            description="Facebook収集",
+            prompt=f"""
+            @.claude/skills/collect-facebook-performance/SKILL.md の仕様に従い、
+            Facebookパフォーマンスデータを収集してください。
+
+            **期間指定（重要）**:
+            - 開始日（since_date）: {WEEK_AGO}
+            - 終了日（until_date）: {TODAY}
+
+            **実行手順**:
+            1. STEP 1.5 で日付フィルターを設定（Professional Dashboard右上のボタン）
+            2. 上記期間のデータのみ収集（デフォルト28日間ではない）
+            3. 指定期間データを返すこと
+
+            **出力先**: Stock/programs/副業/projects/SNS/data/fb_performance_{YYYY_MM_DD}.json
+            **タイムアウト**: 35分
+
+            Chrome MCPツールを使用してProfessional Dashboardから以下を収集:
+            - STEP 1.5: 日付フィルター設定（"過去28日間" → "カスタム" → カレンダー選択）
+            - STEP 3: Views（閲覧数）
+            - STEP 4: Interactions（インタラクション）
+            - STEP 5: Audience（フォロワー）
+            - STEP 6: Content Library（投稿別メトリクス）
+            - STEP 7: Timeline Posts（投稿全文）
+            """,
+            subagent_type="general-purpose",
+            model="sonnet",
+            timeout=2100000  # 35分（期間設定+5分）
+        )
+        print("✅ Facebook収集完了")
+    except Exception as e:
+        print(f"⚠️  Facebook収集失敗: {e}")
+        print("   Late APIプラットフォームのみで分析を継続します")
+        FACEBOOK_COLLECTION_ENABLED = false
+```
+
+#### 1-5-3. エラーハンドリング
+
+| エラー | 対応 | 影響 |
+|--------|------|------|
+| Chrome MCP未接続 | 警告表示、スキップ | Late API継続 |
+| Facebook未ログイン | 手動ログイン依頼後、スキップ | Late API継続 |
+| タイムアウト（30分） | 警告表示、スキップ | Late API継続 |
+| 部分データ（品質<70%） | 警告表示、データ使用スキップ | Late API継続 |
+
+**重要**: Facebookデータ収集失敗は全体の失敗とせず、Late APIプラットフォーム（LinkedIn, X, Threads）で分析を継続します。
 
 ---
 
@@ -168,15 +260,16 @@ kpi_targets = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-
 - 投稿あたり平均インプレッション: 総インプレッション / 投稿数
 ```
 
-**Threads集計**（特例処理）:
+**Threads集計**（viewsフィールド使用）:
 ```
 - 投稿数: len([post for post in data["data"] if post["platform"] == "threads"])
-- 総インプレッション: 0（Late API制約により常に0）
+- 総Views: sum([post["views"] for post in data["data"] if post["platform"] == "threads"])
 - 総エンゲージメント: sum([post["likes"] + post["comments"] + post["shares"] for post in data["data"] if post["platform"] == "threads"])
-- エンゲージメント率: None（インプレッション0のため計算不可）
+- エンゲージメント率: (総エンゲージメント / 総Views) * 100 if 総Views > 0 else None
+- 投稿あたり平均Views: 総Views / 投稿数 if 投稿数 > 0 else 0
 ```
 
-**重要**: Threadsのインプレッションは Late API の制約により常に0を返します。これは Late API の問題ではなく、Threadsプラットフォーム側の仕様です。
+**重要**: ThreadsはLate APIの`views`フィールドを使用します。viewsが0の場合は「計測不可」として扱い、エンゲージメント絶対数のみで評価します。
 
 **Facebook集計**（Chrome MCP経由）:
 
@@ -214,22 +307,25 @@ kpi_targets = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-
 ```
 Late API プラットフォーム（LinkedIn, X, Threads）:
 - 総投稿数: len(data["data"])
-- 総インプレッション: LinkedIn総imp + X総imp + Threads総imp（0）
+- 総インプレッション: LinkedIn総imp + X総imp（Threadsはviewsベースのため除外）
+- 総Views（Threads）: Threads総views
 - 総エンゲージメント: LinkedIn総eng + X総eng + Threads総eng
 - 平均エンゲージメント率: (LinkedIn総imp + X総imp > 0) ? (LinkedIn総eng + X総eng) / (LinkedIn総imp + X総imp) * 100 : 0
 
 Facebook（Chrome MCP経由）:
-- 総閲覧数: fb_data["views"]["total"]
+- 総閲覧数: fb_data["views"]["total"]（28日累計）
 - 総インタラクション: fb_data["interactions"]["total"]
 - フォロワー増減: fb_data["audience"]["net_followers"]
 
 統合サマリー:
-- 全プラットフォーム総リーチ: Late API総imp + Facebook総閲覧数
-- 全プラットフォーム総エンゲージメント: Late API総eng + Facebook総インタラクション
+- 全プラットフォーム総リーチ: Late API総imp + Threads総views + Facebook総閲覧数
+- 全プラットフォーム総エンゲージメント: Late API総eng + Threads総eng + Facebook総インタラクション
 ```
 
 **注意**:
-- Threadsのインプレッションは0のため、全体エンゲージメント率からは除外
+- ThreadsはViewsベースのため、インプレッション総計からは除外して別途表示
+- Threads views > 0 の場合のみ、Threads独自のエンゲージメント率を計算
+- エンゲージメント率はLinkedIn + Xのみで計算
 - FacebookはProfessional Dashboard経由の28日間累計データを使用（週次比較は変化率で評価）
 
 #### 3-5. KPI比較（LLM推論）
@@ -304,11 +400,16 @@ template = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-sns
 - `{x_engagement:,}` → 総エンゲージメント
 - `{x_engagement_rate}` → エンゲージメント率
 
-**Threads**:
+**Threads**（viewsフィールド使用）:
 - `{threads_posts}` → 投稿数
+- `{threads_views:,}` → 総Views
+- `{threads_avg_views:,}` → 投稿あたり平均Views
 - `{threads_engagement:,}` → 総エンゲージメント
-- インプレッション: "計測不可（Late API未対応）"（固定値）
-- エンゲージメント率: "計測不可（インプレッション0のため）"（固定値）
+- `{threads_engagement_rate}` → エンゲージメント率（views>0の場合のみ計算）
+- `{threads_views_achievement}` → Threads達成率（views_per_post目標比）
+- `{threads_views_status}` → 評価（✅/⚠️/❌）
+
+**注意**: viewsが0の場合は「計測不可」と表示し、エンゲージメント絶対数のみで評価
 
 **Facebook**（Chrome MCP経由）:
 - `{facebook_views:,}` → 総閲覧数
@@ -410,7 +511,7 @@ Write(file_path=REPORT_FILE, content=filled_template)
    2位: {top2_platform} - {top2_impressions:,}回
    3位: {top3_platform} - {top3_impressions:,}回
 
-ℹ️  Threadsインプレッション: 計測不可（Late API制約）
+ℹ️  Threads: viewsフィールド使用（0の場合はエンゲージメント絶対数で評価）
 ℹ️  Facebook: Professional Dashboard経由で28日間累計データ
 
 詳細レポート: {REPORT_FILE}
@@ -503,33 +604,48 @@ LATE_API_KEY=xxxxxxxxxxxxxxxxxxxxx # My API Key ← これは NG
 
 ---
 
-## Threads 特例処理の詳細
+## Threads 指標処理の詳細
 
-### なぜ Threads はインプレッション0なのか？
+### viewsフィールドの使用
 
-Late API の制約により、Threads プラットフォームのインプレッション数は常に0を返します。これは以下の理由によるものです：
+Threadsプラットフォームでは `views` フィールドを使用してリーチを測定します。Late API の PostAnalytics スキーマにより、全投稿タイプ（テキスト、写真、動画）で `views` フィールドが利用可能です。
 
-1. **Threadsプラットフォーム側の仕様**: Threads は公式APIでインプレッション数を提供していません
-2. **Late APIの対応状況**: Late APIはThreadsプラットフォームからインプレッションデータを取得できません
-3. **代替指標の使用**: エンゲージメント絶対数（いいね、コメント、シェア）のみで評価します
+**Late API PostAnalytics スキーマ**:
+```yaml
+PostAnalytics:
+  type: object
+  properties:
+    views:
+      type: integer
+      description: Number of times a post was viewed
+```
 
 ### 処理方法
 
-**データ収集時**（fetch_late_analytics_optimized.py）:
+**データ収集時**（Late API経由）:
 - Threadsの投稿も通常通り取得
-- `impressions` フィールドは常に0
+- `views` フィールドを使用（impressionsではなく）
 - `engagement` フィールド（likes, comments, shares）は正常に取得
 
 **分析時**（LLM推論）:
 - Threadsの投稿数をカウント
+- 総Viewsを集計
 - 総エンゲージメントを集計
-- **エンゲージメント率は計算しない**（分母が0のため）
-- 全体のエンゲージメント率からThreadsを除外
+- **views > 0 の場合**: エンゲージメント率 = (総エンゲージメント / 総Views) × 100
+- **views = 0 の場合**: エンゲージメント率は「計測不可」、エンゲージメント絶対数のみで評価
+- 全体のインプレッション総計にはThreads viewsを含めない（LinkedIn + Xのみ）
 
 **レポート生成時**:
-- インプレッション: "計測不可（Late API未対応）"と表示
-- エンゲージメント率: "計測不可（インプレッション0のため）"と表示
-- エンゲージメント絶対数のみ表示
+- Views: 総Views数を表示（0の場合は「計測不可」）
+- エンゲージメント率: views>0の場合のみ計算・表示
+- 投稿あたり平均Views: KPI目標（100 views/post）との比較
+
+### KPI評価基準
+
+| 指標 | 目標値 | 評価 |
+|------|--------|------|
+| 投稿あたりViews | 100 | ✅≧100、⚠️80-99、❌<80 |
+| 投稿あたりエンゲージメント | 5 | ✅≧5、⚠️4、❌<4 |
 
 ---
 
@@ -565,7 +681,7 @@ Late API の制約により、Threads プラットフォームのインプレッ
    2位: x - 15,234回
    3位: linkedin - 12,987回
 
-ℹ️  Threadsインプレッション: 計測不可（Late API制約）
+ℹ️  Threads: viewsフィールド使用（0の場合はエンゲージメント絶対数で評価）
 
 詳細レポート: /Users/yuichi/AIPM/aipm_v0/Flow/202601/2026-01-10/sns_performance_report_20260110.md
 ================================================================================
@@ -688,7 +804,9 @@ history_data = Read(file_path=history_path)
 **プラットフォーム別増減**:
 - LinkedIn: 投稿数増減、インプレッション増減、投稿あたり平均増減
 - X: 投稿数増減、インプレッション増減、投稿あたり平均増減
-- Threads: エンゲージメント絶対数増減のみ（インプレッション計測不可）
+- Threads: Views増減、エンゲージメント増減、投稿あたり平均Views増減
+  - views=0の場合はエンゲージメント絶対数のみで比較
+- Facebook（28日累計）: 変化率で評価（閲覧数変化率、インタラクション変化率）
 
 **トレンド評価**:
 - ⬆️ = 改善（増加率 > 5%）
@@ -892,23 +1010,23 @@ for theme in top_themes:
 **担当スキル**: generate-x-posts（パターン指定モード）
 ```
 
-**優先度3（測定改善）**:
+**優先度3（Threads最適化）**:
 ```markdown
-#### 🎯 優先度3: Threads投稿の効果測定を改善（優先度スコア: 45/100）
+#### 🎯 優先度3: Threads Views指標を活用した最適化（優先度スコア: 55/100）
 
-**期待効果**: +5,000回（間接効果）
+**期待効果**: +5,000 views（間接効果）
 **根拠**:
-- Threadsインプレッション計測不可（Late API制約）
-- エンゲージメント絶対数のみ取得（91件/週）
-- 効果的な投稿判定ができず、最適化困難
+- Threads viewsフィールドでリーチ測定可能に（Late API PostAnalytics対応）
+- 目標: 100 views/post、5 engagement/post
+- views>0で正確なエンゲージメント率計算が可能
 
 **実装方法**:
-1. Threadsエンゲージメント/投稿比率を代替指標とする（目標: 15件/投稿）
-2. エンゲージメント上位投稿のパターン分析を手動実施
-3. Late API制約の解消を待つ（代替API調査）
+1. views数上位投稿のパターン分析を実施
+2. 高エンゲージメント投稿との相関を確認
+3. 成功パターンをgenerate-x-posts スキルに反映
 
 **実行期限**: 次週（2026-01-17まで）
-**担当スキル**: 手動分析（スキル未実装）
+**担当スキル**: generate-x-posts（Threads設定）
 ```
 
 #### 7-5. history.json更新（LLM推論）
@@ -942,7 +1060,31 @@ new_week = {
                 "engagement_rate": linkedin_engagement_rate,
                 "avg_impressions_per_post": linkedin_avg_impressions
             },
-            # ... X, Threads同様
+            "x": {
+                "posts": x_posts,
+                "impressions": x_impressions,
+                "engagement": x_engagement,
+                "engagement_rate": x_engagement_rate,
+                "avg_impressions_per_post": x_avg_impressions
+            },
+            "threads": {
+                "posts": threads_posts,
+                "views": threads_views,  # impressions → views に変更
+                "engagement": threads_engagement,
+                "engagement_rate": threads_engagement_rate,  # views>0の場合のみ
+                "avg_views_per_post": threads_avg_views,
+                "note": "viewsフィールド使用。0の場合はエンゲージメント絶対数で評価"
+            },
+            "facebook": {  # Chrome MCP経由で収集したデータ
+                "views": facebook_views,  # 28日累計
+                "interactions": facebook_interactions,
+                "followers": facebook_followers,
+                "net_followers": facebook_net_followers,
+                "engagement_rate": facebook_engagement_rate,
+                "data_source": "Professional Dashboard (Chrome MCP)",
+                "data_quality": fb_data_quality,
+                "note": "28日間累計データ（週次比較は変化率で評価）"
+            }
         }
     },
     "top_posts": [
@@ -1029,5 +1171,28 @@ Write(file_path=REPORT_FILE, content=filled_extended_template)
 6. **📊 トレンド分析（過去4週）**（新規）
 7. **🎯 推奨アクション（優先度順）**（新規）
 8. **📚 成功パターン分析（過去4週）**（新規）
+
+---
+
+## スキル引数
+
+スキル実行時に期間を指定できます（オプション）:
+
+```bash
+/analyze-sns-performance-weekly --start-date 2026-01-01 --end-date 2026-01-11
+```
+
+**引数**:
+- `--start-date`: 分析開始日（YYYY-MM-DD形式）
+- `--end-date`: 分析終了日（YYYY-MM-DD形式）
+
+**デフォルト動作**（引数省略時）:
+- start-date: 実行日の7日前
+- end-date: 実行日
+
+**注意**:
+- Facebook収集時は `since_date={start-date}`, `until_date={end-date}` として collect-facebook-performance に渡されます
+- Late API収集時も同じ期間が使用されます
+- 期間は最大90日（Facebook Professional Dashboard制約）
 
 ---

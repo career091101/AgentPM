@@ -1,15 +1,15 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "last_updated": "2026-01-12",
   "targets": {
     "total_impressions": {
       "weekly": 150000,
-      "description": "週間総インプレッション目標"
+      "description": "週間総インプレッション目標（LinkedIn + X のみ）"
     },
     "engagement_rate": {
       "weekly": 1.5,
       "unit": "%",
-      "description": "週間平均エンゲージメント率目標"
+      "description": "週間平均エンゲージメント率目標（LinkedIn + X のみ）"
     },
     "platform_specific": {
       "linkedin": {
@@ -21,15 +21,16 @@
         "engagement_rate": 1.2
       },
       "threads": {
+        "views_per_post": 100,
         "engagement_per_post": 5,
-        "note": "インプレッション計測不可のため、エンゲージメント絶対数で評価"
+        "note": "viewsフィールド使用。views=0の場合はエンゲージメント絶対数で評価"
       },
       "facebook": {
         "views_weekly": 100000,
         "interactions_weekly": 1500,
         "followers_growth_weekly": 150,
         "engagement_rate": 0.8,
-        "note": "Chrome MCP経由でProfessional Dashboardから収集"
+        "note": "Chrome MCP経由でProfessional Dashboardから収集（28日累計データ）"
       }
     }
   }

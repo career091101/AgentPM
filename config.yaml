@@ -1,0 +1,67 @@
+# aipm_v0 システム設定
+# プランC: 並行運用設定
+
+system:
+  # 現在使用中のバージョン
+  version: "v2"  # デフォルトは v2 (既存システム)
+
+  # 並行運用モード
+  parallel_mode:
+    enabled: true
+    v2_path: "aipm_v0/"        # 既存システム（現在動作中）
+    v3_path: "aipm_v0_dev/"    # 新システム（開発中）
+
+  # 安全モード
+  safety:
+    backup_before_switch: true     # 切り替え前に自動バックアップ
+    rollback_on_error: true        # エラー時自動ロールバック
+    protect_stock: true            # Stock/ は変更不可
+    protect_flow_current: true     # Flow/の進行中作業を保護
+
+  # 保護対象パス（絶対に変更しない）
+  protected_paths:
+    - "Stock/programs/創業支援・新規事業開発(AIエージェント)/"
+    - "Flow/202512/2025-12-30/"
+    - "Flow/202512/"  # 進行中の月次作業
+
+  # ロールバック設定
+  rollback:
+    git_tag: "pre-restructure-20251230_180213"
+    backup_dir: "backup/pre_restructure_20251230_180213/"
+    auto_rollback_on_error: true
+    rollback_timeout_seconds: 30
+
+# バージョン情報
+versions:
+  v2:
+    name: "既存システム"
+    status: "stable"
+    description: "現在動作中の安定版"
+    folders:
+      - ".agent"
+      - ".antigravity"
+      - ".claude"
+      - ".codex"
+      - ".cursor"
+
+  v3:
+    name: "新システム (SSOT)"
+    status: "development"
+    description: "開発中: .cursor SSOT化"
+    folders:
+      - ".cursor_v3"
+      - ".agent_v3"
+      - ".claude_v3"
+      - "docs/ai/lib"
+
+# ログ設定
+logging:
+  enabled: true
+  level: "INFO"
+  file: "Flow/202512/2025-12-30/planc_execution.log"
+
+# テスト設定
+testing:
+  auto_test_before_switch: true
+  smoke_test_required: true
+  integration_test_required: true

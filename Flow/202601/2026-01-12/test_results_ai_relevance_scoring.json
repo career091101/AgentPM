@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "test_date": "2026-01-12",
+    "purpose": "AI関連度判定精度検証",
+    "test_cases": 11,
+    "accuracy": 90.9,
+    "matched_cases": 10,
+    "mismatched_cases": 1
+  },
+  "test_results": [
+    {
+      "case_id": 1,
+      "url": "https://event.rakuten.co.jp/fashion/thesale/...",
+      "title": "【楽天市場】全額ポイントバックキャンペーン｜Rakuten Fashion THE SALE",
+      "word_count": 7,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "非AI関連（ファッション・EC）、AI関連キーワード不在"
+    },
+    {
+      "case_id": 2,
+      "url": "https://video.unext.jp/...",
+      "title": "- 動画配信 | U-NEXT 31日間無料トライアル",
+      "word_count": 0,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "非AI関連（動画配信）、本文なし"
+    },
+    {
+      "case_id": 3,
+      "url": "https://microlaunch.net/",
+      "title": "World-class Tech Products on Microlaunch",
+      "word_count": 181,
+      "expected_score": 1,
+      "actual_score": 1,
+      "match": true,
+      "reason": "LLM言及あり（SEO & LLM traffic）だが主題はSaaS製品紹介。キーワード密度1.1%で1点判定"
+    },
+    {
+      "case_id": 4,
+      "url": "https://drvape.jp/lp/...",
+      "title": "【公式】DR.VAPE（ドクターベイプ） Model 3｜香りを吸う。未来が変わる。",
+      "word_count": 141,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "非AI関連（電子タバコ製品）、AI関連キーワード不在"
+    },
+    {
+      "case_id": 5,
+      "url": "https://tver.jp/series/...",
+      "title": null,
+      "word_count": 0,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "抽出失敗（タイトル・本文なし）"
+    },
+    {
+      "case_id": 6,
+      "url": "https://note.com/napps/n/na65725437971",
+      "title": "Skillsはホワイトワーカの切り札なので乗った方がいいぞ｜ナッピー通信",
+      "word_count": 16,
+      "keywords_present": ["AI", "Claude", "Skills", "GPTs", "エージェント"],
+      "keyword_count_3pt": 4,
+      "keyword_density": 0.25,
+      "expected_score": 3,
+      "actual_score": 3,
+      "match": true,
+      "reason": "本文に3点キーワード4回/16語（25%）で3点判定"
+    },
+    {
+      "case_id": 7,
+      "url": "https://www.open-access.bcu.ac.uk/16180/",
+      "title": "The Alchemy of Multibagger Stocks: An empirical investigation",
+      "word_count": 530,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "非AI関連（株式投資の実証研究）、AI技術キーワード不在"
+    },
+    {
+      "case_id": 8,
+      "url": "https://lp.levtech-direct.jp/lp/...",
+      "title": "エンジニア・デザイナーの年収診断｜レバテックダイレクト",
+      "word_count": 0,
+      "expected_score": 0,
+      "actual_score": 0,
+      "match": true,
+      "reason": "非AI関連（IT求人サービス）、本文なし"
+    },
+    {
+      "case_id": 9,
+      "url": "https://coderabbit.ai/...",
+      "title": "AI Code Reviews | CodeRabbit | Try for Free",
+      "word_count": 302,
+      "keywords_present": ["AI", "AI agent", "AI-powered", "MCP", "coding tool"],
+      "expected_score": 3,
+      "actual_score": 3,
+      "match": true,
+      "reason": "タイトルに'AI'含有で即3点判定"
+    },
+    {
+      "case_id": 10,
+      "url": "https://zenn.dev/mkj/articles/868e0723efa060",
+      "title": "Claude Code中心のAIコーディング運用：実務で効いた5つの型",
+      "word_count": 89,
+      "keywords_present": ["AI", "Claude", "Claude Code", "Skills", "subagent", "プロンプト"],
+      "expected_score": 3,
+      "actual_score": 3,
+      "match": true,
+      "reason": "タイトルに'AI', 'Claude'含有で即3点判定"
+    },
+    {
+      "case_id": 11,
+      "url": "https://songmu.jp/riji/entry/2025-06-22-taskmd-shelf.html",
+      "title": "TaskMD Shelf - 積極的棚上げを由とする怠惰なタスク管理",
+      "word_count": 56,
+      "keywords_present": ["AI", "Claude Code", "MCP"],
+      "keyword_count_3pt": 3,
+      "keyword_density": 0.0536,
+      "expected_score": 2,
+      "actual_score": 3,
+      "match": false,
+      "reason": "本文に3点キーワード3回/56語（5.36%）で3点判定。しかし主題はタスク管理であり、AIは手段として言及されているのみ。人間判断では2点が妥当。",
+      "improvement_needed": "LLM補完判定で主題を確認し、AI技術が主題でない場合は減点する機能が必要"
+    }
+  ],
+  "score_distribution": {
+    "expected": {
+      "3点": 3,
+      "2点": 1,
+      "1点": 1,
+      "0点": 6
+    },
+    "actual": {
+      "3点": 4,
+      "2点": 0,
+      "1点": 1,
+      "0点": 6
+    }
+  },
+  "precision_recall": {
+    "score_3": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1_score": 0.857
+    },
+    "score_2": {
+      "precision": null,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "score_1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "score_0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "overall_metrics": {
+    "accuracy": 90.9,
+    "macro_f1": 0.714,
+    "weighted_f1": 0.961
+  },
+  "improvement_recommendations": [
+    {
+      "priority": "P0",
+      "recommendation": "LLM補完判定の追加",
+      "description": "キーワード密度2-10%の境界ケースで、LLMを使用して主題がAI技術かどうか判定し、非AI技術の場合は1点減点",
+      "expected_effect": "2点判定精度が0% → 100%に改善、Overall Accuracyが90.9% → 100%に改善"
+    },
+    {
+      "priority": "P1",
+      "recommendation": "キーワード密度基準の調整",
+      "description": "密度基準を5%以上に引き上げ、2-5%はLLM判定対象とする",
+      "expected_effect": "短文での誤判定を防止"
+    },
+    {
+      "priority": "P2",
+      "recommendation": "2点キーワードの拡充",
+      "description": "AI応用技術、AI活用事例のキーワードを2点キーワードに追加",
+      "expected_effect": "2点判定の範囲拡大"
+    }
+  ],
+  "production_readiness": {
+    "ready": true,
+    "conditions": [
+      "現状の判定基準で運用開始可能",
+      "Phase 3で投稿生成時に目視確認推奨",
+      "中期的にLLM補完判定を実装して精度100%を達成"
+    ],
+    "risk_assessment": {
+      "false_positive_rate": 9.1,
+      "false_negative_rate": 0.0,
+      "impact_to_phase3": "限定的（1件のみ過大評価）"
+    }
+  }
+}

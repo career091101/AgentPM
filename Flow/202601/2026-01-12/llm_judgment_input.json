@@ -1,0 +1,75 @@
+{
+  "instruction": "以下の10件のツイートについて、AI・機械学習・データサイエンス関連かどうか、各ツイートを0-3点で評価してください。\n\n【評価基準】\n- 3点: LLM, ChatGPT, Claude, GPT, Gemini, transformer, RAG, プロンプトエンジニアリング等の明示的なAI技術キーワードが含まれる\n- 2点: OpenAI, Anthropic, DeepMind等のAI企業名が明記され、技術的な詳細がある\n- 1点: 機械学習、データサイエンス、予測モデル、自動化が主題\n- 0点: 上記いずれにも該当しない（一般ビジネス、政治、株式投資、マーケティング、エンタメ等）\n\n【重要な注意】\n- Elon Muskの政治資金援助、成功要因等の自己啓発は0点\n- 株式投資、企業の大株主情報は0点\n- YouTubeチャンネル収益化、マーケティング手法は0点\n- キーボード、ガジェット、製品紹介は0点\n- 目標達成システム、自己啓発は0点\n- 投資一般、株価見通しは0点\n- ロボット（Optimus等）のみでAI技術言及なしは1点（AI周辺技術）\n\n【回答形式】\n必ず以下のJSON配列形式で回答してください。\n[\n  {\"tweet_id\": \"ID1\", \"score\": 0, \"reason\": \"理由を20文字以内で\"},\n  {\"tweet_id\": \"ID2\", \"score\": 3, \"reason\": \"理由を20文字以内で\"},\n  ...\n]\n",
+  "tweets": [
+    {
+      "tweet_id": "2006844025702330801",
+      "username": "MAGAVoice",
+      "text": "BREAKING 🚨 Elon Musk CONFIRMS he’s going all in to fund Republicans in Midterms to help Trump\n\nTHIS IS A MASSIVE WIN FOR AMERICA\n\nTHESE BEST FRIENDS ARE BACK 🔥 https://t.co/X0GtzZngY8",
+      "rank": 1,
+      "engagement_score": 57375
+    },
+    {
+      "tweet_id": "2006794972515983522",
+      "username": "iam_smx",
+      "text": "Justine Musk, Elon Musk’s ex-wife, sharing valuable insights into Elon's success\n\nShe observed two key traits that set him apart: relentless hard work and the strategic use of the word “No.”\n\nSaying “No” is a way of protecting your time, energy, and focus so you can direct them https://t.co/zAZB9YNchz",
+      "rank": 2,
+      "engagement_score": 9455
+    },
+    {
+      "tweet_id": "2006676783991787563",
+      "username": "cb_doge",
+      "text": "\"Elon Musk is just an extraordinary engineer, and I love working with him. We're going to build many more computers together. I'm delighted to be working with him. I think the Optimus opportunity is just right around the corner. It's very likely that human robots are going to be https://t.co/jbgzCS1hl9",
+      "rank": 3,
+      "engagement_score": 7479
+    },
+    {
+      "tweet_id": "2006666568302998015",
+      "username": "prscustom24apna",
+      "text": "最新の会社四季報を読んでいて気付いたのですが、5801 古河電工の大株主にノルウェー政府が入ってきました。\n\nこれは期待できる材料だと思います😊 https://t.co/GgXEhlCBLI",
+      "rank": 4,
+      "engagement_score": 4680
+    },
+    {
+      "tweet_id": "2006606313392886251",
+      "username": "Oc4Um",
+      "text": "すぐ消します… \n「2ch風いらすとや」チャンネルで100万稼いだ人から貰ったメモがエグすぎた…\nこのままやればOKです↓ https://t.co/kcpWDVDp3l",
+      "rank": 5,
+      "engagement_score": 1826
+    },
+    {
+      "tweet_id": "2006683955190497543",
+      "username": "argos_M1111",
+      "text": "Macを買うこと自体は全然良いと思うが、なんでUS配列希望が多いんだろ？　日本語打つにもVim使うにもJISの方が良いと思うんだけどなあ",
+      "rank": 6,
+      "engagement_score": 1358
+    },
+    {
+      "tweet_id": "2006663806278152565",
+      "username": "cozeblog",
+      "text": "2026年の目標設定、\n「今年こそ頑張る」で終わらせたくない人へ。\n\nYouTubeで100万回以上再生されている\n「目標を“本当に”達成する人の設計図」\nHow to Build Systems to Actually Achieve Your Goals\nがあまりにも実践的だったので、“仕組み設計”の核心だけまとめます🧠⚙️⤵︎ https://t.co/VlhaVPF2BA",
+      "rank": 7,
+      "engagement_score": 1318
+    },
+    {
+      "tweet_id": "2006709253453783168",
+      "username": "yukimamax",
+      "text": "👁️‍🗨️ウォーレン・バフェット（バークシャー・ハサウェイ会長）\n\n✔︎下がっても値動きに耐え、愚かな売買をしないこと！\n\nQ .個人投資家はポートフォリオの一定割合は債券にすべきだ（株7:債券3とか）と言われますが、何か見落としている点は？\n\n以下バフェットの回答👇 https://t.co/ObYLN05vZu",
+      "rank": 8,
+      "engagement_score": 1143
+    },
+    {
+      "tweet_id": "2006645454810001487",
+      "username": "pirania0630",
+      "text": "今年も日経新聞から元旦恒例の主要企業経営者による日経平均株価の1年の見通しの記事が出てきた https://t.co/4npUhxEYLx",
+      "rank": 9,
+      "engagement_score": 995
+    },
+    {
+      "tweet_id": "2006763630138966389",
+      "username": "JapanTank",
+      "text": "ここ数日RAGが話題だから専門家の一員として私見を述べるけど、RAGの本質的問題は検索技術がどうのとかいうものではないのよ。経理や人事も含めた総合的問題なのよ。\n\n・情報共有インセンティブがない\nサラリーマンのオッサンが他人に情報共有を積極的にするインセンティブが皆無なことが最大の問題。",
+      "rank": 10,
+      "engagement_score": 952
+    }
+  ]
+}

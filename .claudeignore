@@ -1,0 +1,218 @@
+# .claudeignore
+# Claude Codeのコンテキストから除外するファイル/ディレクトリ
+# 必要なファイルのみオンデマンド参照（@記法）で読み込む設計
+
+# ========================================
+# 依存関係
+# ========================================
+node_modules/
+**/.venv/
+**/venv/
+**/env/
+vendor/
+**/__pycache__/
+
+# ========================================
+# ビルド成果物
+# ========================================
+dist/
+build/
+out/
+target/
+*.min.js
+*.min.css
+
+# ========================================
+# ログ・キャッシュ
+# ========================================
+*.log
+*.cache
+.pytest_cache/
+.mypy_cache/
+.tox/
+coverage/
+.coverage
+htmlcov/
+logs/
+
+# ========================================
+# データベース
+# ========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================================
+# 大容量データファイル
+# ========================================
+data/raw/
+datasets/
+*.csv
+*.json.gz
+*.parquet
+
+# ブラウザキャッシュ（422MB削減）
+**/.browser_state*
+
+# 資産運用レポート（948KB、24,449行削減）
+Stock/programs/資産運用/**/*.md
+
+# ========================================
+# メディアファイル
+# ========================================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.avi
+
+# ========================================
+# IDE設定
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Git
+# ========================================
+.git/
+.gitignore
+
+# ========================================
+# アーカイブ（完了プロジェクトは除外）
+# ========================================
+Archived/
+**/Archived/
+
+# ========================================
+# 一時ファイル・バックアップ
+# ========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+**/*.md.backup
+**/_backup/
+**/autonomous_backup/
+
+# ========================================
+# Jupyter
+# ========================================
+.ipynb_checkpoints/
+
+# ========================================
+# プロジェクト固有の除外設定
+# ========================================
+
+# Flowディレクトリ（作業中ファイル、サイズが大きい可能性）
+# ※ 特定のFlowファイルを参照する場合は明示的に指定
+Flow/*/
+
+# Claude Code内部ファイル
+.claude/plans/
+
+# ========================================
+# レポートファイル（自動生成）
+# ========================================
+*_report.md
+*_integration_report.md
+*_SUMMARY.md
+*_COMPLETION*.md
+quality_score.json
+ui_verification_report.md
+
+# 自動生成ファイル
+*_YYYYMMDD_HHMMSS.log
+session_info.txt
+
+# ========================================
+# ドキュメント（オンデマンド参照）
+# ========================================
+# 実装ガイド（4,847行、36KTokens削減）
+docs/implementation_guides/
+
+# Week実装リファレンス（290行削減）
+.claude/rules/WEEK_IMPLEMENTATIONS.md
+
+# ルールファイル（必要時のみ@記法で参照）
+.claude/rules/context_management.md
+.claude/rules/execution_preference.md
+.claude/rules/parallel_execution.md
+.claude/rules/review_loop.md
+.claude/rules/path_conventions.md
+.claude/rules/ui_testing.md
+
+# PMBOKルール（スタブファイル、外部参照のみ）
+.claude/rules/pmbok_*.md
+.claude/rules/development.md
+.claude/rules/flow_assist.md
+.claude/rules/rule_maintenance.md
+.claude/rules/task_management.md
+
+# バックアップルール
+.claude/rules/_archived/**
+.claude/rules/_backup/**
+
+# ========================================
+# スキル最適化（コンテキスト節約）
+# ========================================
+# 使用頻度の低い特化スキルを除外
+# 必要時のみコメントアウトを解除
+
+# トレーディング系スキル（18個、約3-4k tokens）
+.claude/skills/agent-backtest-validator/
+.claude/skills/agent-bear-researcher/
+.claude/skills/agent-bull-researcher/
+.claude/skills/agent-data-collector/
+.claude/skills/agent-elliott-wave-analyst/
+.claude/skills/agent-fund-manager/
+.claude/skills/agent-fundamentals-analyst/
+.claude/skills/agent-market-analyst/
+.claude/skills/agent-neutral-portfolio/
+.claude/skills/agent-news-analyst/
+.claude/skills/agent-research-manager/
+.claude/skills/agent-risk-manager/
+.claude/skills/agent-risky-portfolio/
+.claude/skills/agent-safe-portfolio/
+.claude/skills/agent-sentiment-analyst/
+.claude/skills/agent-strategy-synthesizer/
+.claude/skills/agent-technical-analyst/
+.claude/skills/agent-trader/
+.claude/skills/trading-phase1-analysts/
+.claude/skills/trading-phase2-research/
+.claude/skills/trading-phase3-risk/
+.claude/skills/trading-phase4-execution/
+.claude/skills/orchestrate-trading-strategy/
+
+# ForSolo特化スキル（428KB、約1.5k tokens）
+.claude/skills/for_solo/
+
+# ForGenAI特化スキル（4.3MB、約14.8k tokens）
+.claude/skills/for_genai/
+
+# ForRecruit特化スキル（824KB、約2.8k tokens）
+.claude/skills/for_recruit/
+
+# ForStartup特化スキル（2.6MB、約9.0k tokens）
+.claude/skills/for_startup/
+
+# 使用頻度の低いコマンド
+.claude/commands/merriman-weekly-outlook.md
+
+# ========================================
+# 生成AI活用事例DB - 大容量ファイル除外
+# ========================================
+# 846個の詳細事例ファイル（約6.4MB）をコンテキストから除外
+# サマリーファイル（overview.md, quantitative_impacts.md等）は参照可能
+Stock/programs/生成AI活用事例DB/documents/2_research/guga_analysis/detailed_cases/
+
+# バックアップディレクトリ（自動生成）
+Stock/programs/生成AI活用事例DB.backup.*/
+Flow/202601/2026-01-07.backup.*/

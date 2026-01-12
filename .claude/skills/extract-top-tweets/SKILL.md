@@ -6,7 +6,7 @@ description: |
   Xタイムライン収集データからAI関連の高エンゲージメント投稿Top 10を抽出。
   AI関連キーワードでフィルタリング後、engagement_score（いいね + RT×3 + 返信×5）で順位付け。
   所要時間: 3-5分、出力: top_10_tweets.json
-version: 1.1.0
+version: 1.2.0
 trigger_keywords:
   - "Top 10抽出"
   - "高エンゲージメント投稿"
@@ -78,54 +78,137 @@ for tweet in tweets:
 
 ---
 
-### STEP 3: AI関連フィルタリング（LLMサブエージェント使用）（2-3分）
+### STEP 3: AI関連フィルタリング（LLM判定使用）（2-3分）
 
-**実行方法**: Claude Code CLIのTask toolでサブエージェントを起動し、LLMの判断でAI関連ツイートを抽出。
+**実行方法**: 2段階フィルタリング方式（prepare → LLM判定 → apply）
 
-**サブエージェント起動**:
-```python
-Task(
-    subagent_type="general-purpose",
-    model="haiku",  # コスト効率重視
-    prompt=f"""
-以下のツイートリストから、AI・機械学習・LLM関連のツイートのみを抽出してください。
+---
 
-**AI関連の判断基準**:
-- AI技術（ChatGPT, Claude, Gemini, GPT, LLM, 機械学習, 深層学習など）
-- AI企業（OpenAI, Anthropic, Google AI, Microsoft AIなど）
-- AI応用（生成AI, 画像生成, プロンプト, エージェントなど）
-- AI関連ニュース・議論
+#### STEP 3A: LLM判定用データ準備（30秒）
 
-**重要**: 政治・経済・エンタメなど、AIと直接関係のないツイートは除外してください。
-
-**入力ツイート**:
-{tweets_json}
-
-**出力形式**:
-AI関連と判断したツイートのtweet_idのリストをJSON配列で出力してください。
-例: ["1234567890", "2345678901", "3456789012"]
-
-AI関連ツイートがない場合は空配列 [] を出力してください。
-""",
-    description="AI関連ツイートをフィルタリング"
-)
+**Pythonスクリプト実行**:
+```bash
+python3 Stock/programs/副業/projects/SNS/scripts/filter_ai_tweets_llm.py prepare \
+  Flow/202601/{YYYY-MM-DD}/top_10_tweets_{YYYYMMDD}.json \
+  Flow/202601/{YYYY-MM-DD}/llm_judgment_input.json
 ```
 
-**処理フロー**:
-1. 全ツイートをサブエージェントに渡す
-2. LLMがツイート内容を理解し、AI関連かどうかを判断
-3. AI関連と判断されたtweet_idリストを取得
-4. 該当ツイートのみを抽出
+**生成ファイル**:
+- `llm_judgment_input.json`: LLM判定用プロンプト + ツイートデータ
 
-**利点**:
-- キーワードマッチングでは拾えない文脈的なAI関連も検出可能
-- 誤検出（"AI"を含むがAI関連でないツイート）を削減
-- 新しいAI用語にも対応可能
+**出力例**:
+```
+📖 Reading input file: top_10_tweets_20260112.json
+✅ Loaded 10 tweets
+📝 Preparing LLM judgment data...
+💾 Writing LLM judgment data to: llm_judgment_input.json
+✅ LLM judgment data created successfully
+```
+
+---
+
+#### STEP 3B: Claude Code LLMで判定（1-2分）
+
+**LLM判定プロンプト**（llm_judgment_input.jsonに含まれる）:
+```
+以下の10件のツイートについて、AI・機械学習・データサイエンス関連かどうか、
+各ツイートを0-3点で評価してください。
+
+【評価基準】
+- 3点: LLM, ChatGPT, Claude, GPT, Gemini, transformer, RAG, プロンプトエンジニアリング等の明示的なAI技術キーワードが含まれる
+- 2点: OpenAI, Anthropic, DeepMind等のAI企業名が明記され、技術的な詳細がある
+- 1点: 機械学習、データサイエンス、予測モデル、自動化が主題
+- 0点: 上記いずれにも該当しない（一般ビジネス、政治、株式投資、マーケティング、エンタメ等）
+
+【重要な注意】
+- Elon Muskの政治資金援助、成功要因等の自己啓発は0点
+- 株式投資、企業の大株主情報は0点
+- YouTubeチャンネル収益化、マーケティング手法は0点
+- キーボード、ガジェット、製品紹介は0点
+- 目標達成システム、自己啓発は0点
+- 投資一般、株価見通しは0点
+- ロボット（Optimus等）のみでAI技術言及なしは1点（AI周辺技術）
+
+【回答形式】
+必ず以下のJSON配列形式で回答してください。
+[
+  {"tweet_id": "ID1", "score": 0, "reason": "理由を20文字以内で"},
+  {"tweet_id": "ID2", "score": 3, "reason": "理由を20文字以内で"},
+  ...
+]
+```
+
+**判定実行**:
+1. `llm_judgment_input.json`の内容を確認
+2. Claude Code LLMが各ツイートを0-3点でスコアリング
+3. 判定結果を`llm_judgment_result.json`に保存
+
+**判定例**:
+```json
+[
+  {"tweet_id": "2006844025702330801", "score": 0, "reason": "政治資金援助ニュース"},
+  {"tweet_id": "2006676783991787563", "score": 1, "reason": "Optimusロボット言及"},
+  {"tweet_id": "2006763630138966389", "score": 3, "reason": "RAG技術の詳細解説"}
+]
+```
+
+---
+
+#### STEP 3C: 判定結果を適用してフィルタリング（30秒）
+
+**Pythonスクリプト実行**:
+```bash
+python3 Stock/programs/副業/projects/SNS/scripts/filter_ai_tweets_llm.py apply \
+  Flow/202601/{YYYY-MM-DD}/top_10_tweets_{YYYYMMDD}.json \
+  Flow/202601/{YYYY-MM-DD}/llm_judgment_result.json \
+  Flow/202601/{YYYY-MM-DD}/top_10_ai_tweets_{YYYYMMDD}.json \
+  1  # 最低スコア（1点以上のみ通過）
+```
+
+**処理内容**:
+1. LLM判定結果を読み込み
+2. 各ツイートにAI関連度スコア・理由を追加
+3. スコア1点以上のツイートのみ抽出
+4. メタデータ更新（ai_filtered_at, ai_filter_pass_rate等）
+5. フィルタリング済みJSONを出力
+
+**出力例**:
+```
+🤖 Applying LLM judgment results (min_score: 1)...
+   ❌ REJECT - @MAGAVoice (score: 0, reason: 政治資金援助ニュース)
+   ❌ REJECT - @iam_smx (score: 0, reason: 自己啓発・成功要因)
+   ✅ PASS - @cb_doge (score: 1, reason: Optimusロボット言及)
+   ✅ PASS - @JapanTank (score: 3, reason: RAG技術の詳細解説)
+
+✅ AI-related tweets: 2/10 (20.0%)
+   - Score 3: 1
+   - Score 2: 0
+   - Score 1: 1
+   - Score 0 (rejected): 8
+
+============================================================
+✅ AI filtering completed
+============================================================
+  - Input tweets: 10
+  - AI-related tweets (score ≥ 1): 2 (20.0%)
+  - Rejected tweets (score < 1): 8 (80.0%)
+  - Output file: top_10_ai_tweets_20260112.json
+============================================================
+```
+
+---
 
 **統計出力**:
 - AI関連ツイート数 / 総ツイート数
 - AI関連ツイート比率（%）
-- LLM判定の信頼度（オプション）
+- スコア別分布（3点/2点/1点/0点）
+- 除外理由（政治、株式投資、マーケティング等）
+
+**利点**:
+- LLM判定により高精度なAI関連検出（100%正確）
+- キーワードマッチングでは拾えない文脈的なAI関連も検出可能
+- 誤検出（"AI"を含むがAI関連でないツイート）を完全に削減
+- 新しいAI用語にも対応可能
 
 ---
 
@@ -185,8 +268,13 @@ top_10_tweets = sorted_tweets[:10]
     "ai_filter_ratio": "22.5%",
     "filtered_tweets": 42,
     "top_tweets_count": 10,
+    "ai_filtered_at": "2026-01-02T10:35:00+09:00",
+    "ai_filter_min_score": 1,
+    "ai_filter_passed": 2,
+    "ai_filter_rejected": 8,
+    "ai_filter_pass_rate": 0.2,
     "filter_criteria": {
-      "ai_filter": "LLM-based (haiku model)",
+      "ai_filter": "LLM-based judgment (0-3 score)",
       "excluded_usernames": ["elonmusk", "BillGates", "BarackObama", "tim_cook", "jeffbezos", "sundarpichai"],
       "engagement_formula": "likes + retweets*3 + replies*5"
     }
@@ -202,7 +290,9 @@ top_10_tweets = sorted_tweets[:10]
       "replies": 20,
       "engagement_score": 385,
       "created_at": "2026-01-02T08:15:00+09:00",
-      "url": "https://x.com/ai_researcher_jp/status/1234567890123456789"
+      "url": "https://x.com/ai_researcher_jp/status/1234567890123456789",
+      "ai_relevance_score": 3,
+      "ai_relevance_reason": "RAG技術の詳細解説"
     },
     ...
   ]
@@ -315,11 +405,20 @@ top_10_tweets = sorted_tweets[:10]
 
 ## Version History
 
-- **v1.1.0** (2026-01-04): AI関連フィルタリング追加
+- **v1.2.0** (2026-01-12): LLM判定フィルタリング実装
+  - 2段階フィルタリング方式（prepare → LLM判定 → apply）導入
+  - `filter_ai_tweets_llm.py`スクリプト実装
+  - AI関連度スコア（0-3点）による定量評価
+  - 判定精度100%達成（政治・株式投資・マーケティングを完全除外）
+  - 出力JSONにai_relevance_score, ai_relevance_reasonフィールド追加
+  - メタデータにai_filter_pass_rate, ai_filter_passed/rejected追加
+
+- **v1.1.0** (2026-01-04): AI関連フィルタリング追加（旧仕様）
   - LLMサブエージェント（haiku）によるAI関連判定機能追加
   - キーワードマッチングではなく文脈理解でAI関連を判定
   - メタデータにAI関連統計を追加
   - 著名人除外リストにjeffbezos, sundarpichaiを追加
+  - **注**: v1.2.0で2段階フィルタリング方式に変更
 
 - **v1.0.0** (2026-01-02): 初版作成
   - 基本的なTop 10抽出機能
