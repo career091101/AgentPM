@@ -1,0 +1,3 @@
+#!/bin/bash
+export OPENAI_API_KEY='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'
+python -u youtube_transcriber_whisper.py

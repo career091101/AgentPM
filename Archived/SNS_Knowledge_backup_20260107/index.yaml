@@ -1,0 +1,373 @@
+---
+metadata:
+  created: 2025-12-30
+  version: 1.0
+  description: "SNS platform knowledge base index - comprehensive coverage of 5 major platforms"
+  total_platforms: 5
+  status: "initial_build"
+  confidence_level: "medium"
+
+platforms:
+  X:
+    path: ./X/
+    files:
+      - algorithm.md
+      - best_practices.md
+    coverage_status: "comprehensive"
+    total_sources: 123
+    breakdown:
+      algorithm: 28
+      best_practices: 35
+      monetization: 18
+      success_cases: 42
+    evidence_base:
+      tier1_cases: 15
+      high_confidence: 98
+      medium_confidence: 25
+    key_metrics:
+      engagement_rate_benchmark:
+        - name: "Kunal Shah"
+          er: 5.2
+          strategy: "Low-frequency, high-quality (2 posts/day)"
+        - name: "Pieter Levels"
+          er: 2.5
+          strategy: "Build in Public (5-15 posts/day)"
+        - name: "Marc Lou"
+          er: 2.5
+          strategy: "Viral video (15-20 posts/week)"
+    key_concepts:
+      - Build in Public
+      - Engagement Rate
+      - Viral Content
+      - Algorithm Optimization
+    last_updated: 2025-12-30
+    overall_score: 85
+
+  LinkedIn:
+    path: ./LinkedIn/
+    files:
+      - algorithm.md
+    coverage_status: "basic"
+    total_sources: 41
+    breakdown:
+      algorithm: 8
+      best_practices: 12
+      monetization: 6
+      success_cases: 15
+    evidence_base:
+      tier1_cases: 5
+      high_confidence: 35
+      medium_confidence: 6
+    key_metrics:
+      recommended_frequency: "3-5 posts/week"
+      optimal_content_length: "1200-2000 characters"
+      content_types:
+        - long_form_text: "★★★★★"
+        - carousel: "★★★★☆ (estimated)"
+        - pdf: "★★★★☆ (estimated)"
+    key_concepts:
+      - Thought Leadership
+      - Long-Form Content
+      - B2B Strategy
+      - Professional Networking
+    last_updated: 2025-12-30
+    overall_score: 65
+
+  Note:
+    path: ./Note/
+    files:
+      - algorithm.md
+    coverage_status: "intermediate"
+    total_sources: 36
+    breakdown:
+      algorithm: 6
+      best_practices: 10
+      monetization: 8
+      success_cases: 12
+    evidence_base:
+      tier1_cases: 8
+      high_confidence: 30
+      medium_confidence: 6
+    key_metrics:
+      recommended_frequency: "2-3 articles/week (estimated)"
+      optimal_content_length: "2000-5000 characters"
+      monetization:
+        paid_note_price_range: "500-2000 JPY/article"
+        creator_support: "100+ JPY (tip system)"
+    key_concepts:
+      - Long-Form Articles
+      - Paid Note
+      - Creator Support
+      - Cross-Platform Strategy
+      - Japan Market
+    japan_market_fit: "extremely_high"
+    last_updated: 2025-12-30
+    overall_score: 70
+
+  Instagram:
+    path: ./Instagram/
+    files:
+      - algorithm.md
+    coverage_status: "intermediate"
+    total_sources: 62
+    breakdown:
+      algorithm: 12
+      best_practices: 18
+      monetization: 10
+      success_cases: 22
+    evidence_base:
+      tier1_cases: 10
+      high_confidence: 48
+      medium_confidence: 14
+    key_metrics:
+      engagement_rate_benchmark:
+        - name: "Desmond"
+          er: 6.0
+          strategy: "Reels + Typos Hack"
+          revenue: "$2M ARR (habit app)"
+      recommended_frequency: "3 posts/day (Feed+Reels+Stories)"
+      optimal_video_length: "15-60 seconds"
+    key_concepts:
+      - Reels
+      - Typos Hack
+      - Visual Impact
+      - DM Funnel
+      - Engagement Rate
+    last_updated: 2025-12-30
+    overall_score: 75
+
+  Facebook:
+    path: ./Facebook/
+    files: []
+    coverage_status: "minimal"
+    total_sources: 24
+    breakdown:
+      algorithm: 4
+      best_practices: 8
+      monetization: 4
+      success_cases: 8
+    evidence_base:
+      tier1_cases: 2
+      high_confidence: 18
+      medium_confidence: 6
+    key_concepts:
+      - Community Groups
+      - UGC Strategy
+      - Lead Generation
+    japan_market_fit: "low"
+    priority: "low"
+    last_updated: 2025-12-30
+    overall_score: 50
+
+source_references:
+  primary_dataset:
+    name: "Solopreneur_Research SNS Analysis"
+    base_path: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Solopreneur_Research/documents/03_SNS/"
+    total_sources: 425
+    detailed_reports: 129
+    extraction_date: 2025-12-30
+
+  secondary_sources:
+    - path: "/Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-30/classified_by_platform.md"
+      sections: ["Platform-specific classification"]
+      extraction_date: 2025-12-30
+
+quality_metrics:
+  overall_confidence: "medium"
+  verification_status: "unverified"
+  fact_checking_required: true
+  data_recency: "2023-2024 (some 2025 updates needed)"
+
+platform_comparison:
+  engagement_rate_ranking:
+    1: "Instagram (Desmond 6.0%)"
+    2: "X (Kunal Shah 5.2%)"
+    3: "X (Manoj Ahirwar 4.0%)"
+
+  japan_market_fit_ranking:
+    1: "Note (extremely_high)"
+    2: "X (high)"
+    3: "Instagram (high)"
+    4: "LinkedIn (medium-high)"
+    5: "Facebook (low)"
+
+known_gaps:
+  platforms_not_covered:
+    - TikTok
+    - YouTube
+
+  critical_priority_gaps:
+    X:
+      - "2024-2025 algorithm updates (For You tab ranking changes)"
+      - "Shadowban detection and removal methods"
+      - "Engagement metric weights (likes vs replies vs retweets)"
+      - "Thread optimization (optimal tweet count)"
+      - "Video content effects (native vs embedded)"
+
+    LinkedIn:
+      - "Algorithm ranking factors details"
+      - "Optimal posting time (Japan B2B market)"
+      - "Engagement metric weights (likes vs comments vs shares)"
+      - "Comment strategy (engaging with others' posts)"
+      - "Carousel/PDF post effectiveness"
+
+    Instagram:
+      - "Algorithm priority by post type (Reels vs Feed vs Stories)"
+      - "Stories optimization strategy"
+      - "Hashtag strategy 2024 (effective count)"
+      - "Reels music selection impact"
+      - "Carousel post optimization (optimal image count)"
+
+    Note:
+      - "Algorithm details (recommendation criteria)"
+      - "SEO optimization (Google search traffic)"
+      - "Optimal posting frequency"
+      - "Article structure optimization"
+      - "Paid vs free note ratio strategy"
+
+    Facebook:
+      - "Japan market effectiveness assessment"
+      - "Newsfeed algorithm details"
+      - "Facebook ads detailed ROI"
+
+  high_priority_gaps:
+    X:
+      - "Profile optimization techniques"
+      - "Hashtag strategy (current effectiveness)"
+      - "Optimal posting time (JST)"
+
+    LinkedIn:
+      - "Hashtag strategy"
+      - "LinkedIn video effectiveness"
+      - "Japan market success cases"
+
+    Instagram:
+      - "Collaboration posts (Collab feature)"
+      - "Instagram Shopping feature"
+      - "Insights analysis methods"
+
+    Note:
+      - "Magazine feature utilization"
+      - "Premium membership effects"
+      - "Hashtag strategy"
+
+future_expansion:
+  next_tasks:
+    - id: "T001"
+      title: "Critical Gap Resolution (Week 1)"
+      platforms: ["Instagram", "LinkedIn", "X", "Note"]
+      method: "WebSearch + A/B Testing"
+      estimated_hours: 9
+
+    - id: "T002"
+      title: "Short-term Experiments (Week 2-4)"
+      platforms: ["Instagram", "LinkedIn", "X", "Note"]
+      method: "A/B Testing + Interviews"
+      estimated_hours: 20
+
+    - id: "T003"
+      title: "Mid-term Research (Month 2-3)"
+      platforms: ["Instagram", "LinkedIn", "X", "Note"]
+      method: "Long-term experiments + Success case analysis"
+      estimated_hours: 15
+
+    - id: "T004"
+      title: "Case Studies Collection"
+      description: "Add case_studies/ folders for each platform"
+      priority: "medium"
+
+    - id: "T005"
+      title: "Platform Expansion"
+      description: "Add TikTok and YouTube coverage"
+      priority: "low"
+
+    - id: "T006"
+      title: "Algorithm Updates Monitoring"
+      description: "Quarterly review of algorithm changes"
+      priority: "high"
+
+    - id: "T007"
+      title: "Fact-checking and Verification"
+      description: "Verify all medium-confidence information"
+      priority: "high"
+
+research_roi:
+  Instagram:
+    investment_hours: 20
+    expected_effect: "ER +2-3%, Follower growth +30%"
+    roi_rating: "★★★★★"
+
+  LinkedIn:
+    investment_hours: 15
+    expected_effect: "B2B leads +50%, Follower growth +40%"
+    roi_rating: "★★★★☆"
+
+  X:
+    investment_hours: 10
+    expected_effect: "ER +1-2%, Viral probability +20%"
+    roi_rating: "★★★★☆"
+
+  Note:
+    investment_hours: 12
+    expected_effect: "Paid note sales +30%, SEO traffic +50%"
+    roi_rating: "★★★★☆"
+
+  Facebook:
+    investment_hours: 3
+    expected_effect: "Japan market viability assessment only"
+    roi_rating: "★★☆☆☆"
+
+total_investment_estimate:
+  phase1_hours: 9
+  phase2_hours: 20
+  phase3_hours: 15
+  total_hours: 44
+  duration: "3 months"
+
+completeness_status:
+  overall: "70%"
+  by_platform:
+    X: "85%"
+    Instagram: "75%"
+    Note: "70%"
+    LinkedIn: "65%"
+    Facebook: "50%"
+
+recommended_priority_order:
+  1:
+    platform: "Instagram"
+    reason: "High Japan usage, Reels strategy strong but details missing"
+    score: "★★★★★"
+
+  2:
+    platform: "LinkedIn"
+    reason: "Expanding B2B market, few Japan case studies"
+    score: "★★★★☆"
+
+  3:
+    platform: "X"
+    reason: "Foundation solid, latest algorithm info needed"
+    score: "★★★☆☆"
+
+  4:
+    platform: "Note"
+    reason: "Japan-exclusive, algorithm opaque"
+    score: "★★★☆☆"
+
+  5:
+    platform: "Facebook"
+    reason: "Low priority in Japan market"
+    score: "★☆☆☆☆"
+
+notes:
+  - "All engagement rates and metrics are based on unverified practitioner data"
+  - "Algorithm specifications are estimates based on user experiences"
+  - "Japan market adaptation patterns require cultural considerations"
+  - "Regular quarterly updates recommended for algorithm changes"
+  - "Fact-checking priority: Critical gaps > High priority gaps > Medium priority gaps"
+
+version_history:
+  - version: "1.0"
+    date: "2025-12-30"
+    changes: "Initial build - integrated all platform YAML front matter and gap analysis"
+    author: "Claude Code Agent"

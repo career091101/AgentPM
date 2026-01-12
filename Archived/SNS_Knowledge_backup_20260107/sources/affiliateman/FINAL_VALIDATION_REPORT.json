@@ -1,0 +1,24 @@
+{
+  "completeness": {
+    "total_videos": 50,
+    "transcribed": 44,
+    "missing": 6,
+    "completion_rate": "88.0%"
+  },
+  "quality": {
+    "total_chars": 702732,
+    "japanese_chars": 582606,
+    "issues_count": 0,
+    "issues": []
+  },
+  "metadata": {
+    "issues_count": 0,
+    "issues": []
+  },
+  "chunks": {
+    "total": 708,
+    "blog": 316,
+    "video": 392,
+    "invalid": 0
+  }
+}

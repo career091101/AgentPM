@@ -1,0 +1,357 @@
+{
+  "extraction_date": "2025-12-28",
+  "extraction_method": "Claude in Chrome - read_page API",
+  "total_videos": 52,
+  "categories": {
+    "twitter_strategy": [
+      {
+        "title": "Xフォロワーを伸ばす解説動画",
+        "url": "https://www.youtube.com/watch?v=22V9cvHftks&t=1144s",
+        "ref": "ref_98"
+      },
+      {
+        "title": "X神機能を使ったら3000人増えました！",
+        "url": "https://www.youtube.com/watch?v=CC6hZOaUKNA&t=903s",
+        "ref": "ref_110"
+      },
+      {
+        "title": "Xで30日で月15万円稼ぐ方法大公開",
+        "url": "https://www.youtube.com/watch?v=t7RaGkJJSRU&t=2279s",
+        "ref": "ref_116"
+      },
+      {
+        "title": "2025年最新版Xで毎月複数アカで300~800万円稼ぐ裏側公開",
+        "url": "https://youtu.be/Q2kuqnzSFjg",
+        "ref": "ref_117"
+      }
+    ],
+    "monetization_marketing": [
+      {
+        "title": "アフィリエイトの最強の探し方",
+        "url": "https://www.youtube.com/watch?v=uDtpCJ83X-E",
+        "ref": "ref_138"
+      },
+      {
+        "title": "SNSで売上があがるマネタイズ戦略",
+        "url": "https://youtu.be/Cxx5tHSf54o",
+        "ref": "ref_155"
+      },
+      {
+        "title": "稼げるジャンルの参入方法と選定理解",
+        "url": "https://www.youtube.com/watch?v=8Lhh0YxAn2Y",
+        "ref": "ref_156"
+      },
+      {
+        "title": "熱狂的なファンを作るファンマーケ",
+        "url": "https://youtu.be/eeoy2Ve4Lzg",
+        "ref": "ref_157"
+      },
+      {
+        "title": "SNSで商品を売るための教育の知識",
+        "url": "https://www.youtube.com/watch?v=7VFVcYvia5M",
+        "ref": "ref_158"
+      }
+    ],
+    "instagram_strategy": [
+      {
+        "title": "インスタ永久的に売上を作る動線設計",
+        "url": "https://youtu.be/H8UV1NYyFw8",
+        "ref": "ref_162"
+      },
+      {
+        "title": "長期的に売上を上げるインスタ戦略",
+        "url": "https://youtu.be/IoZWIFHQI6A",
+        "ref": "ref_163"
+      },
+      {
+        "title": "一撃1000万円ライブローンチ",
+        "url": "https://youtu.be/qPfX5P5KBlQ",
+        "ref": "ref_165"
+      },
+      {
+        "title": "SNSで使えるセールス施策6選",
+        "url": "https://youtu.be/umrwnS_4G0M",
+        "ref": "ref_166"
+      },
+      {
+        "title": "インスタの伸びる投稿作り方 リサーチ編",
+        "url": "https://www.youtube.com/watch?v=oJIzcfCIgIA",
+        "ref": "ref_168"
+      },
+      {
+        "title": "2023年最新版インスタフォロワーの伸ばし方攻略",
+        "url": "https://www.youtube.com/watch?v=AKYWUZqu2tY",
+        "ref": "ref_170"
+      },
+      {
+        "title": "インスタマネタイズ最新2025年",
+        "url": "https://www.loom.com/share/d0bce25956c3487e8e8c5fe73d4d12a3?sid=fe4d98be-8c0e-42a7-a000-7bbbcf49e9ed",
+        "ref": "ref_171",
+        "note": "Loom動画"
+      }
+    ],
+    "twitter_monetization": [
+      {
+        "title": "月1000万円稼いだマネタイズ設計",
+        "url": "https://www.youtube.com/watch?v=4fVAjyOkSKk",
+        "ref": "ref_174"
+      },
+      {
+        "title": "マネタイズ完全攻略/Twitter/SNSで使える教育の仕方",
+        "url": "https://youtu.be/7VFVcYvia5M?si=yKePA6cnDCc7LkQw",
+        "ref": "ref_175"
+      }
+    ],
+    "tiktok_strategy": [
+      {
+        "title": "TIKTOKでバズる投稿の作り方とファン化",
+        "url": "https://www.youtube.com/watch?v=hJt-btXJ8cE",
+        "ref": "ref_178"
+      },
+      {
+        "title": "徹底解説！TIKTOKのバズる動画の作り方",
+        "url": "https://www.youtube.com/watch?v=tHN-bcyTm4o",
+        "ref": "ref_179"
+      },
+      {
+        "title": "TIKTOKマネタイズ完全攻略",
+        "url": "https://www.youtube.com/watch?v=Nm0DmzH5tnQ",
+        "ref": "ref_180"
+      }
+    ],
+    "interview_videos": [
+      {
+        "title": "YouTube切り抜き対談 - 詳細はこちら",
+        "url": "https://www.youtube.com/watch?v=QIteSBWdIc4",
+        "ref": "ref_193",
+        "category": "YouTube切り抜き/ショート月300万稼ぐ"
+      },
+      {
+        "title": "SNS×アダルトで累計2000万円稼いだ秘訣",
+        "url": "https://youtu.be/wi8IKBFC-ik",
+        "ref": "ref_196"
+      },
+      {
+        "title": "インスタ×コンテンツ販売で16億円",
+        "url": "https://youtu.be/ZnCPAeLpYXc",
+        "ref": "ref_199"
+      },
+      {
+        "title": "恋愛ジャンルで月100マン稼ぐ方法",
+        "url": "https://affiliateman.site/con_love/",
+        "ref": "ref_204",
+        "note": "サイト内ページ"
+      },
+      {
+        "title": "ニッチなジャンルで稼ぐ方法(対談)",
+        "url": "https://affiliateman.site/talk_nao/",
+        "ref": "ref_209",
+        "note": "サイト内ページ"
+      },
+      {
+        "title": "神奈川のグルメアカでPR毎月100万円稼ぐ方法",
+        "url": "https://affiliateman.site/kanagawagurume/",
+        "ref": "ref_214",
+        "note": "サイト内ページ"
+      },
+      {
+        "title": "少ないフォロワーで月100万稼ぐ方法",
+        "url": "https://affiliateman.site/con_twitter/",
+        "ref": "ref_219",
+        "note": "サイト内ページ"
+      },
+      {
+        "title": "noteで稼ぐ方法(恋愛)",
+        "url": "https://affiliateman.site/note_ryu/",
+        "ref": "ref_224",
+        "note": "サイト内ページ"
+      },
+      {
+        "title": "一歩さんとの対談動画(恋愛占い)",
+        "url": "https://www.youtube.com/watch?v=ges343bCmmk",
+        "ref": "ref_229"
+      },
+      {
+        "title": "たくとさん対談 - 詳細はこちら",
+        "url": "https://www.youtube.com/watch?v=g3ur-44nMrQ",
+        "ref": "ref_250"
+      },
+      {
+        "title": "SNSマネタイズ攻略/コンサル - 詳細はこちら",
+        "url": "https://youtu.be/Tk2RqAQ-Blw",
+        "ref": "ref_266"
+      },
+      {
+        "title": "インスタマネタイズ攻略 - 詳細はこちら",
+        "url": "https://youtu.be/7-aFs839XLg",
+        "ref": "ref_278"
+      },
+      {
+        "title": "インスタ×コンテンツ販売 - 詳細はこちら",
+        "url": "https://youtu.be/ZnCPAeLpYXc",
+        "ref": "ref_286"
+      },
+      {
+        "title": "対談動画一覧はこちら",
+        "url": "https://www.youtube.com/watch?v=QWP5cep1rIA&list=PLebcV2IYhq2jPYQ8RpO99AdYHqF8Bgvd7",
+        "ref": "ref_287",
+        "note": "YouTubeプレイリスト"
+      }
+    ],
+    "zoom_consultations": [
+      {
+        "title": "3月のスペース - 詳細はこちら",
+        "url": "https://youtu.be/EifkWh4Pbw8",
+        "ref": "ref_304"
+      },
+      {
+        "title": "8月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=gZQ_ynYW-Ao",
+        "ref": "ref_307"
+      },
+      {
+        "title": "9月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=FbvmCNSOGIs&list=PLebcV2IYhq2iGaE-RYT2U00w9sCi3RfIY&index=2",
+        "ref": "ref_311"
+      },
+      {
+        "title": "10月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=EETbSO_mtaU&list=PLebcV2IYhq2iGaE-RYT2U00w9sCi3RfIY",
+        "ref": "ref_321"
+      },
+      {
+        "title": "11月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=IxaIpmPXROs",
+        "ref": "ref_330"
+      },
+      {
+        "title": "12月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=41TRGDhWyWk",
+        "ref": "ref_342"
+      },
+      {
+        "title": "1月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=rQlQpSUpK9Q",
+        "ref": "ref_353"
+      },
+      {
+        "title": "2月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=UJw-d0vOMHw",
+        "ref": "ref_372"
+      },
+      {
+        "title": "3月ZOOMコンサル",
+        "url": "https://youtu.be/7OavcPIOM3w",
+        "ref": "ref_385"
+      },
+      {
+        "title": "4月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=ga-aPYaU_RU",
+        "ref": "ref_400"
+      },
+      {
+        "title": "5月ZOOMコンサル",
+        "url": "https://www.youtube.com/watch?v=0bFmcFw2ZmQ",
+        "ref": "ref_412"
+      },
+      {
+        "title": "6月ZOOMコンサル",
+        "url": "https://youtu.be/QzDHpcgB9rA",
+        "ref": "ref_426"
+      },
+      {
+        "title": "7月ZOOMコンサル",
+        "url": "https://youtu.be/ucXvTChsZ3Q",
+        "ref": "ref_452"
+      },
+      {
+        "title": "8月ZOOMコンサル（2回目）",
+        "url": "https://www.youtube.com/watch?v=qm21QQ5EP1g",
+        "ref": "ref_466"
+      },
+      {
+        "title": "9月ZOOMコンサル（2回目）",
+        "url": "https://youtu.be/Eve641U4QXs",
+        "ref": "ref_469"
+      }
+    ],
+    "playlists": [
+      {
+        "title": "動画一覧はこちら（ガチやばい動画教材）",
+        "url": "https://www.youtube.com/watch?v=8Lhh0YxAn2Y&list=PLebcV2IYhq2hBFpmTKpP1sEESHAol_mf6",
+        "ref": "ref_151",
+        "type": "playlist"
+      },
+      {
+        "title": "対談動画一覧はこちら",
+        "url": "https://www.youtube.com/watch?v=QWP5cep1rIA&list=PLebcV2IYhq2jPYQ8RpO99AdYHqF8Bgvd7",
+        "ref": "ref_287",
+        "type": "playlist"
+      }
+    ],
+    "other_platforms": [
+      {
+        "title": "インスタマネタイズ最新2025年",
+        "url": "https://www.loom.com/share/d0bce25956c3487e8e8c5fe73d4d12a3?sid=fe4d98be-8c0e-42a7-a000-7bbbcf49e9ed",
+        "ref": "ref_171",
+        "platform": "Loom"
+      }
+    ]
+  },
+  "summary": {
+    "twitter_strategy": 4,
+    "monetization_marketing": 5,
+    "instagram_strategy": 7,
+    "twitter_monetization": 2,
+    "tiktok_strategy": 3,
+    "interview_videos": 14,
+    "zoom_consultations": 15,
+    "playlists": 2,
+    "other_platforms": 1,
+    "total": 52
+  },
+  "previously_blocked_urls_now_retrieved": [
+    {
+      "title": "Xフォロワーを伸ばす解説動画",
+      "url": "https://www.youtube.com/watch?v=22V9cvHftks&t=1144s",
+      "status": "✅ 取得成功"
+    },
+    {
+      "title": "X神機能を使ったら3000人増えました！",
+      "url": "https://www.youtube.com/watch?v=CC6hZOaUKNA&t=903s",
+      "status": "✅ 取得成功"
+    },
+    {
+      "title": "Xで30日で月15万円稼ぐ方法大公開",
+      "url": "https://www.youtube.com/watch?v=t7RaGkJJSRU&t=2279s",
+      "status": "✅ 取得成功"
+    },
+    {
+      "title": "動画一覧はこちら",
+      "url": "https://www.youtube.com/watch?v=8Lhh0YxAn2Y&list=PLebcV2IYhq2hBFpmTKpP1sEESHAol_mf6",
+      "status": "✅ 取得成功（プレイリスト）"
+    },
+    {
+      "title": "対談動画一覧はこちら",
+      "url": "https://www.youtube.com/watch?v=QWP5cep1rIA&list=PLebcV2IYhq2jPYQ8RpO99AdYHqF8Bgvd7",
+      "status": "✅ 取得成功（プレイリスト）"
+    },
+    {
+      "title": "9月ZOOMコンサル",
+      "url": "https://www.youtube.com/watch?v=FbvmCNSOGIs&list=PLebcV2IYhq2iGaE-RYT2U00w9sCi3RfIY&index=2",
+      "status": "✅ 取得成功"
+    },
+    {
+      "title": "10月ZOOMコンサル",
+      "url": "https://www.youtube.com/watch?v=EETbSO_mtaU&list=PLebcV2IYhq2iGaE-RYT2U00w9sCi3RfIY",
+      "status": "✅ 取得成功"
+    }
+  ],
+  "notes": {
+    "extraction_technique": "read_page APIを使用してアコーディオン展開後のDOM構造から取得",
+    "blocked_urls_resolved": "全7件のブロックされていたURLを取得成功",
+    "youtube_playlists": "2つのプレイリストURLも取得",
+    "loom_video": "1件のLoom動画も発見",
+    "total_unique_videos": "52件（YouTube: 50件、Loom: 1件、サイト内: 数件）"
+  }
+}
