@@ -1,0 +1,64 @@
+{
+  "cookies": [
+    {
+      "name": "apay-session-set",
+      "value": "IIuMkJxnLNTz7DduklApuqvuIS8wbXUE8Gj0DPN%2BMqGzIp6Uteis9w%2FKwxDZgmY%3D",
+      "domain": "note.com",
+      "path": "/"
+    },
+    {
+      "name": "_note_session_v5",
+      "value": "4e2f7ed6ca82edf9cec360ccaa5ba77d",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "CbB1s%2FA5IGwL5bl6wIepchMp7DPq9xIOjI19AwjkyDo%3D",
+      "domain": "note.com",
+      "path": "/"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1111600230.1767060708",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "note_gql_auth_token",
+      "value": "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJub3RlLmNvbSIsInN1YiI6ImQxMmJjZTZkMDM4NjBhNjBkZmM2OTNlZmM2ZDNhMTNjIiwiaWF0IjoxNzY3MDYwNzM5LCJleHAiOjE3NjcwNjI1MzksImNkIjpmYWxzZSwiZ3UiOmZhbHNlLCJzaWQiOiI0ZTJmN2VkNmNhODJlZGY5Y2VjMzYwY2NhYTViYTc3ZCJ9.aJz91QsXmj9hz6z_NxhqiTrkDZdyuWSn04LVz-JOSg73Ha2EcyIsng3Eewx9mVHIy7BhtS-IMRWJC95ftbp7bfuNjN4_aRHCXVYyup8rOIMXlXGQvTjefv2qtxsFGpCvrPMfTHH_6cuTn42ubhEjWIbzhOTRsEa-_nEAXF0A1gzAvn7ZNGJbf8nzf2DaRb4McJa_YBzzhvsqep7ypognAWTVx_itKlbgf-Wp6q23S0odnqx47D8hMooIt8PsrNalhak5x5ITf0GiDc6QaPXxm1FLUbI2zMidP355euM1VCPaGHg11JJ4yQaAegq0oMr_v5GpJN3InUvuVR063Zaf6Q",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "fp",
+      "value": "e312e33462b4333353ffa2bd1167a19d6",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "_vid_v1",
+      "value": "f3170f922530cbfb7a7d589f15d21d0c",
+      "domain": "note.com",
+      "path": "/"
+    },
+    {
+      "name": "_vid_v2",
+      "value": "f3170f922530cbfb7a7d589f15d21d0c",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1669948146.1765670623",
+      "domain": ".note.com",
+      "path": "/"
+    },
+    {
+      "name": "_ga_J9CPC3WE56",
+      "value": "GS2.1.s1767067786$o16$g1$t1767067792$j54$l0$h0",
+      "domain": ".note.com",
+      "path": "/"
+    }
+  ]
+}

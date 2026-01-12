@@ -1,0 +1,20 @@
+{
+  "source": "note_api_layout",
+  "archive_url": "https://note.com/ochyai/m/m41f58d360230/archive",
+  "magazine_key": "m41f58d360230",
+  "start_ym": "2019-01",
+  "end_ym": "2025-12",
+  "note_count": 1631,
+  "expected_note_count": 1631,
+  "total_urls": 1,
+  "months": [
+    {
+      "ym": "2019-01",
+      "count": 1
+    }
+  ],
+  "article_urls": [
+    "https://note.com/ochyai/n/n1cf555a8f0fd"
+  ],
+  "collected_at": "2025-12-30T17:32:01"
+}
