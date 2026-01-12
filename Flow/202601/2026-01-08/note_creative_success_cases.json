@@ -1,0 +1,111 @@
+[
+  {
+    "name": "クラシキログ",
+    "genre": "ガジェット・生活情報",
+    "revenue": "月収約15万円",
+    "revenue_breakdown": {
+      "amazon_affiliate": "約9.2万円",
+      "rakuten_affiliate": "約0.5万円",
+      "performance_based": "約5.4万円"
+    },
+    "model": "アフィリエイト（有料記事なし）",
+    "followers": "149人",
+    "articles": "116記事",
+    "monthly_pv": "約12万",
+    "achievement_period": "約8ヶ月",
+    "success_hint": "有料記事を実施せず、アフィリエイト（Amazon、楽天、成約系）を活用した収益化戦略。月10万～20万稼ぐための実践的なコツを公開中",
+    "source_url": "https://note.com/kurashikilog/n/nf2e8c1a116b6"
+  },
+  {
+    "name": "ナナシ",
+    "genre": "イラスト・創作",
+    "revenue": "月収5万円",
+    "model": "有料note（イラスト集・素材販売）",
+    "followers": "非公開",
+    "articles": "非公開",
+    "time_commitment": "週4～5日、1日2～3時間",
+    "achievement_status": "副業で月5万円達成",
+    "success_hint": "一般的な絵師でも副業で月5万円程度の収益を得ることが可能。イラスト販売で月5万円稼ぐための有料noteの活用裏ワザを公開",
+    "target_price_range": "500円～3,000円（イラスト集・素材セット）",
+    "source_url": "https://note.com/nanashi2025/n/n5046dacce1c5"
+  },
+  {
+    "name": "ヒロ（文筆家×生成AI研究家）",
+    "genre": "文筆・AI・ノウハウ",
+    "revenue": "月収30万円を目指す",
+    "model": "有料note + 月額マガジン",
+    "followers": "非公開",
+    "articles": "2ヶ月で500記事以上",
+    "monthly_pv": "月間70,000PV以上",
+    "achievement_target": "月収30万円達成を公開",
+    "subscription_model": "月額マガジン1,000円に300人の定期購読者で月収30万円達成可能",
+    "success_hint": "noteの収益化完全マニュアルを公開。無料から始めて月収30万円を目指す方法を実践的に指南。6ヶ月～1年で月収10万円超、1～2年で月収30万円を達成可能",
+    "source_url": "https://note.com/hiro_seki/n/nb7c53b0dd315"
+  },
+  {
+    "name": "アトカ（AIコラムライター）",
+    "genre": "AI・ノウハウ・副業",
+    "revenue": "売上100万円突破",
+    "model": "有料note（AI活用ノウハウ）",
+    "followers": "非公開",
+    "articles": "非公開",
+    "achievement_status": "有料記事で累計売上100万円以上達成",
+    "target_audience": "副業初心者～経験者",
+    "success_hint": "note有料記事事例研究で売上100万円突破の戦略を分析。『設計と戦略』が重要で、やる気や努力だけでは結果がつきにくいことを指摘。有料化したのに0部、値段を下げても読者が増えない悩みを解決するポイントを提供",
+    "key_insight": "全noteクリエイターの0.2%のみが100万円以上を売り上げている現状で、戦略的アプローチが成功の分かれ道",
+    "source_url": "https://note.com/aicolumnwriter/n/n4c9ab62b7e7f"
+  },
+  {
+    "name": "トップ1,000クリエイター（平均値）",
+    "genre": "多様（全ジャンル）",
+    "revenue": "年間平均1,332万円",
+    "revenue_annual_2022": "年間897万円",
+    "model": "有料記事 + マガジン + メンバーシップ + サポート",
+    "followers": "非公開",
+    "articles": "非公開",
+    "achievement_status": "全体の0.2%（約370人）がこのレベルに達成",
+    "success_hint": "noteのトップ1,000クリエイター（全体の約0.001%）の年間平均売上は897万円。2024年度には1,332万円に増加。SNS連携、strategic pricing、portfolio building、付加価値（Discordコミュニティ等）の提供が成功要因",
+    "average_user_spending": "月平均2,650円/ユーザー（複数購読・購入合計）",
+    "cumulative_monetized_creators": "累計20万人以上がnoteで収益化達成",
+    "cumulative_revenue": "年間流通総額170億円以上",
+    "source_url": "https://magazine.genseki.me/entry/sp_saito_20231031"
+  },
+  {
+    "name": "クロネコ屋",
+    "genre": "ノウハウ・副業",
+    "revenue": "年収1,200万円（年1億円超売上）",
+    "revenue_status": "1人で外注なしで1億円超を達成",
+    "model": "有料note（ノウハウコンテンツ）",
+    "followers": "非公開",
+    "articles": "有料noteで1万部以上販売",
+    "achievement_status": "noteで収益化して実績0から不労所得化達成",
+    "success_hint": "売上1億超えのクロネコ屋さんが5つの稼ぐポイントを公開。完全1人で年1億円超の売上を達成。noteマネタイズで月100万円以上を稼ぐ戦略について詳述",
+    "business_model": "複数の有料noteを組み合わせた販売戦略",
+    "source_url": "https://media.brain-market.com/note-kuronekoya/"
+  },
+  {
+    "name": "toki",
+    "genre": "写真・旅行",
+    "revenue": "約10万円",
+    "revenue_status": "趣味の旅行写真で気づいたら10万円に達成",
+    "model": "写真販売（有料画像ダウンロード）",
+    "followers": "非公開",
+    "articles": "非公開",
+    "achievement_status": "ストックフォト活用で副収入獲得",
+    "success_hint": "趣味で撮っていた旅行写真だけで約10万円の収益を達成。ストックフォト・失敗した副業の経験を基に、写真編集ソフトの使い続けた経験を公開",
+    "platform_features": "noteでの写真販売手数料は5%（クレジット決済）で比較的安い",
+    "source_url": "https://note.com/cozy_kudu2135/n/nfe42db914af0"
+  },
+  {
+    "name": "根田啓史（漫画家）",
+    "genre": "漫画",
+    "revenue": "複数収入源で生計立て",
+    "model": "pixivFANBOX + Fantia + note + その他複数",
+    "followers": "20万人以上（Twitter）",
+    "articles": "複数のプラットフォームで連載・販売",
+    "achievement_status": "商業出版から個人クリエイターへ転身して複数の収入源で生計を立てている",
+    "notable_works": "『異世界行ったら、すでに妹が魔王として君臨していた話。』『僕のヒーローアカデミア すまっしゅ‼︎』",
+    "success_hint": "商業出版から離れ、pixivFANBOX、ファンティア、noteなど複数のWebサービスを使いこなして個人クリエイターとして成立。個人がファンへ直接作品を届けられるプラットフォームの活用で生計を立てることが可能",
+    "source_url": "https://note.com/creatorecolab/n/n4bea2e00ac15"
+  }
+]

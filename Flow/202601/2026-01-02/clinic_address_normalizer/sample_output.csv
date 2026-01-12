@@ -1,0 +1,11 @@
+clinic_query,prefecture,city,area_hint,google_maps_url,place_id,display_name,formatted_address,postal_code,lat,lng,match_confidence,needs_manual_review,error_code,error_message
+田中歯科クリニック,東京都,渋谷区,恵比寿,,ChIJXXXXXXXXXXXXXX,田中歯科クリニック,東京都渋谷区恵比寿1-2-3,150-0013,35.6465027,139.7100927,high,false,,
+さくら小児科,大阪府,大阪市,梅田,,ChIJYYYYYYYYYYYYYY,さくら小児科,大阪府大阪市北区梅田1-1-1,530-0001,34.7024854,135.4959506,high,false,,
+山田整形外科,愛知県,名古屋市,栄,,ChIJZZZZZZZZZZZZZZ,山田整形外科,愛知県名古屋市中区栄3-4-5,460-0008,35.1677065,136.9065571,mid,false,,
+青空眼科医院,福岡県,福岡市,天神,,ChIJAAAAAAAAAAAA,青空眼科医院,福岡県福岡市中央区天神2-2-2,810-0001,33.5903547,130.4017155,high,false,,
+緑の森内科クリニック,神奈川県,横浜市,みなとみらい,,ChIJBBBBBBBBBBBBBB,緑の森内科クリニック,神奈川県横浜市西区みなとみらい3-3-3,220-0012,35.4576235,139.6362516,high,false,,
+花咲皮膚科,京都府,京都市,四条河原町,,ChIJCCCCCCCCCCCCCC,花咲皮膚科,京都府京都市中京区四条河原町,604-8005,35.0036419,135.7681176,mid,false,,
+たんぽぽ耳鼻科,埼玉県,さいたま市,大宮,,ChIJDDDDDDDDDDDDDD,たんぽぽ耳鼻科,埼玉県さいたま市大宮区桜木町1-1-1,330-0854,35.9068821,139.6246574,high,false,,
+すずらん歯科,千葉県,千葉市,稲毛,,ChIJEEEEEEEEEEEEEE,すずらん歯科,千葉県千葉市稲毛区稲毛東3-5-5,263-0031,35.6373611,140.1063889,mid,false,,
+ひまわり心療内科,兵庫県,神戸市,三宮,,ChIJFFFFFFFFFFFFFF,ひまわり心療内科,兵庫県神戸市中央区三宮町1-2-3,650-0021,34.6937249,135.1954806,high,false,,
+白鳥クリニック,宮城県,仙台市,青葉区,,ChIJGGGGGGGGGGGGGG,白鳥クリニック,宮城県仙台市青葉区中央1-1-1,980-0021,38.2682069,140.8694267,high,false,,

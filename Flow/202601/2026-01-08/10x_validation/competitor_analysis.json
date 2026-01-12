@@ -1,0 +1,119 @@
+{
+  "analysis_date": "2026-01-08",
+  "competitors": [
+    {
+      "name": "SHIFT AI（木内翔大）",
+      "community_size": 20000,
+      "target_level": "初心者〜中級者（幅広い）",
+      "pricing": {
+        "monthly_plan": 21780,
+        "lifetime_plan": 547800,
+        "entry_fee": 0,
+        "note": "無料セミナー参加者限定で入会金無料"
+      },
+      "curriculum": {
+        "video_count": 300,
+        "courses": "50以上の専門コース",
+        "webinars": "ほぼ毎日",
+        "support": "Discordコミュニティ質問チャット、サポート会"
+      },
+      "strengths": [
+        "会員数2万人の大規模コミュニティ",
+        "300本以上の動画コンテンツ",
+        "毎日のウェビナー",
+        "初心者でも参加しやすい"
+      ],
+      "weaknesses": [
+        "初心者が多く、中級者が物足りない可能性",
+        "幅広く浅い内容",
+        "業界特化なし"
+      ],
+      "sources": [
+        "https://zekno.co.jp/programming/shift-ai-fee/",
+        "https://shift-ai.co.jp/",
+        "https://romptn.com/article/63420"
+      ]
+    },
+    {
+      "name": "Zoltraak/CursorConnect（元木大介）",
+      "community_size": 6000,
+      "target_level": "開発者向け（中級者〜上級者）",
+      "pricing": {
+        "monthly_plan": "不明",
+        "entry_fee": "不明",
+        "note": "CursorConnect具体的な料金情報は非公開"
+      },
+      "curriculum": {
+        "focus": "Zoltraak（自然言語プログラミング）、Cursor特化",
+        "community": "Xコミュニティ、生成AI塾（TECH PLAY）",
+        "support": "コミュニティベース"
+      },
+      "strengths": [
+        "開発者向けの実践的なツール提供",
+        "Zoltraak（自然言語プログラミング）の独自性",
+        "技術的に尖った内容"
+      ],
+      "weaknesses": [
+        "料金体系が不透明",
+        "コミュニティ規模が中規模",
+        "初心者には敷居が高い"
+      ],
+      "sources": [
+        "https://simplethinker.net/zoltraak-programming-language/",
+        "https://ascii.jp/elem/000/004/225/4225897/",
+        "https://techplay.jp/community/cursorconnect"
+      ]
+    },
+    {
+      "name": "GenesisAI（今井翔太）",
+      "community_size": "不明（企業向けコンサル中心）",
+      "target_level": "研究者・企業（上級者）",
+      "pricing": {
+        "monthly_plan": "不明",
+        "consultation": "企業向けコンサルティング（料金非公開）",
+        "note": "講演・研修サービス中心"
+      },
+      "curriculum": {
+        "focus": "マルチエージェント強化学習、生成AI研究",
+        "expertise": "東大博士（松尾豊研究室）、JAIST客員教授",
+        "support": "企業コンサルティング、講演"
+      },
+      "strengths": [
+        "学術的権威（東大博士、JAIST客員教授）",
+        "マルチエージェント強化学習の専門性",
+        "著書ベストセラー『生成AIで世界はこう変わる』",
+        "文科省有識者、大手企業講演実績"
+      ],
+      "weaknesses": [
+        "個人向けコミュニティなし",
+        "料金非公開で敷居が高い",
+        "企業向け中心で個人学習者にはアクセス困難"
+      ],
+      "sources": [
+        "https://ja.wikipedia.org/wiki/今井翔太",
+        "http://shota-imai.com/",
+        "https://jbpress.ismedia.jp/articles/-/91139"
+      ]
+    }
+  ],
+  "own_strategy": {
+    "name": "中級者特化型AIエージェント実装コミュニティ",
+    "target_level": "中級者専用（初心者排除）",
+    "pricing": {
+      "monthly_plan": 2980,
+      "entry_criteria": "スキルテスト必須（初心者排除）"
+    },
+    "curriculum": {
+      "focus": "論文ベース実装解説、コード付き",
+      "specialization": "金融/医療/法務/製造の4業界特化",
+      "support": "Discord有料、コードレビュー、月次勉強会"
+    },
+    "revenue_model": [
+      "コミュニティ会費",
+      "企業コンサル",
+      "note有料記事",
+      "YouTube広告",
+      "OSS開発支援"
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+---
+# Phase 3: PMBOK推論＆パス構築
+# プロジェクト: corporate-ai-adoption-failure
+# 実行日: 2025-12-31
+# 実行モデル: Claude Sonnet 4.5
+
+project: corporate-ai-adoption-failure
+total_files: 18
+phase: 3_pmbok_inference
+
+# ====================
+# PMBOK推論結果
+# ====================
+pmbok_assignments:
+  # --------------------
+  # 1_initiating (1ファイル)
+  # --------------------
+  - file: demand_discovery.md
+    original_path: documents/1_initiating/demand_discovery.md
+    pmbok_phase: 1_initiating
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "1_initiating" であり、
+      需要発見はプロジェクト初期の問題定義フェーズに該当。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/1_initiating/demand_discovery.md
+    keywords: [demand, discovery, problem, market]
+
+  # --------------------
+  # 2_discovery (6ファイル)
+  # --------------------
+  - file: 10x_validation.md
+    original_path: documents/2_discovery/10x_validation.md
+    pmbok_phase: 2_discovery
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "2_discovery"。
+      10倍検証はLean UX発見フェーズの差別化分析に該当。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/10x_validation.md
+    keywords: [validation, 10x, competitive, differentiation]
+
+  - file: flywheel.md
+    original_path: documents/2_discovery/flywheel.md
+    pmbok_phase: 2_discovery
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "2_discovery"。
+      フライホイール設計は成長戦略の検証段階で実施。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/flywheel.md
+    keywords: [flywheel, growth, loop, viral]
+
+  - file: interview_simulation.md
+    original_path: documents/2_discovery/interview_simulation.md
+    pmbok_phase: 2_discovery
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "2_discovery"。
+      インタビューシミュレーションは顧客検証の中核。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/interview_simulation.md
+    keywords: [interview, persona, validation, 3U]
+
+  - file: lean_canvas.md
+    original_path: documents/2_discovery/lean_canvas.md
+    pmbok_phase: 2_discovery
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "2_discovery"。
+      Lean Canvasはビジネスモデル仮説検証の基本ツール。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/lean_canvas.md
+    keywords: [lean_canvas, business_model, revenue, unfair_advantage]
+
+  - file: problem_research.md
+    original_path: documents/2_discovery/problem_research.md
+    pmbok_phase: 2_discovery
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "2_discovery"。
+      問題リサーチは発見フェーズの証拠収集活動。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/problem_research.md
+    keywords: [research, problem, evidence, web_sources]
+
+  # --------------------
+  # 3_planning (3ファイル) - mvv.mdは例外的にここ
+  # --------------------
+  - file: mvv.md
+    original_path: documents/3_planning/mvv.md
+    pmbok_phase: 3_planning
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "3_planning"。
+      MVV（Mission/Vision/Values）は戦略計画策定の基盤。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/3_planning/mvv.md
+    keywords: [mission, vision, values, strategy]
+
+  - file: cpf_diagnosis.md
+    original_path: documents/3_planning/cpf_diagnosis.md
+    pmbok_phase: 3_planning
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "3_planning"。
+      CPF診断は計画フェーズのゲート判定。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/3_planning/cpf_diagnosis.md
+    keywords: [cpf, customer_problem_fit, validation, stage_gate]
+
+  - file: psf_diagnosis.md
+    original_path: documents/3_planning/psf_diagnosis.md
+    pmbok_phase: 3_planning
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "3_planning"。
+      PSF診断は計画フェーズの最終ゲート判定。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/3_planning/psf_diagnosis.md
+    keywords: [psf, problem_solution_fit, mvp, stage_gate]
+
+  # --------------------
+  # 5_monitoring (1ファイル)
+  # --------------------
+  - file: scorecard.md
+    original_path: documents/5_monitoring/scorecard.md
+    pmbok_phase: 5_monitoring
+    confidence: 0.99
+    reasoning: |
+      ディレクトリ名が明示的に "5_monitoring"。
+      Scorecardはプロジェクト全体の監視・評価ツール。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/5_monitoring/scorecard.md
+    keywords: [scorecard, monitoring, kpi, assessment]
+
+  # --------------------
+  # 4_executing/mvp (5ファイル)
+  # --------------------
+  - file: README.md
+    original_path: mvp/lp/README.md
+    pmbok_phase: 4_executing
+    confidence: 0.95
+    reasoning: |
+      MVPはExecutingフェーズの成果物。
+      Landing Page設計書はMVP実装の一環。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/lp/README.md
+    keywords: [mvp, landing_page, design, specification]
+
+  - file: index.html
+    original_path: mvp/lp/index.html
+    pmbok_phase: 4_executing
+    confidence: 0.95
+    reasoning: |
+      Landing Page HTMLはMVP実装の実体。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/lp/index.html
+    keywords: [html, landing_page, implementation]
+
+  - file: styles.css
+    original_path: mvp/lp/styles.css
+    pmbok_phase: 4_executing
+    confidence: 0.95
+    reasoning: |
+      Landing Page CSSはMVP実装の実体。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/lp/styles.css
+    keywords: [css, styling, design_system]
+
+  - file: script.js
+    original_path: mvp/lp/script.js
+    pmbok_phase: 4_executing
+    confidence: 0.95
+    reasoning: |
+      Landing Page JavaScriptはMVP実装の実体。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/lp/script.js
+    keywords: [javascript, interaction, validation]
+
+  - file: posts.md
+    original_path: mvp/sns_contents/posts.md
+    pmbok_phase: 4_executing
+    confidence: 0.95
+    reasoning: |
+      SNSコンテンツはMVP実装の一部（PMF検証用）。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/sns_contents/posts.md
+    keywords: [sns, linkedin, content, marketing]
+
+  # --------------------
+  # 6_closing/summary (4ファイル)
+  # --------------------
+  - file: phase1_summary.md
+    original_path: phase1_summary.md
+    pmbok_phase: 6_closing
+    confidence: 0.98
+    reasoning: |
+      Phase1サマリーはプロジェクトフェーズ完了のレポート。
+      Closingフェーズの成果物。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/6_closing/phase1_summary.md
+    keywords: [summary, phase1, completion, report]
+
+  - file: agentskills_analysis.md
+    original_path: agentskills_analysis.md
+    pmbok_phase: 6_closing
+    confidence: 0.98
+    reasoning: |
+      AgentSkills分析はプロジェクト品質評価の一環。
+      Closingフェーズのレッスンズラーンド系成果物。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/6_closing/agentskills_analysis.md
+    keywords: [analysis, quality, lessons_learned, improvement]
+
+  - file: final_report.md
+    original_path: final_report.md
+    pmbok_phase: 6_closing
+    confidence: 0.99
+    reasoning: |
+      最終レポートはプロジェクト完了の総括文書。
+      Closingフェーズの主要成果物。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/6_closing/final_report.md
+    keywords: [final, report, closure, assessment]
+
+  - file: framework_alignment_report.md
+    original_path: framework_alignment_report.md
+    pmbok_phase: 6_closing
+    confidence: 0.98
+    reasoning: |
+      フレームワーク整合性レポートは品質検証の総括。
+      Closingフェーズのレッスンズラーンド系成果物。
+    stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/6_closing/framework_alignment_report.md
+    keywords: [framework, alignment, quality, validation]
+
+# ====================
+# サマリー
+# ====================
+summary:
+  files_processed: 18
+  phase_distribution:
+    1_initiating: 1
+    2_discovery: 5
+    3_planning: 3
+    4_executing: 5
+    5_monitoring: 1
+    6_closing: 4
+
+  average_confidence: 0.98
+
+  stock_base_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure
+
+  path_normalization:
+    unicode_form: NFC
+    bracket_style: 全角（）のみ
+    verified: true
+
+# ====================
+# 検証事項
+# ====================
+validation:
+  - check: "全角括弧（）のみ使用"
+    status: PASS
+    detail: "全パスで全角括弧使用を確認"
+
+  - check: "Unicode NFC正規化"
+    status: PASS
+    detail: "全パスがNFC形式"
+
+  - check: "PMBOKフェーズ妥当性"
+    status: PASS
+    detail: "全18ファイルのフェーズ割当が論理的に妥当"
+
+errors: []
+warnings: []
+---

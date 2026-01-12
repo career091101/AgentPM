@@ -1,0 +1,168 @@
+{
+  "iteration": 1,
+  "timestamp": "2026-01-03T00:00:00",
+  "total_score": 34,
+  "threshold": 70,
+  "passed": false,
+  "breakdown": {
+    "completeness": {
+      "score": 20,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 80,
+      "details": {
+        "found_sections": 10,
+        "required_sections": 10,
+        "missing_sections": []
+      }
+    },
+    "logic": {
+      "score": 8,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 32,
+      "details": {
+        "consistency_check": "FAIL",
+        "causality_check": "FAIL",
+        "conclusion_check": "FAIL"
+      }
+    },
+    "specificity": {
+      "score": 3,
+      "max": 20,
+      "weight": 0.20,
+      "percentage": 15,
+      "details": {
+        "numeric_data_check": "FAIL",
+        "proper_nouns_check": "FAIL",
+        "case_examples_check": "FAIL"
+      }
+    },
+    "evidence": {
+      "score": 1,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 7,
+      "details": {
+        "data_backed_check": "FAIL",
+        "source_citation_check": "FAIL",
+        "quantitative_check": "FAIL"
+      }
+    },
+    "framework_compliance": {
+      "score": 2,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 13,
+      "details": {
+        "cpf_compliance_check": "FAIL",
+        "psf_compliance_check": "N/A",
+        "pmf_compliance_check": "N/A"
+      }
+    }
+  },
+  "issues": [
+    {
+      "category": "logic",
+      "severity": "critical",
+      "message": "CPFスコア60点の算出根拠が全く不明（どの項目をどう評価したのか記載なし）"
+    },
+    {
+      "category": "logic",
+      "severity": "critical",
+      "message": "「課題は明確だが、ソリューションの詳細が不足している」と言いながら総合評価60点は論理矛盾（致命的欠陥があるのに合格ライン）"
+    },
+    {
+      "category": "logic",
+      "severity": "critical",
+      "message": "「先行者優位がある」の根拠が不明（市場成長は先行者優位の根拠にならない）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "顧客セグメント「英語を学びたい人たち」が抽象的すぎる（年齢、職業、課題レベルの特定なし）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "課題「多くの人が英語学習で困っている」が抽象的（具体的な人数、割合、調査データなし）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "解決策「最新の技術を活用」が抽象的（どの技術をどう活用するのか不明）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "独自の価値提案「他のアプリより優れている」が抽象的（何がどう優れているのか不明）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "主要指標「ユーザー数を増やす」が抽象的（目標数値、期間、測定方法なし）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "チャネル「SNSで広告」が抽象的（どのSNS、どの広告手法、予算、期待値なし）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "コスト構造「開発費用がかかる」が抽象的（金額、内訳、見積もりなし）"
+    },
+    {
+      "category": "specificity",
+      "severity": "critical",
+      "message": "収益の流れ「月額料金」が抽象的（料金設定、想定顧客数、LTV試算なし）"
+    },
+    {
+      "category": "evidence",
+      "severity": "critical",
+      "message": "課題の存在を裏付けるデータが皆無（アンケート、インタビュー、市場調査の結果なし）"
+    },
+    {
+      "category": "evidence",
+      "severity": "critical",
+      "message": "市場規模の推定が全く記載なし（TAM/SAM/SOMの試算なし）"
+    },
+    {
+      "category": "evidence",
+      "severity": "critical",
+      "message": "競合分析のデータが皆無（既存プレイヤー、市場シェア、差別化ポイントの検証なし）"
+    },
+    {
+      "category": "evidence",
+      "severity": "critical",
+      "message": "ソリューションの検証結果が皆無（プロトタイプテスト、ユーザーフィードバックなし）"
+    },
+    {
+      "category": "evidence",
+      "severity": "critical",
+      "message": "「先行者優位」の根拠となるデータが皆無（市場参入時期、競合状況の分析なし）"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "critical",
+      "message": "CPF検証の評価軸が不明確（顧客セグメント、課題、解決策の各スコアが記載なし）"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "critical",
+      "message": "Lean Canvasの「不公正な優位性」が「先行者優位」と誤解されている（先行者優位は不公正な優位性ではない）"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "critical",
+      "message": "主要指標が「ユーザー数」のみ（CPF段階では課題検証率、ソリューション受容度等の指標が必要）"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "critical",
+      "message": "CPFスコア60点の判定基準が不明（スタートアップサイエンスの標準基準に準拠していない）"
+    }
+  ],
+  "document_path": "/Users/yuichi/AIPM/aipm_v0/Flow/202601/2026-01-03/test_cpf_judgment_low_quality.md",
+  "document_type": "cpf_judgment"
+}

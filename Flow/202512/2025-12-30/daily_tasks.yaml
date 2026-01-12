@@ -1,0 +1,555 @@
+inbox:
+  - |
+    # AI Agent 開発構想とタスク詳細 (音声入力に基づく補完版)
+
+    ## 1. Founder Agent 開発構想
+
+    ### 1-1. 全体像と "Origin" の定義
+
+    **目的**: AI エージェントが自律的にビジネスを立ち上げ、運営するシステムの構築。
+
+    - **Origin (オリジナル版)**:
+      - **定義**: 『起業の科学』(Startup Science) のメソッドを忠実に再現した、全てのベースとなるエージェント。
+      - **機能スコープ**: 課題発見(Discovery) → ソリューション検証(Verification) → MVP 開発 → PMF 達成までの一連のプロセス。
+      - **現状**: `Founder_Agent_Phase1` プロジェクトとして存在するが、プロセス間の接続（オーケストレーション）が未完成。
+      - **最優先タスク**: Origin を完成させ、人間の介入なしに Phase 1 を完走できる状態にする。
+
+    ### 1-2. 4 つの派生パターン (Variants)
+
+    Origin をベースに、ターゲット領域ごとの特性（ドメイン知識・制約）を組み込んだ 4 つの特化型エージェントを展開する。
+
+    1. **ForStartup (スタートアップ特化)**
+       - **概要**: Origin の直系。VC からの資金調達やスケールアップを前提とした急成長モデル。
+       - **裏付けデータ**: ファウンダー向けリサーチ、ピッチデッキ事例など。
+    2. **ForRecruit (企業内新規事業特化)**
+       - **概要**: リクルートのような大企業内での新規事業開発向け。
+       - **特徴**: 社内リソースの活用、承認プロセス、既存事業とのシナジー創出。
+       - **裏付けデータ**: リクルートの「Ring」等の社内起業制度のナレッジ、コーポレートリサーチ結果。
+    3. **ForSolo (ソロプレナー特化)**
+       - **概要**: 個人開発者・スモールビジネス向け。資金調達に頼らず、利益率と個人の自由を重視。
+       - **特徴**: コスト最小化、自動化、ニッチ市場の支配。
+       - **参照リソース**: `Solopreneur` フォルダ、インディーハッカー事例。
+    4. **ForGenAI (生成 AI プロダクト特化)**
+       - **概要**: GenAI 技術を活用したプロダクト開発向け。技術の進化速度に対応。
+       - **特徴**: 最新論文・技術トレンドの即時反映、Product Hunt 等でのローンチ戦略。
+       - **アクション**: `GenAI_Research` フォルダを新設し、最新情報を集約する基盤を作る。
+
+    ### 1-3. 技術要件: オーケストレーションと自律改善
+
+    - **動的ワークフロー**: 固定された手順書（スタティックなスクリプト）ではなく、状況に応じて次のアクションを判断する動的な仕組み。
+    - **Agent Skill**: 「市場調査」「競合分析」「LP 生成」などの個別タスクを Skill としてモジュール化。
+    - **自律改善**: 実行結果（例：LP の CVR が低い）を受けて、自ら仮説を修正し、再実行するループの実装。
+
+    ---
+
+    ## 2. Trading Agent (金融取引エージェント)
+
+    ### 2-1. 1 種類のエージェント (仮説と検証)
+
+    エージェントが存在・想定される。
+
+    - **Type 1: テクニカル・アルゴリズム型 (`TradingAgents`)**
+
+      - **特徴**: 移動平均、RSI、ボリンジャーバンドなどの数理的指標に基づく判断。
+      - **現状**: README 上の設計は詳細だが、実装コードが不足しているため、ここを優先的に実装・検証する。
+
+    ### 2-2. アクションアイテム
+
+    - エージェントをテスト実行可能な状態にし、並行稼働させてパフォーマンスを比較検証する。
+
+    ---
+
+    ## 3. SNS ノウハウの体系化
+
+    - **目的**: 属人化している SNS 運用ノウハウを形式知化し、エージェントが参照可能なナレッジベースにする。
+    - **対象媒体**: X (Twitter), LinkedIn, Facebook, Instagram, Note 等。
+    - **不足情報の補完**: 既存ファイルにある情報を整理した上で、足りない部分（最新アルゴリズム等）はエージェントに自律調査させる。
+  - "ファウンダーエージェントのエージェントスキルズとコマンドの内容が一致しているかを確認したい"
+  - "ファウンダーエージェントのスキルズとコマンドの内容は、起業の科学の内容に準拠しているか確認したい。不足があれば追加したい"
+  - "YouTubeから取得したトランスクリプト文字越しの内容をgenAIリサーチに追加したい"
+
+candidates:
+  - |
+    【Founder Agent】既存スキル検証 → 派生基盤構築
+    ✅ 既存確認: 16個のスキル発見！
+      - メイン: `/orchestrate-phase1`（12ステップ、3-6時間）
+      - コア15個: discover-demand, create-mvv, build-flywheel, create-persona,
+        research-problem, research-competitors, simulate-interview, validate-cpf,
+        validate-10x, validate-psf, validate-unit-economics, build-lp,
+        create-sns-content, startup-scorecard, pivot-decision
+    1. `/orchestrate-phase1` を実行して動作確認（簡易テスト or フル実行）
+    2. 15個のコアスキルの動作確認（主要3-5個を選択実行）
+    3. エラーや不足コンポーネントをリストアップ
+    4. Origin/ForStartup/ForRecruit/ForSolo/ForGenAI のフォルダ構造を作成
+    5. 各派生の `domain_config.yaml` を作成（差分定義）
+    6. `GenAI_Research/` フォルダを新設
+    7. 実装ギャップレポートを作成
+    → 完了: 動作確認 + 派生エージェント基盤 + 実装ギャップリスト完成
+  - |
+    【Trading Agent】既存スキル検証 → ギャップ分析
+    ✅ 既存確認: 24個のスキル発見！
+      - メインオーケストレーター2個: trading-agents, orchestrate-trading-strategy
+      - フェーズオーケストレーター4個: phase1-analysts, phase2-research, phase3-risk, phase4-execution
+      - エージェント18個: data-collector, technical-analyst, elliott-wave-analyst,
+        sentiment-analyst, fundamentals-analyst, market-analyst, news-analyst,
+        strategy-synthesizer, backtest-validator, bull-researcher, bear-researcher,
+        research-manager, risk-manager, fund-manager, risky-portfolio, safe-portfolio,
+        neutral-portfolio, trader
+    1. `/trading-agents` または `/orchestrate-trading-strategy` を実行して動作確認
+    2. 実行結果とREADMEの期待値を比較
+    3. エラーや不足コンポーネントをリストアップ
+    4. 18個のエージェントスキルの存在確認と役割マッピング
+    5. 不足しているコンポーネントを特定（Pythonコード等）
+    6. 実装ギャップレポートを作成
+    → 完了: 動作確認 + 実装ギャップリスト完成
+  - |
+    【SNS ノウハウ体系化】パターンA → パターンB
+    1. 既存ファイルから SNS 関連情報を抽出（Grep検索）
+    2. 媒体別（X/LinkedIn/Facebook/Instagram/Note）に分類
+    3. 不足情報リストを作成
+    4. `SNS_Knowledge/` フォルダ構造を作成（媒体別フォルダ）
+    5. 各媒体の基本情報ファイル（algorithm.md, best_practices.md）を作成
+    6. エージェント参照用の統合インデックス（index.yaml）を作成
+    → 完了: 既存ナレッジマップ + エージェント参照可能なナレッジベース完成
+  - |
+    【起業の科学準拠確認】パターンA→B→C（完全照合と追加実装計画）
+    1. 起業の科学の全章・全節の構造を抽出（起業の科学_full.md または起業大全_full.md から）
+    2. 各章節のキーコンセプトをリストアップ
+    3. 既存16個のスキル（README.md記載）との対応関係をマッピング
+    4. カバーされていない章節を特定
+    5. `/orchestrate-phase1` の12ステップを詳細確認
+    6. 各ステップが起業の科学のどのフレームワークに対応するか明記
+    7. 重要フレームワーク（CPF/PSF/MVV/10x/Unit Economics等）の実装状況を確認
+    8. 未実装のフレームワークをリストアップ
+    9. 各不足領域のビジネスインパクトを評価（高/中/低）
+    10. 実装難易度を評価（高/中/低）
+    11. 優先順位マトリクスを作成（インパクト高×難易度低を優先）
+    12. 上位3-5個の追加スキル設計書（skill_design.md）を作成
+    → 完了: 起業の科学完全対応マップ + 未実装フレームワークリスト + 優先順位付けスキル設計書
+  - |
+    【YouTubeトランスクリプト→GenAI_Research統合】LLM読み込み最適化版
+    1. YouTube動画トランスクリプトファイルの所在を確認（Founder_Agent_Phase1/documents/references/transcripts/）
+    2. トランスクリプトから重要トピック（技術、ユースケース、ベストプラクティス、話者の知見）を抽出
+    3. `GenAI_Research/` フォルダ構造を作成（topics/technologies/use_cases/speakers/等）
+    4. 各トランスクリプトにLLM読み込み用メタデータを追加：
+       - 動画URL、タイトル、話者名、日付
+       - トピックタグ（#GenAI #Startup #ProductDevelopment等）
+       - 要約（3-5行）
+       - キーポイント（箇条書き5-10個）
+       - 関連する起業の科学フレームワーク（あれば）
+    5. トランスクリプト内容を適切なカテゴリに分類して配置
+    6. 統合インデックス（index.yaml）を作成（メタデータ検索可能な構造）
+    → 完了: GenAI_Researchフォルダ + メタデータ付きトランスクリプト + LLM検索可能インデックス
+
+tasks:
+  # === Founder Agent（7ステップ） ===
+  - id: T001-1
+    what: "/orchestrate-phase1 スキルの簡易テスト実行"
+    done: "テスト実行ログまたはエラーメッセージが記録されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-2
+    what: "全てのスキルの動作確認"
+    done: "全てのスキルの実行結果が記録されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-3
+    what: "Founder Agent エラーと不足コンポーネントのリスト作成"
+    done: "エラーリストファイルが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-4
+    what: "4派生フォルダ構造の作成（Origin/ForStartup/ForRecruit/ForSolo/ForGenAI）"
+    done: "5つのフォルダが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-5
+    what: "各派生の domain_config.yaml 作成（4ファイル）"
+    done: "4つのdomain_config.yamlファイルが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-6
+    what: "GenAI_Research フォルダの新設"
+    done: "GenAI_Researchフォルダが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T001-7
+    what: "Founder Agent 実装ギャップレポート（gap_report.md）作成"
+    done: "gap_report.mdファイルが存在し、改善施策が記載されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  # === Trading Agent（6ステップ） ===
+  - id: T002-1
+    what: "/orchestrate-trading-strategy スキルの動作確認"
+    done: "実行ログまたはエラーメッセージが記録されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T002-2
+    what: "Trading Agent 実行結果とREADMEの比較分析"
+    done: "比較結果レポートが作成されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T002-3
+    what: "Trading Agent エラーログの収集とリスト化"
+    done: "エラーリストファイルが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T002-4
+    what: "18個のエージェントスキルの役割マッピング表作成"
+    done: "役割マッピング表（Markdown or YAML）が存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T002-5
+    what: "不足コンポーネント（Pythonコード等）の特定"
+    done: "不足コンポーネントリストが作成されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T002-6
+    what: "Trading Agent 実装ギャップレポート（gap_report.md）作成"
+    done: "gap_report.mdファイルが存在し、改善施策が記載されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  # === SNS ノウハウ体系化（6ステップ） ===
+  - id: T003-1
+    what: "既存ファイルからSNS関連情報をGrep検索で抽出"
+    done: "Grep検索結果が記録されている"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T003-2
+    what: "抽出した情報を5媒体別（X/LinkedIn/Facebook/Instagram/Note）に分類"
+    done: "5媒体別の分類リストが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T003-3
+    what: "SNS 不足情報リストの作成"
+    done: "不足情報リストファイルが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T003-4
+    what: "SNS_Knowledge フォルダ構造の作成（5媒体別フォルダ）"
+    done: "SNS_Knowledge/配下に5媒体フォルダが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T003-5
+    what: "5媒体分の基本ファイル作成（algorithm.md, best_practices.md × 5）"
+    done: "10個の基本ファイル（algorithm.md × 5 + best_practices.md × 5）が存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  - id: T003-6
+    what: "SNS_Knowledge/index.yaml の作成"
+    done: "index.yamlファイルが存在する"
+    status: pending
+    created_at: "2025-12-30 13:45"
+
+  # === 起業の科学準拠確認（12ステップ） ===
+  - id: T004-1
+    what: "起業の科学の全章・全節の構造を抽出"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-2
+    what: "各章節のキーコンセプトをリストアップ"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-3
+    what: "既存16個のスキル（README.md記載）との対応関係をマッピング"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-4
+    what: "カバーされていない章節を特定"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-5
+    what: "/orchestrate-phase1 の12ステップを詳細確認"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-6
+    what: "各ステップが起業の科学のどのフレームワークに対応するか明記"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-7
+    what: "重要フレームワーク（CPF/PSF/MVV/10x/Unit Economics等）の実装状況を確認"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-8
+    what: "未実装のフレームワークをリストアップ"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-9
+    what: "各不足領域のビジネスインパクトを評価（高/中/低）"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-10
+    what: "実装難易度を評価（高/中/低）"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-11
+    what: "優先順位マトリクスを作成（インパクト高×難易度低を優先）"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T004-12
+    what: "上位3-5個の追加スキル設計書（skill_design.md）を作成"
+    done: "全12ステップの成果物ファイル（マッピング表、未実装リスト、設計書等）が存在する"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  # === YouTubeトランスクリプト→GenAI_Research統合（6ステップ） ===
+  - id: T005-1
+    what: "YouTube動画トランスクリプトファイルの所在を確認"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T005-2
+    what: "トランスクリプトから重要トピック（技術、ユースケース、ベストプラクティス、話者の知見）を抽出"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T005-3
+    what: "GenAI_Research/ フォルダ構造を作成（topics/technologies/use_cases/speakers/等）"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T005-4
+    what: "各トランスクリプトにLLM読み込み用メタデータを追加（動画URL、タイトル、話者名、日付、トピックタグ、要約、キーポイント、関連フレームワーク）"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T005-5
+    what: "トランスクリプト内容を適切なカテゴリに分類して配置"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  - id: T005-6
+    what: "統合インデックス（index.yaml）を作成（メタデータ検索可能な構造）"
+    done: "GenAI_Research/index.yamlが存在し、全トランスクリプトにメタデータが付与されている"
+    status: pending
+    created_at: "2025-12-30 14:30"
+
+  # === GenAI_research フォルダLLM最適化（6ステップ） ===
+  - id: T006-1
+    what: "GenAI_researchフォルダの現状調査（ファイル一覧、サイズ、構造）"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T006-2
+    what: "LLM読み込み最適化のためのフォルダ構造設計（topics/technologies/use_cases/speakers/等）"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T006-3
+    what: "各ファイルにメタデータ追加（タイトル、作成日、トピックタグ、要約3-5行、キーポイント5-10個）"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T006-4
+    what: "ファイルを最適化されたフォルダ構造に再配置"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T006-5
+    what: "index.yamlファイル作成（全ファイルのメタデータを集約）"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T006-6
+    what: "README.md作成（フォルダ使い方、検索方法、LLMプロンプト例）"
+    done: "index.yamlファイルが存在し、全ファイルにメタデータ（タイトル、日付、タグ、要約）が付与されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  # === LIFEisBeautiful 分析（6ステップ） ===
+  - id: T007-1
+    what: "LIFEisBeautifulのコンテンツ所在確認（フォルダ、ファイル、URL等）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T007-2
+    what: "AIトレンド関連コンテンツを抽出（AI技術、応用事例、予測等）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T007-3
+    what: "未来社会洞察関連コンテンツを抽出（社会変化、価値観、ライフスタイル等）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T007-4
+    what: "投資手法関連コンテンツを抽出（投資哲学、銘柄選定、ポートフォリオ等）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T007-5
+    what: "トピック別分析レポート作成（各トピックごとに要約、キーポイント、引用、考察）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T007-6
+    what: "統合分析レポート作成（3トピック統合、相互関連性、アクション推奨）"
+    done: "分析レポート（3トピック以上）が存在し、各トピックに具体的な投資アクション推奨が記載されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  # === 落合ノート分析 Pattern A（6ステップ） ===
+  - id: T008-1
+    what: "落合ノートのコンテンツ所在確認（フォルダ、ファイル、フォーマット等）"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-2
+    what: "全コンテンツから主要テーマを抽出（AI技術、未来予測、社会変化等、5テーマ以上）"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-3
+    what: "各テーマごとに関連コンテンツをグルーピング"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-4
+    what: "テーマ別フォルダ構造作成（AI_Technology/Future_Prediction/Social_Change/等）"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-5
+    what: "各テーマの分析レポート作成（要約、具体例、引用、洞察）"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-6
+    what: "テーマ横断統合レポート作成（テーマ間の関連性、総合洞察）"
+    done: "テーマ別抽出レポート（5テーマ以上）が存在し、各テーマに具体例と引用が含まれている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  # === 落合ノート分析 Pattern B（5ステップ） ===
+  - id: T008-7
+    what: "全コンテンツから日付・時期情報を抽出"
+    done: "時系列レポート（3期間以上）と予測トレンドグラフ（3トレンド以上）が存在する"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-8
+    what: "時系列順にコンテンツを整理（3期間以上: 過去/現在/未来、または年代別）"
+    done: "時系列レポート（3期間以上）と予測トレンドグラフ（3トレンド以上）が存在する"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-9
+    what: "各期間の主要トレンド抽出（技術進化、社会変化、予測変遷等）"
+    done: "時系列レポート（3期間以上）と予測トレンドグラフ（3トレンド以上）が存在する"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-10
+    what: "予測トレンド可視化（3トレンド以上: 技術進化曲線、社会変化マップ、未来予測チャート等）"
+    done: "時系列レポート（3期間以上）と予測トレンドグラフ（3トレンド以上）が存在する"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T008-11
+    what: "時系列分析レポート作成（トレンドの変遷、予測の精度検証、今後の展望）"
+    done: "時系列レポート（3期間以上）と予測トレンドグラフ（3トレンド以上）が存在する"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  # === FounderResearch フォルダマージ（7ステップ） ===
+  - id: T009-1
+    what: "2つのFounderResearchフォルダの所在確認とパス記録"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-2
+    what: "各フォルダの内容比較（ファイル一覧、サイズ、最終更新日、差分リスト作成）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-3
+    what: "マージ戦略決定（どちらをベースにするか、ファイル名重複解決方法等）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-4
+    what: "バックアップフォルダ作成（両フォルダをタイムスタンプ付きでバックアップ）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-5
+    what: "ファイルマージ実行（重複ファイルの統合、ユニークファイルの移動）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-6
+    what: "マージ検証（全ファイルの存在確認、重複確認、データロス確認）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"
+
+  - id: T009-7
+    what: "マージ完了レポート作成（マージ戦略、処理内容、ファイル数、差分サマリー、バックアップパス）"
+    done: "マージ完了レポートが存在し、バックアップフォルダが存在し、単一のFounderResearchフォルダに統合されている"
+    status: pending
+    created_at: "2025-12-30 15:30"

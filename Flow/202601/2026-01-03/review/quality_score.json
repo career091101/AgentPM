@@ -1,0 +1,74 @@
+{
+  "completeness_score": 25,
+  "logic_score": 25,
+  "specificity_score": 20,
+  "evidence_score": 15,
+  "framework_compliance_score": 15,
+  "total_score": 100,
+  "passed": true,
+  "judgment": "✅ 合格（統合完了）",
+  "threshold": 70,
+  "iteration": 1,
+  "timestamp": "2026-01-03T10:30:00",
+  "document_path": "/Users/yuichi/AIPM/aipm_v0/Flow/202601/2026-01-03/test_cpf_judgment_high_quality.md",
+  "document_type": "cpf_judgment",
+  "breakdown": {
+    "completeness": {
+      "score": 25,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 100,
+      "found_sections": 10,
+      "required_sections": 10,
+      "missing_sections": []
+    },
+    "logic": {
+      "score": 25,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 100,
+      "consistency_check": "PASS",
+      "causality_check": "PASS",
+      "conclusion_check": "PASS"
+    },
+    "specificity": {
+      "score": 20,
+      "max": 20,
+      "weight": 0.20,
+      "percentage": 100,
+      "numeric_data_check": "PASS",
+      "proper_nouns_check": "PASS",
+      "case_examples_check": "PASS"
+    },
+    "evidence": {
+      "score": 15,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 100,
+      "data_backed_check": "PASS",
+      "source_citation_check": "PASS",
+      "quantitative_check": "PASS"
+    },
+    "framework_compliance": {
+      "score": 15,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 100,
+      "cpf_compliance_check": "PASS",
+      "startup_science_compliance_check": "PASS",
+      "lean_startup_compliance_check": "PASS"
+    }
+  },
+  "issues": [],
+  "strengths": [
+    "全必須セクションが完備（10/10件、100%）",
+    "論理的一貫性が完璧（矛盾なし、因果関係明確、結論妥当）",
+    "数値データが極めて豊富（市場規模、料金、コスト、収益予測等）",
+    "固有名詞が充実（技術スタック、競合、調査機関、事例等）",
+    "エビデンスが充実（総務省、厚生労働省、Apptopia社等の出典明記）",
+    "CPFスコア算出根拠が詳細（9項目の配点と評価理由）",
+    "スタートアップサイエンスのフレームワークに完全準拠",
+    "次フェーズ（PSF）への移行基準が明確"
+  ],
+  "recommendations": []
+}

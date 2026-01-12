@@ -1,0 +1,117 @@
+# mapfile Compatibility Fix for macOS Bash 3.2
+
+## 問題
+
+`scripts/start_parallel_claude.sh` のLine 105で使用されている`mapfile`コマンドは、macOSのデフォルトBash 3.2では動作しません（Bash 4.0+の機能）。
+
+## 修正内容
+
+**ファイル**: `scripts/start_parallel_claude.sh`
+**修正箇所**: Line 105
+
+### Before (Bash 4.0+のみ対応)
+```bash
+mapfile -t TASKS < "$TASK_FILE"
+```
+
+### After (Bash 3.2+互換)
+```bash
+# Read tasks into array (Bash 3.2+ compatible)
+TASKS=()
+while IFS= read -r line; do
+    TASKS+=("$line")
+done < "$TASK_FILE"
+```
+
+## 動作確認
+
+```bash
+# macOS Bash 3.2でテスト
+$ bash --version
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin25)
+
+$ bash /tmp/test_mapfile_fix.sh
+Array length: 5
+  Task 1: Task 1
+  Task 2: Task 2
+  Task 3: Task 3
+  Task 4: Task 4
+  Task 5: Task 5
+```
+
+## 適用方法
+
+### 方法1: 手動編集
+1. `scripts/start_parallel_claude.sh` を開く
+2. Line 105 を検索: `mapfile -t TASKS < "$TASK_FILE"`
+3. 以下のコードに置き換え:
+   ```bash
+   # Read tasks into array (Bash 3.2+ compatible)
+   TASKS=()
+   while IFS= read -r line; do
+       TASKS+=("$line")
+   done < "$TASK_FILE"
+   ```
+
+### 方法2: sed コマンド（自動適用）
+```bash
+cd /Users/yuichi/AIPM/aipm_v0
+
+# バックアップ作成
+cp scripts/start_parallel_claude.sh scripts/start_parallel_claude.sh.backup
+
+# 修正適用
+sed -i '' '105s/.*/    # Read tasks into array (Bash 3.2+ compatible)\
+    TASKS=()\
+    while IFS= read -r line; do\
+        TASKS+=("$line")\
+    done < "$TASK_FILE"/' scripts/start_parallel_claude.sh
+```
+
+## 検証テスト
+
+修正後、以下のコマンドで動作確認：
+
+```bash
+# テストタスクファイル作成
+cat > /tmp/test_tasks.txt << 'EOF'
+Test task 1: Analyze project structure
+Test task 2: Review documentation
+Test task 3: Check code quality
+Test task 4: Generate test coverage
+Test task 5: Create summary report
+EOF
+
+# 修正版スクリプトでテスト（dry-run）
+echo "n" | bash scripts/start_parallel_claude.sh /tmp/test_tasks.txt
+```
+
+**期待される出力**:
+- ✅ `mapfile: command not found` エラーが出ない
+- ✅ `Tasks configured:` セクションに5タスクが表示される
+- ✅ `Aborted by user.` で正常終了
+
+## 影響範囲
+
+**修正前**: タスクファイル指定モードが動作不可
+**修正後**: すべての機能が正常動作
+
+**互換性**:
+- ✅ macOS (Bash 3.2)
+- ✅ Linux (Bash 4.0+)
+- ✅ 既存の動作に影響なし
+
+## 関連Issue
+
+- Week 3 Phase 2 統合テスト: `Flow/202601/2026-01-09/week3_phase2_integration_test.md`
+- Critical Issue #1: mapfile コマンド非対応（macOS Bash 3.2）
+
+## 優先度
+
+**HIGH** - タスクファイル指定モードは主要機能のため、次回セッションで即座修正を推奨
+
+---
+
+**作成日時**: 2026-01-09 12:27:20 JST
+**作成者**: Claude Code Agent
+**バージョン**: 1.0

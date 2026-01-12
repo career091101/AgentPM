@@ -1,0 +1,4 @@
+clinic_query,prefecture,city,area_hint,google_maps_url,place_id,display_name,formatted_address,postal_code,lat,lng,match_confidence,needs_manual_review,error_code,error_message
+東京医科大学病院,東京都,新宿区,西新宿,,ChIJhVxcpSqNGGARlB-64csFe6Q,Tokyo Medical University Hospital,"6-chōme-7-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan",160-0023,35.6937646,139.6925124,low,true,,
+大阪大学医学部附属病院,大阪府,吹田市,,,ChIJB1iMg6H8AGARkABC-79Ml5M,Osaka University Hospital,"2-15 Yamadaoka, Suita, Osaka 565-0871, Japan",565-0871,34.8194248,135.5279983,low,true,,
+慶應義塾大学病院,東京都,新宿区,信濃町,,ChIJGXV0bpOMGGARwGvLCa-zj7E,Keio University Hospital,"35 Shinanomachi, Shinjuku City, Tokyo 160-8582, Japan",160-8582,35.681427299999996,139.7181283,low,true,,

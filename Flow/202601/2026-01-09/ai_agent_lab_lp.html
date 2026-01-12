@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIエージェント実装ラボ - 論文実装を40時間で完了。中級者専用の実装コミュニティ</title>
+    <meta name="description" content="ChatGPT/Claudeを使いこなせるあなたへ。最新論文を実装コードに変換、業界特化型テンプレート完備。月額2,980円。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #1e3a8a;
+            --accent-color: #10b981;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 900;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--primary-color);
+            transition: all 0.3s;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 70px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.125rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2.25rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+        }
+
+        /* Problem Section */
+        .problem {
+            background: var(--bg-light);
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .problem-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .problem-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .problem-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        /* Solution Section */
+        .solution-comparison {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+        }
+
+        .comparison-box {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .comparison-box.before {
+            background: #fee2e2;
+            border: 3px solid #ef4444;
+        }
+
+        .comparison-box.after {
+            background: #d1fae5;
+            border: 3px solid var(--accent-color);
+        }
+
+        .comparison-label {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.875rem;
+        }
+
+        .comparison-box.before .comparison-label {
+            color: #ef4444;
+        }
+
+        .comparison-box.after .comparison-label {
+            color: var(--accent-color);
+        }
+
+        .comparison-time {
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 1rem 0;
+        }
+
+        .comparison-quality {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        /* Features Section */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid var(--accent-color);
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            background: var(--bg-light);
+        }
+
+        .steps {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 70px;
+            height: 70px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 900;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .step::after {
+            content: '→';
+            position: absolute;
+            right: -2rem;
+            top: 30px;
+            font-size: 2rem;
+            color: var(--accent-color);
+        }
+
+        .step:last-child::after {
+            display: none;
+        }
+
+        /* Pricing Section */
+        .pricing-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .price-highlight {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .price-amount {
+            font-size: 4rem;
+            font-weight: 900;
+            color: var(--primary-color);
+            margin: 1rem 0;
+        }
+
+        .price-amount small {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--text-light);
+        }
+
+        .comparison-table {
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 1.5rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .comparison-table th {
+            background: var(--primary-color);
+            color: white;
+            font-weight: 700;
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison-table .highlight {
+            background: #d1fae5;
+            font-weight: 700;
+        }
+
+        .check-mark {
+            color: var(--accent-color);
+            font-weight: 900;
+        }
+
+        .cross-mark {
+            color: #ef4444;
+            font-weight: 900;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+        .cta-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .form-input:focus {
+            outline: 3px solid var(--accent-color);
+        }
+
+        .trust-signals {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                right: -100%;
+                width: 70%;
+                height: calc(100vh - 70px);
+                background: white;
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+                transition: right 0.3s;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hamburger.active span:nth-child(1) {
+                transform: rotate(45deg) translate(8px, 8px);
+            }
+
+            .hamburger.active span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .hamburger.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -7px);
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            section h2 {
+                font-size: 1.75rem;
+            }
+
+            .price-amount {
+                font-size: 2.5rem;
+            }
+
+            .step::after {
+                display: none;
+            }
+
+            .comparison-table {
+                font-size: 0.875rem;
+            }
+
+            .comparison-table th,
+            .comparison-table td {
+                padding: 1rem;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">AIエージェント実装ラボ</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#problem">悩み</a></li>
+                <li><a href="#solution">解決策</a></li>
+                <li><a href="#features">機能</a></li>
+                <li><a href="#how-it-works">使い方</a></li>
+                <li><a href="#pricing">料金</a></li>
+                <li><a href="#cta">登録</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">先着100名限定 - 初月50%OFF</div>
+            <h1>論文実装を40時間で完了。<br>中級者専用の実装コミュニティ</h1>
+            <p>ChatGPT/Claudeを使いこなせるあなたへ。最新論文を実装コードに変換、業界特化型テンプレート完備。月額2,980円。</p>
+            <a href="#cta" class="cta-button">事前登録で初月50%OFF</a>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem" id="problem">
+        <h2>こんな悩み、ありませんか？</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <div class="problem-icon">📄</div>
+                <h3>論文は読めるが、<br>実装方法がわからない</h3>
+                <p>最新のAI研究論文を理解できても、実際のコードに落とし込む方法がわからず、手が止まってしまう...</p>
+            </div>
+            <div class="problem-card">
+                <div class="problem-icon">⏰</div>
+                <h3>初心者向けコンテンツに<br>時間を奪われる</h3>
+                <p>すでにChatGPTやClaudeは使いこなせるのに、初心者向けの基礎解説ばかりで時間を無駄にしている...</p>
+            </div>
+            <div class="problem-card">
+                <div class="problem-icon">🏢</div>
+                <h3>業界特化の実装例が<br>見つからない</h3>
+                <p>汎用的なチュートリアルは多いが、自分の業界（金融/医療/法務）に特化した実装例が見つからない...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution" id="solution">
+        <h2>40時間で論文実装を完了させる、<br>中級者専用カリキュラム</h2>
+        <div class="solution-comparison">
+            <div class="comparison-box before">
+                <div class="comparison-label">従来の方法</div>
+                <div class="comparison-time">200時間</div>
+                <div class="comparison-quality">完成度 50%</div>
+                <p>試行錯誤を繰り返し、結局中途半端な状態で挫折...</p>
+            </div>
+            <div class="comparison-box after">
+                <div class="comparison-label">本コミュニティ</div>
+                <div class="comparison-time">40時間</div>
+                <div class="comparison-quality">完成度 95%</div>
+                <p>動作確認済みコードと業界テンプレートで即実装可能!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>中級者のための3つの特徴</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>論文ベースの実装解説</h3>
+                <p>毎週1本、最新AI研究論文の実装解説を配信。動作確認済みのコードとともに、論文の核心を実装レベルで理解できます。</p>
+                <ul style="margin-top: 1rem; text-align: left; color: var(--text-light);">
+                    <li>✓ ReAct/ReWOO/Reflexion等の実装</li>
+                    <li>✓ Pythonコード + Jupyter Notebook</li>
+                    <li>✓ エラーハンドリング実装例</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>中級者専用カリキュラム</h3>
+                <p>「ChatGPTとは？」のような初心者向けコンテンツは一切なし。RAG構築、エージェントフレームワーク、プロンプトエンジニアリングに特化。</p>
+                <ul style="margin-top: 1rem; text-align: left; color: var(--text-light);">
+                    <li>✓ 初心者向けコンテンツゼロ</li>
+                    <li>✓ RAG評価指標の実装例</li>
+                    <li>✓ マルチエージェント設計</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏭</div>
+                <h3>業界特化型テンプレート</h3>
+                <p>金融、医療、法務、製造業界に特化した実装テンプレートを提供。汎用コードではなく、実案件ですぐ使える形式で提供します。</p>
+                <ul style="margin-top: 1rem; text-align: left; color: var(--text-light);">
+                    <li>✓ 金融: リスク分析エージェント</li>
+                    <li>✓ 医療: 診断支援RAGシステム</li>
+                    <li>✓ 法務: 契約書レビューエージェント</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <h2>3ステップで実装を開始</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>事前登録 &<br>オンボーディング</h3>
+                <p>わずか5分で登録完了。専用Slackコミュニティへ招待し、初回オンボーディング資料をお渡しします。</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>論文実装を実践</h3>
+                <p>週5時間、毎週配信される論文実装解説を実践。動作確認済みコードで確実にスキルアップ。</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>業界テンプレートで<br>実案件に適用</h3>
+                <p>習得した実装スキルを、業界特化型テンプレートで実案件に即座に適用。ROI最大化を実現します。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <h2>圧倒的なコストパフォーマンス</h2>
+        <div class="pricing-container">
+            <div class="price-highlight">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">月額料金</h3>
+                <div class="price-amount">¥2,980<small>/月</small></div>
+                <p style="color: var(--text-light); margin-bottom: 1.5rem;">初月50%OFF（先着100名限定）→ ¥1,490</p>
+                <a href="#cta" class="cta-button">今すぐ事前登録</a>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>比較項目</th>
+                        <th>本コミュニティ</th>
+                        <th>Udemy</th>
+                        <th>個別コンサル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>月額費用</td>
+                        <td class="highlight">¥2,980</td>
+                        <td>¥10,000〜</td>
+                        <td>¥50,000〜</td>
+                    </tr>
+                    <tr>
+                        <td>論文実装解説</td>
+                        <td class="highlight"><span class="check-mark">✓</span> 毎週更新</td>
+                        <td><span class="cross-mark">✗</span> 更新なし</td>
+                        <td><span class="check-mark">✓</span> 個別対応</td>
+                    </tr>
+                    <tr>
+                        <td>業界特化型テンプレート</td>
+                        <td class="highlight"><span class="check-mark">✓</span> 4業界対応</td>
+                        <td><span class="cross-mark">✗</span> 汎用のみ</td>
+                        <td><span class="check-mark">✓</span> カスタム</td>
+                    </tr>
+                    <tr>
+                        <td>中級者専用</td>
+                        <td class="highlight"><span class="check-mark">✓</span> 初心者コンテンツなし</td>
+                        <td><span class="cross-mark">✗</span> 初心者向けが多い</td>
+                        <td><span class="check-mark">✓</span> レベル調整可</td>
+                    </tr>
+                    <tr>
+                        <td>コミュニティサポート</td>
+                        <td class="highlight"><span class="check-mark">✓</span> Slack質問無制限</td>
+                        <td><span class="cross-mark">✗</span> 質問機能のみ</td>
+                        <td><span class="check-mark">✓</span> 1対1サポート</td>
+                    </tr>
+                    <tr>
+                        <td>実装完了までの時間</td>
+                        <td class="highlight"><span class="check-mark">✓</span> 40時間</td>
+                        <td>100時間〜</td>
+                        <td>30時間〜</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="margin-top: 2rem; text-align: center;">
+                <h3 style="margin-bottom: 1rem; color: var(--primary-color);">特典</h3>
+                <p>✓ 初月50%OFF（先着100名限定）</p>
+                <p>✓ RAG評価指標チートシート（PDF）</p>
+                <p>✓ プロンプトエンジニアリングテンプレート集</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <h2>今すぐ事前登録して、<br>初月50%OFFを手に入れよう</h2>
+        <div class="cta-form">
+            <form action="https://docs.google.com/forms/u/0/d/e/DUMMY_FORM_ID/formResponse" method="POST" target="_blank">
+                <div class="form-group">
+                    <input type="email" name="emailAddress" class="form-input" placeholder="メールアドレスを入力" required>
+                </div>
+                <button type="submit" class="cta-button">事前登録する（無料）</button>
+            </form>
+            <div class="trust-signals">
+                <div class="trust-item">
+                    <span>✓</span>
+                    <span>30日間返金保証</span>
+                </div>
+                <div class="trust-item">
+                    <span>✓</span>
+                    <span>いつでも解約可能</span>
+                </div>
+                <div class="trust-item">
+                    <span>✓</span>
+                    <span>クレジットカード不要</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AIエージェント実装ラボ. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.875rem; opacity: 0.7;">
+            <a href="#" style="color: white; text-decoration: none; margin: 0 1rem;">プライバシーポリシー</a>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 1rem;">利用規約</a>
+            <a href="#" style="color: white; text-decoration: none; margin: 0 1rem;">特定商取引法に基づく表記</a>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll with offset for fixed header
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 70; // 70px for fixed header
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animation for elements
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.problem-card, .feature-card, .step, .comparison-box').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Form submission handling (optional)
+        const ctaForm = document.querySelector('.cta-form form');
+        if (ctaForm) {
+            ctaForm.addEventListener('submit', (e) => {
+                // You can add custom form handling here if needed
+                // For now, it will submit to Google Forms as specified
+                setTimeout(() => {
+                    alert('事前登録ありがとうございます！確認メールをお送りしました。');
+                }, 500);
+            });
+        }
+    </script>
+</body>
+</html>

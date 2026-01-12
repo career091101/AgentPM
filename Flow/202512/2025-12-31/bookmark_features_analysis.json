@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "analyzed_at": "2026-01-02T11:37:57.504332",
+    "total_bookmarks": 823,
+    "unique_authors": 328,
+    "analysis_version": "1.0.0"
+  },
+  "keyword_analysis": {
+    "top_50_keywords": [
+      {
+        "word": "the",
+        "count": 278
+      },
+      {
+        "word": "to",
+        "count": 164
+      },
+      {
+        "word": "and",
+        "count": 145
+      },
+      {
+        "word": "of",
+        "count": 126
+      },
+      {
+        "word": "claude",
+        "count": 121
+      },
+      {
+        "word": "ai",
+        "count": 121
+      },
+      {
+        "word": "in",
+        "count": 107
+      },
+      {
+        "word": "is",
+        "count": 106
+      },
+      {
+        "word": "that",
+        "count": 75
+      },
+      {
+        "word": "gpt",
+        "count": 69
+      },
+      {
+        "word": "it",
+        "count": 68
+      },
+      {
+        "word": "openai",
+        "count": 66
+      },
+      {
+        "word": "code",
+        "count": 61
+      },
+      {
+        "word": "for",
+        "count": 61
+      },
+      {
+        "word": "on",
+        "count": 52
+      },
+      {
+        "word": "we",
+        "count": 51
+      },
+      {
+        "word": "will",
+        "count": 50
+      },
+      {
+        "word": "this",
+        "count": 49
+      },
+      {
+        "word": "with",
+        "count": 46
+      },
+      {
+        "word": "件の表示",
+        "count": 43
+      },
+      {
+        "word": "are",
+        "count": 43
+      },
+      {
+        "word": "gemini",
+        "count": 41
+      },
+      {
+        "word": "be",
+        "count": 41
+      },
+      {
+        "word": "by",
+        "count": 40
+      },
+      {
+        "word": "agent",
+        "count": 36
+      },
+      {
+        "word": "google",
+        "count": 35
+      },
+      {
+        "word": "new",
+        "count": 34
+      },
+      {
+        "word": "from",
+        "count": 33
+      },
+      {
+        "word": "as",
+        "count": 33
+      },
+      {
+        "word": "can",
+        "count": 32
+      },
+      {
+        "word": "just",
+        "count": 32
+      },
+      {
+        "word": "what",
+        "count": 31
+      },
+      {
+        "word": "you",
+        "count": 31
+      },
+      {
+        "word": "at",
+        "count": 29
+      },
+      {
+        "word": "but",
+        "count": 29
+      },
+      {
+        "word": "anthropic",
+        "count": 27
+      },
+      {
+        "word": "more",
+        "count": 27
+      },
+      {
+        "word": "skills",
+        "count": 25
+      },
+      {
+        "word": "has",
+        "count": 25
+      },
+      {
+        "word": "an",
+        "count": 24
+      },
+      {
+        "word": "chatgpt",
+        "count": 23
+      },
+      {
+        "word": "than",
+        "count": 23
+      },
+      {
+        "word": "model",
+        "count": 23
+      },
+      {
+        "word": "pro",
+        "count": 22
+      },
+      {
+        "word": "not",
+        "count": 22
+      },
+      {
+        "word": "sam",
+        "count": 22
+      },
+      {
+        "word": "agents",
+        "count": 21
+      },
+      {
+        "word": "have",
+        "count": 21
+      },
+      {
+        "word": "altman",
+        "count": 21
+      },
+      {
+        "word": "says",
+        "count": 21
+      }
+    ],
+    "total_unique_keywords": 7474
+  },
+  "category_distribution": {
+    "AI・生成AI": {
+      "count": 582,
+      "percentage": 70.7,
+      "avg_likes": 794.5
+    },
+    "その他": {
+      "count": 200,
+      "percentage": 24.3,
+      "avg_likes": 1774.3
+    },
+    "デザイン・UX": {
+      "count": 14,
+      "percentage": 1.7,
+      "avg_likes": 1614.0
+    },
+    "開発・エンジニアリング": {
+      "count": 13,
+      "percentage": 1.6,
+      "avg_likes": 487.2
+    },
+    "ビジネス・起業": {
+      "count": 11,
+      "percentage": 1.3,
+      "avg_likes": 1777.1
+    },
+    "生産性・自己啓発": {
+      "count": 3,
+      "percentage": 0.4,
+      "avg_likes": 518.7
+    }
+  },
+  "content_structure": {
+    "has_list": {
+      "count": 139,
+      "percentage": 16.9,
+      "examples": [
+        {
+          "text": "そら  Dify 自動化オタク\n@sora19ai\nごめんなさい。。。\n\nこっちだわ。。。\n\nCLAUDE .md→会社のビジョン\nMainAgent→社長\nSubAgents→幹部社員\nSkills→平社員が使うマニュアル\nTask→平社員\nTool(MCP, API, Sctipts)→社内共通ツール\n\nということは...                                    ",
+          "author": "sora19ai",
+          "likes": 137,
+          "url": "https://x.com/sora19ai/status/2006210336664551464"
+        },
+        {
+          "text": "Codex と Claude Code を組み合わせたワークフローが面白いな\nセットアップ：左に Codex、右に Claude Code\n\n流れはこう\n\n1. Claude Code を Plan モードで始める\n2. 計画を Codex にコピペして検証してもらう\n3. Codex がダメ出ししたら Claude Code にフィードバック\n4. Claude Code がミスったら",
+          "author": "commte",
+          "likes": 494,
+          "url": "https://x.com/commte/status/2005934954367291655"
+        },
+        {
+          "text": "とまだ@Vibe Coding Studio運営\n@muscle_coding\nZenn で出している Claude Code 本（無料）を大幅に拡充中です。\n\n　チャプター数：11 → 52\n\n年内になんとか終わらせたいお気持ち...！\n\nClaude Code 完全ガイド - 基礎から高度なカスタマイズまで｜とまだ@ AI 駆動開発教育者 \nhttps://\nzenn.dev/tmasuyam",
+          "author": "Vibe Coding Studio運営",
+          "likes": 559,
+          "url": "https://x.com/muscle_coding/status/2004702361282118114"
+        },
+        {
+          "text": "ちなみにアプリ版だとGeminiがChatGPTを猛追していて、ChatGPTのシェアが87%→68%まで急落。一方でGeminiが5.4%→18.2%と爆伸び中。ChatGPT：87.2% → 68%（-19.2pt）Gemini：5.4% → 18.2%（+12.8pt）Grok：2.9%（微増）DeepSeek：約4%Claude、Perplexity：各2%前後",
+          "author": "0x__tom",
+          "likes": 62,
+          "url": "https://x.com/0x__tom/status/2004716197439512798"
+        },
+        {
+          "text": "かずなり | 生成AI×ビジネスハック\n@MacopeninSUTABA\n「Claude Code」の入門資料が有益。\n\nCLIベースでありながらVS Code連携やGUI差分表示、Claude LLMによる高品質なコード生成、などClaude Codeの導入と活用について学ぶことができる。 \n\nこちら\n\nhttps://\nspeakerdeck.com/minorun365/yas\nasiicl",
+          "author": "MacopeninSUTABA",
+          "likes": 982,
+          "url": "https://x.com/MacopeninSUTABA/status/2004356738837877116"
+        }
+      ]
+    },
+    "has_quote": {
+      "count": 95,
+      "percentage": 11.5,
+      "examples": [
+        {
+          "text": "そら  Dify 自動化オタク\n@sora19ai\nごめんなさい。。。\n\nこっちだわ。。。\n\nCLAUDE .md→会社のビジョン\nMainAgent→社長\nSubAgents→幹部社員\nSkills→平社員が使うマニュアル\nTask→平社員\nTool(MCP, API, Sctipts)→社内共通ツール\n\nということは...                                    ",
+          "author": "sora19ai",
+          "likes": 137,
+          "url": "https://x.com/sora19ai/status/2006210336664551464"
+        },
+        {
+          "text": "NAKAMURA Atsushi\n@nuits_jp\n書いた\n\nやはりお前らのSkillsの解釈はまちがっている。｜Atsushi Nakamura \nhttps://\nzenn.dev/nuits_jp/artic\nles/2025-12-30-interpretation-of-agent-skills\n… #zenn\nやはりお前らのSkillsの解釈はまちがっている。\nzenn.devから\n",
+          "author": "nuits_jp",
+          "likes": 872,
+          "url": "https://x.com/nuits_jp/status/2005874450999247221"
+        },
+        {
+          "text": "けい@AI × 個人開発\n@agnus_dei_k\n1再生あたりいくらくらいなのか気になる…\n引用\nJP@BGM副業\n@sho1158587\n·\n12月26日\nsunoAIで楽曲作って\nsoundonに登録して\n完全放置してたやつ\n\ntiktokメインで楽曲が使われて\n１年で45000円の印税収益になりました\n\n著作権収益みたいな額にはならないけど\n完全な不労働収入なので\n副業としてはいいかもしれ",
+          "author": "AI × 個人開発",
+          "likes": 10,
+          "url": "https://x.com/agnus_dei_k/status/2004921728569672083"
+        },
+        {
+          "text": "Masahiro Nishimi | Generative Agents\n@mah_lab\n「お前もエージェントビルダーにならないか？」\n\nの文脈で、ご紹介した記事がこちらです\n\n【AIエージェント開発の実践論】実用化に向けた「地道なルール作り」と「品質の評価」\n\nhttps://\ncodezine.jp/article/detail\n/22673\n…\n\nエージェントビルダーとしてコーディングエー",
+          "author": "mah_lab",
+          "likes": 31,
+          "url": "https://x.com/mah_lab/status/2004405640119345584"
+        },
+        {
+          "text": "スナガク@suna_gakuAnthoropic の ベストプラクティスだと、Skills は、一度作って終わりでは無く、 「継続的に評価して改良する」  必要がある…\nそのため、最初に評価を構築することが重要に！\n\nベストプラクティスの方法\nhttps://platform.claude.com/docs/ja/agents-and-tools/agent-skills/best-practic",
+          "author": "suna_gaku",
+          "likes": 49,
+          "url": "https://x.com/suna_gaku/status/2004334026249867478"
+        }
+      ]
+    },
+    "has_numbers": {
+      "count": 81,
+      "percentage": 9.8,
+      "examples": [
+        {
+          "text": "けい@AI × 個人開発\n@agnus_dei_k\n1再生あたりいくらくらいなのか気になる…\n引用\nJP@BGM副業\n@sho1158587\n·\n12月26日\nsunoAIで楽曲作って\nsoundonに登録して\n完全放置してたやつ\n\ntiktokメインで楽曲が使われて\n１年で45000円の印税収益になりました\n\n著作権収益みたいな額にはならないけど\n完全な不労働収入なので\n副業としてはいいかもしれ",
+          "author": "AI × 個人開発",
+          "likes": 10,
+          "url": "https://x.com/agnus_dei_k/status/2004921728569672083"
+        },
+        {
+          "text": "ちなみにアプリ版だとGeminiがChatGPTを猛追していて、ChatGPTのシェアが87%→68%まで急落。一方でGeminiが5.4%→18.2%と爆伸び中。ChatGPT：87.2% → 68%（-19.2pt）Gemini：5.4% → 18.2%（+12.8pt）Grok：2.9%（微増）DeepSeek：約4%Claude、Perplexity：各2%前後",
+          "author": "0x__tom",
+          "likes": 62,
+          "url": "https://x.com/0x__tom/status/2004716197439512798"
+        },
+        {
+          "text": "初期の知能爆発の雰囲気を感じる\n\n2024年4月以降、フロンティアAIの能力向上は加速したようで、改善率はほぼ2倍速くなっています\n\nこれは、ラボが推論型モデルやRL（単なる大規模な事前トレーニングの実行だけでなく）にずっと大きな比重を置くようになった時期とほぼ重なります",
+          "author": "singularity20xy",
+          "likes": 41,
+          "url": "https://x.com/singularity20xy/status/2004486811620417909"
+        },
+        {
+          "text": "これ試してみて、、\n\nLINEのトーク履歴エクスポート\n↓\nClaudeに「このトークから〇〇の話し方を完全に再現するSkillを作って」\n↓\n自分のクローン完成\n\nClaude Skillsの凄さは記事とか読んで理解しようとするより自分のデータ食わせた方が100倍早くわかる。\n\n※相手には許可取ってね",
+          "author": "riku720720",
+          "likes": 38,
+          "url": "https://x.com/riku720720/status/2002912353508364599"
+        },
+        {
+          "text": "日本の経営者、18%がAI対応で「1年以内に人員削減」　KPMG調べ",
+          "author": "nikkei",
+          "likes": 864,
+          "url": "https://x.com/nikkei/status/2002676573976101159"
+        }
+      ]
+    },
+    "is_announcement": {
+      "count": 62,
+      "percentage": 7.5,
+      "examples": [
+        {
+          "text": "【PM必見】Cursor、Claude Code、Antigravityの公式チュートリアル公開されています！\n\n英語苦手な人はChrome翻訳で即読めます",
+          "author": "_nogu66",
+          "likes": 63,
+          "url": "https://x.com/_nogu66/status/2004114919214797272"
+        },
+        {
+          "text": "不定期連載企画\n「Claude Codeのコンテキストウィンドウを完全に理解する」が公開されました。\n\nこの記事では12月5日発売の「Claude CodeによるAI駆動開発入門」の内容をさらに掘り下げた事柄について解説しています。\nコンテキストウィンドウを制するものは開発を制します。是非読んでください。",
+          "author": "Claude CodeによるAI駆動開発入門",
+          "likes": 351,
+          "url": "https://x.com/t_hirakawa/status/2003309818204028947"
+        },
+        {
+          "text": "そら  Dify 自動化オタク@sora19aiあぁっ...///　ヤバすぎるわ...\nこれ公開していいのかわからないけど、\n\nXでバズらせるClaude Skillsを\nClaudeに作らせたら分身を自動で作れちゃった。\n\n\"ついスポ\"でCSVダウンロード\n↓\nAnalyticsでCSVをダウンロード\n↓\nClaudeに読み込ませる\n↓\nSkillsを作らせる\n↓\nSkillsを使ってXの投稿を",
+          "author": "sora19ai",
+          "likes": 124,
+          "url": "https://x.com/sora19ai/status/2002624073390829948"
+        },
+        {
+          "text": "Googleが衝撃のモバイル特化型の新AIモデル「FunctionGemma」をリリースしました。\n\nインターネット接続は不要で、モバイルデバイス上で完全オフラインで動作します。\n\nクラウドを介さず、スマホの中で完結するAIの新時代が到来しました。\n\nその衝撃の詳細を3つのポイントにまとめました。\n\n1.",
+          "author": "kosuke_agos",
+          "likes": 639,
+          "url": "https://x.com/kosuke_agos/status/2002602619349708923"
+        },
+        {
+          "text": "松丸 彗吾(keigo_matsumaru)\n@k_matsumaru\nびっくりした、直でストア公開まで出来んのかと思ったら現状APK出力までか、でも将来のアプデで対応ってかかれてるからゆくゆくは…\nアプリ内課金やサブスクまでAIエージェントが良しなにやってくれて、審査リジェクトされても修正してくれて、ストアに並べるスクショとかまで全部用意してくれて、端末毎のテストも全部回してくれて、分析も…とか",
+          "author": "k_matsumaru",
+          "likes": 329,
+          "url": "https://x.com/k_matsumaru/status/2000858681261347234"
+        }
+      ]
+    },
+    "has_url": {
+      "count": 42,
+      "percentage": 5.1,
+      "examples": [
+        {
+          "text": "NAKAMURA Atsushi\n@nuits_jp\n書いた\n\nやはりお前らのSkillsの解釈はまちがっている。｜Atsushi Nakamura \nhttps://\nzenn.dev/nuits_jp/artic\nles/2025-12-30-interpretation-of-agent-skills\n… #zenn\nやはりお前らのSkillsの解釈はまちがっている。\nzenn.devから\n",
+          "author": "nuits_jp",
+          "likes": 872,
+          "url": "https://x.com/nuits_jp/status/2005874450999247221"
+        },
+        {
+          "text": "とまだ@Vibe Coding Studio運営\n@muscle_coding\nZenn で出している Claude Code 本（無料）を大幅に拡充中です。\n\n　チャプター数：11 → 52\n\n年内になんとか終わらせたいお気持ち...！\n\nClaude Code 完全ガイド - 基礎から高度なカスタマイズまで｜とまだ@ AI 駆動開発教育者 \nhttps://\nzenn.dev/tmasuyam",
+          "author": "Vibe Coding Studio運営",
+          "likes": 559,
+          "url": "https://x.com/muscle_coding/status/2004702361282118114"
+        },
+        {
+          "text": "かずなり | 生成AI×ビジネスハック\n@MacopeninSUTABA\n「Claude Code」の入門資料が有益。\n\nCLIベースでありながらVS Code連携やGUI差分表示、Claude LLMによる高品質なコード生成、などClaude Codeの導入と活用について学ぶことができる。 \n\nこちら\n\nhttps://\nspeakerdeck.com/minorun365/yas\nasiicl",
+          "author": "MacopeninSUTABA",
+          "likes": 982,
+          "url": "https://x.com/MacopeninSUTABA/status/2004356738837877116"
+        },
+        {
+          "text": "Masahiro Nishimi | Generative Agents\n@mah_lab\n「お前もエージェントビルダーにならないか？」\n\nの文脈で、ご紹介した記事がこちらです\n\n【AIエージェント開発の実践論】実用化に向けた「地道なルール作り」と「品質の評価」\n\nhttps://\ncodezine.jp/article/detail\n/22673\n…\n\nエージェントビルダーとしてコーディングエー",
+          "author": "mah_lab",
+          "likes": 31,
+          "url": "https://x.com/mah_lab/status/2004405640119345584"
+        },
+        {
+          "text": "スナガク@suna_gakuAnthoropic の ベストプラクティスだと、Skills は、一度作って終わりでは無く、 「継続的に評価して改良する」  必要がある…\nそのため、最初に評価を構築することが重要に！\n\nベストプラクティスの方法\nhttps://platform.claude.com/docs/ja/agents-and-tools/agent-skills/best-practic",
+          "author": "suna_gaku",
+          "likes": 49,
+          "url": "https://x.com/suna_gaku/status/2004334026249867478"
+        }
+      ]
+    },
+    "is_tutorial": {
+      "count": 31,
+      "percentage": 3.8,
+      "examples": [
+        {
+          "text": "海外で大バズした1時間30分超えの\n「Claude Code完全ガイド」が最高だった。\nㅤ\n「Claude Code」と「Codex (GPT-5 High)」を使って、12個のアプリを実際に作りながら学べる実践的な動画。初心者向けの最初のプロンプトから、編集の仕方まで丁寧に解説されてる。",
+          "author": "SuguruKun_ai",
+          "likes": 1368,
+          "url": "https://x.com/SuguruKun_ai/status/2005864906751627707"
+        },
+        {
+          "text": "とまだ@Vibe Coding Studio運営\n@muscle_coding\nZenn で出している Claude Code 本（無料）を大幅に拡充中です。\n\n　チャプター数：11 → 52\n\n年内になんとか終わらせたいお気持ち...！\n\nClaude Code 完全ガイド - 基礎から高度なカスタマイズまで｜とまだ@ AI 駆動開発教育者 \nhttps://\nzenn.dev/tmasuyam",
+          "author": "Vibe Coding Studio運営",
+          "likes": 559,
+          "url": "https://x.com/muscle_coding/status/2004702361282118114"
+        },
+        {
+          "text": "スナガク@suna_gakuAnthoropic の ベストプラクティスだと、Skills は、一度作って終わりでは無く、 「継続的に評価して改良する」  必要がある…\nそのため、最初に評価を構築することが重要に！\n\nベストプラクティスの方法\nhttps://platform.claude.com/docs/ja/agents-and-tools/agent-skills/best-practic",
+          "author": "suna_gaku",
+          "likes": 49,
+          "url": "https://x.com/suna_gaku/status/2004334026249867478"
+        },
+        {
+          "text": "【PM必見】Cursor、Claude Code、Antigravityの公式チュートリアル公開されています！\n\n英語苦手な人はChrome翻訳で即読めます",
+          "author": "_nogu66",
+          "likes": 63,
+          "url": "https://x.com/_nogu66/status/2004114919214797272"
+        },
+        {
+          "text": "海外の起業家の間で話題になったRedditを用いた「100万ドルを稼ぐ」ニッチ発見方法がヤバすぎる。\n\n下記でGoogle検索をするだけ。\n「site :reddit. com \"狙う領域\" \"キーワード\"」\n\n何ヶ月もかけて市場調査をするまでもなく、世界のどこかにいる「ガチで困ってる人」を一瞬で見つけ出すことができる。",
+          "author": "L_go_mrk",
+          "likes": 1821,
+          "url": "https://x.com/L_go_mrk/status/2003811777956757762"
+        }
+      ]
+    },
+    "is_thread": {
+      "count": 12,
+      "percentage": 1.5,
+      "examples": [
+        {
+          "text": "Kenn Ejima\n@kenn\n購入する\nGPT-5.2-Codexの動作が速くなったので\n\n1. Opusでプラン\n2. Codexでプランをレビュー\n3. Opusの新スレッドでプランを実行\n4. Codexで実行結果のレビュー\n\nの順番と役割が揺れている…\n\nプランの可読性でいうと\nOpusのほうが人間にやさしい\nけどどうせほとんど読んでないし\nもう諦めてCodex一発で任せたほうがいいの",
+          "author": "kenn",
+          "likes": 337,
+          "url": "https://x.com/kenn/status/2002547913126506542"
+        },
+        {
+          "text": "【速報】ChatGPTとSlackの連携が大幅強化Slack上で直接ChatGPTに質問や要約、文章作成を依頼可能にChatGPTがSlack内の会話を直接、参照可能に\n\n2つの新機能の詳細・設定方法をスレッドにまとめました",
+          "author": "ctgptlb",
+          "likes": 647,
+          "url": "https://x.com/ctgptlb/status/1977902350745711102"
+        },
+        {
+          "text": "【速報】SlackにてChatGPTが利用可能に\n\n・専用サイドバーで1対1対話\n・長文スレッドを即座に要約\n・Slack内のキーワードや資料検索\n・ChatGPTとSlackの有料プランで利用可\n\n資料検索、返信作成、チャンネル1週間要約など大活躍。\nClaudeより精度高い印象。Slack内で完結するのが便利。\n\n利用方法⇩",
+          "author": "masahirochaen",
+          "likes": 544,
+          "url": "https://x.com/masahirochaen/status/1977918925741687281"
+        },
+        {
+          "text": "元GoogleのCEO エリック・シュミット：\n\n・超知能の誕生は6～7年後\n・AGI実現の鍵はアナロジー（類推）\n・AGI実現にはAI自身による目的関数の設定能力が不可欠\n・AIによる戦争の進化で、抑止力は飛躍的に向上\n\nスレッドにまとめます↓",
+          "author": "d_1d2d",
+          "likes": 431,
+          "url": "https://x.com/d_1d2d/status/1971007938564333880"
+        },
+        {
+          "text": "NvidiaのOpenAIへの15兆円投資について、サム・アルトマンとジェンスン・フアンらが語る：\n\n・AIコンピューティングの規模は指数関数的に増大\n・DeepSeekショックの誤りに世界が気づき始めた\n・今回の契約でGPUを数百万個確保できるが、実際にはその1000倍の100億個必要\n\nスレッドにまとめます↓",
+          "author": "d_1d2d",
+          "likes": 391,
+          "url": "https://x.com/d_1d2d/status/1970368645416231402"
+        }
+      ]
+    }
+  },
+  "author_analysis": {
+    "top_20_authors": [
+      {
+        "username": "Tsubame33785667",
+        "post_count": 51,
+        "percentage": 6.2
+      },
+      {
+        "username": "kimmonismus",
+        "post_count": 35,
+        "percentage": 4.3
+      },
+      {
+        "username": "d_1d2d",
+        "post_count": 32,
+        "percentage": 3.9
+      },
+      {
+        "username": "masahirochaen",
+        "post_count": 30,
+        "percentage": 3.6
+      },
+      {
+        "username": "bioshok3",
+        "post_count": 28,
+        "percentage": 3.4
+      },
+      {
+        "username": "Coalis",
+        "post_count": 25,
+        "percentage": 3.0
+      },
+      {
+        "username": "oikon48",
+        "post_count": 19,
+        "percentage": 2.3
+      },
+      {
+        "username": "生成AIの産業応用",
+        "post_count": 18,
+        "percentage": 2.2
+      },
+      {
+        "username": "singularity20xy",
+        "post_count": 14,
+        "percentage": 1.7
+      },
+      {
+        "username": "slow_developer",
+        "post_count": 12,
+        "percentage": 1.5
+      },
+      {
+        "username": "tetumemo",
+        "post_count": 11,
+        "percentage": 1.3
+      },
+      {
+        "username": "tomoyaasakura",
+        "post_count": 11,
+        "percentage": 1.3
+      },
+      {
+        "username": "VraserX",
+        "post_count": 10,
+        "percentage": 1.2
+      },
+      {
+        "username": "BrandonKHill",
+        "post_count": 9,
+        "percentage": 1.1
+      },
+      {
+        "username": "AI_LowCode",
+        "post_count": 8,
+        "percentage": 1.0
+      },
+      {
+        "username": "kenn",
+        "post_count": 7,
+        "percentage": 0.9
+      },
+      {
+        "username": "kosuke_agos",
+        "post_count": 7,
+        "percentage": 0.9
+      },
+      {
+        "username": "tommy_love123",
+        "post_count": 7,
+        "percentage": 0.9
+      },
+      {
+        "username": "btibor91",
+        "post_count": 7,
+        "percentage": 0.9
+      },
+      {
+        "username": "sora19ai",
+        "post_count": 6,
+        "percentage": 0.7
+      }
+    ]
+  },
+  "text_statistics": {
+    "average_length": 154.7,
+    "min_length": 0,
+    "max_length": 2019
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "バッチ番号": "2/2",
+  "投稿数": 5,
+  "開始番号": 6,
+  "終了番号": 10,
+  "評価依頼": [
+    {
+      "投稿番号": 6,
+      "投稿データ": {
+        "text": "",
+        "author_username": "sundarpichai",
+        "engagement": {
+          "replies": 687,
+          "retweets": 1237,
+          "likes": 16799,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-11-14T23:52:10.000Z",
+        "url": "https://x.com/sundarpichai/status/1989481514393121239"
+      }
+    },
+    {
+      "投稿番号": 7,
+      "投稿データ": {
+        "text": "our livestream tomorrow at 10 am PDT will be longer than usual, around an hour.\n\nwe have a lot to show and hope you can find the the time to watch!",
+        "author_username": "sama",
+        "engagement": {
+          "replies": 1263,
+          "retweets": 1501,
+          "likes": 15732,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-07T03:24:29.000Z",
+        "url": "https://x.com/sama/status/1953296157586931745"
+      }
+    },
+    {
+      "投稿番号": 8,
+      "投稿データ": {
+        "text": "how is this possible",
+        "author_username": "nicdunz",
+        "engagement": {
+          "replies": 488,
+          "retweets": 1796,
+          "likes": 12499,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-20T16:22:04.000Z",
+        "url": "https://x.com/nicdunz/status/1958202886082507013"
+      }
+    },
+    {
+      "投稿番号": 9,
+      "投稿データ": {
+        "text": "私が知る限りJavaScriptを学ぶ最短距離はこれ",
+        "author_username": "hpeo_it",
+        "engagement": {
+          "replies": 3,
+          "retweets": 1225,
+          "likes": 11158,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-07-17T04:17:04.000Z",
+        "url": "https://x.com/hpeo_it/status/1945699246801649896"
+      }
+    },
+    {
+      "投稿番号": 10,
+      "投稿データ": {
+        "text": "Mayte Chummia\n@Maytechummia\n翻訳を表示\nThis video has gone viral. China attacks Taiwan and the US counterattack ...\n1:03\n投稿者: \n静曼\n午後8:16 · 2025年12月13日\n·\n565万\n 件の表示\n2,690\n1,486\n9,939\n3,450",
+        "author_username": "Maytechummia",
+        "engagement": {
+          "replies": 2690,
+          "retweets": 1488,
+          "likes": 9941,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-12-13T11:16:47.000Z",
+        "url": "https://x.com/Maytechummia/status/1999800665485246848"
+      }
+    }
+  ]
+}

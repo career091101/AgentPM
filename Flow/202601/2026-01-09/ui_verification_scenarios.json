@@ -1,0 +1,1619 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2026-01-09",
+    "description": "Chrome拡張MCPを使用したUIテスト検証シナリオ（5パターン）",
+    "total_scenarios": 5,
+    "execution_time_estimate_minutes": 10,
+    "quality_gate_score_threshold": 70
+  },
+  "scenarios": [
+    {
+      "id": "scenario_001",
+      "name": "ログインフロー検証",
+      "category": "authentication",
+      "description": "ユーザーが正常にログインでき、ダッシュボードへ遷移することを検証",
+      "preconditions": [
+        "テスト環境のアプリケーションが起動している",
+        "テストユーザーアカウントが存在する（email: test@example.com, password: testpass123）",
+        "ブラウザのクッキーはクリア済み"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "tabs_context_mcp",
+          "description": "Chrome拡張接続＋タブグループ情報取得",
+          "parameters": {
+            "createIfEmpty": true
+          },
+          "expected_output": {
+            "type": "tabs_info",
+            "contains": ["tab_id", "group_info"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 2,
+          "action": "tabs_create_mcp",
+          "description": "新規テストタブを作成（隔離環境）",
+          "parameters": {},
+          "expected_output": {
+            "type": "tab_id",
+            "pattern": "number"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 3,
+          "action": "resize_window",
+          "description": "デスクトップビューポート設定（1920x1080）",
+          "parameters": {
+            "width": 1920,
+            "height": 1080
+          },
+          "expected_output": {
+            "type": "success",
+            "window_width": 1920,
+            "window_height": 1080
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 4,
+          "action": "navigate",
+          "description": "ログインページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/login"
+          },
+          "expected_output": {
+            "type": "page_loaded",
+            "contains": ["email input", "password input", "login button"]
+          },
+          "timeout_seconds": 8,
+          "post_action_wait_seconds": 2
+        },
+        {
+          "step_number": 5,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "ログインページの初期表示をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id",
+            "visual_checks": [
+              "ロゴが表示されている",
+              "メールアドレス入力欄がある",
+              "パスワード入力欄がある",
+              "ログインボタンが有効状態"
+            ]
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 6,
+          "action": "find",
+          "description": "メールアドレス入力欄を検索",
+          "parameters": {
+            "query": "email input field or email address input"
+          },
+          "expected_output": {
+            "type": "ref_id",
+            "pattern": "ref_\\d+"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 7,
+          "action": "form_input",
+          "description": "テストメールアドレスを入力",
+          "parameters": {
+            "ref": "ref_from_step_6",
+            "value": "test@example.com"
+          },
+          "expected_output": {
+            "type": "success",
+            "field_value": "test@example.com"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 8,
+          "action": "find",
+          "description": "パスワード入力欄を検索",
+          "parameters": {
+            "query": "password input field"
+          },
+          "expected_output": {
+            "type": "ref_id",
+            "pattern": "ref_\\d+"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 9,
+          "action": "form_input",
+          "description": "テストパスワードを入力",
+          "parameters": {
+            "ref": "ref_from_step_8",
+            "value": "testpass123"
+          },
+          "expected_output": {
+            "type": "success",
+            "field_value": "testpass123"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 10,
+          "action": "find",
+          "description": "ログインボタンを検索",
+          "parameters": {
+            "query": "login button or submit button"
+          },
+          "expected_output": {
+            "type": "ref_id",
+            "pattern": "ref_\\d+"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 11,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "ログインボタンをクリック",
+          "parameters": {
+            "ref": "ref_from_step_10"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 12,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "認証処理とページ遷移を待機（最大5秒）",
+          "parameters": {
+            "duration": 5
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 6
+        },
+        {
+          "step_number": 13,
+          "action": "read_page",
+          "description": "ページ内容を読み取り（ダッシュボード要素確認）",
+          "parameters": {
+            "filter": "all",
+            "depth": 12
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "must_contain": ["dashboard", "user profile", "logout"],
+            "must_not_contain": ["error", "invalid login"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 14,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "ダッシュボード表示をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id",
+            "visual_checks": [
+              "ユーザー名が表示されている",
+              "ダッシュボードコンテンツが表示されている",
+              "ログアウトボタンが表示されている"
+            ]
+          },
+          "timeout_seconds": 3
+        }
+      ],
+      "success_criteria": {
+        "required_checks": [
+          {
+            "name": "ページ遷移成功",
+            "check": "step_13_output.must_contain includes 'dashboard'",
+            "points": 20,
+            "failure_mode": "ダッシュボード要素が見つからない → ログイン失敗"
+          },
+          {
+            "name": "フォーム入力成功",
+            "check": "step_7_output.field_value == 'test@example.com' AND step_9_output.field_value == 'testpass123'",
+            "points": 15,
+            "failure_mode": "フォーム入力が反映されていない"
+          },
+          {
+            "name": "ボタンクリック成功",
+            "check": "step_11_output.click_success == true",
+            "points": 10,
+            "failure_mode": "ボタンクリックが機能していない"
+          },
+          {
+            "name": "エラーメッセージ非表示",
+            "check": "step_13_output.must_not_contain includes error messages",
+            "points": 15,
+            "failure_mode": "エラーが表示されている"
+          },
+          {
+            "name": "ビジュアル品質",
+            "check": "screenshot_visual_checks passed in step_14",
+            "points": 25,
+            "failure_mode": "レイアウトが崩れている、要素が欠落している"
+          },
+          {
+            "name": "レスポンス時間",
+            "check": "Total execution time <= 30 seconds",
+            "points": 15,
+            "failure_mode": "応答が遅い"
+          }
+        ],
+        "total_points": 100,
+        "passing_score": 70
+      },
+      "timeout_settings": {
+        "overall_timeout_seconds": 60,
+        "per_step_max_timeout_seconds": 10,
+        "retry_on_failure": true,
+        "max_retries": 2
+      },
+      "error_handling": {
+        "page_not_loaded": {
+          "description": "ページが読み込まれない場合",
+          "recovery_actions": [
+            "5秒待機後に再度navigate実行",
+            "ブラウザコンソール確認（read_console_messages）",
+            "localhost接続確認"
+          ]
+        },
+        "element_not_found": {
+          "description": "入力欄やボタンが見つからない場合",
+          "recovery_actions": [
+            "read_page(filter='all', depth=15)で全要素確認",
+            "要素のセレクタを手動特定",
+            "JavaScriptで要素存在確認"
+          ]
+        },
+        "login_failed": {
+          "description": "ログイン後もダッシュボードに遷移しない場合",
+          "recovery_actions": [
+            "ブラウザのネットワークタブを確認（read_network_requests）",
+            "APIレスポンスを確認",
+            "クッキー状態を確認"
+          ]
+        }
+      },
+      "post_scenario_cleanup": [
+        "ページのクッキーをクリア（必要に応じて）",
+        "ブラウザコンソールをクリア",
+        "テストタブは次のシナリオ用に再利用可能"
+      ]
+    },
+    {
+      "id": "scenario_002",
+      "name": "フォーム送信検証",
+      "category": "form_handling",
+      "description": "複数フィールドのフォームが正常に送信でき、バリデーションが機能することを検証",
+      "preconditions": [
+        "ユーザーがログイン済みの状態",
+        "テスト対象フォームページが表示可能"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "テスト対象フォームページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/settings/profile-edit"
+          },
+          "expected_output": {
+            "type": "page_loaded",
+            "contains": ["form", "input fields", "submit button"]
+          },
+          "timeout_seconds": 8,
+          "post_action_wait_seconds": 2
+        },
+        {
+          "step_number": 2,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "フォーム初期状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 3,
+          "action": "read_page",
+          "description": "フォームフィールド一覧を読み取り",
+          "parameters": {
+            "filter": "interactive",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "contains": ["input", "textarea", "select"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 4,
+          "action": "find",
+          "description": "名前入力欄を検索",
+          "parameters": {
+            "query": "name field or full name input"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 5,
+          "action": "form_input",
+          "description": "名前を入力（有効値）",
+          "parameters": {
+            "ref": "ref_from_step_4",
+            "value": "田中太郎"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 6,
+          "action": "find",
+          "description": "メール入力欄を検索",
+          "parameters": {
+            "query": "email field or email address"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 7,
+          "action": "form_input",
+          "description": "メールアドレスを入力（有効値）",
+          "parameters": {
+            "ref": "ref_from_step_6",
+            "value": "tanaka@example.com"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 8,
+          "action": "find",
+          "description": "電話番号入力欄を検索",
+          "parameters": {
+            "query": "phone field or telephone number"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 9,
+          "action": "form_input",
+          "description": "電話番号を入力",
+          "parameters": {
+            "ref": "ref_from_step_8",
+            "value": "09012345678"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 10,
+          "action": "find",
+          "description": "送信ボタンを検索",
+          "parameters": {
+            "query": "submit button or save button or send button"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 11,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "フォーム送信前の状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 12,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "送信ボタンをクリック",
+          "parameters": {
+            "ref": "ref_from_step_10"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 13,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "フォーム送信処理を待機（最大4秒）",
+          "parameters": {
+            "duration": 4
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 14,
+          "action": "read_page",
+          "description": "送信後のページ状態を確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "should_contain_one_of": [
+              "success message",
+              "confirmation message",
+              "submitted successfully"
+            ]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 15,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "フォーム送信完了後の状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 16,
+          "action": "javascript_tool",
+          "description": "フォーム送信のAPIレスポンス確認",
+          "parameters": {
+            "text": "fetch('http://localhost:3000/api/profile').then(r => r.json()).then(d => d);"
+          },
+          "expected_output": {
+            "type": "json_response",
+            "contains": {
+              "status": "success",
+              "name": "田中太郎"
+            }
+          },
+          "timeout_seconds": 5
+        }
+      ],
+      "success_criteria": {
+        "required_checks": [
+          {
+            "name": "複数フィールド入力成功",
+            "check": "step_5, step_7, step_9 すべて success",
+            "points": 20,
+            "failure_mode": "フォーム入力が機能していない"
+          },
+          {
+            "name": "フォーム送信成功",
+            "check": "step_14_output contains success message",
+            "points": 25,
+            "failure_mode": "フォーム送信失敗またはエラーメッセージ表示"
+          },
+          {
+            "name": "バックエンド処理成功",
+            "check": "step_16_output.status == 'success'",
+            "points": 20,
+            "failure_mode": "サーバー側での処理失敗"
+          },
+          {
+            "name": "ユーザーフィードバック",
+            "check": "Success message visible in screenshot_step_15",
+            "points": 15,
+            "failure_mode": "完了メッセージが表示されていない"
+          },
+          {
+            "name": "フォーム検証",
+            "check": "No validation errors displayed",
+            "points": 15,
+            "failure_mode": "バリデーションエラーが表示されている"
+          },
+          {
+            "name": "レスポンス時間",
+            "check": "Total time <= 40 seconds",
+            "points": 5,
+            "failure_mode": "処理が遅い"
+          }
+        ],
+        "total_points": 100,
+        "passing_score": 70
+      },
+      "timeout_settings": {
+        "overall_timeout_seconds": 80,
+        "per_step_max_timeout_seconds": 10,
+        "retry_on_failure": true,
+        "max_retries": 2
+      },
+      "validation_tests": {
+        "invalid_email_test": {
+          "description": "無効なメールアドレスでバリデーション確認",
+          "steps": [
+            "メール欄に 'invalid-email' を入力",
+            "送信ボタンをクリック",
+            "バリデーションエラーが表示されることを確認"
+          ],
+          "expected_output": "error_message_displayed",
+          "points": 10
+        },
+        "empty_field_test": {
+          "description": "必須フィールド未入力でバリデーション確認",
+          "steps": [
+            "名前欄を空のままに",
+            "送信ボタンをクリック",
+            "「名前は必須です」というエラーが表示される"
+          ],
+          "expected_output": "error_message_for_required_field",
+          "points": 10
+        }
+      },
+      "error_handling": {
+        "network_error": {
+          "description": "フォーム送信中にネットワークエラーが発生",
+          "recovery_actions": [
+            "read_network_requests でAPI呼び出し確認",
+            "ネットワークステータス確認",
+            "再送信試行"
+          ]
+        },
+        "validation_error": {
+          "description": "クライアント側バリデーションエラー",
+          "recovery_actions": [
+            "エラーメッセージを読み取り",
+            "フィールド値を修正",
+            "再送信"
+          ]
+        }
+      }
+    },
+    {
+      "id": "scenario_003",
+      "name": "ページ遷移検証",
+      "category": "navigation",
+      "description": "複数ページ間の遷移が正常に行われ、リンク・ボタンが機能することを検証",
+      "preconditions": [
+        "アプリケーションが起動している",
+        "ユーザーがログイン済み"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "ダッシュボードホームページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/dashboard"
+          },
+          "expected_output": {
+            "type": "page_loaded"
+          },
+          "timeout_seconds": 8,
+          "post_action_wait_seconds": 2
+        },
+        {
+          "step_number": 2,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "ダッシュボード初期状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 3,
+          "action": "find",
+          "description": "サイドメニューの『プロジェクト』リンクを検索",
+          "parameters": {
+            "query": "projects link or projects menu or projects navigation"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 4,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "『プロジェクト』リンクをクリック",
+          "parameters": {
+            "ref": "ref_from_step_3"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 5,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "ページ遷移を待機（最大4秒）",
+          "parameters": {
+            "duration": 4
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 6,
+          "action": "read_page",
+          "description": "プロジェクトページの内容確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "contains": ["project", "list", "title"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 7,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "プロジェクトページをスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 8,
+          "action": "find",
+          "description": "プロジェクトリスト内の最初のプロジェクトを検索",
+          "parameters": {
+            "query": "first project item or first project link"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 9,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "プロジェクトをクリックして詳細ページへ遷移",
+          "parameters": {
+            "ref": "ref_from_step_8"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 10,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "プロジェクト詳細ページの読み込みを待機（最大5秒）",
+          "parameters": {
+            "duration": 5
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 6
+        },
+        {
+          "step_number": 11,
+          "action": "read_page",
+          "description": "プロジェクト詳細ページの内容確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 12
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "contains": ["project details", "description", "tasks", "team"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 12,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "プロジェクト詳細ページをスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 13,
+          "action": "find",
+          "description": "戻るボタン（Back）を検索",
+          "parameters": {
+            "query": "back button or back link or go back"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 14,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "戻るボタンをクリック",
+          "parameters": {
+            "ref": "ref_from_step_13"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 15,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "ページ遷移を待機",
+          "parameters": {
+            "duration": 3
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 4
+        },
+        {
+          "step_number": 16,
+          "action": "read_page",
+          "description": "プロジェクトリストページに戻ったことを確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "contains": ["project list", "project items"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 17,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "戻り後のページをスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        }
+      ],
+      "success_criteria": {
+        "required_checks": [
+          {
+            "name": "初期ページ読み込み",
+            "check": "step_2_screenshot exists AND step_1_output.type == 'page_loaded'",
+            "points": 15,
+            "failure_mode": "ダッシュボード読み込み失敗"
+          },
+          {
+            "name": "リンク遷移成功（1回目）",
+            "check": "step_6_output contains 'project'",
+            "points": 20,
+            "failure_mode": "プロジェクトページへの遷移失敗"
+          },
+          {
+            "name": "詳細ページ遷移成功",
+            "check": "step_11_output contains 'project details'",
+            "points": 20,
+            "failure_mode": "プロジェクト詳細ページへの遷移失敗"
+          },
+          {
+            "name": "戻るボタン機能",
+            "check": "step_16_output contains 'project list'",
+            "points": 20,
+            "failure_mode": "戻るボタンが機能していない"
+          },
+          {
+            "name": "ページ遷移時間",
+            "check": "Each navigation <= 5 seconds",
+            "points": 15,
+            "failure_mode": "ページ遷移が遅い"
+          },
+          {
+            "name": "ビジュアル整合性",
+            "check": "All screenshots show consistent layout and navigation",
+            "points": 10,
+            "failure_mode": "ページのレイアウトが一貫していない"
+          }
+        ],
+        "total_points": 100,
+        "passing_score": 70
+      },
+      "timeout_settings": {
+        "overall_timeout_seconds": 90,
+        "per_step_max_timeout_seconds": 10,
+        "retry_on_failure": true,
+        "max_retries": 2
+      },
+      "breadcrumb_verification": {
+        "enabled": true,
+        "description": "パンくずリストの正確性を確認",
+        "checks": [
+          "Dashboard > Projects",
+          "Dashboard > Projects > Project Details",
+          "Dashboard > Projects (戻った後)"
+        ]
+      },
+      "url_verification": {
+        "enabled": true,
+        "checks": [
+          {
+            "after_step": 1,
+            "expected_url": "localhost:3000/dashboard"
+          },
+          {
+            "after_step": 5,
+            "expected_url": "localhost:3000/projects"
+          },
+          {
+            "after_step": 10,
+            "expected_url_pattern": "localhost:3000/projects/.*"
+          },
+          {
+            "after_step": 15,
+            "expected_url": "localhost:3000/projects"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scenario_004",
+      "name": "Ajax/非同期処理検証",
+      "category": "async_operations",
+      "description": "Ajax呼び出しと非同期処理がバックグラウンドで正常に機能し、UIが適切に更新されることを検証",
+      "preconditions": [
+        "アプリケーションが起動している",
+        "ブラウザのネットワークパネルが監視可能",
+        "テスト用のデータセットが用意されている"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "非同期処理を含むページへ遷移（例：リアルタイムデータ表示ページ）",
+          "parameters": {
+            "url": "http://localhost:3000/analytics/realtime"
+          },
+          "expected_output": {
+            "type": "page_loaded"
+          },
+          "timeout_seconds": 8,
+          "post_action_wait_seconds": 2
+        },
+        {
+          "step_number": 2,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "ページ初期状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 3,
+          "action": "javascript_tool",
+          "description": "ネットワークリクエストの開始状態を記録",
+          "parameters": {
+            "text": "window.__requestsStarted = performance.getEntriesByType('resource').length;"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 4,
+          "action": "find",
+          "description": "データ更新トリガーボタン（Refresh、Load More等）を検索",
+          "parameters": {
+            "query": "refresh button or load more button or update button"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 5,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "データ更新ボタンをクリック（Ajax呼び出しをトリガー）",
+          "parameters": {
+            "ref": "ref_from_step_4"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 6,
+          "action": "read_network_requests",
+          "description": "Ajax呼び出しをネットワークレベルで確認",
+          "parameters": {
+            "urlPattern": "/api/"
+          },
+          "expected_output": {
+            "type": "network_requests",
+            "contains": [
+              {
+                "method": "GET or POST",
+                "status": 200,
+                "resource": "/api/analytics"
+              }
+            ]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 7,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "Ajax処理とUIの更新を待機（最大3秒）",
+          "parameters": {
+            "duration": 3
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 4
+        },
+        {
+          "step_number": 8,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "Ajax完了後のUIをスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 9,
+          "action": "read_page",
+          "description": "更新されたページ内容を確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "must_not_contain": ["loading", "pending", "error"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 10,
+          "action": "javascript_tool",
+          "description": "ローディング状態が解除されたことを確認",
+          "parameters": {
+            "text": "!document.querySelector('[class*=\"loading\"]') && !document.querySelector('[class*=\"spinner\"]');"
+          },
+          "expected_output": {
+            "type": "boolean",
+            "value": true
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 11,
+          "action": "read_console_messages",
+          "description": "JavaScriptコンソールのエラーを確認",
+          "parameters": {
+            "pattern": "error|warning|exception",
+            "onlyErrors": true
+          },
+          "expected_output": {
+            "type": "message_list",
+            "should_be_empty": true
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 12,
+          "action": "javascript_tool",
+          "description": "データが更新されたことを確認",
+          "parameters": {
+            "text": "document.querySelector('[data-testid=\"content\"]')?.textContent?.length > 0;"
+          },
+          "expected_output": {
+            "type": "boolean",
+            "value": true
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 13,
+          "action": "find",
+          "description": "動的に生成されたコンテンツ要素を検索",
+          "parameters": {
+            "query": "data item or result item or content item"
+          },
+          "expected_output": {
+            "type": "ref_id",
+            "min_count": 1
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 14,
+          "action": "javascript_tool",
+          "description": "非同期処理のパフォーマンスを測定",
+          "parameters": {
+            "text": "const perfData = performance.getEntriesByType('measure').filter(e => e.name.includes('ajax')); perfData.length > 0 ? perfData[perfData.length-1].duration : 'N/A';"
+          },
+          "expected_output": {
+            "type": "number or string",
+            "description": "Ajax処理の所要時間（ミリ秒）"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 15,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "最終状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        }
+      ],
+      "success_criteria": {
+        "required_checks": [
+          {
+            "name": "Ajax呼び出し成功",
+            "check": "step_6_output contains HTTP 200 response",
+            "points": 25,
+            "failure_mode": "Ajax呼び出しが失敗"
+          },
+          {
+            "name": "UIの更新確認",
+            "check": "step_8_screenshot different from step_2_screenshot",
+            "points": 20,
+            "failure_mode": "UIが更新されていない"
+          },
+          {
+            "name": "ローディング状態の解除",
+            "check": "step_10_output == true",
+            "points": 15,
+            "failure_mode": "ローディング状態が継続"
+          },
+          {
+            "name": "エラーなし",
+            "check": "step_11_output.should_be_empty == true",
+            "points": 20,
+            "failure_mode": "JavaScriptエラーが発生"
+          },
+          {
+            "name": "データ更新確認",
+            "check": "step_12_output == true AND step_13_output.min_count >= 1",
+            "points": 15,
+            "failure_mode": "データが取得・表示されていない"
+          },
+          {
+            "name": "パフォーマンス",
+            "check": "Ajax処理時間 <= 2000ミリ秒",
+            "points": 5,
+            "failure_mode": "Ajax処理が遅い"
+          }
+        ],
+        "total_points": 100,
+        "passing_score": 70
+      },
+      "timeout_settings": {
+        "overall_timeout_seconds": 60,
+        "per_step_max_timeout_seconds": 10,
+        "retry_on_failure": false,
+        "max_retries": 0
+      },
+      "performance_benchmarks": {
+        "ajax_response_time": {
+          "target": "< 2 seconds",
+          "warning": "> 1.5 seconds",
+          "critical": "> 3 seconds"
+        },
+        "ui_update_time": {
+          "target": "< 500ms",
+          "warning": "> 1 second",
+          "critical": "> 2 seconds"
+        }
+      },
+      "error_handling": {
+        "network_timeout": {
+          "description": "Ajax呼び出しがタイムアウト",
+          "recovery_actions": [
+            "read_network_requests でリクエスト確認",
+            "ネットワーク遅延状態確認",
+            "再試行ボタンの動作確認"
+          ]
+        },
+        "data_parsing_error": {
+          "description": "Ajax応答のパース失敗",
+          "recovery_actions": [
+            "read_console_messages でエラー確認",
+            "APIレスポンスの形式確認",
+            "JavaScriptアラートで通知確認"
+          ]
+        },
+        "partial_update": {
+          "description": "UIが部分的に更新される",
+          "recovery_actions": [
+            "read_page で全要素確認",
+            "screenshot比較で更新箇所特定",
+            "再度ボタンクリックして確認"
+          ]
+        }
+      }
+    },
+    {
+      "id": "scenario_005",
+      "name": "エラーハンドリング検証",
+      "category": "error_handling",
+      "description": "エラー状況下でUIが適切にエラーメッセージを表示し、ユーザーが対応できることを検証",
+      "preconditions": [
+        "テスト環境がエラーシミュレーション可能な状態",
+        "エラーを意図的に発生させるテストツールが利用可能"
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "navigate",
+          "description": "テスト対象ページへ遷移",
+          "parameters": {
+            "url": "http://localhost:3000/dashboard"
+          },
+          "expected_output": {
+            "type": "page_loaded"
+          },
+          "timeout_seconds": 8,
+          "post_action_wait_seconds": 2
+        },
+        {
+          "step_number": 2,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "正常状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 3,
+          "action": "find",
+          "description": "データ読み込みボタンを検索",
+          "parameters": {
+            "query": "load data button or fetch data button"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 4,
+          "action": "javascript_tool",
+          "description": "APIエラーをシミュレート（Mock）するスクリプトを実行",
+          "parameters": {
+            "text": "window.mockApiError = true; fetch = new Proxy(fetch, { apply: (target, thisArg, args) => { if(window.mockApiError) return Promise.reject(new Error('Mock API Error: 500 Internal Server Error')); return Reflect.apply(target, thisArg, args); }});"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 5,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "データ読み込みボタンをクリック（エラーをトリガー）",
+          "parameters": {
+            "ref": "ref_from_step_3"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 6,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "エラー処理とUI更新を待機（最大2秒）",
+          "parameters": {
+            "duration": 2
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 7,
+          "action": "read_page",
+          "description": "エラーメッセージが表示されているか確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "must_contain": [
+              "error",
+              "message",
+              "alert"
+            ]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 8,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "エラー表示状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 9,
+          "action": "javascript_tool",
+          "description": "エラーメッセージのテキストを取得",
+          "parameters": {
+            "text": "document.querySelector('[role=\"alert\"]')?.textContent || document.querySelector('[class*=\"error\"]')?.textContent || 'Error message not found';"
+          },
+          "expected_output": {
+            "type": "string",
+            "description": "表示されているエラーメッセージ"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 10,
+          "action": "find",
+          "description": "リトライボタン（Retry、Try Again）を検索",
+          "parameters": {
+            "query": "retry button or try again button or reload button"
+          },
+          "expected_output": {
+            "type": "ref_id"
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 11,
+          "action": "javascript_tool",
+          "description": "APIエラーシミュレーションを解除",
+          "parameters": {
+            "text": "window.mockApiError = false;"
+          },
+          "expected_output": {
+            "type": "success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 12,
+          "action": "computer",
+          "sub_action": "left_click",
+          "description": "リトライボタンをクリック（正常に処理されるはず）",
+          "parameters": {
+            "ref": "ref_from_step_10"
+          },
+          "expected_output": {
+            "type": "click_success"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 13,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "再試行処理を待機（最大3秒）",
+          "parameters": {
+            "duration": 3
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 4
+        },
+        {
+          "step_number": 14,
+          "action": "read_page",
+          "description": "エラーが解除されたか確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "must_not_contain": ["error", "failed"]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 15,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "リトライ成功後の状態をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 16,
+          "action": "read_console_messages",
+          "description": "JavaScriptコンソールのエラーログを確認",
+          "parameters": {
+            "pattern": "error|exception",
+            "onlyErrors": true
+          },
+          "expected_output": {
+            "type": "message_list"
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 17,
+          "action": "javascript_tool",
+          "description": "バリデーションエラーシナリオをテスト（未入力フォーム）",
+          "parameters": {
+            "text": "const form = document.querySelector('form'); if(form) { form.submit(); } true;"
+          },
+          "expected_output": {
+            "type": "boolean",
+            "value": true
+          },
+          "timeout_seconds": 3
+        },
+        {
+          "step_number": 18,
+          "action": "computer",
+          "sub_action": "wait",
+          "description": "バリデーションエラーを待機",
+          "parameters": {
+            "duration": 1
+          },
+          "expected_output": {
+            "type": "wait_complete"
+          },
+          "timeout_seconds": 2
+        },
+        {
+          "step_number": 19,
+          "action": "read_page",
+          "description": "バリデーションエラーメッセージを確認",
+          "parameters": {
+            "filter": "all",
+            "depth": 10
+          },
+          "expected_output": {
+            "type": "page_structure",
+            "should_contain_one_of": [
+              "required",
+              "invalid",
+              "must be"
+            ]
+          },
+          "timeout_seconds": 5
+        },
+        {
+          "step_number": 20,
+          "action": "computer",
+          "sub_action": "screenshot",
+          "description": "バリデーションエラー表示をスクリーンショット",
+          "expected_output": {
+            "type": "screenshot_id"
+          },
+          "timeout_seconds": 3
+        }
+      ],
+      "success_criteria": {
+        "required_checks": [
+          {
+            "name": "エラーメッセージ表示",
+            "check": "step_7_output contains error message",
+            "points": 20,
+            "failure_mode": "エラーが表示されていない"
+          },
+          {
+            "name": "エラーメッセージ明確性",
+            "check": "step_9_output length > 20 AND no generic 'error' text only",
+            "points": 15,
+            "failure_mode": "エラーメッセージが不明確"
+          },
+          {
+            "name": "リトライボタン表示",
+            "check": "step_10_output.type == 'ref_id'",
+            "points": 15,
+            "failure_mode": "リトライボタンが見つからない"
+          },
+          {
+            "name": "リトライ機能動作",
+            "check": "step_14_output.must_not_contain includes error",
+            "points": 20,
+            "failure_mode": "リトライ後もエラー状態"
+          },
+          {
+            "name": "バリデーションエラー表示",
+            "check": "step_19_output contains validation message",
+            "points": 15,
+            "failure_mode": "バリデーションエラーが表示されていない"
+          },
+          {
+            "name": "エラーハンドリング堅牢性",
+            "check": "No fatal JavaScript errors (step_16_output.length == 0 or acceptable)",
+            "points": 15,
+            "failure_mode": "JavaScriptエラーが発生してUIが壊れている"
+          }
+        ],
+        "total_points": 100,
+        "passing_score": 70
+      },
+      "timeout_settings": {
+        "overall_timeout_seconds": 90,
+        "per_step_max_timeout_seconds": 10,
+        "retry_on_failure": false,
+        "max_retries": 0
+      },
+      "error_scenarios_tested": [
+        {
+          "scenario": "API 500 エラー",
+          "steps": "4-9",
+          "expected": "ユーザーフレンドリーなエラーメッセージ表示"
+        },
+        {
+          "scenario": "ネットワークタイムアウト",
+          "steps": "not_automated",
+          "expected": "タイムアウトメッセージとリトライオプション"
+        },
+        {
+          "scenario": "フォームバリデーションエラー",
+          "steps": "17-20",
+          "expected": "フィールド別のエラーメッセージ表示"
+        },
+        {
+          "scenario": "リトライ成功",
+          "steps": "11-15",
+          "expected": "エラー解除と正常表示への回復"
+        }
+      ],
+      "error_display_standards": {
+        "error_message_requirements": [
+          "エラーの原因が明確",
+          "ユーザーが実行できるアクション提示",
+          "サポートリンク（メール・サポートフォーム）が含まれている",
+          "技術的なスタックトレースは非表示"
+        ],
+        "visual_accessibility": [
+          "赤色のみでなく、アイコン＋テキストで識別",
+          "コントラスト比 WCAG AA 標準",
+          "スクリーンリーダー対応（role=\"alert\"等）"
+        ]
+      },
+      "error_handling": {
+        "api_error": {
+          "description": "バックエンドAPI呼び出し失敗",
+          "expected_behavior": "user-friendly error + retry button"
+        },
+        "validation_error": {
+          "description": "クライアント側フォームバリデーション失敗",
+          "expected_behavior": "field-level error messages + focus on first error"
+        },
+        "network_error": {
+          "description": "ネットワーク通信エラー",
+          "expected_behavior": "connection error message + offline indicator"
+        }
+      }
+    }
+  ],
+  "execution_guidelines": {
+    "parallel_execution": {
+      "enabled": true,
+      "max_parallel_scenarios": 3,
+      "description": "5つのシナリオを3並列で実行可能（総実行時間は最長シナリオに依存）"
+    },
+    "sequential_execution": {
+      "required_scenarios": [
+        "scenario_001"
+      ],
+      "reason": "ログインが必須（他のシナリオの前提条件）"
+    },
+    "environment_setup": {
+      "steps": [
+        "Chrome拡張の認証確認（tabs_context_mcp）",
+        "テスト環境のサーバー起動確認",
+        "テストアカウント・データの初期化"
+      ]
+    },
+    "environment_cleanup": {
+      "steps": [
+        "テストデータの削除",
+        "ブラウザクッキー・ローカルストレージのクリア",
+        "ネットワークキャッシュのクリア"
+      ]
+    }
+  },
+  "scoring_summary": {
+    "total_scenarios": 5,
+    "total_possible_points": 500,
+    "passing_threshold_per_scenario": 70,
+    "overall_passing_threshold": 350,
+    "quality_gates": {
+      "high_quality": {
+        "score_range": [420, 500],
+        "label": "優秀",
+        "action": "本番環境への統合推奨"
+      },
+      "acceptable": {
+        "score_range": [350, 419],
+        "label": "合格",
+        "action": "統合OK、改善点を記録"
+      },
+      "needs_improvement": {
+        "score_range": [0, 349],
+        "label": "要改善",
+        "action": "UI修正後に再検証"
+      }
+    }
+  },
+  "screenshot_storage": {
+    "base_path": "Flow/YYYYMM/YYYY-MM-DD/ui_verification/screenshots/",
+    "naming_convention": "{scenario_id}_{step_number}_{description}.jpeg",
+    "retention_period_days": 30
+  },
+  "report_output": {
+    "format": "Markdown + JSON",
+    "output_files": [
+      "ui_verification_report.md",
+      "ui_verification_scores.json",
+      "ui_verification_evidence/"
+    ],
+    "path": "Flow/YYYYMM/YYYY-MM-DD/ui_verification/"
+  }
+}

@@ -1,0 +1,44 @@
+╔══════════════════════════════════════════════════════════════╗
+║     Batch 2-3 自動品質スコアリング (18件)                     ║
+╠══════════════════════════════════════════════════════════════╣
+║ 実行時刻: 2025-12-29 11:30                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+=== Batch 2 (7件) ===
+
+FOUNDER_151_airbnb.md                    | Score:  95 | Grade: A | Nulls: 0 | Sources: 15 | FC: ✅ | Axes: 4
+FOUNDER_152_coinbase.md                  | Score:  92 | Grade: A | Nulls: 0 | Sources: 12 | FC: ✅ | Axes: 4
+FOUNDER_351_jan_koum_whatsapp.md         | Score:  87 | Grade: B | Nulls: 2 | Sources: 15 | FC: ✅ | Axes: 3
+FOUNDER_352_eric_yuan_zoom.md            | Score:  90 | Grade: A | Nulls: 2 | Sources: 18 | FC: ✅ | Axes: 4
+FOUNDER_157_github.md                    | Score:  90 | Grade: A | Nulls: 2 | Sources: 15 | FC: ✅ | Axes: 4
+FOUNDER_355_coinbase.md                  | Score:  87 | Grade: B | Nulls: 2 | Sources: 12 | FC: ✅ | Axes: 4
+FAILURE_008_jawbone.md                   | Score:  79 | Grade: C | Nulls: 3 | Sources: 12 | FC: ✅ | Axes: 3
+
+=== Batch 3 (11件) ===
+
+FAILURE_009_quibi.md                     | Score:  82 | Grade: B | Nulls: 4 | Sources: 15 | FC: ✅ | Axes: 3
+FAILURE_010_getaround.md                 | Score:  79 | Grade: C | Nulls: 4 | Sources: 13 | FC: ✅ | Axes: 3
+FAILURE_011_humane_ai.md                 | Score:  79 | Grade: C | Nulls: 4 | Sources: 12 | FC: ✅ | Axes: 3
+FOUNDER_159_palantir.md                  | Score:  79 | Grade: C | Nulls: 4 | Sources: 14 | FC: ✅ | Axes: 3
+FOUNDER_160_okta.md                      | Score:  79 | Grade: C | Nulls: 4 | Sources: 12 | FC: ✅ | Axes: 3
+PIVOT_004_box.md                         | Score:  84 | Grade: B | Nulls: 2 | Sources: 13 | FC: ✅ | Axes: 3
+PIVOT_005_jasper_ai.md                   | Score:  84 | Grade: B | Nulls: 1 | Sources: 12 | FC: ✅ | Axes: 2
+EMERGING_001_stability_ai.md             | Score:  87 | Grade: B | Nulls: 2 | Sources: 15 | FC: ✅ | Axes: 3
+EMERGING_002_character_ai.md             | Score:  79 | Grade: C | Nulls: 4 | Sources: 14 | FC: ✅ | Axes: 3
+EMERGING_003_midjourney.md               | Score:  79 | Grade: C | Nulls: 3 | Sources: 13 | FC: ✅ | Axes: 3
+EMERGING_004_runway.md                   | Score:  79 | Grade: C | Nulls: 4 | Sources: 13 | FC: ✅ | Axes: 3
+
+╔══════════════════════════════════════════════════════════════╗
+║ サマリー統計                                                  ║
+╠══════════════════════════════════════════════════════════════╣
+║ 総ファイル数: 18                                           ║
+║ 平均スコア: 83.9/100                                    ║
+║ Grade分布: A:4 B:6 C:8 D:0 F:0                               ║
+║ Fact Check Pass率: 100% (18/18)                       ║
+║ 平均ソース数: 13.6件                                       ║
+║ 総Null数: 47件                                         ║
+║ Nullを含むファイル: 16件 (89%)                       ║
+║ 平均10x axes: 3.2軸                                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎉 品質基準達成: Fact Check 100%, 平均ソース12+件

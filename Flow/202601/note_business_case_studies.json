@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "AI FREAK",
+    "genre": "ビジネス・副業（AI活用）",
+    "revenue": "月96万円（8ヶ月達成後、現在月160万円）",
+    "model": "有料マガジン・記事販売・サポート",
+    "followers": "YouTube 6.7万人、Instagram 60万人、TikTok 17万人",
+    "articles_count": "複数マガジン運営",
+    "success_hint": "AI×noteの組み合わせで『基礎』『誠実さ』『継続』『本心』を重視。最初は地道に積み上げ、月5万円程度なら可能性は高い。1日2～3時間の執筆時間で対応可能。",
+    "content_focus": "ChatGPT、Suno、Perplexityなどの最新AIツールレビュー、AI副業ノウハウ",
+    "source_url": "https://note.com/ai_freak/n/n39dad42ec7ef"
+  },
+  {
+    "id": 2,
+    "name": "ぱやぱやくん",
+    "genre": "ビジネス・副業（エッセイ）",
+    "revenue": "月100万円（3ヶ月で達成、3ヶ月連続達成）",
+    "model": "メンバーシップ・有料記事販売",
+    "followers": "メンバーシップ600人以上",
+    "articles_count": "複数の有料note販売",
+    "success_hint": "2024年10月の売上が250円だったが、約3ヶ月後（2024年7月～2025年1月）に月100万円達成。メンバーシップ戦略（5人→600人）がキー。粘り強い実践が重要で、『1日30分で月100万円』は非現実的。",
+    "content_focus": "エッセイ、ストーリーテリング、人生観、ライフスタイル論",
+    "source_url": "https://note.com/payapayakun/n/nd6b3ffc402fe"
+  },
+  {
+    "id": 3,
+    "name": "東中（とうちゅう）",
+    "genre": "ビジネス・副業（AI×音楽）",
+    "revenue": "月30万円以上（note 月25万円以上＋AI音楽 月5万円）",
+    "model": "複数アカウント運営・有料記事販売",
+    "followers": "複数アカウント運営（正確なフォロワー数は記載なし）",
+    "articles_count": "5アカウント以上運営",
+    "success_hint": "ChatGPT×Suno（AI音楽生成）で月30万円達成。複数アカウント運営で総更新時間1時間程度。ChatGPTで記事を量産。初月から月収構築可能な戦略が有効。",
+    "content_focus": "ChatGPT活用法、AI音楽生成、note副業ノウハウ、ゆるい生き方",
+    "source_url": "https://note.com/totyu/n/n98db34fb1ce5"
+  },
+  {
+    "id": 4,
+    "name": "クラシキログ",
+    "genre": "ビジネス・副業（アフィリエイト）",
+    "revenue": "月10万～20万円（8ヶ月達成時は月15万円程度）",
+    "model": "アフィリエイト中心（Amazon・楽天・成約系）",
+    "followers": "149人（フォロー数0人）",
+    "articles_count": "116記事",
+    "success_hint": "有料記事は出さず、純粋なアフィリエイト戦略で収益化。月12万PVで月15万円。YouTube（登録者1万人）との連携で相乗効果。無料記事品質が重要。",
+    "content_focus": "ガジェット、生活情報、ライフハック、製品レビュー",
+    "source_url": "https://note.com/kurashikilog/n/nf2e8c1a116b6"
+  },
+  {
+    "id": 5,
+    "name": "やまだくにあき",
+    "genre": "ビジネス・副業（マルチモデル）",
+    "revenue": "月88万円程度（年間1000万円）",
+    "model": "有料記事・メンバーシップ販売",
+    "followers": "不記載（1000万円達成までの道のり発信）",
+    "articles_count": "不記載",
+    "success_hint": "初期は100円の有料noteすら売れず悩むも『ある方法』で突破。その後、月1000円→月1万円→月88万円へ段階的成長。『誰でも到達可能な目標』と断言。",
+    "content_focus": "note副業ノウハウ、文章で暮らすための方法論、note戦略論",
+    "source_url": "https://note.com/kun1aki/n/n4a291b06796b"
+  },
+  {
+    "id": 6,
+    "name": "なごやん",
+    "genre": "ビジネス・副業（AI×ローカル）",
+    "revenue": "月間2.4万PV達成→受託事業・スモールビジネス立ち上げ（月額推定：受託事業により変動）",
+    "model": "有料記事・note×事業展開",
+    "followers": "不記載（初期15,000PV達成）",
+    "articles_count": "複数、AI×営業、AI×ローカルマーケティング等",
+    "success_hint": "ノースキル会社員→AI×note→月間15,000PV達成→受託事業&スモールビジネス→自社DX推進まで成長。noteは『より大きなビジネス展開の起点』として活用。",
+    "content_focus": "AI×営業、AI×ローカルマーケティング、DX推進、起業ノウハウ",
+    "source_url": "https://note.com/nagoya_blog/n/n8102e73162c0"
+  }
+]

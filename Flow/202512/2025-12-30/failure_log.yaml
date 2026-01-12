@@ -1,0 +1,18 @@
+date: 2025-12-30
+total_failures: 0
+
+failures: []
+  # 失敗は1行で記録
+  #
+  # 例:
+  # - time: "14:30"
+  #   error: "FileNotFoundError: daily_tasks.yaml not found"
+  #   action: "ディレクトリ作成して再実行"
+  #
+  # - time: "15:00"
+  #   error: "import エラー: module not found"
+  #   action: "pip install 実行"
+  #
+  # - time: "16:20"
+  #   error: "YAML構文エラー: インデント不正"
+  #   action: "スペース2個に統一"

@@ -1,0 +1,81 @@
+{
+  "integration_date": "2026-01-10",
+  "source": "Flow/202601/2026-01-07.backup.20260110_165045/research_guga/04_detailed_cases",
+  "destination": "Stock/research/genai_case_studies",
+  "summary": {
+    "total_files_before": 1049,
+    "total_files_added": 617,
+    "total_files_after": 1666,
+    "growth_rate": "58.8%"
+  },
+  "tier_statistics": {
+    "tier1_full": {
+      "size_range": "20KB+",
+      "files_before": 1037,
+      "files_added": 15,
+      "files_after": 1052,
+      "total_size_kb": 460,
+      "average_size_kb": 30.7,
+      "growth_rate": "1.4%"
+    },
+    "tier2_brief": {
+      "size_range": "10-19KB",
+      "files_before": 4,
+      "files_added": 44,
+      "files_after": 48,
+      "total_size_kb": 552,
+      "average_size_kb": 12.5,
+      "growth_rate": "1000%"
+    },
+    "tier3_minimal": {
+      "size_range": "5-9KB",
+      "files_before": 3,
+      "files_added": 316,
+      "files_after": 319,
+      "total_size_kb": 1722,
+      "average_size_kb": 5.4,
+      "growth_rate": "10467%"
+    },
+    "tier4_index": {
+      "size_range": "<5KB",
+      "files_before": 5,
+      "files_added": 242,
+      "files_after": 247,
+      "total_size_kb": 862,
+      "average_size_kb": 3.6,
+      "growth_rate": "4840%"
+    }
+  },
+  "file_processing": {
+    "total_processed": 619,
+    "successfully_copied": 617,
+    "skipped": 2,
+    "skipped_files": ["00_index.md", "README.md"],
+    "processing_time_seconds": 128,
+    "average_copy_time_ms": 0.207
+  },
+  "naming_convention": {
+    "prefix_applied": "_flow_",
+    "files_with_prefix": 617,
+    "prefix_application_rate": "100%"
+  },
+  "quality_metrics": {
+    "tier1_2_percentage": 9.6,
+    "tier3_4_percentage": 90.4,
+    "average_file_size_kb": 5.8,
+    "total_size_mb": 3.51
+  },
+  "validation_results": {
+    "file_count_match": true,
+    "duplicate_check": true,
+    "naming_convention_check": true,
+    "tier_distribution_valid": true,
+    "all_checks_passed": true
+  },
+  "next_steps_day4": {
+    "task1": "statistics.md を更新",
+    "task2": "index.md でTier別ファイル一覧を更新",
+    "task3": "README.md で最終更新日を記載",
+    "task4": "Git commit実行: 'feat: Flow→Stock確定反映 - 生成AI活用事例DB (v3.0)'"
+  }
+}

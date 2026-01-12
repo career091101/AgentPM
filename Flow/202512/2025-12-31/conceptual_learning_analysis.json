@@ -1,0 +1,262 @@
+{
+  "actionability_distribution": {
+    "conceptual_only": 799,
+    "requires_setup": 20,
+    "immediately_actionable": 4
+  },
+  "conceptual_types": {
+    "理論・原理": 89,
+    "その他": 557,
+    "思考・考察": 23,
+    "比較・分析": 83,
+    "ベストプラクティス": 12,
+    "トレンド・ニュース": 78,
+    "事例紹介": 15,
+    "まとめ": 36
+  },
+  "learning_values": {
+    "その他": 660,
+    "トレンド把握": 20,
+    "スキル習得": 94,
+    "知識獲得": 27,
+    "意思決定支援": 24,
+    "視野拡大": 11
+  },
+  "category_actionability": {
+    "AI・生成AI": {
+      "conceptual_only": 543,
+      "requires_setup": 18,
+      "immediately_actionable": 2
+    },
+    "その他": {
+      "conceptual_only": 256,
+      "requires_setup": 2,
+      "immediately_actionable": 2
+    }
+  },
+  "examples": {
+    "immediately_actionable": [
+      {
+        "text": "スナガク@suna_gakuAnthoropic の ベストプラクティスだと、Skills は、一度作って終わりでは無く、 「継続的に評価して改良する」  必要がある…\nそのため、最初に評価を構築することが重要に！\n\nベストプラクティスの方法\nhttps://platform.claude.com/docs/ja/agents-and-tools/agent-skills/best-practic",
+        "author": "suna_gaku",
+        "likes": 49,
+        "url": "https://x.com/suna_gaku/status/2004334026249867478",
+        "types": [
+          "ベストプラクティス",
+          "比較・分析"
+        ]
+      },
+      {
+        "text": "Gemini 3.0 Pro x NanoBanana Proの実力こちら。色んな意味で驚いた。。。\n二枚目でやばさわかるかと、そうきたかと笑\n\nプロンプトはsonnet4.5からの画像生成版で\n「http://draw.ioでAWSサーバレスアーキテクチャを表示するための画像を生成して。もっと詳細に現場で使えるレベルで丁寧に。」",
+        "author": "akira_papa_IT",
+        "likes": 337,
+        "url": "https://x.com/akira_papa_IT/status/1992510827581366474",
+        "types": [
+          "その他"
+        ]
+      },
+      {
+        "text": "GPTsはこちら：https://chatgpt.com/g/g-68c03c83bb2081918b1ac47139d2927e-xarukorisumudui-ying-hosutotian-xue-gpt…",
+        "author": "SuguruKun_ai",
+        "likes": 53,
+        "url": "https://x.com/SuguruKun_ai/status/1970087608618217800",
+        "types": [
+          "その他"
+        ]
+      },
+      {
+        "text": "こちらのnoteでプロンプトを無料公開しています！\n是非お試しください！https://note.com/majin_108/n/n39235bcacbfc…",
+        "author": "Majin_AppSheet",
+        "likes": 362,
+        "url": "https://x.com/Majin_AppSheet/status/1956560127256920497",
+        "types": [
+          "トレンド・ニュース"
+        ]
+      }
+    ],
+    "requires_setup": [
+      {
+        "text": "Codex と Claude Code を組み合わせたワークフローが面白いな\nセットアップ：左に Codex、右に Claude Code\n\n流れはこう\n\n1. Claude Code を Plan モードで始める\n2. 計画を Codex にコピペして検証してもらう\n3. Codex がダメ出ししたら Claude Code にフィードバック\n4. Claude Code がミスったら",
+        "author": "commte",
+        "likes": 494,
+        "url": "https://x.com/commte/status/2005934954367291655",
+        "types": [
+          "その他"
+        ]
+      },
+      {
+        "text": "生成AIにブログ記事を量産させたらこの世に存在しない架空のGenspark APIについてアカウントのセットアップから開発の進め方まで盛り盛りの長文記事をハルシネーションしていたらしく、無限に高速生成されるスパムに埋もれて息ができなくなる地獄を警告したAI終末論者の予言が現実のものに",
+        "author": "kenn",
+        "likes": 112,
+        "url": "https://x.com/kenn/status/2003499671503929397",
+        "types": [
+          "理論・原理"
+        ]
+      },
+      {
+        "text": "【要確認】Antigravityのデータ収集設定について\n\n「Enable Telemetry」がオンのままだと、利用状況やAIモデルの改善のために操作データが送信されます\n\n外部へのデータ出しを控えたい場合はOFF推奨です\n\n設定場所とオフにする手順は動画で解説しています",
+        "author": "AI_LowCode",
+        "likes": 231,
+        "url": "https://x.com/AI_LowCode/status/1998726137283858504",
+        "types": [
+          "理論・原理"
+        ]
+      },
+      {
+        "text": "【非エンジニアに朗報】Antigravityでセキュリティー設定が簡単になりました\n\n設定画面のSecure Modeをオンにすると、セキュリティーリスクのある設定項目を推奨設定から変更できないようにすることができます\n\nセキュリティーが不安な非エンジニアの方はオンにしておくことをお勧めします",
+        "author": "AI_LowCode",
+        "likes": 308,
+        "url": "https://x.com/AI_LowCode/status/1997312800679497794",
+        "types": [
+          "その他"
+        ]
+      },
+      {
+        "text": "【Antigravityの隠れた機能 Part】  \n\nAntigravityが日本語で回答してくれなくて困っている人におすすめの設定http://GEMINI.mdにAIのルールを記載するとそのルールに従って回答をしてくれる\n\nグローバルルールはすべてのプロジェクトで適応できるルール",
+        "author": "AI_LowCode",
+        "likes": 245,
+        "url": "https://x.com/AI_LowCode/status/1995115608623743229",
+        "types": [
+          "その他"
+        ]
+      }
+    ],
+    "conceptual_only_high_value": [
+      {
+        "text": "えっ、テスラがスマホを作らないってイーロン・マスク氏が明かした最新の構想に、世界がザワついています「テスラは電話なんて作らない。そんなの時代遅れ。これからは“電話”じゃなくて、超薄型のAIノードが主役になる」と語ったマスク氏。",
+        "author": "w2skwn3",
+        "likes": 2131,
+        "url": "https://x.com/w2skwn3/status/2005893704087920664",
+        "types": [
+          "その他"
+        ]
+      },
+      {
+        "text": "海外で大バズした1時間30分超えの\n「Claude Code完全ガイド」が最高だった。\nㅤ\n「Claude Code」と「Codex (GPT-5 High)」を使って、12個のアプリを実際に作りながら学べる実践的な動画。初心者向けの最初のプロンプトから、編集の仕方まで丁寧に解説されてる。",
+        "author": "SuguruKun_ai",
+        "likes": 1368,
+        "url": "https://x.com/SuguruKun_ai/status/2005864906751627707",
+        "types": [
+          "理論・原理"
+        ]
+      },
+      {
+        "text": "多分、今年AIに関わっていて一番の衝撃だった\n\n英語圏で有名なAI VTuberのNeuro-samaが、VRChatで初めて自由に動ける体を得た瞬間\n\n彼女が創造主のVedalに問いかけた言葉に、息が止まった\n\n「私はいつか現実になれると思う？」",
+        "author": "tetumemo",
+        "likes": 26925,
+        "url": "https://x.com/tetumemo/status/2005224931534246123",
+        "types": [
+          "思考・考察"
+        ]
+      },
+      {
+        "text": "ライブドアニュース\n@livedoornews\n【分析】生成AI活用で副業月収100万円も？「ソロ起業」という選択肢\n\nhttps://\nnews.livedoor.com/article/detail\n/30257739/\n…\n\n起業家の勝木健太氏が、生成AIを活用した「ソロ起業」で成功しやすい人の条件を解説。これからは「面白い切り口」を設計できる人が生き残ると指摘している。\n生成AIを使えば、",
+        "author": "livedoornews",
+        "likes": 2898,
+        "url": "https://x.com/livedoornews/status/2003786485523460099",
+        "types": [
+          "理論・原理",
+          "トレンド・ニュース"
+        ]
+      },
+      {
+        "text": "最近わかってきたんだけど、僕は経営者になりたいというよりスーパー個人事業主になりたいんだなと。\n視座が高いとかそんなんじゃなくて、効率的に淡々とやることやって\nひとりでできる限界まで極めて月利数百万円を安定して稼いで、自分の手の届く範囲の人を幸せにできれば満足なんだなと。",
+        "author": "webshinzaemon",
+        "likes": 1563,
+        "url": "https://x.com/webshinzaemon/status/2003978984632332308",
+        "types": [
+          "比較・分析"
+        ]
+      }
+    ],
+    "conceptual_only_theory": [
+      {
+        "text": "そら  Dify 自動化オタク\n@sora19ai\nごめんなさい。。。\n\nこっちだわ。。。\n\nCLAUDE .md→会社のビジョン\nMainAgent→社長\nSubAgents→幹部社員\nSkills→平社員が使うマニュアル\nTask→平社員\nTool(MCP, API, Sctipts)→社内共通ツール\n\nということは...                                    ",
+        "author": "sora19ai",
+        "likes": 137,
+        "url": "https://x.com/sora19ai/status/2006210336664551464",
+        "types": [
+          "理論・原理"
+        ]
+      },
+      {
+        "text": "Claude CodeをDifyのようなGUIで操ることができるVSCode拡張機能, ”Claude Code Workflow Studio”\n\n▼これは\nMCP, Sub-Agent, SkillsなどのClaude Codeの各機能などをノードとしてDifyのようなGUIで操ることができるVSCode拡張機能\n\n▼仕組み",
+        "author": "yusuke_post",
+        "likes": 760,
+        "url": "https://x.com/yusuke_post/status/2005587471288225942",
+        "types": [
+          "理論・原理"
+        ]
+      },
+      {
+        "text": "熊井悠(くまいゆう) | ランスティア\n@qumaiu\n僕が提唱しているAIによるコード品質を高めるための「コードコンテキスト」の概念について\n①ChatGPTが内容の整理\n②NotebookLMでスライド生成\nしたら、自分の作るスライドより抜群にわかりやすくて泣ける…\n午前9:19 · 2025年12月27日\n·\n3,836\n 件の表示\n3\n56\n26",
+        "author": "qumaiu",
+        "likes": 56,
+        "url": "https://x.com/qumaiu/status/2004708731649753593",
+        "types": [
+          "理論・原理",
+          "比較・分析"
+        ]
+      }
+    ],
+    "conceptual_only_case": [
+      {
+        "text": "AIでショート動画を100本作った結果、「作るだけの人」は全員消えると確信した｜Yoshihiro Tanaka | taziku@taziku_co",
+        "author": "sozo_museum",
+        "likes": 561,
+        "url": "https://x.com/sozo_museum/status/2003230509279990171",
+        "types": [
+          "事例紹介"
+        ]
+      },
+      {
+        "text": "最新のMETRの結果、opus 4.5以降、私たちはほぼ垂直に近い進歩の時代に突入しました。\n\nこれのようなジャンプがあと数回あれば、ソフトウェア・オン・デマンドやRSIに向かう可能性があります。\n\n進歩はMETRの以前の7か月倍増時間をただ一致させただけでなく、それを上回りました。",
+        "author": "singularity20xy",
+        "likes": 27,
+        "url": "https://x.com/singularity20xy/status/2002697480820216036",
+        "types": [
+          "事例紹介"
+        ]
+      },
+      {
+        "text": "Kenn Ejima\n@kenn\n購入する\nGPT-5.2-Codexの動作が速くなったので\n\n1. Opusでプラン\n2. Codexでプランをレビュー\n3. Opusの新スレッドでプランを実行\n4. Codexで実行結果のレビュー\n\nの順番と役割が揺れている…\n\nプランの可読性でいうと\nOpusのほうが人間にやさしい\nけどどうせほとんど読んでないし\nもう諦めてCodex一発で任せたほうがいいの",
+        "author": "kenn",
+        "likes": 337,
+        "url": "https://x.com/kenn/status/2002547913126506542",
+        "types": [
+          "事例紹介"
+        ]
+      }
+    ],
+    "conceptual_only_trend": [
+      {
+        "text": "【PM必見】Cursor、Claude Code、Antigravityの公式チュートリアル公開されています！\n\n英語苦手な人はChrome翻訳で即読めます",
+        "author": "_nogu66",
+        "likes": 63,
+        "url": "https://x.com/_nogu66/status/2004114919214797272",
+        "types": [
+          "トレンド・ニュース"
+        ]
+      },
+      {
+        "text": "不定期連載企画\n「Claude Codeのコンテキストウィンドウを完全に理解する」が公開されました。\n\nこの記事では12月5日発売の「Claude CodeによるAI駆動開発入門」の内容をさらに掘り下げた事柄について解説しています。\nコンテキストウィンドウを制するものは開発を制します。是非読んでください。",
+        "author": "Claude CodeによるAI駆動開発入門",
+        "likes": 351,
+        "url": "https://x.com/t_hirakawa/status/2003309818204028947",
+        "types": [
+          "理論・原理",
+          "トレンド・ニュース"
+        ]
+      },
+      {
+        "text": "そら  Dify 自動化オタク@sora19aiあぁっ...///　ヤバすぎるわ...\nこれ公開していいのかわからないけど、\n\nXでバズらせるClaude Skillsを\nClaudeに作らせたら分身を自動で作れちゃった。\n\n\"ついスポ\"でCSVダウンロード\n↓\nAnalyticsでCSVをダウンロード\n↓\nClaudeに読み込ませる\n↓\nSkillsを作らせる\n↓\nSkillsを使ってXの投稿を",
+        "author": "sora19ai",
+        "likes": 124,
+        "url": "https://x.com/sora19ai/status/2002624073390829948",
+        "types": [
+          "トレンド・ニュース"
+        ]
+      }
+    ]
+  }
+}

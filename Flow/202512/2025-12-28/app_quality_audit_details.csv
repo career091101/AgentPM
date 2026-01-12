@@ -1,0 +1,137 @@
+番号,ファイル名,行数,YAML,基本情報,収益,タイムライン,日本スコア,FC,ソース数,品質レベル,備考
+001,001_wilson_senja.md,336,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+002,002_desmond_rise.md,247,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+003,003_pieter_levels.md,266,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+004,004_marc_lou.md,266,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+005,005_brock_anderson.md,191,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+006,006_max_artemov.md,198,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+007,007_jack_friks.md,198,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+008,008_alex_nguyen.md,201,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+009,009_umatan.md,202,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+010,010_nico_jeannen.md,254,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+011,011_marko_kraemer.md,195,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+012,012_ahmet_dedeler.md,209,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+013,013_tibo.md,221,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+014,014_danny_postma.md,221,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+015,015_alex_west.md,187,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+016,016_success_patterns.md,197,No,No,Yes,No,No,None,0,C,要改善
+017,017_thibault_louis_lucas.md,177,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+018,018_tony_dinh.md,212,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+019,019_roy_lee.md,972,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+020,020_wesley_tian.md,623,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+021,021_zach_yadegari.md,404,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+022,022_daniel_bitton.md,498,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+023,023_anton_osika.md,465,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+024,024_blake_anderson.md,1008,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+025,025_david_park.md,544,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+026,026_ping.md,268,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+027,027_ivan_kutskir.md,318,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+028,028_noah_kagan.md,358,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+029,029_brett_williams.md,227,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+030,030_jon_yongfook.md,214,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+031,031_yasser_elsaid.md,202,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+032,031_yoni_smolyar.md,99,No,No,No,Yes,No,None,0,D,骨格のみ（      99行）
+033,032_cj_zafir.md,201,No,No,Yes,Yes,No,None,0,C,要改善
+034,032_romain_torres.md,127,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+035,033_alex_finn.md,176,No,No,Yes,Yes,No,None,0,C,要改善
+036,033_gil_hildebrand.md,124,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+037,034_julien_nahum.md,214,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+038,034_tham_sylvia_nguyen.md,92,No,No,Yes,Yes,No,None,0,C,要改善
+039,035_paulius.md,220,No,No,Yes,Yes,No,None,0,C,要改善
+040,036_siyabend.md,573,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+041,037_joseph_mambwe.md,189,No,No,Yes,Yes,No,None,0,C,要改善
+042,038_jure_kayzer.md,276,No,No,Yes,Yes,No,None,0,C,要改善
+043,039_sebastian_drop.md,398,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+044,040_alex_slater.md,356,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+045,041_alex_theuma.md,341,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+046,042_kushank_aggarwal.md,185,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+047,043_jeremy_redman.md,159,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+048,044_adam_lyttle.md,414,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+049,045_erikas_malisauskas.md,347,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+050,046_colin_mcintosh.md,353,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+051,047_alan_chan.md,468,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+052,048_colin_gray.md,264,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+053,049_nathan_hunter.md,107,No,No,Yes,Yes,No,None,0,C,要改善
+054,050_diego_roshardt.md,328,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+055,050_guillaume_moubeche.md,221,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+056,051_dominic_zijlstra.md,478,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+057,051_julien_nahum.md,222,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+058,052_alexander_belogubov.md,275,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+059,052_grant_mcconnaughey.md,505,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+060,053_mac_martine.md,453,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+061,053_steven_cravotta.md,258,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+062,054_jason_chin.md,274,No,Yes,No,Yes,No,None,0,C,標準的内容
+063,054_sorin_alupoaie.md,425,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+064,055_daniel_nguyen.md,321,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+065,055_yasser_elsaid.md,376,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+066,056_romain_torres.md,330,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+067,057_david_attias.md,277,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+068,057_saeed_ezzati.md,323,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+069,058_simon_hoiberg.md,342,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+070,058_timo_tzschetzsch.md,353,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+071,059_nikita_evgeniy.md,108,No,No,Yes,Yes,No,None,0,C,要改善
+072,059_sumit_kumar.md,317,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+073,060_mubashar_iqbal.md,98,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+074,061_john_rush.md,99,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+075,062_damon_chen.md,370,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+076,063_takuya_matsuyama.md,366,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+077,064_pauline_clavelloux.md,98,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+078,065_wilson_bright.md,340,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+079,066_jim_raptis.md,361,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+080,067_dawson_botsford.md,264,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+081,068_david_bressler.md,97,No,Yes,No,No,No,None,0,D,骨格のみ（      97行）
+082,069_pat_walls.md,96,No,Yes,No,Yes,No,None,0,D,骨格のみ（      96行）
+083,070_maciej_cupial.md,96,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+084,071_ajay_patel.md,94,No,Yes,No,No,No,None,0,D,骨格のみ（      94行）
+085,072_nicolai_klemke.md,92,No,Yes,No,No,No,None,0,D,骨格のみ（      92行）
+086,073_rahul_pandey.md,97,No,Yes,No,No,No,None,0,D,骨格のみ（      97行）
+087,074_sebastian_rohl.md,95,No,Yes,No,Yes,No,None,0,D,骨格のみ（      95行）
+088,075_rox.md,95,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+089,076_andrey_azimov.md,96,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+090,077_yong_soo_chung.md,100,No,Yes,No,Yes,No,None,0,C,標準的内容
+091,079_arvid_kahl.md,94,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+092,080_bhanu_teja.md,94,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+093,081_tony_dinh_ai.md,95,No,Yes,No,No,No,None,0,D,骨格のみ（      95行）
+094,082_samuel_rondot.md,96,No,Yes,No,No,No,None,0,D,骨格のみ（      96行）
+095,083_pieter_levels_ai.md,93,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+096,084_dmytro_krasun.md,99,No,Yes,Yes,Yes,No,None,0,B,内容充実、YAML未対応
+097,085_marc_lou_shipfast.md,97,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+098,086_josh_mohrer.md,382,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+099,087_aj_carrd.md,197,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+100,088_justin_welsh.md,453,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+101,089_david_bressler.md,384,Yes,Yes,Yes,Yes,Yes,PASS,0,C,標準的内容
+102,090_dustin_stout.md,404,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+103,091_tim_bennetto.md,400,Yes,Yes,Yes,Yes,Yes,PASS,0,C,標準的内容
+104,092_sahil_bloom.md,396,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+105,093_rik_schennink.md,328,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+106,094_marie_poulin.md,365,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+107,095_rashid_khasanov.md,324,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+108,096_andy_cloke.md,341,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+109,097_leo_baecker.md,381,Yes,Yes,Yes,Yes,Yes,PASS,0,C,標準的内容
+110,098_dan_kulkov.md,375,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+111,099_pete_codes.md,373,Yes,Yes,Yes,Yes,Yes,PASS,0,C,標準的内容
+112,100_ben_tossell.md,395,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+113,101_steph_smith.md,234,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+114,102_adriaan_van_rossum.md,206,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+115,103_charlie_clark.md,206,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+116,104_samuel_rondot.md,230,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+117,105_lukas_hermann.md,230,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+118,106_sebastian_roehl.md,218,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+119,107_justin_duke.md,223,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+120,108_nevo_david.md,256,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+121,109_angus_cheng.md,248,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+122,110_francois_mommens.md,222,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+123,111_steve_ridout.md,210,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+124,112_kevin_conti.md,206,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+125,113_joseph_setter_ai.md,224,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+126,114_chris_poka.md,202,Yes,Yes,Yes,Yes,Yes,PASS,0,B,内容充実、YAML未対応
+127,115_tyler_tringas.md,221,Yes,Yes,Yes,Yes,Yes,PASS,0,A,Template v4.0完全準拠
+128,ai_famous_001_aidan_gomez.md,91,No,Yes,No,No,No,None,0,D,骨格のみ（      91行）
+129,ai_famous_002_raquel_urtasun.md,90,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+130,ai_famous_003_clement_delangue.md,93,No,Yes,No,No,No,None,0,D,骨格のみ（      93行）
+131,ai_famous_004_andrew_ng.md,92,No,Yes,No,No,No,None,0,D,骨格のみ（      92行）
+132,ai_famous_005_ilya_sutskever.md,89,No,Yes,No,No,No,None,0,D,骨格のみ（      89行）
+133,ai_famous_006_greg_brockman.md,91,No,Yes,No,No,No,None,0,D,骨格のみ（      91行）
+134,ai_famous_007_dario_amodei.md,91,No,Yes,No,No,No,None,0,D,骨格のみ（      91行）
+135,ai_famous_008_sam_altman.md,90,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応
+136,ai_famous_009_dave_rogenmoser.md,93,No,Yes,Yes,No,No,None,0,B,内容充実、YAML未対応

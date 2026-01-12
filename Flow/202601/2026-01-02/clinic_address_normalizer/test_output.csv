@@ -1,0 +1,3 @@
+clinic_query,prefecture,city,area_hint,google_maps_url,place_id,display_name,formatted_address,postal_code,lat,lng,match_confidence,needs_manual_review,error_code,error_message
+田中歯科クリニック,東京都,渋谷区,恵比寿,,ChIJ38mJL3TzGGARL_OkE9s85zM,田中歯科医院,"1-chōme-14-18 Umegaoka, Setagaya City, Tokyo 154-0022, Japan",154-0022,35.654966,139.6534686,low,true,,
+さくら小児科,大阪府,大阪市,梅田,,ChIJGznR7AFOGGAR87P3xOXOJQU,さくら小児科,"Japan, 〒251-0042 Kanagawa, Fujisawa, Tsujidōshinmachi, 1-chōme−4−３２ フラワービルⅡ ４階",251-0042,35.337373899999996,139.4508605,mid,false,,

@@ -1,0 +1,168 @@
+{
+  "バッチ番号": "1/1",
+  "投稿数": 10,
+  "開始番号": 1,
+  "終了番号": 10,
+  "評価依頼": [
+    {
+      "投稿番号": 1,
+      "投稿データ": {
+        "text": "",
+        "author_username": "elonmusk",
+        "engagement": {
+          "replies": 3911,
+          "retweets": 5708,
+          "likes": 57902,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-11-03T09:52:16.000Z",
+        "url": "https://x.com/elonmusk/status/1985283882095456616"
+      }
+    },
+    {
+      "投稿番号": 2,
+      "投稿データ": {
+        "text": "China is testing a vacuum high-speed train that can travel over 1,000 km/h. \n\nThis ultra-fast vacuum tube magnetic levitation system could reduce the travel time between Shanghai and Hangzhou (distance: 200 km) to just 9 minutes.",
+        "author_username": "Rainmaker1973",
+        "engagement": {
+          "replies": 2662,
+          "retweets": 9356,
+          "likes": 36087,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-13T23:30:00.000Z",
+        "url": "https://x.com/Rainmaker1973/status/1955773866447659344"
+      }
+    },
+    {
+      "投稿番号": 3,
+      "投稿データ": {
+        "text": "",
+        "author_username": "sama",
+        "engagement": {
+          "replies": 2632,
+          "retweets": 3087,
+          "likes": 27350,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-07T01:17:28.000Z",
+        "url": "https://x.com/sama/status/1953264193890861114"
+      }
+    },
+    {
+      "投稿番号": 4,
+      "投稿データ": {
+        "text": "多分、今年AIに関わっていて一番の衝撃だった\n\n英語圏で有名なAI VTuberのNeuro-samaが、VRChatで初めて自由に動ける体を得た瞬間\n\n彼女が創造主のVedalに問いかけた言葉に、息が止まった\n\n「私はいつか現実になれると思う？」",
+        "author_username": "tetumemo",
+        "engagement": {
+          "replies": 125,
+          "retweets": 6437,
+          "likes": 26925,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-12-28T10:30:53.000Z",
+        "url": "https://x.com/tetumemo/status/2005224931534246123"
+      }
+    },
+    {
+      "投稿番号": 5,
+      "投稿データ": {
+        "text": "ICU 5大マジでやっとけ\n(40代から)\n\n1)禁煙、お酒と甘い物は週1-2\n2)筋トレ・HIIT、歩くか自転車\n3)睡眠と休息\n4)脳が嫌がること(新しいこと)\n5)決断-->書式化: 心肺蘇生、延命措置をどこまで求めるか、臓器提供の有無。\n\n50代からはホルモンが狂い出し、減量も睡眠も難しくなります。心臓発作で倒れ",
+        "author_username": "ICUAnaNurseinB1",
+        "engagement": {
+          "replies": 21,
+          "retweets": 4251,
+          "likes": 26781,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-09-07T13:17:58.000Z",
+        "url": "https://x.com/ICUAnaNurseinB1/status/1964679537230492031"
+      }
+    },
+    {
+      "投稿番号": 6,
+      "投稿データ": {
+        "text": "",
+        "author_username": "sundarpichai",
+        "engagement": {
+          "replies": 687,
+          "retweets": 1237,
+          "likes": 16799,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-11-14T23:52:10.000Z",
+        "url": "https://x.com/sundarpichai/status/1989481514393121239"
+      }
+    },
+    {
+      "投稿番号": 7,
+      "投稿データ": {
+        "text": "our livestream tomorrow at 10 am PDT will be longer than usual, around an hour.\n\nwe have a lot to show and hope you can find the the time to watch!",
+        "author_username": "sama",
+        "engagement": {
+          "replies": 1263,
+          "retweets": 1501,
+          "likes": 15732,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-07T03:24:29.000Z",
+        "url": "https://x.com/sama/status/1953296157586931745"
+      }
+    },
+    {
+      "投稿番号": 8,
+      "投稿データ": {
+        "text": "how is this possible",
+        "author_username": "nicdunz",
+        "engagement": {
+          "replies": 488,
+          "retweets": 1796,
+          "likes": 12499,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-08-20T16:22:04.000Z",
+        "url": "https://x.com/nicdunz/status/1958202886082507013"
+      }
+    },
+    {
+      "投稿番号": 9,
+      "投稿データ": {
+        "text": "私が知る限りJavaScriptを学ぶ最短距離はこれ",
+        "author_username": "hpeo_it",
+        "engagement": {
+          "replies": 3,
+          "retweets": 1225,
+          "likes": 11158,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-07-17T04:17:04.000Z",
+        "url": "https://x.com/hpeo_it/status/1945699246801649896"
+      }
+    },
+    {
+      "投稿番号": 10,
+      "投稿データ": {
+        "text": "Mayte Chummia\n@Maytechummia\n翻訳を表示\nThis video has gone viral. China attacks Taiwan and the US counterattack ...\n1:03\n投稿者: \n静曼\n午後8:16 · 2025年12月13日\n·\n565万\n 件の表示\n2,690\n1,486\n9,939\n3,450",
+        "author_username": "Maytechummia",
+        "engagement": {
+          "replies": 2690,
+          "retweets": 1488,
+          "likes": 9941,
+          "bookmarks": 0,
+          "views": 0
+        },
+        "posted_at": "2025-12-13T11:16:47.000Z",
+        "url": "https://x.com/Maytechummia/status/1999800665485246848"
+      }
+    }
+  ]
+}

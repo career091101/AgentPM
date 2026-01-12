@@ -1,0 +1,17 @@
+summary:
+  web_total: 1632
+  archived_total: 1631
+  new_articles: 1
+  deleted_articles: 0
+new_articles:
+- url: https://note.com/ochyai/n/n80380e5ce700
+  detected_at: '2025-12-31T16:52:32.123643'
+  status: 未ダウンロード
+deleted_articles: []
+recommended_actions:
+- action: archive_urls.jsonの更新
+  priority: High
+  command: note_archive_fetcher.py --output metadata --cookies cookies/note_cookies.json
+    --limit 0
+  reason: 1件の新規記事が検出されました
+comparison_at: '2025-12-31T16:52:32.123643'

@@ -1,0 +1,103 @@
+{
+  "iteration": 1,
+  "timestamp": "2026-01-03T10:00:00",
+  "total_score": 15.425,
+  "threshold": 70,
+  "passed": false,
+  "breakdown": {
+    "completeness": {
+      "score": 17.5,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 70
+    },
+    "logic": {
+      "score": 20,
+      "max": 25,
+      "weight": 0.25,
+      "percentage": 80
+    },
+    "specificity": {
+      "score": 16,
+      "max": 20,
+      "weight": 0.20,
+      "percentage": 80
+    },
+    "evidence": {
+      "score": 9,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 60
+    },
+    "framework_compliance": {
+      "score": 10,
+      "max": 15,
+      "weight": 0.15,
+      "percentage": 67
+    }
+  },
+  "issues": [
+    {
+      "category": "completeness",
+      "severity": "error",
+      "message": "未実装セクション: 不公正な優位性"
+    },
+    {
+      "category": "completeness",
+      "severity": "error",
+      "message": "未実装セクション: 主要指標"
+    },
+    {
+      "category": "completeness",
+      "severity": "error",
+      "message": "未実装セクション: コスト構造"
+    },
+    {
+      "category": "logic",
+      "severity": "warning",
+      "message": "記録速度3倍の技術的根拠が不明"
+    },
+    {
+      "category": "logic",
+      "severity": "warning",
+      "message": "CPFスコアの配点根拠が不明"
+    },
+    {
+      "category": "specificity",
+      "severity": "warning",
+      "message": "具体的な事例（個別ユーザーケース）が不足"
+    },
+    {
+      "category": "evidence",
+      "severity": "error",
+      "message": "市場規模250万人の算出根拠が不明"
+    },
+    {
+      "category": "evidence",
+      "severity": "error",
+      "message": "競合比較表のデータソースが不明"
+    },
+    {
+      "category": "evidence",
+      "severity": "error",
+      "message": "収益予測の根拠が不明（ARPU 800円の根拠は？）"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "error",
+      "message": "CPFフレームワークの必須要素「不公正な優位性」が欠落"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "error",
+      "message": "リーンスタートアップの必須要素「主要指標」が欠落"
+    },
+    {
+      "category": "framework_compliance",
+      "severity": "error",
+      "message": "ビジネスモデルの必須要素「コスト構造」が欠落"
+    }
+  ],
+  "document_path": "/Users/yuichi/AIPM/aipm_v0/Flow/202601/2026-01-03/test_cpf_judgment_missing_sections.md",
+  "document_type": "cpf_judgment"
+}

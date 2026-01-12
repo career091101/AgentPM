@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "analyzed_at": "2026-01-02T11:52:17.277796",
+    "total_bookmarks": 823
+  },
+  "writing_style": {
+    "sentence_endings_top20": [
+      [
+        "ます",
+        129
+      ],
+      [
+        "した",
+        98
+      ],
+      [
+        "いる",
+        89
+      ],
+      [
+        "する",
+        79
+      ],
+      [
+        "ない",
+        72
+      ],
+      [
+        "です",
+        69
+      ],
+      [
+        "表示",
+        50
+      ],
+      [
+        "った",
+        46
+      ],
+      [
+        "れる",
+        32
+      ],
+      [
+        "なる",
+        29
+      ],
+      [
+        "ある",
+        27
+      ],
+      [
+        "s.",
+        25
+      ],
+      [
+        "さい",
+        21
+      ],
+      [
+        "てる",
+        20
+      ],
+      [
+        "こと",
+        19
+      ],
+      [
+        "e.",
+        19
+      ],
+      [
+        ". ",
+        19
+      ],
+      [
+        "しい",
+        18
+      ],
+      [
+        "//",
+        17
+      ],
+      [
+        "t.",
+        16
+      ]
+    ],
+    "tone_markers": {
+      "exclamation": 197,
+      "question": 99,
+      "emoji": 0,
+      "ellipsis": 108
+    },
+    "rhetoric_patterns": {
+      "question_form": 70,
+      "comparison": 71,
+      "emphasis": 34,
+      "negation": 15,
+      "imperative": 59,
+      "quotation": 302
+    },
+    "sentence_length_stats": {
+      "average": 36.0,
+      "median": 25,
+      "max": 419,
+      "min": 2
+    }
+  },
+  "engagement_correlation": {
+    "basic_stats": {
+      "likes": {
+        "mean": 1053.8,
+        "median": 373,
+        "stdev": 3221.3,
+        "max": 57902,
+        "min": 0
+      },
+      "retweets": {
+        "mean": 165.1,
+        "median": 50,
+        "max": 9356
+      },
+      "replies": {
+        "mean": 42.5,
+        "median": 3,
+        "max": 3911
+      }
+    },
+    "correlations": {
+      "likes_vs_retweets": 0.89,
+      "likes_vs_replies": 0.793,
+      "retweets_vs_replies": 0.676
+    },
+    "category_engagement": {
+      "AI・生成AI": {
+        "avg_likes": 793.7,
+        "avg_retweets": 135.9,
+        "avg_replies": 33.0,
+        "count": 569
+      },
+      "その他": {
+        "avg_likes": 1624.9,
+        "avg_retweets": 230.7,
+        "avg_replies": 65.7,
+        "count": 245
+      },
+      "ビジネス・起業": {
+        "avg_likes": 1950.4,
+        "avg_retweets": 220.1,
+        "avg_replies": 9.7,
+        "count": 9
+      }
+    },
+    "structure_engagement": {
+      "リスト形式": {
+        "avg_likes": 792.1,
+        "count": 115
+      },
+      "引用・RT": {
+        "avg_likes": 945.5,
+        "count": 95
+      },
+      "数値データ": {
+        "avg_likes": 613.5,
+        "count": 74
+      }
+    }
+  },
+  "author_profiling": {
+    "top_20_profiles": [
+      {
+        "username": "Tsubame33785667",
+        "post_count": 51,
+        "avg_likes": 187.6,
+        "avg_text_length": 119.0,
+        "top_topics": [
+          {
+            "topic": "Gemini",
+            "count": 1
+          },
+          {
+            "topic": "Agent",
+            "count": 1
+          },
+          {
+            "topic": "Claude",
+            "count": 1
+          }
+        ],
+        "specialization": "Gemini"
+      },
+      {
+        "username": "kimmonismus",
+        "post_count": 35,
+        "avg_likes": 631.6,
+        "avg_text_length": 311.5,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 13
+          },
+          {
+            "topic": "GPT",
+            "count": 5
+          },
+          {
+            "topic": "Gemini",
+            "count": 3
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "d_1d2d",
+        "post_count": 32,
+        "avg_likes": 514.9,
+        "avg_text_length": 90.3,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 7
+          },
+          {
+            "topic": "GPT",
+            "count": 4
+          },
+          {
+            "topic": "Claude",
+            "count": 2
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "masahirochaen",
+        "post_count": 30,
+        "avg_likes": 431.7,
+        "avg_text_length": 149.0,
+        "top_topics": [
+          {
+            "topic": "Claude",
+            "count": 8
+          },
+          {
+            "topic": "Agent",
+            "count": 7
+          },
+          {
+            "topic": "GPT",
+            "count": 5
+          }
+        ],
+        "specialization": "Claude"
+      },
+      {
+        "username": "bioshok3",
+        "post_count": 28,
+        "avg_likes": 149.1,
+        "avg_text_length": 131.6,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 14
+          },
+          {
+            "topic": "Gemini",
+            "count": 2
+          },
+          {
+            "topic": "GPT",
+            "count": 2
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "Coalis",
+        "post_count": 25,
+        "avg_likes": 264.4,
+        "avg_text_length": 104.5,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 6
+          },
+          {
+            "topic": "Agent",
+            "count": 3
+          },
+          {
+            "topic": "GPT",
+            "count": 1
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "oikon48",
+        "post_count": 19,
+        "avg_likes": 445.5,
+        "avg_text_length": 142.2,
+        "top_topics": [
+          {
+            "topic": "Claude",
+            "count": 14
+          },
+          {
+            "topic": "Agent",
+            "count": 6
+          },
+          {
+            "topic": "Gemini",
+            "count": 1
+          }
+        ],
+        "specialization": "Claude"
+      },
+      {
+        "username": "生成AIの産業応用",
+        "post_count": 18,
+        "avg_likes": 421.7,
+        "avg_text_length": 167.1,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 5
+          },
+          {
+            "topic": "GPT",
+            "count": 4
+          },
+          {
+            "topic": "Agent",
+            "count": 4
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "singularity20xy",
+        "post_count": 14,
+        "avg_likes": 67.7,
+        "avg_text_length": 121.4,
+        "top_topics": [
+          {
+            "topic": "GPT",
+            "count": 3
+          },
+          {
+            "topic": "OpenAI",
+            "count": 2
+          },
+          {
+            "topic": "Gemini",
+            "count": 1
+          }
+        ],
+        "specialization": "GPT"
+      },
+      {
+        "username": "slow_developer",
+        "post_count": 12,
+        "avg_likes": 952.8,
+        "avg_text_length": 268.2,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 4
+          },
+          {
+            "topic": "GPT",
+            "count": 2
+          },
+          {
+            "topic": "Agent",
+            "count": 1
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "tetumemo",
+        "post_count": 11,
+        "avg_likes": 2761.0,
+        "avg_text_length": 125,
+        "top_topics": [
+          {
+            "topic": "Gemini",
+            "count": 3
+          },
+          {
+            "topic": "GPT",
+            "count": 2
+          },
+          {
+            "topic": "Agent",
+            "count": 2
+          }
+        ],
+        "specialization": "Gemini"
+      },
+      {
+        "username": "tomoyaasakura",
+        "post_count": 11,
+        "avg_likes": 1310.0,
+        "avg_text_length": 141.7,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 1
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "VraserX",
+        "post_count": 10,
+        "avg_likes": 393.3,
+        "avg_text_length": 273.5,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 3
+          },
+          {
+            "topic": "GPT",
+            "count": 2
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "BrandonKHill",
+        "post_count": 9,
+        "avg_likes": 735.0,
+        "avg_text_length": 117.7,
+        "top_topics": [
+          {
+            "topic": "GPT",
+            "count": 2
+          },
+          {
+            "topic": "Agent",
+            "count": 1
+          },
+          {
+            "topic": "OpenAI",
+            "count": 1
+          }
+        ],
+        "specialization": "GPT"
+      },
+      {
+        "username": "AI_LowCode",
+        "post_count": 8,
+        "avg_likes": 284.2,
+        "avg_text_length": 145.1,
+        "top_topics": [
+          {
+            "topic": "Agent",
+            "count": 2
+          },
+          {
+            "topic": "Gemini",
+            "count": 2
+          }
+        ],
+        "specialization": "Agent"
+      },
+      {
+        "username": "kenn",
+        "post_count": 7,
+        "avg_likes": 1535.7,
+        "avg_text_length": 245.4,
+        "top_topics": [
+          {
+            "topic": "GPT",
+            "count": 2
+          },
+          {
+            "topic": "Gemini",
+            "count": 1
+          },
+          {
+            "topic": "OpenAI",
+            "count": 1
+          }
+        ],
+        "specialization": "GPT"
+      },
+      {
+        "username": "kosuke_agos",
+        "post_count": 7,
+        "avg_likes": 364.3,
+        "avg_text_length": 127.6,
+        "top_topics": [
+          {
+            "topic": "Agent",
+            "count": 2
+          },
+          {
+            "topic": "GPT",
+            "count": 1
+          },
+          {
+            "topic": "Gemini",
+            "count": 1
+          }
+        ],
+        "specialization": "Agent"
+      },
+      {
+        "username": "tommy_love123",
+        "post_count": 7,
+        "avg_likes": 308.1,
+        "avg_text_length": 117.9,
+        "top_topics": [
+          {
+            "topic": "GPT",
+            "count": 1
+          },
+          {
+            "topic": "OpenAI",
+            "count": 1
+          },
+          {
+            "topic": "Agent",
+            "count": 1
+          }
+        ],
+        "specialization": "GPT"
+      },
+      {
+        "username": "btibor91",
+        "post_count": 7,
+        "avg_likes": 657.6,
+        "avg_text_length": 243.1,
+        "top_topics": [
+          {
+            "topic": "OpenAI",
+            "count": 5
+          },
+          {
+            "topic": "GPT",
+            "count": 3
+          },
+          {
+            "topic": "Agent",
+            "count": 1
+          }
+        ],
+        "specialization": "OpenAI"
+      },
+      {
+        "username": "sora19ai",
+        "post_count": 6,
+        "avg_likes": 406.7,
+        "avg_text_length": 264,
+        "top_topics": [
+          {
+            "topic": "Claude",
+            "count": 3
+          },
+          {
+            "topic": "Agent",
+            "count": 3
+          },
+          {
+            "topic": "Gemini",
+            "count": 1
+          }
+        ],
+        "specialization": "Claude"
+      }
+    ]
+  },
+  "time_trends": {
+    "monthly_distribution": {
+      "2025-09": 179,
+      "2025-08": 148,
+      "2025-12": 139,
+      "2025-10": 136,
+      "2025-07": 94,
+      "2025-11": 92,
+      "2025-06": 33,
+      "2025-02": 1,
+      "2025-05": 1
+    },
+    "weekly_distribution": {
+      "2025-W51": 55,
+      "2025-W36": 47,
+      "2025-W38": 46,
+      "2025-W33": 42,
+      "2025-W35": 41,
+      "2025-W39": 40,
+      "2025-W41": 39,
+      "2025-W40": 37,
+      "2025-W34": 37,
+      "2025-W49": 32
+    },
+    "monthly_topics": {
+      "2025-12": {
+        "Claude": 28,
+        "GPT": 18,
+        "Gemini": 17
+      },
+      "2025-11": {
+        "Gemini": 14,
+        "GPT": 8,
+        "Claude": 5
+      },
+      "2025-10": {
+        "Claude": 18,
+        "GPT": 14,
+        "Gemini": 3
+      },
+      "2025-09": {
+        "GPT": 17,
+        "Claude": 9,
+        "Gemini": 5
+      },
+      "2025-08": {
+        "GPT": 26,
+        "Claude": 17,
+        "Gemini": 3
+      },
+      "2025-07": {
+        "Claude": 17,
+        "Gemini": 8,
+        "GPT": 3
+      },
+      "2025-06": {
+        "Gemini": 6,
+        "GPT": 4,
+        "Claude": 3
+      }
+    }
+  },
+  "information_depth": {
+    "depth_categories": {
+      "primary_source": 70,
+      "secondary_source": 76,
+      "tutorial": 37,
+      "news": 23,
+      "opinion": 18,
+      "data_driven": 81
+    },
+    "actionability": {
+      "immediately_actionable": 28,
+      "requires_setup": 17,
+      "conceptual_only": 778
+    },
+    "uniqueness": {
+      "unique_insight": 3,
+      "curated_info": 36,
+      "repost": 19
+    },
+    "examples": {
+      "tutorial": [
+        {
+          "text": "海外で大バズした1時間30分超えの\n「Claude Code完全ガイド」が最高だった。\nㅤ\n「Claude Code」と「Codex (GPT-5 High)」を使って、12個のアプリを実際に作りなが",
+          "author": "SuguruKun_ai",
+          "likes": 1368
+        },
+        {
+          "text": "とまだ@Vibe Coding Studio運営\n@muscle_coding\nZenn で出している Claude Code 本（無料）を大幅に拡充中です。\n\n　チャプター数：11 → 52\n\n年内",
+          "author": "Vibe Coding Studio運営",
+          "likes": 559
+        },
+        {
+          "text": "スナガク@suna_gakuAnthoropic の ベストプラクティスだと、Skills は、一度作って終わりでは無く、 「継続的に評価して改良する」  必要がある…\nそのため、最初に評価を構築する",
+          "author": "suna_gaku",
+          "likes": 49
+        }
+      ],
+      "data_driven": [
+        {
+          "text": "ちなみにアプリ版だとGeminiがChatGPTを猛追していて、ChatGPTのシェアが87%→68%まで急落。一方でGeminiが5.4%→18.2%と爆伸び中。ChatGPT：87.2% → 68",
+          "author": "0x__tom",
+          "likes": 62
+        },
+        {
+          "text": "初期の知能爆発の雰囲気を感じる\n\n2024年4月以降、フロンティアAIの能力向上は加速したようで、改善率はほぼ2倍速くなっています\n\nこれは、ラボが推論型モデルやRL（単なる大規模な事前トレーニングの",
+          "author": "singularity20xy",
+          "likes": 41
+        },
+        {
+          "text": "これ試してみて、、\n\nLINEのトーク履歴エクスポート\n↓\nClaudeに「このトークから〇〇の話し方を完全に再現するSkillを作って」\n↓\n自分のクローン完成\n\nClaude Skillsの凄さは",
+          "author": "riku720720",
+          "likes": 38
+        }
+      ],
+      "primary_source": [
+        {
+          "text": "【PM必見】Cursor、Claude Code、Antigravityの公式チュートリアル公開されています！\n\n英語苦手な人はChrome翻訳で即読めます",
+          "author": "_nogu66",
+          "likes": 63
+        },
+        {
+          "text": "Geminiの回答を\nDocsに転送するChrome拡張が完成した\n\nそのDocsをNotebookLMにソース追加しておく\nノートブックのソース更新作業も\n過去に作ったChrome拡張で自動化済み\n",
+          "author": "Majin_AppSheet",
+          "likes": 1346
+        },
+        {
+          "text": "AIでショート動画を100本作った結果、「作るだけの人」は全員消えると確信した｜Yoshihiro Tanaka | taziku@taziku_co",
+          "author": "sozo_museum",
+          "likes": 561
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,291 @@
+# Week 4 Phase 3: Integer Expression Bug Fix
+**Date**: 2026-01-09
+**Target**: scripts/worktree_status.sh
+**Bug**: line 78: [: 0\n0: integer expression expected
+
+## 問題の概要
+
+Phase 2統合テストで発見された整数式評価エラー。`grep -c`コマンドの出力に改行コードが混入し、整数式評価が失敗していた。
+
+## 根本原因
+
+Bashの`grep -c`コマンドは出力に改行を含むため、変数に代入後も改行が残る。この改行が含まれた状態で整数比較演算子（`-gt`, `-eq`等）を使用すると、以下のようなエラーが発生：
+
+```
+line 78: [: 0
+0: integer expression expected
+```
+
+これは変数の値が `"0\n0"` のような形式になり、Bashが整数として解釈できないため。
+
+## 修正内容
+
+### 修正1: check_claude_process関数（78行目付近）
+
+**修正前**:
+```bash
+    # Look for claude processes in this directory
+    local claude_count=$(ps aux | grep "claude" | grep -v "grep" | grep -c "$project_path" || echo 0)
+
+    if [ "$claude_count" -gt 0 ]; then
+```
+
+**修正後**:
+```bash
+    # Look for claude processes in this directory
+    # Remove newlines to prevent "integer expression expected" error
+    local claude_count=$(ps aux | grep "claude" | grep -v "grep" | grep -c "$project_path" || echo 0)
+    claude_count=$(echo "$claude_count" | tr -d '\n')
+
+    if [ "$claude_count" -gt 0 ]; then
+```
+
+**変更理由**:
+- `tr -d '\n'`で改行を完全に削除し、純粋な整数値のみを変数に格納
+- エラーメッセージの発生箇所と一致（78行目 → 修正後80行目）
+
+---
+
+### 修正2: get_git_status関数（98-105行目付近）
+
+**修正前**:
+```bash
+        local modified=$(echo "$status" | grep -c "^ M" || echo 0)
+        local added=$(echo "$status" | grep -c "^A " || echo 0)
+        local deleted=$(echo "$status" | grep -c "^D " || echo 0)
+        local untracked=$(echo "$status" | grep -c "^??" || echo 0)
+
+        echo -e "${YELLOW}!${NC} Modified: $modified, Added: $added, Deleted: $deleted, Untracked: $untracked"
+```
+
+**修正後**:
+```bash
+        local modified=$(echo "$status" | grep -c "^ M" || echo 0)
+        modified=$(echo "$modified" | tr -d '\n')
+        local added=$(echo "$status" | grep -c "^A " || echo 0)
+        added=$(echo "$added" | tr -d '\n')
+        local deleted=$(echo "$status" | grep -c "^D " || echo 0)
+        deleted=$(echo "$deleted" | tr -d '\n')
+        local untracked=$(echo "$status" | grep -c "^??" || echo 0)
+        untracked=$(echo "$untracked" | tr -d '\n')
+
+        echo -e "${YELLOW}!${NC} Modified: $modified, Added: $added, Deleted: $deleted, Untracked: $untracked"
+```
+
+**変更理由**:
+- 同様のパターンが存在する箇所を予防的に修正
+- 各カウント変数に対して個別に`tr -d '\n'`を適用
+
+---
+
+### 修正3: show_status関数（169行目付近）
+
+**修正前**:
+```bash
+    # Get all worktrees
+    local worktrees=$(get_worktrees)
+    local worktree_count=$(echo "$worktrees" | grep -c '^' || echo 0)
+
+    if [ "$worktree_count" -eq 0 ]; then
+```
+
+**修正後**:
+```bash
+    # Get all worktrees
+    local worktrees=$(get_worktrees)
+    local worktree_count=$(echo "$worktrees" | grep -c '^' || echo 0)
+    worktree_count=$(echo "$worktree_count" | tr -d '\n')
+
+    if [ "$worktree_count" -eq 0 ]; then
+```
+
+**変更理由**:
+- worktree数のカウントでも同様のエラーが発生する可能性があるため修正
+
+---
+
+### 修正4: show_status関数内ループ（219行目付近）
+
+**修正前**:
+```bash
+    local running_count=0
+    for worktree_path in $worktrees; do
+        local project_path="${worktree_path}/aipm_v0"
+        local claude_count=$(ps aux | grep "claude" | grep -v "grep" | grep -c "$project_path" || echo 0)
+        if [ "$claude_count" -gt 0 ]; then
+            running_count=$((running_count + 1))
+        fi
+    done
+```
+
+**修正後**:
+```bash
+    local running_count=0
+    for worktree_path in $worktrees; do
+        local project_path="${worktree_path}/aipm_v0"
+        local claude_count=$(ps aux | grep "claude" | grep -v "grep" | grep -c "$project_path" || echo 0)
+        claude_count=$(echo "$claude_count" | tr -d '\n')
+        if [ "$claude_count" -gt 0 ]; then
+            running_count=$((running_count + 1))
+        fi
+    done
+```
+
+**変更理由**:
+- 修正1と同じパターンのため一貫性を保つため修正
+
+---
+
+## 修正の一貫性
+
+全ての修正で以下のパターンを適用：
+
+```bash
+# ❌ 修正前（改行が残る可能性）
+local count=$(command | grep -c pattern || echo 0)
+if [ "$count" -gt 0 ]; then
+
+# ✅ 修正後（改行を確実に削除）
+local count=$(command | grep -c pattern || echo 0)
+count=$(echo "$count" | tr -d '\n')
+if [ "$count" -gt 0 ]; then
+```
+
+**理由**:
+- `tr -d '\n'`は改行のみを削除し、数値自体は変更しない
+- `echo`を経由することで、複数の改行が混入していても確実に削除
+- パフォーマンス影響は無視できるレベル（数値処理のみ）
+
+---
+
+## 検証結果
+
+### 構文チェック
+```bash
+$ bash -n scripts/worktree_status.sh
+# エラーなし（正常終了）
+```
+
+### 実行テスト（想定）
+```bash
+$ bash scripts/worktree_status.sh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🌲 Git Worktrees Status Monitor
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-09 14:30:00
+
+ℹ Found 3 worktrees
+
+Main Repository: /Users/yuichi/AIPM/aipm_v0
+  Status: ✓ Clean (no changes)
+
+1. Worktree: test-branch-1
+  Path: /Users/yuichi/AIPM/worktrees/test-branch-1/aipm_v0
+  Process: ○ Claude not running
+  Status: ✓ Clean (no changes)
+  Branch: test-branch-1
+  Commit: abc1234 - Initial commit
+
+...（以下略）
+
+# ✅ "integer expression expected"エラーが発生しない
+```
+
+---
+
+## 影響範囲
+
+### 修正ファイル
+- `scripts/worktree_status.sh`（1ファイルのみ）
+
+### 修正行数
+- **追加**: 8行（改行削除処理 + コメント）
+- **変更**: 0行
+- **削除**: 0行
+- **合計**: 8行の追加
+
+### 関連機能
+1. `check_claude_process()` - Claudeプロセス数のカウント
+2. `get_git_status()` - Git変更ファイル数のカウント
+3. `show_status()` - worktree数のカウント
+4. `show_status()` (ループ内) - 実行中Claude数の集計
+
+---
+
+## Week 3 Phase 3との比較
+
+### 類似点
+- **両方とも整数式評価エラー**: Bashの`[ ]`演算子での比較失敗
+- **予防的修正**: エラー発生箇所以外も同様のパターンを修正
+- **詳細なパッチドキュメント**: 修正理由、検証結果を明記
+
+### 相違点
+
+| 観点 | Week 3 Phase 3 (mapfile) | Week 4 Phase 3 (grep -c) |
+|------|-------------------------|-------------------------|
+| 根本原因 | `mapfile`によるヌル終端配列 | `grep -c`による改行混入 |
+| 修正箇所 | `phase2_test.sh`の1箇所 | `worktree_status.sh`の4箇所 |
+| 修正パターン | `IFS=$'\n' mapfile` | `tr -d '\n'` |
+| パッチサイズ | 117行 | 本パッチ |
+| 影響関数数 | 1関数 | 3関数 |
+
+---
+
+## 教訓
+
+### Bashにおける整数式評価のベストプラクティス
+
+1. **`grep -c`の出力は必ず改行削除**
+   ```bash
+   count=$(command | grep -c pattern)
+   count=$(echo "$count" | tr -d '\n')  # 必須
+   ```
+
+2. **算術演算前の検証**
+   ```bash
+   # より安全な方法
+   count=$(command | grep -c pattern || echo 0)
+   count=$(echo "$count" | tr -d '\n' | grep -E '^[0-9]+$' || echo 0)
+   ```
+
+3. **デバッグ方法**
+   ```bash
+   # 変数の内容を16進数で確認
+   echo "$count" | od -A x -t x1z
+   # 0a（改行）が含まれているか確認
+   ```
+
+---
+
+## 次のステップ
+
+### Phase 3完了確認
+- [x] 構文チェック（`bash -n`）成功
+- [ ] 実行テスト（実際のworktree環境で検証）
+- [ ] パッチドキュメント作成完了
+
+### Phase 4統合テスト準備
+- Week 4の全スクリプト（setup/status/cleanup）の統合テスト
+- 他のBashスクリプトでの同様のパターン検索（予防的修正の検討）
+
+---
+
+## 参照
+
+- **関連ドキュメント**:
+  - `docs/implementation_guides/week4_worktrees.md`
+  - `Flow/202601/2026-01-08/week4_phase2_integration_test.md`
+
+- **関連パッチ**:
+  - Week 3 Phase 3: `Flow/202601/2026-01-07/week3_phase3_mapfile_fix.patch` (117行)
+
+- **関連Issue**:
+  - Bug discovered during Week 4 Phase 2 integration testing
+  - Error: `line 78: [: 0\n0: integer expression expected`
+
+---
+
+**修正者**: Claude Code (Sonnet 4.5)
+**レビュー**: 自動構文チェックのみ（手動レビュー推奨）
+**承認**: 未承認（テスト実行後に承認推奨）

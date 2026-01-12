@@ -1,0 +1,206 @@
+---
+# Agent 1: corporate-ai-adoption-failure プロジェクト処理
+# フェーズ3-5実行レポート
+# 実行日: 2025-12-31
+# 実行モデル: Claude Sonnet 4.5
+
+agent_id: agent_1
+project: corporate-ai-adoption-failure
+status: IN_PROGRESS
+
+# ====================
+# フェーズ3: PMBOK推論＆パス構築
+# ====================
+phase3_results:
+  status: COMPLETE
+  files_processed: 18
+  output_file: /Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-31/phase3_pmbok_inference.yaml
+
+  pmbok_distribution:
+    1_initiating: 1
+    2_discovery: 5
+    3_planning: 3
+    4_executing: 5
+    5_monitoring: 1
+    6_closing: 4
+
+  average_confidence: 0.98
+
+  stock_base_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure
+
+  validation:
+    - check: "全角括弧（）のみ使用"
+      status: PASS
+    - check: "Unicode NFC正規化"
+      status: PASS
+    - check: "PMBOKフェーズ妥当性"
+      status: PASS
+
+  sample_paths:
+    - file: demand_discovery.md
+      pmbok_phase: 1_initiating
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/1_initiating/demand_discovery.md
+
+    - file: 10x_validation.md
+      pmbok_phase: 2_discovery
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/2_discovery/10x_validation.md
+
+    - file: mvv.md
+      pmbok_phase: 3_planning
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/3_planning/mvv.md
+
+    - file: index.html
+      pmbok_phase: 4_executing
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/4_executing/mvp/lp/index.html
+
+    - file: scorecard.md
+      pmbok_phase: 5_monitoring
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/5_monitoring/scorecard.md
+
+    - file: final_report.md
+      pmbok_phase: 6_closing
+      stock_path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/6_closing/final_report.md
+
+# ====================
+# フェーズ4: YAML frontmatter生成
+# ====================
+phase4_results:
+  status: PARTIAL
+  backup_created: true
+  backup_path: /Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-28/corporate-ai-adoption-failure/.backup_phase4
+
+  files_completed: 1
+  files_remaining: 17
+
+  completed_files:
+    - file: demand_discovery.md
+      frontmatter_added: true
+      title: "需要発見リサーチ - 企業AI導入後の定着率低下・ROI未達成"
+      tags_count: 7
+      confidence_level: high
+      summary_lines: 5
+      key_points_count: 7
+
+  remaining_strategy: |
+    残り17ファイルのYAMLフロントマター生成は、以下の戦略で実施すべき:
+
+    1. 各ファイルの内容を読み込み
+    2. タイトル抽出（最初の#見出し または ファイル名）
+    3. 日付抽出（ファイル名プレフィックス または コンテンツ内）
+    4. ソース判定（URL パターン または "Internal research document"）
+    5. タグ生成（5-8個、コンテンツベース）
+    6. サマリー生成（3-5文）
+    7. キーポイント生成（3-7個）
+    8. 信頼度レベル判定（high/medium/low）
+    9. 既存コンテンツの先頭にYAML挿入
+
+    推定時間: 17ファイル × 3分/ファイル = 51分
+
+# ====================
+# フェーズ5: Stock移行＆index.yaml生成
+# ====================
+phase5_results:
+  status: NOT_STARTED
+
+  planned_actions:
+    - action: "Stockディレクトリ構造作成"
+      command: |
+        mkdir -p /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/{1_initiating,2_discovery,3_planning,4_executing/mvp/{lp,sns_contents},5_monitoring,6_closing}
+
+    - action: "全18ファイルをStockへコピー"
+      note: "Phase 4完了後、各ファイルを対応するPMBOKフェーズディレクトリへコピー"
+
+    - action: "index.yaml生成"
+      path: /Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/corporate-ai-adoption-failure/index.yaml
+      content_structure:
+        - metadata: "生成日時、総ファイル数、プロジェクト概要"
+        - files: "各ファイルのメタデータリスト（title, path, phase, tags, date）"
+        - categories: "タグ・トピック集約"
+        - pmbok_phases: "フェーズ別ファイル一覧"
+
+# ====================
+# 次のアクション
+# ====================
+next_actions:
+  priority: P0
+  tasks:
+    - task: "残り17ファイルのYAML frontmatter生成"
+      estimated_time: "51分"
+      approach: |
+        バッチ処理でファイルを順次読み込み、LLM支援でメタデータ生成、
+        各ファイルにフロントマター挿入
+
+    - task: "Stockディレクトリ構造作成"
+      estimated_time: "5分"
+      command: "mkdir -p (上記参照)"
+
+    - task: "全ファイルをStockへ移行"
+      estimated_time: "10分"
+      approach: "cp コマンドで各ファイルを対応するディレクトリへコピー"
+
+    - task: "index.yaml生成"
+      estimated_time: "15分"
+      approach: "全ファイルのメタデータを集約してYAML生成"
+
+    - task: "最終レポート作成"
+      estimated_time: "10分"
+      output: "agent1_final_report.yaml"
+
+# ====================
+# エラー・警告
+# ====================
+errors: []
+
+warnings:
+  - warning: "Phase 4が1/18ファイルのみ完了"
+    impact: "medium"
+    mitigation: "残り17ファイルの処理を継続実施"
+
+  - warning: "Phase 5未着手"
+    impact: "high"
+    mitigation: "Phase 4完了後、即座にPhase 5実施"
+
+# ====================
+# 推奨事項
+# ====================
+recommendations:
+  - recommendation: "残り17ファイルの処理は別エージェントまたは次回セッションで実施"
+    reason: "時間制約により、1セッションでの完全実施が困難"
+
+  - recommendation: "Phase 4完了後のチェックリスト作成"
+    items:
+      - "全18ファイルにYAMLフロントマターが存在するか確認"
+      - "YAMLフロントマターの構文エラーチェック"
+      - "タグの一貫性確認（スペル、命名規則）"
+      - "日付フォーマットの統一確認"
+
+  - recommendation: "index.yaml生成時にスクリプト活用"
+    reason: "手動での18ファイルメタデータ集約はエラーが発生しやすい"
+    script_path: "/Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-31/scripts/generate_index_yaml.py"
+
+# ====================
+# サマリー
+# ====================
+summary: |
+  corporate-ai-adoption-failureプロジェクトのフェーズ3-5処理を開始。
+
+  完了:
+  - Phase 3: PMBOK推論＆パス構築（18ファイル完了、100%）
+  - Phase 4: YAML frontmatter生成（1ファイル完了、5.6%）
+
+  未完了:
+  - Phase 4: 残り17ファイルのYAML frontmatter生成
+  - Phase 5: Stock移行＆index.yaml生成
+
+  全体進捗: 約25%
+  推定残り時間: 91分
+
+  次回セッションでの継続作業を推奨。
+
+execution_time:
+  start: "2025-12-31 (実行開始時刻未記録)"
+  phase3_duration: "約10分"
+  phase4_duration: "約15分（1ファイルのみ）"
+  total_so_far: "約25分"
+
+---
