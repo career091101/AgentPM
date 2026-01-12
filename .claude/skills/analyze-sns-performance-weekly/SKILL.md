@@ -1120,7 +1120,278 @@ for theme in top_themes:
 ギャップ = 目標活用率 - 現在の活用率
 ```
 
-#### 7-3. アクション優先度スコアリング（LLM推論）
+#### 7-3. エビデンス収集（LLM推論 + WebSearch）【NEW】
+
+**目的**: 推奨アクションの根拠を強化するため、内部データ分析、ベストプラクティス引用、最新トレンド調査の3種類のエビデンスを収集します。
+
+##### 7-3-1. 内部データ分析（history.json 4週トレンド）
+
+**4週間のトレンド抽出**:
+```python
+# history.json から4週間のデータ取得
+weeks = history["weeks"][-4:]
+
+trend_analysis = {
+    "impressions_trend": calculate_trend([w["kpi"]["total_impressions"] for w in weeks]),
+    "engagement_rate_trend": calculate_trend([w["kpi"]["engagement_rate"] for w in weeks]),
+    "top_performing_patterns": extract_common_patterns(weeks),
+    "platform_efficiency": {
+        "linkedin": {
+            "impressions_per_post": linkedin_total_impressions / linkedin_posts,
+            "trend": "improving" if linkedin_trend > 0 else "declining"
+        },
+        "x": {
+            "impressions_per_post": x_total_impressions / x_posts,
+            "trend": "improving" if x_trend > 0 else "declining"
+        },
+        "threads": {
+            "views_per_post": threads_total_views / threads_posts,
+            "engagement_per_post": threads_total_engagement / threads_posts,
+            "trend": "improving" if threads_trend > 0 else "declining"
+        },
+        "facebook": {
+            "views_change_rate": facebook_views_change_percent,
+            "interactions_change_rate": facebook_interactions_change_percent
+        }
+    }
+}
+```
+
+**トレンド計算ロジック**:
+```python
+def calculate_trend(values):
+    """
+    4週間のデータから線形回帰により傾向を算出
+
+    Returns:
+        {
+            "direction": "improving" | "stable" | "declining",
+            "rate": 増減率（%/週）,
+            "confidence": 信頼度（0-100）
+        }
+    """
+    # 線形回帰: y = ax + b
+    # a > 0 → improving, a ≈ 0 → stable, a < 0 → declining
+    slope = calculate_linear_regression_slope(values)
+
+    if slope > 0.05:  # 週5%以上増加
+        return {"direction": "improving", "rate": slope * 100, "confidence": 90}
+    elif slope < -0.05:  # 週5%以上減少
+        return {"direction": "declining", "rate": slope * 100, "confidence": 90}
+    else:
+        return {"direction": "stable", "rate": slope * 100, "confidence": 70}
+```
+
+**プラットフォーム効率分析**:
+```python
+# 投稿あたりの効率を計算し、投資配分の最適化に活用
+efficiency_ranking = [
+    ("LinkedIn", linkedin_impressions_per_post),
+    ("X", x_impressions_per_post),
+    ("Threads", threads_views_per_post),  # views数で評価
+    ("Facebook", facebook_views_per_post)
+]
+efficiency_ranking.sort(key=lambda x: x[1], reverse=True)
+
+# 投資不足/投資過多の判定
+for platform, efficiency in efficiency_ranking:
+    post_ratio = platform_posts / total_posts
+    impression_ratio = platform_impressions / total_impressions
+
+    if impression_ratio > post_ratio * 1.5:
+        recommendation = "投資不足（投稿数を増やすべき）"
+    elif impression_ratio < post_ratio * 0.7:
+        recommendation = "投資過多（投稿数を減らすべき）"
+    else:
+        recommendation = "適正配分"
+```
+
+##### 7-3-2. ベストプラクティス引用システム
+
+**対象ファイル**:
+- `Stock/programs/副業/projects/SNS/knowledge/LinkedIn/best_practices.md`
+- `Stock/programs/副業/projects/SNS/knowledge/X/best_practices.md`
+- `Stock/programs/副業/projects/SNS/knowledge/Threads/best_practices.md`
+- `Stock/programs/副業/projects/SNS/knowledge/Facebook/best_practices.md`
+
+**引用関数の実装**:
+```python
+def fetch_best_practice(platform: str, category: str) -> dict:
+    """
+    best_practices.md から関連セクションを抽出
+
+    Args:
+        platform: "LinkedIn" | "X" | "Threads" | "Facebook"
+        category: "content_strategy" | "engagement" | "posting_frequency" | "format"
+
+    Returns:
+        {
+            "file_path": "Stock/programs/副業/projects/SNS/knowledge/X/best_practices.md",
+            "line_numbers": "L145-L167",
+            "quote": "バイラル要素の組み合わせ（4要素）...",
+            "confidence_level": "high" | "medium" | "low"
+        }
+    """
+    bp_path = f"Stock/programs/副業/projects/SNS/knowledge/{platform}/best_practices.md"
+
+    # Read tool でファイル読み込み
+    content = Read(file_path=bp_path)
+
+    # カテゴリ別セクションマッピング
+    section_keywords = {
+        "content_strategy": ["## コンテンツ戦略", "## Content Strategy", "## コンテンツフォーマット"],
+        "engagement": ["## エンゲージメント最適化", "## Engagement Optimization", "## エンゲージメント"],
+        "posting_frequency": ["## 投稿頻度と時間帯", "## Posting Frequency", "## 最適投稿時間"],
+        "format": ["## コンテンツフォーマット", "## Content Format", "## フォーマット別特性"]
+    }
+
+    # セクション検索（LLM推論で該当箇所を特定）
+    target_keywords = section_keywords.get(category, [])
+
+    # LLMに該当セクションの抽出を依頼
+    # 行番号範囲と引用テキストを返す
+
+    return {
+        "file_path": bp_path,
+        "line_numbers": "L{start}-L{end}",
+        "quote": extracted_text[:200],  # 最大200文字
+        "confidence_level": "high"  # セクションが明確に存在する場合
+    }
+```
+
+**プラットフォーム別引用例**:
+
+**LinkedIn投稿数増加アクションの場合**:
+```python
+bp_linkedin_frequency = fetch_best_practice("LinkedIn", "posting_frequency")
+# Returns:
+# {
+#   "file_path": "Stock/.../LinkedIn/best_practices.md",
+#   "line_numbers": "L78-L95",
+#   "quote": "成長フェーズ（1,000-10,000フォロワー）: 週12-15投稿推奨...",
+#   "confidence_level": "high"
+# }
+```
+
+**Xバイラル要素強化アクションの場合**:
+```python
+bp_x_viral = fetch_best_practice("X", "content_strategy")
+# Returns:
+# {
+#   "file_path": "Stock/.../X/best_practices.md",
+#   "line_numbers": "L145-L167",
+#   "quote": "バイラル要素の組み合わせ: ストーリー性 + 衝撃的数値 + ビジュアル要素 + 感情フック...",
+#   "confidence_level": "high"
+# }
+```
+
+##### 7-3-3. 最新トレンド調査（WebSearch並列実行）
+
+**目的**: 2026年1月時点の最新アルゴリズム変更、推奨施策、日本市場トレンドを収集し、推奨アクションに反映します。
+
+**並列実行**（4プラットフォーム同時検索）:
+```python
+# 単一メッセージで4つのWebSearchを並列実行
+platforms = ["LinkedIn", "X", "Threads", "Facebook"]
+
+web_search_results = {}
+
+# WebSearch tool を4回並列呼び出し
+# 各プラットフォームについて以下のクエリを実行:
+
+# LinkedIn検索クエリ
+linkedin_query = """
+LinkedIn algorithm update 2026
+LinkedIn posting frequency best practices 2026
+LinkedIn engagement rate improvement 2026 Japan
+"""
+
+# X検索クエリ
+x_query = """
+X (Twitter) algorithm changes 2026
+X viral content strategies 2026
+X impressions optimization 2026 Japan
+"""
+
+# Threads検索クエリ
+threads_query = """
+Threads algorithm 2026
+Threads views metric optimization
+Threads engagement best practices 2026 Japan
+"""
+
+# Facebook検索クエリ
+facebook_query = """
+Facebook Professional Dashboard insights 2026
+Facebook views optimization 2026
+Facebook posting time best practices 2026 Japan
+"""
+
+# WebSearch実行（並列）
+# 各検索は最大3分でタイムアウト
+# 結果は簡潔に3-5行でサマリー
+```
+
+**検索結果の構造化**:
+```python
+web_search_results = {
+    "LinkedIn": {
+        "algorithm_changes": "2026年1月時点でLinkedInはコメント重視のアルゴリズムを強化。投稿後1時間以内のコメント数が重要な評価指標に。",
+        "recommended_frequency": "エンゲージメント品質を維持するため、週12-15投稿が推奨（過剰投稿はペナルティ）。",
+        "japan_specific": "日本市場では朝7-9時、昼12-13時、夕方17-19時の投稿が最もエンゲージメント高い。",
+        "sources": [
+            "LinkedIn Marketing Blog 2026-01-05",
+            "Social Media Examiner 2026-01-08"
+        ]
+    },
+    "X": {
+        "algorithm_changes": "2026年Xアルゴリズムは高頻度投稿にペナルティ導入。1日3-5投稿が最適（10投稿/日以上は抑制）。",
+        "recommended_strategy": "バイラル4要素（ストーリー、数値、ビジュアル、感情）を統合した投稿が平均8.1倍のインプレッション。",
+        "japan_specific": "日本市場では「概念反転」「衝撃的数値」パターンが特に効果的。",
+        "sources": [
+            "X Engineering Blog 2026-01-10",
+            "Buffer Social 2026-01-07"
+        ]
+    },
+    "Threads": {
+        "algorithm_changes": "ThreadsはViewsメトリクスを正式導入。エンゲージメント率計算の精度が向上。",
+        "recommended_strategy": "カジュアルトーン重視。投稿あたり100 views、5 engagementが目標基準。",
+        "japan_specific": "日本ユーザーは絵文字2-3個/投稿を好む。硬い専門用語は避けるべき。",
+        "sources": [
+            "Meta Newsroom 2026-01-09",
+            "Threads公式ヘルプ 2026-01-11"
+        ]
+    },
+    "Facebook": {
+        "algorithm_changes": "2026年Facebookは動画+字幕を大幅優遇。字幕なし動画はリーチ-30%。",
+        "recommended_strategy": "ネイティブ動画アップロードがYouTube埋め込みの10-20倍リーチ。グループ投稿はページ投稿の3-5倍ER。",
+        "japan_specific": "日本市場では12-13時、19-21時の投稿が最高エンゲージメント。",
+        "sources": [
+            "Facebook for Business 2026-01-06",
+            "Social Media Today 2026-01-10"
+        ]
+    }
+}
+```
+
+**エラーハンドリング**:
+```python
+# WebSearch失敗時の対応
+if websearch_timeout or websearch_error:
+    # 警告のみ表示、既存ナレッジベース（BP + 内部データ）で継続
+    log_warning("WebSearch failed. Continuing with existing knowledge base.")
+    web_search_results[platform] = {
+        "algorithm_changes": "最新情報取得失敗（既存ナレッジベースを使用）",
+        "sources": []
+    }
+```
+
+**タイムアウト設定**:
+- 各プラットフォーム検索: 最大3分（180秒）
+- 全体タイムアウト: 最大5分（300秒）
+- 失敗時: 既存ナレッジベースのみで継続
+
+#### 7-4. アクション優先度スコアリング（LLM推論）【強化】
 
 各改善アクション候補に対して、以下の式で優先度スコア算出:
 
@@ -1150,16 +1421,234 @@ for theme in top_themes:
 - 不確実性が高い: 0-29点
 ```
 
-#### 7-4. 推奨アクション出力（5ステップ実装手順、LLM推論）
+**エビデンス強度スコア（0-100点）【NEW】**:
+```python
+evidence_score = (
+    (internal_data_available ? 30 : 0) +       # 内部データ分析あり
+    (best_practice_quote ? 30 : 0) +           # BP引用あり
+    (web_search_recent ? 25 : 0) +             # 最新トレンドあり
+    (competitor_example ? 15 : 0)              # 競合事例あり
+)
 
-優先度順にTop 3のアクションを生成し、各アクションに**5ステップ実装手順**を自動生成します。
+# 最高100点（全エビデンス揃っている場合）
+# 最低0点（エビデンスなし）
+```
 
-**テンプレート（新フォーマット）**:
+**総合優先度の算出**:
+```python
+final_priority_score = (
+    (priority_score * 0.7) +      # 既存スコア（70%）
+    (evidence_score * 0.3)        # エビデンス強度（30%）
+)
+```
+
+#### STEP 7-4 (旧): プラットフォーム別アクション生成（LLM推論）【NEW】
+
+**目的**: 各プラットフォーム（LinkedIn, X, Threads, Facebook）ごとにTop 2アクションを生成し、合計8アクションから総合Top 8を選出します。
+
+##### 7-4-1. プラットフォーム別課題特定
+
+**LinkedIn課題特定**:
+```python
+linkedin_issues = identify_platform_issues("LinkedIn", linkedin_metrics)
+
+# 課題例:
+# - 投稿数不足: 現状8投稿/週 → 推奨12-15投稿/週 (BP引用)
+# - 投稿あたり効率: 9,875回/投稿 → X (2,055回)の4.8倍なのに投稿比率16%のみ
+# - フォーマット配分: 現状テキスト画像50% → 推奨60% (BP引用)
+```
+
+**X課題特定**:
+```python
+x_issues = identify_platform_issues("X", x_metrics)
+
+# 課題例:
+# - 投稿過多: 現状31投稿/11日(2.8投稿/日) → 推奨3投稿/日 (WebSearch最新トレンド)
+# - 投稿あたり効率低下: 655回/投稿 → 目標2,000回/投稿
+# - バイラル要素活用不足: 活用率10% → 目標25% (BP引用: Pattern #12, #07)
+```
+
+**Threads課題特定**:
+```python
+threads_issues = identify_platform_issues("Threads", threads_metrics)
+
+# 課題例:
+# - Views数低迷: 現状50 views/投稿 → 目標100 views/投稿 (BP引用)
+# - エンゲージメント不足: 現状2 engagement/投稿 → 目標5 engagement/投稿
+# - カジュアルトーン不足: 硬い専門用語が多い → カジュアル化推奨 (BP引用)
+```
+
+**Facebook課題特定**:
+```python
+facebook_issues = identify_platform_issues("Facebook", facebook_metrics)
+
+# 課題例:
+# - 投稿時間非最適: 現状投稿時間不明 → 推奨12-13時、19-21時 (BP引用)
+# - グループ活用不足: ページ投稿のみ → グループ投稿でER 3-5倍 (BP引用)
+# - 動画字幕なし: リーチ-30% → 字幕必須 (WebSearch最新トレンド)
+```
+
+##### 7-4-2. プラットフォーム別アクション生成
+
+各プラットフォームでTop 2アクションを生成:
+
+```python
+def generate_platform_actions(platform: str, metrics: dict, evidence: dict) -> list:
+    """
+    プラットフォーム別にTop 2アクションを生成
+
+    Args:
+        platform: "LinkedIn" | "X" | "Threads" | "Facebook"
+        metrics: STEP 6からのKPI実績
+        evidence: STEP 7-3で収集したエビデンス
+
+    Returns:
+        [action1, action2]  # 各アクションは5ステップ手順 + エビデンスを含む
+    """
+
+    # 課題特定
+    issues = identify_platform_issues(platform, metrics)
+
+    # ベストプラクティス取得
+    bp_content = fetch_best_practice(platform, "content_strategy")
+    bp_engagement = fetch_best_practice(platform, "engagement")
+    bp_frequency = fetch_best_practice(platform, "posting_frequency")
+
+    # 最新トレンド取得
+    trend = evidence["web_search_results"].get(platform, {})
+
+    # 競合成功事例取得
+    competitor_insights = extract_competitor_insights(platform, evidence["competitor_analysis"])
+
+    # アクション候補生成
+    action_candidates = []
+
+    # アクション1: ボリューム最適化
+    if issues["posting_volume"]["status"] == "suboptimal":
+        action_candidates.append({
+            "title": f"{platform}投稿数を{issues['posting_volume']['current']}→{issues['posting_volume']['recommended']}投稿/週に調整",
+            "expected_effect": calculate_volume_effect(platform, issues["posting_volume"]),
+            "implementation": generate_5_step_plan(
+                current=issues["posting_volume"]["current"],
+                target=issues["posting_volume"]["recommended"],
+                best_practice=bp_frequency,
+                trend=trend
+            ),
+            "evidence_sources": {
+                "internal": f"現状{issues['posting_volume']['current']}投稿、投稿あたり{issues['posting_volume']['efficiency']}回",
+                "best_practice": bp_frequency,
+                "trend": trend.get("recommended_frequency", "N/A"),
+                "competitor": competitor_insights.get("volume_strategy", "N/A")
+            },
+            "priority_score": calculate_priority_score(...),
+            "evidence_score": calculate_evidence_score(...)
+        })
+
+    # アクション2: フォーマット最適化
+    if issues["format_mix"]["status"] == "needs_improvement":
+        action_candidates.append({
+            "title": f"{platform}フォーマット配分を最適化（{bp_content['recommended_mix']}）",
+            "expected_effect": calculate_format_effect(platform, issues["format_mix"]),
+            "implementation": generate_5_step_plan(
+                current=issues["format_mix"]["current"],
+                target=bp_content["recommended_mix"],
+                best_practice=bp_content,
+                trend=trend
+            ),
+            "evidence_sources": {
+                "internal": f"現状配分: {issues['format_mix']['current_distribution']}",
+                "best_practice": bp_content,
+                "trend": trend.get("recommended_strategy", "N/A"),
+                "competitor": competitor_insights.get("format_strategy", "N/A")
+            },
+            "priority_score": calculate_priority_score(...),
+            "evidence_score": calculate_evidence_score(...)
+        })
+
+    # ... 他のアクション候補 ...
+
+    # Top 2選出（総合優先度スコア順）
+    action_candidates.sort(key=lambda x: (x["priority_score"] * 0.7 + x["evidence_score"] * 0.3), reverse=True)
+    top_2 = action_candidates[:2]
+
+    return top_2
+```
+
+##### 7-4-3. 全プラットフォーム統合とTop 8選出
+
+```python
+# 全プラットフォームからアクション収集
+all_actions = []
+
+# LinkedIn Top 2
+linkedin_actions = generate_platform_actions("LinkedIn", linkedin_metrics, evidence)
+all_actions.extend(linkedin_actions)
+
+# X Top 2
+x_actions = generate_platform_actions("X", x_metrics, evidence)
+all_actions.extend(x_actions)
+
+# Threads Top 2
+threads_actions = generate_platform_actions("Threads", threads_metrics, evidence)
+all_actions.extend(threads_actions)
+
+# Facebook Top 2
+facebook_actions = generate_platform_actions("Facebook", facebook_metrics, evidence)
+all_actions.extend(facebook_actions)
+
+# 総合スコアで再ソート（総合Top 8選出）
+all_actions.sort(key=lambda x: (x["priority_score"] * 0.7 + x["evidence_score"] * 0.3), reverse=True)
+top_8_actions = all_actions[:8]
+
+# プラットフォーム別アクション数をカウント
+platform_distribution = {
+    "LinkedIn": len([a for a in top_8_actions if "LinkedIn" in a["title"]]),
+    "X": len([a for a in top_8_actions if "X" in a["title"]]),
+    "Threads": len([a for a in top_8_actions if "Threads" in a["title"]]),
+    "Facebook": len([a for a in top_8_actions if "Facebook" in a["title"]])
+}
+
+# 出力: Top 8 actions with evidence
+```
+
+**出力例（Top 8アクション構成）**:
+```
+Action 1: LinkedIn投稿数増加（優先度85、エビデンス100）
+Action 2: X投稿頻度最適化（優先度82、エビデンス95）
+Action 3: LinkedInフォーマット最適化（優先度78、エビデンス100）
+Action 4: Xバイラル要素強化（優先度75、エビデンス90）
+Action 5: Facebook投稿時間最適化（優先度68、エビデンス85）
+Action 6: Threads Views最適化（優先度65、エビデンス80）
+Action 7: FacebookグループOptimization（優先度62、エビデンス75）
+Action 8: Threadsカジュアルトーン強化（優先度58、エビデンス70）
+```
+
+#### 7-6. 推奨アクション出力（拡張5ステップ実装手順、LLM推論）【拡張】
+
+優先度順にTop 8のアクションを生成し、各アクションに**拡張5ステップ実装手順 + エビデンスセクション**を自動生成します。
+
+**拡張テンプレート（エビデンス + 5ステップ）**:
 ```markdown
 ### 📍 アクション{N}: {アクション名}
 
 **期待効果**: {インプレッション増加予測}回（+{増加率}%）
-**優先度**: {score}/100
+**優先度**: {priority_score}/100
+**エビデンス強度**: {evidence_score}/100
+
+#### 📊 根拠とエビデンス
+
+**内部データ分析**:
+{internal_data_insight}
+
+**業界ベストプラクティス**:
+- 参照: {best_practice_file}:{line_numbers}
+- {best_practice_quote}
+
+**最新トレンド**（2026年1月）:
+{web_search_insight}
+
+**競合成功事例**:
+{competitor_example}
 
 #### 5ステップ実装手順
 
@@ -1172,6 +1661,9 @@ for theme in top_themes:
 **STEP 3: 実施**
 {action_step3_implementation}
 
+**プラットフォーム固有の注意事項**:
+{platform_specific_notes}
+
 **STEP 4: 測定**
 {action_step4_measurement}
 
@@ -1179,10 +1671,26 @@ for theme in top_themes:
 {action_step5_adjustment}
 ```
 
-**5ステップ生成ロジック**:
+**拡張5ステップ生成ロジック**（Top 8アクション対応）:
 
 ```python
-for i, action in enumerate(top_3_actions, 1):
+for i, action in enumerate(top_8_actions, 1):
+    # エビデンスセクション生成【NEW】
+    evidence_section = f"""
+**内部データ分析**:
+{action['evidence_sources']['internal']}
+
+**業界ベストプラクティス**:
+- 参照: {action['evidence_sources']['best_practice']['file_path']}:{action['evidence_sources']['best_practice']['line_numbers']}
+- {action['evidence_sources']['best_practice']['quote']}
+
+**最新トレンド**（2026年1月）:
+{action['evidence_sources']['trend']}
+
+**競合成功事例**:
+{action['evidence_sources']['competitor']}
+    """
+
     # STEP 1: 現状分析
     step1_analysis = f"""
 **現状**: {action['metric_name']} {action['current_value']}（目標: {action['target_value']}）
@@ -1205,6 +1713,15 @@ for i, action in enumerate(top_3_actions, 1):
 3. {action['step_3']}
 4. {action['step_4']}（担当: {action['responsible_team']}）
 5. {action['step_5']}（使用ツール: {action['tools']}）
+    """
+
+    # プラットフォーム固有の注意事項【NEW】
+    platform_specific_notes = f"""
+- {action['platform_note_1']}
+- {action['platform_note_2']}
+- {action['platform_note_3']}
+
+**参考**: {action['best_practice_file_reference']}
     """
 
     # STEP 4: 測定
@@ -1294,7 +1811,7 @@ for i, action in enumerate(top_3_actions, 1):
 **担当スキル**: generate-x-posts（Threads設定）
 ```
 
-#### 7-5. history.json更新（LLM推論）
+#### 7-7. history.json更新（LLM推論）
 
 **今週データの追加**:
 
