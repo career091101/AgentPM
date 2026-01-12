@@ -1,0 +1,101 @@
+{
+  "extractedAt": "2026-01-12",
+  "deckUrl": "https://pro.x.com/i/decks/1710553908769378676",
+  "totalDecks": 16,
+  "decks": [
+    {
+      "deckName": "JP AI Leader",
+      "searchQuery": "(from:keitowebai OR from:ctgptlb OR from:usutaku_channel OR from:masahirochaen OR from:kajikent OR from:shota7180) min_retweets:10 -is:reply -is:retweetet",
+      "description": "日本のAIリーダー6名のツイート（リツイート10以上、返信とリツイート除外）"
+    },
+    {
+      "deckName": "AI Companies #1",
+      "searchQuery": "min_retweets:50 (list:1696336383231525354) ",
+      "description": "AIカンパニーリスト（リツイート50以上）"
+    },
+    {
+      "deckName": "AI People #1",
+      "searchQuery": "min_retweets:50 (list:952969346518720512) -filter:retweets",
+      "description": "AI関連の人物リスト1（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI People #2",
+      "searchQuery": "min_retweets:50 (list:1807679743619367128) -filter:retweets",
+      "description": "AI関連の人物リスト2（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI People #3",
+      "searchQuery": "min_retweets:50(list:1811773620181463494) -filter:retweets",
+      "description": "AI関連の人物リスト3（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI People #4",
+      "searchQuery": "min_retweets:50 (list:1822396593506848796) -filter:retweets",
+      "description": "AI関連の人物リスト4（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI People #5",
+      "searchQuery": "min_retweets:50 (list:1854973625138294946) -filter:retweets",
+      "description": "AI関連の人物リスト5（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI Robotics",
+      "searchQuery": "min_retweets:50 (list:1805786050763087967) -filter:retweets",
+      "description": "AIロボティクス関連（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI Leaders #1",
+      "searchQuery": "min_retweets:50 (list:1744564719309279599) -filter:retweets",
+      "description": "AIリーダーリスト1（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "AI Leaders #2",
+      "searchQuery": "min_retweets:50 (list:1828820239175590166)",
+      "description": "AIリーダーリスト2（リツイート50以上）"
+    },
+    {
+      "deckName": "AR/VR Companies",
+      "searchQuery": "min_retweets:50 (list:733277650085511168)",
+      "description": "AR/VRカンパニーリスト（リツイート50以上）"
+    },
+    {
+      "deckName": "AR/VR People #1",
+      "searchQuery": "min_retweets:50 (list:733162578625449985)",
+      "description": "AR/VR関連の人物リスト1（リツイート50以上）"
+    },
+    {
+      "deckName": "AR/VR People #2",
+      "searchQuery": "min_retweets:50 (list:1786062895668974066)",
+      "description": "AR/VR関連の人物リスト2（リツイート50以上）"
+    },
+    {
+      "deckName": "VC Firms",
+      "searchQuery": "min_retweets:50 (list:1219428908283514881) -filter:retweets",
+      "description": "ベンチャーキャピタル企業リスト（リツイート50以上、RTフィルター除外）"
+    },
+    {
+      "deckName": "Tech News",
+      "searchQuery": "min_retweets:50 (list:31748) ",
+      "description": "テックニュースリスト（リツイート50以上）"
+    },
+    {
+      "deckName": "Tech Journalists",
+      "searchQuery": "min_retweets:50 (list:8096)-from:MarioNawfal",
+      "description": "テックジャーナリストリスト（リツイート50以上、MarioNawfalを除外）"
+    }
+  ],
+  "summary": {
+    "commonConditions": {
+      "minRetweets": "ほとんどのデッキが50以上（JP AI Leaderのみ10以上）",
+      "retweetFilter": "多くのデッキで-filter:retweetsを使用（純粋な投稿のみ）"
+    },
+    "listBasedDecks": 15,
+    "accountBasedDecks": 1,
+    "categories": {
+      "AI": 10,
+      "AR/VR": 3,
+      "VC": 1,
+      "TechMedia": 2
+    }
+  }
+}

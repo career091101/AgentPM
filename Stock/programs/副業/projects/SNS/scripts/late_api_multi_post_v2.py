@@ -35,16 +35,19 @@ JST = timezone(timedelta(hours=9))
 # ========================================
 POSTING_SCHEDULE = {
     'linkedin': [
-        {'time': '08:00', 'type': 'main', 'topic': 'top1'}
+        {'time': '08:00', 'type': 'main', 'topic': 'top1', 'date_offset': 'auto'},
+        {'time': '08:00', 'type': 'main', 'topic': 'top2', 'date_offset': 'auto'},
+        {'time': '08:00', 'type': 'main', 'topic': 'top3', 'date_offset': 'auto'}
     ],
     'twitter': [
-        {'time': '07:30', 'type': 'derived', 'topic': 'top1'},
+        {'time': '07:30', 'type': 'thread', 'topic': 'top1'},
         {'time': '12:00', 'type': 'thread', 'topic': 'top2'},
         {'time': '20:00', 'type': 'thread', 'topic': 'top3'}
     ],
     'threads': [
-        {'time': '07:30', 'type': 'derived', 'topic': 'top1'},
-        {'time': '20:00', 'type': 'new', 'topic': 'top2'}
+        {'time': '07:30', 'type': 'new', 'topic': 'top1'},
+        {'time': '12:00', 'type': 'new', 'topic': 'top2'},
+        {'time': '20:00', 'type': 'new', 'topic': 'top3'}
     ]
 }
 
@@ -100,11 +103,12 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     """
     LinkedIn投稿（案N）のコンテンツを抽出
 
+    **v2対応**: variant_numberを1-3で指定可能
     v2.1: 「最初のコメント（firstComment）」セクションも抽出
 
     Args:
         markdown: Phase 3生成されたMarkdownファイルの内容
-        variant_number: バリアント番号（デフォルト: 案2が最推奨）
+        variant_number: バリアント番号（1-3、デフォルト: 案2が最推奨）
 
     Returns:
         dict: {"title": str, "body": str, "full_content": str, "first_comment": str}
@@ -167,52 +171,25 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     }
 
 
-def extract_x_derived_content(markdown: str) -> Optional[dict]:
-    """
-    X派生投稿のコンテンツを抽出（フックのみ変更版）
-
-    セクション: ## X派生投稿（Top 1トピック、フック変更）
-
-    メタ情報（**元ネタ**:, ---, **文字数**:）を除外して本文のみを抽出
-    """
-    # **元ネタ**: ... と --- をスキップし、本文のみ抽出
-    pattern = r'## X派生投稿（Top 1トピック、フック変更）.*?\n\n\*\*元ネタ\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
-    match = re.search(pattern, markdown, re.DOTALL)
-
-    if not match:
-        # フォールバック: LinkedIn案2からフックを変更
-        linkedin = extract_linkedin_content(markdown, 2)
-        if linkedin:
-            # 最初の3行をX用フックに変更（簡易版）
-            lines = linkedin["full_content"].split("\n")
-            if len(lines) > 3:
-                # 最初の行をX向けに短縮
-                hook = lines[0][:100] + "..." if len(lines[0]) > 100 else lines[0]
-                rest = "\n".join(lines[1:])
-                # 280文字に収める
-                content = f"{hook}\n\n{rest}"[:280]
-                return {"content": content, "type": "derived"}
-        return None
-
-    content = remove_markdown(match.group(1).strip())
-    return {"content": content[:280], "type": "derived"}
-
-
 def extract_x_thread_content(markdown: str, thread_number: int) -> Optional[List[str]]:
     """
     Xスレッド投稿のコンテンツを抽出（5-7ツイート深掘り型）
 
+    **v2対応**: thread_number を 1-3 に拡張（従来は1-2のみ）
+
     Args:
         markdown: Markdownファイルの内容
-        thread_number: スレッド番号（1=Top2トピック, 2=Top3トピック）
+        thread_number: スレッド番号（1=Top1, 2=Top2, 3=Top3）
 
     Returns:
         List[str]: 各ツイートのコンテンツ（5-7件）
     """
     if thread_number == 1:
-        section_name = "Xスレッド1（Top 2トピック、深掘り型）"
-    else:
-        section_name = "Xスレッド2（Top 3トピック、深掘り型）"
+        section_name = "Xスレッド1（Top 1トピック、深掘り型）"
+    elif thread_number == 2:
+        section_name = "Xスレッド2（Top 2トピック、深掘り型）"
+    else:  # thread_number == 3
+        section_name = "Xスレッド3（Top 3トピック、深掘り型）"
 
     pattern = rf'## {section_name}.*?\n\n(.*?)(?=\n## |\Z)'
     match = re.search(pattern, markdown, re.DOTALL)
@@ -269,30 +246,6 @@ def extract_x_thread_content(markdown: str, thread_number: int) -> Optional[List
     return tweets if tweets else None
 
 
-def extract_threads_derived_content(markdown: str) -> Optional[dict]:
-    """
-    Threads派生投稿のコンテンツを抽出（フックのみ変更版）
-
-    セクション: ## Threads派生投稿（Top 1トピック、フック変更）
-
-    メタ情報（**元ネタ**:, ---, **文字数**:）を除外して本文のみを抽出
-    """
-    # **元ネタ**: ... と --- をスキップし、本文のみ抽出
-    pattern = r'## Threads派生投稿（Top 1トピック、フック変更）.*?\n\n\*\*元ネタ\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
-    match = re.search(pattern, markdown, re.DOTALL)
-
-    if not match:
-        # フォールバック: LinkedIn案2から派生
-        linkedin = extract_linkedin_content(markdown, 2)
-        if linkedin:
-            content = linkedin["full_content"][:500]
-            return {"content": content, "type": "derived"}
-        return None
-
-    content = remove_markdown(match.group(1).strip())
-    return {"content": content[:500], "type": "derived"}
-
-
 def extract_threads_new_content(markdown: str) -> Optional[dict]:
     """
     Threads新規投稿のコンテンツを抽出（Top 2トピック、LinkedIn似表現）
@@ -310,6 +263,52 @@ def extract_threads_new_content(markdown: str) -> Optional[dict]:
 
     content = remove_markdown(match.group(1).strip())
     return {"content": content[:500], "type": "new"}
+
+
+def extract_threads_post_with_char_control(markdown: str, post_number: int) -> Optional[dict]:
+    """
+    Threads投稿を抽出（文字数制御対応版）
+
+    ≤500文字: 単一投稿
+    >500文字: 2-3投稿スレッド
+
+    Args:
+        post_number: 投稿番号（1-3）
+
+    Returns:
+        dict: {"type": "single", "content": str} or
+              {"type": "thread", "posts": [...], "total_posts": int}
+    """
+    section_name = f"Threads投稿{post_number}（Top {post_number}トピック）"
+    pattern = rf'## {section_name}.*?\n\n(.*?)(?=\n## |\Z)'
+    match = re.search(pattern, markdown, re.DOTALL)
+
+    if not match:
+        return None
+
+    content = remove_markdown(match.group(1).strip())
+    char_count = len(content)
+
+    if char_count <= 500:
+        return {"type": "single", "content": content, "char_count": char_count}
+    else:
+        # セマンティック分割: 段落単位で500文字以内に分割
+        paragraphs = content.split('\n\n')
+        posts = []
+        current_post = ""
+
+        for para in paragraphs:
+            if len(current_post) + len(para) + 2 <= 500:
+                current_post += para + "\n\n"
+            else:
+                if current_post:
+                    posts.append({"content": current_post.strip(), "char_count": len(current_post.strip())})
+                current_post = para + "\n\n"
+
+        if current_post:
+            posts.append({"content": current_post.strip(), "char_count": len(current_post.strip())})
+
+        return {"type": "thread", "posts": posts, "total_posts": len(posts)}
 
 
 # ========================================
@@ -465,6 +464,48 @@ def find_available_date(reserved_by_hour: dict, target_hours: List[int]) -> date
     return datetime.now(JST).date() + timedelta(days=1)
 
 
+def find_available_dates_for_linkedin(
+    reserved_by_hour: dict,
+    target_hour: int = 8,
+    days_needed: int = 3,
+    max_search_days: int = 14
+) -> List[datetime.date]:
+    """
+    LinkedIn用に複数の空き日を検索
+
+    Args:
+        reserved_by_hour: 時間帯別の予約済み日付
+        target_hour: 投稿時刻（デフォルト8時）
+        days_needed: 必要な日数（デフォルト3日）
+        max_search_days: 最大検索日数（デフォルト14日）
+
+    Returns:
+        List[datetime.date]: 利用可能な日付のリスト（最大3日）
+
+    Raises:
+        Exception: 必要な日数が見つからない場合
+    """
+    current_date = datetime.now(JST).date() + timedelta(days=1)
+    available_dates = []
+
+    for day_offset in range(max_search_days):
+        check_date = current_date + timedelta(days=day_offset)
+
+        if check_date not in reserved_by_hour.get(target_hour, set()):
+            available_dates.append(check_date)
+
+        if len(available_dates) == days_needed:
+            break
+
+    if len(available_dates) < days_needed:
+        raise Exception(
+            f"LinkedIn空き日が{len(available_dates)}日しか見つかりませんでした。"
+            f"14日以内に{days_needed}日の空きが必要です。"
+        )
+
+    return available_dates
+
+
 # ========================================
 # メイン処理
 # ========================================
@@ -525,53 +566,33 @@ def main():
 
         contents = {}
 
-        # LinkedIn（案2を使用）
-        linkedin_content = extract_linkedin_content(markdown_content, 2)
-        if linkedin_content:
-            contents['linkedin'] = linkedin_content
-            print(f"  ✅ LinkedIn: {len(linkedin_content['full_content'])}文字")
-        else:
-            print("  ⚠️  LinkedIn: 抽出失敗（案2が見つかりません）")
+        # LinkedIn（案1-3を使用）
+        for i in range(1, 4):
+            linkedin_content = extract_linkedin_content(markdown_content, i)
+            if linkedin_content:
+                contents[f'linkedin{i}'] = linkedin_content
+                print(f"  ✅ LinkedIn案{i}: {len(linkedin_content['full_content'])}文字")
+            else:
+                print(f"  ⚠️  LinkedIn案{i}: 抽出失敗")
 
-        # X派生
-        x_derived = extract_x_derived_content(markdown_content)
-        if x_derived:
-            contents['x_derived'] = x_derived
-            print(f"  ✅ X派生: {len(x_derived['content'])}文字")
-        else:
-            print("  ⚠️  X派生: 抽出失敗（LinkedIn案2からフォールバック生成）")
+        # Xスレッド1-3（Top 1-3トピック）
+        for i in range(1, 4):
+            x_thread = extract_x_thread_content(markdown_content, i)
+            if x_thread:
+                contents[f'x_thread{i}'] = x_thread
+                print(f"  ✅ Xスレッド{i}: {len(x_thread)}ツイート")
+            else:
+                print(f"  ⚠️  Xスレッド{i}: 抽出失敗")
 
-        # Xスレッド1（Top 2トピック）
-        x_thread1 = extract_x_thread_content(markdown_content, 1)
-        if x_thread1:
-            contents['x_thread1'] = x_thread1
-            print(f"  ✅ Xスレッド1: {len(x_thread1)}ツイート")
-        else:
-            print("  ⚠️  Xスレッド1: 抽出失敗")
-
-        # Xスレッド2（Top 3トピック）
-        x_thread2 = extract_x_thread_content(markdown_content, 2)
-        if x_thread2:
-            contents['x_thread2'] = x_thread2
-            print(f"  ✅ Xスレッド2: {len(x_thread2)}ツイート")
-        else:
-            print("  ⚠️  Xスレッド2: 抽出失敗")
-
-        # Threads派生
-        threads_derived = extract_threads_derived_content(markdown_content)
-        if threads_derived:
-            contents['threads_derived'] = threads_derived
-            print(f"  ✅ Threads派生: {len(threads_derived['content'])}文字")
-        else:
-            print("  ⚠️  Threads派生: 抽出失敗")
-
-        # Threads新規
-        threads_new = extract_threads_new_content(markdown_content)
-        if threads_new:
-            contents['threads_new'] = threads_new
-            print(f"  ✅ Threads新規: {len(threads_new['content'])}文字")
-        else:
-            print("  ⚠️  Threads新規: 抽出失敗")
+        # Threads投稿1-3（Top 1-3トピック、文字数制御）
+        for i in range(1, 4):
+            threads_post = extract_threads_post_with_char_control(markdown_content, i)
+            if threads_post:
+                contents[f'threads_post{i}'] = threads_post
+                type_label = "単一" if threads_post['type'] == 'single' else f"スレッド{threads_post['total_posts']}投稿"
+                print(f"  ✅ Threads投稿{i}: {type_label}")
+            else:
+                print(f"  ⚠️  Threads投稿{i}: 抽出失敗")
 
         # 4. 既存予約取得と日付決定
         print()
@@ -579,85 +600,96 @@ def main():
         existing = get_existing_scheduled_posts(api_key)
         print(f"   既存予約投稿: {len(existing['posts'])}件")
 
-        # 全時間帯で空いている日付を検索
-        target_date = find_available_date(existing['reserved_by_hour'], [7, 8, 12, 20])
-        print(f"✅ 投稿日: {target_date}")
+        # LinkedIn用の空き日を3日検出
+        try:
+            linkedin_dates = find_available_dates_for_linkedin(
+                reserved_by_hour=existing['reserved_by_hour'],
+                target_hour=8,
+                days_needed=3,
+                max_search_days=7
+            )
+            print(f"✅ LinkedIn空き日: {len(linkedin_dates)}日検出")
+            for i, date in enumerate(linkedin_dates, 1):
+                print(f"   {i}日目: {date}")
+        except Exception as e:
+            print(f"⚠️  7日以内に空き日不足。14日に延長して再試行...")
+            linkedin_dates = find_available_dates_for_linkedin(
+                reserved_by_hour=existing['reserved_by_hour'],
+                target_hour=8,
+                days_needed=3,
+                max_search_days=14
+            )
+            print(f"✅ LinkedIn空き日: {len(linkedin_dates)}日検出（14日スキャン）")
+            for i, date in enumerate(linkedin_dates, 1):
+                print(f"   {i}日目: {date}")
+
+        # X/Threads用の投稿日を検索（7:30, 12:00, 20:00が全て空いている日）
+        target_date = find_available_date(existing['reserved_by_hour'], [7, 12, 20])
+        print(f"✅ X/Threads投稿日: {target_date}")
 
         # 5. 投稿計画を作成
         posting_plan = []
 
-        # LinkedIn（8:00）
-        if 'linkedin' in contents and linkedin_account_id:
-            posting_plan.append({
-                'platform': 'linkedin',
-                'type': 'main',
-                'time': '08:00',
-                'content': contents['linkedin']['full_content'],
-                'account_id': linkedin_account_id,
-                'title': contents['linkedin']['title'][:50],
-                'thread_items': None,
-                'first_comment': contents['linkedin'].get('first_comment')
-            })
+        # LinkedIn（8:00、3投稿を3日分散）
+        if linkedin_account_id:
+            for i in range(1, 4):
+                linkedin_key = f'linkedin{i}'
+                if linkedin_key in contents:
+                    posting_plan.append({
+                        'platform': 'linkedin',
+                        'type': 'main',
+                        'time': '08:00',
+                        'date': linkedin_dates[i-1],  # 空き日を個別指定
+                        'content': contents[linkedin_key]['full_content'],
+                        'account_id': linkedin_account_id,
+                        'title': f'LinkedIn案{i}（Top {i}）',
+                        'thread_items': None,
+                        'first_comment': contents[linkedin_key].get('first_comment')
+                    })
 
-        # X派生（7:30）
-        if 'x_derived' in contents and twitter_account_id:
-            posting_plan.append({
-                'platform': 'twitter',
-                'type': 'derived',
-                'time': '07:30',
-                'content': contents['x_derived']['content'],
-                'account_id': twitter_account_id,
-                'title': 'X派生（Top1）',
-                'thread_items': None
-            })
+        # Xスレッド1-3（7:30, 12:00, 20:00）
+        if twitter_account_id:
+            for i in range(1, 4):
+                x_thread_key = f'x_thread{i}'
+                if x_thread_key in contents:
+                    posting_plan.append({
+                        'platform': 'twitter',
+                        'type': 'thread',
+                        'time': ['07:30', '12:00', '20:00'][i-1],
+                        'content': contents[x_thread_key][0] if contents[x_thread_key] else '',
+                        'account_id': twitter_account_id,
+                        'title': f'Xスレッド{i}（Top {i}、{len(contents[x_thread_key])}ツイート）',
+                        'thread_items': contents[x_thread_key]
+                    })
 
-        # Xスレッド1（12:00）
-        if 'x_thread1' in contents and twitter_account_id:
-            posting_plan.append({
-                'platform': 'twitter',
-                'type': 'thread',
-                'time': '12:00',
-                'content': contents['x_thread1'][0] if contents['x_thread1'] else '',
-                'account_id': twitter_account_id,
-                'title': f'Xスレッド1（Top2、{len(contents["x_thread1"])}ツイート）',
-                'thread_items': contents['x_thread1']
-            })
-
-        # Xスレッド2（20:00）
-        if 'x_thread2' in contents and twitter_account_id:
-            posting_plan.append({
-                'platform': 'twitter',
-                'type': 'thread',
-                'time': '20:00',
-                'content': contents['x_thread2'][0] if contents['x_thread2'] else '',
-                'account_id': twitter_account_id,
-                'title': f'Xスレッド2（Top3、{len(contents["x_thread2"])}ツイート）',
-                'thread_items': contents['x_thread2']
-            })
-
-        # Threads派生（7:30）
-        if 'threads_derived' in contents and threads_account_id:
-            posting_plan.append({
-                'platform': 'threads',
-                'type': 'derived',
-                'time': '07:30',
-                'content': contents['threads_derived']['content'],
-                'account_id': threads_account_id,
-                'title': 'Threads派生（Top1）',
-                'thread_items': None
-            })
-
-        # Threads新規（20:00）
-        if 'threads_new' in contents and threads_account_id:
-            posting_plan.append({
-                'platform': 'threads',
-                'type': 'new',
-                'time': '20:00',
-                'content': contents['threads_new']['content'],
-                'account_id': threads_account_id,
-                'title': 'Threads新規（Top2）',
-                'thread_items': None
-            })
+        # Threads投稿1-3（7:30, 12:00, 20:00）
+        if threads_account_id:
+            for i in range(1, 4):
+                threads_key = f'threads_post{i}'
+                if threads_key in contents:
+                    threads_data = contents[threads_key]
+                    if threads_data['type'] == 'single':
+                        # 単一投稿
+                        posting_plan.append({
+                            'platform': 'threads',
+                            'type': 'new',
+                            'time': ['07:30', '12:00', '20:00'][i-1],
+                            'content': threads_data['content'],
+                            'account_id': threads_account_id,
+                            'title': f'Threads投稿{i}（Top {i}）',
+                            'thread_items': None
+                        })
+                    else:
+                        # スレッド投稿
+                        posting_plan.append({
+                            'platform': 'threads',
+                            'type': 'new',
+                            'time': ['07:30', '12:00', '20:00'][i-1],
+                            'content': threads_data['posts'][0]['content'],
+                            'account_id': threads_account_id,
+                            'title': f'Threads投稿{i}（Top {i}、スレッド{threads_data["total_posts"]}投稿）',
+                            'thread_items': [post['content'] for post in threads_data['posts']]
+                        })
 
         # 6. 投稿計画を表示
         print()
@@ -667,7 +699,8 @@ def main():
 
         for plan in posting_plan:
             platform_emoji = {'linkedin': '💼', 'twitter': '🐦', 'threads': '🧵'}.get(plan['platform'], '📱')
-            print(f"{platform_emoji} {target_date} {plan['time']} JST - {plan['platform'].upper()}")
+            post_date = plan.get('date', target_date)  # LinkedInは個別日付
+            print(f"{platform_emoji} {post_date} {plan['time']} JST - {plan['platform'].upper()}")
             print(f"   タイプ: {plan['type']}")
             print(f"   内容: {plan['title']}...")
             if plan['thread_items']:
@@ -702,50 +735,75 @@ def main():
         for plan in posting_plan:
             # 時刻をパース
             hour, minute = map(int, plan['time'].split(':'))
+            # プラットフォーム別日付（LinkedInは個別日付）
+            post_date = plan.get('date', target_date)
             scheduled_datetime = datetime.combine(
-                target_date,
+                post_date,
                 datetime.min.time()
             ).replace(hour=hour, minute=minute, tzinfo=JST)
 
             platform_emoji = {'linkedin': '💼', 'twitter': '🐦', 'threads': '🧵'}.get(plan['platform'], '📱')
-            print(f"{platform_emoji} {plan['platform'].upper()} ({plan['time']}) を投稿中...")
+            print(f"{platform_emoji} {plan['platform'].upper()} ({plan['time']}, {post_date}) を投稿中...")
             print(f"   タイプ: {plan['type']}")
 
-            try:
-                result = post_to_late_api(
-                    content=plan['content'],
-                    platform=plan['platform'],
-                    account_id=plan['account_id'],
-                    scheduled_datetime=scheduled_datetime,
-                    api_key=api_key,
-                    thread_items=plan['thread_items'],
-                    first_comment=plan.get('first_comment')
-                )
+            # 指数バックオフリトライ
+            retry_delays = [5, 15, 30]  # 秒
+            success = False
 
-                post_id = result.get("post", {}).get("_id") or result.get("id")
-                print(f"   ✅ 成功! Post ID: {post_id}")
-                print()
+            for retry_attempt, delay in enumerate(retry_delays + [None], 1):
+                try:
+                    result = post_to_late_api(
+                        content=plan['content'],
+                        platform=plan['platform'],
+                        account_id=plan['account_id'],
+                        scheduled_datetime=scheduled_datetime,
+                        api_key=api_key,
+                        thread_items=plan['thread_items'],
+                        first_comment=plan.get('first_comment')
+                    )
 
-                results.append({
-                    "platform": plan['platform'],
-                    "type": plan['type'],
-                    "status": "success",
-                    "post_id": post_id,
-                    "scheduled_for": scheduled_datetime.isoformat(),
-                    "title": plan['title']
-                })
+                    post_id = result.get("post", {}).get("_id") or result.get("id")
+                    print(f"   ✅ 成功! Post ID: {post_id}")
+                    print()
 
-            except Exception as e:
-                print(f"   ❌ 失敗: {e}")
-                print()
+                    results.append({
+                        "platform": plan['platform'],
+                        "type": plan['type'],
+                        "status": "success",
+                        "post_id": post_id,
+                        "scheduled_for": scheduled_datetime.isoformat(),
+                        "title": plan['title']
+                    })
+                    success = True
+                    break  # 成功したらループ終了
 
-                results.append({
-                    "platform": plan['platform'],
-                    "type": plan['type'],
-                    "status": "error",
-                    "error_message": str(e),
-                    "scheduled_for": scheduled_datetime.isoformat()
-                })
+                except Exception as e:
+                    if delay is not None:
+                        print(f"   ⚠️  リトライ {retry_attempt}/{len(retry_delays)}（{delay}秒後）...")
+                        import time
+                        time.sleep(delay)
+                    else:
+                        # 3回失敗→Markdownフォールバック
+                        print(f"   ❌ 最終失敗: {e}")
+                        data_dir = Path(__file__).parent.parent / "data"
+                        fallback_file = data_dir / f"manual_posts/{plan['platform']}_{plan['type']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+                        fallback_file.parent.mkdir(parents=True, exist_ok=True)
+                        with open(fallback_file, 'w', encoding='utf-8') as f:
+                            f.write(f"# 手動投稿用ファイル\n\n")
+                            f.write(f"**プラットフォーム**: {plan['platform']}\n")
+                            f.write(f"**予約日時**: {scheduled_datetime.isoformat()}\n\n")
+                            f.write(f"## 投稿内容\n\n{plan['content']}\n")
+                        print(f"   📄 手動投稿用ファイル生成: {fallback_file.name}")
+                        print()
+
+                        results.append({
+                            "platform": plan['platform'],
+                            "type": plan['type'],
+                            "status": "error",
+                            "error_message": str(e),
+                            "scheduled_for": scheduled_datetime.isoformat(),
+                            "fallback_file": str(fallback_file)
+                        })
 
         # 9. 結果保存
         result_file = data_dir / f"late_api_multiplatform_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
