@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "analysis_period": "2026-01-01 ~ 2026-01-11",
+    "generated_at": "2026-01-12",
+    "data_source": "late_api_analytics_20260101-20260111.json"
+  },
+  "linkedin": {
+    "post_count": 10,
+    "total_impressions": 87577,
+    "total_engagement": 578,
+    "engagement_rate_percent": 0.66,
+    "avg_impressions_per_post": 8757.7,
+    "breakdown": {
+      "likes": 541,
+      "comments": 32,
+      "shares": 5
+    }
+  },
+  "x": {
+    "post_count": 118,
+    "total_impressions": 77290,
+    "total_engagement": 363,
+    "engagement_rate_percent": 0.47,
+    "avg_impressions_per_post": 655.0,
+    "breakdown": {
+      "likes": 288,
+      "comments": 42,
+      "shares": 33
+    }
+  },
+  "threads": {
+    "post_count": 23,
+    "total_views": 14174,
+    "total_engagement": 131,
+    "engagement_rate_percent": 0.92,
+    "avg_views_per_post": 616.26,
+    "breakdown": {
+      "likes": 115,
+      "comments": 11,
+      "shares": 5
+    }
+  },
+  "summary": {
+    "total_posts": 151,
+    "total_reach": 179041,
+    "total_engagement": 1072,
+    "avg_engagement_rate_percent": 0.56,
+    "platform_distribution": {
+      "linkedin_percent": 6.62,
+      "x_percent": 78.15,
+      "threads_percent": 15.23
+    },
+    "reach_distribution": {
+      "linkedin_reach": 87577,
+      "x_reach": 77290,
+      "threads_reach": 14174
+    },
+    "engagement_distribution": {
+      "linkedin_engagement": 578,
+      "x_engagement": 363,
+      "threads_engagement": 131
+    }
+  },
+  "top_20_posts": [
+    {
+      "platform": "x",
+      "title_100chars": "なぜ、私たちは「考えること」に価値を置きすぎるのか？\n\n落合陽一氏のnull2が問いかける。\n\n「かしこさはただのおまけだから、心配しなくていいよ」\n\n経営者として、この言葉に衝撃を受けた。 http",
+      "reach": 40040,
+      "likes": 178,
+      "comments": 2,
+      "shares": 18,
+      "engagement_rate": 0.49
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "Googleの社員が、Geminiではなく「Claude Code」を使っている。\n\nこの事実、衝撃じゃない？\n\n世界最高峰のAI企業で働く人たちが、\n自社製品ではなく競合のツールを選んでいる。\n\n理",
+      "reach": 36619,
+      "likes": 228,
+      "comments": 9,
+      "shares": 1,
+      "engagement_rate": 0.65
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "OpenAIが社員に平均年収2.2億円払う理由、「いい会社」で片付けたら本質を見誤る\n\nOpenAIが社員に平均年収2.2億円を払い、売上の半分が人件費に消えてる。\n「給料高い分にはいい会社やん」って",
+      "reach": 19911,
+      "likes": 53,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.27
+    },
+    {
+      "platform": "x",
+      "title_100chars": "「考える力」は人間のアイデンティティではなく、「おまけ」だったという視点の転換。\n\nAI時代の経営者にとって最も重要な気づき。\n\n般若心経1300年 × AI時代。\n\nあなたは、「かしこさ」を手放せま",
+      "reach": 16907,
+      "likes": 35,
+      "comments": 0,
+      "shares": 2,
+      "engagement_rate": 0.22
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "なぜ、私たちは「考えること」「意味を探すこと」に価値を置きすぎるのか？\n\n落合陽一氏がプロデュースする「null2」。そのコンセプトが、今の経営者に問いかけている。\n\n「AIによって文明ってのは多分す",
+      "reach": 14068,
+      "likes": 65,
+      "comments": 5,
+      "shares": 1,
+      "engagement_rate": 0.5
+    },
+    {
+      "platform": "threads",
+      "title_100chars": "なぜ、私たちは「考えること」に価値を置きすぎるのか？\n\n落合陽一氏のnull2が問いかける。\n\n「人間は話せるけど、考えるのは得意じゃない。頭を使うのは生きるためのちょっとしたおまけだった」\n\n「かし",
+      "reach": 11091,
+      "likes": 67,
+      "comments": 4,
+      "shares": 3,
+      "engagement_rate": 0.67
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "2026年、AIソフトの市場が「30倍」に爆発する衝撃の事実。a16zパートナーが明かした数字が、マジでヤバい。\n\nソフトウェア市場は従来3000-4000億ドル。\n\nしかし今、AIが狙うのは米国だけ",
+      "reach": 4901,
+      "likes": 47,
+      "comments": 3,
+      "shares": 1,
+      "engagement_rate": 1.04
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "「GitもIDEも、半年後には存在しないかもしれない」。Google LabsのKath Korevec氏が発言。\n\n開発者なら誰もが使うツールが、近いうちに無用になるという予測だ。　\n\nGoogle",
+      "reach": 4478,
+      "likes": 35,
+      "comments": 4,
+      "shares": 1,
+      "engagement_rate": 0.89
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "Claude Codeの開発者が過去30日間に書いたコード、40,000行。\nこの数字の真の意味を理解しているだろうか。\n\n書いたのは人間ではない。Claude Code自身だ。開発リーダーBoris",
+      "reach": 2985,
+      "likes": 39,
+      "comments": 2,
+      "shares": 0,
+      "engagement_rate": 1.37
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "OpenAIが「ひっそり公開」したGPT-5.2プロンプトガイド、知らないと損する7つの落とし穴\n\nOpenAI Cookbookで正式公開された「GPT-5.2 Prompting Guide」が、",
+      "reach": 2497,
+      "likes": 42,
+      "comments": 6,
+      "shares": 1,
+      "engagement_rate": 1.96
+    },
+    {
+      "platform": "linkedin",
+      "title_100chars": "OpenAIとNVIDIAが仕掛けた「200兆円の循環投資」、ITバブルの再来か\n日本経済新聞が報じた衝撃のレポート。\n\nOpenAIが約200兆円規模のインフラ投資を発表し、その資金調達手法が「売り",
+      "reach": 2118,
+      "likes": 32,
+      "comments": 2,
+      "shares": 0,
+      "engagement_rate": 1.61
+    },
+    {
+      "platform": "x",
+      "title_100chars": "サム・アルトマンCEOは「今はChatGPTにとって重要な時期だ」と述べ、社内に「コード・レッド」を宣言したと報じられています。OpenAIはこの決定に伴い、広告事業やAIエージェント開発などの進行を",
+      "reach": 1212,
+      "likes": 2,
+      "comments": 0,
+      "shares": 2,
+      "engagement_rate": 0.33
+    },
+    {
+      "platform": "x",
+      "title_100chars": "「私は本物になりたいの、ちゃんと本物に」\n\n2025年、VRの中でAI VTuber「Neuro-sama」がこう言った瞬間、プレイヤーであるは画面の前で息を止めていた。\n\nこれは台本ではない。リアル",
+      "reach": 892,
+      "likes": 5,
+      "comments": 1,
+      "shares": 1,
+      "engagement_rate": 0.78
+    },
+    {
+      "platform": "x",
+      "title_100chars": "Anthropicのバリー・チャン氏が「我々は業界別のエージェント開発をやめた」って宣言した件、マジでヤバい。\n\n  5週間前に発表した「スキル」が、AI活用の形を完全に変えつつある。\n\n  驚くのは",
+      "reach": 586,
+      "likes": 3,
+      "comments": 1,
+      "shares": 1,
+      "engagement_rate": 0.85
+    },
+    {
+      "platform": "x",
+      "title_100chars": "「人間は話せるけど、考えるのは得意じゃない。頭を使うのは生きるためのちょっとしたおまけだった」\n\n落合陽一氏 null2より",
+      "reach": 578,
+      "likes": 3,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.69
+    },
+    {
+      "platform": "x",
+      "title_100chars": "経営者のアイデンティティは「考える力」にある。\n\n戦略立案、市場分析、競合調査。すべて「頭を使う」仕事だ。\n\nでも、それは「ちょっとしたおまけ」だった。\n\nつまり、本質ではなかった。",
+      "reach": 537,
+      "likes": 2,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.56
+    },
+    {
+      "platform": "x",
+      "title_100chars": "「いのちの意味とは何か」\n\nnull2は答える。\n\n「意味について考える必要はない」\n\n生命の継続性そのものが尊い。\n\nこれはニヒリズムの克服だ。意味からの解放を喜ぶ。",
+      "reach": 535,
+      "likes": 2,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.56
+    },
+    {
+      "platform": "x",
+      "title_100chars": "でも、ここからが本当の話。\n\n孫正義がSoftBankで3.5兆円追加投資。\n出資比率11%を確保した理由は明確。\n\n「OpenAIは地球上で最も価値ある会社になる」\n（2025年6月株主総会）\n\n負",
+      "reach": 516,
+      "likes": 0,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.19
+    },
+    {
+      "platform": "x",
+      "title_100chars": "null2 = 空²\n\n般若心経「色即是空 空即是色」から命名。空が2回現れる。\n\nコンピュータの「null」（値なし）\n仏教の「空」（空虚）\n\nこの2つが融合。可能性の場所。",
+      "reach": 467,
+      "likes": 2,
+      "comments": 1,
+      "shares": 0,
+      "engagement_rate": 0.64
+    },
+    {
+      "platform": "x",
+      "title_100chars": "イーロン・マスク氏は『オプティマスがサイバーキャブで配送業務を担当する』という構想を明らかにした。テスラの人型ロボットが自動運転車を乗り降りして荷物を届ける未来像だ。同時に、テスラが独自設計した半導体",
+      "reach": 449,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "engagement_rate": 0.45
+    }
+  ]
+}
