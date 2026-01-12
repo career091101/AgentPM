@@ -1,0 +1,116 @@
+{
+  "waves": [
+    {
+      "id": "wave1",
+      "name": "日本IPO簡単勝ち",
+      "description": "Japanese IPO easy wins - well-documented success stories",
+      "count": 13,
+      "targets": [
+        {"id": "FOUNDER_321", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_322", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_323", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_324", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_325", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_326", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_327", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_328", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_329", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_330", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_331", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_332", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_333", "type": "founder", "category": "09_Japan_IPO"}
+      ]
+    },
+    {
+      "id": "wave2",
+      "name": "日本IPO確立企業",
+      "description": "Established Japanese IPO companies",
+      "count": 9,
+      "targets": [
+        {"id": "FOUNDER_334", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_335", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_336", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_337", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_338", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_339", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_340", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_341", "type": "founder", "category": "09_Japan_IPO"},
+        {"id": "FOUNDER_342", "type": "founder", "category": "09_Japan_IPO"}
+      ]
+    },
+    {
+      "id": "wave3",
+      "name": "テック失敗",
+      "description": "Tech startup failures",
+      "count": 15,
+      "targets": [
+        {"id": "FAILURE_023", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_024", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_025", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_026", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_027", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_028", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_029", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_030", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_031", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_032", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_033", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_034", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_035", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_036", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_037", "type": "failure", "category": "07_Failure_Study"}
+      ]
+    },
+    {
+      "id": "wave4",
+      "name": "メガ失敗",
+      "description": "Mega failures - high-profile disasters",
+      "count": 15,
+      "targets": [
+        {"id": "FAILURE_013", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_014", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_015", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_016", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_017", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_018", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_019", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_020", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_021", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_022", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_038", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_039", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_040", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_041", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_042", "type": "failure", "category": "07_Failure_Study"}
+      ]
+    },
+    {
+      "id": "wave5",
+      "name": "複雑ミックス",
+      "description": "Complex mix of failures and pivots",
+      "count": 12,
+      "targets": [
+        {"id": "FAILURE_043", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_044", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_045", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_046", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_047", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_048", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_049", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "FAILURE_050", "type": "failure", "category": "07_Failure_Study"},
+        {"id": "PIVOT_043", "type": "pivot", "category": "06_Pivot_Success"},
+        {"id": "PIVOT_044", "type": "pivot", "category": "06_Pivot_Success"},
+        {"id": "PIVOT_045", "type": "pivot", "category": "06_Pivot_Success"},
+        {"id": "PIVOT_046", "type": "pivot", "category": "06_Pivot_Success"}
+      ]
+    }
+  ],
+  "total_targets": 64,
+  "execution_strategy": {
+    "max_parallel_agents": 10,
+    "batch_size": 5,
+    "auto_execute": true,
+    "retry_failed": true,
+    "max_retries": 2
+  }
+}

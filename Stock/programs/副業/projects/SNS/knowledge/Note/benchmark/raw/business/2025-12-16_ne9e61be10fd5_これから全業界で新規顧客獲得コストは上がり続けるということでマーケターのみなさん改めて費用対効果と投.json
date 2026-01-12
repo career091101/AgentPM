@@ -1,0 +1,62 @@
+{
+  "id": "ne9e61be10fd5",
+  "title": "これから全業界で新規顧客獲得コストは上がり続ける。ということでマーケターのみなさん、改めて「費用対効果」と「投資対効果」の違いを学び直してみないか？",
+  "url": "https://note.com/ikedanoriyuki/n/ne9e61be10fd5",
+  "author": "池田紀行@トライバル代表",
+  "author_id": "ikedanoriyuki",
+  "published_at": "2025-12-16T07:25:19+09:00",
+  "like_count": 294,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ikedanoriyuki",
+  "genre": "business",
+  "content": {
+    "word_count": 18672,
+    "heading_count": 16,
+    "hashtags": [
+      "#マーケティング",
+      "#ブランド戦略",
+      "#費用対効果",
+      "#投資対効果",
+      "#マープス"
+    ]
+  },
+  "quality": {
+    "score": 70,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 18672,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 5,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 294,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 16,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 7,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:53:57"
+}

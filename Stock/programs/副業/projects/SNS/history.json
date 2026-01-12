@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-10",
+  "weeks": [
+    {
+      "week_id": "2026-W01",
+      "period_start": "2026-01-03",
+      "period_end": "2026-01-10",
+      "kpi": {
+        "total_posts": 49,
+        "total_impressions": 142757,
+        "total_engagement": 869,
+        "engagement_rate": 0.55,
+        "platforms": {
+          "linkedin": {
+            "posts": 8,
+            "impressions": 79005,
+            "engagement": 492,
+            "engagement_rate": 0.62,
+            "avg_impressions_per_post": 9875
+          },
+          "x": {
+            "posts": 31,
+            "impressions": 63389,
+            "engagement": 285,
+            "engagement_rate": 0.45,
+            "avg_impressions_per_post": 2044
+          },
+          "threads": {
+            "posts": 7,
+            "impressions": 0,
+            "engagement": 91,
+            "engagement_rate": null,
+            "note": "インプレッション計測不可（Late API制約）"
+          }
+        }
+      },
+      "top_posts": [
+        {
+          "rank": 1,
+          "platform": "x",
+          "published_at": "2026-01-04T11:05:08.095Z",
+          "impressions": 39995,
+          "engagement_rate": 0,
+          "theme": "概念反転・哲学系",
+          "text_preview": "なぜ、私たちは「考えること」に価値を置きすぎるのか？\n\n落合陽一氏のnull2が問いかける。\n\n「かしこさはただのおまけだから、心配しなくていいよ」\n\n経営者として、この言葉に衝撃を受けた。"
+        },
+        {
+          "rank": 2,
+          "platform": "linkedin",
+          "published_at": "2026-01-04T23:02:21.446Z",
+          "impressions": 35342,
+          "engagement_rate": 0,
+          "theme": "衝撃的事実・権威引用",
+          "text_preview": "Googleの社員が、Geminiではなく「Claude Code」を使っている。\n\nこの事実、衝撃じゃない？\n\n世界最高峰のAI企業で働く人たちが、\n自社製品ではなく競合のツールを選んでいる。"
+        },
+        {
+          "rank": 3,
+          "platform": "linkedin",
+          "published_at": "2026-01-07T23:40:29.777Z",
+          "impressions": 18172,
+          "engagement_rate": 0,
+          "theme": "衝撃的数値",
+          "text_preview": "OpenAIが社員に平均年収2.2億円払う理由、「いい会社」で片付けたら本質を見誤る\n\nOpenAIが社員に平均年収2.2億円を払い、売上の半分が人件費に消えてる。"
+        },
+        {
+          "rank": 4,
+          "platform": "x",
+          "published_at": "2026-01-04T11:05:07.000Z",
+          "impressions": 16873,
+          "engagement_rate": 0,
+          "theme": "概念反転",
+          "text_preview": "「考える力」は人間のアイデンティティではなく、「おまけ」だったという視点の転換。\n\nAI時代の経営者にとって最も重要な気づき。"
+        },
+        {
+          "rank": 5,
+          "platform": "linkedin",
+          "published_at": "2026-01-03T23:01:57.116Z",
+          "impressions": 13901,
+          "engagement_rate": 0,
+          "theme": "概念反転・哲学系",
+          "text_preview": "なぜ、私たちは「考えること」「意味を探すこと」に価値を置きすぎるのか？\n\n落合陽一氏がプロデュースする「null2」。そのコンセプトが、今の経営者に問いかけている。"
+        }
+      ],
+      "success_patterns": {
+        "top_themes": [
+          {
+            "theme": "概念反転・哲学系",
+            "count": 3,
+            "avg_impressions": 23590,
+            "percentage": 60
+          },
+          {
+            "theme": "衝撃的数値",
+            "count": 1,
+            "avg_impressions": 18172,
+            "percentage": 20
+          },
+          {
+            "theme": "衝撃的事実・権威引用",
+            "count": 1,
+            "avg_impressions": 35342,
+            "percentage": 20
+          }
+        ],
+        "pattern_library_reference": "x_patterns_detailed.md",
+        "high_performing_patterns": [
+          "概念反転（Pattern #12）",
+          "衝撃的数値（Pattern #07）",
+          "権威引用（Pattern #23）"
+        ]
+      }
+    }
+  ]
+}

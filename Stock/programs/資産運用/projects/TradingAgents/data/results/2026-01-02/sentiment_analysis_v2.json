@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-01-02T12:20:50.763935",
+  "version": "v2 (実データ版)",
+  "data_quality": {
+    "total_indicators": 4,
+    "collected": 4,
+    "failed": [],
+    "data_sources": [
+      "Fear & Greed: RSI計算値",
+      "Put/Call: 推定値",
+      "VIX: ATR計算値",
+      "News: WebSearch実データ"
+    ]
+  },
+  "indicators": {
+    "fear_greed": {
+      "index": 47.6,
+      "signal": "中立",
+      "confidence": 40,
+      "normalized_score": -4.799999999999997,
+      "weight": 1.5,
+      "interpretation": "中立 → 観望",
+      "data_source": "RSIベース計算値"
+    },
+    "put_call": {
+      "ratio": 1.05,
+      "signal": "やや強気",
+      "confidence": 55,
+      "normalized_score": 5.0,
+      "weight": 1.3,
+      "interpretation": "やや悲観的 → やや買い",
+      "data_source": "市場傾向からの推定値"
+    },
+    "vix": {
+      "value": 17.6,
+      "signal": "中立",
+      "confidence": 40,
+      "normalized_score": -19.6,
+      "weight": 1.2,
+      "interpretation": "通常レベル → 中立",
+      "data_source": "ATR 1.26%から計算"
+    },
+    "news": {
+      "total_news": 9,
+      "positive": 6,
+      "negative": 3,
+      "neutral": 0,
+      "sentiment_score": 33.33,
+      "signal": "やや弱気",
+      "confidence": 55,
+      "normalized_score": 33.33,
+      "weight": 1.0,
+      "interpretation": "ポジティブ → やや売り（逆張り）",
+      "data_source": "WebSearch 2026年1月最新ニュース",
+      "topics": {
+        "positive": [
+          "経営者20人全員が最高値更新を予想",
+          "大和アセット2026年末56,000円予想",
+          "野村證券52,000円予想",
+          "数カ月内に6万円予想",
+          "サナエノミクス期待",
+          "AI・半導体成長期待"
+        ],
+        "negative": [
+          "日銀の追加利上げリスク",
+          "トランプ関税リスク",
+          "AIバブル懸念"
+        ],
+        "neutral": []
+      }
+    },
+    "overall": {
+      "sentiment": "中立",
+      "signal": "観望",
+      "confidence": 40,
+      "total_score": 1.82,
+      "interpretation": "スコア1.8は「中立」ゾーン"
+    }
+  }
+}

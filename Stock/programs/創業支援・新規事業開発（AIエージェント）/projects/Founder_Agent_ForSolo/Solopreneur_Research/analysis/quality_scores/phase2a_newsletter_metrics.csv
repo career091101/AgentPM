@@ -1,0 +1,21 @@
+filename,newsletter_name,engagement_rate,growth_rate_monthly,revenue_per_subscriber,leverage_ratio,current_stage,trust_score,authority_score,influence_score,total_failures,primary_pattern,recovery_speed,updated_fields_count
+NL_CASE_P1_001_bytebytego.md,ByteByteGo,48.0,4.2,19.05,380.0,influence,5,5,5,2,scale,medium,13
+NL_CASE_P1_002_morning_brew.md,Morning Brew,50.0,6.5,10.0,625.0,influence,5,5,5,3,scale,fast,13
+NL_CASE_P1_003_the_hustle.md,The Hustle,45.0,5.5,8.82,187.5,influence,5,5,5,3,scale,medium,13
+NL_CASE_P1_004_lennys_newsletter.md,Lenny's Newsletter,53.0,6.2,3.64,250.0,influence,5,5,5,2,scale,fast,13
+NL_CASE_P1_005_milk_road.md,Milk Road,50.0,30.0,4.0,125.0,influence,4,4,5,2,market,fast,13
+NL_CASE_P1_006_bens_bites.md,Ben's Bites,50.0,8.5,4.05,150.0,influence,5,5,5,1,scale,fast,13
+NL_CASE_P1_007_tldr.md,TLDR Newsletter,50.0,4.8,1.03,327.3,influence,5,5,5,1,scale,medium,13
+NL_CASE_P1_008_rundown_ai.md,The Rundown AI,49.3,12.5,4.2,200.0,influence,5,5,5,1,scale,fast,13
+NL_CASE_P1_009_not_boring.md,Not Boring,53.0,5.0,12.75,270.8,influence,5,5,5,2,scale,medium,13
+NL_CASE_P1_010_the_generalist.md,The Generalist,53.0,4.5,3.82,120.0,influence,5,5,5,3,scale,medium,13
+NL_CASE_P1_011_growth_design.md,Growth.design,60.0,3.5,1.6,60.0,influence,5,5,5,4,product,medium,13
+NL_CASE_P1_012_indie_hackers.md,Indie Hackers Newsletter,45.0,2.5,1.0,25.0,influence,5,5,5,7,product,slow,13
+NL_CASE_P1_013_dense_discovery.md,Dense Discovery,74.0,2.0,3.16,30.0,authority,5,5,4,4,scale,medium,13
+NL_CASE_P1_014_trends_vc.md,Trends.vc,53.0,7.5,3.85,62.5,authority,5,5,4,5,product,fast,13
+NL_CASE_P1_015_bootstrapped_founder.md,The Bootstrapped Founder,53.0,4.0,5.63,30.0,authority,5,5,3,5,product,medium,13
+NL_CASE_P1_016_libertys_highlights.md,Liberty's Highlights,60.0,3.0,4.0,40.0,authority,5,5,4,3,market,fast,13
+NL_CASE_P1_017_compounding_quality.md,Compounding Quality,53.0,9.0,4.44,300.0,influence,5,5,5,2,market,fast,13
+NL_CASE_P1_018_product_hunt_daily.md,Product Hunt Daily,45.0,3.5,3.0,75.0,influence,5,5,5,3,scale,medium,13
+NL_CASE_P1_019_sparkloop.md,SparkLoop / Send & Grow,55.0,5.0,120.0,300.0,authority,5,5,3,4,product,fast,13
+NL_CASE_P1_020_newsletter_operator.md,Newsletter Operator,53.0,6.0,6.0,75.0,authority,5,5,4,3,product,fast,13

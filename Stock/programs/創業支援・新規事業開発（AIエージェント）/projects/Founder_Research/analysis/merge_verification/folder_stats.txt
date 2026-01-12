@@ -1,0 +1,21 @@
+# Generated: 2025-12-30T22:14:14+09:00
+
+## aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Research
+du -sh:
+ 15M	aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Research
+file_count:
+     657
+dir_count:
+      17
+latest_mtime:
+1767099026 aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Research/補完_REPORT_20251229.md
+
+## aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research
+du -sh:
+ 15M	aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research
+file_count:
+     657
+dir_count:
+      22
+latest_mtime:
+1767088048 aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/02_Unicorn/FOUNDER_116_max_levchin.md

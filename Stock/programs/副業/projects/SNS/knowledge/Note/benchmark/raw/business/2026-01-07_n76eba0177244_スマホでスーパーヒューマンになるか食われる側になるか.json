@@ -1,0 +1,56 @@
+{
+  "id": "n76eba0177244",
+  "title": "スマホでスーパーヒューマンになるか、食われる側になるか",
+  "url": "https://note.com/kensuu/n/n76eba0177244",
+  "author": "けんすう",
+  "author_id": "kensuu",
+  "published_at": "2026-01-07T20:29:54+09:00",
+  "like_count": 109,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "kensuu",
+  "genre": "business",
+  "content": {
+    "word_count": 1639,
+    "heading_count": 3,
+    "hashtags": []
+  },
+  "quality": {
+    "score": 70,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 15,
+        "value": 1639,
+        "status": "acceptable"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 0,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 109,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 3,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 10,
+        "hour": 20,
+        "status": "golden_hour"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:10"
+}

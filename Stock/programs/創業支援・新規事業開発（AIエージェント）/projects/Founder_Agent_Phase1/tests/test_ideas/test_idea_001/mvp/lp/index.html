@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalesGPT - 音声3分で完了するAI日報作成</title>
+    <meta name="description" content="営業担当者の日報・商談記録を音声3分で自動作成。中小企業向けAI営業支援ツール「SalesGPT」事前登録受付中">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.3em;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+        }
+
+        /* Problem Section */
+        .problem-section {
+            background-color: #fff;
+            padding: 80px 0;
+        }
+
+        .problem-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+
+        .problem-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .problem-card {
+            background-color: #fef5f5;
+            border-left: 5px solid #ff6b6b;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .problem-card h3 {
+            color: #ff6b6b;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        /* Solution Section */
+        .solution-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .solution-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .uvp {
+            font-size: 1.8em;
+            margin-bottom: 50px;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        /* Benefits Section */
+        .benefits-section {
+            background-color: #fff;
+            padding: 80px 0;
+        }
+
+        .benefits-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+
+        .benefit-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .benefit-number {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .benefit-label {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: #f8f9fa;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .tagline {
+                font-size: 1.2em;
+            }
+
+            .uvp {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SalesGPT</h1>
+            <p class="tagline">音声3分で完了するAI日報作成<br>営業担当者が本質業務に集中できる時間を生み出す</p>
+            <a href="#register" class="cta-primary">事前登録して限定特典を受け取る</a>
+        </div>
+    </header>
+
+    <section class="problem-section">
+        <div class="container">
+            <h2>こんなお悩みありませんか？</h2>
+            <div class="problem-list">
+                <div class="problem-card">
+                    <h3>📝 日報入力が毎日30分</h3>
+                    <p>営業活動後の日報入力に毎日30分。年間で108時間も本質業務以外に費やしている...</p>
+                </div>
+                <div class="problem-card">
+                    <h3>📊 進捗が見えない</h3>
+                    <p>商談の進捗が把握できず、受注予測が立てられない。上司からの催促も...</p>
+                </div>
+                <div class="problem-card">
+                    <h3>💸 SFAが高すぎる</h3>
+                    <p>大手SFAは月額1万円。中小企業には高すぎて導入できない...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution-section">
+        <div class="container">
+            <h2>SalesGPTが解決します</h2>
+            <p class="uvp">
+                音声3分で完了するAI日報作成で、<br>
+                営業担当者が本質業務に集中できる時間を生み出す
+            </p>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎤</div>
+                    <h3>音声入力3分</h3>
+                    <p>営業活動後にスマホで3分話すだけ。手入力不要でストレスフリー</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI自動分析</h3>
+                    <p>GPT-4が商談内容を分析し、次のアクションを自動提案</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>リアルタイム共有</h3>
+                    <p>チーム全員で進捗をリアルタイム共有。マネジメント効率化</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-section">
+        <div class="container">
+            <h2>圧倒的な成果</h2>
+            <div class="benefit-cards">
+                <div class="benefit-card">
+                    <div class="benefit-number">10倍</div>
+                    <div class="benefit-label">時間削減</div>
+                    <p>30分 → 3分で日報完了<br>年間108時間を営業活動に</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-number">1/10</div>
+                    <div class="benefit-label">コスト削減</div>
+                    <p>月額980円（大手SFAは1万円）<br>年間22万円のコスト削減</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-number">1時間</div>
+                    <div class="benefit-label">学習時間</div>
+                    <p>操作習得1時間のみ<br>（大手SFAは10時間必要）</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="register">
+        <div class="container">
+            <h2>事前登録で限定特典</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px; color: #666;">
+                先着30名様限定で<strong>3ヶ月間無料</strong>＋<strong>専任コンサル付き</strong>
+            </p>
+
+            <div class="form-container">
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="company">会社名 *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">お名前 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">メールアドレス *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">電話番号 *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="employees">従業員数 *</label>
+                        <select id="employees" name="employees" required>
+                            <option value="">選択してください</option>
+                            <option value="1-10">1-10名</option>
+                            <option value="11-50">11-50名</option>
+                            <option value="51-100">51-100名</option>
+                            <option value="101+">101名以上</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="industry">業種 *</label>
+                        <select id="industry" name="industry" required>
+                            <option value="">選択してください</option>
+                            <option value="IT">IT・ソフトウェア</option>
+                            <option value="人材">人材紹介・派遣</option>
+                            <option value="製造">製造業</option>
+                            <option value="その他">その他</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">事前登録する（無料）</button>
+                </form>
+            </div>
+
+            <p style="margin-top: 30px; color: #666; font-size: 0.9em;">
+                ※登録後、3営業日以内に担当者よりご連絡いたします<br>
+                ※個人情報は厳重に管理し、サービス案内以外には使用いたしません
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SalesGPT. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                お問い合わせ: <a href="mailto:info@salesgpt.jp" style="color: #667eea;">info@salesgpt.jp</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('registration-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // 送信データ収集
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+
+            // ここで実際にはバックエンドにデータを送信
+            console.log('事前登録データ:', data);
+
+            // 成功メッセージ表示
+            alert('事前登録ありがとうございます！\n\n3営業日以内に担当者よりご連絡いたします。\n限定特典の詳細もお伝えいたしますので、お楽しみにお待ちください。');
+
+            // フォームリセット
+            this.reset();
+        });
+    </script>
+</body>
+</html>

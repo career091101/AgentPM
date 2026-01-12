@@ -1,0 +1,2733 @@
+found_video_ids=522 from_sources=1
+pending=522
+[1/522] success -Csoj96rIrs
+[2/522] success -NrAX4OapkQ
+[3/522] -ROpc8jXYig attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=-ROpc8jXYig! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (-ROpc8jXYig) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[3/522] -ROpc8jXYig attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=-ROpc8jXYig! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (-ROpc8jXYig) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[3/522] -ROpc8jXYig attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=-ROpc8jXYig! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (-ROpc8jXYig) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[3/522] failed  -ROpc8jXYig: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=-ROpc8jXYig! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (-ROpc8jXYig) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[4/522] success -WB0T0XmDrY
+[5/522] success -mldKsBR0UM
+[6/522] success 04Gap8vWV28
+[7/522] success 09tJS0ZEHms
+[8/522] success 15_pppse4fY
+[9/522] success 1AWFAWfHNcs
+[10/522] success 1HHZdB2O2tI
+[11/522] success 1WImBwiA7RA
+[12/522] success 1choivCbZDg
+[13/522] success 1eNoNadJfHE
+[14/522] success 1jenfjT2PW8
+[15/522] success 1v7HPnyaaPU
+[16/522] success 239JDMFuGcQ
+[17/522] success 2D72MYTqUbE
+[18/522] success 2HVFruvFf08
+[19/522] success 2VroIM26s84
+[20/522] 2WDJbXsjdhI attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2WDJbXsjdhI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2WDJbXsjdhI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[20/522] 2WDJbXsjdhI attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2WDJbXsjdhI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2WDJbXsjdhI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[20/522] 2WDJbXsjdhI attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2WDJbXsjdhI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2WDJbXsjdhI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[20/522] failed  2WDJbXsjdhI: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2WDJbXsjdhI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2WDJbXsjdhI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[21/522] batch_rest 120.0s
+[21/522] success 2YLoX7FSwYQ
+[22/522] success 2fpkT6i1YRc
+[23/522] success 2j26a5dmCnI
+[24/522] success 2jOnoTEk-xA
+[25/522] 2kQ6fF2wIw8 attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2kQ6fF2wIw8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2kQ6fF2wIw8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[25/522] 2kQ6fF2wIw8 attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2kQ6fF2wIw8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2kQ6fF2wIw8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[25/522] 2kQ6fF2wIw8 attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2kQ6fF2wIw8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2kQ6fF2wIw8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[25/522] failed  2kQ6fF2wIw8: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2kQ6fF2wIw8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2kQ6fF2wIw8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[26/522] 2o0mgt5mdbE attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2o0mgt5mdbE! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2o0mgt5mdbE) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[26/522] 2o0mgt5mdbE attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2o0mgt5mdbE! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2o0mgt5mdbE) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[26/522] 2o0mgt5mdbE attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2o0mgt5mdbE! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2o0mgt5mdbE) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[26/522] failed  2o0mgt5mdbE: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=2o0mgt5mdbE! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (2o0mgt5mdbE) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[27/522] success 2qU3SPPojDA
+[28/522] success 2z0WM3CWgX4
+[29/522] success 3-K1paNSbm4
+[30/522] success 38eCCc9ffIw
+[31/522] success 3RqfJoa_138
+[32/522] 3p11YqelPLs attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3p11YqelPLs! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3p11YqelPLs) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - nl ("Dutch (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - en ("English")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[32/522] 3p11YqelPLs attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3p11YqelPLs! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3p11YqelPLs) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - nl ("Dutch (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - en ("English")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[32/522] 3p11YqelPLs attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3p11YqelPLs! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3p11YqelPLs) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - nl ("Dutch (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - en ("English")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[32/522] failed  3p11YqelPLs: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3p11YqelPLs! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3p11YqelPLs) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - nl ("Dutch (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - en ("English")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[33/522] 3qjb6RL3nJo attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3qjb6RL3nJo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3qjb6RL3nJo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[33/522] 3qjb6RL3nJo attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3qjb6RL3nJo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3qjb6RL3nJo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[33/522] 3qjb6RL3nJo attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3qjb6RL3nJo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3qjb6RL3nJo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[33/522] failed  3qjb6RL3nJo: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=3qjb6RL3nJo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (3qjb6RL3nJo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[34/522] success 3xzRQN3LbBY
+[35/522] success 47G1aEaNOKU
+[36/522] success 4JKT-ILXeU8
+[37/522] success 4LQYWziOg0Q
+[38/522] success 4OOS96i2gfI
+[39/522] success 4P0mtuGfyx8
+[40/522] success 4eSfT8QuYFc
+[41/522] batch_rest 120.0s
+[41/522] success 5AfJ0N3MvpA
+[42/522] success 5KTHvKCrQ00
+[43/522] success 5MwExvt7dfQ
+[44/522] success 5N763y3HNRU
+[45/522] success 5SbLJNVuqR0
+[46/522] success 5TBsXGdmkc0
+[47/522] success 5iGSyS5M80A
+[48/522] success 5jwiwaPyZCE
+[49/522] success 5p5cV0yVDvQ
+[50/522] success 5uSboan45Zg
+[51/522] success 62v5ZUail3c
+[52/522] success 6B0p9rCN_p0
+[53/522] success 6H5gQXzN6vQ
+[54/522] success 6MCxSJd1ZPY
+[55/522] success 6TXXMTYQtHk
+[56/522] success 6dDcV6FNMMM
+[57/522] success 6sSPFNrDFMI
+[58/522] success 6yEzQSEtO4Y
+[59/522] success 6z3d3dyMilg
+[60/522] success 7EH0VjM3dTk
+[61/522] batch_rest 120.0s
+[61/522] success 7LWTZqksmSg
+[62/522] success 7LlQZKPBKgs
+[63/522] success 7SrkvlgIKFs
+[64/522] success 7T_TjH6P8CE
+[65/522] success 7UNsK9LoORo
+[66/522] success 7fTuBQTR7rg
+[67/522] 7iAWXJO-MbY attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=7iAWXJO-MbY! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (7iAWXJO-MbY) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[67/522] 7iAWXJO-MbY attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=7iAWXJO-MbY! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (7iAWXJO-MbY) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[67/522] 7iAWXJO-MbY attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=7iAWXJO-MbY! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (7iAWXJO-MbY) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[67/522] failed  7iAWXJO-MbY: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=7iAWXJO-MbY! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (7iAWXJO-MbY) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[68/522] success 824Fyh146_w
+[69/522] success 847eGg-X7Us
+[70/522] 8C6iCpJ9HPo blocked (consecutive=1)
+[70/522] failed  8C6iCpJ9HPo: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8C6iCpJ9HPo! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[71/522] success 8DAQdtFufpU
+[72/522] 8NKhyaBpfIU attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8NKhyaBpfIU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8NKhyaBpfIU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[72/522] 8NKhyaBpfIU attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8NKhyaBpfIU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8NKhyaBpfIU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[72/522] 8NKhyaBpfIU attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8NKhyaBpfIU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8NKhyaBpfIU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[72/522] failed  8NKhyaBpfIU: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8NKhyaBpfIU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8NKhyaBpfIU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[73/522] success 8Zv17mLNcdk
+[74/522] success 8_liatgLkLc
+[75/522] success 8izATKqcF-8
+[76/522] 8jfcloETVVI attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8jfcloETVVI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8jfcloETVVI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[76/522] 8jfcloETVVI attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8jfcloETVVI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8jfcloETVVI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[76/522] 8jfcloETVVI attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8jfcloETVVI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8jfcloETVVI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[76/522] failed  8jfcloETVVI: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8jfcloETVVI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (8jfcloETVVI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[77/522] success 8mvUXjpqzUU
+[78/522] success 8tg8z-Fi0MU
+[79/522] success 9-6LtfjYmpg
+[80/522] success 94WKYiQLK6M
+[81/522] batch_rest 120.0s
+[81/522] success 9BuDHyopVGA
+[82/522] success 9HZVqxGV55g
+[83/522] 9Hj55Ycg2fA attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=9Hj55Ycg2fA! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (9Hj55Ycg2fA) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[83/522] 9Hj55Ycg2fA blocked (consecutive=1)
+[83/522] failed  9Hj55Ycg2fA: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=9Hj55Ycg2fA! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[84/522] success 9i3ic1sVhlI
+[85/522] success A4UOeBpgNU0
+[86/522] success A7yDvA8VQC8
+[87/522] AF5BBIj3N-Q attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=AF5BBIj3N-Q! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (AF5BBIj3N-Q) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[87/522] AF5BBIj3N-Q attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=AF5BBIj3N-Q! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (AF5BBIj3N-Q) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[87/522] AF5BBIj3N-Q attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=AF5BBIj3N-Q! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (AF5BBIj3N-Q) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[87/522] failed  AF5BBIj3N-Q: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=AF5BBIj3N-Q! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (AF5BBIj3N-Q) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[88/522] success ALpxsPCE2Jw
+[89/522] success AMRxbIO04kQ
+[90/522] success ANLRQ7X6h5A
+[91/522] success ASjITM7lVC8
+[92/522] success AU9Fdgs0ZaI
+[93/522] success AUQJ9eeP-Ls
+[94/522] success AXsrrF07u2k
+[95/522] success AYsg5gAMWyo
+[96/522] success Awvj4yLYafo
+[97/522] success B7TjQyBCGk4
+[98/522] success BCQ2omAzPko
+[99/522] success BCW-wrDzWCs
+[100/522] success BER3EhUIyz0
+[101/522] batch_rest 120.0s
+[101/522] success BFWviieMyGw
+[102/522] BJpBp2gwk2Y attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=BJpBp2gwk2Y! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[102/522] BJpBp2gwk2Y attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=BJpBp2gwk2Y! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[102/522] BJpBp2gwk2Y attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=BJpBp2gwk2Y! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[102/522] failed  BJpBp2gwk2Y: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=BJpBp2gwk2Y! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[103/522] success BMt-qvrEcFY
+[104/522] success BWLiso9RrRA
+[105/522] success BcvjGTxzK40
+[106/522] success Be2OQ3LQZcQ
+[107/522] success BiN-NTTQ7tc
+[108/522] success Bk9sYapiow8
+[109/522] success C-5FJ6oin-g
+[110/522] success C0PWJJLSjSo
+[111/522] success CAKGKkWf0tI
+[112/522] CCV5fKgmdQc attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=CCV5fKgmdQc! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (CCV5fKgmdQc) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[112/522] CCV5fKgmdQc attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=CCV5fKgmdQc! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (CCV5fKgmdQc) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[112/522] CCV5fKgmdQc blocked (consecutive=1)
+[112/522] failed  CCV5fKgmdQc: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=CCV5fKgmdQc! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[113/522] success CZmx2iF8hoM
+[114/522] success Chl-cRcwVpA
+[115/522] success CnXdddeZ4tQ
+[116/522] success CwvzZgKG_JI
+[117/522] DChzGCf1pOo blocked (consecutive=1)
+[117/522] failed  DChzGCf1pOo: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=DChzGCf1pOo! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[118/522] success DL82mGde6wo
+[119/522] success DNBaUCCST3I
+[120/522] success DZGeiKiaoww
+[121/522] batch_rest 120.0s
+[121/522] success Dc1y_pulshw
+[122/522] success DfaRahn_dwo
+[123/522] success E5y8BlRo6r4
+[124/522] EGZwuKOTXk8 attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=EGZwuKOTXk8! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[124/522] EGZwuKOTXk8 attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=EGZwuKOTXk8! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[124/522] EGZwuKOTXk8 attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=EGZwuKOTXk8! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[124/522] failed  EGZwuKOTXk8: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=EGZwuKOTXk8! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[125/522] success EJB2Oj_VAk8
+[126/522] success ELBIb8z0jxc
+[127/522] success ESIL0Rzl5VQ
+[128/522] success EWBsmEi4V9g
+[129/522] success E_ToyA780YU
+[130/522] success EcwsvwVJnY4
+[131/522] success F1I9JN0z0w0
+[132/522] success FI-YJOxe3Xw
+[133/522] success FXgOgAJrhis
+[134/522] success FqF4b7Uemfc
+[135/522] success G42J2MSKyc8
+[136/522] success GJpfVaRaPNY
+[137/522] success GjWQsfQX7C0
+[138/522] success GxEC9GgMZ7c
+[139/522] H-R2gmDkpps attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=H-R2gmDkpps! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (H-R2gmDkpps) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[139/522] H-R2gmDkpps attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=H-R2gmDkpps! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (H-R2gmDkpps) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[139/522] H-R2gmDkpps attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=H-R2gmDkpps! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (H-R2gmDkpps) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[139/522] failed  H-R2gmDkpps: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=H-R2gmDkpps! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (H-R2gmDkpps) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[140/522] success HCh3nOLuUCA
+[141/522] batch_rest 120.0s
+[141/522] success HEknPXDlTmc
+[142/522] success HFEwfd7OMLQ
+[143/522] success HJ9VvIG3Rps
+[144/522] success HM0i1-0Xr0c
+[145/522] HMymN0O1hrM attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=HMymN0O1hrM! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[145/522] HMymN0O1hrM attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=HMymN0O1hrM! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[145/522] HMymN0O1hrM attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=HMymN0O1hrM! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[145/522] failed  HMymN0O1hrM: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=HMymN0O1hrM! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[146/522] success HNKlFTd1maM
+[147/522] success HXy3J1mGHRE
+[148/522] success HjdeJupTzzA
+[149/522] success HkzOrj2qeXI
+[150/522] success Hu3lQfg20Og
+[151/522] IHb_TKFAIf0 blocked (consecutive=1)
+[151/522] failed  IHb_TKFAIf0: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=IHb_TKFAIf0! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[152/522] success ITyxrAdt4Gs
+[153/522] success IaJ2jXmljmM
+[154/522] success Izm3TrJpwrY
+[155/522] success J7j5tCB_y4w
+[156/522] success JIDil4HVcrw
+[157/522] success JJxYFfE-5Y8
+[158/522] success JKW8InX3mdQ
+[159/522] JXJJ34loId8 attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=JXJJ34loId8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (JXJJ34loId8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[159/522] JXJJ34loId8 attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=JXJJ34loId8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (JXJJ34loId8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[159/522] JXJJ34loId8 attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=JXJJ34loId8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (JXJJ34loId8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[159/522] failed  JXJJ34loId8: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=JXJJ34loId8! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (JXJJ34loId8) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[160/522] success JYZXsH1Xz0I
+[161/522] batch_rest 120.0s
+[161/522] success JdQOPVCcZxo
+[162/522] success JdT78t1Offo
+[163/522] success JegtD4Ku3u8
+[164/522] success Jekzc6BM5_w
+[165/522] success JfM1mr2bCuk
+[166/522] success JgMA92GXVmU
+[167/522] success JnKkdHaatwU
+[168/522] success KIOmoUrlKn0
+[169/522] success KKdsSO1-LQE
+[170/522] success KOK7wT4BEsw
+[171/522] success KRjJd-F49Y0
+[172/522] success K_GD2Y0O4JM
+[173/522] success KaiWoqGak9I
+[174/522] success KurGnK76-EU
+[175/522] LMr4FjgLIzE blocked (consecutive=1)
+[175/522] failed  LMr4FjgLIzE: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LMr4FjgLIzE! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[176/522] LVt1WpjSgBU attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LVt1WpjSgBU! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[176/522] LVt1WpjSgBU attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LVt1WpjSgBU! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[176/522] LVt1WpjSgBU attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LVt1WpjSgBU! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[176/522] failed  LVt1WpjSgBU: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LVt1WpjSgBU! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[177/522] success MGkByeDm-90
+[178/522] success MW3t6jP9AOs
+[179/522] success M_WsbhUIlQ0
+[180/522] success N72-fAI5V9k
+[181/522] batch_rest 120.0s
+[181/522] success NAFaWr4UPFI
+[182/522] success NAhKdzo99NI
+[183/522] success NAwykfigzQ4
+[184/522] success NNGbaiN1L7Y
+[185/522] success NRJoGjynDOE
+[186/522] success NoVMk_P6fgY
+[187/522] success NrgoZLcY3Kk
+[188/522] success NuJzg3jTleI
+[189/522] success O2gerCxEXvc
+[190/522] success O5nQKzBb0oc
+[191/522] O96HGfeMfBo attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=O96HGfeMfBo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (O96HGfeMfBo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[191/522] O96HGfeMfBo attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=O96HGfeMfBo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (O96HGfeMfBo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[191/522] O96HGfeMfBo attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=O96HGfeMfBo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (O96HGfeMfBo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[191/522] failed  O96HGfeMfBo: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=O96HGfeMfBo! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (O96HGfeMfBo) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[192/522] success OFfwN23hR8U
+[193/522] success OKwDzKY_WN8
+[194/522] success OSeVMcz8p-A
+[195/522] success OX9b9hrMQCk
+[196/522] success ObAFqcuX9MA
+[197/522] success OdtGN27LchE
+[198/522] success OgPxmeIiOeI
+[199/522] success OlWX0pse4EQ
+[200/522] success Ons1Fv3IE4U
+[201/522] batch_rest 120.0s
+[201/522] success Onw9znAKHWQ
+[202/522] success OtJV9SCyfuE
+[203/522] success P1YZLjNZC-Y
+[204/522] success P4VFL9nIaIA
+[205/522] success P6y0gr-W2-k
+[206/522] success PA6tjgpDvHU
+[207/522] success PADG1LqgVo8
+[208/522] success PLbwB5_HIdc
+[209/522] success PT1dgVTOGWI
+[210/522] success PYJSIp6JU94
+[211/522] success Pe_Cyp2Fyjg
+[212/522] success Pek0KQQmELw
+[213/522] success Q-qZyaN5sAU
+[214/522] success Q9VBfj_LzUI
+[215/522] success QB6k_i8RU0k
+[216/522] success QGrLG_zqxJU
+[217/522] success QHOTpStej2g
+[218/522] success QK6HBp_dJu0
+[219/522] success QhDLHWR04Rk
+[220/522] success QojPKL96Dx4
+[221/522] batch_rest 120.0s
+[221/522] success QvEdfnr4ge4
+[222/522] success R43Q0nIXa1Q
+[223/522] success R8zCOp5WyLk
+[224/522] success RBDsF93oHyg
+[225/522] success RDvKjiR9bBU
+[226/522] success RJXio_jpc_Y
+[227/522] success RoIVDn5RQ4E
+[228/522] success S0qm82fW8eo
+[229/522] success S4L8Xz0rV_k
+[230/522] success S6wc6yvoZLY
+[231/522] success SB7QtiDfKPQ
+[232/522] success SP-b_G74Nuk
+[233/522] success SUvuVmB6fRg
+[234/522] success SdNRWJ-oqjY
+[235/522] success SdUm7P49xno
+[236/522] success SsjV88U84uo
+[237/522] success SsqwRLy0CNQ
+[238/522] success SyS-GJ1p8Fo
+[239/522] success T4XDMeoyvU0
+[240/522] success T5ry8nlFAkg
+[241/522] batch_rest 120.0s
+[241/522] success TISRD930_qc
+[242/522] success TISROlsLYQg
+[243/522] success TV8SyEuSMIA
+[244/522] success TXVyxJdlzQs
+[245/522] success TaKmTrsx2Lo
+[246/522] success TebGzQRBGgc
+[247/522] success TiN_QaEfCYc
+[248/522] TlIOk8VuEBU attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TlIOk8VuEBU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (TlIOk8VuEBU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en-IN ("English (India)")[TRANSLATABLE]
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ar ("Arabic")
+ - zh-Hant ("Chinese (Traditional)")
+ - nl ("Dutch")
+ - fr ("French")
+ - de ("German")
+ - hi ("Hindi")
+ - id ("Indonesian")
+ - it ("Italian")
+ - ja ("Japanese")
+ - ko ("Korean")
+ - pt ("Portuguese")
+ - ru ("Russian")
+ - es ("Spanish")
+ - th ("Thai")
+ - tr ("Turkish")
+ - uk ("Ukrainian")
+ - vi ("Vietnamese")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[248/522] TlIOk8VuEBU attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TlIOk8VuEBU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (TlIOk8VuEBU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en-IN ("English (India)")[TRANSLATABLE]
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ar ("Arabic")
+ - zh-Hant ("Chinese (Traditional)")
+ - nl ("Dutch")
+ - fr ("French")
+ - de ("German")
+ - hi ("Hindi")
+ - id ("Indonesian")
+ - it ("Italian")
+ - ja ("Japanese")
+ - ko ("Korean")
+ - pt ("Portuguese")
+ - ru ("Russian")
+ - es ("Spanish")
+ - th ("Thai")
+ - tr ("Turkish")
+ - uk ("Ukrainian")
+ - vi ("Vietnamese")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[248/522] TlIOk8VuEBU attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TlIOk8VuEBU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (TlIOk8VuEBU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en-IN ("English (India)")[TRANSLATABLE]
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ar ("Arabic")
+ - zh-Hant ("Chinese (Traditional)")
+ - nl ("Dutch")
+ - fr ("French")
+ - de ("German")
+ - hi ("Hindi")
+ - id ("Indonesian")
+ - it ("Italian")
+ - ja ("Japanese")
+ - ko ("Korean")
+ - pt ("Portuguese")
+ - ru ("Russian")
+ - es ("Spanish")
+ - th ("Thai")
+ - tr ("Turkish")
+ - uk ("Ukrainian")
+ - vi ("Vietnamese")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[248/522] failed  TlIOk8VuEBU: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=TlIOk8VuEBU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (TlIOk8VuEBU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+ - en-IN ("English (India)")[TRANSLATABLE]
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")[TRANSLATABLE]
+
+(TRANSLATION LANGUAGES)
+ - ar ("Arabic")
+ - zh-Hant ("Chinese (Traditional)")
+ - nl ("Dutch")
+ - fr ("French")
+ - de ("German")
+ - hi ("Hindi")
+ - id ("Indonesian")
+ - it ("Italian")
+ - ja ("Japanese")
+ - ko ("Korean")
+ - pt ("Portuguese")
+ - ru ("Russian")
+ - es ("Spanish")
+ - th ("Thai")
+ - tr ("Turkish")
+ - uk ("Ukrainian")
+ - vi ("Vietnamese")
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[249/522] success TlbcAphLGSc
+[250/522] success TpAMd9Csir8
+[251/522] success TvW4A0a75mw
+[252/522] success U2iFkardx9g
+[253/522] success U3sTlFaQ1Nw
+[254/522] success UACj1WqXU2Q
+[255/522] success ULszsXDyjMY
+[256/522] success URTNmXWyWhI
+[257/522] URmsLghSQwA attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=URmsLghSQwA! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (URmsLghSQwA) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[257/522] URmsLghSQwA attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=URmsLghSQwA! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (URmsLghSQwA) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[257/522] URmsLghSQwA attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=URmsLghSQwA! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (URmsLghSQwA) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[257/522] failed  URmsLghSQwA: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=URmsLghSQwA! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (URmsLghSQwA) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[258/522] success US18jDIDUfQ
+[259/522] success UZb0if-7wGE
+[260/522] success UcLDeH9PaI0
+[261/522] batch_rest 120.0s
+[261/522] success Udx7SLFDsxo
+[262/522] success UhhAgc9tvic
+[263/522] success UjQBgwTcvng
+[264/522] success UjV9hy_83O4
+[265/522] success UklCxmEvz2w
+[266/522] success UodANk7TDBY
+[267/522] success UuMznUFQflo
+[268/522] success V-0ExE6imTg
+[269/522] success VCLgnUQVnPk
+[270/522] success VEpQvHyAUa0
+[271/522] success VKAq_PA_21U
+[272/522] success Vas26bqtbQg
+[273/522] success Vb1SwBAn9cQ
+[274/522] success VkqYmwIIeOg
+[275/522] success Vm8QOo9MiC4
+[276/522] WFm0nao9hlY blocked (consecutive=1)
+[276/522] failed  WFm0nao9hlY: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=WFm0nao9hlY! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[277/522] success WKF__cJTxvg
+[278/522] success WQLzDDNEBGY
+[279/522] success WVrLGsq48dc
+[280/522] success Wg8ue17LMT8
+[281/522] batch_rest 120.0s
+[281/522] success WhooDE1x2P4
+[282/522] success WozA_qHEAqo
+[283/522] success Wr0AsdR-I3k
+[284/522] success X39OZndIWSY
+[285/522] success X5z1ZaEaJjU
+[286/522] success X80ljdCPM_U
+[287/522] success X95MFcYH1_s
+[288/522] success XKBQGe7Z7is
+[289/522] success XMPn9GXIUGE
+[290/522] success XeIx4S6YvGo
+[291/522] success Xel_mF5CCAo
+[292/522] success XgKs0aw8ssg
+[293/522] success XrYwFUdu2lk
+[294/522] success XuvKFsktX0Q
+[295/522] success Y-rQSxACvOg
+[296/522] success Y4B4QuDxCos
+[297/522] YJ3Z9XhlF5w blocked (consecutive=1)
+[297/522] failed  YJ3Z9XhlF5w: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=YJ3Z9XhlF5w! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[298/522] success YOwDdwtNmPU
+[299/522] success Y_5eTTw6p58
+[300/522] success Yd9oAPNXxs8
+[301/522] batch_rest 120.0s
+[301/522] success YjIggq7wzL8
+[302/522] success YoRNgLXzrVo
+[303/522] Z2r_pqtPSTE attempt=1 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Z2r_pqtPSTE! This is most likely caused by:
+
+The video is unplayable for the following reason: This video is available to this channel's members on level: 協賛メンバー (or any higher priced level).
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[303/522] Z2r_pqtPSTE attempt=2 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Z2r_pqtPSTE! This is most likely caused by:
+
+The video is unplayable for the following reason: This video is available to this channel's members on level: 協賛メンバー (or any higher priced level).
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[303/522] Z2r_pqtPSTE attempt=3 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Z2r_pqtPSTE! This is most likely caused by:
+
+The video is unplayable for the following reason: This video is available to this channel's members on level: 協賛メンバー (or any higher priced level).
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[303/522] failed  Z2r_pqtPSTE: VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Z2r_pqtPSTE! This is most likely caused by:
+
+The video is unplayable for the following reason: This video is available to this channel's members on level: 協賛メンバー (or any higher priced level).
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[304/522] success Z6gluxYKQcs
+[305/522] success ZB_U5QlyY0Y
+[306/522] success ZHCB09O6zUk
+[307/522] success ZLW87bBYeJE
+[308/522] success ZeZozy3lsJg
+[309/522] success ZkYxLIsqJoo
+[310/522] ZlAs79nW4P4 attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZlAs79nW4P4! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (ZlAs79nW4P4) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[310/522] ZlAs79nW4P4 attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZlAs79nW4P4! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (ZlAs79nW4P4) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[310/522] ZlAs79nW4P4 attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZlAs79nW4P4! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (ZlAs79nW4P4) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[310/522] failed  ZlAs79nW4P4: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZlAs79nW4P4! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (ZlAs79nW4P4) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[311/522] success ZpC1FZ2yAFA
+[312/522] success Zphax4f6Rls
+[313/522] success ZqBnen0Om6g
+[314/522] ZxDQ2EDhL5A blocked (consecutive=1)
+[314/522] failed  ZxDQ2EDhL5A: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=ZxDQ2EDhL5A! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[315/522] success _0qEIu78LYs
+[316/522] success _LSGM1COT4I
+[317/522] success _PxkYZ_4z50
+[318/522] _QfxGZGITGw blocked (consecutive=1)
+[318/522] failed  _QfxGZGITGw: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=_QfxGZGITGw! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[319/522] success _U-ur9uOrac
+[320/522] success _UojjKvC_s4
+[321/522] batch_rest 120.0s
+[321/522] success _esGZDtDjPs
+[322/522] success _vrPvYBtmTk
+[323/522] success a0BNjXs5cSc
+[324/522] success a8L0QKI7Kro
+[325/522] success aPXJLb6-uxM
+[326/522] success abppwF3MCG0
+[327/522] success aoX_pGQMbEM
+[328/522] success ayUZdS3ikqQ
+[329/522] bDAEsnVBoRI attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bDAEsnVBoRI! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (bDAEsnVBoRI) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[329/522] bDAEsnVBoRI blocked (consecutive=1)
+[329/522] failed  bDAEsnVBoRI: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bDAEsnVBoRI! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[330/522] success bPtKnDIVEsg
+[331/522] bbKn3z2tjK0 blocked (consecutive=1)
+[331/522] failed  bbKn3z2tjK0: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bbKn3z2tjK0! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[332/522] success bhqLatL1Km8
+[333/522] success btqoPyFjqTI
+[334/522] success bwvfdFWR1RI
+[335/522] bxGE_LXPyAU blocked (consecutive=1)
+[335/522] failed  bxGE_LXPyAU: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=bxGE_LXPyAU! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[336/522] cCAdoswM8WM blocked (consecutive=2)
+[336/522] failed  cCAdoswM8WM: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=cCAdoswM8WM! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[337/522] success cLteGDv1bgA
+[338/522] cNEs710IRsQ blocked (consecutive=1)
+[338/522] failed  cNEs710IRsQ: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=cNEs710IRsQ! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[339/522] success cTBGIKAckKE
+[340/522] success ciE8IHxsKno
+[341/522] batch_rest 120.0s
+[341/522] success d-l0SH8PYqM
+[342/522] d6TEqre0ueU blocked (consecutive=1)
+[342/522] failed  d6TEqre0ueU: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=d6TEqre0ueU! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[343/522] success d9DF40vLz78
+[344/522] success dA3iXx1Rf7A
+[345/522] success dD-oYfhSKhg
+[346/522] success dIb-DujRNEo
+[347/522] dMlFnkIGBpc blocked (consecutive=1)
+[347/522] failed  dMlFnkIGBpc: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=dMlFnkIGBpc! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[348/522] success dWeWL0qRmag
+[349/522] success da1rH0Hq62Q
+[350/522] success ddoPk6DwCFE
+[351/522] success dk97zcYaq_o
+[352/522] success eRl6UWSjlxM
+[353/522] eSbeub2ZeNk blocked (consecutive=1)
+[353/522] failed  eSbeub2ZeNk: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=eSbeub2ZeNk! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[354/522] eVXMETKLqxw blocked (consecutive=2)
+[354/522] failed  eVXMETKLqxw: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=eVXMETKLqxw! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[355/522] eVqMkaYjEps blocked (consecutive=3)
+circuit breaker: consecutive_blocked=3 -> cooldown 162min until 2025-12-30T14:29:02+09:00
+cooldown active; sleeping 9719s until 2025-12-30T14:29:02+09:00
+[355/522] failed  eVqMkaYjEps: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=eVqMkaYjEps! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[356/522] success ebIFBi47Hhg
+[357/522] success epAUEgF8OfQ
+[358/522] success f5Ihdw32tTw
+[359/522] fB2JQXEH_94 blocked (consecutive=1)
+[359/522] failed  fB2JQXEH_94: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fB2JQXEH_94! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[360/522] success fES4j8oDN1M
+[361/522] batch_rest 120.0s
+[361/522] fGSpr8bHxcM blocked (consecutive=1)
+[361/522] failed  fGSpr8bHxcM: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fGSpr8bHxcM! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[362/522] success fJgFZRGO9AQ
+[363/522] fOxC44g8vig blocked (consecutive=1)
+[363/522] failed  fOxC44g8vig: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fOxC44g8vig! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[364/522] success fbPDcVnY1gk
+[365/522] fg0O0VlVhp8 blocked (consecutive=1)
+[365/522] failed  fg0O0VlVhp8: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fg0O0VlVhp8! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[366/522] success fhl1zyNXHls
+[367/522] success fpAbYRNxYPM
+[368/522] success fqcKRn4ZjDI
+[369/522] success fru2vDxy7gs
+[370/522] success fsKp0WBFqGU
+[371/522] success fsZ4mUTZZ7E
+[372/522] success fuscptIrNEw
+[373/522] success fvUGQFtJaT4
+[374/522] success g8s6HZZLQsk
+[375/522] g93XqSRxcAs blocked (consecutive=1)
+[375/522] failed  g93XqSRxcAs: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=g93XqSRxcAs! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[376/522] success gER0ceSzD7M
+[377/522] success gGCwSIlIRlY
+[378/522] gYlA_xSslQE blocked (consecutive=1)
+[378/522] failed  gYlA_xSslQE: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gYlA_xSslQE! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[379/522] success gaGaPpnexxA
+[380/522] success goc2yyg2eH4
+[381/522] batch_rest 120.0s
+[381/522] gqaW3MktdsM blocked (consecutive=1)
+[381/522] failed  gqaW3MktdsM: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gqaW3MktdsM! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[382/522] guXhZ_q6sVY blocked (consecutive=2)
+[382/522] failed  guXhZ_q6sVY: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=guXhZ_q6sVY! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[383/522] gv70MYxpAVk blocked (consecutive=3)
+circuit breaker: consecutive_blocked=3 -> cooldown 63min until 2025-12-30T15:47:13+09:00
+cooldown active; sleeping 3779s until 2025-12-30T15:47:13+09:00
+[383/522] failed  gv70MYxpAVk: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=gv70MYxpAVk! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[384/522] hL2hLFUwuqQ blocked (consecutive=1)
+[384/522] failed  hL2hLFUwuqQ: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hL2hLFUwuqQ! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[385/522] success hLJkuDle4OE
+[386/522] success hLSTGgc7gDc
+[387/522] success hOqgFNlbrYE
+[388/522] success hSO4zjeQO48
+[389/522] hWJBTQtmLoc attempt=1 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hWJBTQtmLoc! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[389/522] hWJBTQtmLoc attempt=2 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hWJBTQtmLoc! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[389/522] hWJBTQtmLoc attempt=3 error=VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hWJBTQtmLoc! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[389/522] failed  hWJBTQtmLoc: VideoUnplayable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hWJBTQtmLoc! This is most likely caused by:
+
+The video is unplayable for the following reason: Join this channel to get access to members-only content like this video, and other exclusive perks.
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[390/522] success hfTirr59BO4
+[391/522] success hj0nTLbhIEY
+[392/522] hkSj-QapfZo blocked (consecutive=1)
+[392/522] failed  hkSj-QapfZo: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=hkSj-QapfZo! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[393/522] success hwWGx91hwY0
+[394/522] success i5J0tVwJv-s
+[395/522] success i5kwX7jeWL8
+[396/522] i8xz9HIQnQo attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=i8xz9HIQnQo! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[396/522] i8xz9HIQnQo attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=i8xz9HIQnQo! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[396/522] i8xz9HIQnQo attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=i8xz9HIQnQo! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[396/522] failed  i8xz9HIQnQo: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=i8xz9HIQnQo! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[397/522] success iF9iV4xponk
+[398/522] success iLtU0wQvCBU
+[399/522] success iT1fWrKhD9M
+[400/522] success iV5RZ_XKXBc
+[401/522] batch_rest 120.0s
+[401/522] success iWtVbgqFSFg
+[402/522] success iaZS1jer8MY
+[403/522] success igUpMlGqyWo
+[404/522] success ilaDQLa1Lrk
+[405/522] success ipY_e9sldFM
+[406/522] success irg-2IfAjpo
+[407/522] j91NMeQgy20 attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=j91NMeQgy20! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (j91NMeQgy20) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[407/522] j91NMeQgy20 attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=j91NMeQgy20! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (j91NMeQgy20) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[407/522] j91NMeQgy20 attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=j91NMeQgy20! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (j91NMeQgy20) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[407/522] failed  j91NMeQgy20: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=j91NMeQgy20! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (j91NMeQgy20) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[408/522] success jTuwNBcsOXQ
+[409/522] success jVazhPkg-8Q
+[410/522] success jld--NLqTMg
+[411/522] success k-Cj6H6Zwos
+[412/522] success k-qPKE8pZAw
+[413/522] k-tDMvsym-o attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=k-tDMvsym-o! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (k-tDMvsym-o) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[413/522] k-tDMvsym-o attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=k-tDMvsym-o! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (k-tDMvsym-o) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[413/522] k-tDMvsym-o attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=k-tDMvsym-o! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (k-tDMvsym-o) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[413/522] failed  k-tDMvsym-o: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=k-tDMvsym-o! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (k-tDMvsym-o) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[414/522] success kG69Ry0kXXM
+[415/522] success k_5NcmxWlVg
+[416/522] khZS7dMkqek blocked (consecutive=1)
+[416/522] failed  khZS7dMkqek: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=khZS7dMkqek! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[417/522] success kmAXSlpPyvE
+[418/522] success knT3kN4EpOo
+[419/522] success l3u_FAv33G0
+[420/522] success l5GLvMlfIyg
+[421/522] batch_rest 120.0s
+[421/522] success l93vxp-jcvY
+[422/522] success lB8jythC-vQ
+[423/522] success lcNN3X9gXls
+[424/522] success leC9vkDsGqM
+[425/522] success lglldcu24ok
+[426/522] lhr-drVknW0 blocked (consecutive=1)
+[426/522] failed  lhr-drVknW0: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=lhr-drVknW0! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[427/522] success lokbsA5VXOk
+[428/522] success lqokpIme47A
+[429/522] success lx813D-mb7Y
+[430/522] success m8ohXrzqoO0
+[431/522] success mCS3xE81O04
+[432/522] success mNcXue7X8H0
+[433/522] success m_dNwtoxqd8
+[434/522] success mcxeEUC5B4M
+[435/522] success mkACzUDc8Vc
+[436/522] success mlLdzM2Xp08
+[437/522] success mnQmBFJEqPg
+[438/522] mrWdrh-6E6g attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=mrWdrh-6E6g! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (mrWdrh-6E6g) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[438/522] mrWdrh-6E6g attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=mrWdrh-6E6g! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (mrWdrh-6E6g) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[438/522] mrWdrh-6E6g attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=mrWdrh-6E6g! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (mrWdrh-6E6g) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[438/522] failed  mrWdrh-6E6g: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=mrWdrh-6E6g! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (mrWdrh-6E6g) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[439/522] success mv7G38U8iYY
+[440/522] success nHkS-JQyThE
+[441/522] batch_rest 120.0s
+[441/522] success nItsfXwujjg
+[442/522] success nKuXMDCtyQI
+[443/522] success nMKS-QXjqo8
+[444/522] success nTD4wZBC0CI
+[445/522] success ni8Xl0ANx0E
+[446/522] success npkGMKCD9wI
+[447/522] success oAoigBWLZgE
+[448/522] success oEgiCgQwi-A
+[449/522] success oOylEw3tPQ8
+[450/522] success oWdJMJp2HgM
+[451/522] success od5zckQpJRo
+[452/522] success on623d5EfPw
+[453/522] success oowzvdpH_2o
+[454/522] success ouaEORSQatY
+[455/522] success p0FERNkpyHE
+[456/522] success p8Jx4qvDoSo
+[457/522] pFEQYg7uEXU attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=pFEQYg7uEXU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (pFEQYg7uEXU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[457/522] pFEQYg7uEXU attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=pFEQYg7uEXU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (pFEQYg7uEXU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[457/522] pFEQYg7uEXU attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=pFEQYg7uEXU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (pFEQYg7uEXU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[457/522] failed  pFEQYg7uEXU: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=pFEQYg7uEXU! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (pFEQYg7uEXU) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[458/522] success pPRoAs8xh2o
+[459/522] success pablEq295Wc
+[460/522] success pecSfrcQZbI
+[461/522] batch_rest 120.0s
+[461/522] success pjF-0dliYhg
+[462/522] success q4YnO0MBaeI
+[463/522] success q6DU_9CzgXA
+[464/522] success qKMc-uzDxEk
+[465/522] success qgqiSDV8FsQ
+[466/522] qmu5ncGuUVM blocked (consecutive=1)
+[466/522] failed  qmu5ncGuUVM: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=qmu5ncGuUVM! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[467/522] success qsO5jVrzoas
+[468/522] rBJnWMD0Pho attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rBJnWMD0Pho! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[468/522] rBJnWMD0Pho attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rBJnWMD0Pho! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[468/522] rBJnWMD0Pho attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rBJnWMD0Pho! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[468/522] failed  rBJnWMD0Pho: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=rBJnWMD0Pho! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[469/522] success rLxJzeRGzV8
+[470/522] success rMO_P4nnATI
+[471/522] success rTKt5Wv_HTI
+[472/522] success rohkXyzbryI
+[473/522] success rooK0exeBQU
+[474/522] success s71I9pVdsv8
+[475/522] success sMQ5R92F86o
+[476/522] success sVXOYsgIig8
+[477/522] success sWH0T4Zez6I
+[478/522] success slN-Ms8rdxw
+[479/522] success sucokz-tMWU
+[480/522] success sxTNACldK3Y
+[481/522] batch_rest 120.0s
+[481/522] success t8jNXTe2_Gk
+[482/522] success tFFKuq2t0rI
+[483/522] success tHoJAwrs1q8
+[484/522] tIaHUtRgh_4 blocked (consecutive=1)
+[484/522] failed  tIaHUtRgh_4: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=tIaHUtRgh_4! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[485/522] success tRGoT1QV8VA
+[486/522] success t_zeCzH7u1w
+[487/522] success u5Vcrwpzoz8
+[488/522] success uAI5NLoojso
+[489/522] uMVRPqC7cL4 attempt=1 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=uMVRPqC7cL4! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[489/522] uMVRPqC7cL4 attempt=2 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=uMVRPqC7cL4! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[489/522] uMVRPqC7cL4 attempt=3 error=TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=uMVRPqC7cL4! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[489/522] failed  uMVRPqC7cL4: TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=uMVRPqC7cL4! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[490/522] success uRa0_Oq2U5Y
+[491/522] success uhJJgc-0iTQ
+[492/522] success v0btR9rK5NM
+[493/522] success v4j1_qHLq9s
+[494/522] success vePNTU3T8WY
+[495/522] success vnzt4lwzbXU
+[496/522] success vzJOAnwIokM
+[497/522] success w5xtbdoPfTg
+[498/522] success w9-gfaV5vlM
+[499/522] wXtEcg8xH_k attempt=1 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wXtEcg8xH_k! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (wXtEcg8xH_k) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=5.0s
+[499/522] wXtEcg8xH_k attempt=2 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wXtEcg8xH_k! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (wXtEcg8xH_k) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=10.0s
+[499/522] wXtEcg8xH_k attempt=3 error=NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wXtEcg8xH_k! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (wXtEcg8xH_k) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! backoff=20.0s
+[499/522] failed  wXtEcg8xH_k: NoTranscriptFound: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=wXtEcg8xH_k! This is most likely caused by:
+
+No transcripts were found for any of the requested language codes: ['ja', 'ja-JP', 'en']
+
+For this video (wXtEcg8xH_k) transcripts are available in the following languages:
+
+(MANUALLY CREATED)
+None
+
+(GENERATED)
+ - hi ("Hindi (auto-generated)")
+
+(TRANSLATION LANGUAGES)
+None
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[500/522] success wXujj978x6o
+[501/522] batch_rest 120.0s
+[501/522] success weJ83HRc5zU
+[502/522] success x2n_kbeUODI
+[503/522] success xNplBYQSUAw
+[504/522] success xOO8Wt_i72s
+[505/522] success xRmzLHnssXE
+[506/522] success xe39_2W05B0
+[507/522] xeFPr1bBhj8 blocked (consecutive=1)
+[507/522] failed  xeFPr1bBhj8: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=xeFPr1bBhj8! This is most likely caused by:
+
+YouTube is blocking your requests, despite you using Webshare proxies. Please make sure that you have purchased "Residential" proxies and NOT "Proxy Server" or "Static Residential", as those won't work as reliably! The free tier also uses "Proxy Server" and will NOT work!
+
+The only reliable option is using "Residential" proxies (not "Static Residential"), as this allows you to rotate through a pool of over 30M IPs, which means you will always find an IP that hasn't been blocked by YouTube yet!
+
+You can support the development of this open source project by making your Webshare purchases through this affiliate link: https://www.webshare.io/?referral_code=w0xno53eb50g 
+
+Thank you for your support! <3
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[508/522] success xk6J70MPVkA
+[509/522] success xyvyYDW1K6A
+[510/522] success yAslhELtKEg
+[511/522] success yD-hKFj78g0
+[512/522] success yDpV_jgO93c
+[513/522] success yFisfVMWtcw
+[514/522] success yKPAwTF1SGY
+[515/522] success y_N5oaBOdcs
+[516/522] success y__qEgqXcF4
+[517/522] success yw3QQxX9FZQ
+[518/522] success z7JijNu5j4w
+[519/522] success z7YsP05thd0
+[520/522] success zC-_g1UtEP0
+[521/522] batch_rest 120.0s
+[521/522] success zjwhh2MEa0Q
+[522/522] success zt0JA5rxdfM
+done completed=456 failed=66

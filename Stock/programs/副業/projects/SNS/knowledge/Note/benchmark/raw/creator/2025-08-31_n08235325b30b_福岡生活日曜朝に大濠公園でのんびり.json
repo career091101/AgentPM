@@ -1,0 +1,68 @@
+{
+  "id": "n08235325b30b",
+  "title": "福岡生活｜日曜朝に大濠公園でのんびり",
+  "url": "https://note.com/golddust/n/n08235325b30b",
+  "author": "もえぎ",
+  "author_id": "golddust",
+  "published_at": "2025-08-31T18:21:33+09:00",
+  "like_count": 11,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "golddust",
+  "genre": "creator",
+  "content": {
+    "word_count": 977,
+    "heading_count": 2,
+    "hashtags": [
+      "#日記",
+      "#朝活",
+      "#休日のすごし方",
+      "#福岡",
+      "#パン",
+      "#日曜日",
+      "#休日フォトアルバム",
+      "#ピクニック",
+      "#パン屋さん",
+      "#朝活記録",
+      "#福岡生活"
+    ]
+  },
+  "quality": {
+    "score": 40,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 977,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 11,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 10,
+        "count": 11,
+        "status": "low"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 2,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 10,
+        "hour": 18,
+        "status": "golden_hour"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:03"
+}

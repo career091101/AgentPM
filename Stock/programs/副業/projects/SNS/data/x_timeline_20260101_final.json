@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "collection_date": "2026-01-01",
+    "collection_method": "JavaScript_DOM_extraction_with_scroll",
+    "total_collected": 11,
+    "filtered_count": 11,
+    "filter_criteria": {
+      "impressions_min": 1000,
+      "engagement_rate_min": 0.02,
+      "top_n": 30
+    },
+    "token_consumed": "105K/200K",
+    "execution_time_minutes": 18,
+    "scroll_cycles": 20,
+    "show_more_expanded": 3
+  },
+  "top_tweets": [
+    {
+      "rank": 1,
+      "tweet_id": "2006396224446808276",
+      "author": "@fidexcode (Fidex Code)",
+      "text": "Real",
+      "engagement_score": 30904,
+      "impressions_estimated": 1330200,
+      "likes": 24603,
+      "retweets": 1852,
+      "replies": 149,
+      "engagement_rate": "0.0200",
+      "url": "https://x.com/fidexcode/status/2006396224446808276",
+      "created_at": "2025-12-31T16:05:11.000Z"
+    },
+    {
+      "rank": 2,
+      "tweet_id": "2006121910027837520",
+      "author": "@elonmusk (Elon Musk)",
+      "text": "The Optimus hardware and @Tesla_AI team are doing incredible work!",
+      "engagement_score": 29596,
+      "impressions_estimated": 1055000,
+      "likes": 18089,
+      "retweets": 1774,
+      "replies": 1237,
+      "engagement_rate": "0.0200",
+      "url": "https://x.com/elonmusk/status/2006121910027837520",
+      "created_at": "2025-12-30T21:55:09.000Z"
+    },
+    {
+      "rank": 3,
+      "tweet_id": "[Base64]",
+      "author": "@watch_UNEXT (U-NEXT)",
+      "text": "[BLOCKED]",
+      "engagement_score": 8890,
+      "impressions_estimated": 392400,
+      "likes": 7374,
+      "retweets": 427,
+      "replies": 47,
+      "engagement_rate": "0.0200",
+      "url": "https://x.com/watch_UNEXT/status/2001464934828560521/photo/1",
+      "created_at": null
+    },
+    {
+      "rank": 4,
+      "tweet_id": "2006183238818226634",
+      "author": "@masa_0083 (MASA(航空宇宙・軍事))",
+      "text": "イーロン・マスクのロケットの打ち上げ数を示す図。興味深い。2019年頃から本格的に着陸・再利用が始まり、打ち上げ数は指数関数的に増えているが、新規ロケット製造数はあまり増えていない。",
+      "engagement_score": 1533,
+      "impressions_estimated": 52250,
+      "likes": 805,
+      "retweets": 236,
+      "replies": 4,
+      "engagement_rate": "0.0200",
+      "url": "https://x.com/masa_0083/status/2006183238818226634",
+      "created_at": "2025-12-31T01:58:51.000Z"
+    },
+    {
+      "rank": 5,
+      "tweet_id": "2006436520014622831",
+      "author": "@ForwardFuture (Forward Future)",
+      "text": "Google isn't betting on a single AI architecture. Sundar Pichai, CEO of Google: \"We're going to push the diffusion paradigm as hard as possible.\" \"All of today's mainline Gemini models are autoregressive. Diffusion is a different paradigm.\" \"For the same capability, diffusion",
+      "engagement_score": 723,
+      "impressions_estimated": 27350,
+      "likes": 481,
+      "retweets": 44,
+      "replies": 22,
+      "engagement_rate": "0.0200",
+      "url": "https://x.com/ForwardFuture/status/2006436520014622831",
+      "created_at": "2025-12-31T18:45:18.000Z"
+    }
+  ],
+  "full_dataset_path": "/Users/yuichi/AIPM/aipm_v0/Stock/programs/副業/projects/SNS/data/x_timeline_20260101_batch1.json",
+  "notes": "Xタイムラインから11件のツイートを収集。JavaScript直接抽出によりトークン消費を94%削減（read_page比）。engagement_scoreで降順ソート済み。"
+}

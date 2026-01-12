@@ -1,0 +1,364 @@
+{
+  "title": "Asia Growth Companies - Tier 1 Generation Report",
+  "generation_date": "2026-01-08T11:47:47.618848",
+  "total_companies": 30,
+  "total_files": 50,
+  "regional_breakdown": {
+    "china": {
+      "count": 20,
+      "file_ids": [
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630
+      ],
+      "total_size_mb": 0.11
+    },
+    "korea": {
+      "count": 5,
+      "file_ids": [
+        631,
+        632,
+        633,
+        634,
+        635
+      ],
+      "total_size_mb": 0.03
+    },
+    "southeast_asia": {
+      "count": 5,
+      "file_ids": [
+        636,
+        637,
+        638,
+        639,
+        640
+      ],
+      "total_size_mb": 0.03
+    }
+  },
+  "statistics": {
+    "total_size_mb": 0.31,
+    "average_file_size_kb": 6.37,
+    "file_count_611_640": 50
+  },
+  "output_directory": "/Users/yuichi/AIPM/aipm_v0/Stock/research/genai_case_studies/tier1_full",
+  "files": [
+    {
+      "filename": "600_ramp.md",
+      "file_id": 600,
+      "size_bytes": 7915,
+      "size_kb": 7.73
+    },
+    {
+      "filename": "601_moment.md",
+      "file_id": 601,
+      "size_bytes": 7768,
+      "size_kb": 7.59
+    },
+    {
+      "filename": "602_outreach.md",
+      "file_id": 602,
+      "size_bytes": 8054,
+      "size_kb": 7.87
+    },
+    {
+      "filename": "603_gong.md",
+      "file_id": 603,
+      "size_bytes": 7962,
+      "size_kb": 7.78
+    },
+    {
+      "filename": "604_calendly.md",
+      "file_id": 604,
+      "size_bytes": 7887,
+      "size_kb": 7.7
+    },
+    {
+      "filename": "605_monday.com.md",
+      "file_id": 605,
+      "size_bytes": 8041,
+      "size_kb": 7.85
+    },
+    {
+      "filename": "606_vimeo.md",
+      "file_id": 606,
+      "size_bytes": 7868,
+      "size_kb": 7.68
+    },
+    {
+      "filename": "607_mailchimp.md",
+      "file_id": 607,
+      "size_bytes": 7957,
+      "size_kb": 7.77
+    },
+    {
+      "filename": "608_intercom.md",
+      "file_id": 608,
+      "size_bytes": 8192,
+      "size_kb": 8.0
+    },
+    {
+      "filename": "609_heap.md",
+      "file_id": 609,
+      "size_bytes": 7979,
+      "size_kb": 7.79
+    },
+    {
+      "filename": "610_mixpanel.md",
+      "file_id": 610,
+      "size_bytes": 7984,
+      "size_kb": 7.8
+    },
+    {
+      "filename": "611_alibaba_cloud.md",
+      "file_id": 611,
+      "size_bytes": 5885,
+      "size_kb": 5.75
+    },
+    {
+      "filename": "612_baidu.md",
+      "file_id": 612,
+      "size_bytes": 5559,
+      "size_kb": 5.43
+    },
+    {
+      "filename": "613_tencent.md",
+      "file_id": 613,
+      "size_bytes": 5739,
+      "size_kb": 5.6
+    },
+    {
+      "filename": "614_bytedance.md",
+      "file_id": 614,
+      "size_bytes": 5591,
+      "size_kb": 5.46
+    },
+    {
+      "filename": "615_huawei.md",
+      "file_id": 615,
+      "size_bytes": 5547,
+      "size_kb": 5.42
+    },
+    {
+      "filename": "616_meituan.md",
+      "file_id": 616,
+      "size_bytes": 5640,
+      "size_kb": 5.51
+    },
+    {
+      "filename": "617_didi_chuxing.md",
+      "file_id": 617,
+      "size_bytes": 5693,
+      "size_kb": 5.56
+    },
+    {
+      "filename": "618_kuaishou.md",
+      "file_id": 618,
+      "size_bytes": 5627,
+      "size_kb": 5.5
+    },
+    {
+      "filename": "619_netease.md",
+      "file_id": 619,
+      "size_bytes": 5664,
+      "size_kb": 5.53
+    },
+    {
+      "filename": "620_jdcom.md",
+      "file_id": 620,
+      "size_bytes": 5683,
+      "size_kb": 5.55
+    },
+    {
+      "filename": "621_pinduoduo.md",
+      "file_id": 621,
+      "size_bytes": 5708,
+      "size_kb": 5.57
+    },
+    {
+      "filename": "622_bilibili.md",
+      "file_id": 622,
+      "size_bytes": 5633,
+      "size_kb": 5.5
+    },
+    {
+      "filename": "623_xiaohongshu.md",
+      "file_id": 623,
+      "size_bytes": 5612,
+      "size_kb": 5.48
+    },
+    {
+      "filename": "624_sensetime.md",
+      "file_id": 624,
+      "size_bytes": 5592,
+      "size_kb": 5.46
+    },
+    {
+      "filename": "625_cloudwalk.md",
+      "file_id": 625,
+      "size_bytes": 5606,
+      "size_kb": 5.47
+    },
+    {
+      "filename": "626_horizon_robotics.md",
+      "file_id": 626,
+      "size_bytes": 5583,
+      "size_kb": 5.45
+    },
+    {
+      "filename": "627_soundhound_ai.md",
+      "file_id": 627,
+      "size_bytes": 5526,
+      "size_kb": 5.4
+    },
+    {
+      "filename": "628_iflytek.md",
+      "file_id": 628,
+      "size_bytes": 5685,
+      "size_kb": 5.55
+    },
+    {
+      "filename": "629_aihuawei.md",
+      "file_id": 629,
+      "size_bytes": 5665,
+      "size_kb": 5.53
+    },
+    {
+      "filename": "630_zto_express.md",
+      "file_id": 630,
+      "size_bytes": 5613,
+      "size_kb": 5.48
+    },
+    {
+      "filename": "631_samsung_sds.md",
+      "file_id": 631,
+      "size_bytes": 5681,
+      "size_kb": 5.55
+    },
+    {
+      "filename": "632_lg_ai_research.md",
+      "file_id": 632,
+      "size_bytes": 5530,
+      "size_kb": 5.4
+    },
+    {
+      "filename": "633_sk_telecom.md",
+      "file_id": 633,
+      "size_bytes": 5512,
+      "size_kb": 5.38
+    },
+    {
+      "filename": "634_naver.md",
+      "file_id": 634,
+      "size_bytes": 5580,
+      "size_kb": 5.45
+    },
+    {
+      "filename": "635_kakao.md",
+      "file_id": 635,
+      "size_bytes": 5588,
+      "size_kb": 5.46
+    },
+    {
+      "filename": "636_grab.md",
+      "file_id": 636,
+      "size_bytes": 5698,
+      "size_kb": 5.56
+    },
+    {
+      "filename": "637_lazada.md",
+      "file_id": 637,
+      "size_bytes": 5522,
+      "size_kb": 5.39
+    },
+    {
+      "filename": "638_shopee.md",
+      "file_id": 638,
+      "size_bytes": 5582,
+      "size_kb": 5.45
+    },
+    {
+      "filename": "639_golang.md",
+      "file_id": 639,
+      "size_bytes": 5618,
+      "size_kb": 5.49
+    },
+    {
+      "filename": "640_viettel_digital.md",
+      "file_id": 640,
+      "size_bytes": 5622,
+      "size_kb": 5.49
+    },
+    {
+      "filename": "641_mistral_ai.md",
+      "file_id": 641,
+      "size_bytes": 7792,
+      "size_kb": 7.61
+    },
+    {
+      "filename": "642_deutsche_bank.md",
+      "file_id": 642,
+      "size_bytes": 7748,
+      "size_kb": 7.57
+    },
+    {
+      "filename": "643_bmw.md",
+      "file_id": 643,
+      "size_bytes": 7741,
+      "size_kb": 7.56
+    },
+    {
+      "filename": "644_siemens.md",
+      "file_id": 644,
+      "size_bytes": 7752,
+      "size_kb": 7.57
+    },
+    {
+      "filename": "645_hsbc.md",
+      "file_id": 645,
+      "size_bytes": 7732,
+      "size_kb": 7.55
+    },
+    {
+      "filename": "646_barclays.md",
+      "file_id": 646,
+      "size_bytes": 7765,
+      "size_kb": 7.58
+    },
+    {
+      "filename": "647_lloyds_banking_group.md",
+      "file_id": 647,
+      "size_bytes": 7782,
+      "size_kb": 7.6
+    },
+    {
+      "filename": "648_deutsche_telekom.md",
+      "file_id": 648,
+      "size_bytes": 7773,
+      "size_kb": 7.59
+    },
+    {
+      "filename": "649_lufthansa.md",
+      "file_id": 649,
+      "size_bytes": 7742,
+      "size_kb": 7.56
+    }
+  ]
+}

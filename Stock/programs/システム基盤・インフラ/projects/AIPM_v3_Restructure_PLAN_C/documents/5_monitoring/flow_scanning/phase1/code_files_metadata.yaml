@@ -1,0 +1,410 @@
+---
+metadata:
+  scan_date: 2025-12-31
+  scan_directory: aipm_v0/Flow/202512/
+  total_files: 16
+  summary:
+    python_files: 12
+    javascript_files: 1
+    html_files: 2
+    css_files: 1
+  total_bytes: 933689
+
+statistics:
+  by_type:
+    python:
+      count: 12
+      total_bytes: 870617
+      avg_size_kb: 72.55
+    javascript:
+      count: 1
+      total_bytes: 10871
+      avg_size_kb: 10.87
+    html:
+      count: 2
+      total_bytes: 810107836
+      avg_size_kb: 396169.62
+    css:
+      count: 1
+      total_bytes: 17218
+      avg_size_kb: 17.22
+
+code_files:
+  # Python Files - 2025-12-29 (Utility/Orchestration Scripts)
+  - path: aipm_v0/Flow/202512/2025-12-29/quality_check.py
+    size_bytes: 9619
+    size_human: 9.4K
+    last_modified: 2025-12-29T11:22:25
+    type: python
+    category: utility_script
+    docstring: "Batch 2-3 自動品質スコアリング (自動品質スコア算出)"
+    imports:
+      - os
+      - re
+      - pathlib.Path
+    description: Quality scoring automation for founder research documents (Batch 2-3 files). Calculates scores based on null counts, sources, fact-check status, and orchestrate sections.
+    key_functions:
+      - count_nulls_in_validation
+      - calculate_score
+      - get_grade
+      - process_file
+
+  - path: aipm_v0/Flow/202512/2025-12-29/monitor_all_cli.py
+    size_bytes: 7262
+    size_human: 7.1K
+    last_modified: 2025-12-29T11:35:21
+    type: python
+    category: utility_script
+    docstring: "5つのCLI並列実行監視ダッシュボード"
+    imports:
+      - os
+      - pathlib.Path
+      - datetime.datetime
+    description: Real-time monitoring dashboard for 5 parallel CLI executions. Tracks progress across 6 tiers of founder research documents.
+    key_functions:
+      - count_files_in_tier
+      - get_recent_files
+      - main (dashboard display)
+
+  - path: aipm_v0/Flow/202512/2025-12-29/auto_batch_parallel_executor.py
+    size_bytes: 13312
+    size_human: 13K
+    last_modified: 2025-12-29T18:39:17
+    type: python
+    category: orchestration_script
+    docstring: "完全自動化並列バッチ実行システム (Claude Code Task tool並列起動)"
+    imports:
+      - subprocess
+      - time
+      - pathlib.Path
+      - datetime.datetime
+      - typing.List
+      - typing.Dict
+      - typing.Optional
+      - dataclasses.dataclass
+      - concurrent.futures.ThreadPoolExecutor
+      - concurrent.futures.as_completed
+      - argparse
+      - threading
+    description: Fully automated parallel batch executor. Launches multiple Claude Code agents as separate processes to run independent task batches with configurable concurrency (default 5).
+    key_functions:
+      - AutoBatchParallelExecutor.__init__
+      - _build_agent_prompt
+      - build_jobs_from_task_files
+      - execute_agent_job
+      - run_parallel_batches
+      - _generate_final_report
+
+  - path: aipm_v0/Flow/202512/2025-12-29/claude_code_batch_runner.py
+    size_bytes: 11264
+    size_human: 11K
+    last_modified: 2025-12-29T18:41:08
+    type: python
+    category: orchestration_script
+    docstring: "Claude Code バッチランナー - 実戦版 (複数バッチの並列実行)"
+    imports:
+      - subprocess
+      - pathlib.Path
+      - datetime.datetime
+      - typing.List
+      - typing.Dict
+      - typing.Optional
+      - threading
+      - concurrent.futures.ThreadPoolExecutor
+      - concurrent.futures.as_completed
+      - argparse
+    description: Production batch runner for Claude Code. Manages multiple independent task batches in parallel, with automatic retry and real-time progress monitoring.
+    key_functions:
+      - ClaudeCodeBatchRunner.__init__
+      - _generate_batch_prompt
+      - run_batch
+      - run_parallel_batches
+      - load_tasks_from_files
+      - _print_final_report
+
+  # Python Files - 2025-12-30 (Data Analysis/Transformation Scripts)
+  - path: aipm_v0/Flow/202512/2025-12-30/analyze_themes.py
+    size_bytes: 3783
+    size_human: 3.7K
+    last_modified: 2025-12-30T22:17:02
+    type: python
+    category: data_analysis
+    docstring: null
+    imports:
+      - json
+      - glob
+      - pathlib.Path
+      - collections.Counter
+      - re
+    description: Theme analysis for Ochyai Note articles. Loads JSON files and analyzes tag distribution and keyword patterns across theme categories.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/analyze_themes_v2.py
+    size_bytes: 4403
+    size_human: 4.3K
+    last_modified: 2025-12-30T22:17:49
+    type: python
+    category: data_analysis
+    docstring: null
+    imports:
+      - json
+      - pathlib.Path
+      - collections.Counter
+      - re
+    description: Enhanced theme analysis script. Extended keyword patterns for theme categorization including AI technology, art/media, education, urban design, future trends, and social structures.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/analyze_themes_v3.py
+    size_bytes: 4710
+    size_human: 4.6K
+    last_modified: 2025-12-30T22:19:00
+    type: python
+    category: data_analysis
+    docstring: null
+    imports:
+      - json
+      - pathlib.Path
+      - collections.Counter
+    description: Latest version of theme analysis. Refined keyword patterns for 8 major themes with support for digital nature, urban design, and emerging technologies.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/create_theme_mapping.py
+    size_bytes: 7987
+    size_human: 7.8K
+    last_modified: 2025-12-30T22:24:28
+    type: python
+    category: data_transformation
+    docstring: "落合ノート記事のテーマ別グルーピング (T008-3)"
+    imports:
+      - json
+      - yaml
+      - pathlib.Path
+      - collections.defaultdict
+      - datetime.datetime
+      - unicodedata
+    description: Groups all 1,669 Ochyai Note articles into 8 theme categories and creates theme_mapping.yaml. Supports both keyword and tag-based matching.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/create_theme_mapping_v2.py
+    size_bytes: 12288
+    size_human: 12K
+    last_modified: 2025-12-30T22:26:22
+    type: python
+    category: data_transformation
+    docstring: "落合ノート記事のテーマ別グルーピング (T008-3) - 改善版"
+    imports:
+      - json
+      - yaml
+      - pathlib.Path
+      - collections.defaultdict
+      - datetime.datetime
+      - unicodedata
+    description: Improved theme mapping with extended theme definitions. Uses both keyword lists and tag arrays for more accurate theme assignment. Generates comprehensive YAML output.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/extract_timeline.py
+    size_bytes: 4813
+    size_human: 4.7K
+    last_modified: 2025-12-30T23:11:01
+    type: python
+    category: data_transformation
+    docstring: "Timeline Data Extraction Script"
+    imports:
+      - json
+      - yaml
+      - pathlib.Path
+      - datetime.datetime
+      - collections.defaultdict
+    description: Extracts published_at dates from all JSON article files and creates timeline_data.yaml. Integrates with existing theme mapping.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/period_analysis.py
+    size_bytes: 8896
+    size_human: 8.7K
+    last_modified: 2025-12-30T23:12:18
+    type: python
+    category: data_analysis
+    docstring: "Period Analysis Script"
+    imports:
+      - yaml
+      - json
+      - pathlib.Path
+      - collections.Counter
+      - collections.defaultdict
+      - datetime.datetime
+      - re
+    description: Analyzes articles across 3 time periods (2019-2020, 2021-2023, 2024-2025). Generates period-specific analysis reports with theme distributions.
+
+  - path: aipm_v0/Flow/202512/2025-12-30/generate_period_trends.py
+    size_bytes: 28672
+    size_human: 28K
+    last_modified: 2025-12-30T23:15:17
+    type: python
+    category: data_analysis
+    docstring: "Generate detailed period trend reports with actual article quotes"
+    imports:
+      - yaml
+      - json
+      - pathlib.Path
+      - collections.Counter
+      - random
+    description: Generates detailed markdown reports with actual article content excerpts. Creates narrative-driven period analysis with meaningful examples from the research.
+
+  # Web Files - MVP Landing Page (2025-12-28)
+  - path: aipm_v0/Flow/202512/2025-12-28/corporate-ai-adoption-failure/mvp/lp/index.html
+    size_bytes: 25520
+    size_human: 25K
+    last_modified: 2025-12-28T23:16:16
+    type: html
+    category: mvp_source
+    docstring: null
+    description: Landing page for AI Success Accelerator MVP. Targets corporate AI adoption challenges. Contains hero section, problem statements, solution positioning, and contact form.
+    key_sections:
+      - Hero section with main value prop (AI adoption rate 30→80%)
+      - Problem identification (low adoption, skills gap)
+      - Solution overview
+      - How it works sections
+      - Pricing tiers
+      - Case studies
+      - Contact form
+    external_resources:
+      - styles.css (local)
+      - script.js (local)
+      - Google Fonts (Inter, Roboto Mono)
+
+  - path: aipm_v0/Flow/202512/2025-12-28/corporate-ai-adoption-failure/mvp/lp/script.js
+    size_bytes: 10871
+    size_human: 11K
+    last_modified: 2025-12-28T23:18:08
+    type: javascript
+    category: mvp_source
+    docstring: null
+    description: Analytics and interaction tracking for landing page. Includes page view tracking, scroll depth, section observation, CTA click tracking, and form validation.
+    key_features:
+      - Page view tracking
+      - Scroll depth monitoring
+      - Section intersection observer
+      - CTA click tracking
+      - Form validation and submission
+      - Session time tracking
+    tracking_metrics:
+      - pageViews
+      - scrollDepth
+      - sectionReached (7 sections)
+      - ctaClicks (hero, form)
+      - formSubmissions
+      - timeOnPage
+
+  - path: aipm_v0/Flow/202512/2025-12-28/corporate-ai-adoption-failure/mvp/lp/styles.css
+    size_bytes: 17218
+    size_human: 17K
+    last_modified: 2025-12-28T23:17:26
+    type: css
+    category: mvp_source
+    docstring: null
+    description: CSS stylesheet for AI Success Accelerator landing page. Defines design system with color variables, typography, spacing, and responsive layout.
+    design_system:
+      colors:
+        - primary: #2563eb
+        - secondary: #10b981
+        - accent: #f59e0b
+        - background: #f9fafb
+      typography:
+        - sans: Inter, system fonts
+        - mono: Roboto Mono
+      spacing: xs-3xl scale (0.5rem-6rem)
+      responsive: clamp() functions for fluid scaling
+
+  # Large HTML Data Export (2025-12-30)
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/chat.html
+    size_bytes: 810107836
+    size_human: 772 MB
+    last_modified: 2025-12-30T18:49:54
+    type: html
+    category: data_export
+    docstring: null
+    description: Large ChatGPT conversation export in HTML format. Contains complete conversation history and metadata. Likely exported from ChatGPT data export feature.
+    notes: This is a large static HTML file suitable for archival or reference but not for active development.
+
+analysis:
+  file_categories:
+    utility_scripts:
+      count: 2
+      description: "Monitoring and quality checking utilities"
+      files:
+        - quality_check.py
+        - monitor_all_cli.py
+    orchestration_scripts:
+      count: 2
+      description: "Parallel execution and batch management"
+      files:
+        - auto_batch_parallel_executor.py
+        - claude_code_batch_runner.py
+    data_analysis:
+      count: 5
+      description: "Theme analysis and period trend generation"
+      files:
+        - analyze_themes.py
+        - analyze_themes_v2.py
+        - analyze_themes_v3.py
+        - period_analysis.py
+        - generate_period_trends.py
+    data_transformation:
+      count: 2
+      description: "Data processing and YAML generation"
+      files:
+        - create_theme_mapping.py
+        - create_theme_mapping_v2.py
+        - extract_timeline.py
+    mvp_source:
+      count: 3
+      description: "Landing page for AI adoption failure MVP"
+      files:
+        - index.html
+        - script.js
+        - styles.css
+    data_export:
+      count: 1
+      description: "ChatGPT conversation archive"
+      files:
+        - chat.html
+
+project_context:
+  date_created: 2025-12-28 to 2025-12-31
+  main_efforts:
+    - GenAI Research project (Ochyai Note article processing)
+    - Corporate AI Adoption Failure MVP
+    - Founder Research document quality automation
+  key_dependencies:
+    - Founder_Agent_ForGenAI project
+    - Ochyai_Note article collection
+    - Claude Code parallel execution system
+  workflow_type: Autonomous multi-agent batch processing with human-in-the-loop review
+
+quality_notes:
+  python_scripts:
+    - Well-structured with clear docstrings
+    - Use of pathlib for path operations
+    - Comprehensive error handling in data processing
+    - Version iterations show iterative refinement (v1, v2, v3)
+  web_files:
+    - Professional landing page structure
+    - Modern CSS design system with CSS variables
+    - Comprehensive analytics tracking
+    - Responsive design approach
+  data_files:
+    - Large export file (773 MB) suggests comprehensive data collection
+    - YAML output format for structured data integration
+    - Theme-based article organization for research synthesis
+
+recommendations:
+  next_steps:
+    - Archive the 773 MB chat.html to separate storage
+    - Run final theme mapping validation against article collection
+    - Generate period trend reports for research synthesis
+    - Consider consolidating analyze_themes versions into single script
+  maintenance:
+    - Monitor parallel execution logs for performance metrics
+    - Validate YAML output structure after theme mapping runs
+    - Keep theme keywords dictionary updated for emerging topics
+  performance:
+    - Orchestration scripts support up to 5 concurrent agents
+    - Consider memory usage when processing 1,669+ articles
+    - Large HTML export may need streaming/chunking for browser compatibility
+
+---
+end_metadata

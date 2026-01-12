@@ -1,0 +1,64 @@
+{
+  "id": "n3ee3e0184b13",
+  "title": "戦術のミスは戦略でカバーできるが、戦略のミスは戦術ではカバーできない。ということで、マーケターのみなさん、改めて「戦略」を学び直してみないか？",
+  "url": "https://note.com/ikedanoriyuki/n/n3ee3e0184b13",
+  "author": "池田紀行@トライバル代表",
+  "author_id": "ikedanoriyuki",
+  "published_at": "2025-05-09T09:12:32+09:00",
+  "like_count": 122,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ikedanoriyuki",
+  "genre": "business",
+  "content": {
+    "word_count": 8098,
+    "heading_count": 12,
+    "hashtags": [
+      "#マーケティング",
+      "#自己啓発",
+      "#戦略",
+      "#マーケティングの仕事",
+      "#マーケティング戦略",
+      "#マープス",
+      "#MARPS"
+    ]
+  },
+  "quality": {
+    "score": 65,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 8098,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 7,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 25,
+        "count": 122,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 12,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 9,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:08"
+}

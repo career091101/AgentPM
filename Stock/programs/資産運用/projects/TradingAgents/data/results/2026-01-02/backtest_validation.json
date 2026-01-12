@@ -1,0 +1,4755 @@
+{
+  "timestamp": "2026-01-02T11:41:27.569257",
+  "validation_status": "合格",
+  "strategy": {
+    "entry": 48730.99,
+    "target": 51613.06,
+    "stop_loss": 47858.705278999994
+  },
+  "data_split": {
+    "train_period": "2021-01-04 ~ 2023-12-27",
+    "test_period": "2023-12-28 ~ 2025-12-30",
+    "train_size": 733,
+    "test_size": 490
+  },
+  "train_performance": {
+    "total_trades": 366,
+    "winning_trades": 0,
+    "losing_trades": 366,
+    "win_rate": 0.0,
+    "avg_profit": 0,
+    "avg_loss": 66.38,
+    "sharpe_ratio": 5.8,
+    "max_drawdown": 0.0,
+    "trades": [
+      {
+        "entry_date": "2021-01-04",
+        "exit_date": "2021-01-05",
+        "entry_price": 27258.38,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.57428313421411,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-06",
+        "exit_date": "2021-01-07",
+        "entry_price": 27055.94,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.8879783108626,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-08",
+        "exit_date": "2021-01-12",
+        "entry_price": 28139.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.07944225156302,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-13",
+        "exit_date": "2021-01-14",
+        "entry_price": 28456.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.18144858185747,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-15",
+        "exit_date": "2021-01-18",
+        "entry_price": 28519.18,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.812346915304,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-19",
+        "exit_date": "2021-01-20",
+        "entry_price": 28633.46,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.14258520975109,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-21",
+        "exit_date": "2021-01-22",
+        "entry_price": 28756.86,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.42535130400188,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-25",
+        "exit_date": "2021-01-26",
+        "entry_price": 28822.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.0475461144829,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-27",
+        "exit_date": "2021-01-28",
+        "entry_price": 28635.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.13237052914924,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-01-29",
+        "exit_date": "2021-02-01",
+        "entry_price": 27663.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.00376157441295,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-02",
+        "exit_date": "2021-02-03",
+        "entry_price": 28362.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.7413384765693,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-04",
+        "exit_date": "2021-02-05",
+        "entry_price": 28341.95,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.86172362522689,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-08",
+        "exit_date": "2021-02-09",
+        "entry_price": 29388.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 62.84841104173399,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-10",
+        "exit_date": "2021-02-12",
+        "entry_price": 29562.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.88755742072926,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-15",
+        "exit_date": "2021-02-16",
+        "entry_price": 30084.15,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.082790369679685,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-17",
+        "exit_date": "2021-02-18",
+        "entry_price": 30292.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 57.99024527114083,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-19",
+        "exit_date": "2021-02-22",
+        "entry_price": 30017.92,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.43378248392959,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-24",
+        "exit_date": "2021-02-25",
+        "entry_price": 29671.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.294112838158895,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-02-26",
+        "exit_date": "2021-03-01",
+        "entry_price": 28966.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.22367174146525,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-02",
+        "exit_date": "2021-03-03",
+        "entry_price": 29408.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 62.73948796881954,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-04",
+        "exit_date": "2021-03-05",
+        "entry_price": 28930.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.42870137375901,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-08",
+        "exit_date": "2021-03-09",
+        "entry_price": 28743.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.50415411966286,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-10",
+        "exit_date": "2021-03-11",
+        "entry_price": 29036.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.8222285250043,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-12",
+        "exit_date": "2021-03-15",
+        "entry_price": 29717.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.04374134652494,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-16",
+        "exit_date": "2021-03-17",
+        "entry_price": 29921.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.94973872609586,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-18",
+        "exit_date": "2021-03-19",
+        "entry_price": 30216.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 58.38468822424646,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-22",
+        "exit_date": "2021-03-23",
+        "entry_price": 29174.15,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.04490029358179,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-24",
+        "exit_date": "2021-03-25",
+        "entry_price": 28405.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.48382032435947,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-26",
+        "exit_date": "2021-03-29",
+        "entry_price": 29176.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.03056301432305,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-03-30",
+        "exit_date": "2021-03-31",
+        "entry_price": 29432.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 62.60385652352654,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-01",
+        "exit_date": "2021-04-02",
+        "entry_price": 29388.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 62.84636081278387,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-05",
+        "exit_date": "2021-04-06",
+        "entry_price": 30089.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.0558265127911,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-07",
+        "exit_date": "2021-04-08",
+        "entry_price": 29730.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 60.97354049118773,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-09",
+        "exit_date": "2021-04-12",
+        "entry_price": 29768.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 60.77199951558816,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-13",
+        "exit_date": "2021-04-14",
+        "entry_price": 29751.61,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 60.860892163482895,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-15",
+        "exit_date": "2021-04-16",
+        "entry_price": 29642.69,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.45196430890718,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-19",
+        "exit_date": "2021-04-20",
+        "entry_price": 29685.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.219837512552466,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-21",
+        "exit_date": "2021-04-22",
+        "entry_price": 28508.55,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.87491920494026,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-23",
+        "exit_date": "2021-04-26",
+        "entry_price": 29020.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.9127027187211,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-27",
+        "exit_date": "2021-04-28",
+        "entry_price": 28991.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.07618261175796,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-04-30",
+        "exit_date": "2021-05-06",
+        "entry_price": 28812.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.10321681498701,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-07",
+        "exit_date": "2021-05-10",
+        "entry_price": 29357.82,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.01859361151473,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-11",
+        "exit_date": "2021-05-12",
+        "entry_price": 28608.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.2878854882397,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-13",
+        "exit_date": "2021-05-14",
+        "entry_price": 27448.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.36129351089568,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-17",
+        "exit_date": "2021-05-18",
+        "entry_price": 27824.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.99999165852941,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-19",
+        "exit_date": "2021-05-20",
+        "entry_price": 28044.45,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.65303573077738,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-21",
+        "exit_date": "2021-05-24",
+        "entry_price": 28317.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.00555331746816,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-25",
+        "exit_date": "2021-05-26",
+        "entry_price": 28553.98,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.60782657619006,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-27",
+        "exit_date": "2021-05-28",
+        "entry_price": 28549.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.63700485235739,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-05-31",
+        "exit_date": "2021-06-01",
+        "entry_price": 28860.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.83011994076243,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-02",
+        "exit_date": "2021-06-03",
+        "entry_price": 28946.14,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.33708908683505,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-04",
+        "exit_date": "2021-06-07",
+        "entry_price": 28941.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.36348221862568,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-08",
+        "exit_date": "2021-06-09",
+        "entry_price": 28963.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.23764785475264,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-10",
+        "exit_date": "2021-06-11",
+        "entry_price": 28958.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.26617787279476,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-14",
+        "exit_date": "2021-06-15",
+        "entry_price": 29161.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.11437318341116,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-16",
+        "exit_date": "2021-06-17",
+        "entry_price": 29291.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.39042347464289,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-18",
+        "exit_date": "2021-06-21",
+        "entry_price": 28964.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.23468129835297,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-22",
+        "exit_date": "2021-06-23",
+        "entry_price": 28884.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.69204362049331,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-24",
+        "exit_date": "2021-06-25",
+        "entry_price": 28875.23,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.74311366177861,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-28",
+        "exit_date": "2021-06-29",
+        "entry_price": 29048.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.75720300041102,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-06-30",
+        "exit_date": "2021-07-01",
+        "entry_price": 28791.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.22494629149614,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-02",
+        "exit_date": "2021-07-05",
+        "entry_price": 28783.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.27259047266328,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-06",
+        "exit_date": "2021-07-07",
+        "entry_price": 28643.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.08569074136591,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-08",
+        "exit_date": "2021-07-09",
+        "entry_price": 28118.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.20646638117961,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-12",
+        "exit_date": "2021-07-13",
+        "entry_price": 28569.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.51959037796884,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-14",
+        "exit_date": "2021-07-15",
+        "entry_price": 28608.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.28847023733162,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-16",
+        "exit_date": "2021-07-19",
+        "entry_price": 28003.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.9051478587355,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-20",
+        "exit_date": "2021-07-21",
+        "entry_price": 27388.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.74231667625718,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-26",
+        "exit_date": "2021-07-27",
+        "entry_price": 27833.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.94771181919202,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-28",
+        "exit_date": "2021-07-29",
+        "entry_price": 27581.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.51640647807272,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-07-30",
+        "exit_date": "2021-08-02",
+        "entry_price": 27283.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.41205273572868,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-03",
+        "exit_date": "2021-08-04",
+        "entry_price": 27641.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.13870058169083,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-05",
+        "exit_date": "2021-08-06",
+        "entry_price": 27728.12,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.59989238000988,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-10",
+        "exit_date": "2021-08-11",
+        "entry_price": 27888.15,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.60946595238477,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-12",
+        "exit_date": "2021-08-13",
+        "entry_price": 28015.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.83230809401526,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-16",
+        "exit_date": "2021-08-17",
+        "entry_price": 27523.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.88502306237031,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-18",
+        "exit_date": "2021-08-19",
+        "entry_price": 27585.91,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.48967381898946,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-20",
+        "exit_date": "2021-08-23",
+        "entry_price": 27013.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.16752067596455,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-24",
+        "exit_date": "2021-08-25",
+        "entry_price": 27732.1,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.57512153425091,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-26",
+        "exit_date": "2021-08-27",
+        "entry_price": 27742.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.51173309413171,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-08-30",
+        "exit_date": "2021-08-31",
+        "entry_price": 27789.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.21996416245248,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-01",
+        "exit_date": "2021-09-02",
+        "entry_price": 28451.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.21437431417219,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-03",
+        "exit_date": "2021-09-06",
+        "entry_price": 29128.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.3041902787376,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-07",
+        "exit_date": "2021-09-08",
+        "entry_price": 29916.14,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.976204413403586,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-09",
+        "exit_date": "2021-09-10",
+        "entry_price": 30008.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.48547806115596,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-13",
+        "exit_date": "2021-09-14",
+        "entry_price": 30447.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 57.18502215133851,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-15",
+        "exit_date": "2021-09-16",
+        "entry_price": 30511.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 56.853566316014394,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-17",
+        "exit_date": "2021-09-21",
+        "entry_price": 30500.05,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 56.913530564703976,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-22",
+        "exit_date": "2021-09-24",
+        "entry_price": 29639.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.46988562184117,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-27",
+        "exit_date": "2021-09-28",
+        "entry_price": 30240.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 58.262600269311605,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-09-29",
+        "exit_date": "2021-09-30",
+        "entry_price": 29544.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.98969506121147,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-01",
+        "exit_date": "2021-10-04",
+        "entry_price": 28771.07,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.34315400504741,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-05",
+        "exit_date": "2021-10-06",
+        "entry_price": 27822.12,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.0167452336486,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-07",
+        "exit_date": "2021-10-08",
+        "entry_price": 27678.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.91112857009176,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-11",
+        "exit_date": "2021-10-12",
+        "entry_price": 28498.2,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.93588815784855,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-13",
+        "exit_date": "2021-10-14",
+        "entry_price": 28140.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.0718872697784,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-15",
+        "exit_date": "2021-10-18",
+        "entry_price": 29068.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.64038820886981,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-19",
+        "exit_date": "2021-10-20",
+        "entry_price": 29215.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.81260808980977,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-21",
+        "exit_date": "2021-10-22",
+        "entry_price": 28708.58,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.70523334487457,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-25",
+        "exit_date": "2021-10-26",
+        "entry_price": 28600.41,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.335731477276,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-27",
+        "exit_date": "2021-10-28",
+        "entry_price": 29098.24,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.47285223779855,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-10-29",
+        "exit_date": "2021-11-01",
+        "entry_price": 28892.69,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.6429542524424,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-02",
+        "exit_date": "2021-11-04",
+        "entry_price": 29520.9,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 62.11804273921185,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-05",
+        "exit_date": "2021-11-08",
+        "entry_price": 29611.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.62164072691855,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-09",
+        "exit_date": "2021-11-10",
+        "entry_price": 29285.46,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.421388221322104,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-11",
+        "exit_date": "2021-11-12",
+        "entry_price": 29277.86,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.46380944167365,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-15",
+        "exit_date": "2021-11-16",
+        "entry_price": 29776.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 60.72481018443888,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-17",
+        "exit_date": "2021-11-18",
+        "entry_price": 29688.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.20376349562267,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-19",
+        "exit_date": "2021-11-22",
+        "entry_price": 29745.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 60.891933162486076,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-24",
+        "exit_date": "2021-11-25",
+        "entry_price": 29302.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.325463555185756,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-26",
+        "exit_date": "2021-11-29",
+        "entry_price": 28751.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.45568242415555,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-11-30",
+        "exit_date": "2021-12-01",
+        "entry_price": 27821.76,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.01897104640396,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-02",
+        "exit_date": "2021-12-03",
+        "entry_price": 27753.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.44286109758922,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-06",
+        "exit_date": "2021-12-07",
+        "entry_price": 27927.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.36846498256011,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-08",
+        "exit_date": "2021-12-09",
+        "entry_price": 28860.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.82701715694256,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-10",
+        "exit_date": "2021-12-13",
+        "entry_price": 28437.77,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.292750377403,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-14",
+        "exit_date": "2021-12-15",
+        "entry_price": 28432.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.3231148391426,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-16",
+        "exit_date": "2021-12-17",
+        "entry_price": 29066.32,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.65347274439969,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-20",
+        "exit_date": "2021-12-21",
+        "entry_price": 27937.81,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.30442679293758,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-22",
+        "exit_date": "2021-12-23",
+        "entry_price": 28562.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.55953155935761,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-24",
+        "exit_date": "2021-12-27",
+        "entry_price": 28782.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.27657649641674,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-28",
+        "exit_date": "2021-12-29",
+        "entry_price": 29069.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.63738642258666,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2021-12-30",
+        "exit_date": "2022-01-04",
+        "entry_price": 28791.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.22390708644951,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-05",
+        "exit_date": "2022-01-06",
+        "entry_price": 29332.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.161203535641405,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-07",
+        "exit_date": "2022-01-11",
+        "entry_price": 28478.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.051703734318,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-12",
+        "exit_date": "2022-01-13",
+        "entry_price": 28765.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.37443840676693,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-14",
+        "exit_date": "2022-01-17",
+        "entry_price": 28124.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.16864175367333,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-18",
+        "exit_date": "2022-01-19",
+        "entry_price": 28257.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.36788002724963,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-20",
+        "exit_date": "2022-01-21",
+        "entry_price": 27772.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.321412537316,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-24",
+        "exit_date": "2022-01-25",
+        "entry_price": 27588.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.47420409034675,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-26",
+        "exit_date": "2022-01-27",
+        "entry_price": 27011.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.18011397069301,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-01-28",
+        "exit_date": "2022-01-31",
+        "entry_price": 26717.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.12975348219543,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-01",
+        "exit_date": "2022-02-02",
+        "entry_price": 27078.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.7407375857138,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-03",
+        "exit_date": "2022-02-04",
+        "entry_price": 27241.31,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.68430181588181,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-07",
+        "exit_date": "2022-02-08",
+        "entry_price": 27248.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.63555948925587,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-09",
+        "exit_date": "2022-02-10",
+        "entry_price": 27579.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.5276681108359,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-14",
+        "exit_date": "2022-02-15",
+        "entry_price": 27079.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.73349293323862,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-16",
+        "exit_date": "2022-02-17",
+        "entry_price": 27460.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.28262253645246,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-18",
+        "exit_date": "2022-02-21",
+        "entry_price": 27122.07,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.45668372288691,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-22",
+        "exit_date": "2022-02-24",
+        "entry_price": 26449.61,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.9429525766164,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-02-25",
+        "exit_date": "2022-02-28",
+        "entry_price": 26476.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.75918372519024,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-01",
+        "exit_date": "2022-03-02",
+        "entry_price": 26844.72,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.27977076683979,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-03",
+        "exit_date": "2022-03-04",
+        "entry_price": 26577.27,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.07381976779403,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-07",
+        "exit_date": "2022-03-08",
+        "entry_price": 25221.41,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 89.7542812991026,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-09",
+        "exit_date": "2022-03-10",
+        "entry_price": 24717.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 93.62252328205932,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-11",
+        "exit_date": "2022-03-14",
+        "entry_price": 25162.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 90.19641422370658,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-15",
+        "exit_date": "2022-03-16",
+        "entry_price": 25346.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 88.8179553097708,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-17",
+        "exit_date": "2022-03-18",
+        "entry_price": 26652.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.56291148539613,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-22",
+        "exit_date": "2022-03-23",
+        "entry_price": 27224.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.79529791423849,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-24",
+        "exit_date": "2022-03-25",
+        "entry_price": 28110.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.25272605253785,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-28",
+        "exit_date": "2022-03-29",
+        "entry_price": 27943.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.26715456938885,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-03-30",
+        "exit_date": "2022-03-31",
+        "entry_price": 28027.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.75776353013583,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-01",
+        "exit_date": "2022-04-04",
+        "entry_price": 27665.98,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.987565519096,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-05",
+        "exit_date": "2022-04-06",
+        "entry_price": 27787.98,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.22808307404854,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-07",
+        "exit_date": "2022-04-08",
+        "entry_price": 26888.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.98903132074332,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-11",
+        "exit_date": "2022-04-12",
+        "entry_price": 26821.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.43397868204335,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-13",
+        "exit_date": "2022-04-14",
+        "entry_price": 26843.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.28793975373542,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-15",
+        "exit_date": "2022-04-18",
+        "entry_price": 27093.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.64477781686098,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-19",
+        "exit_date": "2022-04-20",
+        "entry_price": 26985.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.35240193380861,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-21",
+        "exit_date": "2022-04-22",
+        "entry_price": 27553.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.69651602762086,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-25",
+        "exit_date": "2022-04-26",
+        "entry_price": 26590.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.98232951045436,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-04-27",
+        "exit_date": "2022-04-28",
+        "entry_price": 26386.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.37482990059736,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-02",
+        "exit_date": "2022-05-06",
+        "entry_price": 26818.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.4538723002342,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-09",
+        "exit_date": "2022-05-10",
+        "entry_price": 26319.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.83854640351922,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-11",
+        "exit_date": "2022-05-12",
+        "entry_price": 26213.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 82.57176522985742,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-13",
+        "exit_date": "2022-05-16",
+        "entry_price": 26427.65,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.09330674123501,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-17",
+        "exit_date": "2022-05-18",
+        "entry_price": 26659.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.51670694211309,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-19",
+        "exit_date": "2022-05-20",
+        "entry_price": 26402.84,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.2634749860242,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-23",
+        "exit_date": "2022-05-24",
+        "entry_price": 27001.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.24448578820746,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-25",
+        "exit_date": "2022-05-26",
+        "entry_price": 26677.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.39524728051038,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-27",
+        "exit_date": "2022-05-30",
+        "entry_price": 26781.68,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.69941422270745,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-05-31",
+        "exit_date": "2022-06-01",
+        "entry_price": 27279.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.4364228440091,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-02",
+        "exit_date": "2022-06-03",
+        "entry_price": 27413.88,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.57837153660843,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-06",
+        "exit_date": "2022-06-07",
+        "entry_price": 27915.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.43893774835763,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-08",
+        "exit_date": "2022-06-09",
+        "entry_price": 28234.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.50560923968689,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-10",
+        "exit_date": "2022-06-13",
+        "entry_price": 27824.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.00332974893516,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-14",
+        "exit_date": "2022-06-15",
+        "entry_price": 26629.86,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.71820084296347,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-16",
+        "exit_date": "2022-06-17",
+        "entry_price": 26431.2,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.06898392430155,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-20",
+        "exit_date": "2022-06-21",
+        "entry_price": 25771.22,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 85.70601344833497,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-22",
+        "exit_date": "2022-06-23",
+        "entry_price": 26149.55,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 83.01923084336057,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-24",
+        "exit_date": "2022-06-27",
+        "entry_price": 26491.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.653629303521,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-28",
+        "exit_date": "2022-06-29",
+        "entry_price": 27049.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 76.93028839012369,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-06-30",
+        "exit_date": "2022-07-01",
+        "entry_price": 26393.04,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.33077992910249,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-04",
+        "exit_date": "2022-07-05",
+        "entry_price": 26153.81,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 82.98942019919848,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-06",
+        "exit_date": "2022-07-07",
+        "entry_price": 26107.65,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 83.31295723284168,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-08",
+        "exit_date": "2022-07-11",
+        "entry_price": 26517.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.48181303901355,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-12",
+        "exit_date": "2022-07-13",
+        "entry_price": 26336.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.71896238551128,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-14",
+        "exit_date": "2022-07-15",
+        "entry_price": 26643.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 79.62693665858585,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-19",
+        "exit_date": "2022-07-20",
+        "entry_price": 26961.68,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.5063915861326,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-21",
+        "exit_date": "2022-07-22",
+        "entry_price": 27803.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.13504038772793,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-25",
+        "exit_date": "2022-07-26",
+        "entry_price": 27699.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.77978746355946,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-27",
+        "exit_date": "2022-07-28",
+        "entry_price": 27715.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.67692658145637,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-07-29",
+        "exit_date": "2022-08-01",
+        "entry_price": 27801.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.14346088576067,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-02",
+        "exit_date": "2022-08-03",
+        "entry_price": 27594.73,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.43422196557094,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-04",
+        "exit_date": "2022-08-05",
+        "entry_price": 27932.2,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.33883216860825,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-08",
+        "exit_date": "2022-08-09",
+        "entry_price": 28249.24,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.41590385794447,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-10",
+        "exit_date": "2022-08-12",
+        "entry_price": 27819.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.03399678928281,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-15",
+        "exit_date": "2022-08-16",
+        "entry_price": 28871.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.76291894368825,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-17",
+        "exit_date": "2022-08-18",
+        "entry_price": 29222.77,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.77196713042601,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-19",
+        "exit_date": "2022-08-22",
+        "entry_price": 28930.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.4274433751706,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-23",
+        "exit_date": "2022-08-24",
+        "entry_price": 28452.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.20414644981591,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-25",
+        "exit_date": "2022-08-26",
+        "entry_price": 28479.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.04904833068284,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-29",
+        "exit_date": "2022-08-30",
+        "entry_price": 27878.96,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.66603517132631,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-08-31",
+        "exit_date": "2022-09-01",
+        "entry_price": 28091.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.36702977374317,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-02",
+        "exit_date": "2022-09-05",
+        "entry_price": 27650.84,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.08228350024807,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-06",
+        "exit_date": "2022-09-07",
+        "entry_price": 27626.51,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.23471288628204,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-08",
+        "exit_date": "2022-09-09",
+        "entry_price": 28065.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.52637735664848,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-12",
+        "exit_date": "2022-09-13",
+        "entry_price": 28542.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.67753077470444,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-14",
+        "exit_date": "2022-09-15",
+        "entry_price": 27818.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.03838752245797,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-16",
+        "exit_date": "2022-09-20",
+        "entry_price": 27567.65,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.60458827284876,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-21",
+        "exit_date": "2022-09-22",
+        "entry_price": 27313.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.22233914238315,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-26",
+        "exit_date": "2022-09-27",
+        "entry_price": 26431.55,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.06658625392758,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-28",
+        "exit_date": "2022-09-29",
+        "entry_price": 26173.98,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 82.84840623779797,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-09-30",
+        "exit_date": "2022-10-03",
+        "entry_price": 25937.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 84.5175532719209,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-04",
+        "exit_date": "2022-10-05",
+        "entry_price": 26992.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.30561995108958,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-06",
+        "exit_date": "2022-10-07",
+        "entry_price": 27311.3,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.23407995591566,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-11",
+        "exit_date": "2022-10-12",
+        "entry_price": 26401.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.27439147388853,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-13",
+        "exit_date": "2022-10-14",
+        "entry_price": 26237.42,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 82.40629329789286,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-17",
+        "exit_date": "2022-10-18",
+        "entry_price": 26775.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.7387235969508,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-19",
+        "exit_date": "2022-10-20",
+        "entry_price": 27257.38,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.58072448269053,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-21",
+        "exit_date": "2022-10-24",
+        "entry_price": 26890.58,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.97572710964208,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-25",
+        "exit_date": "2022-10-26",
+        "entry_price": 27250.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.62647165093348,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-27",
+        "exit_date": "2022-10-28",
+        "entry_price": 27345.24,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.01658525944549,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-10-31",
+        "exit_date": "2022-11-01",
+        "entry_price": 27587.46,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.47992631072232,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-02",
+        "exit_date": "2022-11-04",
+        "entry_price": 27663.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.00376157441295,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-07",
+        "exit_date": "2022-11-08",
+        "entry_price": 27527.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.85691355670154,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-09",
+        "exit_date": "2022-11-10",
+        "entry_price": 27716.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.67269009392622,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-11",
+        "exit_date": "2022-11-14",
+        "entry_price": 28263.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.33000777679534,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-15",
+        "exit_date": "2022-11-16",
+        "entry_price": 27990.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.98397501337075,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-17",
+        "exit_date": "2022-11-18",
+        "entry_price": 27930.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.3488313306889,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-21",
+        "exit_date": "2022-11-22",
+        "entry_price": 27944.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.26163867754953,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-24",
+        "exit_date": "2022-11-25",
+        "entry_price": 28383.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.6169662253123,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-28",
+        "exit_date": "2022-11-29",
+        "entry_price": 28162.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.93571057667141,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-11-30",
+        "exit_date": "2022-12-01",
+        "entry_price": 27968.99,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.11345557705155,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-02",
+        "exit_date": "2022-12-05",
+        "entry_price": 27777.9,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.2905809258439,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-06",
+        "exit_date": "2022-12-07",
+        "entry_price": 27885.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.62349705782891,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-08",
+        "exit_date": "2022-12-09",
+        "entry_price": 27574.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.56190238202565,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-12",
+        "exit_date": "2022-12-13",
+        "entry_price": 27842.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.8918828955766,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-14",
+        "exit_date": "2022-12-15",
+        "entry_price": 28156.21,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.97566532924708,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-16",
+        "exit_date": "2022-12-19",
+        "entry_price": 27527.12,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.86019779403001,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-20",
+        "exit_date": "2022-12-21",
+        "entry_price": 26568.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.13644699663466,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-22",
+        "exit_date": "2022-12-23",
+        "entry_price": 26507.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.5452693068134,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-26",
+        "exit_date": "2022-12-27",
+        "entry_price": 26405.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.2426755073777,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-28",
+        "exit_date": "2022-12-29",
+        "entry_price": 26340.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 81.69247083009053,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2022-12-30",
+        "exit_date": "2023-01-04",
+        "entry_price": 26094.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 83.40533552664353,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-05",
+        "exit_date": "2023-01-06",
+        "entry_price": 25820.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 85.34942867378236,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-10",
+        "exit_date": "2023-01-11",
+        "entry_price": 26175.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 82.83736920623662,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-12",
+        "exit_date": "2023-01-13",
+        "entry_price": 26449.82,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.9415159687287,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-16",
+        "exit_date": "2023-01-17",
+        "entry_price": 25822.32,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 85.33851830122155,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-18",
+        "exit_date": "2023-01-19",
+        "entry_price": 26791.12,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 78.63644849114183,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-20",
+        "exit_date": "2023-01-23",
+        "entry_price": 26553.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 80.23481352196863,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-24",
+        "exit_date": "2023-01-25",
+        "entry_price": 27299.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.31181430291521,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-26",
+        "exit_date": "2023-01-27",
+        "entry_price": 27362.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.90458846058965,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-01-30",
+        "exit_date": "2023-01-31",
+        "entry_price": 27433.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.45415179671492,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-01",
+        "exit_date": "2023-02-02",
+        "entry_price": 27346.88,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.00608946614749,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-03",
+        "exit_date": "2023-02-06",
+        "entry_price": 27509.46,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.97180925761536,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-07",
+        "exit_date": "2023-02-08",
+        "entry_price": 27685.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 72.8657858400092,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-09",
+        "exit_date": "2023-02-10",
+        "entry_price": 27584.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.49948532048063,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-13",
+        "exit_date": "2023-02-14",
+        "entry_price": 27427.32,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.49282423145971,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-15",
+        "exit_date": "2023-02-16",
+        "entry_price": 27501.86,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.01988548774516,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-17",
+        "exit_date": "2023-02-20",
+        "entry_price": 27513.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.94860300881795,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-21",
+        "exit_date": "2023-02-22",
+        "entry_price": 27473.1,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.20205684469533,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-24",
+        "exit_date": "2023-02-27",
+        "entry_price": 27453.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.32655269568738,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-02-28",
+        "exit_date": "2023-03-01",
+        "entry_price": 27445.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.37685832972616,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-02",
+        "exit_date": "2023-03-03",
+        "entry_price": 27498.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.03880697279558,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-06",
+        "exit_date": "2023-03-07",
+        "entry_price": 28237.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.48465948456287,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-08",
+        "exit_date": "2023-03-09",
+        "entry_price": 28444.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.2547658379444,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-10",
+        "exit_date": "2023-03-13",
+        "entry_price": 28143.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.04958887818596,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-14",
+        "exit_date": "2023-03-15",
+        "entry_price": 27222.04,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 75.80866562168005,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-16",
+        "exit_date": "2023-03-17",
+        "entry_price": 27010.61,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.18483691778894,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-20",
+        "exit_date": "2023-03-22",
+        "entry_price": 26945.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 77.61185852495038,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-23",
+        "exit_date": "2023-03-24",
+        "entry_price": 27419.61,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.5418891041849,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-27",
+        "exit_date": "2023-03-28",
+        "entry_price": 27476.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.17815522292021,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-29",
+        "exit_date": "2023-03-30",
+        "entry_price": 27883.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 71.63636092021956,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-03-31",
+        "exit_date": "2023-04-03",
+        "entry_price": 28041.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.67111036578667,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-04",
+        "exit_date": "2023-04-05",
+        "entry_price": 28287.42,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 69.18724040227067,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-06",
+        "exit_date": "2023-04-07",
+        "entry_price": 27472.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 74.20503708236159,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-10",
+        "exit_date": "2023-04-11",
+        "entry_price": 27633.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 73.18988971782962,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-12",
+        "exit_date": "2023-04-13",
+        "entry_price": 28082.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 70.42059801586026,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-14",
+        "exit_date": "2023-04-17",
+        "entry_price": 28493.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.96376601024723,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-18",
+        "exit_date": "2023-04-19",
+        "entry_price": 28658.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 66.9946235732582,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-20",
+        "exit_date": "2023-04-21",
+        "entry_price": 28657.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.00196589941156,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-24",
+        "exit_date": "2023-04-25",
+        "entry_price": 28593.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 67.37605331207908,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-26",
+        "exit_date": "2023-04-27",
+        "entry_price": 28416.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 68.41889678415367,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-04-28",
+        "exit_date": "2023-05-01",
+        "entry_price": 28856.44,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 65.85103803171839,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-02",
+        "exit_date": "2023-05-08",
+        "entry_price": 29157.95,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.13604275677814,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-09",
+        "exit_date": "2023-05-10",
+        "entry_price": 29242.82,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 63.6596787826892,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-11",
+        "exit_date": "2023-05-12",
+        "entry_price": 29126.72,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 64.31203128604935,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-15",
+        "exit_date": "2023-05-16",
+        "entry_price": 29626.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 61.5410654134125,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-17",
+        "exit_date": "2023-05-18",
+        "entry_price": 30093.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 59.03288799707843,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-19",
+        "exit_date": "2023-05-22",
+        "entry_price": 30808.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 55.34329257814845,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-23",
+        "exit_date": "2023-05-24",
+        "entry_price": 30957.77,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 54.5935165194392,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-25",
+        "exit_date": "2023-05-26",
+        "entry_price": 30801.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 55.37970613091141,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-29",
+        "exit_date": "2023-05-30",
+        "entry_price": 31233.54,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 53.22856544279,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-05-31",
+        "exit_date": "2023-06-01",
+        "entry_price": 30887.88,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 54.943315238857416,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-02",
+        "exit_date": "2023-06-05",
+        "entry_price": 31524.22,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.81566833057247,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-06",
+        "exit_date": "2023-06-07",
+        "entry_price": 32506.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.226840920571014,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-08",
+        "exit_date": "2023-06-09",
+        "entry_price": 31641.27,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.25405926816463,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-12",
+        "exit_date": "2023-06-13",
+        "entry_price": 32434.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.55720934513163,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-14",
+        "exit_date": "2023-06-15",
+        "entry_price": 33502.42,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 42.851487382105525,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-16",
+        "exit_date": "2023-06-19",
+        "entry_price": 33706.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 41.988345363803774,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-20",
+        "exit_date": "2023-06-21",
+        "entry_price": 33388.91,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.337129840417035,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-22",
+        "exit_date": "2023-06-23",
+        "entry_price": 33264.88,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.87157049416682,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-26",
+        "exit_date": "2023-06-27",
+        "entry_price": 32698.81,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.362223209346126,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-28",
+        "exit_date": "2023-06-29",
+        "entry_price": 33193.99,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.17882658577651,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-06-30",
+        "exit_date": "2023-07-03",
+        "entry_price": 33189.04,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.20033022648438,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-04",
+        "exit_date": "2023-07-05",
+        "entry_price": 33422.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.192988676497166,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-06",
+        "exit_date": "2023-07-07",
+        "entry_price": 32773.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.03080606852832,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-10",
+        "exit_date": "2023-07-11",
+        "entry_price": 32189.73,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.676939132449995,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-12",
+        "exit_date": "2023-07-13",
+        "entry_price": 31943.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 49.820968424987136,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-14",
+        "exit_date": "2023-07-18",
+        "entry_price": 32391.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.751909863957124,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-19",
+        "exit_date": "2023-07-20",
+        "entry_price": 32896.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.4847447518743,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-21",
+        "exit_date": "2023-07-24",
+        "entry_price": 32304.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.14987278454071,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-25",
+        "exit_date": "2023-07-26",
+        "entry_price": 32682.51,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.43521956850926,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-27",
+        "exit_date": "2023-07-28",
+        "entry_price": 32891.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.50628581965485,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-07-31",
+        "exit_date": "2023-08-01",
+        "entry_price": 33172.22,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.27344711629186,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-02",
+        "exit_date": "2023-08-03",
+        "entry_price": 32707.69,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.32248648253666,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-04",
+        "exit_date": "2023-08-07",
+        "entry_price": 32192.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.6629917574609,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-08",
+        "exit_date": "2023-08-09",
+        "entry_price": 32377.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.815661159411405,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-10",
+        "exit_date": "2023-08-14",
+        "entry_price": 32473.65,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.377043476788074,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-15",
+        "exit_date": "2023-08-16",
+        "entry_price": 32238.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.450226664131414,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-17",
+        "exit_date": "2023-08-18",
+        "entry_price": 31626.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.32708935369631,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-21",
+        "exit_date": "2023-08-22",
+        "entry_price": 31565.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.61645789218908,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-23",
+        "exit_date": "2023-08-24",
+        "entry_price": 32010.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 49.51051718730181,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-25",
+        "exit_date": "2023-08-28",
+        "entry_price": 31624.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.33531982072002,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-29",
+        "exit_date": "2023-08-30",
+        "entry_price": 32226.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.50513491960303,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-08-31",
+        "exit_date": "2023-09-01",
+        "entry_price": 32619.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.718803259048144,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-04",
+        "exit_date": "2023-09-05",
+        "entry_price": 32939.18,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.29416117523264,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-06",
+        "exit_date": "2023-09-07",
+        "entry_price": 33241.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.97483975822643,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-08",
+        "exit_date": "2023-09-11",
+        "entry_price": 32606.84,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.77504866770283,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-12",
+        "exit_date": "2023-09-13",
+        "entry_price": 32776.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.0158805840915,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-14",
+        "exit_date": "2023-09-15",
+        "entry_price": 33168.1,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.29136814891416,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-19",
+        "exit_date": "2023-09-20",
+        "entry_price": 33242.59,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.968040032380145,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-21",
+        "exit_date": "2023-09-22",
+        "entry_price": 32571.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.93641950837906,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-25",
+        "exit_date": "2023-09-26",
+        "entry_price": 32678.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.45265093507619,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-27",
+        "exit_date": "2023-09-28",
+        "entry_price": 32371.9,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.84027282612387,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-09-29",
+        "exit_date": "2023-10-02",
+        "entry_price": 31857.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 50.2268696751358,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-03",
+        "exit_date": "2023-10-04",
+        "entry_price": 31237.94,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 53.20698253149855,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-05",
+        "exit_date": "2023-10-06",
+        "entry_price": 31075.36,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 54.00853048524616,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-10",
+        "exit_date": "2023-10-11",
+        "entry_price": 31746.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 50.752555567490354,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-12",
+        "exit_date": "2023-10-13",
+        "entry_price": 32494.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 47.28175422977189,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-16",
+        "exit_date": "2023-10-17",
+        "entry_price": 31659.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.169209160861826,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-18",
+        "exit_date": "2023-10-19",
+        "entry_price": 32042.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 49.36125047086267,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-20",
+        "exit_date": "2023-10-23",
+        "entry_price": 31259.36,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 53.10199978182533,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-24",
+        "exit_date": "2023-10-25",
+        "entry_price": 31062.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 54.07303465127396,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-26",
+        "exit_date": "2023-10-27",
+        "entry_price": 30601.78,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 56.39190033716992,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-10-30",
+        "exit_date": "2023-10-31",
+        "entry_price": 30696.96,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 55.90698648660973,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-01",
+        "exit_date": "2023-11-02",
+        "entry_price": 31601.65,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 51.44369132307962,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-06",
+        "exit_date": "2023-11-07",
+        "entry_price": 32708.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.318952390939586,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-08",
+        "exit_date": "2023-11-09",
+        "entry_price": 32166.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 48.784403139541524,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-10",
+        "exit_date": "2023-11-13",
+        "entry_price": 32568.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.94959357174854,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-14",
+        "exit_date": "2023-11-15",
+        "entry_price": 32695.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.37511543179838,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-16",
+        "exit_date": "2023-11-17",
+        "entry_price": 33424.41,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.184891757251634,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-20",
+        "exit_date": "2023-11-21",
+        "entry_price": 33388.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.34090774148699,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-22",
+        "exit_date": "2023-11-24",
+        "entry_price": 33451.83,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.067525092050246,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-27",
+        "exit_date": "2023-11-28",
+        "entry_price": 33447.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.0853188846936,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-11-29",
+        "exit_date": "2023-11-30",
+        "entry_price": 33321.22,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.62831036498662,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-01",
+        "exit_date": "2023-12-04",
+        "entry_price": 33431.51,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.1544829384015,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-05",
+        "exit_date": "2023-12-06",
+        "entry_price": 32775.82,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 46.018330827420925,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-07",
+        "exit_date": "2023-12-08",
+        "entry_price": 32858.31,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.651755306344114,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-11",
+        "exit_date": "2023-12-12",
+        "entry_price": 32791.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.94717361962439,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-13",
+        "exit_date": "2023-12-14",
+        "entry_price": 32926.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.35077613826007,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-15",
+        "exit_date": "2023-12-18",
+        "entry_price": 32970.55,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 45.15592029553644,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-19",
+        "exit_date": "2023-12-20",
+        "entry_price": 33219.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.06858548275569,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-21",
+        "exit_date": "2023-12-22",
+        "entry_price": 33140.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 44.411667302847526,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2023-12-25",
+        "exit_date": "2023-12-26",
+        "entry_price": 33254.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.91851236977893,
+        "outcome": "loss"
+      }
+    ]
+  },
+  "test_performance": {
+    "total_trades": 219,
+    "winning_trades": 1,
+    "losing_trades": 218,
+    "win_rate": 0.5,
+    "avg_profit": 6.11,
+    "avg_loss": 23.9,
+    "sharpe_ratio": 2.95,
+    "max_drawdown": 1.49,
+    "trades": [
+      {
+        "entry_date": "2023-12-28",
+        "exit_date": "2023-12-29",
+        "entry_price": 33539.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 42.69304565466153,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-04",
+        "exit_date": "2024-01-05",
+        "entry_price": 33288.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 43.77039276874839,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-09",
+        "exit_date": "2024-01-10",
+        "entry_price": 33763.18,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 41.74821589376354,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-11",
+        "exit_date": "2024-01-12",
+        "entry_price": 35049.86,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 36.5446403466376,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-15",
+        "exit_date": "2024-01-16",
+        "entry_price": 35901.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 33.304510106599125,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-17",
+        "exit_date": "2024-01-18",
+        "entry_price": 35477.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 34.89780293000541,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-19",
+        "exit_date": "2024-01-22",
+        "entry_price": 35963.27,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 33.07662311853177,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-23",
+        "exit_date": "2024-01-24",
+        "entry_price": 36517.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 31.05665376694012,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-25",
+        "exit_date": "2024-01-26",
+        "entry_price": 36236.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.07330978707361,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-29",
+        "exit_date": "2024-01-30",
+        "entry_price": 36026.94,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.841438320878744,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-01-31",
+        "exit_date": "2024-02-01",
+        "entry_price": 36286.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 31.89045046795368,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-02",
+        "exit_date": "2024-02-05",
+        "entry_price": 36158.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.359861737451325,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-06",
+        "exit_date": "2024-02-07",
+        "entry_price": 36160.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.35019847259422,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-08",
+        "exit_date": "2024-02-09",
+        "entry_price": 36863.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.82758256725933,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-13",
+        "exit_date": "2024-02-14",
+        "entry_price": 37963.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.0634893531946,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-15",
+        "exit_date": "2024-02-16",
+        "entry_price": 38157.94,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.422665057390393,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-19",
+        "exit_date": "2024-02-20",
+        "entry_price": 38470.38,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.404035725667377,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-21",
+        "exit_date": "2024-02-22",
+        "entry_price": 38262.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.081033791610274,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-26",
+        "exit_date": "2024-02-27",
+        "entry_price": 39233.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.983634173265784,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-02-28",
+        "exit_date": "2024-02-29",
+        "entry_price": 39208.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.063529534638686,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-01",
+        "exit_date": "2024-03-04",
+        "entry_price": 39910.82,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.914111709556444,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-05",
+        "exit_date": "2024-03-06",
+        "entry_price": 40097.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.355446391719404,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-07",
+        "exit_date": "2024-03-08",
+        "entry_price": 39598.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.85925344285204,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-11",
+        "exit_date": "2024-03-12",
+        "entry_price": 38820.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.282074180413478,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-13",
+        "exit_date": "2024-03-14",
+        "entry_price": 38695.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.67878432560288,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-15",
+        "exit_date": "2024-03-18",
+        "entry_price": 38707.64,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.641496301505324,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-19",
+        "exit_date": "2024-03-21",
+        "entry_price": 40003.6,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.635995957863784,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-22",
+        "exit_date": "2024-03-25",
+        "entry_price": 40888.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 17.047060205050656,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-26",
+        "exit_date": "2024-03-27",
+        "entry_price": 40398.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 18.46791855691972,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-03-28",
+        "exit_date": "2024-03-29",
+        "entry_price": 40168.07,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.146140899973524,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-01",
+        "exit_date": "2024-04-02",
+        "entry_price": 39803.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.23866810089367,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-03",
+        "exit_date": "2024-04-04",
+        "entry_price": 39451.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.30915350991144,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-05",
+        "exit_date": "2024-04-08",
+        "entry_price": 38992.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.739554491578783,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-09",
+        "exit_date": "2024-04-10",
+        "entry_price": 39773.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.329240567689787,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-11",
+        "exit_date": "2024-04-12",
+        "entry_price": 39442.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.337510401816505,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-15",
+        "exit_date": "2024-04-16",
+        "entry_price": 39232.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.986463568748572,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-17",
+        "exit_date": "2024-04-18",
+        "entry_price": 37961.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.07069548598852,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-19",
+        "exit_date": "2024-04-22",
+        "entry_price": 37068.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.109348754395587,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-23",
+        "exit_date": "2024-04-24",
+        "entry_price": 37552.16,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.445945263867618,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-25",
+        "exit_date": "2024-04-26",
+        "entry_price": 37628.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.187452905352515,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-04-30",
+        "exit_date": "2024-05-01",
+        "entry_price": 38405.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.613677460561775,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-02",
+        "exit_date": "2024-05-07",
+        "entry_price": 38236.07,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.166381584195225,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-08",
+        "exit_date": "2024-05-09",
+        "entry_price": 38202.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.276796384622184,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-10",
+        "exit_date": "2024-05-13",
+        "entry_price": 38229.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.18916940258351,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-14",
+        "exit_date": "2024-05-15",
+        "entry_price": 38356.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.774821186013362,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-16",
+        "exit_date": "2024-05-17",
+        "entry_price": 38920.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.9660471923877,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-20",
+        "exit_date": "2024-05-21",
+        "entry_price": 39069.68,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.49576981178242,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-22",
+        "exit_date": "2024-05-23",
+        "entry_price": 38617.1,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.931380862364072,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-24",
+        "exit_date": "2024-05-27",
+        "entry_price": 38646.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.83835081719737,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-28",
+        "exit_date": "2024-05-29",
+        "entry_price": 38855.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.1714053398539,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-05-30",
+        "exit_date": "2024-05-31",
+        "entry_price": 38054.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.76481259458565,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-03",
+        "exit_date": "2024-06-04",
+        "entry_price": 38923.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.95729617915151,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-05",
+        "exit_date": "2024-06-06",
+        "entry_price": 38490.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.340072488637997,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-07",
+        "exit_date": "2024-06-10",
+        "entry_price": 38683.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.71727815400347,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-11",
+        "exit_date": "2024-06-12",
+        "entry_price": 39134.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.291969061287904,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-13",
+        "exit_date": "2024-06-14",
+        "entry_price": 38720.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.60052778026711,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-17",
+        "exit_date": "2024-06-18",
+        "entry_price": 38102.44,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.60535566488653,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-19",
+        "exit_date": "2024-06-20",
+        "entry_price": 38570.76,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.080275522183104,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-21",
+        "exit_date": "2024-06-24",
+        "entry_price": 38596.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.99762278519251,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-25",
+        "exit_date": "2024-06-26",
+        "entry_price": 39173.15,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.172215609416124,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-06-27",
+        "exit_date": "2024-06-28",
+        "entry_price": 39341.54,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.649293034792215,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-01",
+        "exit_date": "2024-07-02",
+        "entry_price": 39631.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.760598578488683,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-03",
+        "exit_date": "2024-07-04",
+        "entry_price": 40580.76,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 17.934472589966262,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-05",
+        "exit_date": "2024-07-08",
+        "entry_price": 40912.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 16.978569755308705,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-09",
+        "exit_date": "2024-07-10",
+        "entry_price": 41580.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 15.099830710167844,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-11",
+        "exit_date": "2024-07-12",
+        "entry_price": 42224.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 13.34473903479583,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-16",
+        "exit_date": "2024-07-17",
+        "entry_price": 41275.08,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 15.950605738377716,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-18",
+        "exit_date": "2024-07-19",
+        "entry_price": 40126.35,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.27001902490507,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-22",
+        "exit_date": "2024-07-23",
+        "entry_price": 39599.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.858368340109585,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-24",
+        "exit_date": "2024-07-25",
+        "entry_price": 39154.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.229315854868545,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-26",
+        "exit_date": "2024-07-29",
+        "entry_price": 37667.41,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.05600220190342,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-07-30",
+        "exit_date": "2024-07-31",
+        "entry_price": 38525.95,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.224594796494305,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-01",
+        "exit_date": "2024-08-02",
+        "entry_price": 38126.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.526651211905243,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-05",
+        "exit_date": "2024-08-06",
+        "entry_price": 31458.42,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 52.13321355300107,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-07",
+        "exit_date": "2024-08-08",
+        "entry_price": 35089.62,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 36.3899218030859,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-09",
+        "exit_date": "2024-08-13",
+        "entry_price": 35025.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 36.64155682798,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-14",
+        "exit_date": "2024-08-15",
+        "entry_price": 36442.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 31.326877156655016,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-16",
+        "exit_date": "2024-08-19",
+        "entry_price": 38062.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.73659514427127,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-20",
+        "exit_date": "2024-08-21",
+        "entry_price": 38062.92,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.735769297258322,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-22",
+        "exit_date": "2024-08-23",
+        "entry_price": 38211.01,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.24846969237398,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-26",
+        "exit_date": "2024-08-27",
+        "entry_price": 38110.22,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.57971399535346,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-28",
+        "exit_date": "2024-08-29",
+        "entry_price": 38371.76,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.723768935800685,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-08-30",
+        "exit_date": "2024-09-02",
+        "entry_price": 38647.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.833095792122425,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-03",
+        "exit_date": "2024-09-04",
+        "entry_price": 38686.31,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.709667008820425,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-05",
+        "exit_date": "2024-09-06",
+        "entry_price": 36657.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 30.55784100429139,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-09",
+        "exit_date": "2024-09-10",
+        "entry_price": 36215.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.148872462947736,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-11",
+        "exit_date": "2024-09-12",
+        "entry_price": 35619.77,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 34.35995032814642,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-13",
+        "exit_date": "2024-09-17",
+        "entry_price": 36581.76,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 30.826688707705674,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-18",
+        "exit_date": "2024-09-19",
+        "entry_price": 36380.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 31.551626281570417,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-20",
+        "exit_date": "2024-09-24",
+        "entry_price": 37723.91,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.86570739618451,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-25",
+        "exit_date": "2024-09-26",
+        "entry_price": 37870.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.375433596178087,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-09-27",
+        "exit_date": "2024-09-30",
+        "entry_price": 39829.56,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.158759672464363,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-01",
+        "exit_date": "2024-10-02",
+        "entry_price": 38651.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.81957576547843,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-03",
+        "exit_date": "2024-10-04",
+        "entry_price": 38552.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.14046170036049,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-07",
+        "exit_date": "2024-10-08",
+        "entry_price": 39332.74,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.67650989735268,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-09",
+        "exit_date": "2024-10-10",
+        "entry_price": 39277.96,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.84620911829432,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-11",
+        "exit_date": "2024-10-15",
+        "entry_price": 39605.8,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.837617922122494,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-16",
+        "exit_date": "2024-10-17",
+        "entry_price": 39180.3,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.149920442160962,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-18",
+        "exit_date": "2024-10-21",
+        "entry_price": 38981.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.772079957929016,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-22",
+        "exit_date": "2024-10-23",
+        "entry_price": 38411.96,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.593239394709343,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-24",
+        "exit_date": "2024-10-25",
+        "entry_price": 38143.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.47083714855219,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-28",
+        "exit_date": "2024-10-29",
+        "entry_price": 38605.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.96852284892863,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-10-30",
+        "exit_date": "2024-10-31",
+        "entry_price": 39277.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.847977370695954,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-01",
+        "exit_date": "2024-11-05",
+        "entry_price": 38053.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.766332863558222,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-06",
+        "exit_date": "2024-11-07",
+        "entry_price": 39480.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.22060055971694,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-08",
+        "exit_date": "2024-11-11",
+        "entry_price": 39500.37,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.160144269534666,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-12",
+        "exit_date": "2024-11-13",
+        "entry_price": 39376.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.54255356232678,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-14",
+        "exit_date": "2024-11-15",
+        "entry_price": 38535.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.193164465677274,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-18",
+        "exit_date": "2024-11-19",
+        "entry_price": 38220.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.21622433567018,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-20",
+        "exit_date": "2024-11-21",
+        "entry_price": 38352.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.786923767884826,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-22",
+        "exit_date": "2024-11-25",
+        "entry_price": 38283.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.01016820147398,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-26",
+        "exit_date": "2024-11-27",
+        "entry_price": 38442.0,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.495877631236652,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-11-28",
+        "exit_date": "2024-11-29",
+        "entry_price": 38349.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.797596809413314,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-02",
+        "exit_date": "2024-12-03",
+        "entry_price": 38513.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.26630079645792,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-04",
+        "exit_date": "2024-12-05",
+        "entry_price": 39276.39,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.851079691896317,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-06",
+        "exit_date": "2024-12-09",
+        "entry_price": 39091.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.428428923974383,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-10",
+        "exit_date": "2024-12-11",
+        "entry_price": 39367.58,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.568827138980836,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-12",
+        "exit_date": "2024-12-13",
+        "entry_price": 39849.14,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.099719288797687,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-16",
+        "exit_date": "2024-12-17",
+        "entry_price": 39457.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.291813744361328,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-18",
+        "exit_date": "2024-12-19",
+        "entry_price": 39081.71,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.45806357756607,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-20",
+        "exit_date": "2024-12-23",
+        "entry_price": 38701.9,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.659833959056254,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-24",
+        "exit_date": "2024-12-25",
+        "entry_price": 39036.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.598788782906396,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-26",
+        "exit_date": "2024-12-27",
+        "entry_price": 39568.06,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.95287279437,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2024-12-30",
+        "exit_date": "2025-01-06",
+        "entry_price": 39894.54,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.963045767666436,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-07",
+        "exit_date": "2025-01-08",
+        "entry_price": 40083.3,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.398116619639577,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-09",
+        "exit_date": "2025-01-10",
+        "entry_price": 39605.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.839784176730817,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-14",
+        "exit_date": "2025-01-15",
+        "entry_price": 38474.3,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.39136067192903,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-16",
+        "exit_date": "2025-01-17",
+        "entry_price": 38572.6,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.074356613243587,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-20",
+        "exit_date": "2025-01-21",
+        "entry_price": 38902.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.022184381466474,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-22",
+        "exit_date": "2025-01-23",
+        "entry_price": 39646.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.71433055837562,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-24",
+        "exit_date": "2025-01-27",
+        "entry_price": 39931.98,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.850569090237926,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-28",
+        "exit_date": "2025-01-29",
+        "entry_price": 39016.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.66156992859753,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-01-30",
+        "exit_date": "2025-01-31",
+        "entry_price": 39513.97,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.118443120243278,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-03",
+        "exit_date": "2025-02-04",
+        "entry_price": 38520.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.243492886439256,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-05",
+        "exit_date": "2025-02-06",
+        "entry_price": 38831.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.24718315912757,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-07",
+        "exit_date": "2025-02-10",
+        "entry_price": 38787.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.388456444965346,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-12",
+        "exit_date": "2025-02-13",
+        "entry_price": 38963.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.828954331852465,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-14",
+        "exit_date": "2025-02-17",
+        "entry_price": 39149.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.246237758761733,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-18",
+        "exit_date": "2025-02-19",
+        "entry_price": 39270.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 21.869665903581303,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-20",
+        "exit_date": "2025-02-21",
+        "entry_price": 38678.04,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 23.73611816679437,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-25",
+        "exit_date": "2025-02-26",
+        "entry_price": 38237.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.160751390182313,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-02-27",
+        "exit_date": "2025-02-28",
+        "entry_price": 38256.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.100618485854692,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-03",
+        "exit_date": "2025-03-04",
+        "entry_price": 37785.47,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.65901808023029,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-05",
+        "exit_date": "2025-03-06",
+        "entry_price": 37418.24,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.902074707415416,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-07",
+        "exit_date": "2025-03-10",
+        "entry_price": 36887.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.74349964770948,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-11",
+        "exit_date": "2025-03-12",
+        "entry_price": 36793.11,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 30.075183312853937,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-13",
+        "exit_date": "2025-03-14",
+        "entry_price": 36790.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 30.086072990427017,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-17",
+        "exit_date": "2025-03-18",
+        "entry_price": 37396.52,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.97636057847093,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-19",
+        "exit_date": "2025-03-21",
+        "entry_price": 37751.88,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.771713829880785,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-24",
+        "exit_date": "2025-03-25",
+        "entry_price": 37608.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.255056714587578,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-26",
+        "exit_date": "2025-03-27",
+        "entry_price": 38027.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.853578519531613,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-03-28",
+        "exit_date": "2025-03-31",
+        "entry_price": 37120.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 28.9285555354707,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-01",
+        "exit_date": "2025-04-02",
+        "entry_price": 35624.48,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 34.342186269104815,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-03",
+        "exit_date": "2025-04-04",
+        "entry_price": 34735.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 37.77867838575214,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-07",
+        "exit_date": "2025-04-08",
+        "entry_price": 31136.58,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 53.7057225905992,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-09",
+        "exit_date": "2025-04-10",
+        "entry_price": 31714.03,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 50.907044229320576,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-11",
+        "exit_date": "2025-04-14",
+        "entry_price": 33585.58,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 42.49777815062295,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-15",
+        "exit_date": "2025-04-16",
+        "entry_price": 34267.54,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 39.66192285468987,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-17",
+        "exit_date": "2025-04-18",
+        "entry_price": 34377.6,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 39.21479474716093,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-21",
+        "exit_date": "2025-04-22",
+        "entry_price": 34279.92,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 39.61148473800405,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-23",
+        "exit_date": "2025-04-24",
+        "entry_price": 34868.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 37.25433227230321,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-25",
+        "exit_date": "2025-04-28",
+        "entry_price": 35705.74,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 34.03644702224348,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-04-30",
+        "exit_date": "2025-05-01",
+        "entry_price": 36045.38,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 32.773479649819194,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-02",
+        "exit_date": "2025-05-07",
+        "entry_price": 36830.69,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.94246178662412,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-08",
+        "exit_date": "2025-05-09",
+        "entry_price": 36928.63,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.597835822774897,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-12",
+        "exit_date": "2025-05-13",
+        "entry_price": 37644.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.13413752588042,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-14",
+        "exit_date": "2025-05-15",
+        "entry_price": 38128.13,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.52072519423323,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-16",
+        "exit_date": "2025-05-19",
+        "entry_price": 37753.72,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.765535367110825,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-20",
+        "exit_date": "2025-05-21",
+        "entry_price": 37529.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.52293004514582,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-22",
+        "exit_date": "2025-05-23",
+        "entry_price": 36985.87,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 29.397267872838984,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-26",
+        "exit_date": "2025-05-27",
+        "entry_price": 37531.53,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.51599862568884,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-28",
+        "exit_date": "2025-05-29",
+        "entry_price": 37722.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.870785737386782,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-05-30",
+        "exit_date": "2025-06-02",
+        "entry_price": 37965.1,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.0597371770389,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-03",
+        "exit_date": "2025-06-04",
+        "entry_price": 37446.81,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.80449196874179,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-05",
+        "exit_date": "2025-06-06",
+        "entry_price": 37554.49,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 27.438038112087256,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-09",
+        "exit_date": "2025-06-10",
+        "entry_price": 38088.57,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 25.651095010917956,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-11",
+        "exit_date": "2025-06-12",
+        "entry_price": 38421.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.56330810940523,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-13",
+        "exit_date": "2025-06-16",
+        "entry_price": 37834.25,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 26.495715598961244,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-17",
+        "exit_date": "2025-06-18",
+        "entry_price": 38536.74,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.189812835751017,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-19",
+        "exit_date": "2025-06-20",
+        "entry_price": 38488.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.345984469582213,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-23",
+        "exit_date": "2025-06-24",
+        "entry_price": 38354.09,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 24.781230056559806,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-25",
+        "exit_date": "2025-06-26",
+        "entry_price": 38942.07,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 22.897178498728994,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-06-27",
+        "exit_date": "2025-06-30",
+        "entry_price": 40150.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.197418728249165,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-01",
+        "exit_date": "2025-07-02",
+        "entry_price": 39986.33,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.687666457511835,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-03",
+        "exit_date": "2025-07-04",
+        "entry_price": 39785.9,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.29061873427519,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-07",
+        "exit_date": "2025-07-08",
+        "entry_price": 39587.68,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.892927494109262,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-09",
+        "exit_date": "2025-07-10",
+        "entry_price": 39821.28,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.183744166435623,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-11",
+        "exit_date": "2025-07-14",
+        "entry_price": 39569.68,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.947920930874332,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-15",
+        "exit_date": "2025-07-16",
+        "entry_price": 39678.02,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.61767517381159,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-17",
+        "exit_date": "2025-07-18",
+        "entry_price": 39901.19,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 19.943052522994904,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-22",
+        "exit_date": "2025-07-23",
+        "entry_price": 39774.92,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 20.32382536281656,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-24",
+        "exit_date": "2025-07-25",
+        "entry_price": 41826.34,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 14.422407695724749,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-28",
+        "exit_date": "2025-07-29",
+        "entry_price": 40998.27,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 16.733475044190886,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-07-30",
+        "exit_date": "2025-07-31",
+        "entry_price": 40654.7,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 17.719981401904324,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-01",
+        "exit_date": "2025-08-04",
+        "entry_price": 40799.6,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 17.301898251453434,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-05",
+        "exit_date": "2025-08-06",
+        "entry_price": 40549.54,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 18.02527298460104,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-07",
+        "exit_date": "2025-08-08",
+        "entry_price": 41059.15,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 16.560389776700184,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-12",
+        "exit_date": "2025-08-13",
+        "entry_price": 42718.17,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 12.033603684333848,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-14",
+        "exit_date": "2025-08-15",
+        "entry_price": 42649.26,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 12.214620556136243,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-18",
+        "exit_date": "2025-08-19",
+        "entry_price": 43714.31,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 9.480637528077184,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-20",
+        "exit_date": "2025-08-21",
+        "entry_price": 42888.55,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 11.588536518488015,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-22",
+        "exit_date": "2025-08-25",
+        "entry_price": 42633.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 12.256655020055907,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-26",
+        "exit_date": "2025-08-27",
+        "entry_price": 42394.4,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 12.889214799596155,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-08-28",
+        "exit_date": "2025-08-29",
+        "entry_price": 42828.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 11.744238581103957,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-01",
+        "exit_date": "2025-09-02",
+        "entry_price": 42188.79,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 13.439388233224973,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-03",
+        "exit_date": "2025-09-04",
+        "entry_price": 41938.89,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 14.115336097354971,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-05",
+        "exit_date": "2025-09-08",
+        "entry_price": 43018.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 11.250804077291864,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-09",
+        "exit_date": "2025-09-10",
+        "entry_price": 43459.29,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 10.123072141767603,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-11",
+        "exit_date": "2025-09-12",
+        "entry_price": 44372.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 7.85667987830299,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-16",
+        "exit_date": "2025-09-17",
+        "entry_price": 44902.27,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 6.58415549815187,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-18",
+        "exit_date": "2025-09-19",
+        "entry_price": 45303.43,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 5.640357206948776,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-22",
+        "exit_date": "2025-09-24",
+        "entry_price": 45493.66,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 5.1986260920752265,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-25",
+        "exit_date": "2025-09-26",
+        "entry_price": 45754.93,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 4.597920440485854,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-09-29",
+        "exit_date": "2025-09-30",
+        "entry_price": 45043.75,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 6.249380389066173,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-10-01",
+        "exit_date": "2025-10-02",
+        "entry_price": 44550.85,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 7.424898243243386,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-10-03",
+        "exit_date": "2025-10-08",
+        "entry_price": 45769.5,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 4.564623338686231,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-10-09",
+        "exit_date": "2025-10-14",
+        "entry_price": 48580.44,
+        "exit_price": 47858.705278999994,
+        "profit_pct": -1.4856487940414043,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-10-15",
+        "exit_date": "2025-10-17",
+        "entry_price": 47672.67,
+        "exit_price": 47858.705278999994,
+        "profit_pct": 0.3902346543627535,
+        "outcome": "loss"
+      },
+      {
+        "entry_date": "2025-10-23",
+        "exit_date": "2025-10-31",
+        "entry_price": 48641.61,
+        "exit_price": 51613.06,
+        "profit_pct": 6.108864406420752,
+        "outcome": "win"
+      }
+    ]
+  },
+  "walk_forward": {
+    "efficiency": 50.86,
+    "pass": 1
+  },
+  "regime_analysis": {
+    "uptrend": {
+      "trades": 259,
+      "sharpe": 1.88,
+      "win_rate": 0.4
+    },
+    "downtrend": {
+      "trades": 176,
+      "sharpe": 2.71,
+      "win_rate": 0.0
+    },
+    "sideways": {
+      "trades": 125,
+      "sharpe": 2.4,
+      "win_rate": 0.0
+    }
+  },
+  "criteria": {
+    "sharpe_ratio": {
+      "threshold": 1.0,
+      "pass": 1
+    },
+    "wf_efficiency": {
+      "threshold": 50.0,
+      "pass": 1
+    },
+    "regime_sharpe": {
+      "threshold": 0.3,
+      "pass": 1
+    }
+  },
+  "overall_pass": 1
+}

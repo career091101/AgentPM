@@ -1,0 +1,438 @@
+metadata:
+  scan_date: 2025-12-31T00:00:00
+  scan_phase: Phase 1, Agent 3 - Structured Data Files Analysis
+  directory_scanned: aipm_v0/Flow/202512/
+  file_count: 18
+  total_size_bytes: 805390316
+  total_size_mb: 768.08
+  note: "Dominance by ChatGPT data export (conversations.json = 765MB)"
+
+data_files:
+
+  - path: aipm_v0/Flow/202512/2025-12-28/app_quality_audit_details.csv
+    size_bytes: 11381
+    size_kb: 11.1
+    last_modified: 2025-12-28T06:43:33
+    type: csv
+    file_classification: data_export
+    csv_columns:
+      - 番号
+      - ファイル名
+      - 行数
+      - YAML
+      - 基本情報
+      - 収益
+      - タイムライン
+      - 日本スコア
+      - FC
+      - ソース数
+      - 品質レベル
+      - 備考
+    description: "Solopreneur app quality audit results - evaluating Markdown file compliance with template standards"
+    quality_assessment: "A/B graded quality levels, YAML support tracking"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/failure_log.yaml
+    size_bytes: 459
+    size_kb: 0.4
+    last_modified: 2025-12-30T09:17:22
+    type: yaml
+    file_classification: configuration
+    top_level_keys:
+      - date
+      - total_failures
+      - failures
+    description: "Daily failure log for 2025-12-30 - empty (0 failures recorded)"
+    schema_fields:
+      - date: ISO date string
+      - total_failures: integer count
+      - failures: array (currently empty)
+
+  - path: aipm_v0/Flow/202512/2025-12-30/daily_tasks.yaml
+    size_bytes: 29625
+    size_kb: 28.9
+    last_modified: 2025-12-30T22:02:36
+    type: yaml
+    file_classification: task_planning
+    top_level_keys:
+      - inbox
+      - candidates
+      - tasks
+    description: "Comprehensive task manifest for multi-workstream orchestration (Founder Agent, Trading Agent, SNS Knowledge, Startup Science, GenAI Research, Ochiai Analysis)"
+    task_categories:
+      inbox:
+        description: "Audio-input supplemented development concepts and task details"
+        items: "Multi-agent architecture planning, skill validation, research integration"
+      candidates:
+        description: "5 major candidate initiatives with detailed implementation steps"
+        items: "Founder Agent verification, Trading Agent validation, SNS Knowledge base, Startup Science alignment, YouTube transcript integration"
+      tasks:
+        description: "31 structured tasks across 7 workstreams (T001-T009 ranges)"
+        breakdown:
+          - "T001 (1-7): Founder Agent skill validation and derivation setup"
+          - "T002 (1-6): Trading Agent skill verification and gap analysis"
+          - "T003 (1-6): SNS Knowledge systematization"
+          - "T004 (1-12): Startup Science compliance verification"
+          - "T005 (1-6): YouTube transcript to GenAI_Research integration"
+          - "T006 (1-6): GenAI_research LLM optimization"
+          - "T007 (1-6): Life is Beautiful content analysis"
+          - "T008 (1-11): Ochiai note theme extraction and timeline analysis"
+          - "T009 (1-7): FounderResearch folder merge and consolidation"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/theme_mapping.yaml
+    size_bytes: 722858
+    size_kb: 705.5
+    last_modified: 2025-12-30T22:26:28
+    type: yaml
+    file_classification: data_export
+    top_level_keys:
+      - metadata
+      - themes
+    metadata_structure:
+      - created_at: timestamp
+      - total_articles: 1637
+      - themes: 8 distinct themes
+      - version: "2.0" (improvement version)
+    themes_count: 8
+    theme_names:
+      - "アート・メディア表現 (529 articles)"
+      - "教育・研究の未来 (education/research future)"
+      - "デジタルネイチャー (digital nature)"
+      - "AI技術の進化 (AI technology evolution)"
+      - "社会構造・公共財 (social structure/public goods)"
+      - "未来予測・技術革新 (future prediction/innovation)"
+      - "都市・空間デザイン (urban/spatial design)"
+      - "身体性・物質性 (physicality/materiality)"
+    data_source: "落合陽一 (Yoichi Ochiai) note.com article categorization"
+    description: "Comprehensive mapping of 1637 Ochiai note articles across 8 thematic categories with metadata"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/timeline_data.yaml
+    size_bytes: 920362
+    size_kb: 898.8
+    last_modified: 2025-12-30T23:11:06
+    type: yaml
+    file_classification: data_export
+    top_level_keys:
+      - metadata
+      - articles
+    metadata_structure:
+      - created_at: timestamp
+      - total_articles: 1620
+      - date_range:
+          start: "2019-01-06"
+          end: "2025-12-28"
+      - year_distribution: array with counts per year (2019-2025)
+    year_distribution:
+      2019: 263
+      2020: 313
+      2021: 317
+      2022: 231
+      2023: 138
+      2024: 153
+      2025: 205
+    data_source: "落合陽一 note.com articles with chronological indexing"
+    description: "Temporal index of 1620 Ochiai articles spanning 6+ years, enabling time-series trend analysis"
+    peak_years: "2021 (317), 2020 (313), 2019 (263)"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/period_analysis_data.yaml
+    size_bytes: 976166
+    size_kb: 953.3
+    last_modified: 2025-12-30T23:12:25
+    type: yaml
+    file_classification: data_export
+    top_level_keys:
+      - Period_1_2019-2020
+      - Period_2_2021-2023
+      - Period_3_2024-2025
+    period_structure:
+      Period_1_2019-2020:
+        - total_articles: 576
+        - theme_distribution: 9 themes with counts
+        - top_tags: 15 most frequent tags
+      Period_2_2021-2023:
+        - total_articles: 686
+        - theme_distribution: 9 themes
+        - top_tags: extracted tags
+      Period_3_2024-2025:
+        - total_articles: 358
+        - theme_distribution: 9 themes
+        - top_tags: latest tags
+    data_source: "Period-segmented analysis of Ochiai note articles"
+    description: "Chronological period analysis enabling trend detection across 3 distinct time windows"
+    analysis_capability: "Can detect theme evolution, tag vocabulary changes, and content shift patterns"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/conversations.json
+    size_bytes: 802590025
+    size_mb: 765.1
+    last_modified: 2025-12-30T18:50:08
+    type: json
+    file_classification: personal_data_export
+    array_length: 6714
+    first_item_structure:
+      - title: string
+      - create_time: timestamp
+      - update_time: timestamp
+      - mapping: conversation message graph
+      - moderation_results: content safety data
+      - current_node: active message pointer
+      - plugin_ids: associated plugins
+      - conversation_id: unique identifier
+      - conversation_template_id: template reference
+      - gizmo_id: custom assistant ID
+      - gizmo_type: assistant type classification
+      - is_archived: boolean
+      - is_starred: boolean
+      - safe_urls: whitelist
+      - blocked_urls: blacklist
+      - default_model_slug: LLM model used
+      - conversation_origin: source tracking
+      - is_read_only: permission flag
+      - voice: voice mode indication
+      - async_status: asynchronous state
+      - disabled_tool_ids: restricted tools
+      - is_do_not_remember: memory setting
+      - memory_scope: memory context
+      - context_scopes: available context windows
+      - sugar_item_id: metadata ID
+      - sugar_item_visible: visibility flag
+      - pinned_time: pin timestamp
+      - is_study_mode: learning mode flag
+      - owner: user ID
+      - id: internal ID
+    item_count: 6714 conversations
+    data_classification: PERSONAL - User conversation history with ChatGPT
+    warning: "Contains sensitive personal interactions, model usage patterns, custom assistants"
+    note: "Extremely large file (765MB) - represents complete personal conversation archive"
+    recommendation: "Consider data minimization; not needed for operational workflows"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/group_chats.json
+    size_bytes: 71478
+    size_kb: 69.8
+    last_modified: 2025-12-30T18:50:09
+    type: json
+    file_classification: personal_data_export
+    top_level_keys:
+      - chats
+    structure: "Object containing 'chats' array"
+    data_source: "ChatGPT group chat history export"
+    description: "Group conversation metadata from ChatGPT"
+    note: "Small compared to conversations.json - suggests limited group chat usage"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/user.json
+    size_bytes: 154
+    size_kb: 0.2
+    last_modified: 2025-12-30T18:50:10
+    type: json
+    file_classification: personal_data_export
+    top_level_keys:
+      - id
+      - email
+      - chatgpt_plus_user
+      - birth_year
+      - phone_number
+    data_classification: PII (Personally Identifiable Information)
+    warning: "Contains user profile data including email, birth year, phone number"
+    description: "User account profile information from ChatGPT"
+    recommendation: "SENSITIVE - Should not be committed to version control"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/message_feedback.json
+    size_bytes: 2
+    size_kb: 0.0
+    last_modified: 2025-12-30T18:50:09
+    type: json
+    file_classification: personal_data_export
+    array_length: 0
+    structure: "Empty array"
+    description: "Message feedback/rating data (empty)"
+    note: "No feedback ratings recorded in data export"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/shopping.json
+    size_bytes: 2
+    size_kb: 0.0
+    last_modified: 2025-12-30T18:50:09
+    type: json
+    file_classification: personal_data_export
+    array_length: 0
+    structure: "Empty array"
+    description: "Shopping/purchase history (empty)"
+    note: "No shopping activity recorded in data export"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ChatGPT_dataexport/shared_conversations.json
+    size_bytes: 16255
+    size_kb: 15.9
+    last_modified: 2025-12-30T18:50:09
+    type: json
+    file_classification: personal_data_export
+    array_length: 85
+    first_item_structure:
+      - id: unique share ID
+      - conversation_id: reference to main conversation
+      - title: shared conversation title
+      - is_anonymous: anonymity flag
+    item_count: 85 shared conversations
+    description: "Publicly shared ChatGPT conversation links and metadata"
+    data_concern: "Contains titles of shared conversations - may reveal conversation topics"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/ai_articles_list.json
+    size_bytes: 6600
+    size_kb: 6.4
+    last_modified: 2025-12-31T10:05:42
+    type: json
+    file_classification: data_export
+    array_length: 30
+    first_item_structure:
+      - file: filename reference
+      - date: publication date
+      - ai_score: AI relevance score
+      - length: content length
+    item_count: 30 AI-related articles
+    data_source: "Curated AI articles list from Ochiai research collection"
+    description: "Index of 30 selected AI articles with scoring and metadata"
+    use_case: "AI topic reference list for GenAI_research folder"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/education_research_top10.json
+    size_bytes: 5803
+    size_kb: 5.7
+    last_modified: 2025-12-30T22:44:53
+    type: json
+    file_classification: data_export
+    top_level_keys:
+      - theme_name
+      - article_count
+      - top_articles
+    structure:
+      theme_name: "教育・研究の未来" (Education & Research Future)
+      article_count: integer
+      top_articles: array of top 10 articles in theme
+    description: "Top 10 articles from Education & Research Future theme"
+    use_case: "Research summary for Ochiai analysis"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/physicality_materiality_top10.json
+    size_bytes: 3449
+    size_kb: 3.4
+    last_modified: 2025-12-30T22:44:53
+    type: json
+    file_classification: data_export
+    top_level_keys:
+      - theme_name
+      - article_count
+      - top_articles
+    structure:
+      theme_name: "身体性・物質性" (Physicality & Materiality)
+      article_count: integer
+      top_articles: array of top 10 articles
+    description: "Top 10 articles from Physicality & Materiality theme"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/social_structure_top10.json
+    size_bytes: 4757
+    size_kb: 4.6
+    last_modified: 2025-12-30T22:44:53
+    type: json
+    file_classification: data_export
+    top_level_keys:
+      - theme_name
+      - article_count
+      - top_articles
+    structure:
+      theme_name: "社会構造・公共財" (Social Structure & Public Goods)
+      article_count: integer
+      top_articles: array of top 10 articles
+    description: "Top 10 articles from Social Structure & Public Goods theme"
+
+  - path: aipm_v0/Flow/202512/2025-12-30/digital_nature_top10.json
+    size_bytes: 5259
+    size_kb: 5.1
+    last_modified: 2025-12-30T22:44:53
+    type: json
+    file_classification: data_export
+    top_level_keys:
+      - theme_name
+      - article_count
+      - top_articles
+    structure:
+      theme_name: "デジタルネイチャー" (Digital Nature)
+      article_count: integer
+      top_articles: array of top 10 articles
+    description: "Top 10 articles from Digital Nature theme"
+
+  - path: aipm_v0/Flow/202512/2025-12-31/batch_1_preview.json
+    size_bytes: 25681
+    size_kb: 25.1
+    last_modified: 2025-12-31T11:15:38
+    type: json
+    file_classification: task_data
+    array_length: 5
+    first_item_structure:
+      - video_id: YouTube video identifier
+      - filename: processed filename
+      - content_preview: text preview
+    item_count: 5 video batch entries
+    description: "Preview data for batch 1 of video processing (likely YouTube transcript processing)"
+    use_case: "Initial validation of transcript content before full processing"
+
+summary:
+  file_count_by_type:
+    csv: 1
+    json: 12
+    yaml: 5
+    total: 18
+
+  file_size_distribution:
+    extremely_large:
+      - "conversations.json (765MB) - ChatGPT personal data export"
+    large:
+      - "period_analysis_data.yaml (953KB)"
+      - "timeline_data.yaml (898KB)"
+      - "theme_mapping.yaml (705KB)"
+    medium:
+      - "daily_tasks.yaml (28KB)"
+      - "batch_1_preview.json (25KB)"
+    small:
+      - "All other files under 16KB"
+
+  file_classification:
+    personal_data_export: 6 files (ChatGPT data)
+    data_export: 8 files (Ochiai analysis, AI articles)
+    task_planning: 1 file (daily_tasks.yaml)
+    configuration: 1 file (failure_log.yaml)
+    task_data: 1 file (batch_1_preview.json)
+
+  content_themes:
+    ochiai_research:
+      - "theme_mapping.yaml - 1637 articles across 8 themes"
+      - "timeline_data.yaml - 1620 articles from 2019-2025"
+      - "period_analysis_data.yaml - 3 time periods with theme analysis"
+      - "*_top10.json files - Best articles per theme (4 themes)"
+      - "ai_articles_list.json - Curated AI references"
+    task_management:
+      - "daily_tasks.yaml - 31 structured tasks across 7 workstreams"
+      - "failure_log.yaml - Daily execution monitoring"
+      - "batch_1_preview.json - Video transcript batch validation"
+    quality_assessment:
+      - "app_quality_audit_details.csv - Solopreneur app template compliance"
+
+  data_quality_notes:
+    - "ChatGPT export is not minimized - 765MB conversations.json dominates storage"
+    - "Ochiai data is well-structured with 3 complementary views (theme, timeline, period)"
+    - "Task manifest (daily_tasks.yaml) is comprehensive and multi-workstream"
+    - "Some JSON files are minimal threshold (2 bytes empty arrays)"
+    - "No JSONL files found (line-delimited JSON)"
+
+  operational_insights:
+    - "Ochiai research is 3-dimensional: thematic, chronological, and period-based"
+    - "Active workstreams: Founder Agent, Trading Agent, SNS Knowledge, Startup Science, GenAI Research, Ochiai Analysis"
+    - "Integration points identified: YouTube transcripts, Ochiai articles, GenAI research"
+    - "Data freshness: Latest files updated 2025-12-31 (batch_1_preview.json)"
+    - "Oldest data: 2019-01-06 in Ochiai timeline (6+ year historical record)"
+
+  recommendations:
+    high_priority:
+      - "Remove ChatGPT personal data export (conversations.json 765MB) - security risk"
+      - "Remove user.json PII - should not be in version control"
+      - "Archive or remove message_feedback.json and shopping.json (empty, no value)"
+    medium_priority:
+      - "Compress or index large YAML files (>700KB) for LLM read efficiency"
+      - "Extract metadata from conversations.json to smaller summary file if retention needed"
+      - "Create README documenting Ochiai data structure for future analysis"
+    low_priority:
+      - "Consider normalizing theme names across files for consistency"
+      - "Validate CSV quality - audit_details.csv columns align with template expectations"

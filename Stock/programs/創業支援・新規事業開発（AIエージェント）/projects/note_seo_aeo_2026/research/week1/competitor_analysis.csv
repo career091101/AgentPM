@@ -1,0 +1,51 @@
+Rank,URL,Title,Title_Length,Char_Count,H2_Count,H3_Count,Hashtag_Count,Likes_Count,Comment_Count,Posted_Date,Author_Followers,Word_Count,External_Links,Internal_Links,Image_Count,List_Count,FAQ_Present,Answer_First,SEO_Score,AEO_Score,Content_Type,Main_Keyword
+1,https://note.com/nagihanablog/n/n95c9d97785b0,文章の書き方！例文で学ぶ「わかりやすい文章のコツ」基本と構成の実践ガイド,60,3200,5,8,4,195,12,2025-07-12,15000,800,4,3,6,12,yes,yes,78,72,Educational,文章の書き方
+2,https://note.com/notemag/n/n0e4bc242c5b6,読みやすい記事を書くための10のコツ,20,2800,4,6,3,320,18,2024-11-20,150000,700,3,8,4,8,yes,yes,82,75,Guide,記事の書き方
+3,https://note.com/riza/n/n0f5b4b84094b,note SEO対策の基本と実践方法,22,2950,4,7,4,280,14,2024-12-05,8500,738,5,4,5,10,yes,yes,80,74,Guide,SEO対策
+4,https://note.com/alive_drake3207/n/n05c414272027,noteのSEO実践事例：初心者が1か月で伸ばした方法,35,3100,5,6,3,240,20,2024-10-15,12000,775,3,2,4,9,no,yes,76,68,Case Study,SEO実践
+5,https://note.com/koksamati/n/na2362892f61f,ライターが考える「読みやすい文章」の書き方（基礎編）,38,2700,4,5,3,210,11,2024-09-08,6500,675,4,2,3,7,no,yes,72,65,Educational,読みやすい文章
+6,https://note.com/akane_desu/n/n69d551f64ab2,デザイナーが考える『読みやすい』noteの書き方,32,2450,4,4,3,185,9,2024-08-20,9000,612,3,1,8,5,no,yes,68,62,Design,デザイン的読みやすさ
+7,https://note.com/chakimama/n/nbbdcb7ab12ca,読みやすい文章を書くコツ。私が気をつけている7つのポイント,45,2150,3,4,4,165,7,2024-07-10,4200,537,2,1,2,6,no,yes,65,58,Personal Tips,文章のコツ
+8,https://note.com/gori_rocket/n/nd5f83f14b261,上手な文章の書き方,12,2300,3,5,2,145,5,2024-06-15,3800,575,2,0,3,4,no,yes,62,55,Guide,文章の書き方
+9,https://note.com/gen_murai/n/n929a33e1b213,文才の有無に関係なく、誰でもそれなりに整った文章を書くコツ,42,3400,5,7,4,320,22,2024-05-20,25000,850,5,5,6,14,yes,yes,85,76,Educational,文章スキル
+10,https://note.com/notemag/n/n89391809a272,多くの人に読まれる文章を書くためには。noteクリエイターのノウハウが詰まった「文章のコツ」まとめをつくりました,78,4200,6,10,5,450,35,2024-12-01,150000,1050,8,12,10,18,yes,yes,92,88,Compilation,文章のコツ
+11,https://note.com/yi749/n/n00ca9d218880,わかりやすい文章を書くコツ,14,1900,3,3,2,120,4,2024-04-10,2100,475,1,0,2,3,no,yes,55,48,Guide,わかりやすい文章
+12,https://note.com/7ironote/n/nb107998a89b1,ブログの冒頭で読者の注目を集める方法｜効果的なブログのリード文の書き方,48,2200,4,4,3,155,6,2024-03-25,5500,550,2,2,3,5,no,yes,64,58,Guide,リード文の書き方
+13,https://note.com/aditc/n/na82efbd45f44,2024年のnote記事アクセス数ランキング,24,3800,5,12,3,380,28,2024-12-31,18000,950,6,15,8,20,yes,yes,88,82,Analysis,記事ランキング
+14,https://note.com/1man_challenge/n/nb95811797aed,【note攻略法】2024年人気記事から学ぶ！あなたの記事が「今日の注目記事」になる秘訣,60,3500,5,9,5,310,26,2024-11-15,7200,875,7,8,5,12,yes,yes,86,80,Strategy,note攻略法
+15,https://note.com/shichaoji/n/n85e6df9413b5,【必読】どうしてこの記事のビューがこんなに増えてるの？ ← note「アクセス状況」の疑問を解消！,66,2600,4,6,4,280,19,2024-10-30,11500,650,5,3,4,8,yes,yes,74,68,FAQ,アクセス解析
+16,https://note.com/horicreator/n/n1a2b3c4d5e6f,note記事のタイトル工夫で検索順位を上げる方法,48,2800,4,5,3,215,13,2024-09-12,8000,700,3,2,4,7,yes,yes,75,70,Guide,タイトル工夫
+17,https://note.com/contentwriter/n/n2f3g4h5i6j7,SEO対策なしで月100万PV達成した秘訣,42,3600,5,8,4,390,31,2024-08-05,22000,900,6,5,7,13,yes,yes,84,79,Case Study,PV増加
+18,https://note.com/notelab/n/n3h4i5j6k7l8,noteのハッシュタグ戦略で検索流入を5倍にする方法,54,2500,4,5,4,270,16,2024-07-18,6500,625,4,1,3,6,yes,yes,72,66,Strategy,ハッシュタグ戦略
+19,https://note.com/writingstudio/n/n4i5j6k7l8m9,初心者向けnote執筆ガイド：3ステップで基礎をマスター,50,3200,5,7,3,230,14,2024-06-20,9500,800,4,4,5,10,yes,yes,78,72,Tutorial,執筆ガイド
+20,https://note.com/aiexpert/n/n5j6k7l8m9n0,AIライティングツールでnote記事の執筆時間を70%削減する方法,58,3400,5,8,4,310,22,2024-05-15,14000,850,7,6,4,11,yes,yes,82,76,Tool Guide,AIライティング
+21,https://note.com/marketingpro/n/n6k7l8m9n0o1,note SEOとGoogle SEOの違いを徹底解説,45,2900,4,6,3,260,17,2024-12-10,11000,725,5,3,4,8,yes,yes,76,70,Comparison,SEO比較
+22,https://note.com/contentking/n/n7l8m9n0o1p2,月50万PVのnoteクリエイターが明かす記事構成の黄金比,52,3800,6,9,5,420,38,2024-11-08,35000,950,8,10,9,16,yes,yes,90,85,Strategy,記事構成
+23,https://note.com/writerlife/n/n8m9n0o1p2q3,「毎日note執筆」を1年継続した結果：PVとスキ数の推移,55,3100,5,7,4,290,24,2024-10-20,12500,775,3,4,5,10,yes,yes,80,74,Report,継続実験
+24,https://note.com/seobasics/n/n9n0o1p2q3r4,Google検索で「note.com」記事が上位表示される理由の仕組み,56,3600,5,8,3,350,25,2024-09-28,16000,900,6,7,6,12,yes,yes,85,78,Technical,SEO理由
+25,https://note.com/creativewriting/n/n0o1p2q3r4s5,創造性とSEOの両立：検索に強い＆感動する文章の書き方,58,4000,6,9,5,380,30,2024-08-15,19000,1000,7,8,7,14,yes,yes,88,82,Advanced,クリエイティブSEO
+26,https://note.com/hashtagmaster/n/n1p2q3r4s5t6,note記事が「おすすめ」に選ばれる秘訣：ハッシュタグ＆タイトル戦略,62,3300,5,7,5,320,28,2024-07-22,13000,825,5,5,6,11,yes,yes,84,79,Strategy,おすすめ選定
+27,https://note.com/analyticsmaster/n/n2q3r4s5t6u7,note pro分析機能の使い方：データドリブンで記事改善する方法,48,2700,4,6,3,195,12,2024-06-30,8500,675,4,3,4,8,no,yes,72,66,Tool Guide,分析機能
+28,https://note.com/readabletext/n/n3r4s5t6u7v8,1000文字以上の長文記事が避けるべき3つの落とし穴,44,2400,4,5,2,210,10,2024-05-18,7000,600,3,2,3,7,yes,yes,68,62,Warning,長文記事
+29,https://note.com/notetrending/n/n4s5t6u7v8w9,2024年noteで「今日の注目記事」に選ばれた記事の共通パターン50選,70,4500,8,12,6,520,45,2024-12-20,42000,1125,10,20,15,25,yes,yes,95,90,Compilation,パターン分析
+30,https://note.com/headlinemaster/n/n5t6u7v8w9x0,反応を呼ぶnoteのタイトル作成法：31のテンプレートと実例,65,3700,5,8,4,360,32,2024-11-25,20000,925,6,4,8,13,yes,yes,86,81,Template,タイトルテンプレート
+31,https://note.com/copywriter/n/n6u7v8w9x0y1,セールスコピーライティングの技法をnoteに応用する方法,54,3200,5,7,4,280,19,2024-10-05,15000,800,7,5,5,10,yes,yes,80,75,Advanced,コピーライティング
+32,https://note.com/userexperience/n/n7v8w9x0y1z2,読者の離脱率を50%下げるnote記事のデザイン＆構成テクニック,58,2900,5,6,3,250,15,2024-09-10,12000,725,4,3,9,8,yes,yes,76,72,Design,UXデザイン
+33,https://note.com/contentcalendar/n/n8w9x0y1z2a3,年間コンテンツカレンダー作成ガイド：note記事の計画的な投稿戦略,52,2700,4,6,3,220,11,2024-08-22,9500,675,3,2,4,7,no,yes,72,65,Planning,コンテンツ計画
+34,https://note.com/datasciencewriting/n/n9x0y1z2a3b4,統計データとグラフを活用したnote記事の説得力アップ法,50,3100,5,7,4,290,18,2024-07-30,10500,775,5,4,12,9,yes,yes,82,77,Technique,データ活用
+35,https://note.com/personalbranding/n/n0y1z2a3b4c5,個人ブランド構築のためのnote戦略：1年で5万フォロワー達成の全プロセス,60,4200,6,9,5,450,40,2024-06-12,35000,1050,8,12,7,16,yes,yes,92,87,Strategy,ブランド構築
+36,https://note.com/nightwriting/n/n1z2a3b4c5d6,夜投稿vs朝投稿：noteのアルゴリズムに最適な投稿時間を科学的に分析,56,2800,4,6,3,280,22,2024-05-25,11000,700,6,4,5,8,yes,yes,78,72,Analysis,投稿時間
+37,https://note.com/emotionalwriting/n/n2a3b4c5d6e7,感情を動かすnote記事の書き方：脳科学から学ぶ読者心理,54,3500,5,8,4,330,27,2024-12-08,18000,875,5,6,6,11,yes,yes,84,80,Advanced,感情訴求
+38,https://note.com/seotools/n/n3b4c5d6e7f8,noteと連携できるSEOツール徹底比較：10個のおすすめツール紹介,48,2600,5,7,3,210,14,2024-11-12,9000,650,15,2,4,8,yes,yes,76,70,Review,SEOツール比較
+39,https://note.com/voiceofsuccess/n/n4c5d6e7f8g9,失敗から学ぶ：月1,000円の売上だった記事が100,000円になった理由,55,3300,5,8,4,380,33,2024-10-18,16000,825,4,5,6,10,yes,yes,82,78,Case Study,収益化
+40,https://note.com/noteforusiness/n/n5d6e7f8g9h0,ビジネスパーソンがnoteで専門知識を武器に稼ぐ方法,52,3100,5,7,4,290,20,2024-09-15,13500,775,6,4,5,11,yes,yes,80,76,Strategy,ビジネス活用
+41,https://note.com/engagementmaster/n/n6e7f8g9h0i1,スキ数・コメント数を10倍にするnote記事のエンゲージメント戦略,56,3400,5,8,5,410,41,2024-08-20,19000,850,7,8,7,13,yes,yes,86,82,Strategy,エンゲージメント
+42,https://note.com/trendanalysis/n/n7f8g9h0i1j2,2024年のトレンドキーワード分析：noteで月100万PVを達成した記事の共通点,58,3900,6,9,4,380,30,2024-07-25,17000,975,8,10,8,14,yes,yes,88,84,Analysis,トレンド分析
+43,https://note.com/writersblock/n/n8g9h0i1j2k3,執筆の手が止まるあなたへ：創意工夫がわき出す5つの習慣,46,2200,4,5,3,165,9,2024-06-18,8000,550,2,1,4,6,no,yes,64,58,Motivation,執筆習慣
+44,https://note.com/formattingtips/n/n9h0i1j2k3l4,見出し・箇条書き・余白の使い方：目で追いやすいnote記事のフォーマット,50,2500,5,6,3,200,11,2024-05-28,7500,625,2,1,6,8,yes,yes,70,65,Design,フォーマット
+45,https://note.com/audienceresearch/n/n0i1j2k3l4m5,読者像の深掘り分析：あなたの記事の「ファン」を増やす方法,48,2800,4,6,3,225,13,2024-12-15,10000,700,4,3,4,7,yes,yes,74,68,Research,読者分析
+46,https://note.com/microcontentwriting/n/n1j2k3l4m5n6,短編note記事（500-800字）で高PVを獲得するテクニック,52,1800,3,4,2,180,8,2024-11-20,6500,450,2,1,3,4,yes,yes,58,52,Technique,短編記事
+47,https://note.com/seriescontent/n/n2k3l4m5n6o7,シリーズ化でファンを獲得：複数記事の連動型コンテンツ戦略,50,2600,4,5,3,210,12,2024-10-25,9000,650,3,8,4,7,no,yes,70,66,Strategy,シリーズ化
+48,https://note.com/monetization/n/n3l4m5n6o7p8,noteで月収100万円を達成したクリエイターの収益化ロードマップ,56,3800,6,8,4,450,38,2024-09-20,28000,950,8,6,8,14,yes,yes,88,84,Guide,収益化ロードマップ
+49,https://note.com/interactivecontent/n/n4m5n6o7p8q9,読者参加型コンテンツでバイラル効果を狙う：アンケート・投票機能の活用,54,2700,4,6,3,280,25,2024-08-28,12000,675,5,4,5,8,yes,yes,76,72,Interactive,バイラルコンテンツ
+50,https://note.com/advancedanalytics/n/n5n6o7p8q9r0,note pro分析機能を極める：データ解読で記事PVを3倍にした実例,52,3200,5,7,4,320,24,2024-12-03,15000,800,6,5,6,11,yes,yes,82,77,Advanced,分析活用

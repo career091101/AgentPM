@@ -1,0 +1,248 @@
+{
+  "collection_date": "2026-01-01",
+  "collection_time": "JST Afternoon",
+  "source": "X Home Timeline (https://x.com/home)",
+  "collection_method": "Claude In Chrome - Optimized with 67% zoom + 1710x1800 viewport + JavaScript scroll",
+  "total_collected": 13,
+  "collection_status": "In progress - Target 200 tweets",
+  "filter_criteria": {
+    "min_impressions": 1000,
+    "min_engagement_rate_target": 0.05
+  },
+  "engagement_weights": {
+    "like": 1,
+    "retweet": 3,
+    "reply": 5
+  },
+  "tweets": [
+    {
+      "rank": 1,
+      "author_username": "alex_prompter",
+      "author_name": "Alex Prompter",
+      "tweet_text": "🚨 RAG is broken and nobody's talking about it. Stanford just exposed the fatal flaw killing every \"AI...",
+      "url": "https://x.com/alex_prompter/status/2006304107196539292",
+      "posted_time": "22時間前",
+      "engagement": {
+        "replies": 300,
+        "retweets": 648,
+        "likes": 3887,
+        "views": 752326
+      },
+      "engagement_score": 5831,
+      "engagement_rate": 0.0064,
+      "estimated_impressions": 752326
+    },
+    {
+      "rank": 2,
+      "author_username": "hayesdev_",
+      "author_name": "Hayes",
+      "tweet_text": "Anthropic just released a full crash course to master Claude Code from scratch for free",
+      "url": "https://x.com/hayesdev_/status/2006334594266833327",
+      "posted_time": "20時間前",
+      "engagement": {
+        "replies": 33,
+        "retweets": 240,
+        "likes": 3060,
+        "views": 180284
+      },
+      "engagement_score": 3945,
+      "engagement_rate": 0.0219,
+      "estimated_impressions": 180284
+    },
+    {
+      "rank": 3,
+      "author_username": "DrJimFan",
+      "author_name": "Jim Fan",
+      "tweet_text": "Heed my words: every year from now on will be the Year of Robotics. If opus 4.5/nanobanana blew your mind - well, you ain't seen nothing yet in the World of Atoms. Happy new year everyone 🚀🎊 (sorry for the late post)",
+      "url": "https://x.com/DrJimFan/status/2006604492322549824",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 53,
+        "retweets": 100,
+        "likes": 894,
+        "views": 38730
+      },
+      "engagement_score": 1459,
+      "engagement_rate": 0.0377,
+      "estimated_impressions": 38730
+    },
+    {
+      "rank": 4,
+      "author_username": "Adscience12000",
+      "author_name": "サバ✨",
+      "tweet_text": "大丈夫なのかOpenAIはw OpenAIは4000人の従業員に平均150万ドル(株式報酬含む)の給料を払っていて、全部合わせると同社2025年売上高の約半分に相当。この額はGoogleなど18のテック企業の平均を大きく上回る。",
+      "url": "https://x.com/Adscience12000/status/2006441354654789991",
+      "posted_time": "12時間前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 198,
+        "likes": 669,
+        "views": 145511
+      },
+      "engagement_score": 1323,
+      "engagement_rate": 0.0091,
+      "estimated_impressions": 145511
+    },
+    {
+      "rank": 5,
+      "author_username": "frame0app",
+      "author_name": "Frame0",
+      "tweet_text": "A sleek Balsamiq alternative low-fi wireframing tool for modern apps. - Hand-drawn style - Rich components 🚀 Start with free trial without time limit.",
+      "url": "https://x.com/frame0app/status/1959999699299275111",
+      "posted_time": "プロモーション",
+      "engagement": {
+        "replies": 0,
+        "retweets": 101,
+        "likes": 971,
+        "views": 2772511
+      },
+      "engagement_score": 1274,
+      "engagement_rate": 0.00046,
+      "estimated_impressions": 2772511
+    },
+    {
+      "rank": 6,
+      "author_username": "shanegJP",
+      "author_name": "シェイン・グウ",
+      "tweet_text": "あけましておめでとうございます！いくつかAI業界の動向をまとめました。🚀 Scaling Won't Stop (自律性とGrounding)...",
+      "url": "https://x.com/shanegJP/status/2006619902292144437",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 3,
+        "retweets": 40,
+        "likes": 209,
+        "views": 15498
+      },
+      "engagement_score": 344,
+      "engagement_rate": 0.0222,
+      "estimated_impressions": 15498
+    },
+    {
+      "rank": 7,
+      "author_username": "Kling_ai",
+      "author_name": "Kling AI",
+      "tweet_text": "New effects dropped. Time to own your 2025 recap. 🎬",
+      "url": "https://x.com/Kling_ai/status/2004928866541072740",
+      "posted_time": "数日前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 25,
+        "likes": 267,
+        "views": 101359
+      },
+      "engagement_score": 402,
+      "engagement_rate": 0.0040,
+      "estimated_impressions": 101359
+    },
+    {
+      "rank": 8,
+      "author_username": "tmiyatake1",
+      "author_name": "Tetsuro Miyatake",
+      "tweet_text": "2025年、世界が変わってるのを表す図 (パート2) 1/ AnthropicはB向け、OpenAIはC向け 2/ ChatGPTのリテンション 3/ ラブブ人気が低下 4/ ポケカの再熱 5/ ア...",
+      "url": "https://x.com/tmiyatake1/status/2006155815137186182",
+      "posted_time": "2025年12月31日",
+      "engagement": {
+        "replies": 1,
+        "retweets": 17,
+        "likes": 216,
+        "views": 38387
+      },
+      "engagement_score": 272,
+      "engagement_rate": 0.0071,
+      "estimated_impressions": 38387
+    },
+    {
+      "rank": 9,
+      "author_username": "kubotamas",
+      "author_name": "久保田 雅也@Coalis",
+      "tweet_text": "2026年が起業にベストな理由 1 - ハードウェアがスマートに: オープンモデル×安価ハードで、ロボットやデバイスが一気に高知能化し、用途が爆発 2 - SaaSが崩壊: AIが高額SaaSを安く代替...",
+      "url": "https://x.com/kubotamas/status/2006462200647672255",
+      "posted_time": "11時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 18,
+        "likes": 146,
+        "views": 15312
+      },
+      "engagement_score": 205,
+      "engagement_rate": 0.0134,
+      "estimated_impressions": 15312
+    },
+    {
+      "rank": 10,
+      "author_username": "PPodkayne",
+      "author_name": "Podkayne Podkayne",
+      "tweet_text": "【永久弱気のグランサムが\"日本🇯🇵買い\"やて!?】 ─悲観王が「日本にガチ投資」 これ、金融界の地殻変動やろ。 1/👴 ジェレミー・グランサム（GMO創業者） 「バブルは崩れる」って何十年も言い続けてきた男＝永久的な弱気派 その彼が今、\"日本に本気\" ここ、軽く見たらアカン👇",
+      "url": "https://x.com/PPodkayne/status/2006283082434019385",
+      "posted_time": "23時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 12,
+        "likes": 130,
+        "views": 13409
+      },
+      "engagement_score": 171,
+      "engagement_rate": 0.0128,
+      "estimated_impressions": 13409
+    },
+    {
+      "rank": 11,
+      "author_username": "masahirochaen",
+      "author_name": "チャエン | デジライズ CEO《重要AIニュース⚡",
+      "tweet_text": "このテストツール素晴らしい。AIコーディングは予期せぬエラーが多いので、優秀なテスターがあると助かる。 ＞ Maestro Studio Desktop 全ユーザーに無料提供 従来のUIテスト自動化（Appium等）で4時間かかる作業を5分に短縮 YAML構文でコンパイル不要",
+      "url": "https://x.com/masahirochaen/status/2006604302291517664",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 12,
+        "likes": 122,
+        "views": 12051
+      },
+      "engagement_score": 163,
+      "engagement_rate": 0.0135,
+      "estimated_impressions": 12051
+    },
+    {
+      "rank": 12,
+      "author_username": "burarimachi",
+      "author_name": "ぶらりまち♊",
+      "tweet_text": "🚨衝撃の年末警告🚨 FRBがついに\"瞬き\"した。すべてが崩れ始めている。 2025年12月31日。世界が新年を祝うその裏で、FRB（米連邦準備制度）は一晩で746億ドルものレポ（短期資金供給）を実施しました。",
+      "url": "https://x.com/burarimachi/status/2006600159795490835",
+      "posted_time": "2時間前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 15,
+        "likes": 53,
+        "views": 5680
+      },
+      "engagement_score": 98,
+      "engagement_rate": 0.0172,
+      "estimated_impressions": 5680
+    },
+    {
+      "rank": 13,
+      "author_username": "Suzacque",
+      "author_name": "朱雀 | SUZACQUE",
+      "tweet_text": "これ、ビジネスでGPT-5.2 proを使う場合にも似たようなことが言えるな",
+      "url": "https://x.com/Suzacque/status/2006511336583475507",
+      "posted_time": "8時間前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 3,
+        "likes": 54,
+        "views": 8524
+      },
+      "engagement_score": 63,
+      "engagement_rate": 0.0075,
+      "estimated_impressions": 8524
+    }
+  ],
+  "statistics": {
+    "total_tweets_analyzed": 13,
+    "average_engagement_rate": 0.0135,
+    "highest_engagement_rate": 0.0377,
+    "highest_views": 2772511,
+    "highest_engagement_score": 5831,
+    "notes": "Collection optimized with CSS zoom (67%) and large viewport (1710x1800). Continuing to collect more tweets toward 200 target."
+  }
+}

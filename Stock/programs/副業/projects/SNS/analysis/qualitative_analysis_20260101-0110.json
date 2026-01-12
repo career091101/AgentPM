@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "analysis_date": "2026-01-10",
+    "data_source": "Facebook Top 10 Posts",
+    "total_posts_analyzed": 7,
+    "analysis_method": "LLM qualitative analysis",
+    "platform": "Facebook"
+  },
+  "theme_analysis": {
+    "top_themes": [
+      "AI業界の規模感・投資額（1000億ドル規模のインフラ投資、18万台量産）",
+      "AI技術の具体的進化（エージェント自律化、コード自動生成、対話型アプリ）",
+      "産業への実用的影響（投資銀行業務代替、人型ロボット量産、冷却システム需要）"
+    ],
+    "topic_categories": {
+      "AI活用事例・実装": {
+        "count": 4,
+        "examples": [
+          "投資銀行業務のAI代替（週100時間→自動化）",
+          "エージェントによるコード開発完全自動化",
+          "ChatGPT内アプリ直接操作（8億ユーザー）",
+          "Sora2による数時間映像生成"
+        ],
+        "avg_impressions": 22177.5,
+        "engagement_rate": 0.507
+      },
+      "産業規模・投資動向": {
+        "count": 3,
+        "examples": [
+          "テスラ18万台人型ロボット部品調達（1000億円）",
+          "OpenAI+NVIDIA 1000億ドルインフラ投資",
+          "AI冷却設備が半導体超え（2770億ドル）"
+        ],
+        "avg_impressions": 26750.7,
+        "engagement_rate": 0.596
+      },
+      "未来予測・ビジョン": {
+        "count": 2,
+        "examples": [
+          "ジョナサン・アイブとの新AIデバイス開発",
+          "エージェントGDP影響は10億体稼働から"
+        ],
+        "avg_impressions": 10733.5,
+        "engagement_rate": 1.882
+      }
+    },
+    "sentiment": {
+      "positive": {
+        "count": 7,
+        "percentage": 100,
+        "keywords": ["革命", "加速", "拡大", "進化", "成長"]
+      },
+      "neutral": {
+        "count": 0,
+        "percentage": 0
+      },
+      "negative": {
+        "count": 0,
+        "percentage": 0
+      }
+    },
+    "expertise_level": {
+      "beginner_friendly": {
+        "count": 0,
+        "percentage": 0
+      },
+      "intermediate": {
+        "count": 5,
+        "percentage": 71.4,
+        "note": "具体的数値・企業名を交え、業界トレンドを解説"
+      },
+      "expert": {
+        "count": 2,
+        "percentage": 28.6,
+        "note": "技術的深掘り（MCP、01モデル、10ギガワット計算能力）"
+      }
+    },
+    "recommended_themes": [
+      "具体的な数値で規模感を示す（18万台、1000億ドル、10ギガワット）",
+      "産業への実用的影響を明示（投資銀行週100時間削減、映像制作コストゼロ）",
+      "著名人・大企業を引用（サム・アルトマン、ジョナサン・アイブ、テスラ、NVIDIA）",
+      "時間軸を明確化（2026年、2年後、数時間以内）",
+      "対比構造の活用（従来vs新技術、制約vs突破）"
+    ]
+  },
+  "format_analysis": {
+    "text_only": {
+      "count": 0,
+      "avg_impressions": 0,
+      "avg_engagement": 0,
+      "note": "該当なし"
+    },
+    "with_image": {
+      "count": 7,
+      "avg_impressions": 23980.3,
+      "avg_engagement_rate": 0.526,
+      "note": "全トップ投稿が写真付き。視覚的インパクトが必須"
+    },
+    "with_video": {
+      "count": 0,
+      "avg_impressions": 0,
+      "avg_engagement": 0,
+      "note": "トップ10には含まれず（リール動画は下位）"
+    },
+    "thread": {
+      "count": 0,
+      "avg_impressions": 0,
+      "avg_engagement": 0,
+      "note": "Facebook非対応（X専用フォーマット）"
+    },
+    "carousel": {
+      "count": 0,
+      "avg_impressions": 0,
+      "avg_engagement": 0,
+      "note": "LinkedIn専用フォーマット、Facebook非対応"
+    },
+    "comparison": {
+      "image_vs_video": {
+        "image_avg_impressions": 7175.3,
+        "video_avg_impressions": 2986.0,
+        "image_advantage": "2.4倍",
+        "conclusion": "写真付き投稿が圧倒的に優位（Facebook特性）"
+      }
+    }
+  },
+  "text_optimization": {
+    "optimal_char_range": {
+      "facebook": "250-400文字",
+      "analysis": "トップ投稿の平均文字数は約350文字。見出し1行（50-80文字）+ 本文3-5行構成が主流"
+    },
+    "structure_pattern": {
+      "hook_sentence": {
+        "example": "「投資銀行のジュニアが週100時間こなす業務を、AIが代替できる時代がやってきた」",
+        "pattern": "具体的数値 + 衝撃的変化を1文で表現",
+        "char_count": "50-80文字"
+      },
+      "body": {
+        "pattern": "企業名・人物名引用 + 具体的数値・規模感 + 産業への影響",
+        "char_count": "200-300文字"
+      },
+      "conclusion": {
+        "pattern": "時間軸明示 + 変化の本質的意味",
+        "char_count": "50-100文字"
+      }
+    },
+    "hashtag_recommendation": {
+      "facebook": {
+        "optimal_count": "0-2個",
+        "analysis": "トップ投稿にハッシュタグはほぼ使用されず。Facebookアルゴリズムはテキスト本文を重視",
+        "alternative": "本文内に自然にキーワードを埋め込む（AI、OpenAI、投資、規模、革命など）"
+      }
+    },
+    "emoji_impact": {
+      "usage_rate": 0,
+      "avg_engagement_with_emoji": 0,
+      "avg_engagement_without_emoji": 0.526,
+      "conclusion": "トップ投稿は絵文字を使用しない。専門的・ビジネス寄りのトーンが支持される",
+      "recommendation": "絵文字は避け、データ・引用・数値で信頼性を担保"
+    },
+    "keyword_frequency": {
+      "top_keywords": {
+        "AI": 11,
+        "OpenAI": 6,
+        "億": 8,
+        "時間": 5,
+        "自動": 4,
+        "革命": 3,
+        "規模": 3
+      },
+      "power_phrases": [
+        "〜が断言する",
+        "史上最大規模",
+        "常識を覆す",
+        "本格参入",
+        "完全に自動化"
+      ]
+    }
+  },
+  "engagement_drivers": {
+    "high_performers": [
+      {
+        "factor": "巨大な数値（18万台、1000億ドル）",
+        "avg_impressions": 38875,
+        "impact": "規模感の視覚化で注目獲得"
+      },
+      {
+        "factor": "著名人引用（サム・アルトマン、ジョナサン・アイブ）",
+        "avg_impressions": 26597,
+        "impact": "信頼性と権威性の付与"
+      },
+      {
+        "factor": "産業への具体的影響（週100時間削減、コストゼロ）",
+        "avg_impressions": 23576,
+        "impact": "読者の実務への関連性"
+      }
+    ],
+    "low_performers": [
+      {
+        "factor": "抽象的・哲学的内容（フロイト引用）",
+        "avg_impressions": 697,
+        "impact": "実用性が不明確"
+      },
+      {
+        "factor": "マイナス要素（米中対立、規制、混乱）",
+        "avg_impressions": 988,
+        "impact": "ネガティブトーンは避けられる"
+      }
+    ]
+  },
+  "content_formula": {
+    "winning_pattern": {
+      "title": "【衝撃的数値 + 権威ある引用】で始める",
+      "body": "【企業名・人物名】+【具体的数値】+【産業影響】を3段構成",
+      "tone": "ポジティブ・前向き（革命、加速、拡大）",
+      "format": "写真付き（視覚的インパクト必須）",
+      "length": "250-400文字",
+      "hashtags": "0-2個（本文にキーワード自然埋め込み）",
+      "emoji": "使用しない（専門性重視）"
+    },
+    "example_structure": {
+      "line1": "「具体的数値で衝撃的変化を示す」と権威ある人物が断言",
+      "line2": "企業名は具体的な数値規模（億ドル、万台）の投資・展開を発表",
+      "line3": "従来の制約（コスト高、時間かかる）が、新技術で突破される",
+      "line4": "産業への実用的影響を明示（週100時間削減、コストゼロ化）",
+      "line5": "時間軸を明確化（2年後、2026年）して緊急性を演出"
+    }
+  },
+  "platform_specific_insights": {
+    "facebook": {
+      "algorithm_preference": "テキスト本文の質とエンゲージメント初速を重視",
+      "optimal_posting_time": "朝3-5時（データから推測）",
+      "image_requirement": "必須（トップ投稿100%が写真付き）",
+      "hashtag_strategy": "最小限（0-2個）、本文に自然にキーワード配置",
+      "tone": "専門的・ビジネス寄り（絵文字なし、データ重視）"
+    }
+  },
+  "key_insights": [
+    "1. 具体的数値（18万台、1000億ドル）がインプレッションを2-3倍向上させる",
+    "2. 著名人・大企業引用（サム・アルトマン、テスラ、NVIDIA）が信頼性とエンゲージメントを高める",
+    "3. 写真付き投稿が動画比2.4倍のインプレッション（Facebookアルゴリズム特性）",
+    "4. 最適文字数は250-400文字（見出し1行 + 本文3-5行構成）",
+    "5. ハッシュタグは0-2個、絵文字不使用が専門性を担保しトップパフォーマンスを実現"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "n7cf33ee2ea2d",
+  "title": "あなたの感情を商品化しない方法",
+  "url": "https://note.com/kensuu/n/n7cf33ee2ea2d",
+  "author": "けんすう",
+  "author_id": "kensuu",
+  "published_at": "2026-01-05T21:10:10+09:00",
+  "like_count": 154,
+  "comment_count": 1,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "kensuu",
+  "genre": "business",
+  "content": {
+    "word_count": 4164,
+    "heading_count": 6,
+    "hashtags": []
+  },
+  "quality": {
+    "score": 80,
+    "tier": "A",
+    "details": {
+      "word_count": {
+        "score": 20,
+        "value": 4164,
+        "status": "optimal"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 0,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 154,
+        "status": "high"
+      },
+      "comments": {
+        "score": 10,
+        "count": 1,
+        "status": "has_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 6,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 5,
+        "hour": 21,
+        "status": "good_time"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:03"
+}

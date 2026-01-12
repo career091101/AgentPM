@@ -1,0 +1,311 @@
+# ケーススタディCPFスコア別インデックス
+
+**総件数**: 143件
+**最終更新**: 2025-12-29
+
+**CPF基準値**: 60%以上
+
+## 90-100%（優秀）（50件）
+
+- [Alejandro Cremades - Onevest/CoFoundersLab](documents/02_Unicorn/FOUNDER_074_alejandro_cremades.md)
+  - CPF: 99%, インタビュー数: 0
+- [Tom Preston-Werner & Chris Wanstrath - GitHub](documents/03_VC_Backed/FOUNDER_157_github.md)
+  - CPF: 95%, インタビュー数: None
+- [Ali Ghodsi - Databricks (Pre-IPO Unicorn)](documents/05_IPO_Global/FOUNDER_360_ali_ghodsi_databricks.md)
+  - CPF: 95%, インタビュー数: None
+- [Eric Yuan - Zoom Video Communications](documents/05_IPO_Global/FOUNDER_352_eric_yuan_zoom.md)
+  - CPF: 95%, インタビュー数: None
+- [Frank Slootman - Snowflake (Mega IPO)](documents/05_IPO_Global/FOUNDER_359_frank_slootman_snowflake.md)
+  - CPF: 95%, インタビュー数: None
+- [Tobi Lutke - Shopify (IPO Success Story)](documents/05_IPO_Global/FOUNDER_357_tobi_lutke_ipo.md)
+  - CPF: 95%, インタビュー数: None
+- [三木谷浩史 - 楽天グループ](documents/01_Legendary/FOUNDER_019_hiroshi_mikitani.md)
+  - CPF: 95%, インタビュー数: None
+- [Paul Graham - Y Combinator](documents/01_Legendary/FOUNDER_050_paul_graham.md)
+  - CPF: 95%, インタビュー数: None
+- [Mark Zuckerberg - Meta (Facebook)](documents/01_Legendary/FOUNDER_023_mark_zuckerberg.md)
+  - CPF: 95%, インタビュー数: None
+- [Dylan Field - Figma](documents/01_Legendary/FOUNDER_014_dylan_field.md)
+  - CPF: 95%, インタビュー数: None
+- [Tadashi Yanai - UNIQLO/Fast Retailing](documents/01_Legendary/FOUNDER_020_tadashi_yanai.md)
+  - CPF: 95%, インタビュー数: None
+- [Eric Yuan - Zoom Video Communications](documents/01_Legendary/FOUNDER_033_eric_yuan.md)
+  - CPF: 95%, インタビュー数: None
+- [Travis Kalanick - Uber](documents/01_Legendary/FOUNDER_012_travis_kalanick.md)
+  - CPF: 95%, インタビュー数: None
+- [Daniel Ek - Spotify](documents/01_Legendary/FOUNDER_013_daniel_ek.md)
+  - CPF: 95%, インタビュー数: None
+- [Bill Gates - Microsoft](documents/01_Legendary/FOUNDER_024_bill_gates.md)
+  - CPF: 95%, インタビュー数: None
+- [Masayoshi Son - SoftBank](documents/01_Legendary/FOUNDER_018_masayoshi_son.md)
+  - CPF: 95%, インタビュー数: None
+- [Patrick Collison - Stripe](documents/01_Legendary/FOUNDER_007_patrick_collison.md)
+  - CPF: 95%, インタビュー数: None
+- [Jan Koum - WhatsApp](documents/01_Legendary/FOUNDER_016_jan_koum.md)
+  - CPF: 95%, インタビュー数: None
+- [Jeff Bezos - Amazon](documents/01_Legendary/FOUNDER_002_jeff_bezos.md)
+  - CPF: 95%, インタビュー数: None
+- [Gary Vaynerchuk - VaynerMedia / VaynerX](documents/01_Legendary/FOUNDER_040_gary_vaynerchuk.md)
+  - CPF: 95%, インタビュー数: None
+- [Sam Altman - OpenAI](documents/01_Legendary/FOUNDER_031_sam_altman.md)
+  - CPF: 95%, インタビュー数: None
+- [Ben Horowitz - Loudcloud/Opsware/Andreessen Horowitz](documents/01_Legendary/FOUNDER_048_ben_horowitz.md)
+  - CPF: 95%, インタビュー数: None
+- [Steve Jobs - Apple Inc.](documents/01_Legendary/FOUNDER_025_steve_jobs.md)
+  - CPF: 95%, インタビュー数: None
+- [Marc Andreessen - Netscape/a16z](documents/01_Legendary/FOUNDER_004_marc_andreessen.md)
+  - CPF: 95%, インタビュー数: None
+- [Stewart Butterfield - Flickr/Slack](documents/01_Legendary/FOUNDER_008_stewart_butterfield.md)
+  - CPF: 95%, インタビュー数: None
+- [Jensen Huang - NVIDIA](documents/01_Legendary/FOUNDER_026_jensen_huang.md)
+  - CPF: 95%, インタビュー数: None
+- [Tobi Lutke - Shopify](documents/01_Legendary/FOUNDER_015_tobi_lutke.md)
+  - CPF: 95%, インタビュー数: None
+- [Kevin Systrom - Instagram](documents/01_Legendary/FOUNDER_010_kevin_systrom.md)
+  - CPF: 95%, インタビュー数: None
+- [Vlad Tenev - Robinhood](documents/01_Legendary/FOUNDER_035_vlad_tenev.md)
+  - CPF: 95%, インタビュー数: None
+- [Naval Ravikant - AngelList](documents/01_Legendary/FOUNDER_039_naval_ravikant.md)
+  - CPF: 95%, インタビュー数: None
+- [Drew Houston - Dropbox](documents/01_Legendary/FOUNDER_009_drew_houston.md)
+  - CPF: 95%, インタビュー数: None
+- [Sergey Brin - Google/Alphabet](documents/01_Legendary/FOUNDER_022_sergey_brin.md)
+  - CPF: 95%, インタビュー数: None
+- [Dario Amodei - Anthropic](documents/01_Legendary/FOUNDER_032_dario_amodei.md)
+  - CPF: 95%, インタビュー数: None
+- [Peter Thiel - PayPal/Palantir](documents/01_Legendary/FOUNDER_005_peter_thiel.md)
+  - CPF: 95%, インタビュー数: None
+- [Whitney Wolfe Herd - Bumble](documents/01_Legendary/FOUNDER_017_whitney_wolfe_herd.md)
+  - CPF: 95%, インタビュー数: None
+- [Larry Page - Google/Alphabet](documents/01_Legendary/FOUNDER_021_larry_page.md)
+  - CPF: 95%, インタビュー数: None
+- [宮田昇始 - SmartHR](documents/04_IPO_Japan/FOUNDER_315_shoji_miyata.md)
+  - CPF: 95%, インタビュー数: 50
+- [Tope Awotona - Calendly](documents/02_Unicorn/FOUNDER_054_tope_awotona.md)
+  - CPF: 95%, インタビュー数: 0
+- [Melanie Perkins - Canva](documents/02_Unicorn/FOUNDER_051_melanie_perkins.md)
+  - CPF: 95%, インタビュー数: None
+- [Rich Barton - Zillow](documents/02_Unicorn/FOUNDER_089_rich_barton.md)
+  - CPF: 95%, インタビュー数: 100
+- [Guillermo Rauch - Vercel](documents/02_Unicorn/FOUNDER_053_guillermo_rauch.md)
+  - CPF: 95%, インタビュー数: None
+- [Alexandr Wang - Scale AI](documents/02_Unicorn/FOUNDER_097_alexandr_wang_scale_ai.md)
+  - CPF: 95%, インタビュー数: 100
+- [Brian Armstrong, Fred Ehrsam - Coinbase](documents/03_VC_Backed/FOUNDER_152_coinbase.md)
+  - CPF: 90%, インタビュー数: 50
+- [Mike Cannon-Brookes & Scott Farquhar - Atlassian (Bootstrap to IPO)](documents/05_IPO_Global/FOUNDER_358_atlassian.md)
+  - CPF: 90%, インタビュー数: None
+- [Tim Cook - Apple Supply Chain Revolution](documents/01_Legendary/FOUNDER_029_tim_cook.md)
+  - CPF: 90%, インタビュー数: 40
+- [Elon Musk - Tesla/SpaceX](documents/01_Legendary/FOUNDER_001_elon_musk.md)
+  - CPF: 90%, インタビュー数: None
+- [辻庸介 - マネーフォワード](documents/04_IPO_Japan/FOUNDER_318_yosuke_tsuji.md)
+  - CPF: 90%, インタビュー数: 120
+- [寺田親弘 - Sansan](documents/04_IPO_Japan/FOUNDER_313_chikahiro_terada.md)
+  - CPF: 90%, インタビュー数: 200
+- [Justin Rosenstein - Asana](documents/02_Unicorn/FOUNDER_097_justin_rosenstein.md)
+  - CPF: 90%, インタビュー数: None
+- [Ryan Petersen - Flexport](documents/02_Unicorn/FOUNDER_087_ryan_petersen.md)
+  - CPF: 90%, インタビュー数: 300
+
+## 80-89%（良好）（22件）
+
+- [Brian Chesky, Joe Gebbia, Nathan Blecharczyk - Airbnb](documents/03_VC_Backed/FOUNDER_151_airbnb.md)
+  - CPF: 85%, インタビュー数: 100
+- [Brian Armstrong - Coinbase](documents/05_IPO_Global/FOUNDER_355_coinbase.md)
+  - CPF: 85%, インタビュー数: None
+- [Jack Dorsey - Twitter/Square (Block)](documents/01_Legendary/FOUNDER_011_jack_dorsey.md)
+  - CPF: 85%, インタビュー数: None
+- [Sahil Lavingia - Gumroad](documents/01_Legendary/FOUNDER_044_sahil_lavingia.md)
+  - CPF: 85%, インタビュー数: None
+- [Ryan Graves - Uber](documents/01_Legendary/FOUNDER_037_ryan_graves.md)
+  - CPF: 85%, インタビュー数: 10
+- [Brian Chesky - Airbnb](documents/01_Legendary/FOUNDER_006_brian_chesky.md)
+  - CPF: 85%, インタビュー数: None
+- [Tim Ferriss - 著者/投資家/ポッドキャスター](documents/01_Legendary/FOUNDER_047_tim_ferriss.md)
+  - CPF: 85%, インタビュー数: None
+- [Jason Fried - 37signals/Basecamp](documents/01_Legendary/FOUNDER_041_jason_fried.md)
+  - CPF: 85%, インタビュー数: None
+- [Reid Hoffman - LinkedIn](documents/01_Legendary/FOUNDER_003_reid_hoffman.md)
+  - CPF: 85%, インタビュー数: None
+- [Nathan Barry - Kit (ConvertKit)](documents/01_Legendary/FOUNDER_045_nathan_barry.md)
+  - CPF: 85%, インタビュー数: 100+
+- [David Heinemeier Hansson (DHH) - Ruby on Rails/Basecamp/37signals](documents/01_Legendary/FOUNDER_042_dhh.md)
+  - CPF: 85%, インタビュー数: None
+- [Pat Flynn - Smart Passive Income](documents/01_Legendary/FOUNDER_046_pat_flynn.md)
+  - CPF: 85%, インタビュー数: None
+- [Pieter Levels - Nomad List/Remote OK/Photo AI](documents/01_Legendary/FOUNDER_043_pieter_levels.md)
+  - CPF: 85%, インタビュー数: None
+- [Satya Nadella - Microsoft Azure/Cloud Transformation](documents/01_Legendary/FOUNDER_027_satya_nadella.md)
+  - CPF: 85%, インタビュー数: 30
+- [Tony Xu - DoorDash](documents/01_Legendary/FOUNDER_034_tony_xu.md)
+  - CPF: 85%, インタビュー数: 100
+- [有安伸宏 - ヘイ（BASE）](documents/04_IPO_Japan/FOUNDER_320_nobuhiro_ariyasu.md)
+  - CPF: 85%, インタビュー数: 50
+- [佐々木大輔 - freee](documents/04_IPO_Japan/FOUNDER_314_daisuke_sasaki.md)
+  - CPF: 85%, インタビュー数: 150
+- [Ev Williams - Twitter](documents/02_Unicorn/FOUNDER_088_ev_williams.md)
+  - CPF: 85%, インタビュー数: None
+- [Ivan Zhao - Notion](documents/02_Unicorn/FOUNDER_052_ivan_zhao.md)
+  - CPF: 85%, インタビュー数: None
+- [Andy Jassy - Amazon Web Services (AWS)](documents/01_Legendary/FOUNDER_030_andy_jassy.md)
+  - CPF: 80%, インタビュー数: 35
+- [倉橋健太・柴山直樹 - プレイド](documents/04_IPO_Japan/FOUNDER_319_kenta_kurahashi.md)
+  - CPF: 80%, インタビュー数: 100
+- [松本恭攝 - ラクスル](documents/04_IPO_Japan/FOUNDER_312_kyosuke_matsumoto.md)
+  - CPF: 80%, インタビュー数: 100
+
+## 70-79%（合格）（7件）
+
+- [梅田優祐・稲垣裕介 - ユーザベース](documents/04_IPO_Japan/FOUNDER_317_yusuke_umeda.md)
+  - CPF: 75%, インタビュー数: 80
+- [Jason Citron - Discord](documents/02_Unicorn/FOUNDER_083_jason_citron.md)
+  - CPF: 75%, インタビュー数: 0
+- [Logan Green - Lyft](documents/01_Legendary/FOUNDER_036_logan_green.md)
+  - CPF: 70%, インタビュー数: 50
+- [Sundar Pichai - Google Chrome/Android](documents/01_Legendary/FOUNDER_028_sundar_pichai.md)
+  - CPF: 70%, インタビュー数: 25
+- [南壮一郎 - ビズリーチ](documents/04_IPO_Japan/FOUNDER_316_soichiro_minami.md)
+  - CPF: 70%, インタビュー数: 100
+- [Jeremy Stoppelman - Yelp](documents/02_Unicorn/FOUNDER_084_jeremy_stoppelman.md)
+  - CPF: 70%, インタビュー数: 0
+- [Max Levchin - PayPal/Affirm](documents/02_Unicorn/FOUNDER_075_max_levchin.md)
+  - CPF: 70%, インタビュー数: 0
+
+## 60-69%（基準値）（3件）
+
+- [Pierre Omidyar - eBay](documents/02_Unicorn/FOUNDER_081_pierre_omidyar.md)
+  - CPF: 65%, インタビュー数: 0
+- [Pierre Omidyar - eBay](documents/05_IPO_Global/FOUNDER_353_pierre_omidyar_ebay.md)
+  - CPF: 60%, インタビュー数: 0
+- [Tony Hsieh - Zappos](documents/01_Legendary/FOUNDER_038_tony_hsieh.md)
+  - CPF: 60%, インタビュー数: 0
+
+## 60%未満（要改善）（15件）
+
+- [Steve Chen - YouTube](documents/02_Unicorn/FOUNDER_078_steve_chen.md)
+  - CPF: 50%, インタビュー数: 0
+- [Chad Hurley - YouTube](documents/02_Unicorn/FOUNDER_077_chad_hurley.md)
+  - CPF: 50%, インタビュー数: 0
+- [Jawed Karim - YouTube](documents/02_Unicorn/FOUNDER_076_jawed_karim.md)
+  - CPF: 50%, インタビュー数: 0
+- [Anne Wojcicki - 23andMe](documents/02_Unicorn/FOUNDER_071_anne_wojcicki.md)
+  - CPF: 50%, インタビュー数: 0
+- [Ritesh Agarwal - OYO Rooms](documents/02_Unicorn/FOUNDER_073_ritesh_agarwal.md)
+  - CPF: 40%, インタビュー数: 100
+- [Byju Raveendran - BYJU'S](documents/02_Unicorn/FOUNDER_072_byju_raveendran.md)
+  - CPF: 35%, インタビュー数: 15
+- [Evan Spiegel - Snapchat / Snap Inc.](documents/02_Unicorn/FOUNDER_082_evan_spiegel.md)
+  - CPF: 30%, インタビュー数: 25
+- [Bobby Murphy - Snapchat/Snap Inc.](documents/02_Unicorn/FOUNDER_080_bobby_murphy.md)
+  - CPF: 25%, インタビュー数: 20
+- [Evan Spiegel - Snapchat / Snap Inc.](documents/02_Unicorn/FOUNDER_079_evan_spiegel.md)
+  - CPF: 25%, インタビュー数: 20
+- [Elon Musk - SpaceX](documents/03_VC_Backed/FOUNDER_361_spacex.md)
+  - CPF: 10%, インタビュー数: None
+- [Peter Thiel & Alex Karp - Palantir](documents/03_VC_Backed/FOUNDER_159_palantir.md)
+  - CPF: 10%, インタビュー数: None
+- [Dustin Moskovitz & Justin Rosenstein - Asana](documents/05_IPO_Global/FOUNDER_362_asana.md)
+  - CPF: 10%, インタビュー数: None
+- [Elon Musk - SpaceX](documents/02_Unicorn/FOUNDER_085_elon_musk_spacex.md)
+  - CPF: 10%, インタビュー数: 0
+- [Travis Kalanick - Uber](documents/03_VC_Backed/FOUNDER_161_uber.md)
+  - CPF: 9%, インタビュー数: 50
+- [Todd McKinnon & Frederic Kerrest - Okta](documents/03_VC_Backed/FOUNDER_160_okta.md)
+  - CPF: 9%, インタビュー数: None
+
+## データなし（46件）
+
+- [Steve Huffman & Alexis Ohanian - Reddit](documents/05_IPO_Global/FOUNDER_363_reddit.md)
+  - CPF: None%, インタビュー数: None
+- [Jan Koum & Brian Acton - WhatsApp](documents/05_IPO_Global/FOUNDER_351_jan_koum_whatsapp.md)
+  - CPF: None%, インタビュー数: 0
+- [Fred Wilson - Union Square Ventures](documents/01_Legendary/FOUNDER_049_fred_wilson.md)
+  - CPF: None%, インタビュー数: 100
+- [南場智子 - ディー・エヌ・エー（DeNA）](documents/04_IPO_Japan/FOUNDER_302_tomoko_namba.md)
+  - CPF: None%, インタビュー数: None
+- [笠原健治 - MIXI (mixi)](documents/04_IPO_Japan/FOUNDER_303_kenji_kasahara.md)
+  - CPF: None%, インタビュー数: None
+- [田中良和 - グリー株式会社](documents/04_IPO_Japan/FOUNDER_306_yoshikazu_tanaka.md)
+  - CPF: None%, インタビュー数: None
+- [吉田浩一郎 - クラウドワークス](documents/04_IPO_Japan/FOUNDER_309_koichiro_yoshida.md)
+  - CPF: None%, インタビュー数: None
+- [福島良典 - LayerX / Gunosy](documents/04_IPO_Japan/FOUNDER_310_yoshinori_fukushima.md)
+  - CPF: None%, インタビュー数: None
+- [前澤友作 - ZOZO（スタートトゥデイ）](documents/04_IPO_Japan/FOUNDER_301_yusaku_maezawa.md)
+  - CPF: None%, インタビュー数: None
+- [出澤剛 - LINE（LINEヤフー）](documents/04_IPO_Japan/FOUNDER_307_takeshi_idezawa.md)
+  - CPF: None%, インタビュー数: None
+- [藤田晋 - サイバーエージェント](documents/04_IPO_Japan/FOUNDER_304_susumu_fujita.md)
+  - CPF: None%, インタビュー数: None
+- [佐藤裕介 - STORES（旧hey）](documents/04_IPO_Japan/FOUNDER_311_yusuke_sato.md)
+  - CPF: None%, インタビュー数: None
+- [山田進太郎 - メルカリ](documents/04_IPO_Japan/FOUNDER_308_shintaro_yamada.md)
+  - CPF: None%, インタビュー数: None
+- [堀江貴文 - ライブドア（旧オン・ザ・エッヂ）](documents/04_IPO_Japan/FOUNDER_305_takafumi_horie.md)
+  - CPF: None%, インタビュー数: None
+- [Apoorva Mehta - Instacart](documents/02_Unicorn/FOUNDER_066_apoorva_mehta.md)
+  - CPF: None%, インタビュー数: None
+- [Dharmesh Shah - HubSpot](documents/02_Unicorn/FOUNDER_062_dharmesh_shah.md)
+  - CPF: None%, インタビュー数: None
+- [David Cancel - Drift](documents/02_Unicorn/FOUNDER_059_david_cancel.md)
+  - CPF: None%, インタビュー数: None
+- [George Kurtz - CrowdStrike](documents/02_Unicorn/FOUNDER_089_george_kurtz.md)
+  - CPF: None%, インタビュー数: None
+- [Emmett Shear - Twitch](documents/02_Unicorn/FOUNDER_064_emmett_shear.md)
+  - CPF: None%, インタビュー数: None
+- [Bhavish Aggarwal - Ola](documents/02_Unicorn/FOUNDER_096_bhavish_aggarwal.md)
+  - CPF: None%, インタビュー数: None
+- [Mariam Naficy - Minted](documents/02_Unicorn/FOUNDER_069_mariam_naficy.md)
+  - CPF: None%, インタビュー数: None
+- [Olivier Pomel - Datadog](documents/02_Unicorn/FOUNDER_056_olivier_pomel.md)
+  - CPF: None%, インタビュー数: None
+- [Shantanu Narayen - Adobe](documents/02_Unicorn/FOUNDER_085_shantanu_narayen.md)
+  - CPF: None%, インタビュー数: None
+- [Sridhar Vembu - Zoho Corporation](documents/02_Unicorn/FOUNDER_091_sridhar_vembu.md)
+  - CPF: None%, インタビュー数: None
+- [Aaron Levie - Box](documents/02_Unicorn/FOUNDER_061_aaron_levie.md)
+  - CPF: None%, インタビュー数: None
+- [Jeff Lawson - Twilio](documents/02_Unicorn/FOUNDER_083_jeff_lawson.md)
+  - CPF: None%, インタビュー数: None
+- [Jay Chaudhry - Zscaler](documents/02_Unicorn/FOUNDER_088_jay_chaudhry.md)
+  - CPF: None%, インタビュー数: None
+- [Kunal Shah - CRED](documents/02_Unicorn/FOUNDER_094_kunal_shah.md)
+  - CPF: None%, インタビュー数: None
+- [Brian Halligan - HubSpot](documents/02_Unicorn/FOUNDER_063_brian_halligan.md)
+  - CPF: None%, インタビュー数: None
+- [Nikesh Arora - Palo Alto Networks](documents/02_Unicorn/FOUNDER_090_nikesh_arora.md)
+  - CPF: None%, インタビュー数: None
+- [Girish Mathrubootham - Freshworks](documents/02_Unicorn/FOUNDER_060_girish_mathrubootham.md)
+  - CPF: None%, インタビュー数: None
+- [Luis von Ahn - Duolingo](documents/02_Unicorn/FOUNDER_081_luis_von_ahn.md)
+  - CPF: None%, インタビュー数: None
+- [Ryan Smith - Qualtrics](documents/02_Unicorn/FOUNDER_082_ryan_smith.md)
+  - CPF: None%, インタビュー数: None
+- [Binny Bansal - Flipkart](documents/02_Unicorn/FOUNDER_093_binny_bansal.md)
+  - CPF: None%, インタビュー数: None
+- [Frank Slootman - Snowflake / ServiceNow / Data Domain](documents/02_Unicorn/FOUNDER_084_frank_slootman.md)
+  - CPF: None%, インタビュー数: None
+- [Ali Ghodsi - Databricks](documents/02_Unicorn/FOUNDER_087_ali_ghodsi.md)
+  - CPF: None%, インタビュー数: None
+- [Sachin Bansal - Flipkart](documents/02_Unicorn/FOUNDER_092_sachin_bansal.md)
+  - CPF: None%, インタビュー数: None
+- [Katrina Lake - Stitch Fix](documents/02_Unicorn/FOUNDER_067_katrina_lake.md)
+  - CPF: None%, インタビュー数: 20
+- [Dustin Moskovitz - Asana](documents/02_Unicorn/FOUNDER_065_dustin_moskovitz.md)
+  - CPF: None%, インタビュー数: None
+- [Emily Weiss - Glossier](documents/02_Unicorn/FOUNDER_068_emily_weiss.md)
+  - CPF: None%, インタビュー数: 400
+- [Nick Mehta - Gainsight](documents/02_Unicorn/FOUNDER_058_nick_mehta.md)
+  - CPF: None%, インタビュー数: None
+- [Arvind Krishna - IBM](documents/02_Unicorn/FOUNDER_086_arvind_krishna.md)
+  - CPF: None%, インタビュー数: None
+- [Henry Ward - Carta](documents/02_Unicorn/FOUNDER_057_henry_ward.md)
+  - CPF: None%, インタビュー数: None
+- [Vijay Shekhar Sharma - Paytm](documents/02_Unicorn/FOUNDER_095_vijay_shekhar.md)
+  - CPF: None%, インタビュー数: None
+- [Michael Preysman - Everlane](documents/02_Unicorn/FOUNDER_070_michael_preysman.md)
+  - CPF: None%, インタビュー数: None
+- [Mikkel Svane - Zendesk](documents/02_Unicorn/FOUNDER_055_mikkel_svane.md)
+  - CPF: None%, インタビュー数: None
+

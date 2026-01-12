@@ -1,0 +1,56 @@
+{
+  "id": "nebe958c4651c",
+  "title": "新党『チームみらい』結党に関する記者会見の全文書き起こし（安野たかひろ）",
+  "url": "https://note.com/takahiroanno/n/nebe958c4651c",
+  "author": "安野貴博",
+  "author_id": "takahiroanno",
+  "published_at": "2025-05-08T18:06:47+09:00",
+  "like_count": 660,
+  "comment_count": 4,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "takahiroanno",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 5611,
+    "heading_count": 0,
+    "hashtags": []
+  },
+  "quality": {
+    "score": 60,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 15,
+        "value": 5611,
+        "status": "acceptable"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 0,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 660,
+        "status": "high"
+      },
+      "comments": {
+        "score": 10,
+        "count": 4,
+        "status": "has_comments"
+      },
+      "structure": {
+        "score": 0,
+        "headings": 0,
+        "status": "flat"
+      },
+      "timing": {
+        "score": 10,
+        "hour": 18,
+        "status": "golden_hour"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:06"
+}

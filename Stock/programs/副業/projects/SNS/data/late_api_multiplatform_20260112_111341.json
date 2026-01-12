@@ -1,0 +1,92 @@
+{
+  "executed_at": "2026-01-12T11:13:41.577743+09:00",
+  "target_date": "2026-01-15",
+  "posting_schedule": {
+    "linkedin": [
+      {
+        "time": "08:00",
+        "type": "main",
+        "topic": "top1"
+      }
+    ],
+    "twitter": [
+      {
+        "time": "07:30",
+        "type": "derived",
+        "topic": "top1"
+      },
+      {
+        "time": "12:00",
+        "type": "thread",
+        "topic": "top2"
+      },
+      {
+        "time": "20:00",
+        "type": "thread",
+        "topic": "top3"
+      }
+    ],
+    "threads": [
+      {
+        "time": "07:30",
+        "type": "derived",
+        "topic": "top1"
+      },
+      {
+        "time": "20:00",
+        "type": "new",
+        "topic": "top2"
+      }
+    ]
+  },
+  "results": [
+    {
+      "platform": "linkedin",
+      "type": "main",
+      "status": "success",
+      "post_id": "696458ca49cbce4da6dcc9ca",
+      "scheduled_for": "2026-01-15T08:00:00+09:00",
+      "title": "Elon Muskの元妻Justineが明かした、彼の成功の秘訣。"
+    },
+    {
+      "platform": "twitter",
+      "type": "derived",
+      "status": "success",
+      "post_id": "696458cc49cbce4da6dcca39",
+      "scheduled_for": "2026-01-15T07:30:00+09:00",
+      "title": "X派生（Top1）"
+    },
+    {
+      "platform": "twitter",
+      "type": "thread",
+      "status": "success",
+      "post_id": "696458ce49cbce4da6dcca97",
+      "scheduled_for": "2026-01-15T12:00:00+09:00",
+      "title": "Xスレッド1（Top2、6ツイート）"
+    },
+    {
+      "platform": "twitter",
+      "type": "thread",
+      "status": "success",
+      "post_id": "696458d149cbce4da6dccb0c",
+      "scheduled_for": "2026-01-15T20:00:00+09:00",
+      "title": "Xスレッド2（Top3、7ツイート）"
+    },
+    {
+      "platform": "threads",
+      "type": "derived",
+      "status": "success",
+      "post_id": "696458d249cbce4da6dccb91",
+      "scheduled_for": "2026-01-15T07:30:00+09:00",
+      "title": "Threads派生（Top1）"
+    },
+    {
+      "platform": "threads",
+      "type": "new",
+      "status": "success",
+      "post_id": "696458d549cbce4da6dccc14",
+      "scheduled_for": "2026-01-15T20:00:00+09:00",
+      "title": "Threads新規（Top2）"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "n85d6107fc919",
+  "title": "生成AIの著作権問題と、生成AIとIPビジネスをやるときに考えたこと【ビックリマン】",
+  "url": "https://note.com/kensuu/n/n85d6107fc919",
+  "author": "けんすう",
+  "author_id": "kensuu",
+  "published_at": "2026-01-06T22:29:59+09:00",
+  "like_count": 283,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "kensuu",
+  "genre": "business",
+  "content": {
+    "word_count": 4418,
+    "heading_count": 6,
+    "hashtags": [
+      "#生成AI",
+      "#AIとやってみた",
+      "#AI画像生成",
+      "#ビックリマン"
+    ]
+  },
+  "quality": {
+    "score": 80,
+    "tier": "A",
+    "details": {
+      "word_count": {
+        "score": 20,
+        "value": 4418,
+        "status": "optimal"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 4,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 283,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 6,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 22,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:53:59"
+}

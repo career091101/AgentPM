@@ -1,0 +1,67 @@
+{
+  "id": "nabee4dd62a6f",
+  "title": "長崎ひとり旅",
+  "url": "https://note.com/golddust/n/nabee4dd62a6f",
+  "author": "もえぎ",
+  "author_id": "golddust",
+  "published_at": "2025-10-10T14:19:55+09:00",
+  "like_count": 20,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "golddust",
+  "genre": "creator",
+  "content": {
+    "word_count": 2489,
+    "heading_count": 6,
+    "hashtags": [
+      "#写真",
+      "#わたしの旅行記",
+      "#旅行記",
+      "#旅のフォトアルバム",
+      "#この街がすき",
+      "#ひとり旅",
+      "#喫茶店",
+      "#長崎",
+      "#九州",
+      "#喫茶店巡り"
+    ]
+  },
+  "quality": {
+    "score": 55,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 20,
+        "value": 2489,
+        "status": "optimal"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 10,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 15,
+        "count": 20,
+        "status": "moderate"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 6,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 14,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:02"
+}

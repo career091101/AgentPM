@@ -1,0 +1,59 @@
+{
+  "id": "n95f2fd2ff0b2",
+  "title": "正月休みが終わって怒涛の何か，ではなく日本で粛々と作業をしている",
+  "url": "https://note.com/ochyai/n/n95f2fd2ff0b2",
+  "author": "落合陽一",
+  "author_id": "ochyai",
+  "published_at": "2026-01-06T16:00:41+09:00",
+  "like_count": 90,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ochyai",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 917,
+    "heading_count": 2,
+    "hashtags": [
+      "#落合陽一",
+      "#落合陽一公式"
+    ]
+  },
+  "quality": {
+    "score": 50,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 917,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 2,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 20,
+        "count": 90,
+        "status": "good"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 2,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 16,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:13"
+}

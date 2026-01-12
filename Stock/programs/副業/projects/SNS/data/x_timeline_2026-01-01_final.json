@@ -1,0 +1,545 @@
+{
+  "collection_date": "2026-01-01",
+  "collection_time": "JST Afternoon (14:00-15:00)",
+  "source": "X Home Timeline (https://x.com/home)",
+  "collection_method": "Claude In Chrome - Optimized with 67% zoom + 1710x1800 viewport + JavaScript large scroll",
+  "total_collected": 52,
+  "total_selected": 30,
+  "collection_status": "Completed - Selected top 30 by engagement score",
+  "filter_criteria": {
+    "min_impressions": 1000,
+    "min_engagement_rate_target": 0.05,
+    "actual_selection_criteria": "Top 30 by engagement score"
+  },
+  "engagement_weights": {
+    "like": 1,
+    "retweet": 3,
+    "reply": 5
+  },
+  "tweets": [
+    {
+      "rank": 1,
+      "author_username": "elonmusk",
+      "author_name": "Elon Musk",
+      "tweet_text": "I paid so much in taxes one year that it broke the IRS computer (actually). Too many digits. They ha...",
+      "url": "https://x.com/elonmusk/status/2006546377921253574",
+      "posted_time": "6時間前",
+      "engagement": {
+        "replies": 7231,
+        "retweets": 11857,
+        "likes": 92463,
+        "views": 8692621
+      },
+      "engagement_score": 166294,
+      "engagement_rate": 0.0128,
+      "estimated_impressions": 8692621
+    },
+    {
+      "rank": 2,
+      "author_username": "Pirat_Nation",
+      "author_name": "Pirat_Nation",
+      "tweet_text": "Newsis: Nvidia and AMD to significantly increase GPU prices starting next month. Describes RTX 5090...",
+      "url": "https://x.com/Pirat_Nation/status/2006381420772499934",
+      "posted_time": "17時間前",
+      "engagement": {
+        "replies": 2219,
+        "retweets": 6686,
+        "likes": 38206,
+        "views": 8879072
+      },
+      "engagement_score": 69353,
+      "engagement_rate": 0.0053,
+      "estimated_impressions": 8879072
+    },
+    {
+      "rank": 3,
+      "author_username": "YahooNewsTopics",
+      "author_name": "Yahoo!ニュース",
+      "tweet_text": "【習近平氏が祝辞 台湾統一へ決意】",
+      "url": "https://x.com/YahooNewsTopics/status/2006361447639769314",
+      "posted_time": "18時間前",
+      "engagement": {
+        "replies": 633,
+        "retweets": 3331,
+        "likes": 12463,
+        "views": 10246275
+      },
+      "engagement_score": 25621,
+      "engagement_rate": 0.0016,
+      "estimated_impressions": 10246275
+    },
+    {
+      "rank": 4,
+      "author_username": "watch_UNEXT",
+      "author_name": "U-NEXT",
+      "tweet_text": "／ 「ノブチャーん」 「はーい」 「何が好きー?」 PART1 ＼ 切り抜き公開✂︎ 『水曜日のダウンタウン』 藤井健太郎氏が手掛ける 人気バラエティが9年ぶりに復活！ 『芸人キャノンボール 2...",
+      "url": "https://x.com/watch_UNEXT/status/2000737890327011748",
+      "posted_time": "プロモーション",
+      "engagement": {
+        "replies": 10,
+        "retweets": 1423,
+        "likes": 14809,
+        "views": 12300954
+      },
+      "engagement_score": 19128,
+      "engagement_rate": 0.0013,
+      "estimated_impressions": 12300954
+    },
+    {
+      "rank": 5,
+      "author_username": "Reuters",
+      "author_name": "Reuters",
+      "tweet_text": "In a New Year's address, Chinese President Xi Jinping said reunification with Taiwan is unstoppable",
+      "url": "https://x.com/Reuters/status/2006392402609647738",
+      "posted_time": "16時間前",
+      "engagement": {
+        "replies": 326,
+        "retweets": 878,
+        "likes": 2635,
+        "views": 628025
+      },
+      "engagement_score": 6899,
+      "engagement_rate": 0.0061,
+      "estimated_impressions": 628025
+    },
+    {
+      "rank": 6,
+      "author_username": "aphysicist",
+      "author_name": "Aaron Slodov",
+      "tweet_text": "millennial gamers are the best prepared generation for agentic work, they've been training for 25 ye...",
+      "url": "https://x.com/aphysicist/status/2006409085835522355",
+      "posted_time": "15時間前",
+      "engagement": {
+        "replies": 161,
+        "retweets": 359,
+        "likes": 4145,
+        "views": 268029
+      },
+      "engagement_score": 5967,
+      "engagement_rate": 0.0173,
+      "estimated_impressions": 268029
+    },
+    {
+      "rank": 7,
+      "author_username": "alex_prompter",
+      "author_name": "Alex Prompter",
+      "tweet_text": "🚨 RAG is broken and nobody's talking about it. Stanford just exposed the fatal flaw killing every \"AI...",
+      "url": "https://x.com/alex_prompter/status/2006304107196539292",
+      "posted_time": "22時間前",
+      "engagement": {
+        "replies": 300,
+        "retweets": 648,
+        "likes": 3887,
+        "views": 752326
+      },
+      "engagement_score": 5831,
+      "engagement_rate": 0.0064,
+      "estimated_impressions": 752326
+    },
+    {
+      "rank": 8,
+      "author_username": "gregisenberg",
+      "author_name": "GREG ISENBERG",
+      "tweet_text": "2026 is the GREATEST time to build a startup in 30 years I'm 36. I've sold 3 startups, helped build...",
+      "url": "https://x.com/gregisenberg/status/2006382073418752250",
+      "posted_time": "16時間前",
+      "engagement": {
+        "replies": 168,
+        "retweets": 475,
+        "likes": 3113,
+        "views": 158326
+      },
+      "engagement_score": 5378,
+      "engagement_rate": 0.0227,
+      "estimated_impressions": 158326
+    },
+    {
+      "rank": 9,
+      "author_username": "hayesdev_",
+      "author_name": "Hayes",
+      "tweet_text": "Anthropic just released a full crash course to master Claude Code from scratch for free",
+      "url": "https://x.com/hayesdev_/status/2006334594266833327",
+      "posted_time": "20時間前",
+      "engagement": {
+        "replies": 33,
+        "retweets": 240,
+        "likes": 3060,
+        "views": 180284
+      },
+      "engagement_score": 3945,
+      "engagement_rate": 0.0183,
+      "estimated_impressions": 180284
+    },
+    {
+      "rank": 10,
+      "author_username": "ossanworld",
+      "author_name": "西川裕章（方手雅塚）",
+      "tweet_text": "1994年といえば、スペースX社から問い合わせが来た、一つのレポートを思い出す。渡米最初の学期。大学院の宿題でレポートを書いた。それは、大気圏突入の時に宇宙船に発生する摩擦熱に関する計算方法をまとめた...",
+      "url": "https://x.com/ossanworld/status/2006297083171467764",
+      "posted_time": "22時間前",
+      "engagement": {
+        "replies": 2,
+        "retweets": 192,
+        "likes": 1906,
+        "views": 172802
+      },
+      "engagement_score": 2492,
+      "engagement_rate": 0.0121,
+      "estimated_impressions": 172802
+    },
+    {
+      "rank": 11,
+      "author_username": "alexocheema",
+      "author_name": "Alex Cheema - e/acc",
+      "tweet_text": "Memory prices up. GPU prices up. Macs are the new AI meta. Apple wins in the end.",
+      "url": "https://x.com/alexocheema/status/2006437653911310556",
+      "posted_time": "13時間前",
+      "engagement": {
+        "replies": 75,
+        "retweets": 124,
+        "likes": 1288,
+        "views": 345686
+      },
+      "engagement_score": 2035,
+      "engagement_rate": 0.0043,
+      "estimated_impressions": 345686
+    },
+    {
+      "rank": 12,
+      "author_username": "mylife_is_DQ",
+      "author_name": "めかぶ",
+      "tweet_text": "ホリエモンが提唱する商売の4原則 ①利益率が高い ②在庫を持たない ③ストック収入がある ④小資本から始められる これを抑えておけば大失敗はしない。（特に初心者） 具体的に言うと ・無闇にオフィ...",
+      "url": "https://x.com/mylife_is_DQ/status/2006542138788487575",
+      "posted_time": "6時間前",
+      "engagement": {
+        "replies": 13,
+        "retweets": 135,
+        "likes": 1378,
+        "views": 142397
+      },
+      "engagement_score": 1848,
+      "engagement_rate": 0.0107,
+      "estimated_impressions": 142397
+    },
+    {
+      "rank": 13,
+      "author_username": "VittoStack",
+      "author_name": "Vitto Rivabella",
+      "tweet_text": "Anthropic literally released a full 2-hour course to learn Claude Code. Completely for free! Contex... If you want to improve your vibe coding skills, you should start here.",
+      "url": "https://x.com/VittoStack/status/2006367691641348510",
+      "posted_time": "17時間前",
+      "engagement": {
+        "replies": 22,
+        "retweets": 125,
+        "likes": 1183,
+        "views": 74849
+      },
+      "engagement_score": 1643,
+      "engagement_rate": 0.0177,
+      "estimated_impressions": 74849
+    },
+    {
+      "rank": 14,
+      "author_username": "DrJimFan",
+      "author_name": "Jim Fan",
+      "tweet_text": "Heed my words: every year from now on will be the Year of Robotics. If opus 4.5/nanobanana blew your mind - well, you ain't seen nothing yet in the World of Atoms. Happy new year everyone 🚀🎊 (sorry for the late post)",
+      "url": "https://x.com/DrJimFan/status/2006604492322549824",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 53,
+        "retweets": 100,
+        "likes": 894,
+        "views": 38730
+      },
+      "engagement_score": 1459,
+      "engagement_rate": 0.0270,
+      "estimated_impressions": 38730
+    },
+    {
+      "rank": 15,
+      "author_username": "Adscience12000",
+      "author_name": "サバ✨",
+      "tweet_text": "大丈夫なのかOpenAIはw OpenAIは4000人の従業員に平均150万ドル(株式報酬含む)の給料を払っていて、全部合わせると同社2025年売上高の約半分に相当。この額はGoogleなど18のテック企業の平均を大きく上回る。",
+      "url": "https://x.com/Adscience12000/status/2006441354654789991",
+      "posted_time": "12時間前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 198,
+        "likes": 669,
+        "views": 145511
+      },
+      "engagement_score": 1323,
+      "engagement_rate": 0.0060,
+      "estimated_impressions": 145511
+    },
+    {
+      "rank": 16,
+      "author_username": "frame0app",
+      "author_name": "Frame0",
+      "tweet_text": "A sleek Balsamiq alternative low-fi wireframing tool for modern apps. - Hand-drawn style - Rich components 🚀 Start with free trial without time limit.",
+      "url": "https://x.com/frame0app/status/1959999699299275111",
+      "posted_time": "プロモーション",
+      "engagement": {
+        "replies": 0,
+        "retweets": 101,
+        "likes": 971,
+        "views": 2772511
+      },
+      "engagement_score": 1274,
+      "engagement_rate": 0.00039,
+      "estimated_impressions": 2772511
+    },
+    {
+      "rank": 17,
+      "author_username": "kosuke_agos",
+      "author_name": "Kosuke",
+      "tweet_text": "「プロンプトエンジニアリング」の時代が終わり、「セマンティックエンジニアリング」へと移行するという衝撃の論文が発表されました。 これまでのAIに「いかに上手に命令するか」という試行錯誤は不要になりま...",
+      "url": "https://x.com/kosuke_agos/status/2006247507219849516",
+      "posted_time": "2025年12月31日",
+      "engagement": {
+        "replies": 5,
+        "retweets": 134,
+        "likes": 759,
+        "views": 80162
+      },
+      "engagement_score": 1186,
+      "engagement_rate": 0.0112,
+      "estimated_impressions": 80162
+    },
+    {
+      "rank": 18,
+      "author_username": "nekopochi_off",
+      "author_name": "ねこまんまのポチ",
+      "tweet_text": "ちょっと、めでたい投稿をしてみる二ャ！普通「猫に小判」というと価値のわからない者に与えても無駄という意味で言われているが！！ 実は、招き猫はみんなの悩みを解決する最強なポーズなんだニャ〜 よかったら待...",
+      "url": "https://x.com/nekopochi_off/status/2003460725944242605",
+      "posted_time": "数日前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 71,
+        "likes": 794,
+        "views": 1307295
+      },
+      "engagement_score": 1007,
+      "engagement_rate": 0.00066,
+      "estimated_impressions": 1307295
+    },
+    {
+      "rank": 19,
+      "author_username": "tomoaki_imai",
+      "author_name": "今井智章/シリコンバレーでファウンダーCTO",
+      "tweet_text": "Claude Code 小ネタ: 処理を走らせている最中に、btw (by the way) からプロンプトを始めると、走っている処理を止めることなく質問を聞ける",
+      "url": "https://x.com/tomoaki_imai/status/2006150178294665698",
+      "posted_time": "2025年12月31日",
+      "engagement": {
+        "replies": 1,
+        "retweets": 59,
+        "likes": 522,
+        "views": 49310
+      },
+      "engagement_score": 704,
+      "engagement_rate": 0.0118,
+      "estimated_impressions": 49310
+    },
+    {
+      "rank": 20,
+      "author_username": "Kling_ai",
+      "author_name": "Kling AI",
+      "tweet_text": "New effects dropped. Time to own your 2025 recap. 🎬",
+      "url": "https://x.com/Kling_ai/status/2004928866541072740",
+      "posted_time": "数日前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 25,
+        "likes": 267,
+        "views": 101359
+      },
+      "engagement_score": 402,
+      "engagement_rate": 0.0030,
+      "estimated_impressions": 101359
+    },
+    {
+      "rank": 21,
+      "author_username": "ShimmyoLab",
+      "author_name": "Shuhei Shimmyo | マルチモーダルRAG開発",
+      "tweet_text": "LLMは自分がハルシネーションしていることを\"知っている\" 興味深い研究が発表されました。大規模言語モデルは、根拠のない情報を生成している瞬間、その内部で特異な活性化パターンを示しているというのです...",
+      "url": "https://x.com/ShimmyoLab/status/2006563045515080032",
+      "posted_time": "5時間前",
+      "engagement": {
+        "replies": 3,
+        "retweets": 75,
+        "likes": 287,
+        "views": 25210
+      },
+      "engagement_score": 527,
+      "engagement_rate": 0.0145,
+      "estimated_impressions": 25210
+    },
+    {
+      "rank": 22,
+      "author_username": "shanegJP",
+      "author_name": "シェイン・グウ",
+      "tweet_text": "あけましておめでとうございます！いくつかAI業界の動向をまとめました。🚀 Scaling Won't Stop (自律性とGrounding)...",
+      "url": "https://x.com/shanegJP/status/2006619902292144437",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 3,
+        "retweets": 40,
+        "likes": 209,
+        "views": 15498
+      },
+      "engagement_score": 344,
+      "engagement_rate": 0.0163,
+      "estimated_impressions": 15498
+    },
+    {
+      "rank": 23,
+      "author_username": "tmiyatake1",
+      "author_name": "Tetsuro Miyatake",
+      "tweet_text": "2025年、世界が変わってるのを表す図 (パート2) 1/ AnthropicはB向け、OpenAIはC向け 2/ ChatGPTのリテンション 3/ ラブブ人気が低下 4/ ポケカの再熱 5/ ア...",
+      "url": "https://x.com/tmiyatake1/status/2006155815137186182",
+      "posted_time": "2025年12月31日",
+      "engagement": {
+        "replies": 1,
+        "retweets": 17,
+        "likes": 216,
+        "views": 38387
+      },
+      "engagement_score": 272,
+      "engagement_rate": 0.0061,
+      "estimated_impressions": 38387
+    },
+    {
+      "rank": 24,
+      "author_username": "satori_sz9",
+      "author_name": "さとり",
+      "tweet_text": "Skillsがイマイチ分からない人は必見。ClaudeのAgent Skillsとファインチューニング、コンテキスト直、Tool Useと何が違うのかをまとめました。1〜2枚目がファインチューニングと...",
+      "url": "https://x.com/satori_sz9/status/2006214355793383699",
+      "posted_time": "2025年12月31日",
+      "engagement": {
+        "replies": 0,
+        "retweets": 14,
+        "likes": 255,
+        "views": 32000
+      },
+      "engagement_score": 297,
+      "engagement_rate": 0.0084,
+      "estimated_impressions": 32000
+    },
+    {
+      "rank": 25,
+      "author_username": "agnus_dei_k",
+      "author_name": "けい@AI × 個人開発",
+      "tweet_text": "ついに納得のいく記事ができました.....。 アプリ開発・アプリマーケで収益化されている方の、全ての方のお力になれると思っていますので、お休みの間で読んでくださると嬉しいです 1/1 から配信させていただきますので、楽しみにしていてくださいませ。",
+      "url": "https://x.com/agnus_dei_k/status/2006339245917741194",
+      "posted_time": "19時間前",
+      "engagement": {
+        "replies": 2,
+        "retweets": 7,
+        "likes": 261,
+        "views": 18409
+      },
+      "engagement_score": 284,
+      "engagement_rate": 0.0147,
+      "estimated_impressions": 18409
+    },
+    {
+      "rank": 26,
+      "author_username": "kubotamas",
+      "author_name": "久保田 雅也@Coalis",
+      "tweet_text": "2026年が起業にベストな理由 1 - ハードウェアがスマートに: オープンモデル×安価ハードで、ロボットやデバイスが一気に高知能化し、用途が爆発 2 - SaaSが崩壊: AIが高額SaaSを安く代替...",
+      "url": "https://x.com/kubotamas/status/2006462200647672255",
+      "posted_time": "11時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 18,
+        "likes": 146,
+        "views": 15312
+      },
+      "engagement_score": 205,
+      "engagement_rate": 0.0108,
+      "estimated_impressions": 15312
+    },
+    {
+      "rank": 27,
+      "author_username": "Goldriver2020",
+      "author_name": "Gold River",
+      "tweet_text": "Fedが流動性を供給： オーバーナイトレポを通じて米国の 銀行システムに驚異的な310億㌦を注入しました これはコロナ禍以来の最大規模の流動性注入であり ドットコムバブルのピーク時さえ上回っています",
+      "url": "https://x.com/Goldriver2020/status/2006572753475043761",
+      "posted_time": "4時間前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 30,
+        "likes": 104,
+        "views": 15341
+      },
+      "engagement_score": 194,
+      "engagement_rate": 0.0087,
+      "estimated_impressions": 15341
+    },
+    {
+      "rank": 28,
+      "author_username": "Alzhacker",
+      "author_name": "Alzhacker",
+      "tweet_text": "調査記事『日本爆弾：30年の実験が終わる時』 Shanaka Anslem Perera 2025年12月29日 ～東京の静かな革命が次のグローバル危機をシンクロさせる方法 ➢日本の超低金利時代が終焉、世界中に貸し出した2,100兆円が逆流する...",
+      "url": "https://x.com/Alzhacker/status/2006350209794912436",
+      "posted_time": "19時間前",
+      "engagement": {
+        "replies": 2,
+        "retweets": 93,
+        "likes": 196,
+        "views": 13910
+      },
+      "engagement_score": 485,
+      "engagement_rate": 0.0209,
+      "estimated_impressions": 13910
+    },
+    {
+      "rank": 29,
+      "author_username": "PPodkayne",
+      "author_name": "Podkayne Podkayne",
+      "tweet_text": "【永久弱気のグランサムが\"日本🇯🇵買い\"やて!?】 ─悲観王が「日本にガチ投資」 これ、金融界の地殻変動やろ。 1/👴 ジェレミー・グランサム（GMO創業者） 「バブルは崩れる」って何十年も言い続けてきた男＝永久的な弱気派 その彼が今、\"日本に本気\" ここ、軽く見たらアカン👇",
+      "url": "https://x.com/PPodkayne/status/2006283082434019385",
+      "posted_time": "23時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 12,
+        "likes": 130,
+        "views": 13409
+      },
+      "engagement_score": 171,
+      "engagement_rate": 0.0107,
+      "estimated_impressions": 13409
+    },
+    {
+      "rank": 30,
+      "author_username": "masahirochaen",
+      "author_name": "チャエン | デジライズ CEO《重要AIニュース⚡",
+      "tweet_text": "このテストツール素晴らしい。AIコーディングは予期せぬエラーが多いので、優秀なテスターがあると助かる。 ＞ Maestro Studio Desktop 全ユーザーに無料提供 従来のUIテスト自動化（Appium等）で4時間かかる作業を5分に短縮 YAML構文でコンパイル不要",
+      "url": "https://x.com/masahirochaen/status/2006604302291517664",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 12,
+        "likes": 122,
+        "views": 12051
+      },
+      "engagement_score": 163,
+      "engagement_rate": 0.0112,
+      "estimated_impressions": 12051
+    }
+  ],
+  "statistics": {
+    "total_tweets_collected": 52,
+    "total_tweets_selected": 30,
+    "average_engagement_rate": 0.0114,
+    "median_engagement_rate": 0.0112,
+    "highest_engagement_rate": 0.0270,
+    "lowest_engagement_rate": 0.00039,
+    "highest_views": 12300954,
+    "highest_engagement_score": 166294,
+    "scroll_cycles": 6,
+    "collection_duration_minutes": 15,
+    "optimization_used": "CSS zoom (67%) + Large viewport (1710x1800) + JavaScript large scroll (6000px)",
+    "notes": "Collection completed with optimized browser settings. Selected top 30 tweets by engagement score from 52 collected tweets. Token budget constraints limited collection to ~50 tweets instead of target 200, but quality of collected data is high with many viral posts included."
+  }
+}

@@ -1,0 +1,19 @@
+article [ref_136]
+ link [ref_137] href="/yulintwt"
+ link [ref_141] href="/yulintwt"
+  generic "@yulintwt" [ref_142]
+ link "23 時間前" [ref_143] href="/yulintwt/status/2006319176882016323"
+ generic "This guy literally breaks down how to clone a $5m/year app with AI (in 30 mins)" [ref_147]
+ group "14 件の返信、333 件のリポスト、1647 件のいいね、2085 件のブックマーク、63912 件の表示" [ref_163]
+  button "14 件の返信。返信する" [ref_164]
+  button "333 件のリポスト件。リポスト" [ref_165]
+  button "1647 件のいいね。いいねする" [ref_167]
+article [ref_694]
+ link [ref_695] href="/dexhorthy"
+ link [ref_699] href="/dexhorthy"
+  generic "@dexhorthy" [ref_700]
+ link "19 時間前" [ref_701] href="/dexhorthy/status/2006405908096758044"
+ group "3 件の返信、14 件のリポスト、433 件のいいね、322 件のブックマーク、51896 件の表示" [ref_719]
+  button "3 件の返信。返信する" [ref_720]
+  button "14 件のリポスト件。リポスト" [ref_721]
+  button "433 件のいいね。いいねする" [ref_722]

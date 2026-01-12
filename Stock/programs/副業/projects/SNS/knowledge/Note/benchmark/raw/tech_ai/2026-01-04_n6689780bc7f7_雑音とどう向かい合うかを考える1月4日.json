@@ -1,0 +1,59 @@
+{
+  "id": "n6689780bc7f7",
+  "title": "雑音とどう向かい合うかを考える1月4日",
+  "url": "https://note.com/ochyai/n/n6689780bc7f7",
+  "author": "落合陽一",
+  "author_id": "ochyai",
+  "published_at": "2026-01-04T14:51:32+09:00",
+  "like_count": 124,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ochyai",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 1063,
+    "heading_count": 2,
+    "hashtags": [
+      "#落合陽一",
+      "#落合陽一公式"
+    ]
+  },
+  "quality": {
+    "score": 60,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 15,
+        "value": 1063,
+        "status": "acceptable"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 2,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 25,
+        "count": 124,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 2,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 14,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:11"
+}

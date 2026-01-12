@@ -1,0 +1,309 @@
+# ケーススタディステージ別インデックス
+
+**総件数**: 143件
+**最終更新**: 2025-12-29
+
+## IPO / Legendary（84件）
+
+- [Elon Musk - Tesla/SpaceX](documents/01_Legendary/FOUNDER_001_elon_musk.md)
+  - 評価額: $800B+ (Tesla時価総額)
+- [Jeff Bezos - Amazon](documents/01_Legendary/FOUNDER_002_jeff_bezos.md)
+  - 評価額: $2T+ (時価総額)
+- [Reid Hoffman - LinkedIn](documents/01_Legendary/FOUNDER_003_reid_hoffman.md)
+  - 評価額: $26.2B（買収額）
+- [Marc Andreessen - Netscape/a16z](documents/01_Legendary/FOUNDER_004_marc_andreessen.md)
+  - 評価額: Netscape IPO時$2.9B / a16z AUM $46B
+- [Peter Thiel - PayPal/Palantir](documents/01_Legendary/FOUNDER_005_peter_thiel.md)
+  - 評価額: Palantir: $200B+ 時価総額
+- [Brian Chesky - Airbnb](documents/01_Legendary/FOUNDER_006_brian_chesky.md)
+  - 評価額: $100B+ (2020年IPO時時価総額)
+- [Patrick Collison - Stripe](documents/01_Legendary/FOUNDER_007_patrick_collison.md)
+  - 評価額: $91.5B (2025年2月時点)
+- [Stewart Butterfield - Flickr/Slack](documents/01_Legendary/FOUNDER_008_stewart_butterfield.md)
+  - 評価額: $27.7B（Salesforce買収額）
+- [Drew Houston - Dropbox](documents/01_Legendary/FOUNDER_009_drew_houston.md)
+  - 評価額: $10B+ (IPO時)
+- [Kevin Systrom - Instagram](documents/01_Legendary/FOUNDER_010_kevin_systrom.md)
+  - 評価額: $1B (買収時)
+- [Jack Dorsey - Twitter/Square (Block)](documents/01_Legendary/FOUNDER_011_jack_dorsey.md)
+  - 評価額: $54B (Block時価総額)
+- [Travis Kalanick - Uber](documents/01_Legendary/FOUNDER_012_travis_kalanick.md)
+  - 評価額: $70B+ (ピーク時)
+- [Daniel Ek - Spotify](documents/01_Legendary/FOUNDER_013_daniel_ek.md)
+  - 評価額: $100B+ (時価総額)
+- [Dylan Field - Figma](documents/01_Legendary/FOUNDER_014_dylan_field.md)
+  - 評価額: $68B（IPO時）
+- [Tobi Lutke - Shopify](documents/01_Legendary/FOUNDER_015_tobi_lutke.md)
+  - 評価額: $130B+（時価総額、2025年）
+- [Jan Koum - WhatsApp](documents/01_Legendary/FOUNDER_016_jan_koum.md)
+  - 評価額: N/A
+- [Whitney Wolfe Herd - Bumble](documents/01_Legendary/FOUNDER_017_whitney_wolfe_herd.md)
+  - 評価額: $8.6B (IPO時)
+- [Masayoshi Son - SoftBank](documents/01_Legendary/FOUNDER_018_masayoshi_son.md)
+  - 評価額: $100B+ (時価総額)
+- [三木谷浩史 - 楽天グループ](documents/01_Legendary/FOUNDER_019_hiroshi_mikitani.md)
+  - 評価額: 約2兆円（時価総額、2025年12月時点）
+- [Tadashi Yanai - UNIQLO/Fast Retailing](documents/01_Legendary/FOUNDER_020_tadashi_yanai.md)
+  - 評価額: 約15兆円（時価総額、2024年）
+- [Larry Page - Google/Alphabet](documents/01_Legendary/FOUNDER_021_larry_page.md)
+  - 評価額: $2T+ (Alphabet時価総額)
+- [Sergey Brin - Google/Alphabet](documents/01_Legendary/FOUNDER_022_sergey_brin.md)
+  - 評価額: $2T+ (Alphabet時価総額)
+- [Mark Zuckerberg - Meta (Facebook)](documents/01_Legendary/FOUNDER_023_mark_zuckerberg.md)
+  - 評価額: $1.5T+ (時価総額)
+- [Bill Gates - Microsoft](documents/01_Legendary/FOUNDER_024_bill_gates.md)
+  - 評価額: $3.627T（2024年12月時点）
+- [Steve Jobs - Apple Inc.](documents/01_Legendary/FOUNDER_025_steve_jobs.md)
+  - 評価額: $4.0T+ (2025年12月時点)
+- [Jensen Huang - NVIDIA](documents/01_Legendary/FOUNDER_026_jensen_huang.md)
+  - 評価額: $5T+ (時価総額、世界最大)
+- [Satya Nadella - Microsoft Azure/Cloud Transformation](documents/01_Legendary/FOUNDER_027_satya_nadella.md)
+  - 評価額: $3.0T (2024時点の時価総額)
+- [Sundar Pichai - Google Chrome/Android](documents/01_Legendary/FOUNDER_028_sundar_pichai.md)
+  - 評価額: $2.0T (2024時点の時価総額)
+- [Tim Cook - Apple Supply Chain Revolution](documents/01_Legendary/FOUNDER_029_tim_cook.md)
+  - 評価額: $3.5T (2024時点の時価総額)
+- [Andy Jassy - Amazon Web Services (AWS)](documents/01_Legendary/FOUNDER_030_andy_jassy.md)
+  - 評価額: $2.0T (Amazon全体、2024時点の時価総額)
+- [Sam Altman - OpenAI](documents/01_Legendary/FOUNDER_031_sam_altman.md)
+  - 評価額: $150B+（2024年時点）
+- [Dario Amodei - Anthropic](documents/01_Legendary/FOUNDER_032_dario_amodei.md)
+  - 評価額: $183B（2025年9月 Series F時点）
+- [Eric Yuan - Zoom Video Communications](documents/01_Legendary/FOUNDER_033_eric_yuan.md)
+  - 評価額: $20B+ (2024時価総額)
+- [Tony Xu - DoorDash](documents/01_Legendary/FOUNDER_034_tony_xu.md)
+  - 評価額: $120B（2025年時価総額）
+- [Vlad Tenev - Robinhood](documents/01_Legendary/FOUNDER_035_vlad_tenev.md)
+  - 評価額: $100B+
+- [Logan Green - Lyft](documents/01_Legendary/FOUNDER_036_logan_green.md)
+  - 評価額: $11.2B (market cap as of 2024)
+- [Ryan Graves - Uber](documents/01_Legendary/FOUNDER_037_ryan_graves.md)
+  - 評価額: $148B（2025年12月時点・時価総額）
+- [Tony Hsieh - Zappos](documents/01_Legendary/FOUNDER_038_tony_hsieh.md)
+  - 評価額: $1.2B（Amazon買収時、2009年）
+- [Naval Ravikant - AngelList](documents/01_Legendary/FOUNDER_039_naval_ravikant.md)
+  - 評価額: $4B（2022年時点）
+- [Gary Vaynerchuk - VaynerMedia / VaynerX](documents/01_Legendary/FOUNDER_040_gary_vaynerchuk.md)
+  - 評価額: $200M+（年間売上推定）
+- [Jason Fried - 37signals/Basecamp](documents/01_Legendary/FOUNDER_041_jason_fried.md)
+  - 評価額: 非公開（自己資金経営）
+- [David Heinemeier Hansson (DHH) - Ruby on Rails/Basecamp/37signals](documents/01_Legendary/FOUNDER_042_dhh.md)
+  - 評価額: 非公開（ブートストラップ経営・Jeff Bezos出資のみ）
+- [Pieter Levels - Nomad List/Remote OK/Photo AI](documents/01_Legendary/FOUNDER_043_pieter_levels.md)
+  - 評価額: N/A（ブートストラップ、未調達）
+- [Sahil Lavingia - Gumroad](documents/01_Legendary/FOUNDER_044_sahil_lavingia.md)
+  - 評価額: $100M (2021 crowdfunding)
+- [Nathan Barry - Kit (ConvertKit)](documents/01_Legendary/FOUNDER_045_nathan_barry.md)
+  - 評価額: N/A
+- [Pat Flynn - Smart Passive Income](documents/01_Legendary/FOUNDER_046_pat_flynn.md)
+  - 評価額: Private（推定年商$2M+）
+- [Tim Ferriss - 著者/投資家/ポッドキャスター](documents/01_Legendary/FOUNDER_047_tim_ferriss.md)
+  - 評価額: $100M+ (推定純資産)
+- [Ben Horowitz - Loudcloud/Opsware/Andreessen Horowitz](documents/01_Legendary/FOUNDER_048_ben_horowitz.md)
+  - 評価額: Opsware: $1.65B（HP買収）/ a16z: $46B AUM（2025年7月）
+- [Fred Wilson - Union Square Ventures](documents/01_Legendary/FOUNDER_049_fred_wilson.md)
+  - 評価額: AUM $1.5B以上（14ファンド）
+- [Paul Graham - Y Combinator](documents/01_Legendary/FOUNDER_050_paul_graham.md)
+  - 評価額: $600B+ (ポートフォリオ企業合計評価額)
+- [Brian Halligan - HubSpot](documents/02_Unicorn/FOUNDER_063_brian_halligan.md)
+  - 評価額: 時価総額約$20B（2025年）
+- [Max Levchin - PayPal/Affirm](documents/02_Unicorn/FOUNDER_075_max_levchin.md)
+  - 評価額: $15B+（Affirm IPO時）
+- [Brian Chesky, Joe Gebbia, Nathan Blecharczyk - Airbnb](documents/03_VC_Backed/FOUNDER_151_airbnb.md)
+  - 評価額: $100B+ (IPO時、2020年12月)
+- [Brian Armstrong, Fred Ehrsam - Coinbase](documents/03_VC_Backed/FOUNDER_152_coinbase.md)
+  - 評価額: $85B (IPO時、2021年4月)
+- [前澤友作 - ZOZO（スタートトゥデイ）](documents/04_IPO_Japan/FOUNDER_301_yusaku_maezawa.md)
+  - 評価額: 時価総額約1兆円（2018年ピーク時）
+- [南場智子 - ディー・エヌ・エー（DeNA）](documents/04_IPO_Japan/FOUNDER_302_tomoko_namba.md)
+  - 評価額: 約3,200億円（2025年12月時点 時価総額）
+- [笠原健治 - MIXI (mixi)](documents/04_IPO_Japan/FOUNDER_303_kenji_kasahara.md)
+  - 評価額: 約2,200億円（2025年3月時価総額）
+- [藤田晋 - サイバーエージェント](documents/04_IPO_Japan/FOUNDER_304_susumu_fujita.md)
+  - 評価額: 約5,000億円（時価総額）
+- [堀江貴文 - ライブドア（旧オン・ザ・エッヂ）](documents/04_IPO_Japan/FOUNDER_305_takafumi_horie.md)
+  - 評価額: 時価総額9000億円（2004年ピーク時）
+- [田中良和 - グリー株式会社](documents/04_IPO_Japan/FOUNDER_306_yoshikazu_tanaka.md)
+  - 評価額: 時価総額約1,000億円（2024年時点）
+- [出澤剛 - LINE（LINEヤフー）](documents/04_IPO_Japan/FOUNDER_307_takeshi_idezawa.md)
+  - 評価額: 時価総額約3.6兆円（LINEヤフー、2025年3月時点）
+- [山田進太郎 - メルカリ](documents/04_IPO_Japan/FOUNDER_308_shintaro_yamada.md)
+  - 評価額: 約4000億円（2025年3月時点時価総額）
+- [吉田浩一郎 - クラウドワークス](documents/04_IPO_Japan/FOUNDER_309_koichiro_yoshida.md)
+  - 評価額: 時価総額約131億円（2025年11月時点）
+- [福島良典 - LayerX / Gunosy](documents/04_IPO_Japan/FOUNDER_310_yoshinori_fukushima.md)
+  - 評価額: ユニコーン水準（150億円調達時点、2025年）
+- [佐藤裕介 - STORES（旧hey）](documents/04_IPO_Japan/FOUNDER_311_yusuke_sato.md)
+  - 評価額: 約788億円〜900億円（2023年時点推定）
+- [松本恭攝 - ラクスル](documents/04_IPO_Japan/FOUNDER_312_kyosuke_matsumoto.md)
+  - 評価額: 約500億円（IPO時）
+- [寺田親弘 - Sansan](documents/04_IPO_Japan/FOUNDER_313_chikahiro_terada.md)
+  - 評価額: 約1,500億円（IPO時）
+- [佐々木大輔 - freee](documents/04_IPO_Japan/FOUNDER_314_daisuke_sasaki.md)
+  - 評価額: 約1,000億円（IPO時）
+- [宮田昇始 - SmartHR](documents/04_IPO_Japan/FOUNDER_315_shoji_miyata.md)
+  - 評価額: 約1,700億円（最新ラウンド）
+- [南壮一郎 - ビズリーチ](documents/04_IPO_Japan/FOUNDER_316_soichiro_minami.md)
+  - 評価額: 約1,700億円（買収時）
+- [梅田優祐・稲垣裕介 - ユーザベース](documents/04_IPO_Japan/FOUNDER_317_yusuke_umeda.md)
+  - 評価額: 約600億円（IPO時）
+- [辻庸介 - マネーフォワード](documents/04_IPO_Japan/FOUNDER_318_yosuke_tsuji.md)
+  - 評価額: 約900億円（IPO時）
+- [倉橋健太・柴山直樹 - プレイド](documents/04_IPO_Japan/FOUNDER_319_kenta_kurahashi.md)
+  - 評価額: 約500億円（最新ラウンド）
+- [有安伸宏 - ヘイ（BASE）](documents/04_IPO_Japan/FOUNDER_320_nobuhiro_ariyasu.md)
+  - 評価額: 約700億円（IPO時）
+- [Jan Koum & Brian Acton - WhatsApp](documents/05_IPO_Global/FOUNDER_351_jan_koum_whatsapp.md)
+  - 評価額: $19B (Facebook acquisition, 2014)
+- [Eric Yuan - Zoom Video Communications](documents/05_IPO_Global/FOUNDER_352_eric_yuan_zoom.md)
+  - 評価額: $15.9B (IPO初日終値, 2019年4月), $139B (パンデミックピーク, 2020年10月)
+- [Pierre Omidyar - eBay](documents/05_IPO_Global/FOUNDER_353_pierre_omidyar_ebay.md)
+  - 評価額: $28B（現在）
+- [Brian Armstrong - Coinbase](documents/05_IPO_Global/FOUNDER_355_coinbase.md)
+  - 評価額: $86B（IPO初日、2021年4月14日）
+- [Tobi Lutke - Shopify (IPO Success Story)](documents/05_IPO_Global/FOUNDER_357_tobi_lutke_ipo.md)
+  - 評価額: $90B+（2024年時価総額）
+- [Mike Cannon-Brookes & Scott Farquhar - Atlassian (Bootstrap to IPO)](documents/05_IPO_Global/FOUNDER_358_atlassian.md)
+  - 評価額: $50B+（2024年時価総額）
+- [Frank Slootman - Snowflake (Mega IPO)](documents/05_IPO_Global/FOUNDER_359_frank_slootman_snowflake.md)
+  - 評価額: $60B+（2024年時価総額）
+- [Ali Ghodsi - Databricks (Pre-IPO Unicorn)](documents/05_IPO_Global/FOUNDER_360_ali_ghodsi_databricks.md)
+  - 評価額: $43B（2024年最新ラウンド）
+- [Dustin Moskovitz & Justin Rosenstein - Asana](documents/05_IPO_Global/FOUNDER_362_asana.md)
+  - 評価額: $4B (IPO 2020年) → $1.5B (2025年)
+- [Steve Huffman & Alexis Ohanian - Reddit](documents/05_IPO_Global/FOUNDER_363_reddit.md)
+  - 評価額: $10.68B (2024年11月時価総額)
+
+## Unicorn ($1B+)（52件）
+
+- [Melanie Perkins - Canva](documents/02_Unicorn/FOUNDER_051_melanie_perkins.md)
+  - 評価額: $65B（2025年8月時点）
+- [Ivan Zhao - Notion](documents/02_Unicorn/FOUNDER_052_ivan_zhao.md)
+  - 評価額: $10B（2021年）、$6.8B（2024年二次市場）
+- [Guillermo Rauch - Vercel](documents/02_Unicorn/FOUNDER_053_guillermo_rauch.md)
+  - 評価額: $9.3B (2025年9月Series F)
+- [Tope Awotona - Calendly](documents/02_Unicorn/FOUNDER_054_tope_awotona.md)
+  - 評価額: $3B
+- [Mikkel Svane - Zendesk](documents/02_Unicorn/FOUNDER_055_mikkel_svane.md)
+  - 評価額: $10.2B（2022年買収時）
+- [Olivier Pomel - Datadog](documents/02_Unicorn/FOUNDER_056_olivier_pomel.md)
+  - 評価額: $48B (2025年12月時点の時価総額)
+- [Henry Ward - Carta](documents/02_Unicorn/FOUNDER_057_henry_ward.md)
+  - 評価額: $7.4B (2021年ピーク) / $2B未満 (2024年)
+- [Nick Mehta - Gainsight](documents/02_Unicorn/FOUNDER_058_nick_mehta.md)
+  - 評価額: $1.1B
+- [David Cancel - Drift](documents/02_Unicorn/FOUNDER_059_david_cancel.md)
+  - 評価額: $1B+
+- [Girish Mathrubootham - Freshworks](documents/02_Unicorn/FOUNDER_060_girish_mathrubootham.md)
+  - 評価額: $3.2B-$3.5B (時価総額・2025年)
+- [Aaron Levie - Box](documents/02_Unicorn/FOUNDER_061_aaron_levie.md)
+  - 評価額: $4.3B（時価総額、2024年12月時点）
+- [Dharmesh Shah - HubSpot](documents/02_Unicorn/FOUNDER_062_dharmesh_shah.md)
+  - 評価額: $20.8B（時価総額、2025年12月）
+- [Emmett Shear - Twitch](documents/02_Unicorn/FOUNDER_064_emmett_shear.md)
+  - 評価額: $970M（Amazon買収時）
+- [Dustin Moskovitz - Asana](documents/02_Unicorn/FOUNDER_065_dustin_moskovitz.md)
+  - 評価額: $3.4B（2025年12月時点時価総額）
+- [Apoorva Mehta - Instacart](documents/02_Unicorn/FOUNDER_066_apoorva_mehta.md)
+  - 評価額: $10B（IPO時）、ピーク時$39B（2021年）
+- [Katrina Lake - Stitch Fix](documents/02_Unicorn/FOUNDER_067_katrina_lake.md)
+  - 評価額: 時価総額約$600M（2025年）、最高時$10B超
+- [Emily Weiss - Glossier](documents/02_Unicorn/FOUNDER_068_emily_weiss.md)
+  - 評価額: $1.8B（2021年ピーク時）
+- [Mariam Naficy - Minted](documents/02_Unicorn/FOUNDER_069_mariam_naficy.md)
+  - 評価額: $300M+（累計調達額）
+- [Michael Preysman - Everlane](documents/02_Unicorn/FOUNDER_070_michael_preysman.md)
+  - 評価額: $200M+（推定年商）
+- [Anne Wojcicki - 23andMe](documents/02_Unicorn/FOUNDER_071_anne_wojcicki.md)
+  - 評価額: $3.5B（2021年SPAC上場時）
+- [Ritesh Agarwal - OYO Rooms](documents/02_Unicorn/FOUNDER_073_ritesh_agarwal.md)
+  - 評価額: $2.4B-$4.3B（2024-2025年）
+- [Alejandro Cremades - Onevest/CoFoundersLab](documents/02_Unicorn/FOUNDER_074_alejandro_cremades.md)
+  - 評価額: 数百万ドル（非公開）
+- [Jawed Karim - YouTube](documents/02_Unicorn/FOUNDER_076_jawed_karim.md)
+  - 評価額: $1.65B（2006年Google買収時）
+- [Chad Hurley - YouTube](documents/02_Unicorn/FOUNDER_077_chad_hurley.md)
+  - 評価額: $1.65B（買収時）/ 現在$550B相当
+- [Steve Chen - YouTube](documents/02_Unicorn/FOUNDER_078_steve_chen.md)
+  - 評価額: $1.65B（2006年Google買収時）
+- [Evan Spiegel - Snapchat / Snap Inc.](documents/02_Unicorn/FOUNDER_079_evan_spiegel.md)
+  - 評価額: 時価総額約$12B（2025年）/ IPO時$24B（2017年）
+- [Bobby Murphy - Snapchat/Snap Inc.](documents/02_Unicorn/FOUNDER_080_bobby_murphy.md)
+  - 評価額: 時価総額 約$18B（2024年）
+- [Pierre Omidyar - eBay](documents/02_Unicorn/FOUNDER_081_pierre_omidyar.md)
+  - 評価額: $28B（時価総額、2025年12月）
+- [Luis von Ahn - Duolingo](documents/02_Unicorn/FOUNDER_081_luis_von_ahn.md)
+  - 評価額: $8.39B（時価総額・2025年12月時点）
+- [Ryan Smith - Qualtrics](documents/02_Unicorn/FOUNDER_082_ryan_smith.md)
+  - 評価額: $12.5B（2023年Silver Lake買収時）
+- [Evan Spiegel - Snapchat / Snap Inc.](documents/02_Unicorn/FOUNDER_082_evan_spiegel.md)
+  - 評価額: IPO時$24B（2017年）/ 現在約$12B（2025年）
+- [Jason Citron - Discord](documents/02_Unicorn/FOUNDER_083_jason_citron.md)
+  - 評価額: $15B（2021年9月）
+- [Jeff Lawson - Twilio](documents/02_Unicorn/FOUNDER_083_jeff_lawson.md)
+  - 評価額: $16-20B（時価総額）
+- [Frank Slootman - Snowflake / ServiceNow / Data Domain](documents/02_Unicorn/FOUNDER_084_frank_slootman.md)
+  - 評価額: $77B（時価総額、2024年12月時点）
+- [Jeremy Stoppelman - Yelp](documents/02_Unicorn/FOUNDER_084_jeremy_stoppelman.md)
+  - 評価額: $2.5B（時価総額、2025年12月）
+- [Shantanu Narayen - Adobe](documents/02_Unicorn/FOUNDER_085_shantanu_narayen.md)
+  - 評価額: $150B（2025年12月時点時価総額）
+- [Arvind Krishna - IBM](documents/02_Unicorn/FOUNDER_086_arvind_krishna.md)
+  - 評価額: $285B（時価総額、2025年12月時点）
+- [Ryan Petersen - Flexport](documents/02_Unicorn/FOUNDER_087_ryan_petersen.md)
+  - 評価額: $8B (2022年2月)
+- [Ali Ghodsi - Databricks](documents/02_Unicorn/FOUNDER_087_ali_ghodsi.md)
+  - 評価額: $134B（2025年12月）
+- [Ev Williams - Twitter](documents/02_Unicorn/FOUNDER_088_ev_williams.md)
+  - 評価額: $44B（2022年Elon Musk買収時）
+- [Jay Chaudhry - Zscaler](documents/02_Unicorn/FOUNDER_088_jay_chaudhry.md)
+  - 評価額: $28-30B（時価総額）
+- [George Kurtz - CrowdStrike](documents/02_Unicorn/FOUNDER_089_george_kurtz.md)
+  - 評価額: $128B+
+- [Rich Barton - Zillow](documents/02_Unicorn/FOUNDER_089_rich_barton.md)
+  - 評価額: $540M（2011年IPO時）→ $10B+（2024年現在）
+- [Nikesh Arora - Palo Alto Networks](documents/02_Unicorn/FOUNDER_090_nikesh_arora.md)
+  - 評価額: $130B（時価総額、2024年12月）
+- [Sridhar Vembu - Zoho Corporation](documents/02_Unicorn/FOUNDER_091_sridhar_vembu.md)
+  - 評価額: $12.5B（2024年、約1.03兆ルピー）
+- [Sachin Bansal - Flipkart](documents/02_Unicorn/FOUNDER_092_sachin_bansal.md)
+  - 評価額: $20.8B（2018年Walmart買収時）
+- [Binny Bansal - Flipkart](documents/02_Unicorn/FOUNDER_093_binny_bansal.md)
+  - 評価額: $21B（Walmart買収時）
+- [Kunal Shah - CRED](documents/02_Unicorn/FOUNDER_094_kunal_shah.md)
+  - 評価額: $6.4B（2022年6月）
+- [Vijay Shekhar Sharma - Paytm](documents/02_Unicorn/FOUNDER_095_vijay_shekhar.md)
+  - 評価額: $20B（IPO時）、$4.2B（2024年）
+- [Bhavish Aggarwal - Ola](documents/02_Unicorn/FOUNDER_096_bhavish_aggarwal.md)
+  - 評価額: $7.3B（Ola Consumer）、$4.8B（Ola Electric IPO時）
+- [Justin Rosenstein - Asana](documents/02_Unicorn/FOUNDER_097_justin_rosenstein.md)
+  - 評価額: $3.4B（2025年12月時点時価総額）
+- [Alexandr Wang - Scale AI](documents/02_Unicorn/FOUNDER_097_alexandr_wang_scale_ai.md)
+  - 評価額: $29B
+
+## Series C（2件）
+
+- [Todd McKinnon & Frederic Kerrest - Okta](documents/03_VC_Backed/FOUNDER_160_okta.md)
+  - 評価額: $2B（2017年IPO時）→ $10B+（2024年）
+- [Travis Kalanick - Uber](documents/03_VC_Backed/FOUNDER_161_uber.md)
+  - 評価額: $82.4B（2019年IPO時）→ $169B+（2024年）
+
+## Series B（1件）
+
+- [Peter Thiel & Alex Karp - Palantir](documents/03_VC_Backed/FOUNDER_159_palantir.md)
+  - 評価額: $15.7B（2020年IPO時）→ $80B+（2024年）
+
+## Series A（2件）
+
+- [Tom Preston-Werner & Chris Wanstrath - GitHub](documents/03_VC_Backed/FOUNDER_157_github.md)
+  - 評価額: $7.5B（Microsoft買収時、2018年）
+- [Elon Musk - SpaceX](documents/03_VC_Backed/FOUNDER_361_spacex.md)
+  - 評価額: $350B (2024年12月) → $800B (最新)
+
+## その他（2件）
+
+- [Byju Raveendran - BYJU'S](documents/02_Unicorn/FOUNDER_072_byju_raveendran.md)
+  - 評価額: $0 (ピーク時$22B)
+- [Elon Musk - SpaceX](documents/02_Unicorn/FOUNDER_085_elon_musk_spacex.md)
+  - 評価額: $800B (2025年最新)
+

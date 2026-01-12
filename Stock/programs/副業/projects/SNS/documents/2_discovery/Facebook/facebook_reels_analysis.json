@@ -1,0 +1,107 @@
+{
+  "reels_stats": {
+    "count": 7,
+    "total_impressions": 20902,
+    "avg_impressions": 2986.0,
+    "median_impressions": 1482.0,
+    "max_impressions": 10475,
+    "min_impressions": 821
+  },
+  "photo_stats": {
+    "count": 73,
+    "avg_impressions": 7175.31884057971
+  },
+  "comparison": {
+    "reels_vs_photo_ratio": 0.42,
+    "reels_percentage": 8.4,
+    "benchmark_min": 15.0,
+    "benchmark_max": 25.0,
+    "gap_from_benchmark_min": -6.6
+  },
+  "individual_reels": [
+    {
+      "date": "10/06/2025 03:56",
+      "title_preview": "OpenAIが10月6日のDevDayで発表見込みのAgent Builderが、AIエージェント開発の常識を変えようとしている。「これまで使った中で最も滑らかなエージェント構築キャンバスだ」。テステ...",
+      "impressions": 10475,
+      "reactions": 56,
+      "comments": 5,
+      "shares": 10,
+      "saves": 8,
+      "total_engagement": 79,
+      "engagement_rate": 0.75,
+      "link": "https://www.facebook.com/reel/2689139361422789/"
+    },
+    {
+      "date": "12/13/2025 03:25",
+      "title_preview": "OpenAIの研究チームは「GPT5.2は平均14年の実務経験を持つ専門家の成果に並んだ」と結論付けた。GPT5.2リリースのタイミングで更新された経済価値指標「GDPval」において、AIモデルの進...",
+      "impressions": 4162,
+      "reactions": 150,
+      "comments": 14,
+      "shares": 17,
+      "saves": 2,
+      "total_engagement": 183,
+      "engagement_rate": 4.4,
+      "link": "https://www.facebook.com/reel/3065962990243047/"
+    },
+    {
+      "date": "10/04/2025 03:16",
+      "title_preview": "「今後2年以内に、Sora2は数秒から数時間の映像を一貫して生成できるようになる。しかもコストはほぼゼロだ」と元オープンAIチーフリサーチオフィサーのボブ・マグリュー氏は断言する。6年半にわたり同社の...",
+      "impressions": 1593,
+      "reactions": 46,
+      "comments": 2,
+      "shares": 3,
+      "saves": 2,
+      "total_engagement": 53,
+      "engagement_rate": 3.33,
+      "link": "https://www.facebook.com/reel/1340249877546117/"
+    },
+    {
+      "date": "10/05/2025 03:50",
+      "title_preview": "OpenAIは株式、暗号資産、不動産などの取引を支援するAIエージェントをリリース予定か。10月3日に発表されたAI活用型パーソナル金融アプリ「Roi」の買収が、その強いシグナルとなっている。360万...",
+      "impressions": 1482,
+      "reactions": 24,
+      "comments": 4,
+      "shares": 1,
+      "saves": 1,
+      "total_engagement": 30,
+      "engagement_rate": 2.02,
+      "link": "https://www.facebook.com/reel/1156490743243416/"
+    },
+    {
+      "date": "11/24/2025 03:58",
+      "title_preview": "Googleは「開発体験の未来形」として、新AIエディタ「Antigravity」を公開した。現在最強とされるGemini 3 Proを搭載し、先行するCursorの並列処理とWindsurfの文脈理...",
+      "impressions": 1283,
+      "reactions": 37,
+      "comments": 2,
+      "shares": 1,
+      "saves": 8,
+      "total_engagement": 48,
+      "engagement_rate": 3.74,
+      "link": "https://www.facebook.com/reel/1401224198285271/"
+    },
+    {
+      "date": "10/01/2025 03:36",
+      "title_preview": "OpenAIのサム・アルトマンCEO「Sora2は動画における“GPT-3.5”とも言える瞬間に突入する」と語る。同社が発表した動画生成AI「Sora 2」を搭載し、アイデアから完成まで数秒で動画を作...",
+      "impressions": 1086,
+      "reactions": 22,
+      "comments": 2,
+      "shares": 2,
+      "saves": 1,
+      "total_engagement": 27,
+      "engagement_rate": 2.49,
+      "link": "https://www.facebook.com/ysato1101/videos/1110463104534620/"
+    },
+    {
+      "date": "10/04/2025 18:25",
+      "title_preview": "「今後2年以内に、Sora2は数秒から数時間の映像を一貫して生成できるようになる。しかもコストはほぼゼロだ」と元オープンAIチーフリサーチオフィサーのボブ・マグリュー氏は断言する。6年半にわたり同社の...",
+      "impressions": 821,
+      "reactions": 19,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "total_engagement": 19,
+      "engagement_rate": 2.31,
+      "link": "https://www.facebook.com/reel/822880967063564/"
+    }
+  ]
+}

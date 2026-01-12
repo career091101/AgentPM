@@ -1,0 +1,172 @@
+# SNS自動化設定ファイル
+# =====================================
+# Month 1: Xタイムライン監視システム設定（Claude In Chrome版）
+#
+# 作成日: 2026-01-01
+# 更新日: 2026-01-01（Claude In Chrome対応）
+# プロジェクト: SNS運用戦略
+# 用途: Claude In Chromeでのブラウザ自動化設定
+
+# ブラウザ自動化設定（Claude In Chrome）
+browser_automation:
+  # Xタイムライン収集設定
+  total_tweets_target: 200  # タイムラインから収集する総ツイート数
+  scroll_wait_seconds: 3    # スクロール後の待機時間（重複率削減のため2→3に増加）
+  page_load_wait_seconds: 3 # ページ読み込み待機時間
+  scroll_amount: 10         # 1回のスクロール量（画面の100%+スクロール、重複率削減のため8→10に増加）
+
+# AI業界インフルエンサーリスト（50名）
+# ※ タイムライン収集方式のため、個別プロフィール訪問には使用しない
+# ※ このリストは「フォロー推奨アカウント」として参照用に保持
+# ※ Xハンドル（@なし）を記載
+influencers:
+  # カテゴリA: 著名起業家・経営者
+  - username: "takapon_jp"
+    name: "堀江貴文"
+    category: "起業家・経営者"
+    followers: 3310000
+
+  - username: "ochyai"
+    name: "落合陽一"
+    category: "起業家・経営者"
+    followers: 487900
+
+  # カテゴリB: AI研究者・技術者（主要な方のみ記載、残りは追加予定）
+  - username: "fladdict"
+    name: "深津貴之"
+    category: "AI研究者・技術者"
+    followers: 178000
+
+  - username: "_daichikonno"
+    name: "紺野大地"
+    category: "AI研究者・技術者"
+    specialty: "医療AI"
+
+  - username: "miyayou"
+    name: "三宅陽一郎"
+    category: "AI研究者・技術者"
+    specialty: "ゲームAI"
+
+  # カテゴリE: ニュース系
+  # ※ カテゴリC, D, Fのハンドルは competitor_analysis_summary_30.md に未記載のため、
+  #   後日追加が必要です。以下、記載されている3名のみ設定。
+
+  # カテゴリF: YouTuber
+  - username: "nyanta_AI"
+    name: "にゃんたのAIチャンネル"
+    category: "YouTuber"
+    specialty: "AI解説VTuber"
+
+  - username: "iketomo_ch"
+    name: "いけともch"
+    category: "YouTuber"
+    specialty: "AI × ビジネス実装"
+
+  - username: "nakajijp"
+    name: "ウェブ職TV"
+    category: "YouTuber"
+    specialty: "Web×AI"
+
+  # TODO: 残り42名のXハンドルを追加
+  # ドキュメント参照: /Stock/programs/副業/projects/SNS_Practice/documents/2_discovery/competitor_analysis_summary_30.md
+  #
+  # 追加が必要なカテゴリ:
+  # - カテゴリA: 残り6名（松尾豊、大野峻典、KEITO、木内翔大、チャエン、AI速報）
+  # - カテゴリB: 残り11名（元木大介、福島良典、岡野原大輔、今井翔太、かずなり、ひろちゅ〜、池田朋弘、usutaku、いわもん、坪井大輔、西川徹）
+  # - カテゴリC: 残り3名（新井紀子、尾形哲也）
+  # - カテゴリD: 全6名（ハヤシシュンスケ、高桑宗一郎、さとり、あおい、熊井悠）
+  # - カテゴリE: 全5名（うみゆき、ChatGPT研究所、Ishi、清水れみお、NOBU）
+  # - カテゴリF: 残り5名（mikimiki webスクール、AI大学、AI様の下僕、ZIGのAI活用ch、AI FREAK、AIキャンプ/中村俊也）
+  # - カテゴリG: 全5名（Riku、mocchicc、そねち、タランチュラ、ハヤカワ五味）
+
+# フィルタリング基準
+filters:
+  # 最小インプレッション数（推定値）
+  # 実測テスト結果: 100に緩和（1000では実用データがフィルタされる）
+  min_impressions: 100
+
+  # 最小エンゲージメント率（1%）
+  # 実測テスト結果: 0.01に緩和（0.05では実用データがフィルタされる）
+  min_engagement_rate: 0.01
+
+  # 時間窓（24時間以内）
+  time_window_hours: 24
+
+  # 上位N件を抽出
+  top_n: 10
+
+  # リツイートを除外（オリジナル投稿のみ）
+  exclude_retweets: true
+
+  # リプライを除外（独立投稿のみ）
+  exclude_replies: true
+
+# エンゲージメントスコア重み設定
+engagement_weights:
+  # いいね: 1倍
+  like: 1
+
+  # リツイート: 3倍（拡散力の重視）
+  retweet: 3
+
+  # リプライ: 5倍（会話誘発の重視）
+  reply: 5
+
+# 実行スケジュール（Claude In Chrome手動実行）
+# ※ ClaudeCode Skillで実行: /sns-automation
+schedule:
+  # 推奨実行時刻: 毎朝7:00
+  recommended_time: "07:00 JST"
+
+  # タイムゾーン
+  timezone: "Asia/Tokyo"
+
+  # 実行方法
+  method: "ClaudeCode Skill (/sns-automation)"
+
+  # 備考: 将来的にcron化も検討可能
+
+# データ保存設定
+output:
+  # 保存先ディレクトリ
+  data_dir: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/副業/projects/SNS/data"
+
+  # ファイル名フォーマット（日付自動付与）
+  filename_format: "x_timeline_{date}.json"
+
+  # 保存期間（日数）
+  retention_days: 30
+
+  # Notion連携（将来実装）
+  notion:
+    enabled: false
+    database_id: null
+    # TODO: Notion API統合時に設定
+
+# ログ設定
+logging:
+  # ログレベル（DEBUG, INFO, WARNING, ERROR, CRITICAL）
+  level: "INFO"
+
+  # ログファイル保存
+  file_enabled: true
+  file_path: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/副業/projects/SNS/logs/x_timeline_collector.log"
+
+  # ログローテーション（10MB × 5ファイル）
+  max_bytes: 10485760
+  backup_count: 5
+
+# Month 1 Week 1-2目標
+# ====================
+# - Xホームタイムラインから200件のツイート収集（スクロール方式）
+# - 1日5-10件の高エンゲージメント投稿抽出（上位10件から選定）
+# - エンゲージメント率>5%、インプレッション>1,000
+# - 毎朝7:00手動実行（ClaudeCode Skill: /sns-automation）
+# - 所要時間: 5-10分（20-30回スクロール）
+
+# Month 2以降の拡張予定
+# ======================
+# - LinkedIn/Facebook投稿自動生成との連携
+# - Reply Guy戦略の自動化
+# - Notion APIでのデータベース連携
+# - Claude APIでのネタ要約自動化

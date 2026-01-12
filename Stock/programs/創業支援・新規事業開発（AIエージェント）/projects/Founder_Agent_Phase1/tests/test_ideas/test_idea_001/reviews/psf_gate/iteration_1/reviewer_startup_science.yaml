@@ -1,0 +1,88 @@
+reviewer: "Startup Science Agent"
+philosophy: "起業の科学"
+reference: "田所雅之『起業の科学 スタートアップサイエンス』"
+timestamp: "2025-12-29T21:00:00+09:00"
+
+current_phase_assessment:
+  detected_phase: "PSF"
+  phase_appropriate: true
+  feedback: "CPFスコア72%でCPF達成後、PSF診断を実施しており、正しいフェーズ順序で進行している。『正しい順序で進める』という起業の科学の原則に合致。"
+
+evaluation:
+  failure_avoidance:
+    score: 0
+    top_risk: "誰も欲しがらないものを作った（42%の失敗原因）"
+    feedback: "このリスクは回避できている。3U+1検証で課題1（87.5%）、課題3（87.5%）と高切実度を実証。Web上の課題投稿10件以上収集も実施済み（起業の科学推奨）。市場ニーズの証拠が十分にある。"
+
+  idea_3u1:
+    unworkable:
+      score: 0
+      feedback: "日報入力30分/日は「解決されないと困る」レベル。年間108時間の機会損失は営業担当者にとって切実。スコア1.0/1.0で満点。"
+    unavoidable:
+      score: 0
+      feedback: "日次課題であり、営業担当者は必ず直面する。スコア1.0/1.0で満点。"
+    urgent:
+      score: 1
+      feedback: "Urgentスコアが0.5/1.0とやや弱い。『今すぐ解決したい』緊急性は中程度。日報入力は翌日以降に回すことも可能であり、『髪の毛が燃えている』レベルではない。-1点。"
+    underserved:
+      score: 0
+      feedback: "既存代替案（大手SFA、Excel、メール）は全て不十分。大手SFAは高額（1万円/月）で操作複雑、Excelは検索性低い、メールは構造化不可。Underservedスコア1.0/1.0で満点。"
+
+  cpf_readiness:
+    interview_plan:
+      score: 0
+      planned_count: 30
+      feedback: "LP事前登録30人を計画しており、インタビュー計画として十分（起業の科学推奨20人以上）。仮想インタビューも実施済み。"
+    problem_commonality:
+      score: 0
+      feedback: "3U+1検証で課題1、3が87.5%の共通性。70%以上という起業の科学の基準を満たす。"
+    willingness_to_pay:
+      score: 0
+      feedback: "月額980円の価格設定で、ユニットエコノミクス健全（粗利率72.4%）。支払い意思は十分想定できる。年間11,760円は大手SFA（12万円/年）の1/10であり、導入障壁が低い。"
+    persona_definition:
+      score: 0
+      feedback: "ペルソナ（田中隆、35歳、営業課長、BtoB企業）が詳細に定義され、1日の行動タイムライン（06:30-23:00）も記載。起業の科学が推奨するレベルのペルソナシート。"
+
+  psf_readiness:
+    uvp_clarity:
+      score: 0
+      uvp_statement: "音声3分で完了するAI日報作成で、営業担当者が本質業務に集中できる時間を生み出す。なぜ今か：生成AIの普及により音声認識精度が実用レベル（95%以上）に到達し、中小企業でも低コストで導入可能になったため。"
+      feedback: "UVPが一文で明確に表現され、『なぜ今か』も含まれている。起業の科学の基準を満たす優秀なUVP。"
+    mvp_plan:
+      score: 0
+      mvp_type: "オズの魔法使い型 → LP型 → 本格MVP"
+      feedback: "MVP種類が明確で、段階的アプローチが適切。特にオズの魔法使い型（人間が手動代行）は、起業の科学が推奨する『作る前に売る』原則を実践。"
+    ten_x_improvement:
+      score: 0
+      improvement_axis: "時間削減、学習時間、コスト"
+      feedback: "10倍改善を3軸で達成（時間10倍、学習時間10倍、コスト10.2倍）。起業の科学の基準（10倍以上の改善）を満たし、さらに超過達成（目標2軸に対し3軸）。"
+    initial_user_strategy:
+      score: 0
+      strategy: "営業代行会社への紹介依頼、オンライン営業セミナー参加、LinkedIn営業担当者グループ投稿、Twitter投稿（週5回）"
+      feedback: "初期ユーザー獲得方法が4つの具体的手法で明確。『Do things that don't scale』を実践している。"
+
+total_score: 1
+verdict: "PASS"
+
+checklist_gaps:
+  - item: "Urgent（緊急性）スコアがやや弱い"
+    current_status: "Urgentスコア0.5/1.0（中程度）"
+    required_action: "日報未提出による具体的な損失（上司からの叱責、営業機会損失の可視化）を強調し、緊急性を高める"
+
+improvement_suggestions:
+  - "Urgent（緊急性）の強化：日報未提出の具体的ペナルティ（上司からの催促、評価への影響）を明確化"
+  - "MVP検証後の学習サイクル明確化（何を測定し、どう改善するか）"
+  - "業種別優先順位の明確化（IT/人材を第1弾、製造を第2弾）をリーンキャンバスに反映"
+
+key_strengths:
+  - "正しいフェーズ順序（CPF達成→PSF診断）"
+  - "3U+1検証が適切に実施され、高切実度を実証"
+  - "UVP明確で『なぜ今か』を含む"
+  - "MVP段階的アプローチ（オズの魔法使い型→LP型→本格MVP）"
+  - "10倍改善3軸達成（起業の科学の基準を超過達成）"
+  - "ペルソナ詳細定義（行動タイムライン含む）"
+
+minor_concerns:
+  - "Urgent（緊急性）スコアがやや弱い（0.5/1.0）→ 日報未提出の具体的損失を強調推奨"
+
+overall_assessment: "起業の科学の原則に高度に合致。フェーズ順序が正しく、3U+1検証、CPF/PSF診断が適切に実施されている。10倍改善3軸達成、UVP明確、MVP段階的アプローチ全てが基準を満たす。Urgent（緊急性）のみやや弱いが、その他の評価項目は全て優秀。PSFスコア88%は起業の科学の基準（80%）を上回り、優秀評価。"

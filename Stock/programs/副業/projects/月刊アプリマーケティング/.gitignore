@@ -1,0 +1,27 @@
+# 認証情報
+data/cookies/
+*.json
+!data/article_list.csv
+
+# 抽出した記事データ（サイズが大きいためgit管理外）
+data/markelabo_articles/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Playwright
+data/cookies/playwright_profile/
+
+# ログ
+*.log
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db

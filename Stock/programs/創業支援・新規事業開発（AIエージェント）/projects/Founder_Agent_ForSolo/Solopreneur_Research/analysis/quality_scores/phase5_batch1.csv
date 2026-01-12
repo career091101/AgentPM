@@ -1,0 +1,6 @@
+filename,old_score,new_score,improvement,issues_fixed
+005_brock_anderson.md,F,B+,"fact_check: warn→pass, sources: 3→5, japan_score補完(market_fit/cultural_fit/language_barrier追加)","sources不足解消, japan_score構造完全化"
+075_rox.md,F,A,"全メトリクス補完完了","product情報完全化, tags全6項目追加, founder詳細追加, japan_score完全実装(4.5/5.0), quality: sources 0→8, timeline追加"
+076_andrey_azimov.md,F,A,"全メトリクス補完完了、revenue修正($10B→$10K)","revenue異常値修正, product情報完全化, tags全6項目追加, founder詳細追加, japan_score完全実装(4.0/5.0), quality: sources 0→5, timeline追加"
+077_yong_soo_chung.md,F,A,"全メトリクス補完完了","revenue推定値追加($20M ARR), product情報完全化, tags全6項目追加, founder詳細追加, japan_score完全実装(4.0/5.0), quality: sources 0→5, timeline追加"
+079_arvid_kahl.md,F,A+,"全メトリクス補完完了","product情報完全化, tags全6項目追加, founder詳細追加, japan_score完全実装(5.0/5.0 極めて高い), quality: sources 0→11, timeline追加, revenue詳細化"

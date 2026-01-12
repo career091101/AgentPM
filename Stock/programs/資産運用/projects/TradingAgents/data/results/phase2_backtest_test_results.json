@@ -1,0 +1,104 @@
+{
+  "execution_time": "2026-01-01 18:07:58",
+  "data_period": "2025-07-05 ～ 2025-11-01",
+  "data_count": 120,
+  "price_range": "¥37,573 - ¥39,605",
+  "signals_count": 8,
+  "kpi_results": [
+    {
+      "name": "週間平均リターン",
+      "target": 3.0,
+      "actual": 78.24434022445935,
+      "unit": "%",
+      "achievement": 2608.1446741486448,
+      "status": "✅ 達成"
+    },
+    {
+      "name": "勝率",
+      "target": 60.0,
+      "actual": 25.0,
+      "unit": "%",
+      "achievement": 41.66666666666667,
+      "status": "❌ 未達"
+    },
+    {
+      "name": "シャープレシオ",
+      "target": 1.0,
+      "actual": 0.6737419721244552,
+      "unit": "",
+      "achievement": 67.37419721244552,
+      "status": "❌ 未達"
+    },
+    {
+      "name": "最大ドローダウン",
+      "target": 10.0,
+      "actual": 0.0,
+      "unit": "%",
+      "achievement": 0,
+      "status": "✅ 達成"
+    },
+    {
+      "name": "プロフィットファクター",
+      "target": 1.5,
+      "actual": 0.26654458576685564,
+      "unit": "",
+      "achievement": 17.769639051123708,
+      "status": "❌ 未達"
+    }
+  ],
+  "backtest_summary": {
+    "total_trades": 4,
+    "winning_trades": 1,
+    "losing_trades": 3,
+    "win_rate": 25.0,
+    "total_return": 1341.3315467050174,
+    "sharpe_ratio": 0.6737419721244552,
+    "max_drawdown": 0.0,
+    "profit_factor": 0.26654458576685564,
+    "final_capital": 14413315.467050174,
+    "profit": 13413315.467050174
+  },
+  "wf_results": "スキップ",
+  "trades": [
+    {
+      "entry_date": "2025-08-03",
+      "exit_date": "2025-08-20",
+      "entry_price": 38356.70464995897,
+      "exit_price": 38225.47439918701,
+      "size": 24.767508279703485,
+      "pnl": -5146.996076219538,
+      "return_pct": -0.3421311918465286,
+      "commission_total": 1896.749753677458
+    },
+    {
+      "entry_date": "2025-09-03",
+      "exit_date": "2025-09-19",
+      "entry_price": 38576.26080387933,
+      "exit_price": 38837.41081217901,
+      "size": 47.895008879185895,
+      "pnl": 8800.053476891058,
+      "return_pct": 0.6769707661075763,
+      "commission_total": 3707.7284894214954
+    },
+    {
+      "entry_date": "2025-10-03",
+      "exit_date": "2025-10-19",
+      "entry_price": 38974.19630165295,
+      "exit_price": 38903.01839275388,
+      "size": 92.65618237825456,
+      "pnl": -13810.878716090501,
+      "return_pct": -0.1826282916731925,
+      "commission_total": 7215.805407835444
+    },
+    {
+      "entry_date": "2025-11-01",
+      "exit_date": "2025-11-01",
+      "entry_price": 39290.376203559346,
+      "exit_price": 39290.376203559346,
+      "size": 178.89164761161243,
+      "pnl": -14057.440268669643,
+      "return_pct": 0.0,
+      "commission_total": 14057.440268669643
+    }
+  ]
+}

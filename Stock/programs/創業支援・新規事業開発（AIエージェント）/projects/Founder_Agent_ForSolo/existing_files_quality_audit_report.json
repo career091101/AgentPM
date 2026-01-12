@@ -1,0 +1,4116 @@
+[
+  {
+    "file": "validate-cpf/05_max_artemov_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 12815,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/13_designpulse_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 8443,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/15_papermark_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 8432,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/07_takuya_matsuyama_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 12541,
+    "total_score": 173,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/14_leadmore_ai_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 8440,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/12_stagetimer_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5016,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/17_hypefury_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5005,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/19_tech_email_newsletter_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5097,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/18_high_performance_journal_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5100,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/03_remoteok_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 9635,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/06_cj_zafir_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 9491,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/20_lenny's_newsletter_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5086,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/01_shipfast_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 8253,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/02_typingmind_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 9202,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/16_nocodemvp_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5010,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/09_appalchemy_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5018,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/04_senja_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 10051,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/08_genppt_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5002,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/11_formula_bot_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5027,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-cpf/10_postpone_cpf.md",
+    "skill": "validate-cpf",
+    "word_count": 5007,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/008_gumroad_fee_2x.md",
+    "skill": "validate-10x",
+    "word_count": 8962,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/006_nomadlist_info_10x.md",
+    "skill": "validate-10x",
+    "word_count": 8126,
+    "total_score": 170,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/005_plausible_speed_45x.md",
+    "skill": "validate-10x",
+    "word_count": 9586,
+    "total_score": 163,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/004_carrd_simplicity_10x.md",
+    "skill": "validate-10x",
+    "word_count": 11258,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/README.md",
+    "skill": "validate-10x",
+    "word_count": 6216,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/001_shipfast_dev_speed_10x.md",
+    "skill": "validate-10x",
+    "word_count": 11996,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/003_typingmind_productivity_5x.md",
+    "skill": "validate-10x",
+    "word_count": 11243,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/007_tweethunter_growth_3x.md",
+    "skill": "validate-10x",
+    "word_count": 8254,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-10x/002_photopea_price_100x.md",
+    "skill": "validate-10x",
+    "word_count": 13222,
+    "total_score": 170,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/005_useartemis_vs_linkedin_sales_nav.md",
+    "skill": "research-competitors",
+    "word_count": 11707,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/004_sitegpt_vs_intercom_zendesk.md",
+    "skill": "research-competitors",
+    "word_count": 13334,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/007_shoutout_vs_testimonial_wallof love.md",
+    "skill": "research-competitors",
+    "word_count": 11299,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/008_starter_story_vs_techcrunch.md",
+    "skill": "research-competitors",
+    "word_count": 12980,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/003_carrd_vs_wix_squarespace.md",
+    "skill": "research-competitors",
+    "word_count": 13383,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/006_setter_ai_vs_salesforce_hubspot.md",
+    "skill": "research-competitors",
+    "word_count": 11769,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/001_plausible_vs_google_analytics.md",
+    "skill": "research-competitors",
+    "word_count": 14434,
+    "total_score": 129,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "research-competitors/002_typingmind_vs_chatgpt.md",
+    "skill": "research-competitors",
+    "word_count": 10938,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/06_ivan_kutskir_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 11572,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/03_pieter_levels_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 9834,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/CASE_08_MakeLogo_Talknotes_Nico_Jeannen.md",
+    "skill": "validate-solo-fit",
+    "word_count": 7330,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/CASE_09_AI_Web_Builder_Marko_Kraemer.md",
+    "skill": "validate-solo-fit",
+    "word_count": 6573,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/04_danny_postma_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 9779,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/CASE_10_AI_Model_Comparison_Ahmet_Dedeler.md",
+    "skill": "validate-solo-fit",
+    "word_count": 6807,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/02_tony_dinh_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 8934,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/01_marc_lou_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 9005,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/CASE_11_Tweet_Hunter_Tibo.md",
+    "skill": "validate-solo-fit",
+    "word_count": 7070,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/CASE_07_AI_Flashcard_Umatan.md",
+    "skill": "validate-solo-fit",
+    "word_count": 6335,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-solo-fit/05_thibault_louis_lucas_solo_execution.md",
+    "skill": "validate-solo-fit",
+    "word_count": 10220,
+    "total_score": 135,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/07_pat_walls_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 12686,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/00_INDEX.md",
+    "skill": "create-bip-strategy",
+    "word_count": 10933,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/04_danny_postma_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 11129,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/COMPLETION_REPORT.md",
+    "skill": "create-bip-strategy",
+    "word_count": 11480,
+    "total_score": 165,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/02_pieter_levels_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 12074,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/README.md",
+    "skill": "create-bip-strategy",
+    "word_count": 10935,
+    "total_score": 170,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/03_tony_dinh_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 11768,
+    "total_score": 190,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/01_marc_lou_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 10824,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/05_justin_welsh_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 11659,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "create-bip-strategy/06_tibo_bip.md",
+    "skill": "create-bip-strategy",
+    "word_count": 10943,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/06_typingmind_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 12049,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/01_shipfast_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 11124,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/16_gumroad_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 5313,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/02_typingmind_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 11656,
+    "total_score": 180,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/19_buttondown_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 5282,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/09_rise_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 7008,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/10_nomadlist_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 7251,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/07_tweethunter_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 12013,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/05_talknotes_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 11405,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/14_bannerbear_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 6142,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/18_plausible_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 5330,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/04_headshotpro_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 11626,
+    "total_score": 170,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/17_carrd_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 5339,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/08_headshotpro_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 6627,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/20_simpleanalytics_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 6033,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/03_photoai_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 11213,
+    "total_score": 170,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/12_countless_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 7343,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/15_flexiple_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 5495,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/11_testimonial_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 7142,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-pmf/13_photopea_pmf.md",
+    "skill": "validate-pmf",
+    "word_count": 7486,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/CASE_12_ai_flashcard_umatan.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13537,
+    "total_score": 190,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/CASE_11_notewave_alex_nguyen.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13487,
+    "total_score": 190,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/04_headshotpro_micro_saas.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13132,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/05_senja_micro_saas.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13253,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/CASE_10_curiosity_quench_jack_friks.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 12070,
+    "total_score": 190,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/CASE_14_ai_web_builder_marko_kraemer.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13812,
+    "total_score": 190,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": true,
+        "score": 25
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/01_typingmind_micro_saas.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 12810,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/02_shipfast_boilerplate.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 13890,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/10_photopea_micro_saas.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 15412,
+    "total_score": 173,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 8
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "design-micro-saas-model/03_photoai_micro_saas.md",
+    "skill": "design-micro-saas-model",
+    "word_count": 12825,
+    "total_score": 155,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/16_versoly_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4842,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/14_xmagic_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4864,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/00_INDEX.md",
+    "skill": "discover-demand",
+    "word_count": 14573,
+    "total_score": 165,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 100
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/11_screely_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4837,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/01_shipfast_demand.md",
+    "skill": "discover-demand",
+    "word_count": 13911,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/18_open_interpreter_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4869,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/10_feedbackpanda_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4895,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/02_typingmind_demand.md",
+    "skill": "discover-demand",
+    "word_count": 14060,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/13_leaddelta_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4869,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/07_tweethunter_demand.md",
+    "skill": "discover-demand",
+    "word_count": 6521,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/20_late_checkout_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4867,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/09_bannerbear_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4895,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/12_indielog_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4888,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/06_fluently_demand.md",
+    "skill": "discover-demand",
+    "word_count": 7312,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/05_senja_demand.md",
+    "skill": "discover-demand",
+    "word_count": 7818,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/04_headshotpro_demand.md",
+    "skill": "discover-demand",
+    "word_count": 14006,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/08_plug_ai_umax_cal_ai_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4938,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/19_newsletter_curation_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4843,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/15_cyberleads_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4853,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/03_nomadlist_demand.md",
+    "skill": "discover-demand",
+    "word_count": 14194,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "discover-demand/17_refermatic_demand.md",
+    "skill": "discover-demand",
+    "word_count": 4843,
+    "total_score": 121,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 20
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 0
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "measure-aarrr/004_tibo_tweethunter_aarrr.md",
+    "skill": "measure-aarrr",
+    "word_count": 19140,
+    "total_score": 146,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "measure-aarrr/003_pieter_levels_photoai_aarrr.md",
+    "skill": "measure-aarrr",
+    "word_count": 15049,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 0
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "measure-aarrr/001_marc_lou_shipfast_aarrr.md",
+    "skill": "measure-aarrr",
+    "word_count": 16413,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 0
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "measure-aarrr/002_tony_dinh_typingmind_aarrr.md",
+    "skill": "measure-aarrr",
+    "word_count": 20176,
+    "total_score": 146,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": true,
+        "score": 30
+      },
+      "quality_score_section": {
+        "present": true,
+        "score": 15
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": true,
+        "score": 10
+      },
+      "playbook": {
+        "present": true,
+        "score": 10
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/05_danny_postma_headshotpro_psf.md",
+    "skill": "validate-psf",
+    "word_count": 9715,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/06_desmond_rise_psf.md",
+    "skill": "validate-psf",
+    "word_count": 4297,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/04_pieter_levels_nomadlist_psf.md",
+    "skill": "validate-psf",
+    "word_count": 10517,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/03_wilson_senja_psf.md",
+    "skill": "validate-psf",
+    "word_count": 9758,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/01_marc_lou_shipfast_psf.md",
+    "skill": "validate-psf",
+    "word_count": 11542,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/07_tony_dinh_blackmagic_pivot_psf.md",
+    "skill": "validate-psf",
+    "word_count": 4184,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/08_pieter_levels_photoai_psf.md",
+    "skill": "validate-psf",
+    "word_count": 3779,
+    "total_score": 96,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 0
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  },
+  {
+    "file": "validate-psf/02_tony_dinh_typingmind_psf.md",
+    "skill": "validate-psf",
+    "word_count": 11847,
+    "total_score": 101,
+    "elements": {
+      "yaml_frontmatter": {
+        "present": true,
+        "score": 66
+      },
+      "solo_fit_evaluation": {
+        "present": false,
+        "score": 10
+      },
+      "quality_score_section": {
+        "present": false,
+        "score": 0
+      },
+      "primary_sources": {
+        "present": false,
+        "score": 15
+      },
+      "japan_market_adaptation": {
+        "present": false,
+        "score": 5
+      },
+      "playbook": {
+        "present": false,
+        "score": 5
+      }
+    },
+    "needs_improvement": false,
+    "priority": "低"
+  }
+]

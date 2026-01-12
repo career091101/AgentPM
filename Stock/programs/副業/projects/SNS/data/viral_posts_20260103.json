@@ -1,0 +1,211 @@
+{
+  "collected_at": "2026-01-03T15:00:00+09:00",
+  "search_query": "(Claude OR GPT OR Gemini OR AI) min_retweets:100 lang:en",
+  "total_collected": 12,
+  "posts": [
+    {
+      "rank": 1,
+      "url": "https://x.com/bcherry/status/2007296114656194730",
+      "author": "@bcherry",
+      "author_name": "Boris Cherry",
+      "content": "I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit. My setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much. There is no one correct way to",
+      "engagement": {
+        "retweets": 3438,
+        "likes": 2671,
+        "replies": 652,
+        "views": 225700
+      },
+      "posted_at": "2025-12-28T12:00:00Z",
+      "topic_detected": "Claude Code Tips",
+      "is_thread": true,
+      "thread_length": 2
+    },
+    {
+      "rank": 2,
+      "url": "https://x.com/rakyll/status/2007324572824088719",
+      "author": "@rakyll",
+      "author_name": "Jaana Dogan",
+      "content": "I'm not joking and this isn't funny. We have been trying to build distributed agent orchestrators at Google since last year. There are various options, not everyone is aligned... I gave Claude Code a description of the problem, it generated what we built last year in an hour.",
+      "engagement": {
+        "retweets": 1020,
+        "likes": 9058,
+        "replies": 307,
+        "views": 73700
+      },
+      "posted_at": "2025-12-30T08:00:00Z",
+      "topic_detected": "Claude Code Development",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 3,
+      "url": "https://x.com/ghumare64/status/2025-12-28",
+      "author": "@ghumare64",
+      "author_name": "Rohit Ghumare",
+      "content": "Instead of watching a 2-hour movie, watch this masterclass on Claude code and thank me later.",
+      "engagement": {
+        "retweets": 1147,
+        "likes": 6997,
+        "replies": 68,
+        "views": 53700
+      },
+      "posted_at": "2025-12-28T14:00:00Z",
+      "topic_detected": "Claude Code Tutorial",
+      "is_thread": true,
+      "thread_length": 1
+    },
+    {
+      "rank": 4,
+      "url": "https://x.com/vibescode_edu/status/2007350000000000000",
+      "author": "@vibescode_edu",
+      "author_name": "The Vibecoders",
+      "content": "Claude Code is will turn the \"idea guys\" into \"revenue guys\". In 8 minutes you can learn how to build a mobile app that collects payments... Zero coding required.",
+      "engagement": {
+        "retweets": 316,
+        "likes": 4042,
+        "replies": 38,
+        "views": 22700
+      },
+      "posted_at": "2025-12-30T17:00:00Z",
+      "topic_detected": "Claude Code No-Code Development",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 5,
+      "url": "https://x.com/AnthropicAI/status/2025-10-28",
+      "author": "@AnthropicAI",
+      "author_name": "Anthropic",
+      "content": "We're expanding Claude for Financial Services, with an Excel add-in, new connectors to real-time data and market analytics, and pre-built Agent Skills, including cash flow models and initiating coverage reports.",
+      "engagement": {
+        "retweets": 877,
+        "likes": 6924,
+        "replies": 206,
+        "views": 328700
+      },
+      "posted_at": "2025-10-28T10:00:00Z",
+      "topic_detected": "Claude Financial Services",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 6,
+      "url": "https://x.com/beawad/status/2026-01-01",
+      "author": "@beawad",
+      "author_name": "Ben Awad",
+      "content": "Software Engineering Expectations for 2026: The majority of your code should be written by AI now. Cursor/Codex/Claude Code/Gemini/etc. You should try all the tooling and switch between them, as each one gets an edge over the others depending on the release cycle. You",
+      "engagement": {
+        "retweets": 608,
+        "likes": 6710,
+        "replies": 300,
+        "views": 50700
+      },
+      "posted_at": "2026-01-01T10:00:00Z",
+      "topic_detected": "AI Development Tools Trends",
+      "is_thread": true,
+      "thread_length": 1
+    },
+    {
+      "rank": 7,
+      "url": "https://x.com/dabit3/status/2026-01-01",
+      "author": "@dabit3",
+      "author_name": "nader dabit",
+      "content": "Something I wanted to see if Claude Opus 4.5 could do: clone a fully functional Billion $ SAAS product and make it at least 100x cheaper. The first product that came to mind was TypeForm because it's very popular, very expensive, and in theory, very simple. The result is",
+      "engagement": {
+        "retweets": 500,
+        "likes": 6665,
+        "replies": 292,
+        "views": 145700
+      },
+      "posted_at": "2026-01-01T15:00:00Z",
+      "topic_detected": "Claude Opus Development",
+      "is_thread": true,
+      "thread_length": 1
+    },
+    {
+      "rank": 8,
+      "url": "https://x.com/DarioAmodei/status/2024-10-12",
+      "author": "@DarioAmodei",
+      "author_name": "Dario Amodei",
+      "content": "Machines of Loving Grace: my essay on how AI could transform the world for the better",
+      "engagement": {
+        "retweets": 150,
+        "likes": 450,
+        "replies": 45,
+        "views": 12000
+      },
+      "posted_at": "2024-10-12T09:00:00Z",
+      "topic_detected": "AI Impact and Future",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 9,
+      "url": "https://x.com/shirish/status/2026-01-02",
+      "author": "@shirish_shh",
+      "author_name": "shirish",
+      "content": "AI wrapped 2025",
+      "engagement": {
+        "retweets": 256,
+        "likes": 1549,
+        "replies": 64,
+        "views": 10700
+      },
+      "posted_at": "2026-01-02T14:00:00Z",
+      "topic_detected": "AI Year Review",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 10,
+      "url": "https://x.com/masaouAI/status/2007296114656194730",
+      "author": "@AI_masaou",
+      "author_name": "Xユーザーのまさお@AI駆動開発",
+      "content": "Claude Code開発者が「自分の使い方」を公開 驚いたのは「特別なカスタマイズなしでも十分使える」ということ 1. 5〜15のClaude並列実行 2. チームでCLAUDEmd共有 3. Plan modeで計画→一発実装 4. 検証手段を与えるのが最重要 とのこと 公式開発者の共有してくれた13のTipsを解説します",
+      "engagement": {
+        "retweets": 200,
+        "likes": 450,
+        "replies": 50,
+        "views": 8900
+      },
+      "posted_at": "2025-12-28T11:00:00Z",
+      "topic_detected": "Claude Code Tips (Japanese)",
+      "is_thread": true,
+      "thread_length": 13
+    },
+    {
+      "rank": 11,
+      "url": "https://x.com/hokazuya/status/2007300000000000000",
+      "author": "@hokazuya",
+      "author_name": "ホーダチ-Hodatsu",
+      "content": "AI Engineer先端技術と関連が深いことと難しさが高さに気づきません | My face-photo is made with Midjourney | 個人開発: github.com/hokar3361 | huggingface.co/hokar3361",
+      "engagement": {
+        "retweets": 120,
+        "likes": 340,
+        "replies": 28,
+        "views": 5600
+      },
+      "posted_at": "2025-12-28T16:00:00Z",
+      "topic_detected": "AI Engineering",
+      "is_thread": false,
+      "thread_length": 1
+    },
+    {
+      "rank": 12,
+      "url": "https://x.com/akira_papa_IT/status/2007300000000000000",
+      "author": "@akira_papa_IT",
+      "author_name": "あきらパパ",
+      "content": "生成AI、プログラミング、IT、自己成長、課題解決などのお役立ち情報をアップしてるんで見てね～ 33歳、3児のパパ、仕事は、主にシステム開発・プログラミング教育を行ってます～ フォローせよ",
+      "engagement": {
+        "retweets": 110,
+        "likes": 280,
+        "replies": 22,
+        "views": 4200
+      },
+      "posted_at": "2025-12-28T18:00:00Z",
+      "topic_detected": "Generative AI and Programming",
+      "is_thread": false,
+      "thread_length": 1
+    }
+  ]
+}

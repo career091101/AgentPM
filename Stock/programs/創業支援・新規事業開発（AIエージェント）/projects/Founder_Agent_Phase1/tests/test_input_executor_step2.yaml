@@ -1,0 +1,61 @@
+# Test Case 1: Executor単体テスト - STEP_2入力データ
+
+mode: "step_by_step"
+step_name: "STEP_2"
+
+context:
+  idea_folder: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_Phase1/tests/test_ideas/test_idea_001"
+
+  business_idea: |
+    中小企業（従業員10-50名）向けのAI営業支援ツール。
+
+    ## 課題
+    - 営業担当者が日報・商談記録を手動で入力している（1日30分）
+    - 上司が全員の進捗を把握できない
+    - 次のアクションが属人的で、機会損失が発生
+
+    ## ソリューション
+    - 音声入力で日報を自動生成（3分で完了）
+    - AIが商談記録を分析し、次のアクションを提案
+    - ダッシュボードで全員の進捗を可視化
+
+    ## ターゲット
+    - BtoB営業を行う中小企業
+    - 営業担当者3-10名規模
+    - SFA導入済みだが使いこなせていない企業
+
+    ## マネタイズ
+    - 月額980円/ユーザー
+    - 年間契約で20%割引
+
+  previous_outputs:
+    - name: "business_idea.md"
+      content: |
+        # ビジネスアイデア
+
+        ## アイデア名
+        AI営業アシスタント「SalesGPT」
+
+        ## 5つの眼での分析
+        - 鳥の眼: 中小企業のDX市場は年率15%成長
+        - 虫の眼: 営業日報入力の手間が課題
+        - 魚の眼: リモートワーク普及で営業管理が困難に
+        - コウモリの眼: 大手SFAは高額で使いづらい
+        - 魚の眼（時系列）: 生成AI普及で音声入力が実用化
+
+    - name: "mvv.md"
+      content: |
+        # MVV
+
+        ## Mission
+        中小企業の営業生産性を10倍にする
+
+        ## Vision
+        全ての営業担当者にAIアシスタントを
+
+        ## Value
+        - 日報入力時間を90%削減
+        - 商談成約率を30%向上
+        - 営業マネージャーの管理工数を50%削減
+
+agent_skills_path: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_Phase1/AgentSkills.md"

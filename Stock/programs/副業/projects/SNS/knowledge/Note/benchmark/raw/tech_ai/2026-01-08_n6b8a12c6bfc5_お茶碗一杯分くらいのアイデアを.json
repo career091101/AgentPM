@@ -1,0 +1,59 @@
+{
+  "id": "n6b8a12c6bfc5",
+  "title": "お茶碗一杯分くらいのアイデアを",
+  "url": "https://note.com/ochyai/n/n6b8a12c6bfc5",
+  "author": "落合陽一",
+  "author_id": "ochyai",
+  "published_at": "2026-01-08T17:20:42+09:00",
+  "like_count": 59,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ochyai",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 831,
+    "heading_count": 2,
+    "hashtags": [
+      "#落合陽一",
+      "#落合陽一公式"
+    ]
+  },
+  "quality": {
+    "score": 55,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 831,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 2,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 20,
+        "count": 59,
+        "status": "good"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 2,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 5,
+        "hour": 17,
+        "status": "good_time"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:14"
+}

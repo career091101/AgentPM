@@ -1,0 +1,182 @@
+# Founder Agent - ForRecruit Domain Configuration
+# 企業内新規事業特化版設定ファイル
+
+variant: ForRecruit
+version: "1.0"
+last_updated: "2025-12-30"
+description: "リクルートグループなど大企業内での新規事業立ち上げに特化した版"
+
+# ドメイン知識
+domain_knowledge:
+  focus_areas:
+    - "社内リソース活用"
+    - "承認プロセス最適化"
+    - "リクルートRing制度準拠"
+    - "イントレプレナー支援"
+    - "既存事業とのシナジー"
+
+  reference_paths:
+    - "../../Corporate_Product_Research/"
+    - "../../../startup_science/"
+
+  additional_frameworks:
+    - name: "Ring制度準拠"
+      path: "frameworks/ring_compliance.md"
+      priority: "critical"
+    - name: "社内承認プロセス"
+      path: "frameworks/internal_approval.md"
+      priority: "high"
+    - name: "社内リソース棚卸し"
+      path: "frameworks/resource_inventory.md"
+      priority: "high"
+
+# スキルオーバーライド（Originからの緩和）
+skill_overrides:
+  validate_cpf:
+    cpf_threshold: 50  # Originは60（社内検証・PoC前提のため緩和）
+    reason: "社内検証・PoC前提のため基準緩和"
+    interview_count: 10  # Originは20（社内ネットワーク活用）
+
+  validate_psf:
+    min_10x_axes: 1  # Originは2（社内リソース活用で十分）
+    reason: "社内リソース活用により優位性確保可能"
+    uvp_min_score: 20  # Originは28/40
+
+  validate_10x:
+    min_multiplier: 5  # Originは10（社内リソース活用前提）
+    required_axes:
+      - "社内効率化"
+      - "既存顧客価値向上"
+      # いずれか1軸で5倍以上
+
+  startup_scorecard:
+    passing_score: 25  # Originは32/40
+    reason: "社内検証段階では緩和した基準"
+
+# カスタムスキル（ForRecruit限定）
+custom_skills:
+  - name: "build-approval-deck"
+    description: "社内承認プレゼンテーション作成"
+    trigger_keywords:
+      - "社内承認"
+      - "/build-approval-deck"
+    execution_time: "40-60分"
+    priority: "P0"
+
+  - name: "inventory-internal-resources"
+    description: "社内リソース棚卸し（顧客基盤、技術、ブランド）"
+    trigger_keywords:
+      - "リソース棚卸し"
+      - "/inventory-internal-resources"
+    execution_time: "30-50分"
+    priority: "P1"
+
+  - name: "analyze-stakeholders"
+    description: "ステークホルダー分析・合意形成戦略"
+    trigger_keywords:
+      - "ステークホルダー分析"
+      - "/analyze-stakeholders"
+    execution_time: "20-40分"
+    priority: "P1"
+
+  - name: "validate-ring-criteria"
+    description: "Ring制度準拠チェック"
+    trigger_keywords:
+      - "Ring検証"
+      - "/validate-ring-criteria"
+    execution_time: "15-30分"
+    priority: "P0"
+
+# Ring制度対応
+ring_compliance:
+  ring_1:
+    founder_agent_stage: "CPF検証"
+    criteria:
+      - "CPFスコア50%以上"
+      - "社内インタビュー10件"
+      - "課長承認"
+    deliverables:
+      - "課題仮説書"
+      - "ペルソナ定義"
+
+  ring_2:
+    founder_agent_stage: "PSF検証"
+    criteria:
+      - "MVP完成"
+      - "社内PoC実施"
+      - "部長承認"
+    deliverables:
+      - "MVP"
+      - "PoC結果レポート"
+
+  ring_3:
+    founder_agent_stage: "PMF検証"
+    criteria:
+      - "外部顧客獲得"
+      - "収益化開始"
+      - "役員承認"
+    deliverables:
+      - "事業計画書"
+      - "財務計画"
+
+# 社内リソース活用項目
+internal_resources:
+  customer_base:
+    description: "既存顧客基盤の活用"
+    evaluation:
+      - "既存顧客へのクロスセル機会"
+      - "顧客インタビュー協力依頼"
+
+  sales_channel:
+    description: "既存営業網の活用"
+    evaluation:
+      - "営業チームとの連携可能性"
+      - "販売チャネル共有"
+
+  brand:
+    description: "ブランド力の活用"
+    evaluation:
+      - "認知度活用"
+      - "信頼性向上"
+
+  technology:
+    description: "技術インフラ・データ"
+    evaluation:
+      - "既存システム活用"
+      - "データ活用可能性"
+
+  human_resources:
+    description: "人的リソース"
+    evaluation:
+      - "社内公募"
+      - "兼務メンバー確保"
+
+# 承認プロセス
+approval_process:
+  - level: "課長"
+    stage: "CPF検証完了"
+    deliverable: "課題仮説書"
+
+  - level: "部長"
+    stage: "PSF検証完了、予算要求"
+    deliverable: "MVP、PoC結果レポート"
+
+  - level: "事業部長"
+    stage: "PoC実施許可"
+    deliverable: "詳細計画書"
+
+  - level: "役員"
+    stage: "本格展開・事業化判断"
+    deliverable: "事業計画書、財務計画"
+
+# 注意事項
+notes:
+  - "ForRecruitは社内リソース活用を前提とするため、Originよりも緩和した基準"
+  - "外部資金調達を目指す場合は、ForStartupへの移行を推奨"
+  - "Ring制度に準拠しない場合は、approval_processのみ参照"
+
+# 更新履歴
+changelog:
+  - date: "2025-12-30"
+    version: "1.0"
+    changes: "初版作成（ForRecruit特化版設定）"

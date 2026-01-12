@@ -1,0 +1,61 @@
+{
+  "id": "n597e7c6f64ab",
+  "title": "UXデザインの民主化は組織に何をもたらすか？【前編】",
+  "url": "https://note.com/norinity1103/n/n597e7c6f64ab",
+  "author": "Noriaki Kawanishi",
+  "author_id": "norinity1103",
+  "published_at": "2025-07-19T11:29:05+09:00",
+  "like_count": 4,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "norinity1103",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 3711,
+    "heading_count": 8,
+    "hashtags": [
+      "#デザイン",
+      "#大切にしている言葉",
+      "#組織論",
+      "#イベント登壇"
+    ]
+  },
+  "quality": {
+    "score": 55,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 20,
+        "value": 3711,
+        "status": "optimal"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 4,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 0,
+        "count": 4,
+        "status": "very_low"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 8,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 11,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:17"
+}

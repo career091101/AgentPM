@@ -1,0 +1,20 @@
+# クッキーファイル（秘密情報）
+data/cookies/*.txt
+data/cookies/*.json
+
+# 収集データ
+data/d_1d2d_articles/
+
+# Python
+scripts/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Playwright
+scripts/playwright_profile/
+
+# OS
+.DS_Store
+Thumbs.db

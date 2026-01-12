@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "topic_selected": "AI活用テスト",
+    "generated_at": "2026-01-03T14:00:00+09:00",
+    "takano_method_compliance": 100
+  },
+  "posts": [
+    {
+      "variant": "数字型",
+      "rating": "S級",
+      "content": "【テスト投稿1】\n\nAI導入で業務効率が300%向上した企業の事例を調査しました。\n\n結論: データ整備が成功の鍵です。",
+      "character_count": 80,
+      "predicted_er": "8.5%",
+      "recommended": true
+    },
+    {
+      "variant": "衝撃型",
+      "rating": "A級",
+      "content": "【テスト投稿2】\n\n「AIは人間の仕事を奪う」は本当か？\n\n最新調査では、むしろ新しい職種が生まれています。",
+      "character_count": 75,
+      "predicted_er": "7.2%",
+      "recommended": false
+    },
+    {
+      "variant": "問題提起型",
+      "rating": "A級",
+      "content": "【テスト投稿3】\n\nAI時代に求められるスキルとは？\n\n技術スキルだけでなく、倫理観も重要です。",
+      "character_count": 70,
+      "predicted_er": "6.8%",
+      "recommended": false
+    }
+  ]
+}

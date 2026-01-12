@@ -1,0 +1,905 @@
+{
+  "file_integrity": {
+    "discover-demand": {
+      "status": "pass",
+      "issues": []
+    },
+    "research-problem": {
+      "status": "pass",
+      "issues": []
+    },
+    "research-competitors": {
+      "status": "pass",
+      "issues": []
+    },
+    "create-persona": {
+      "status": "fail",
+      "issues": [
+        "コマンドファイルが存在しません: for-startup-create-persona.md"
+      ]
+    },
+    "simulate-interview": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-cpf": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-psf": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-pmf": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-10x": {
+      "status": "pass",
+      "issues": []
+    },
+    "create-mvv": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-pitch-deck": {
+      "status": "pass",
+      "issues": []
+    },
+    "prepare-vc-meeting": {
+      "status": "pass",
+      "issues": []
+    },
+    "design-pricing": {
+      "status": "pass",
+      "issues": []
+    },
+    "analyze-aarrr": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-flywheel": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-lp": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-synergy-map": {
+      "status": "pass",
+      "issues": []
+    },
+    "inventory-internal-resources": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-market-timing": {
+      "status": "pass",
+      "issues": []
+    },
+    "design-exit-strategy": {
+      "status": "pass",
+      "issues": []
+    },
+    "analyze-competitive-moat": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-ring-criteria": {
+      "status": "pass",
+      "issues": []
+    },
+    "orchestrate-review-loop": {
+      "status": "pass",
+      "issues": []
+    },
+    "discover-demand-vc-focus": {
+      "status": "fail",
+      "issues": [
+        "スキルディレクトリが存在しません: /Users/yuichi/AIPM/aipm_v0/.claude/skills/for_startup/discover-demand-vc-focus"
+      ]
+    },
+    "build-approval-deck": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-unit-economics-strict": {
+      "status": "pass",
+      "issues": []
+    }
+  },
+  "path_references": {
+    "discover-demand": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/3u_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/persona_creation.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#1-外部api失敗websearchwebfetch等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/documents/03_VC_Backed/**",
+        "参照パスが見つかりません: @startup_science/03_tactics/founder_issue_fit/fif_overview.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard"
+      ]
+    },
+    "research-problem": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/3u_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/persona_creation.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/customer_interview.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#1-外部api失敗websearchwebfetch等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @Founder_Research/analysis/cpf_patterns/**",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md**"
+      ]
+    },
+    "research-competitors": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/uvp_canvas.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-research-competitors",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/10x_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/psf_overview.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md**",
+        "参照パスが見つかりません: @Founder_Research/analysis/psf_patterns/**",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "create-persona": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/3u_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/persona_creation.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/12_uber_two_sided_marketplace.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/01_airbnb_marketplace_personas.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/06_dropbox_freemium_strategy.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/08_stripe_developer_personas.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/07_slack_team_adoption.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/03_canva_freemium_personas.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/02_freshworks_b2b_saas_personas.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/05_amazon_customer_obsession.md",
+        "参照パスが見つかりません: @Founder_Research/documents/pitch_decks/",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/10_linkedin_network_effects.md",
+        "参照パスが見つかりません: @for_startup/_analysis/domain_requirements.md",
+        "参照パスが見つかりません: @domain_requirements.md",
+        "参照パスが見つかりません: @research_knowledge.md（Airbnb事例）",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/04_stitch_fix_personalization_personas.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/11_instagram_growth_hacking.md",
+        "参照パスが見つかりません: @research/case_studies/tier2/create-persona/09_shopify_smb_personas.md",
+        "参照パスが見つかりません: @research_knowledge.md（Freshworks事例）",
+        "参照パスが見つかりません: @for_startup/_analysis/research_knowledge.md"
+      ]
+    },
+    "simulate-interview": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/3u_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/persona_creation.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/uvp_canvas.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S001_airペイ.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-simulate-interview",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @Founder_Research/analysis/cpf_patterns/**",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md**",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "validate-cpf": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/3u_validation.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/persona_creation.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/customer_interview.md",
+        "参照パスが見つかりません: @.claude/skills/for_startup/knowledge_base/case_reference.md#skill-mapping-validate-cpf",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Research/analysis/failure_patterns.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/for_startup/knowledge_base/knowledge_base.md#forstartup-edition",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md**",
+        "参照パスが見つかりません: @Founder_Research/documents/WITHDRAWN/",
+        "参照パスが見つかりません: @.claude/skills/for_startup/knowledge_base/knowledge_base.md#seed-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/for_startup/knowledge_base/knowledge_base.md#pivot-criteria"
+      ]
+    },
+    "validate-psf": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/uvp_canvas.md",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_airレジ.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_recruit.md#skill-mapping-validate-psf",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/10x_validation.md",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/psf_overview.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_recruit.md#failure-patterns",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md**",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_recruit.md#success-patterns",
+        "参照パスが見つかりません: @Founder_Research/documents/WITHDRAWN/",
+        "参照パスが見つかりません: @startup_science/01_stages/psf/mvp_types.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "validate-pmf": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-validate-pmf",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_airレジ.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "validate-10x": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-validate-10x",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#10x-success-top5",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "create-mvv": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#1-外部api失敗websearchwebfetch等",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @startup_science/02_frameworks/lean_canvas/lean_canvas_overview.md`",
+        "参照パスが見つかりません: @startup_science/02_frameworks/mvv/mvv_overview.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/recruit_specific_frameworks.md#recruit-values",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-create-mvv",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/CORP_M001_geppo.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "build-pitch-deck": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @startup_science/03_stages/pmf/pmf_overview.md",
+        "参照パスが見つかりません: @startup_science/01_stages/cpf/cpf_overview.md",
+        "参照パスが見つかりません: @for_startup/_analysis/domain_requirements.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @for_startup/_analysis/domain_requirements.md（VC投資基準）",
+        "参照パスが見つかりません: @domain_requirements.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @research_knowledge.md",
+        "参照パスが見つかりません: @for_startup/_analysis/research_knowledge.md",
+        "参照パスが見つかりません: @for_startup/_analysis/research_knowledge.md（VC投資成功事例）",
+        "参照パスが見つかりません: @startup_science/02_stages/psf/psf_overview.md"
+      ]
+    },
+    "prepare-vc-meeting": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/research/case_studies/tier2/prepare-vc-meeting/_integration_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/research/case_studies/tier2/prepare-vc-meeting/case_*.md`",
+        "参照パスが見つかりません: @for_startup/_analysis/research_knowledge.md（VC投資基準、ピッチ成功パターン）",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @Founder_Research/documents/01_Legendary/FOUNDER_006_brian_chesky.md（Airbnb事例）",
+        "参照パスが見つかりません: @Founder_Research/documents/02_Unicorn/FOUNDER_060_girish_mathrubootham.md（Freshworks事例）",
+        "参照パスが見つかりません: @Founder_Research/documents/02_Unicorn/FOUNDER_061_aaron_levie.md（Box事例）"
+      ]
+    },
+    "design-pricing": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_airレジ.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_Stripe.md,",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-design-pricing",
+        "参照パスが見つかりません: @Founder_Research/documents/WITHDRAWN/CORP_W003_Coursera個別指導.md,",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "analyze-aarrr": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-analyze-aarrr",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @startup_science/05_scale/growth_hacking.md`",
+        "参照パスが見つかりません: @startup_science/04_pmf/unit_economics.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-aarrr-benchmarks",
+        "参照パスが見つかりません: @startup_science/05_scale/aarrr_framework.md`（未作成の場合はWebSearchで補完）",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "build-flywheel": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/CORP_S001_airpay.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#1-外部api失敗websearchwebfetch等",
+        "参照パスが見つかりません: @startup_science/02_frameworks/lean_canvas/lean_canvas_overview.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @startup_science/03_tactics/flywheel/flywheel_design.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/WITHDRAWN/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-build-flywheel",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "build-lp": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#lp-success-patterns",
+        "参照パスが見つかりません: @Founder_Research/documents/WITHDRAWN/CORP_W001_エリクラ.md,",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-build-lp",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_Stripe.md,",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition"
+      ]
+    },
+    "build-synergy-map": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/official_Figma_v3.md`",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/TIER5_NEW_BUSINESS/CORP_S062_recruit_agent.md",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/TIER3_SAAS/CORP_S043_airpay_qr.md",
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/official_Slack_v3.md`",
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/official_Notion_v3.md`",
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/withdrawn_CODE.SCORE_v3.md`",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/TIER3_SAAS/CORP_S012_airpay.md",
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/official_Coursera_v3.md`",
+        "参照パスが見つかりません: @Founder_Research/analysis/research_notes_v3/withdrawn_エリクラ_v3.md`"
+      ]
+    },
+    "inventory-internal-resources": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/FAILURE/`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard"
+      ]
+    },
+    "validate-market-timing": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/official_Stripe_v3.md`",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Sratup_Research/documents/03_VC_Backed/FOUNDER_172_segway.md（早すぎる",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Sratup_Research/documents/06_Pivot_Success/PIVOT_044_groupon.md（完璧なタイミング）",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Sratup_Research/documents/07_Failure_Study/FAILURE_037_quibi.md（早すぎる失敗）",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/Sratup_Research/documents/07_Failure_Study/FAILURE_008_jawbone.md（早すぎる",
+        "参照パスが見つかりません: @/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/official_Coursera_v3.md`",
+        "参照パスが見つかりません: @Founder_Agent_ForStartup/research/case_studies/tier2/prepare-vc-meeting/case_006_stripe_founder_market_fit.md（適切なタイミング）",
+        "参照パスが見つかりません: @/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/withdrawn_エリクラ_v3.md`",
+        "参照パスが見つかりません: @/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`"
+      ]
+    },
+    "design-exit-strategy": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/withdrawn_*.md",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/withdrawal_analysis/recruit_withdrawal_criteria.md"
+      ]
+    },
+    "analyze-competitive-moat": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/official_Stripe_v3.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/research_notes_v3/withdrawn_CODE.SCORE_v3.md`"
+      ]
+    },
+    "validate-ring-criteria": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/SUCCESS/`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/analysis/integrated_analysis_report.md`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/Founder_Research/documents/FAILURE/`",
+        "参照パスが見つかりません: @Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_ForStartup/README.md`",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard"
+      ]
+    },
+    "orchestrate-review-loop": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/agents/review-agent.md（Review",
+        "参照パスが見つかりません: @startup_science/01_frameworks/cpf_validation.md",
+        "参照パスが見つかりません: @.claude/agents/review-agent.md参照）",
+        "参照パスが見つかりません: @.claude/skills/_shared/review_criteria.md参照）",
+        "参照パスが見つかりません: @.claude/skills/_shared/review_criteria.md（品質基準）",
+        "参照パスが見つかりません: @startup_science/02_tools/lean_canvas_template.md"
+      ]
+    },
+    "discover-demand-vc-focus": {
+      "status": "fail",
+      "issues": [
+        "SKILL.mdが存在しません"
+      ]
+    },
+    "build-approval-deck": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#withdrawal-criteria",
+        "参照パスが見つかりません: @Founder_Research/documents/SUCCESS/CORP_S009_airレジ.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#success-patterns",
+        "参照パスが見つかりません: @Founder_Research/analysis/approval_deck_templates.md（将来作成予定）",
+        "参照パスが見つかりません: @Founder_Research/documents/pitch_decks/（創業者向け、参考用）",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-investment-criteria",
+        "参照パスが見つかりません: @Founder_Research/analysis/integrated_analysis_report.md",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#vc-fundraising-roadmap",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#skill-mapping-approval-deck",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#unit-economics-vc-standard",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#forrecruit-edition",
+        "参照パスが見つかりません: @.claude/skills/_shared/knowledge_base.md#ring-stage-gates",
+        "参照パスが見つかりません: @.claude/skills/_shared/recruit_specific_frameworks.md#ring制度（将来作成予定）",
+        "参照パスが見つかりません: @.claude/skills/_shared/case_reference_for_startup.md#failure-patterns",
+        "参照パスが見つかりません: @Founder_Research/documents/pitch_decks/（創業者ピッチデッキ事例）"
+      ]
+    },
+    "validate-unit-economics-strict": {
+      "status": "fail",
+      "issues": [
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#3-データ検証失敗スコア計算等",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#2-ファイル読み込み失敗",
+        "参照パスが見つかりません: @for_startup/knowledge_base/knowledge_base.md（ユニットエコノミクス基準）",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#6-human-in-the-loop-トリガー条件",
+        "参照パスが見つかりません: @.claude/skills/_shared/error_handling_patterns.md#5-標準エラーレスポンス形式",
+        "参照パスが見つかりません: @for_startup/knowledge_base/case_reference_for_startup.md（成功事例）",
+        "参照パスが見つかりません: @for_startup/knowledge_base/knowledge_base.md#ユニットエコノミクス基準",
+        "参照パスが見つかりません: @for_startup/knowledge_base/case_reference_for_startup.md"
+      ]
+    }
+  },
+  "command_consistency": {
+    "discover-demand": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "research-problem": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "research-competitors": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "create-persona": {
+      "status": "fail",
+      "issues": [
+        "コマンドファイルが存在しません: for-startup-create-persona.md"
+      ]
+    },
+    "simulate-interview": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-cpf": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-psf": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-pmf": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-10x": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "create-mvv": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "build-pitch-deck": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "prepare-vc-meeting": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "design-pricing": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "analyze-aarrr": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "build-flywheel": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "build-lp": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "build-synergy-map": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "inventory-internal-resources": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-market-timing": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "design-exit-strategy": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "analyze-competitive-moat": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-ring-criteria": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "orchestrate-review-loop": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "discover-demand-vc-focus": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "build-approval-deck": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-unit-economics-strict": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    }
+  },
+  "markdown_syntax": {
+    "discover-demand": {
+      "status": "pass",
+      "issues": []
+    },
+    "research-problem": {
+      "status": "pass",
+      "issues": []
+    },
+    "research-competitors": {
+      "status": "pass",
+      "issues": []
+    },
+    "create-persona": {
+      "status": "pass",
+      "issues": []
+    },
+    "simulate-interview": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-cpf": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-psf": {
+      "status": "pass",
+      "issues": []
+    },
+    "validate-pmf": {
+      "status": "fail",
+      "issues": [
+        "行284: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行364: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行414: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行502: 見出しの階層が不正です (#2から#4へジャンプ)"
+      ]
+    },
+    "validate-10x": {
+      "status": "warning",
+      "issues": [
+        "行205: 見出しの階層が不正です (#2から#4へジャンプ)"
+      ]
+    },
+    "create-mvv": {
+      "status": "warning",
+      "issues": [
+        "行217: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行238: 見出しの階層が不正です (#2から#4へジャンプ)"
+      ]
+    },
+    "build-pitch-deck": {
+      "status": "pass",
+      "issues": []
+    },
+    "prepare-vc-meeting": {
+      "status": "pass",
+      "issues": []
+    },
+    "design-pricing": {
+      "status": "pass",
+      "issues": []
+    },
+    "analyze-aarrr": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-flywheel": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-lp": {
+      "status": "pass",
+      "issues": []
+    },
+    "build-synergy-map": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません",
+        "行282: 見出しの階層が不正です (#1から#4へジャンプ)"
+      ]
+    },
+    "inventory-internal-resources": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "validate-market-timing": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "design-exit-strategy": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "analyze-competitive-moat": {
+      "status": "fail",
+      "issues": [
+        "行227: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行283: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行347: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行397: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行467: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行527: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行619: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行729: 見出しの階層が不正です (#1から#3へジャンプ)"
+      ]
+    },
+    "validate-ring-criteria": {
+      "status": "warning",
+      "issues": [
+        "YAMLフロントマターが見つかりません"
+      ]
+    },
+    "orchestrate-review-loop": {
+      "status": "fail",
+      "issues": [
+        "行219: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行437: 見出しの階層が不正です (#1から#3へジャンプ)",
+        "行675: 見出しの階層が不正です (#1から#4へジャンプ)"
+      ]
+    },
+    "discover-demand-vc-focus": {
+      "status": "fail",
+      "issues": [
+        "SKILL.mdが存在しません"
+      ]
+    },
+    "build-approval-deck": {
+      "status": "warning",
+      "issues": [
+        "行1014: 見出しの階層が不正です (#2から#4へジャンプ)",
+        "行1055: 見出しの階層が不正です (#1から#4へジャンプ)"
+      ]
+    },
+    "validate-unit-economics-strict": {
+      "status": "pass",
+      "issues": []
+    }
+  },
+  "summary": {
+    "file_integrity": {
+      "pass": 24,
+      "warning": 0,
+      "fail": 2
+    },
+    "path_references": {
+      "pass": 0,
+      "warning": 0,
+      "fail": 26
+    },
+    "command_consistency": {
+      "pass": 0,
+      "warning": 25,
+      "fail": 1
+    },
+    "markdown_syntax": {
+      "pass": 14,
+      "warning": 8,
+      "fail": 4
+    }
+  }
+}

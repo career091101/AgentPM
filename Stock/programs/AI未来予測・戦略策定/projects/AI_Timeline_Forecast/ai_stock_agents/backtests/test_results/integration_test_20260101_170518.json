@@ -1,0 +1,49 @@
+{
+  "config": {
+    "start_date": "2023-01-01T00:00:00",
+    "end_date": "2023-06-30T00:00:00",
+    "initial_capital": 1000000,
+    "rebalance_frequency": "weekly"
+  },
+  "metrics": {
+    "returns": {
+      "total_return": "57.02%",
+      "annualized_return": "138.28%",
+      "gross_return": "57.02%",
+      "net_return": "56.96%"
+    },
+    "risk": {
+      "annualized_volatility": "27.70%",
+      "max_drawdown": "-8.32%",
+      "max_drawdown_duration": "6 days"
+    },
+    "risk_adjusted": {
+      "sharpe_ratio": "3.16",
+      "sortino_ratio": "5.46",
+      "calmar_ratio": "16.61"
+    },
+    "trading": {
+      "win_rate": "55.56%",
+      "profit_factor": "3.09"
+    },
+    "benchmark_comparison": {
+      "benchmark_return": "0.00%",
+      "alpha": "87.44%",
+      "beta": "0.00",
+      "information_ratio": "3.30"
+    },
+    "costs": {
+      "total_trading_cost": "$600.00",
+      "cost_drag": "0.06%"
+    }
+  },
+  "regime_performance": {},
+  "summary": {
+    "total_weeks": 27,
+    "final_value": 1569278.8573432711,
+    "total_return": 0.5702209899372335,
+    "sharpe_ratio": 3.156815927144704,
+    "max_drawdown": -0.08324484395649934,
+    "total_trading_cost": 600.0
+  }
+}

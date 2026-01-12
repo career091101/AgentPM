@@ -1,0 +1,261 @@
+# Founder Agent - ForGenAI Domain Configuration
+# 生成AI特化版設定ファイル
+
+variant: ForGenAI
+version: "1.0"
+last_updated: "2025-12-30"
+description: "生成AI（ChatGPT, Claude, Gemini等）を活用したプロダクト開発に特化"
+
+# ドメイン知識
+domain_knowledge:
+  focus_areas:
+    - "最新AI技術トレンド"
+    - "Product Hunt戦略"
+    - "プロンプトエンジニアリング"
+    - "AI技術スタック選定"
+    - "AI競合分析"
+
+  reference_paths:
+    - "../../GenAI_Research/"
+    - "../../../startup_science/"
+
+  additional_frameworks:
+    - name: "AI技術スタック選定"
+      path: "frameworks/ai_tech_stack.md"
+      priority: "critical"
+    - name: "Product Hunt戦略"
+      path: "frameworks/product_hunt_strategy.md"
+      priority: "critical"
+    - name: "プロンプトエンジニアリング"
+      path: "frameworks/prompt_engineering.md"
+      priority: "high"
+    - name: "AI競合分析"
+      path: "frameworks/ai_competitor_analysis.md"
+      priority: "high"
+
+# スキルオーバーライド（AI技術・トレンド重視）
+skill_overrides:
+  validate_cpf:
+    cpf_threshold: 65  # Originは60
+    reason: "AI市場は競争が激しいため、明確な課題が必要"
+    ai_trend_alignment_check: true  # AI技術トレンド適合チェック追加
+
+  validate_psf:
+    min_10x_axes: 2  # Originと同じ
+    reason: "AI活用による10倍価値が必須"
+    ai_dependency_risk_check: true  # API依存リスク評価追加
+    prompt_quality_check: true  # プロンプト品質チェック追加
+
+  validate_10x:
+    min_multiplier: 10  # Originと同じ
+    ai_specific_axes:
+      - "時間短縮（AI自動化）"
+      - "精度向上（AI分析）"
+      - "コスト削減（人件費削減）"
+      - "スケール（AI処理能力）"
+
+  startup_scorecard:
+    passing_score: 33  # Originは32/40
+    reason: "AI市場は競争激しく、独自性が重要"
+    # 追加評価項目
+    ai_tech_trend_weight: 0.2  # 技術トレンド適合の重み20%
+    product_hunt_readiness_weight: 0.1  # Product Hunt準備度10%
+
+# カスタムスキル（ForGenAI限定）
+custom_skills:
+  - name: "select-ai-tech-stack"
+    description: "AI技術スタック選定（OpenAI vs Anthropic vs Gemini）"
+    trigger_keywords:
+      - "AI技術スタック"
+      - "/select-ai-tech-stack"
+    execution_time: "40-60分"
+    priority: "P0"
+
+  - name: "create-producthunt-strategy"
+    description: "Product Hunt戦略作成（#1 Product of the Day獲得）"
+    trigger_keywords:
+      - "Product Hunt"
+      - "/create-producthunt-strategy"
+    execution_time: "50-70分"
+    priority: "P0"
+
+  - name: "build-prompt-library"
+    description: "プロンプトライブラリ構築（再現性90%以上）"
+    trigger_keywords:
+      - "プロンプトライブラリ"
+      - "/build-prompt-library"
+    execution_time: "60-90分"
+    priority: "P1"
+
+  - name: "analyze-ai-competitors"
+    description: "AI競合分析（there's an AI for that活用）"
+    trigger_keywords:
+      - "AI競合分析"
+      - "/analyze-ai-competitors"
+    execution_time: "30-50分"
+    priority: "P1"
+
+# AI技術評価基準
+ai_tech_criteria:
+  model_selection:
+    considerations:
+      - "コスト（API料金）"
+      - "レスポンス速度"
+      - "精度・品質"
+      - "コンテキスト長"
+      - "マルチモーダル対応"
+
+  api_dependency_risk:
+    - "OpenAI APIの突然の変更リスク"
+    - "料金変動リスク"
+    - "代替API（Anthropic, Gemini）への移行可能性"
+    - "ローカルLLM（Llama, Mistral）への切り替え検討"
+
+  prompt_quality:
+    reproducibility_target: 90  # 再現性90%以上
+    evaluation:
+      - "Few-shot examplesの品質"
+      - "Chain-of-Thought設計"
+      - "エラーハンドリング"
+      - "出力フォーマット安定性"
+
+  response_performance:
+    target_latency: 3  # 3秒以内
+    streaming_required: true  # ストリーミング必須
+    caching_strategy: "aggressive"  # 積極的キャッシング
+
+# Product Hunt戦略
+product_hunt_strategy:
+  preparation:
+    timeline: "1週間前から準備"
+    tasks:
+      - "Hunter（インフルエンサー）確保"
+      - "Product Hunt Community参加（コメント、Upvote活動）"
+      - "ティザーページ公開"
+      - "SNS告知準備（X, LinkedIn, Reddit）"
+
+  launch_day:
+    timing: "火曜-木曜 00:01 PST"
+    targets:
+      first_6_hours_upvotes: 200  # 最初の6時間でUpvote 200+
+      comment_response_rate: 100  # コメント全返信
+      social_shares: 50  # SNS拡散50+
+
+  success_metrics:
+    - "#1 Product of the Day → トラフィック 10,000+"
+    - "#1 Product of the Week → 生涯顧客 100+"
+    - "獲得メールアドレス 500+"
+
+# AI技術スタック推奨構成
+recommended_tech_stack:
+  frontend:
+    - "Next.js 15"
+    - "TypeScript"
+    - "Tailwind CSS"
+    - "shadcn/ui"
+
+  backend:
+    - "Vercel Serverless Functions"
+    - "tRPC / Next.js API Routes"
+
+  ai_api:
+    primary: "OpenAI GPT-4o"
+    alternative: "Anthropic Claude 3.7 Sonnet"
+    fallback: "Google Gemini Pro"
+
+  database:
+    - "Supabase（PostgreSQL）"
+    - "pgvector（ベクトル検索）"
+
+  streaming:
+    - "Server-Sent Events (SSE)"
+    - "Vercel AI SDK"
+
+  cache:
+    - "Redis / Upstash"
+    - "Next.js Cache"
+
+  auth:
+    - "Clerk"
+    - "Supabase Auth"
+
+  payment:
+    - "Stripe"
+
+  analytics:
+    - "Posthog"
+    - "Mixpanel"
+
+# プロンプトエンジニアリング標準
+prompt_engineering_standards:
+  patterns:
+    - name: "Chain-of-Thought"
+      use_case: "複雑な推論タスク"
+      template: "Step-by-step思考プロセス明示"
+
+    - name: "Few-shot Learning"
+      use_case: "特定フォーマット出力"
+      template: "良い例3-5個提示"
+
+    - name: "ReAct (Reason + Act)"
+      use_case: "エージェント的タスク"
+      template: "Thought → Action → Observation ループ"
+
+  quality_criteria:
+    - "再現性: 90%以上"
+    - "レスポンス速度: 3秒以内"
+    - "エラー率: 5%以下"
+    - "ユーザー満足度: 80%以上"
+
+# AI競合分析ソース
+ai_competitor_sources:
+  - name: "there's an AI for that"
+    url: "https://theresanaiforthat.com"
+    purpose: "最新AIツール網羅的調査"
+
+  - name: "AI Scout"
+    url: "https://aiscout.net"
+    purpose: "AIツール評価・比較"
+
+  - name: "Product Hunt AI Category"
+    url: "https://www.producthunt.com/topics/artificial-intelligence"
+    purpose: "トレンドAIプロダクト分析"
+
+  - name: "Futurepedia"
+    url: "https://www.futurepedia.io"
+    purpose: "AIツールディレクトリ"
+
+# 技術トレンド（2025年時点）
+tech_trends_2025:
+  - name: "Agentic AI"
+    description: "自律的に行動するAIエージェント"
+    frameworks: ["AutoGPT", "CrewAI", "LangGraph"]
+
+  - name: "RAG（検索拡張生成）"
+    description: "ベクトルDB + LLM統合"
+    tools: ["LangChain", "LlamaIndex", "pgvector"]
+
+  - name: "Multimodal"
+    description: "テキスト+画像+音声+動画"
+    models: ["GPT-4o", "Claude 3.5", "Gemini 2.0"]
+
+  - name: "Fine-tuning"
+    description: "カスタムモデル作成"
+    platforms: ["OpenAI Fine-tuning API", "Anthropic Custom Models"]
+
+  - name: "Local LLM"
+    description: "オンプレミス実行"
+    models: ["Llama 3.3", "Mistral", "DeepSeek"]
+
+# 注意事項
+notes:
+  - "ForGenAIは最新技術トレンドへの即時対応が必須"
+  - "Product Hunt戦略は必須（AIカテゴリは競争激しい）"
+  - "API依存リスクを常に評価し、代替案を用意"
+  - "プロンプト品質が製品品質を左右する"
+
+# 更新履歴
+changelog:
+  - date: "2025-12-30"
+    version: "1.0"
+    changes: "初版作成（ForGenAI特化版設定）"

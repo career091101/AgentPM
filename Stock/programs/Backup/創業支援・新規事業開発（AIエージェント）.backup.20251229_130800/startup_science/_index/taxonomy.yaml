@@ -1,0 +1,151 @@
+# 起業の科学 統制語彙定義
+# バージョン: 1.0
+# 作成日: 2025-12-28
+
+stages:
+  - id: idea
+    label: "アイデア"
+    label_en: "Idea"
+    description: "アイデアの検証段階"
+  - id: cpf
+    label: "顧客課題検証"
+    label_en: "Customer Problem Fit"
+    description: "顧客が本当に解決したい課題を特定"
+  - id: psf
+    label: "ソリューション検証"
+    label_en: "Problem Solution Fit"
+    description: "課題に対する適切なソリューションを見つける"
+  - id: pmf
+    label: "プロダクト市場適合"
+    label_en: "Product Market Fit"
+    description: "顧客が本当に欲しがるプロダクトを作れた状態"
+  - id: scale
+    label: "スケール"
+    label_en: "Scale"
+    description: "事業を拡大する段階"
+
+categories:
+  - id: stage
+    label: "ステージ別概念"
+    description: "CPF, PSF, PMF, Scale等のステージ固有概念"
+  - id: framework
+    label: "フレームワーク"
+    description: "リーンキャンバス、AARRR等の体系的手法"
+  - id: tactic
+    label: "戦術・手法"
+    description: "ピボット、FIF等の具体的手法"
+  - id: organization
+    label: "組織・経営"
+    description: "CXO、Finance等の組織運営"
+  - id: checklist
+    label: "チェックリスト"
+    description: "各ステージの検証チェックリスト"
+  - id: case
+    label: "事例"
+    description: "書籍内の成功・失敗事例"
+
+concepts:
+  # ステージ別
+  - id: cpf
+    aliases: ["顧客課題検証", "Customer Problem Fit", "CPF"]
+    stage: cpf
+    category: stage
+  - id: 3u
+    aliases: ["3U検証", "Unsolved Urgent Expensive", "3U"]
+    stage: cpf
+    category: stage
+  - id: psf
+    aliases: ["ソリューション検証", "Problem Solution Fit", "PSF"]
+    stage: psf
+    category: stage
+  - id: pmf
+    aliases: ["PMF", "Product Market Fit", "プロダクトマーケットフィット"]
+    stage: pmf
+    category: stage
+  - id: sean_ellis_test
+    aliases: ["ショーンエリステスト", "Sean Ellis Test", "40%ルール"]
+    stage: pmf
+    category: stage
+
+  # フレームワーク
+  - id: lean_canvas
+    aliases: ["リーンキャンバス", "Lean Canvas"]
+    category: framework
+  - id: aarrr
+    aliases: ["AARRR", "Pirate Metrics", "海賊指標", "パイレーツメトリクス"]
+    category: framework
+  - id: mvv
+    aliases: ["MVV", "ミッション・ビジョン・バリュー"]
+    category: framework
+  - id: balance_scorecard
+    aliases: ["バランススコアカード", "BSC", "スタートアップ・バランス・スコアカード"]
+    category: framework
+  - id: dear_model
+    aliases: ["DEARモデル", "DEAR"]
+    category: framework
+  - id: five_eyes
+    aliases: ["5つの眼", "鳥虫魚医者人の眼"]
+    category: framework
+
+  # 戦術
+  - id: pivot
+    aliases: ["ピボット", "方向転換"]
+    category: tactic
+  - id: founder_issue_fit
+    aliases: ["FIF", "Founder-Issue-Fit", "創業者課題適合"]
+    category: tactic
+  - id: muri_muda_mura
+    aliases: ["3M", "ムリムダムラ", "ムリ・ムダ・ムラ"]
+    category: tactic
+  - id: premature_scaling
+    aliases: ["プレマチュア・スケーリング", "早すぎる拡大"]
+    category: tactic
+
+frameworks:
+  - id: lean_canvas
+    components: 9
+    source: "起業の科学"
+    elements:
+      - "課題"
+      - "顧客セグメント"
+      - "独自の価値提案"
+      - "ソリューション"
+      - "チャネル"
+      - "収益の流れ"
+      - "コスト構造"
+      - "主要指標"
+      - "圧倒的な優位性"
+  - id: aarrr
+    components: 5
+    source: "起業の科学"
+    elements:
+      - "Acquisition (獲得)"
+      - "Activation (活性化)"
+      - "Retention (継続)"
+      - "Referral (紹介)"
+      - "Revenue (収益)"
+  - id: balance_scorecard
+    components: 4
+    source: "起業大全"
+    elements:
+      - "Financial (財務)"
+      - "Customer (顧客)"
+      - "Internal Process (業務)"
+      - "Learning & Growth (学習と成長)"
+  - id: dear_model
+    components: 4
+    source: "起業大全"
+    elements:
+      - "Deployment (導入)"
+      - "Engagement (活用)"
+      - "Adoption (定着)"
+      - "ROI (投資対効果)"
+  - id: five_eyes
+    components: 5
+    source: "起業参謀"
+    elements:
+      - "鳥の眼 (Macro)"
+      - "虫の眼 (Micro)"
+      - "魚の眼 (Trend)"
+      - "医者の眼 (Diagnostic)"
+      - "人の眼 (Humanity)"

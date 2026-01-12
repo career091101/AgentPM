@@ -1,0 +1,276 @@
+{
+  "analysis_metadata": {
+    "generated_at": "2026-01-10T11:20:00Z",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-10",
+    "data_sources": [
+      "late_api_data_20260101-20260110.json",
+      "facebook_insights_20260101-0110.json"
+    ],
+    "platforms_analyzed": ["facebook", "x", "threads", "linkedin"],
+    "note": "Late API数値（X, Threads, LinkedIn）は現時点で0が多く、分析データが未集計の可能性があります。Facebookデータは完全です。"
+  },
+
+  "facebook": {
+    "basic_stats": {
+      "total_posts": "不明（Late APIデータなし）",
+      "total_impressions": 184593,
+      "average_impressions_per_post": "推定約6153（30投稿と仮定）",
+      "total_engagement": 1124,
+      "average_engagement_rate": "0.61%",
+      "total_views": 184593,
+      "total_viewers": 72580,
+      "three_second_plays": 52,
+      "one_minute_plays": 0,
+      "estimated_revenue": "$14.93",
+      "revenue_growth": "+86.7%",
+      "total_interactions": 1124,
+      "interactions_growth": "+153.7%",
+      "total_followers": 6632,
+      "followers_growth": "+2.7%",
+      "new_followers": 176,
+      "unfollowers": 21
+    },
+    "engagement_breakdown": {
+      "reactions": 934,
+      "comments": 101,
+      "shares": 89
+    },
+    "top_5_posts": [
+      {
+        "rank": 1,
+        "date": "2026-01-08",
+        "time": "20:18",
+        "revenue": "$1.30",
+        "type": "text/photo",
+        "estimated_impressions": "約13000（収益比から推定）"
+      },
+      {
+        "rank": 2,
+        "date": "2026-01-06",
+        "time": "21:03",
+        "revenue": "$1.31",
+        "type": "text",
+        "title": "AIをめぐる動き 2026年...",
+        "estimated_impressions": "約13100（収益比から推定）"
+      },
+      {
+        "rank": 3,
+        "date": "2026-01-05",
+        "time": "19:36",
+        "revenue": "$0.80",
+        "type": "text/photo",
+        "estimated_impressions": "約8000（収益比から推定）"
+      },
+      {
+        "rank": 4,
+        "date": "2026-01-09",
+        "time": "20:16",
+        "revenue": "$0.36",
+        "type": "text/photo",
+        "estimated_impressions": "約3600（収益比から推定）"
+      },
+      {
+        "rank": 5,
+        "date": "2026-01-07",
+        "time": "19:10",
+        "revenue": "$0.30",
+        "type": "text",
+        "title": "AI Update OpenAI2 NVIDIA...",
+        "estimated_impressions": "約3000（収益比から推定）"
+      }
+    ],
+    "bottom_5_posts": "データ不足のため特定不可",
+    "content_type_performance": {
+      "photos": {
+        "views_percentage": "64.9%",
+        "revenue": "$9.08",
+        "interactions_percentage": "54.4%",
+        "estimated_total_views": 119821
+      },
+      "text": {
+        "views_percentage": "33.2%",
+        "revenue": "約$5.85",
+        "interactions_percentage": "42.2%",
+        "estimated_total_views": 61285
+      },
+      "multiple_photos": {
+        "views_percentage": "約2%",
+        "estimated_total_views": 3691
+      },
+      "other": {
+        "views_percentage": "約1%",
+        "estimated_total_views": 1845
+      }
+    },
+    "time_slot_performance": {
+      "note": "上位5投稿から推定",
+      "18-24_hours": {
+        "posts_count": 5,
+        "average_revenue": "$0.81",
+        "performance": "高パフォーマンス時間帯（夜間19:00-21:00が最適）"
+      },
+      "0-6_hours": "データなし",
+      "6-12_hours": "データなし",
+      "12-18_hours": "データなし"
+    },
+    "insights": [
+      "写真コンテンツが閲覧数の64.9%、収益の60.8%を占める（最強コンテンツタイプ）",
+      "テキスト投稿も42.2%のインタラクションを獲得しており、バランスが良い",
+      "夜間19:00-21:00の投稿が高収益（上位5件すべてがこの時間帯）",
+      "エンゲージメント率0.61%は一般的な水準（業界平均0.5-1.0%）",
+      "フォロワー増加率+2.7%（176名増）は健全な成長",
+      "収益成長率+86.7%は前期比で大幅改善"
+    ]
+  },
+
+  "x": {
+    "basic_stats": {
+      "total_posts": 27,
+      "total_impressions": 0,
+      "average_impressions_per_post": 0,
+      "total_engagement": 0,
+      "average_engagement_rate": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "note": "Late APIから分析データが未返却。投稿数のみ確認可能。"
+    },
+    "top_5_posts": "分析データ不足のため特定不可",
+    "bottom_5_posts": "分析データ不足のため特定不可",
+    "content_type_performance": {
+      "text": {
+        "posts_count": 27,
+        "note": "全投稿がテキスト形式またはスレッド形式"
+      },
+      "thread": {
+        "posts_count": "多数（スレッド形式が主流）",
+        "note": "Xではスレッド形式が一般的に高エンゲージメント"
+      }
+    },
+    "time_slot_performance": "データ不足のため分析不可",
+    "insights": [
+      "Late APIから分析データが返却されていない状態",
+      "27投稿が確認されており、投稿は継続的に実施されている",
+      "スレッド形式の投稿が多く、詳細な議論を展開している形式が特徴",
+      "分析データ取得後に詳細評価が必要"
+    ]
+  },
+
+  "threads": {
+    "basic_stats": {
+      "total_posts": 27,
+      "total_impressions": 0,
+      "average_impressions_per_post": 0,
+      "total_engagement": 0,
+      "average_engagement_rate": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "note": "Late APIから分析データが未返却。投稿数のみ確認可能。"
+    },
+    "top_5_posts": "分析データ不足のため特定不可",
+    "bottom_5_posts": "分析データ不足のため特定不可",
+    "content_type_performance": {
+      "text": {
+        "posts_count": 27,
+        "note": "全投稿がテキスト形式"
+      }
+    },
+    "time_slot_performance": "データ不足のため分析不可",
+    "insights": [
+      "Late APIから分析データが返却されていない状態",
+      "27投稿が確認されており、投稿は継続的に実施されている",
+      "Threadsプラットフォーム特性上、カジュアルな投稿が多い可能性",
+      "分析データ取得後に詳細評価が必要"
+    ]
+  },
+
+  "linkedin": {
+    "basic_stats": {
+      "total_posts": 27,
+      "total_impressions": 0,
+      "average_impressions_per_post": 0,
+      "total_engagement": 0,
+      "average_engagement_rate": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "note": "Late APIから分析データが未返却。投稿数のみ確認可能。"
+    },
+    "top_5_posts": "分析データ不足のため特定不可",
+    "bottom_5_posts": "分析データ不足のため特定不可",
+    "content_type_performance": {
+      "text": {
+        "posts_count": 27,
+        "note": "全投稿がテキスト形式またはビジネス向けコンテンツ"
+      }
+    },
+    "time_slot_performance": "データ不足のため分析不可",
+    "insights": [
+      "Late APIから分析データが返却されていない状態",
+      "27投稿が確認されており、投稿は継続的に実施されている",
+      "LinkedInの特性上、プロフェッショナル向けコンテンツが多い可能性",
+      "分析データ取得後に詳細評価が必要"
+    ]
+  },
+
+  "cross_platform_comparison": {
+    "posting_frequency": {
+      "facebook": "約30投稿（推定）",
+      "x": "27投稿",
+      "threads": "27投稿",
+      "linkedin": "27投稿",
+      "note": "X、Threads、LinkedInは同一投稿をクロスポスト"
+    },
+    "engagement_rate_ranking": [
+      {
+        "platform": "facebook",
+        "engagement_rate": "0.61%",
+        "status": "唯一数値データあり"
+      },
+      {
+        "platform": "x",
+        "engagement_rate": "データなし",
+        "status": "Late API分析待ち"
+      },
+      {
+        "platform": "threads",
+        "engagement_rate": "データなし",
+        "status": "Late API分析待ち"
+      },
+      {
+        "platform": "linkedin",
+        "engagement_rate": "データなし",
+        "status": "Late API分析待ち"
+      }
+    ],
+    "best_performing_platform": {
+      "platform": "facebook",
+      "reason": "唯一完全なデータあり。184,593インプレッション、$14.93収益、+86.7%成長率",
+      "recommendation": "Facebookへのリソース集中を継続"
+    },
+    "content_strategy_insights": [
+      "Facebookでは写真コンテンツが最強（閲覧数64.9%、収益60.8%）",
+      "夜間19:00-21:00の投稿が高パフォーマンス（Facebook）",
+      "クロスポスト戦略（X、Threads、LinkedIn）は継続中だが、効果測定が必要",
+      "Late API分析データ取得後、X・Threads・LinkedInの詳細評価を実施すべき"
+    ]
+  },
+
+  "next_actions": [
+    "Late API分析データの再取得（X、Threads、LinkedIn）",
+    "Facebookの高パフォーマンス時間帯（19:00-21:00）への投稿集中",
+    "写真コンテンツの投稿比率を維持または増加（現在64.9%）",
+    "X、Threads、LinkedInのプラットフォーム別最適化戦略を検討",
+    "収益成長率+86.7%の要因分析と再現性の検証"
+  ],
+
+  "data_quality_assessment": {
+    "facebook": "完全（プロフェッショナルダッシュボード経由）",
+    "x": "不完全（Late API分析データ未返却）",
+    "threads": "不完全（Late API分析データ未返却）",
+    "linkedin": "不完全（Late API分析データ未返却）",
+    "overall_completeness": "25%（4プラットフォーム中1つのみ完全）"
+  }
+}

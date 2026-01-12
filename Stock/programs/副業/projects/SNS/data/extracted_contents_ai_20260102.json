@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "processed_at": "2026-01-02T12:38:58.651348",
+    "source_file": "tweet_details_ai_20260102.json",
+    "total_links": 12,
+    "success_count": 11,
+    "error_count": 1,
+    "link_types": {
+      "article": 12
+    }
+  },
+  "extracted_contents": [
+    {
+      "url": "https://event.rakuten.co.jp/fashion/thesale/20260101emkil/allback/?scid=we_ich_fashion_thesale_allback_X_m_follow&twclid=25m2opw3x1x7108bllrulv076q",
+      "type": "article",
+      "title": "【楽天市場】全額ポイントバックキャンペーン｜Rakuten Fashion THE SALE(楽天ファッション・ザ・セール)",
+      "content": "13,000ショップ以上が対象抽選で1,000名様に当たる！\n\nエントリー期間：2025年12月24日(水)10:00〜2026年1月14日(水)23:59\n\n対象期間：2026年1月1日(木)00:00〜2026年1月14日(水)23:59\n\n※対象期間中にエントリーすれば、エントリー前のお買い物も本キャンペーンの対象となります。(エントリー履歴)\n\n※対象期間中のお買い物合計金額5,000円(税込)以上の注文が対象です。\n\n※注文日時やお買い物されたショップが異なっている場合でも合計されます。\n\n※お1人様当たりの獲得上限ポイント数は15,000ポイント(期間限定ポイント)です。",
+      "meta_description": "エントリー＆対象ショップでのお買い物合計金額5,000円(税込)以上で、抽選で1,000名様に全額ポイントバック！「Rakuten Fashion THE SALE」は2026年1月1日(木)00:00～1月14日(水)23:59まで開催！",
+      "word_count": 7,
+      "extracted_at": "2026-01-02T12:38:29.788572",
+      "status": "success",
+      "tweet_id": "2006676783991787563",
+      "username": "cb_doge",
+      "domain": "event.rakuten.co.jp"
+    },
+    {
+      "url": "https://help.x.com/rules-and-policies/authenticity",
+      "type": "article",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://help.x.com/rules-and-policies/authenticity",
+      "tweet_id": "2006676783991787563",
+      "username": "cb_doge",
+      "domain": "help.x.com"
+    },
+    {
+      "url": "https://video.unext.jp/browse/feature/FET0012583?utm_source=twitter&utm_medium=social&utm_campaign=tweet_title_anime&twclid=2663lgsthpifmg68px3jbw3v7k",
+      "type": "article",
+      "title": "- 動画配信 | U-NEXT 31日間無料トライアル",
+      "content": "",
+      "meta_description": "<31日間無料トライアル実施中>",
+      "word_count": 0,
+      "extracted_at": "2026-01-02T12:38:33.994778",
+      "status": "success",
+      "tweet_id": "2006645350690599093",
+      "username": "hasan28d",
+      "domain": "video.unext.jp"
+    },
+    {
+      "url": "https://microlaunch.net/",
+      "type": "article",
+      "title": "World-class Tech Products on Microlaunch",
+      "content": "Turn today's news into tomorrow's SEO & LLM traffic.\n\nSave hours with complete SaaS starter kits for Next.js, SvelteKit, and Astro\n\nThe trendiest Next.js 16 SaaS starter kits for your project.\n\nAI-curated question-and-answer platform built to become the world’s largest.\n\nTrack fitness with friends. Stay accountable together.\n\nTake unlimited notes, store your way- local or cloud ✨\n\nTurn your newsletter articles into tweets and threads\n\nFind exclusive deals on carefully curated tools and resources for founders.\n\nClick once, discover weird internet entertainment instantly\n\nTrack fitness with friends. Stay accountable together.\n\nAutomated follow-up for real estate agents, not CRMs\n\nTurn renovation chaos into a clear timeline with proof\n\nAI-curated question-and-answer platform built to become the world’s largest.\n\nAI Photo Studio – Create, Edit & Enhance Photos Free Online\n\nMarketing AI: Translate MMM Insights into Incremental Growth.\n\nThe real-time execution engine for warehousing & fulfillment.\n\nNever think about writing a changelog again. Merge, deploy, done.\n\nTake unlimited notes, store your way- local or cloud ✨\n\nGet names with domains and socials available Genie gets it\n\nTrack online brand mentions with AI-powered social listening",
+      "meta_description": "Microlaunch provides a unique launch platform for makers & startups to distribute their products. Launch, get feedback and make first sales.",
+      "word_count": 181,
+      "extracted_at": "2026-01-02T12:38:36.813257",
+      "status": "success",
+      "tweet_id": "2006636533462270192",
+      "username": "Zephyr_hg",
+      "domain": "microlaunch.net"
+    },
+    {
+      "url": "https://drvape.jp/lp?u=m3_xad_nwb005&twclid=2-5f28kxoesf5w5vlkittwuidpx",
+      "type": "article",
+      "title": "【公式】DR.VAPE（ドクターベイプ） Model 3｜香りを吸う。未来が変わる。",
+      "content": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n\n月\n\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n\n年\n\n(VISA MasterCard JCB 等）\n\nカード裏面に印字されている下3桁の数字\n\n\n\n(American Express）\n\nクレジットカードの表面(メインのカード番号の右上）に記載されている 4 桁の数字\n\n1ヶ月\n2ヶ月\n3ヶ月\n4ヶ月\n5ヶ月\n6ヶ月\n7ヶ月\n8ヶ月\n9ヶ月\n10ヶ月\n11ヶ月\n12ヶ月\n\nごとの\n\n1日\n2日\n3日\n4日\n5日\n6日\n7日\n8日\n9日\n10日\n11日\n12日\n13日\n14日\n15日\n16日\n17日\n18日\n19日\n20日\n21日\n22日\n23日\n24日\n25日\n26日\n27日\n28日\n末日\n\nに配送\n\n1ヶ月\n2ヶ月\n3ヶ月\n4ヶ月\n5ヶ月\n6ヶ月\n7ヶ月\n8ヶ月\n9ヶ月\n10ヶ月\n11ヶ月\n12ヶ月\n\nごとの\n\n1\n2\n3\n4\n\n回目の\n\n日\n月\n火\n水\n木\n金\n土\n\n曜日に配送\n\n指定なし\n2026-01-05\n2026-01-06\n2026-01-07\n2026-01-08\n2026-01-09\n2026-01-10\n2026-01-11\n2026-01-12\n2026-01-13\n2026-01-14\n2026-01-15\n2026-01-16\n2026-01-17\n2026-01-18\n2026-01-19\n2026-01-20\n2026-01-21\n2026-01-22\n2026-01-23\n2026-01-24\n2026-01-25\n2026-01-26\n2026-01-27\n2026-01-28\n2026-01-29\n2026-01-30\n2026-01-31\n2026-02-01\n2026-02-02\n2026-02-03\n2026-02-04",
+      "meta_description": "香りを吸う×ウェルネス　DR.VAPE Model 3｜200万人の方々に吸いごたえや味わい深さを提供してきたDR.VAPEが作る、心と体を整えるための革新的なウェルネスデバイスです。\n",
+      "word_count": 141,
+      "extracted_at": "2026-01-02T12:38:39.877600",
+      "status": "success",
+      "tweet_id": "2006636533462270192",
+      "username": "Zephyr_hg",
+      "domain": "drvape.jp"
+    },
+    {
+      "url": "https://tver.jp/series/srd34zubbr?utm_source=x&utm_medium=brand&utm_campaign=2601_hakone_promotweet_click&utm_content=sports_interest&twclid=2-3y1nt4sx87fguhzur8hwc7gct",
+      "type": "article",
+      "title": null,
+      "content": "",
+      "meta_description": null,
+      "word_count": 0,
+      "extracted_at": "2026-01-02T12:38:42.597818",
+      "status": "success",
+      "tweet_id": "2006636533462270192",
+      "username": "Zephyr_hg",
+      "domain": "tver.jp"
+    },
+    {
+      "url": "https://note.com/napps/n/na65725437971?sub_rt=share_pb",
+      "type": "article",
+      "title": "Skillsはホワイトワーカの切り札なので乗った方がいいぞ｜ナッピー通信",
+      "content": "こんにちは、AIShain(エーアイシャイン)を開発しているNappsTechnologiesの榎本です。今日は年末に盛り上がったSKILLSについて書いてみたいと思います。\n\nSlashCommandやSubagentと何が違うという意見がよく聞かれますが、最大の武器はポータビリティーにあると思います。\n\nこのキャプチャーでは、福岡市をリサーチするスキルを定義し、地方行政に関する場合は「local-govement.md」、スタートアップに関する場合は「startup.md」を参照する構造にしています。使い方は、/fukuoka-research スタートアップについて調査だけで終わりです。\n\n福岡市を調査する場合は自分でスキルを作成し使うだけですが、例えば、長崎市、佐賀市、北九州市も調査したいなど、定常的に調査を行いたい、自分以外の誰かに業務を任せたいシチュエーションで効果を発揮するのがSkillsです\n\nこの場合にスキルを使うと、業務引き継ぎは「fukuoka-research」フォルダーを他の人に渡すだけで完了します。そもそもTeamプランや、エンタープライズプランではスキルをシェアできるようです。\n\nClaudeCode以外にも、Claude Appや、APIでも使用できるので、社内用のweb環境に出すこともでき、ビジネス職でも簡単に扱えるのがポイントです。\n\nこのPJは下記のGitHubにおいています\n\n僕は盛り上がりすぎではないと考えています。生成AIはテクノロジーが先行し、その技術を使ってどんな課題が解決されて便利なのかが後付けになるので、騒ぎすぎということが言われます。一方で最近は生成AIという概念が浸透し、ユーザの方がぶっ飛んだ要望を出すことが多く、その要望に対してテクノロジーがようやく追いついた感じがしています。\n\nNappsでは「AIShain」というブランドで、社員のように業務を遂行するAIエージェントをGPTsのリリース直後から研究開発していますが、最近のユーザニーズは、自分のノウハウをAに伝承し、新人はAIと一緒に作業を行うとベテランと同じパフォーマンスを出せる、「サポート型AI社員」です。\n\n例えば北海道の自治体では、水道設備のトラブル対応がこれまでは、このトラブルならこの手順で、ここに連絡がといった手順が、熟練した職員の頭の中にしかありませんでした。AIの賢さが進化したので、状況をステップバイステップで入力すると、AIが一緒に切り分け、対応を指示してくれる仕組みが実現しました。\n\nまた、営業会社ではトップセールスである社長は売れるけど、社員は半分くらいしか売れない時に、その原因は相手の企業・個人の調査不足です。ベテランだとここをみて売っている、こんなヒアリングをしているといった個人が持つノウハウをAI化し、そのAIを使えば新人でもパフォーマンスを出せるようになります。\n\nさらに経理や総務で毎回同じ作業をしてる場合も、skillsにすることで作業の自動化を行うことができます。\n\nskillsは非常にシンプルな仕組みで、skills自体をAIで作らせることができるので、どんな会社でも自社のAI化にチャレンジできるのでぜひ挑戦してみてください。\n\nそれも面倒で話を聞いて欲しい自社をAIで改革したい経営者の方は、AIShainがおすすめなので、ご連絡お待ちしています",
+      "meta_description": "こんにちは、AIShain(エーアイシャイン)を開発しているNappsTechnologiesの榎本です。今日は年末に盛り上がったSKILLSについて書いてみたいと思います。  Skillsの最大の武器はポータビリティー  SlashCommandやSubagentと何が違うという意見がよく聞かれますが、最大の武器はポータビリティーにあると思います。  このキャプチャーでは、福岡市をリサーチするスキルを定義し、地方行政に関する場合は「local-govement.md」、スタートアップに関する場合は「startup.md」を参照する構造にしています。使い方は、/fukuoka-rese",
+      "word_count": 16,
+      "extracted_at": "2026-01-02T12:38:44.913902",
+      "status": "success",
+      "tweet_id": "2006713906493108467",
+      "username": "sarukun99",
+      "domain": "note.com"
+    },
+    {
+      "url": "https://www.open-access.bcu.ac.uk/16180/",
+      "type": "article",
+      "title": "The Alchemy of Multibagger Stocks: An empirical investigation of factors that drive outperformance in the stock market",
+      "content": "Skip to :main content | \n\t\t\t\tSkip to :main menu | \n\t\t\t\tSkip to :section menu\n\nThese are the areas in which we support our research community. These areas help to focus our research and allow for effective cross-disciplinary work.\n\nYartseva, Anna\n  \n\n(2025)\n\nThe Alchemy of Multibagger Stocks: An empirical investigation of factors that drive outperformance in the stock market.\n\n    Working Paper 33.\n    Centre for Accountancy Finance and Economics (CAFE), Birmingham City Business School, Birmingham City University.\n  \n\n\n   (Submitted)\n\nHot growth stocks attract substantial interest from investors; however, future stock market winners are difficult to identify using traditional metrics of fundamental analysis (such as cash flow, profitability or earnings per share). This study investigates the characteristics of “multibagger stocks” – stocks that increase in value several times the original investment – and detects key drivers of their abnormal investment returns. An empirical analysis of 464 multibagger stocks listed on major American stock exchanges, each increasing in value by at least tenfold during 2009-2024, was conducted. A dynamic panel data model was developed to explain the sources of their outperformance and to predict future returns. The findings indicate that several traditional Fama-French factors, including size, value and profitability, remain significant predictors of future multibagger returns: small-cap high-value high-profitability stocks outperform. Additionally, the analysis identifies further important drivers of multibagger stock outperformance. These include fundamental, technical, and macroeconomic variables, such as high free cash flow yield, distinctive investment patterns linked to EBITDA growth, complex momentum effects with quick trend reversals that limit optimal entry points, and specific interest rate environment. This study advances asset pricing research by developing a novel, empirically validated model to explain the multibagger phenomenon. It offers valuable practical insights for investors and asset managers and provides a robust theoretical foundation for future stock screening strategies aimed at identifying potential multibaggers and maximising capital gains.\n\nHot growth stocks attract substantial interest from investors; however, future stock market winners are difficult to identify using traditional metrics of fundamental analysis (such as cash flow, profitability or earnings per share). This study investigates the characteristics of “multibagger stocks” – stocks that increase in value several times the original investment – and detects key drivers of their abnormal investment returns. An empirical analysis of 464 multibagger stocks listed on major American stock exchanges, each increasing in value by at least tenfold during 2009-2024, was conducted. A dynamic panel data model was developed to explain the sources of their outperformance and to predict future returns. The findings indicate that several traditional Fama-French factors, including size, value and profitability, remain significant predictors of future multibagger returns: small-cap high-value high-profitability stocks outperform. Additionally, the analysis identifies further important drivers of multibagger stock outperformance. These include fundamental, technical, and macroeconomic variables, such as high free cash flow yield, distinctive investment patterns linked to EBITDA growth, complex momentum effects with quick trend reversals that limit optimal entry points, and specific interest rate environment. This study advances asset pricing research by developing a novel, empirically validated model to explain the multibagger phenomenon. It offers valuable practical insights for investors and asset managers and provides a robust theoretical foundation for future stock screening strategies aimed at identifying potential multibaggers and maximising capital gains.",
+      "meta_description": null,
+      "word_count": 530,
+      "extracted_at": "2026-01-02T12:38:49.154191",
+      "status": "success",
+      "tweet_id": "2006714939344564378",
+      "username": "Goldriver2020",
+      "domain": "www.open-access.bcu.ac.uk"
+    },
+    {
+      "url": "https://lp.levtech-direct.jp/lp/100/sky/01?utm_source=twitter&utm_medium=display&utm_campaign=knt_famen_S5&via=c_knt_tw_flw_wken_S5_40271872_53349842_1972573694057996300&twclid=27hsexre22eu6zxyet8uknlvg4",
+      "type": "article",
+      "title": "エンジニア・デザイナーの年収診断｜ITエンジニア・デザイナーの求人・転職なら【レバテックダイレクト】",
+      "content": "",
+      "meta_description": "ITエンジニア・デザイナーの求人・転職なら【レバテックダイレクト】。豊富な求人情報と精度の高い求人のマッチング機能で、あなたの希望の転職活動をサポートします。",
+      "word_count": 0,
+      "extracted_at": "2026-01-02T12:38:51.440921",
+      "status": "success",
+      "tweet_id": "2006713243222552990",
+      "username": "tenburger2",
+      "domain": "lp.levtech-direct.jp"
+    },
+    {
+      "url": "https://coderabbit.ai/?utm_source=TwitterJP&utm_campaign=japan&twclid=242uv2xay1iyci45y5m45bd7gm",
+      "type": "article",
+      "title": "AI Code Reviews | CodeRabbit | Try for Free",
+      "content": "Reviews for AI-powered teams who move fast (but don’t break things)\n\nYour team moves fast with AI. But fast shouldn’t mean sloppy. We make sure every line still earns its merge.\n\nWe do the heavy lifting & spot the hard to find issues. You do the final 10%.\n\n1-click commits for easy fixes and a “Fix with AI” button for harder ones.\n\nQuick context with a summary of changes, a walkthrough & an architectural diagram.\n\nWe find bugs humans miss – & flag the time consuming and tedious. Without the noise.\n\nGive feedback on reviews to create Learnings. Or create issues, trigger docstrings & more.\n\nCustomize everything from your coding guidelines to your workflow in a yaml file.\n\nAutomate the creation of your daily standup reports, sprint reviews, and more.\n\nReview at the PR stage or directly in your IDE & CLI\n\nCodebase-awareness is tablestakes. We pull in dozens more points of context than other tools.\n\nCodegraph and custom guidelines help us understand complex dependencies across files to uncover the impact of changes.\n\nWe bring the right context via MCP servers, Linked Issues (Jira & Linear) & Web Query (to fetch the latest info on the web).\n\n40+ linters and security scanners catch more bugs – while we filter out the noise from false positives.\n\nSet the baseline with your rules and style guides, then train the agent with feedback via replies. Reviews improve continuously.\n\nGive our AI agent feedback in natural language and it takes that into account in future reviews.\n\nEasily configurable instructions that let you quickly share how you want your code reviewed.\n\nPass your coding instructions from your AI coding tool to CodeRabbit in one click.\n\nSave hours of work and make sure your code’s ready to ship.\n\nCreate your own pre-merge code quality checks in natural language.",
+      "meta_description": "AI-first pull request reviewer with context-aware feedback, line-by-line code suggestions, and real-time chat.",
+      "word_count": 302,
+      "extracted_at": "2026-01-02T12:38:54.316524",
+      "status": "success",
+      "tweet_id": "2006709567745568845",
+      "username": "koutarou_furuno",
+      "domain": "coderabbit.ai"
+    },
+    {
+      "url": "https://zenn.dev/mkj/articles/868e0723efa060",
+      "type": "article",
+      "title": "Claude Code中心のAIコーディング運用：実務で効いた5つの型",
+      "content": "はじめまして。松尾研究所の中川です。\n\nAIコーディングを前提に、提案から開発・運用までを一気通貫で進めるスタイルは増えつつあります。弊社のプロジェクトでも、AIコーディングは単なる「補助」ではなく、開発プロセスの中核として扱われる場面も多くなってきました。\n私も小規模体制で開発速度と品質を両立するために、Claude Codeの運用における 並列化・プロンプト運用・レビュー自動ループ・ナレッジ一元化・インストラクション（Skills） の5点を“仕組み”として作っています。\n\nこの記事では、Claude Code中心のAIコーディング手法をまとめます。\n\nClaude Codeの実務運用で開発したWebアプリ構成です。\n\nその他、認証、データストア、セキュリティ、モニタリングなどのインフラはありますが、この部分の開発にはClaude Codeがあまり関与していないため割愛します。\n\nまず効いたのが、git worktreeで複数ウィンドウ（=複数作業ディレクトリ）を常設することです。\n\n開発は1人でも、git worktreeで複数ウィンドウを並列にし、モジュール単位でAIとの会話（コンテキスト）を分離したことです。モジュール内で並列させることもありましたが、基本は1モジュール1 Claude Codeで実装することで、それぞれのconflictは最小限となります。\n\ngit worktreeでモジュールごとのブランチを立てる\n\nさらに手元ではChatGPT側で 外部APIの仕様調査 や 設計の壁打ち も並走しています。ChatGPTのThinkingモードは回答に数分かかるため、調査・設計・実装をすべて並列にプロンプティングして進めることができます。\n\n一方で副作用として、コンテキストスイッチは相応に重く、並列度を上げるほど思考負荷が上がるトレードオフが発生します。\n\nタスク管理は、専用ツールではなく Markdownファイル を中心に回しました。ポイントは「Claude Codeに投げる指示をMarkdownで書き、そのファイルをそのまま渡す」ことです。\n\nSDDではこのような仕様書はAIが生成してくれる反面、小さな機能追加や修正でも大量の文章が生成され、レビューが大変です。\n開発仕様が決まりきっている場合は、自分でmarkdownを書いたほうが早く、Claude Codeに渡す際のタスク量も自分でコントロールできるのでおすすめです。\n\nClaude Codeにわたすプロンプトはすべてmarkdownに書いて溜めておく\n\n実装のコアはここです。運用を言語化すると、次の3ステップで“型”を作っています。\n\nアプリケーションのフロントエンド、バックエンド、などモジュールごとの技術スタックに合わせてsubagentを用意します。\n\nFastAPI用、React用、Playwright用など、モジュールごとに定義\n\n以下のようなカスタムスラッシュコマンドを作成します。\nClaude Codeでsubagentを呼び出すには明示的にプロンプトで指定する必要がありますが、カスタムスラッシュコマンド化しておくことで、呼び出しが簡単になります。\nそして、このコマンド内で「実装subagent ↔ レビューsubagent」を交互に繰り返すよう指示しておきます。\n\nコマンド内で「実装subagent ↔ レビューsubagent」を交互に繰り返すよう指示\n\n先程のスラッシュコマンドとタスクチケットmdを指定するだけ\n\nさらに重要なのが、プロンプティングを「コマンド + ファイル指定」に固定した点です。\n実装者が毎回長文で指示を書くのではなく、タスクmdに集約し、実行のたびにオペレーションを一定化します。\n\nこの方式により、実装とレビューを交互に自動的に回せる仕組みができ、コード品質が上がりました。\n\n実装subagentとレビューsubagentで交互に呼ばれる\n\n一方で、実装時間は長くなり、トークン消費も増えるという点はコストになりますが、並列開発をする前提であれば前者は気になりませんでした。\n\nトークン消費速度については上限の高いプランが必須となりますが、弊社は費用的な補助制度もあり、有用なツールを十分活用できる環境を用意してもらえました。本当にありがたいです。\n\nご参考までに、本開発で実際に使用していたsubagent.mdとカスタムスラッシュコマンドは以下となります。\n\nAIコーディングを安定稼働させるには、「都度会話で説明する」のではなく、参照すべき仕様を固定化する方が強いです。そこで開発中は\n\nという運用としました。\n\nさらに、機能追加やバグ修正の都度、README、CLAUDE.md、ユニットテストを拡充する運用を「定期実行」します。AIには“コード変更”だけではなく、“コード変更に同期したドキュメントとテストの更新”も任せてしまいましょう。\n\n一般的に、コーディング規約、パッケージ管理、ロギング実装方法、コメント・ドキュメントの記載方針などは書いておくべきです。\nそして、開発中もClaude Codeの出力癖で不満に思ったことは、とりあえず書いておきます。\n\n以下のようなことをClaudeはよくやるのですが、好ましくないので禁止事項としてCLAUDE.md / subagentのmdに書きました。\n\nしかし、長時間走らせていると必ずしもこの指示に従ってくれなくなります。\n\nCLAUDE.mdやsubagent.mdに書いておいてもあまり実行してくれないことは、Claude Skillsでスキルとして定義することで、長文のインストラクションに埋もれてしまう指示でも効かせることができます。\n（個人的に、Skillsは自然言語でhookタイミングと挙動を定義できる仕組みだと思っています）\n\nとはいえ常にスキルを参照してくれるわけではないので、いまのところは都度都度の確認が必要でした。\n\n本稿では、Claude Codeを中心としたAIコーディングを推進する際の5つの型：\n\nについて整理しました。\n\nこれらの工夫により、AIコーディング運用を\"仕組み化\"して、実案件でも開発速度と品質を安定化できています。一方で、現時点では ペアプロ的に張り付く運用はまだ必要で、マルチタスクの思考負荷も無視できません。\n\n結論として、AIコーディングは「速く書く」以上に、プロセスを固定化して品質と再現性を上げる用途で効果が出やすいと感じています。引き続き、実務で使える工夫を模索していきたいです。\n\n松尾研究所では一緒に働く仲間を募集しています！\n\n松尾研究所HP\n採用ページ\nメンバーインタビュー記事\nAI開発のご相談はこちら\n\nKaggle Expert (kaggle.com/ran21050)\n\n株式会社松尾研究所のテックブログです。\n\nKaggle Expert (kaggle.com/ran21050)",
+      "meta_description": null,
+      "word_count": 89,
+      "extracted_at": "2026-01-02T12:38:56.579750",
+      "status": "success",
+      "tweet_id": "2006709567745568845",
+      "username": "koutarou_furuno",
+      "domain": "zenn.dev"
+    },
+    {
+      "url": "https://songmu.jp/riji/entry/2025-06-22-taskmd-shelf.html",
+      "type": "article",
+      "title": "TaskMD Shelf - 積極的棚上げを由とする怠惰なタスク管理 | おそらくはそれさえも平凡な日々",
+      "content": "フリーランスになって、複数の案件を同時に進める必要が出てきたこともあり、タスク管理方法を見直した。何なら手法やツールも自作してしまおうと考えた。何かを始めるときに、まず道具から作り始めてしまうのは自分らしい振る舞いで面白い。\n\nこれをTaskMD Shelfと名付け、仕様を公開した。\n\nhttps://github.com/Songmu/TaskMD-Shelf\n\nこれは、1 タスク = 1 Markdownファイルとして管理する手法。各ファイルはTaskMDと呼び、それに最小限のメタデータ設計と運用ポリシーを定めたもの。単純なアイデアで、類似の方法でやっている人も既にいるだろう。\n\n既にこれでタスク管理をしていて上手く回っている。ObsidianのDataviewプラグインがとにかく役に立っているのだが、その辺りの話は別途。\n\n個人的に、強すぎる制約があるタスク管理手法は長続きしづらく、続けていてもどこかで躓くと途端に折れて諦めてしまうことが多かった。\n\nなので、怠惰な自分でも続けられるシンプルなタスク管理を目指した。\n\n具体的には「今やらなくて良いことは積極的に棚上げする。ただし、見直し日は必ず定める」、という「積極的棚上げ」を基本戦術とした。\n\n個人タスク管理に求める事は以下である。\n\n古来から提唱されている優れた手法であるGTDが目指す所も近い。実際GTD本を改めて読み返して、かなり参考になった。ただ、以前、GTDの実践を試みたこともあったが、その時にネックだったのが、とにかくタスクリストのメンテナンスに労力がかかることである。\n\n「ネクストアクション」「備忘録ファイル」「プロジェクトリスト」「いつかやるリスト」etc., 確かにどれも重要だ。これらを「週次レビュー」で、しっかり定期的に時間をとってメンテナンスする必要がある。そして、週次レビューを怠ると、途端に本当に一瞬でシステムが崩壊するのだ。なので長続きさせられなかった。\n\nベースの哲学は優れているので、ツールや仕組みを工夫して手間を減らし、同様のことを実現したい。\n\nなので、TaskMD Shelfでは全てのタスクをセマンティックプロパティを付与したテキストファイルを使ってデジタルで一元管理する。フィルタやビューを活用して、複数のリストのメンテナンスを不要にする。\n\nWIP制限はとても重要だ。そして「言うは易し、行うは難し」の典型例でもある。その制約を守れれば良いが、現実的にはとても難しい。これも心を折ってしまうような強すぎる制約になりがちである。\n\nWIP制限は理想状態であり、そこに向かっていける仕組みが重要である。WIP制限を課すのではなく、結果としてWIPが制限されている状況を作るのである。\n\nここで「積極的棚上げ」戦術である。今日やらないと決めたことは「棚上げ」して、机の上(実行中リスト)から片づける。ただし「見直し日」を必ず設定して、その時に再開するか、再度棚上げをするかを決める。それだけのことだ。\n\nレビューやメールの返信待ちなど、待ち状態のタスクも棚上げする。ここで重要なのは、それらにも必ず「見直し日」を設定することだ。これによって適切に催促できるし、有耶無耶になって立ち消えてしまうことを防げる。\n\nこれらを踏まえて、TaskMD Shelfでは以下のようなことが実現できる。\n\nこれらのTaskMDファイル群を管理するために自分で自由にツールを作っていくことができるが、取り急ぎ、ObsidianのDataviewプラグインが非常に便利で、これを使って進行中タスクリストなどのビューを作成している。\n\nTaskMD ShelfはNotionのデータベースなども使うこともできる。様々なビューも作れるのでとても便利だろう。\n\nしかし、プレーンテキストファイル群で管理することをお薦めしたい。それがまさしく、タスクの棚たるTaskMD Shelfである。\n\nObsidian CEOであるSteph AngoのFile over appの哲学にとても共感しているが、データフォーマットが決まったファイルが手元にあることはとても自由だ。IndieWebの思想に通じる物もある。個人が一生に抱えるタスクのデータ量なんて大したことはない。自前で充分に管理できる量だ。Gitを使えばバージョン管理もできる。\n\n自分の管理下にTaskMDを置けば、AIに学習もさせやすく、支援も受けやすくなる。\n\n今回、TaskMD Shelfを作るにあたってまず仕様をまとめたのは、根幹となる基本のデータ設計をしっかりやるSoR的な発想もあるが、それと当時に、AI支援を受けやすくすることや、ツールを作ってもらいやすいようにするという狙いもある。実際、このTaskMD Shelfを操作する為のCLIやMCPもClaude Codeに書いてもらっている。それらは公開するつもりである。\n\n将来的には、TaskMS Shelfの内容を学習したAIが、次にやると良さそうなタスクを提案してくれたり、滞っているタスクのケツを叩いてくれたり、もう実現が不可能そうなタスクをそっと諦めさせてくれたりすると嬉しいと思っているし、それが出来るようになるとも考えている。\n\nしかし、仕様をまじめ腐って書いたらかなりの分量になってしまった。恐らくタスク管理手法考案者全員が「省力で長続き出来る方法」を当初は志向、模索しながらも、結局重厚になってしまう歴史を辿ってきたのだろうな、というのを体感した。\n\n今回TaskMD Shelfを考えるに当たって、自宅にあるGTD本を含めたタスク管理手法の本を読み返すとともに、新たに気になっていたタスクシュートの本も何冊か読んだ。改めて非常に参考になった。タスクシュートからは一日にやることを絞ることや、実際に「できた」ことを記録すること、そこから成功体験を積み重ねることが重要だと再認識した。\n\nその辺りのリサーチや、実際にTaskMD Shelfを運用してどうだったかは、大吉祥寺.pm 2025で話したいのでプロポーザルを提出する予定です。\n\n提出しました → 怠惰で持続可能な、自由なタスク管理 - TaskMD Shelfの実践\n\n2025-06-28T16:47:16+0900",
+      "meta_description": "  フリーランスになって、複数の案件を同時に進める必要が出てきたこともあり、タスク管理方法を見直した。何なら手法やツールも自作してしまおうと考えた。何かを始めるときに、まず道具から作り始めてしまうのは自分らしい振る舞いで面白い。  これをTaskMD Shelfと名付け、仕様を公開した。  https://github…",
+      "word_count": 56,
+      "extracted_at": "2026-01-02T12:38:58.650552",
+      "status": "success",
+      "tweet_id": "2006709567745568845",
+      "username": "koutarou_furuno",
+      "domain": "songmu.jp"
+    }
+  ]
+}

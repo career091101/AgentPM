@@ -1,0 +1,130 @@
+{
+  "report_date": "2025-12-21",
+  "vol": "379",
+  "status": "success_agent_vision",
+  "assets": [
+    {
+      "symbol": "Nikkei 225",
+      "pages": [20, 21, 22],
+      "timeframes": [
+        {
+          "degree": "Primary",
+          "chart_type": "monthly",
+          "direction": "Up",
+          "current_wave": "Wave (III) or (V) - Expanding Diagonal",
+          "key_levels": {"target": 38915},
+          "scenarios": {
+            "main": "Long-term uptrend Wave 3 in progress, targeting 38,915 breakout",
+            "sub": ["Expanding Diagonal final Wave 5, major correction after ATH"]
+          }
+        },
+        {
+          "degree": "Intermediate",
+          "chart_type": "weekly",
+          "direction": "Correction",
+          "current_wave": "Wave (4) corrective",
+          "key_levels": {"resistance": [38915], "support": [30000]},
+          "scenarios": {
+            "main": "Corrective phase after Wave (3) completion",
+            "sub": ["Irregular Flat with B wave exceeding high", "Triangle correction with extended time"]
+          },
+          "image_path": "./images/page_22.png"
+        },
+        {
+          "degree": "Minor",
+          "chart_type": "daily",
+          "direction": "Up",
+          "current_wave": "Wave c or 5",
+          "key_levels": {},
+          "scenarios": {
+            "main": "New impulse forming after corrective C wave completion",
+            "sub": ["C wave extension with further decline"]
+          },
+          "image_path": "./images/page_21.png"
+        }
+      ]
+    },
+    {
+      "symbol": "USD/JPY",
+      "pages": [18, 19],
+      "timeframes": [
+        {
+          "degree": "Primary",
+          "chart_type": "monthly",
+          "direction": "Up",
+          "current_wave": "Wave (3) Impulse",
+          "key_levels": {"support": [127.00, 130.00]},
+          "scenarios": {
+            "main": "Large-scale impulse Wave 3 from 2011 bottom in progress",
+            "sub": []
+          }
+        },
+        {
+          "degree": "Intermediate",
+          "chart_type": "weekly",
+          "direction": "Sideways",
+          "current_wave": "Wave (4) - Triangle or Flat",
+          "key_levels": {"resistance": [151.72, 151.90], "support": [140.00]},
+          "scenarios": {
+            "main": "Triangle Wave D in progress, range-bound",
+            "sub": ["Flat Wave B completed, C wave down to 140", "Expanded Flat with B above 152 then C down"]
+          },
+          "image_path": "./images/page_19.png"
+        },
+        {
+          "degree": "Minor",
+          "chart_type": "daily",
+          "direction": "Up (reversal risk)",
+          "current_wave": "Wave d or b",
+          "key_levels": {},
+          "scenarios": {
+            "main": "Watch price action at range top for reversal signs",
+            "sub": []
+          },
+          "image_path": "./images/page_18.png"
+        }
+      ]
+    },
+    {
+      "symbol": "S&P 500",
+      "pages": [30, 31],
+      "timeframes": [
+        {
+          "degree": "Primary",
+          "chart_type": "monthly",
+          "direction": "Up",
+          "current_wave": "Wave (5) or Y of cycle",
+          "key_levels": {"target": 4818},
+          "scenarios": {
+            "main": "Final cycle-level wave, major correction after 4,818 breakout",
+            "sub": ["Double Zigzag Y wave with extended rally"]
+          }
+        },
+        {
+          "degree": "Intermediate",
+          "chart_type": "weekly",
+          "direction": "Up",
+          "current_wave": "Wave (5) or Y",
+          "key_levels": {"resistance": [4800, 4818], "support": [4500, 4600]},
+          "scenarios": {
+            "main": "Approaching channel top",
+            "sub": ["Channel breakout with accelerated rally"]
+          },
+          "image_path": "./images/page_30.png"
+        },
+        {
+          "degree": "Minor",
+          "chart_type": "daily",
+          "direction": "Up",
+          "current_wave": "Wave v or c",
+          "key_levels": {},
+          "scenarios": {
+            "main": "Primary completion risk after ATH break",
+            "sub": ["Impulse extension targeting 4,900+"]
+          },
+          "image_path": "./images/page_31.png"
+        }
+      ]
+    }
+  ]
+}

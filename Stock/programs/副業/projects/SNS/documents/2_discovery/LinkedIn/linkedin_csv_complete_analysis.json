@@ -1,0 +1,37 @@
+{
+  "total_posts_analyzed": 47,
+  "char_count_analysis": {
+    "count": 47,
+    "average": 571.5744680851063,
+    "median": 540,
+    "min": 369,
+    "max": 2235,
+    "optimal_range_500_1000": 31,
+    "optimal_range_700_900": 1,
+    "distribution": {
+      "under_500": 15,
+      "500_700": 30,
+      "700_900": 1,
+      "900_1000": 0,
+      "over_1000": 1
+    }
+  },
+  "pattern_classification": {
+    "Pattern 3: ニュース引用型": 33,
+    "Pattern 1: 断定型": 5,
+    "その他": 4,
+    "Pattern 4: リスト型・衝撃ファクト": 4,
+    "Pattern 5: イベント型": 1
+  },
+  "question_ending": {
+    "count": 4,
+    "rate": 8.51063829787234,
+    "benchmark_takano": "問いかけ終結 ほぼ必須（推定80%以上）"
+  },
+  "company_mentions": {
+    "average": 2.0638297872340425,
+    "total": 97,
+    "benchmark_takano": 1.58,
+    "gap": 0.48382978723404246
+  }
+}

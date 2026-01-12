@@ -1,0 +1,589 @@
+heading "キーボードショートカットを表示するには、はてなマークを押してください。キーボードショートカットを表示" [ref_1]
+ generic "キーボードショートカットを表示するには、はてなマークを押してください。" [ref_2]
+ link [ref_3] href="/i/keyboard_shortcuts"
+  generic "キーボードショートカットを表示" [ref_4]
+button [ref_5] type="button"
+img [ref_6]
+button "ホームタイムラインに移動" [ref_7] type="button"
+button "トレンドに移動" [ref_8] type="button"
+banner [ref_9]
+ heading [ref_10]
+  link "X" [ref_11] href="/home"
+ navigation "メインメニュー" [ref_12]
+  link "ホーム" [ref_13] href="/home"
+   generic "ホーム" [ref_14]
+  link "調べたいものを検索" [ref_15] href="/explore"
+   generic "話題を検索" [ref_16]
+  link "通知" [ref_17] href="/notifications"
+  link "ダイレクトメッセージ" [ref_18] href="/i/chat"
+   generic "チャット" [ref_19]
+  link "Grok" [ref_20] href="/i/grok"
+   generic "Grok" [ref_21]
+  link "プレミアム" [ref_22] href="/i/premium"
+   generic "プレミアム" [ref_23]
+  link "リスト" [ref_24] href="/yuichisatoeco/lists"
+   generic "リスト" [ref_25]
+  link "ブックマーク" [ref_26] href="/i/bookmarks"
+   generic "ブックマーク" [ref_27]
+  link "コミュニティ" [ref_28] href="/yuichisatoeco/communities"
+   generic "コミュニティ" [ref_29]
+  link "プロフィール" [ref_30] href="/yuichisatoeco"
+   generic "プロフィール" [ref_31]
+  button "その他のメニュー項目" [ref_32] type="button"
+   generic "もっと見る" [ref_33]
+ link "ポストする" [ref_34] href="/compose/post"
+  generic "ポストする" [ref_35]
+ button "アカウントメニュー" [ref_36] type="button"
+  presentation [ref_37]
+   generic "佐藤優一 | AIプロダクト開発・AI業務改革" [ref_38]
+    image "佐藤優一 | AIプロダクト開発・AI業務改革" [ref_39]
+  generic "佐藤優一 | AIプロダクト開発・AI業務改革" [ref_40]
+  img "認証済みアカウント" [ref_41]
+  generic [ref_42]
+   generic "@yuichisatoeco" [ref_43]
+main [ref_44]
+ generic "ホームタイムライン" [ref_45]
+  navigation [ref_46]
+   button "前" [ref_47] type="button"
+   tablist [ref_48]
+    presentation [ref_49]
+     tab [ref_50]
+      generic "おすすめ" [ref_51]
+    presentation [ref_52]
+     tab [ref_53]
+      generic "フォロー中" [ref_54]
+    presentation [ref_55]
+     tab [ref_56]
+      image "水晶玉" [ref_57]
+    presentation [ref_58]
+     tab [ref_59]
+      image "ラジオ" [ref_60]
+    presentation [ref_61]
+     tab [ref_62]
+      generic "生成AIインフルエンサー(リプリスト)" [ref_63]
+   button "次へ" [ref_64] type="button"
+  status [ref_65]
+   button "新しいポストがあります。新しいポストに移動するには、ピリオドキーを押してください。" [ref_66] type="button"
+    generic "新しいポストを表示" [ref_67]
+  progressbar [ref_68]
+  link [ref_69] href="/yuichisatoeco"
+   generic "佐藤優一 | AIプロダクト開発・AI業務改革" [ref_70]
+    image "佐藤優一 | AIプロダクト開発・AI業務改革" [ref_71]
+  generic "いまどうしてる？" [ref_72]
+  textbox "ポスト本文" [ref_73]
+  navigation [ref_74]
+   button "前" [ref_75] type="button"
+   tablist [ref_76]
+    presentation [ref_77]
+     button "画像や動画を追加" [ref_78] type="button"
+     button [ref_79] type="file"
+    presentation [ref_80]
+     button "GIF画像を追加" [ref_81] type="button"
+    presentation [ref_82]
+     button "Grokでポストをブラッシュアップする" [ref_83] type="button"
+    presentation [ref_84]
+     button "投票を追加" [ref_85] type="button"
+    presentation [ref_86]
+     button "絵文字を追加" [ref_87] type="button"
+    presentation [ref_88]
+     button "ポストを予約" [ref_89] type="button"
+    presentation [ref_90]
+     button "位置情報を追加" [ref_91] type="button"
+    presentation [ref_92]
+     button "太字、(⌘+B)" [ref_93] type="button"
+    presentation [ref_94]
+     button "斜体、(⌘+I)" [ref_95] type="button"
+   button "次へ" [ref_96] type="button"
+  button [ref_97] type="button"
+   generic "ポストする" [ref_98]
+  region [ref_99]
+   heading "ホームタイムライン" [ref_100]
+   generic "タイムライン: ホームタイムライン" [ref_101]
+    article [ref_102]
+     link [ref_103] href="/commte"
+     link [ref_104] href="/commte"
+      generic "コムテ" [ref_105]
+      img "認証済みアカウント" [ref_106]
+     link [ref_107] href="/commte"
+      generic "@commte" [ref_108]
+     link "1 時間前" [ref_109] href="/commte/status/2006654067821641803"
+      generic "1時間" [ref_110]
+     button "Grokのアクション" [ref_111] type="button"
+     button "もっと見る" [ref_112] type="button"
+     generic "フルスタックエンジニアが Agentic AI に移行するためのロードマップが役立つ。Agentic AI っていうのは「自律的に判断・行動できる AI」のことやね。2026 年は AI エージェント" [ref_113]
+     button [ref_114] type="button"
+      generic "さらに表示" [ref_115]
+     link [ref_116]
+      presentation [ref_117]
+      generic "Bhavani.py" [ref_118]
+      img "認証済みアカウント" [ref_119]
+      generic [ref_120]
+       generic "@Bhavani_00007" [ref_121]
+      generic "2025年12月22日" [ref_122]
+       generic "2025年12月22日" [ref_123]
+      generic "If you're a full-stack developer and want to move into Agentic AI, This roadmap is for you: Agenti.." [ref_124]
+      link [ref_125] href="/Bhavani_00007/status/2003029902778646898"
+       generic "さらに表示" [ref_126]
+     group "6 件のリポスト、98 件のいいね、13 件のブックマーク、13121 件の表示" [ref_127]
+      button "0 件の返信。返信する" [ref_128] type="button"
+      button "6 件のリポスト件。リポスト" [ref_129] type="button"
+      button "98 件のいいね。いいねする" [ref_130] type="button"
+      link "13121 件の表示。ポストアナリティクスを表示" [ref_131] href="/commte/status/2006654067821641803/analytics"
+       generic "1.2万" [ref_625]
+       generic "1.3万" [ref_133]
+      button "ブックマーク" [ref_134] type="button"
+      button "ポストを共有" [ref_135] type="button"
+    article [ref_136]
+     link [ref_137] href="/yulintwt"
+     link [ref_138] href="/yulintwt"
+      generic "Yu Lin" [ref_139]
+      img "認証済みアカウント" [ref_140]
+     link [ref_141] href="/yulintwt"
+      generic "@yulintwt" [ref_142]
+     link "23 時間前" [ref_143] href="/yulintwt/status/2006319176882016323"
+      generic "23時間" [ref_144]
+     button "Grokのアクション" [ref_145] type="button"
+     button "もっと見る" [ref_146] type="button"
+     generic "This guy literally breaks down how to clone a $5m/year app with AI (in 30 mins)" [ref_147]
+     generic "埋め込み動画" [ref_148]
+     generic [ref_149]
+      generic [ref_150]
+      slider "再生位置指定バー" [ref_567]
+      button "プレイ" [ref_568] type="button"
+      generic "0:07 / 32:39" [ref_569]
+      button "ミュートを解除" [ref_570] type="button"
+      slider "音量調節バー" [ref_571]
+      button "動画の設定" [ref_572] type="button"
+      button "ピクチャーインピクチャー" [ref_573] type="button"
+      button "全画面表示" [ref_574] type="button"
+      generic "32:31" [ref_618]
+     generic "Vibecoding Explainedさんから" [ref_160]
+      generic "投稿者:" [ref_161]
+       link [ref_162] href="/i/status/1996788359319159204"
+        generic "Vibecoding Explained" [ref_551]
+        img "認証済みアカウント" [ref_552]
+     group "14 件の返信、332 件のリポスト、1647 件のいいね、2085 件のブックマーク、63912 件の表示" [ref_163]
+      button "14 件の返信。返信する" [ref_164] type="button"
+      button "332 件のリポスト件。リポスト" [ref_165] type="button"
+       generic "331" [ref_626]
+       generic "332" [ref_166]
+      button "1647 件のいいね。いいねする" [ref_167] type="button"
+       generic "1,620" [ref_619]
+       generic "1,626" [ref_169]
+      link "63912 件の表示。ポストアナリティクスを表示" [ref_170] href="/yulintwt/status/2006319176882016323/analytics"
+       generic "6.3万" [ref_171]
+      button "ブックマーク" [ref_172] type="button"
+      button "ポストを共有" [ref_173] type="button"
+    article [ref_174]
+     link [ref_175] href="/statistics1012"
+     link [ref_176] href="/statistics1012"
+      generic "ウマたん(上野佑馬) | AI×個人開発" [ref_177]
+      img "認証済みアカウント" [ref_178]
+     link [ref_179] href="/statistics1012"
+      generic "@statistics1012" [ref_180]
+     link "1 時間前" [ref_181] href="/statistics1012/status/2006653623426756768"
+      generic "1時間" [ref_182]
+     button "Grokのアクション" [ref_183] type="button"
+     button "もっと見る" [ref_184] type="button"
+     generic "12月はXにめちゃくちゃコミットすることにした。とにかく1週間に10時間をXにかけるようにした。 するとみるみる効果は出て、たった3週間で500万インプレッションを超えた。 本気でコミットし始めた12" [ref_185]
+     button [ref_186] type="button"
+      generic "さらに表示" [ref_187]
+     link [ref_188] href="/statistics1012/status/2006653623426756768/photo/1"
+      generic "画像" [ref_189]
+       image "画像" [ref_190]
+     group "8 件のいいね、2 件のブックマーク、1124 件の表示" [ref_191]
+      button "0 件の返信。返信する" [ref_192] type="button"
+      button "0 件のリポスト件。リポスト" [ref_193] type="button"
+      button "8 件のいいね。いいねする" [ref_194] type="button"
+      link "1124 件の表示。ポストアナリティクスを表示" [ref_195] href="/statistics1012/status/2006653623426756768/analytics"
+       generic "1,124" [ref_196]
+      button "ブックマーク" [ref_197] type="button"
+      button "ポストを共有" [ref_198] type="button"
+    article [ref_199]
+     link [ref_200] href="/umiyuki_ai"
+     link [ref_201] href="/umiyuki_ai"
+      generic "うみゆき@AI研究" [ref_202]
+      img "認証済みアカウント" [ref_203]
+     link [ref_204] href="/umiyuki_ai"
+      generic "@umiyuki_ai" [ref_205]
+     link "17 分前" [ref_206] href="/umiyuki_ai/status/2006665494024335406"
+      generic "17分" [ref_207]
+     button "Grokのアクション" [ref_208] type="button"
+     button "もっと見る" [ref_209] type="button"
+     generic "グラボを値上げする理由なんだよ？メモリ不足だから？は？そもそもオメーらのせいでメモリ不足なんだよタコッッ！！！メモリが足りんならさっさともっと作れ！！！！どーせ作っても作っただけ全部OpenAIが買い" [ref_210]
+     button [ref_211] type="button"
+     group "1 件のリポスト、22 件のいいね、2765 件の表示" [ref_212]
+      button "0 件の返信。返信する" [ref_213] type="button"
+      button "1 件のリポスト件。リポスト" [ref_214] type="button"
+      button "22 件のいいね。いいねする" [ref_215] type="button"
+      link "2765 件の表示。ポストアナリティクスを表示" [ref_216] href="/umiyuki_ai/status/2006665494024335406/analytics"
+       generic "2,484" [ref_620]
+       generic "2,731" [ref_218]
+      button "ブックマーク" [ref_219] type="button"
+      button "ポストを共有" [ref_220] type="button"
+    article [ref_221]
+     link [ref_222] href="/fladdict"
+     link [ref_223] href="/fladdict"
+      generic "深津 貴之 / THE GUILD" [ref_224]
+      img "認証済みアカウント" [ref_225]
+     link [ref_226] href="/fladdict"
+      generic "@fladdict" [ref_227]
+     link "7 時間前" [ref_228] href="/fladdict/status/2006561038251303012"
+      generic "7時間" [ref_229]
+     button "Grokのアクション" [ref_230] type="button"
+     button "もっと見る" [ref_231] type="button"
+     generic "これはそうやろうな。デジタルなのにAIが効果を発揮しない会社 = 暗黙知や属人のブラックボックスが多い" [ref_232]
+     link [ref_233]
+      presentation [ref_234]
+      generic "Kenta Murata" [ref_235]
+      img "認証済みアカウント" [ref_236]
+      generic [ref_237]
+       generic "@KentaMurata" [ref_238]
+      generic "2025年12月31日" [ref_239]
+       generic "2025年12月31日" [ref_240]
+      generic "社内情報の多くが「コンテキストを共有していない人向けには作られていない」ことが RAG などがうまくいかない根本的な原因だろうと考えています。 この仮説が正しい場合、AI x.com/super_b." [ref_241]
+      link [ref_242] href="/KentaMurata/status/2006225266994209083"
+       generic "さらに表示" [ref_243]
+     group "58 件のリポスト、376 件のいいね、124 件のブックマーク、74817 件の表示" [ref_244]
+      button "0 件の返信。返信する" [ref_245] type="button"
+      button "58 件のリポスト件。リポスト" [ref_246] type="button"
+      button "376 件のいいね。いいねする" [ref_247] type="button"
+       generic "375" [ref_627]
+       generic "376" [ref_248]
+      link "74817 件の表示。ポストアナリティクスを表示" [ref_249] href="/fladdict/status/2006561038251303012/analytics"
+       generic "7.3万" [ref_628]
+       generic "7.4万" [ref_250]
+      button "ブックマーク" [ref_251] type="button"
+      button "ポストを共有" [ref_252] type="button"
+    article [ref_253]
+     link [ref_254] href="/singularity20xy"
+      generic "さんがリポスト" [ref_255]
+       generic "あいシンギュラリティ" [ref_256]
+     link [ref_257] href="/Tsubame33785667"
+     link [ref_258] href="/Tsubame33785667"
+      generic "Tsubame" [ref_259]
+      img "認証済みアカウント" [ref_260]
+     link [ref_261] href="/Tsubame33785667"
+      generic "@Tsubame33785667" [ref_262]
+     link "2025年12月30日" [ref_263] href="/Tsubame33785667/status/2005837884004135216"
+      generic "2025年12月30日" [ref_264]
+     button "Grokのアクション" [ref_265] type="button"
+     button "もっと見る" [ref_266] type="button"
+     generic "返信先: さん" [ref_267]
+      link [ref_268] href="/Tsubame33785667"
+       generic "@Tsubame33785667" [ref_269]
+     generic "ソース" [ref_270]
+     generic [ref_271]
+      generic "プレイ" [ref_272]
+     button [ref_273] type="button"
+      generic "youtube.com" [ref_274]
+      generic "【2026年問題】死なずに待ってほしい。世界は2〜3年で劇的に楽しくなる【岡田斗司夫】" [ref_275]
+      generic "0:00 ハイライト0:28 お金がある方が幸せになりやすい？1:20 2026年問題？5:53 3年以内に世界は劇的に楽しくなる7:38 最小のストレスで幸せに近づく方法【岡田斗司夫様の本チャンネル" [ref_276]
+     group "4 件のリポスト、7 件のいいね、4 件のブックマーク、2567 件の表示" [ref_277]
+      button "0 件の返信。返信する" [ref_278] type="button"
+      button "4 件のリポスト件。リポスト" [ref_279] type="button"
+      button "7 件のいいね。いいねする" [ref_280] type="button"
+      link "2567 件の表示。ポストアナリティクスを表示" [ref_281] href="/Tsubame33785667/status/2005837884004135216/analytics"
+       generic "2,567" [ref_282]
+      button "ブックマーク" [ref_283] type="button"
+      button "ポストを共有" [ref_284] type="button"
+    article [ref_285]
+     link [ref_286] href="/SawyerMerritt"
+     link [ref_287] href="/SawyerMerritt"
+      generic "Sawyer Merritt" [ref_288]
+      img "認証済みアカウント" [ref_289]
+     link [ref_290] href="/SawyerMerritt"
+      generic "@SawyerMerritt" [ref_291]
+     link "2 時間前" [ref_292] href="/SawyerMerritt/status/2006636520812188143"
+      generic "2時間" [ref_293]
+     button "Grokのアクション" [ref_294] type="button"
+     button "もっと見る" [ref_295] type="button"
+     generic "2026 will be the biggest new-product launch year in" [ref_296]
+     link "@Tesla" [ref_297] href="/Tesla"
+     generic "'s history. • Optimus robot (Gen 3) • Cybercab • Tesla Semi • Megapack 3/Megablock • New residentia." [ref_298]
+     link [ref_299] href="/SawyerMerritt/status/2006636520812188143/photo/1"
+      generic "画像" [ref_300]
+       image "画像" [ref_301]
+     link [ref_302] href="/SawyerMerritt/status/2006636520812188143/photo/2"
+      generic "画像" [ref_303]
+       image "画像" [ref_304]
+     link [ref_305] href="/SawyerMerritt/status/2006636520812188143/photo/3"
+      generic "画像" [ref_306]
+       image "画像" [ref_307]
+     link [ref_308] href="/SawyerMerritt/status/2006636520812188143/photo/4"
+      generic "画像" [ref_309]
+       image "画像" [ref_310]
+     group "95 件の返信、205 件のリポスト、1758 件のいいね、52 件のブックマーク、48542 件の表示" [ref_311]
+      button "95 件の返信。返信する" [ref_312] type="button"
+      button "205 件のリポスト件。リポスト" [ref_313] type="button"
+       generic "190" [ref_621]
+       generic "192" [ref_314]
+      button "1758 件のいいね。いいねする" [ref_315] type="button"
+       generic "1,657" [ref_622]
+       generic "1,676" [ref_317]
+      link "48542 件の表示。ポストアナリティクスを表示" [ref_318] href="/SawyerMerritt/status/2006636520812188143/analytics"
+       generic "4.5万" [ref_623]
+       generic "4.6万" [ref_320]
+      button "ブックマーク" [ref_321] type="button"
+      button "ポストを共有" [ref_322] type="button"
+    article [ref_323]
+     link [ref_324] href="/harrisonfjobe"
+     link [ref_325] href="/harrisonfjobe"
+      generic "Harrison Jobe" [ref_326]
+      img "認証済みアカウント" [ref_327]
+      link [ref_328]
+     link [ref_329] href="/harrisonfjobe"
+      generic "@harrisonfjobe" [ref_330]
+     link "13 時間前" [ref_331] href="/harrisonfjobe/status/2006465515397722320"
+      generic "13時間" [ref_332]
+     button "Grokのアクション" [ref_333] type="button"
+     button "もっと見る" [ref_334] type="button"
+     generic "here's my" [ref_335]
+     link "@googleaistudio" [ref_336] href="/GoogleAIStudio"
+     link "@geminicli" [ref_337] href="/geminicli"
+     generic "2025 \"wrapped\" at 6.5 billion tokens! dug through my AIS prompts to find day 1 of building..." [ref_338]
+     link [ref_339] href="/harrisonfjobe/status/2006465515397722320/photo/1"
+      generic "画像" [ref_340]
+       image "画像" [ref_341]
+     link [ref_342] href="/harrisonfjobe/status/2006465515397722320/photo/2"
+      generic "画像" [ref_343]
+       image "画像" [ref_344]
+     group "17 件の返信、10 件のリポスト、220 件のいいね、53 件のブックマーク、20377 件の表示" [ref_345]
+      button "17 件の返信。返信する" [ref_346] type="button"
+      button "10 件のリポスト件。リポスト" [ref_347] type="button"
+      button "220 件のいいね。いいねする" [ref_348] type="button"
+       generic "219" [ref_629]
+       generic "220" [ref_349]
+      link "20377 件の表示。ポストアナリティクスを表示" [ref_350] href="/harrisonfjobe/status/2006465515397722320/analytics"
+       generic "1.9万" [ref_630]
+      button "ブックマーク" [ref_352] type="button"
+      button "ポストを共有" [ref_353] type="button"
+    article [ref_354]
+     link [ref_355] href="/slow_developer"
+     link [ref_356] href="/slow_developer"
+      generic "Haider." [ref_357]
+      img "認証済みアカウント" [ref_358]
+      link [ref_359]
+     link [ref_360] href="/slow_developer"
+      generic "@slow_developer" [ref_361]
+     link "1 時間前" [ref_362] href="/slow_developer/status/2006654126780764338"
+      generic "1時間" [ref_363]
+     button "Grokのアクション" [ref_364] type="button"
+     button "もっと見る" [ref_365] type="button"
+     generic "Mathematician Terence Tao says: \"AI tools are now starting to solve the easiest 'open' Erdős proble." [ref_366]
+     button [ref_367] type="button"
+      generic "さらに表示" [ref_368]
+     link [ref_369] href="/slow_developer/status/2006654126780764338/photo/1"
+      generic "画像" [ref_370]
+       image "画像" [ref_371]
+     group "13 件の返信、6 件のリポスト、105 件のいいね、11 件のブックマーク、10067 件の表示" [ref_372]
+      button "13 件の返信。返信する" [ref_373] type="button"
+      button "6 件のリポスト件。リポスト" [ref_374] type="button"
+      button "105 件のいいね。いいねする" [ref_375] type="button"
+      link "10067 件の表示。ポストアナリティクスを表示" [ref_376] href="/slow_developer/status/2006654126780764338/analytics"
+       generic "8,004" [ref_624]
+       generic "8,287" [ref_378]
+      button "ブックマーク" [ref_379] type="button"
+      button "ポストを共有" [ref_380] type="button"
+    article [ref_381]
+     link [ref_382] href="/PaulSolt"
+     link [ref_383] href="/PaulSolt"
+      generic "Paul Solt" [ref_384]
+      img "認証済みアカウント" [ref_385]
+     link [ref_386] href="/PaulSolt"
+      generic "@PaulSolt" [ref_387]
+     link "13 時間前" [ref_388] href="/PaulSolt/status/2006474542223708327"
+      generic "13時間" [ref_389]
+     button "Grokのアクション" [ref_390] type="button"
+     button "もっと見る" [ref_391] type="button"
+     generic "I am literally 100x faster with Codex 5.2 now than I was with ChatGPT back in January-March. I upda." [ref_392]
+     link [ref_393] href="/PaulSolt/status/2006474542223708327/photo/1"
+      generic "画像" [ref_394]
+       image "画像" [ref_395]
+     link [ref_396] href="/PaulSolt/status/2006474542223708327/photo/2"
+      generic "画像" [ref_397]
+       image "画像" [ref_398]
+     group "4 件の返信、1 件のリポスト、78 件のいいね、28 件のブックマーク、4656 件の表示" [ref_399]
+      button "4 件の返信。返信する" [ref_400] type="button"
+      button "1 件のリポスト件。リポスト" [ref_401] type="button"
+      button "78 件のいいね。いいねする" [ref_402] type="button"
+      link "4656 件の表示。ポストアナリティクスを表示" [ref_403] href="/PaulSolt/status/2006474542223708327/analytics"
+       generic "4,656" [ref_404]
+      button "ブックマーク" [ref_405] type="button"
+      button "ポストを共有" [ref_406] type="button"
+    article [ref_578]
+     link [ref_579] href="/SuguruKun_ai"
+     link [ref_580] href="/SuguruKun_ai"
+      generic "すぐる | ChatGPTガチ勢 𝕏" [ref_581]
+      img "認証済みアカウント" [ref_582]
+     link [ref_583] href="/SuguruKun_ai"
+      generic "@SuguruKun_ai" [ref_584]
+     link "4 時間前" [ref_585] href="/SuguruKun_ai/status/2006615830725873802"
+      generic "4時間" [ref_586]
+     button "Grokのアクション" [ref_587] type="button"
+     button "もっと見る" [ref_588] type="button"
+     generic "速報。Google AI Pro、年末年始限定で「半額」に。 年額14,500円は流石に破格すぎる... ㅤ" [ref_589]
+     image "白い太字のチェックマーク" [ref_590]
+     generic "最新Gemini 3 Proがたくさん使える" [ref_591]
+     image "白い太字のチェックマーク" [ref_592]
+     generic "2TBクラウドストレージ" [ref_593]
+     image "白い太字のチェックマーク" [ref_594]
+     generic "動画生成Veo 3.1" [ref_595]
+     image "白い太字のチェックマーク" [ref_596]
+     generic "Deep Research（数百サイト自動調査）" [ref_597]
+     image "白い太字のチェックマーク" [ref_598]
+     generic "NotebookLM強化版" [ref_599]
+     image "白い太字のチェックマーク" [ref_600]
+     generic "Gmail・Docs・Sheets・Meet連携" [ref_601]
+     image "白い太字のチェックマーク" [ref_602]
+     generic "Antigravityの枠強化" [ref_603]
+     button [ref_604] type="button"
+      generic "さらに表示" [ref_605]
+     link [ref_606] href="/SuguruKun_ai/status/2006615830725873802/photo/1"
+      generic "画像" [ref_607]
+       image "画像" [ref_608]
+     group "2 件の返信、20 件のリポスト、218 件のいいね、151 件のブックマーク、58016 件の表示" [ref_609]
+      button "2 件の返信。返信する" [ref_610] type="button"
+      button "20 件のリポスト件。リポスト" [ref_611] type="button"
+      button "218 件のいいね。いいねする" [ref_612] type="button"
+       generic "217" [ref_631]
+       generic "218" [ref_613]
+      link "58016 件の表示。ポストアナリティクスを表示" [ref_614] href="/SuguruKun_ai/status/2006615830725873802/analytics"
+       generic "5.7万" [ref_632]
+       generic "5.8万" [ref_615]
+      button "ブックマーク" [ref_616] type="button"
+      button "ポストを共有" [ref_617] type="button"
+ generic "トレンド" [ref_407]
+  search "検索" [ref_408]
+   combobox "検索クエリ" [ref_409] type="text" placeholder="検索"
+  complementary "無料の広告クレジット" [ref_410]
+   button [ref_411] type="button"
+   generic "無料の広告クレジット" [ref_412]
+   generic "プレミアムビジネスにアップグレードすると、無料の広告クレジットを獲得し、ビジネスの成長に役立つツールを利用できます。" [ref_413]
+   link [ref_414] href="/i/verified-orgs-signup"
+    generic "詳細はこちら" [ref_415]
+  complementary "プレミアムプラスにアップグレード" [ref_416]
+   button [ref_417] type="button"
+   generic "プレミアムプラスにアップグレード" [ref_418]
+   generic "表示される広告がゼロになる、返信が最優先で表示されるなど、他のメリットもあります。" [ref_419]
+   link [ref_420] href="/i/premium_sign_up"
+    generic "プレミアムプラスにアップグレード" [ref_421]
+  heading "Xでライブ放送する" [ref_422]
+   generic "Xでライブ放送する" [ref_423]
+  button "ライブ放送、AI国王｜AI KINGさんがホストしています、AI国王｜AI KINGさんがホスト、AI国王祭100H、AI国王｜AI KINGさんが参加しました" [ref_424] type="button"
+   generic "さんがホストしています" [ref_425]
+    presentation [ref_426]
+    generic "AI国王｜AI KING" [ref_427]
+    img "認証済みアカウント" [ref_428]
+   generic "AI国王祭100H" [ref_429]
+   presentation [ref_430]
+   generic "+179" [ref_431]
+  button "ライブ放送、黒音キト⛏😼VTuber::ブラックITプログラマーさんがホストしています、黒音キト⛏😼VTuber::ブラックITプログラマーさんがホスト、【APEX】VTuber黒音キト、シーズン" [ref_432] type="button"
+   generic "さんがホストしています" [ref_433]
+    presentation [ref_434]
+    generic "黒音キト" [ref_435]
+    image "⛏" [ref_436]
+    image "ニヤリと笑う猫の顔" [ref_437]
+    generic "VTuber::ブラックITプログラマー" [ref_438]
+    img "認証済みアカウント" [ref_439]
+   generic "【APEX】VTuber黒音キト、シーズン27はランクどこまで行けるでしょう！？【2026年初め】" [ref_440]
+   presentation [ref_441]
+   generic "+11" [ref_442]
+  heading "本日のニュース" [ref_443]
+   generic "本日のニュース" [ref_444]
+   button "Close" [ref_445] type="button"
+  link [ref_446]
+   generic "長澤まさみ、福永壮志監督と結婚発表 元旦に芸能界結婚ラッシュ" [ref_447]
+   presentation [ref_448]
+   presentation [ref_449]
+   presentation [ref_450]
+   generic "9時間前 · その他 · 117,809件のポスト" [ref_451]
+  link [ref_452]
+   generic "ミセス・グリーン・アップル、国立競技場4日間連続ライブを元日配信で発表" [ref_453]
+   presentation [ref_454]
+   presentation [ref_455]
+   presentation [ref_456]
+   generic "1時間前 · その他 · 6,188件のポスト" [ref_457]
+  link [ref_458]
+   generic "プロセカ声優が謎解きバトルで熱戦！新春スペシャルスタート" [ref_459]
+   presentation [ref_460]
+   generic "3時間前 · その他 · 4,604件のポスト" [ref_461]
+  region [ref_462]
+   heading "速報" [ref_463]
+   generic "タイムライン: 速報" [ref_464]
+    heading "「いま」を見つけよう" [ref_465]
+     generic "「いま」を見つけよう" [ref_466]
+    link [ref_467]
+     generic "モンスト超獣神祭リンネ" [ref_468]
+     generic "ガチャ「超・獣神祭」開催中！新限定キャラ「リンネ」初登場！" [ref_469]
+     generic "Promoted by モンスターストライク公式(モンスト)" [ref_470]
+     button "もっと見る" [ref_471] type="button"
+    link [ref_472]
+     generic "エンターテインメント · トレンド" [ref_473]
+     generic "小栗旬さん" [ref_474]
+     generic "6,647件のポスト" [ref_475]
+     button "もっと見る" [ref_476] type="button"
+    link [ref_477]
+     generic "日本のトレンド" [ref_478]
+     generic "映画泥棒" [ref_479]
+     generic "5,313件のポスト" [ref_480]
+     button "もっと見る" [ref_481] type="button"
+    link [ref_482]
+     generic "音楽 · トレンド" [ref_483]
+     generic "刑事優吾" [ref_484]
+     generic "1,078件のポスト" [ref_485]
+     button "もっと見る" [ref_486] type="button"
+    link [ref_487] href="/explore/tabs/for-you"
+     generic "さらに表示" [ref_488]
+  complementary "おすすめユーザー" [ref_489]
+   heading "おすすめユーザー" [ref_490]
+    generic "おすすめユーザー" [ref_491]
+   list [ref_492]
+    listitem [ref_493]
+     link [ref_494] href="/BE_CEO_X"
+     link [ref_495] href="/BE_CEO_X"
+      generic "金丸 | ビジネスエンターテインメントCEO | 東京都Startup Hub Tokyo起業相談役" [ref_496]
+      img "認証済みアカウント" [ref_497]
+     link [ref_498] href="/BE_CEO_X"
+      generic "@BE_CEO_X" [ref_499]
+     button "フォロー @BE_CEO_X" [ref_500] type="button"
+      generic "フォロー" [ref_501]
+     generic "クリックしてBE_CEO_Xさんをフォロー" [ref_502]
+    listitem [ref_503]
+     link [ref_504] href="/eli_lifland"
+     link [ref_505] href="/eli_lifland"
+      generic "Eli Lifland" [ref_506]
+      img "認証済みアカウント" [ref_507]
+     link [ref_508] href="/eli_lifland"
+      generic "@eli_lifland" [ref_509]
+     button "フォロー @eli_lifland" [ref_510] type="button"
+      generic "フォロー" [ref_511]
+     generic "クリックしてeli_liflandさんをフォロー" [ref_512]
+    listitem [ref_513]
+     link [ref_514] href="/HenrypenmanXD"
+     link [ref_515] href="/HenrypenmanXD"
+      generic "Henry Yang" [ref_516]
+      img "認証済みアカウント" [ref_517]
+      link [ref_518]
+     link [ref_519] href="/HenrypenmanXD"
+      generic "@HenrypenmanXD" [ref_520]
+     button "フォロー @HenrypenmanXD" [ref_521] type="button"
+      generic "フォロー" [ref_522]
+     generic "クリックしてHenrypenmanXDさんをフォロー" [ref_523]
+   link [ref_524] href="/i/connect_people?user_id=155369088"
+    generic "さらに表示" [ref_525]
+  navigation "フッター" [ref_526]
+   link [ref_527] href="https://x.com/tos"
+    generic "利用規約" [ref_528]
+   link [ref_529] href="https://x.com/privacy"
+    generic "プライバシーポリシー" [ref_530]
+   link [ref_531] href="https://support.x.com/articles/20170514"
+    generic "Cookieのポリシー" [ref_532]
+   link [ref_533] href="https://help.x.com/resources/accessibility"
+    generic "アクセシビリティ" [ref_534]
+   link [ref_535] href="https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+    generic "広告情報" [ref_536]
+   button "もっと見る" [ref_537] type="button"
+    generic "もっと見る" [ref_538]
+   generic "© 2026 X Corp." [ref_539]
+generic "Press space bar to start a drag. When dragging you can use the arrow keys to move the item around .." [ref_540]

@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "processed_at": "2026-01-02T10:34:30.608612",
+    "source_file": "x_timeline_cursor_test.json",
+    "total_tweets": 119,
+    "filtered_tweets": 119,
+    "top_tweets_count": 10,
+    "filter_criteria": {
+      "excluded_usernames": [
+        "elonmusk",
+        "billgates",
+        "barackobama",
+        "tim_cook",
+        "realdonaldtrump",
+        "jeffbezos",
+        "sundarPichai",
+        "satyanadella"
+      ],
+      "min_engagement_score": 5053
+    }
+  },
+  "top_tweets": [
+    {
+      "tweet_id": "2006017683192442929",
+      "username": "unknown",
+      "text": "Congrats @Tesla team on making 9M cars!",
+      "likes": 151288,
+      "retweets": 10159,
+      "replies": 3978,
+      "timestamp_text": "Tue Dec 30 15:01:00 +0000 2025",
+      "collected_at": "2026-01-01T21:42:34.694539",
+      "engagement_score": 201655,
+      "rank": 1,
+      "url": "https://x.com/unknown/status/2006017683192442929"
+    },
+    {
+      "tweet_id": "2006514253935817140",
+      "username": "unknown",
+      "text": "Correct",
+      "likes": 110953,
+      "retweets": 18120,
+      "replies": 3680,
+      "timestamp_text": "Wed Dec 31 23:54:12 +0000 2025",
+      "collected_at": "2026-01-01T21:44:18.779735",
+      "engagement_score": 183713,
+      "rank": 2,
+      "url": "https://x.com/unknown/status/2006514253935817140"
+    },
+    {
+      "tweet_id": "2006386195601953143",
+      "username": "unknown",
+      "text": "Dell ate MacBook today! https://t.co/v8aQ4Q2Iir",
+      "likes": 15616,
+      "retweets": 521,
+      "replies": 1292,
+      "timestamp_text": "Wed Dec 31 15:25:20 +0000 2025",
+      "collected_at": "2026-01-01T21:43:24.499046",
+      "engagement_score": 23639,
+      "rank": 3,
+      "url": "https://x.com/unknown/status/2006386195601953143"
+    },
+    {
+      "tweet_id": "2006393733278044667",
+      "username": "unknown",
+      "text": "This guy literally dropped the best marketing lesson you'll ever see https://t.co/ArMu3P0XbG",
+      "likes": 13830,
+      "retweets": 1518,
+      "replies": 36,
+      "timestamp_text": "Wed Dec 31 15:55:17 +0000 2025",
+      "collected_at": "2026-01-01T21:42:34.694575",
+      "engagement_score": 18564,
+      "rank": 4,
+      "url": "https://x.com/unknown/status/2006393733278044667"
+    },
+    {
+      "tweet_id": "2006434541989495194",
+      "username": "unknown",
+      "text": "Happy New Year! 🎆 \n┏━━┓┏━━┓┏━━┓┏━━┓\n┗━┓┃┃┏┓┃┗━┓┃┃┏━┛\n┏━┛┃┃┃┃┃┏━┛┃┃┗━┓\n┃┏━┛┃┃┃┃┃┏━┛┃┏┓┃\n┃┗━┓┃┗┛┃┃┗━┓┃┗┛┃\n┗━━┛┗━━┛┗━━┛┗━━┛",
+      "likes": 8044,
+      "retweets": 705,
+      "replies": 133,
+      "timestamp_text": "Wed Dec 31 18:37:27 +0000 2025",
+      "collected_at": "2026-01-01T21:43:24.499346",
+      "engagement_score": 10824,
+      "rank": 5,
+      "url": "https://x.com/unknown/status/2006434541989495194"
+    },
+    {
+      "tweet_id": "2006471925770469468",
+      "username": "unknown",
+      "text": "NISAの純金ﾌｧﾝﾄﾞがiDeCoにも...\n月2万/11年で1億円になる計算w https://t.co/2V99VIlrvI",
+      "likes": 8536,
+      "retweets": 429,
+      "replies": 50,
+      "timestamp_text": "Wed Dec 31 21:06:00 +0000 2025",
+      "collected_at": "2026-01-01T21:43:24.499073",
+      "engagement_score": 10073,
+      "rank": 6,
+      "url": "https://x.com/unknown/status/2006471925770469468"
+    },
+    {
+      "tweet_id": "2006493648918360484",
+      "username": "unknown",
+      "text": "https://t.co/MhShvODvSW",
+      "likes": 5835,
+      "retweets": 493,
+      "replies": 452,
+      "timestamp_text": "Wed Dec 31 22:32:19 +0000 2025",
+      "collected_at": "2026-01-01T21:43:24.499024",
+      "engagement_score": 9574,
+      "rank": 7,
+      "url": "https://x.com/unknown/status/2006493648918360484"
+    },
+    {
+      "tweet_id": "2006110879612342423",
+      "username": "unknown",
+      "text": "there's an open-source solution https://t.co/DIdmSvPvTi",
+      "likes": 5506,
+      "retweets": 204,
+      "replies": 45,
+      "timestamp_text": "Tue Dec 30 21:11:20 +0000 2025",
+      "collected_at": "2026-01-01T21:41:44.059158",
+      "engagement_score": 6343,
+      "rank": 8,
+      "url": "https://x.com/unknown/status/2006110879612342423"
+    },
+    {
+      "tweet_id": "2006179200261042481",
+      "username": "unknown",
+      "text": "『休みを取りたいなあ』と思ったら、その仕事はあなたに合っていない。理想的な仕事とは、仕事と休みの区別がつかないものである。\nドナルド・トランプ https://t.co/LNjXPYFutZ",
+      "likes": 3942,
+      "retweets": 442,
+      "replies": 27,
+      "timestamp_text": "Wed Dec 31 01:42:49 +0000 2025",
+      "collected_at": "2026-01-01T21:42:34.694558",
+      "engagement_score": 5403,
+      "rank": 9,
+      "url": "https://x.com/unknown/status/2006179200261042481"
+    },
+    {
+      "tweet_id": "2006421427017384225",
+      "username": "unknown",
+      "text": "イタリアに日本ほどの停滞感がないのはユーロだから。対外購買力が日本みたいに落ちてない。\n換言すれば円の価値が維持されていれば、日本はそれなりに豊かであった。「失われた30+年」といえども、日本が貧しくなったのはこの数年のこと。 https://t.co/O06AbgNJlW",
+      "likes": 2212,
+      "retweets": 812,
+      "replies": 81,
+      "timestamp_text": "Wed Dec 31 17:45:20 +0000 2025",
+      "collected_at": "2026-01-01T21:41:44.059146",
+      "engagement_score": 5053,
+      "rank": 10,
+      "url": "https://x.com/unknown/status/2006421427017384225"
+    }
+  ]
+}

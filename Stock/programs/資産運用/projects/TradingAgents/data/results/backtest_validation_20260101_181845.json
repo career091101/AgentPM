@@ -1,0 +1,229 @@
+{
+  "summary": {
+    "total_tests": 3,
+    "passed": 2,
+    "failed": 1,
+    "pass_rate": 66.66666666666666,
+    "status": "FAIL"
+  },
+  "tests": [
+    {
+      "test": "Single +5% Trade",
+      "status": "PASS",
+      "expected_final": 1045552.5,
+      "actual_final": 1045552.5,
+      "expected_return": 4.555250000000011,
+      "actual_return": 4.555250000000011,
+      "details": {
+        "total_trades": 1,
+        "winning_trades": 1,
+        "losing_trades": 0,
+        "win_rate": 100.0,
+        "total_return": 4.555250000000011,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "avg_rr_ratio": 2.500000000000002,
+        "trades": [
+          {
+            "entry_date": "2025-01-01",
+            "exit_date": "2025-01-05",
+            "entry_price": 40000.0,
+            "exit_price": 42000.0,
+            "size": 23.75,
+            "pnl": 45552.5,
+            "return_pct": 5.000000000000004,
+            "commission_total": 1947.5
+          }
+        ],
+        "final_capital": 1045552.5,
+        "equity_curve": [
+          1000000.0,
+          1045552.5
+        ]
+      }
+    },
+    {
+      "test": "Multiple Trades",
+      "status": "PASS",
+      "actual_final": 1007262.9648795732,
+      "actual_return": 0.726296487957323,
+      "details": {
+        "total_trades": 2,
+        "winning_trades": 1,
+        "losing_trades": 1,
+        "win_rate": 50.0,
+        "total_return": 0.726296487957323,
+        "sharpe_ratio": 1.2297153981004434,
+        "max_drawdown": 3.66213414634146,
+        "avg_rr_ratio": 2.500000000000002,
+        "trades": [
+          {
+            "entry_date": "2025-01-01",
+            "exit_date": "2025-01-03",
+            "entry_price": 40000.0,
+            "exit_price": 42000.0,
+            "size": 23.75,
+            "pnl": 45552.5,
+            "return_pct": 5.000000000000004,
+            "commission_total": 1947.5
+          },
+          {
+            "entry_date": "2025-01-06",
+            "exit_date": "2025-01-11",
+            "entry_price": 41000.0,
+            "exit_price": 39500.0,
+            "size": 24.226216463414634,
+            "pnl": -38289.535120426845,
+            "return_pct": -3.658536585365857,
+            "commission_total": 1950.210425304878
+          }
+        ],
+        "final_capital": 1007262.9648795732,
+        "equity_curve": [
+          1000000.0,
+          1045552.5,
+          1007262.9648795732
+        ]
+      }
+    },
+    {
+      "test": "KPI Calculations",
+      "status": "FAIL",
+      "kpis": {
+        "total_trades": 10,
+        "win_rate": 60.0,
+        "total_return": 28.95263139644082,
+        "sharpe_ratio": 1.93917882305166,
+        "max_drawdown": 7.782400000000014,
+        "final_capital": 1289526.3139644081
+      },
+      "details": {
+        "total_trades": 10,
+        "winning_trades": 6,
+        "losing_trades": 4,
+        "win_rate": 60.0,
+        "total_return": 28.95263139644082,
+        "sharpe_ratio": 1.93917882305166,
+        "max_drawdown": 7.782400000000014,
+        "avg_rr_ratio": 4.500000000000002,
+        "trades": [
+          {
+            "entry_date": "2025-01-01",
+            "exit_date": "2025-01-05",
+            "entry_price": 40000.0,
+            "exit_price": 44000.0,
+            "size": 23.75,
+            "pnl": 93005.0,
+            "return_pct": 10.000000000000009,
+            "commission_total": 1995.0
+          },
+          {
+            "entry_date": "2025-01-06",
+            "exit_date": "2025-01-10",
+            "entry_price": 43000.0,
+            "exit_price": 40850.0,
+            "size": 24.14778488372093,
+            "pnl": -53942.52926249993,
+            "return_pct": -5.000000000000004,
+            "commission_total": 2024.7917625
+          },
+          {
+            "entry_date": "2025-01-11",
+            "exit_date": "2025-01-15",
+            "entry_price": 40000.0,
+            "exit_price": 43200.0,
+            "size": 24.677733680015624,
+            "pnl": 76915.5603338727,
+            "return_pct": 8.000000000000007,
+            "commission_total": 2053.1874421773
+          },
+          {
+            "entry_date": "2025-01-16",
+            "exit_date": "2025-01-20",
+            "entry_price": 43000.0,
+            "exit_price": 39560.0,
+            "size": 24.655328593437304,
+            "pnl": -86849.87429009854,
+            "return_pct": -7.9999999999999964,
+            "commission_total": 2035.543928674184
+          },
+          {
+            "entry_date": "2025-01-21",
+            "exit_date": "2025-01-25",
+            "entry_price": 39000.0,
+            "exit_price": 43680.0,
+            "size": 25.0685063831336,
+            "pnl": 115247.94576530777,
+            "return_pct": 12.00000000000001,
+            "commission_total": 2072.664107757486
+          },
+          {
+            "entry_date": "2025-01-26",
+            "exit_date": "2025-01-30",
+            "entry_price": 42000.0,
+            "exit_price": 40740.0,
+            "size": 25.884697557601253,
+            "pnl": -34756.41879849349,
+            "return_pct": -3.0000000000000027,
+            "commission_total": 2141.699875915928
+          },
+          {
+            "entry_date": "2025-01-31",
+            "exit_date": "2025-02-04",
+            "entry_price": 39000.0,
+            "exit_price": 41730.0,
+            "size": 27.029197424632923,
+            "pnl": 71607.64186115738,
+            "return_pct": 7.000000000000006,
+            "commission_total": 2182.067108090616
+          },
+          {
+            "entry_date": "2025-02-05",
+            "exit_date": "2025-02-09",
+            "entry_price": 40000.0,
+            "exit_price": 40800.0,
+            "size": 28.054148983219587,
+            "pnl": 20176.543948731567,
+            "return_pct": 2.0000000000000018,
+            "commission_total": 2266.775237844143
+          },
+          {
+            "entry_date": "2025-02-10",
+            "exit_date": "2025-02-14",
+            "entry_price": 41000.0,
+            "exit_price": 47150.0,
+            "size": 27.837406733660448,
+            "pnl": 168746.18400843957,
+            "return_pct": 14.999999999999991,
+            "commission_total": 2453.8674035721688
+          },
+          {
+            "entry_date": "2025-02-15",
+            "exit_date": "2025-02-19",
+            "entry_price": 44000.0,
+            "exit_price": 41360.0,
+            "size": 29.582785247456723,
+            "pnl": -80623.7396020086,
+            "return_pct": -6.000000000000005,
+            "commission_total": 2525.186548722906
+          }
+        ],
+        "final_capital": 1289526.3139644081,
+        "equity_curve": [
+          1000000.0,
+          1093005.0,
+          1039062.4707375,
+          1115978.0310713728,
+          1029128.1567812741,
+          1144376.1025465818,
+          1109619.6837480883,
+          1181227.3256092458,
+          1201403.8695579772,
+          1370150.0535664167,
+          1289526.3139644081
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-01-01T18:18:45.709785"
+}

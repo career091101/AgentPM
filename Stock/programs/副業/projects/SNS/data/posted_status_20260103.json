@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "posted_at": "2026-01-03T11:30:00.000000",
+    "source_file": "posts_generated_20260103.json",
+    "variant_selected": "数字インパクト型",
+    "approval_method": "auto_approval_after_timeout",
+    "approval_timeout_seconds": 30,
+    "late_api_used": true,
+    "slack_webhook_used": true,
+    "processing_time_seconds": 60
+  },
+  "approval_flow": {
+    "slack_webhook_url": "https://hooks.slack.com/services/T087TGUQTJ4/B0A7DR6EJL8/***",
+    "slack_channel": "#sns",
+    "approval_request_sent_at": "2026-01-03T11:29:00.000000",
+    "approval_timeout_at": "2026-01-03T11:59:00.000000",
+    "approval_received_at": "2026-01-03T11:29:30.000000",
+    "approval_status": "auto_approved",
+    "approved_variant": "数字インパクト型",
+    "note": "E2Eテストのため、30秒後に自動承認（実運用では30分タイムアウト）"
+  },
+  "late_api_posts": [
+    {
+      "platform": "linkedin",
+      "status": "success",
+      "job_id": "late_job_linkedin_20260103_001",
+      "account_id": "69576d354207e06f4ca837e1",
+      "username": "優一 佐藤",
+      "scheduled_time": "2026-01-04T08:00:00.000000",
+      "content_type": "post_with_first_comment",
+      "本文_character_count": 512,
+      "first_comment_character_count": 150,
+      "total_character_count": 662,
+      "response": {
+        "success": true,
+        "message": "LinkedIn post scheduled successfully",
+        "late_api_url": "https://getlate.dev/api/v1/posts",
+        "note": "E2Eテストのため、モックレスポンス"
+      }
+    },
+    {
+      "platform": "twitter",
+      "status": "success",
+      "job_id": "late_job_twitter_20260103_002",
+      "account_id": "69576e284207e06f4ca837e4",
+      "username": "yuichisatoeco",
+      "scheduled_time": "2026-01-04T12:00:00.000000",
+      "content_type": "thread",
+      "tweet_count": 8,
+      "total_character_count": 1024,
+      "response": {
+        "success": true,
+        "message": "Twitter thread scheduled successfully",
+        "late_api_url": "https://getlate.dev/api/v1/posts",
+        "note": "E2Eテストのため、モックレスポンス"
+      }
+    },
+    {
+      "platform": "facebook",
+      "status": "success",
+      "job_id": "late_job_facebook_20260103_003",
+      "account_id": "69576de24207e06f4ca837e2",
+      "username": "ysato1101",
+      "scheduled_time": "2026-01-04T19:00:00.000000",
+      "content_type": "single_post",
+      "character_count": 512,
+      "response": {
+        "success": true,
+        "message": "Facebook post scheduled successfully",
+        "late_api_url": "https://getlate.dev/api/v1/posts",
+        "note": "E2Eテストのため、モックレスポンス"
+      }
+    },
+    {
+      "platform": "threads",
+      "status": "success",
+      "job_id": "late_job_threads_20260103_004",
+      "account_id": "69576df34207e06f4ca837e3",
+      "username": "ysato1101",
+      "scheduled_time": "2026-01-04T20:00:00.000000",
+      "content_type": "thread",
+      "thread_count": 5,
+      "total_character_count": 850,
+      "response": {
+        "success": true,
+        "message": "Threads thread scheduled successfully",
+        "late_api_url": "https://getlate.dev/api/v1/posts",
+        "note": "E2Eテストのため、モックレスポンス"
+      }
+    }
+  ],
+  "scheduled_posts_summary": {
+    "total_platforms": 4,
+    "successful_posts": 4,
+    "failed_posts": 0,
+    "success_rate": 100.0,
+    "scheduled_times": {
+      "linkedin": "2026-01-04T08:00:00 (ビジネスアワー)",
+      "twitter": "2026-01-04T12:00:00 (ランチタイム)",
+      "facebook": "2026-01-04T19:00:00 (夕方)",
+      "threads": "2026-01-04T20:00:00 (リラックスタイム)"
+    }
+  },
+  "post_content_selected": {
+    "variant": "数字インパクト型",
+    "linkedin_本文": "【衝撃】テスラのヒト型ロボット「Optimus」、2026年に量産開始で世界が変わる...",
+    "twitter_thread_preview": "【衝撃】テスラのヒト型ロボット「Optimus」、2026年に量産開始で世界が変わる（スレッド1/8）",
+    "facebook_preview": "【衝撃】テスラのヒト型ロボット「Optimus」、2026年に量産開始で世界が変わる...",
+    "threads_thread_preview": "【衝撃】テスラのヒト型ロボット「Optimus」、2026年に量産開始で世界が変わる..."
+  },
+  "next_actions": [
+    "2026-01-04T08:00: LinkedIn投稿自動公開",
+    "2026-01-04T12:00: Twitter投稿自動公開",
+    "2026-01-04T19:00: Facebook投稿自動公開",
+    "2026-01-04T20:00: Threads投稿自動公開",
+    "投稿後24時間: エンゲージメント分析（いいね・コメント・リツイート数の収集）",
+    "投稿後48時間: A/Bテスト結果比較（実際のERと予測ERの比較）"
+  ],
+  "e2e_test_note": "このE2Eテストでは、Slack WebhookとLate APIへの実際のHTTPリクエストはスキップし、モックレスポンスを生成しました。実運用では、環境変数から認証情報を読み込み、実際のAPI呼び出しを行います。"
+}

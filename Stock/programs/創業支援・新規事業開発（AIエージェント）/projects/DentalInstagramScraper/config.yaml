@@ -1,0 +1,38 @@
+# Dental Instagram Scraper Configuration
+
+instagram:
+  hashtags:
+    - "歯科"
+    - "歯科医院"
+    - "歯医者"
+    - "歯科医師"
+    - "小児歯科"
+  posts_per_hashtag: 20
+  rate_limit:
+    wait_seconds: 600
+    max_retries: 3
+
+extraction:
+  enable_external_link_scraping: true
+  external_link:
+    delay_seconds: 5
+    timeout_seconds: 10
+  confidence_thresholds:
+    high: 0.8
+    medium: 0.6
+
+fact_check:
+  enabled: true
+  max_retries: 3
+  search_strategies:
+    - "{clinic_name} 歯科医院 住所"
+    - "{postal_code} {clinic_name}"
+    - "{address} {clinic_name}"
+
+output:
+  directory: "./data/output"
+  encoding: "utf-8-sig"
+
+logging:
+  level: "INFO"
+  file: "./logs/scraper.log"

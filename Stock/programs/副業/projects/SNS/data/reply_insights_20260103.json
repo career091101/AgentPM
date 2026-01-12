@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "analyzed_at": "2026-01-03T10:35:00.000000",
+    "source_file": "tweet_details_20260102.json",
+    "total_tweets_analyzed": 10,
+    "total_replies_analyzed": 45,
+    "insights_generated": 22,
+    "processing_time_seconds": 120,
+    "model": "sonnet"
+  },
+  "insights": [
+    {
+      "category": "共感・期待",
+      "insight": "イーロン・マスクと共和党の連携強化に対する強い期待感。支持者は「アメリカの勝利」と捉え、保守層の結束を歓迎している。",
+      "supporting_replies": [
+        {
+          "username": "Patricia Brennan",
+          "text": "We need to get rid of all the rinos",
+          "likes": 18,
+          "tweet_id": "2006844025702330801"
+        }
+      ],
+      "confidence": 0.85,
+      "engagement_level": "high"
+    },
+    {
+      "category": "批判・懸念",
+      "insight": "イーロン・マスクとエプスタイン事件との関連を疑う声や、GOP候補への影響を懸念する批判的な意見が存在する。",
+      "supporting_replies": [
+        {
+          "username": "Mustached Gamer Cat",
+          "text": "Remember when Elon dobbed on Trump and admitted the reason the Epstein files was taking ages was because HIS NAME WAS ALL THROUGH IT?",
+          "likes": 3,
+          "tweet_id": "2006844025702330801"
+        },
+        {
+          "username": "LJ Johnson",
+          "text": "I'm sure DNC operatives are salivating at the thought of having that goofy Epstein tied billionaire behind all GOP candidates.",
+          "likes": 1,
+          "tweet_id": "2006844025702330801"
+        }
+      ],
+      "confidence": 0.78,
+      "engagement_level": "medium"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "イーロン・マスクの成功要因として、「絶え間ない努力」と「Noと言う戦略的能力」が重要視されている。時間・エネルギー・集中力の管理が鍵。",
+      "supporting_replies": [
+        {
+          "username": "Metanoia",
+          "text": "I agree. I think she's an amazing speaker. Time management is part of the discipline of purpose and is paramount to mastery. A 'no' saves time for many 'yes' moments.",
+          "likes": 7,
+          "tweet_id": "2006794972515983522"
+        }
+      ],
+      "confidence": 0.92,
+      "engagement_level": "high"
+    },
+    {
+      "category": "共感・期待",
+      "insight": "AI・ロボティクス統合への期待が高まっており、Nvidia CEOのイーロン評価（extraordinary engineer）が支持を後押ししている。",
+      "supporting_replies": [
+        {
+          "username": "Shivram Krishna Singh",
+          "text": "Game recognizes Game. When the CEO of a $3T company calls you an 'extraordinary engineer', that is the ultimate validation.",
+          "likes": 17,
+          "tweet_id": "2006676783991787563"
+        },
+        {
+          "username": "Hephzibah Behulah",
+          "text": "Jensen calling Elon an extraordinary engineer and betting big on Optimus is the kind of hype I live for.",
+          "likes": 4,
+          "tweet_id": "2006676783991787563"
+        }
+      ],
+      "confidence": 0.89,
+      "engagement_level": "high"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "ヒューマノイドロボット「Optimus」の量産化が近い将来に実現する可能性が高い。AI・ハードウェア・エネルギー・製造の収束がインフラ化の鍵。",
+      "supporting_replies": [
+        {
+          "username": "ZaxtR",
+          "text": "What makes this moment different is convergence: AI, hardware, energy, and manufacturing finally meeting at scale.",
+          "likes": 14,
+          "tweet_id": "2006676783991787563"
+        },
+        {
+          "username": "Ryan",
+          "text": "If human-like robots become deployable at scale, it could revolutionize industries, labor, and technology as a whole.",
+          "likes": 8,
+          "tweet_id": "2006676783991787563"
+        }
+      ],
+      "confidence": 0.87,
+      "engagement_level": "high"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "ノルウェー政府年金基金（GPFG）のフジクラ株買い増しが注目されている。海底ケーブル新工場（1000億円投資）への期待が海外投資家マネー流入の要因。",
+      "supporting_replies": [
+        {
+          "username": "株タック（かぶちゃん）",
+          "text": "次回の決算のガイダンス強そうですね。海底ケーブルの新工場を新設発表をされましたね。約1000億円程度かけて。",
+          "likes": 11,
+          "tweet_id": "2006666568302998015"
+        },
+        {
+          "username": "ケンタのおやつ",
+          "text": "ノルウェー政府年金基金（GPFG）は日本企業だけでも1400社以上に分散投資しているよね。",
+          "likes": 3,
+          "tweet_id": "2006666568302998015"
+        }
+      ],
+      "confidence": 0.83,
+      "engagement_level": "medium"
+    },
+    {
+      "category": "批判・懸念",
+      "insight": "AIツールによる投稿が指摘され、信憑性への疑問が呈されている。ユーザーの透明性に対する期待値が高まっている証左。",
+      "supporting_replies": [
+        {
+          "username": "23130821",
+          "text": "AIに書かせてるのバレバレですよ",
+          "likes": 3,
+          "tweet_id": "2006606313392886251"
+        },
+        {
+          "username": "やよいさん",
+          "text": "貰ったメモ？？？？笑 AIじゃん",
+          "likes": 1,
+          "tweet_id": "2006606313392886251"
+        }
+      ],
+      "confidence": 0.76,
+      "engagement_level": "medium"
+    },
+    {
+      "category": "共感・期待",
+      "insight": "MacのUSキーボードとJISキーボード議論で、周囲の環境適合性が重要なファクターとして認識されている。",
+      "supporting_replies": [
+        {
+          "username": "あるごす",
+          "text": "複数の方の意見を聞く感じ、「自分の周りの環境がどうなってるか？」は結構大きなファクターっぽいすねー",
+          "likes": 2,
+          "tweet_id": "2006683955190497543"
+        }
+      ],
+      "confidence": 0.72,
+      "engagement_level": "low"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "JIS配列の中央ずれによるトラックパッド・ホームポジション不整合が、US配列選択の技術的理由として挙げられている。",
+      "supporting_replies": [
+        {
+          "username": "金井康訓",
+          "text": "JIS配列は、配列中央がずれてるので、トラックパッドとホームポジションの位置関係がおかしくなるから",
+          "likes": 10,
+          "tweet_id": "2006683955190497543"
+        }
+      ],
+      "confidence": 0.81,
+      "engagement_level": "medium"
+    },
+    {
+      "category": "共感・期待",
+      "insight": "5秒ルール（5秒以内に行動しないと理由探しを始める）が共感を呼び、即行動の重要性が支持されている。",
+      "supporting_replies": [
+        {
+          "username": "ごん | 日本一熱い英語コーチ",
+          "text": "このTEDトーク、『2026年こそ英語を頑張ろう』と思ってる全ての人に見て欲しい。何かを成し遂げたいと思ったら、5秒以内に行動することが重要。",
+          "likes": 7479,
+          "tweet_id": "2006663806278152565"
+        }
+      ],
+      "confidence": 0.88,
+      "engagement_level": "high"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "「MiniMoreMax」という目標設定手法（3分で達成できる目標設定＋毎日1つは実行＋20日継続）が習慣化に有効。",
+      "supporting_replies": [
+        {
+          "username": "こしん",
+          "text": "【目標は立てるだけで終わらせない】三日坊主の天才である私でも「MiniMoreMax」で継続できたので紹介。「3分で達成できる目標」を絶対に置く。",
+          "likes": 5186,
+          "tweet_id": "2006663806278152565"
+        }
+      ],
+      "confidence": 0.84,
+      "engagement_level": "high"
+    },
+    {
+      "category": "追加情報・洞察",
+      "insight": "2026年1月5日の「長澤まさみショック」予測が投資家間で話題に。FRBの11.7兆円資金注入も同時に注目されている。",
+      "supporting_replies": [
+        {
+          "username": "ゆきママ",
+          "text": "年明け、1月5日は長澤まさみショックです。備えよ…。",
+          "likes": 2569,
+          "tweet_id": "2006709253453783168"
+        },
+        {
+          "username": "SOU仮想通貨 / ビットコイン",
+          "text": "【速報】 FRBが米国経済に746億ドル（11.7兆円）の資金を注入",
+          "likes": 503,
+          "tweet_id": "2006709253453783168"
+        }
+      ],
+      "confidence": 0.79,
+      "engagement_level": "high"
+    },
+    {
+      "category": "批判・懸念",
+      "insight": "RAG（Retrieval-Augmented Generation）導入が失敗する原因として、技術問題ではなく「情報共有インセンティブ欠如」が指摘されている。",
+      "supporting_replies": [
+        {
+          "username": "すぎはら｜AI × 知的生産",
+          "text": "RAGが失敗するのはAIのせいじゃない。会社の思想がアップデートされていないだけ。情報を出した人が報われ、現場の知恵が蓄積され、AIがそれを増幅し、組織全体が学習する。",
+          "likes": 5,
+          "tweet_id": "2006763630138966389"
+        },
+        {
+          "username": "forin",
+          "text": "その通りで、この辺りの仕組みを変えずにRAGを銀の弾丸のように扱う企業や自治体が多すぎや。",
+          "likes": 4,
+          "tweet_id": "2006763630138966389"
+        }
+      ],
+      "confidence": 0.86,
+      "engagement_level": "medium"
+    },
+    {
+      "category": "質問",
+      "insight": "Justine Muskに関する情報不足（いつ結婚・離婚したか）や、イーロン・マスクの「Noの戦略」の学習方法についての疑問が提起されている。",
+      "supporting_replies": [
+        {
+          "username": "Nicolle Jones",
+          "text": "@grok how come ive never heard of Justine?? When did they marry and divorce??",
+          "likes": 0,
+          "tweet_id": "2006794972515983522"
+        },
+        {
+          "username": "Samuel Maestre",
+          "text": "@grok where did musk learn this? Base on his life history… How could someone like me learn to say no to everything else but work or career projects.",
+          "likes": 0,
+          "tweet_id": "2006794972515983522"
+        }
+      ],
+      "confidence": 0.71,
+      "engagement_level": "low"
+    }
+  ],
+  "category_distribution": {
+    "共感・期待": {
+      "count": 4,
+      "percentage": 28.6,
+      "average_engagement": "high"
+    },
+    "批判・懸念": {
+      "count": 3,
+      "percentage": 21.4,
+      "average_engagement": "medium"
+    },
+    "追加情報・洞察": {
+      "count": 6,
+      "percentage": 42.9,
+      "average_engagement": "high"
+    },
+    "質問": {
+      "count": 1,
+      "percentage": 7.1,
+      "average_engagement": "low"
+    }
+  },
+  "quality_metrics": {
+    "insights_per_tweet": 2.2,
+    "high_engagement_insights": 8,
+    "medium_engagement_insights": 5,
+    "low_engagement_insights": 1,
+    "average_confidence_score": 0.82
+  }
+}

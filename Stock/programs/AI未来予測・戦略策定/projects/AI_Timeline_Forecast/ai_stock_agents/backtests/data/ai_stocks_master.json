@@ -1,0 +1,347 @@
+{
+  "stocks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "ipo_date": "1999-01-22",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "GPU/AI Chips",
+      "weight_factor": 1.5
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "ipo_date": "1979-09-19",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Processors",
+      "weight_factor": 1.2
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "ipo_date": "2009-08-06",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Infrastructure",
+      "weight_factor": 1.1
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "ipo_date": "1971-10-13",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Chips",
+      "weight_factor": 0.9
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm Inc.",
+      "ipo_date": "1991-12-13",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Mobile AI",
+      "weight_factor": 1.0
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "ipo_date": "1997-10-08",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "AI Chip Manufacturing",
+      "weight_factor": 1.3
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "ipo_date": "1995-03-30",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Chip Equipment",
+      "weight_factor": 1.1
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "ipo_date": "1984-05-30",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Memory",
+      "weight_factor": 1.0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "ipo_date": "2004-08-19",
+      "category": "Frontier Labs",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "DeepMind/Gemini",
+      "weight_factor": 1.5
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "ipo_date": "1986-03-13",
+      "category": "Frontier Labs",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "OpenAI Partner",
+      "weight_factor": 1.5
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "ipo_date": "2012-05-18",
+      "category": "Frontier Labs",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "LLaMA/AI Research",
+      "weight_factor": 1.3
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "ipo_date": "1986-03-12",
+      "category": "Frontier Labs",
+      "liquidity": "large_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "AI Database/Cloud",
+      "weight_factor": 0.8
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc.",
+      "ipo_date": "1997-05-15",
+      "category": "Cloud",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AWS/Bedrock",
+      "weight_factor": 1.4
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce Inc.",
+      "ipo_date": "2004-06-23",
+      "category": "Cloud",
+      "liquidity": "large_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "Einstein AI",
+      "weight_factor": 1.0
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow Inc.",
+      "ipo_date": "2012-06-29",
+      "category": "Cloud",
+      "liquidity": "mid_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "AI Workflow",
+      "weight_factor": 1.1
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake Inc.",
+      "ipo_date": "2020-09-16",
+      "category": "Cloud",
+      "liquidity": "mid_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "AI Data Platform",
+      "weight_factor": 1.2
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "ipo_date": "1986-08-20",
+      "category": "Creative AI",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Firefly/Sensei",
+      "weight_factor": 1.1
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "ipo_date": "2020-09-30",
+      "category": "Enterprise AI",
+      "liquidity": "mid_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "AIP Platform",
+      "weight_factor": 1.3
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings",
+      "ipo_date": "2019-06-12",
+      "category": "Security AI",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Security",
+      "weight_factor": 1.0
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "ipo_date": "2012-07-20",
+      "category": "Security AI",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Cybersecurity",
+      "weight_factor": 1.0
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog Inc.",
+      "ipo_date": "2019-09-19",
+      "category": "Observability",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Monitoring",
+      "weight_factor": 0.9
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare Inc.",
+      "ipo_date": "2019-09-13",
+      "category": "Edge AI",
+      "liquidity": "mid_cap",
+      "exchange": "NYSE",
+      "ai_relevance": "Edge AI",
+      "weight_factor": 0.9
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation",
+      "ipo_date": "2015-12-10",
+      "category": "Productivity",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "AI Collaboration",
+      "weight_factor": 0.8
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler Inc.",
+      "ipo_date": "2018-03-16",
+      "category": "Security AI",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Zero Trust AI",
+      "weight_factor": 0.9
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "ipo_date": "1972-11-30",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Chip Equipment",
+      "weight_factor": 0.9
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "ipo_date": "1953-10-01",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Edge AI Chips",
+      "weight_factor": 0.7
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors",
+      "ipo_date": "2010-08-06",
+      "category": "Compute",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Automotive AI",
+      "weight_factor": 0.8
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet Inc.",
+      "ipo_date": "2009-11-18",
+      "category": "Security AI",
+      "liquidity": "large_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Network Security AI",
+      "weight_factor": 0.8
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday Inc.",
+      "ipo_date": "2012-10-12",
+      "category": "Enterprise AI",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "HR AI",
+      "weight_factor": 0.8
+    },
+    {
+      "ticker": "MNDY",
+      "name": "Monday.com Ltd.",
+      "ipo_date": "2021-06-10",
+      "category": "Productivity",
+      "liquidity": "mid_cap",
+      "exchange": "NASDAQ",
+      "ai_relevance": "Work OS AI",
+      "weight_factor": 0.8
+    }
+  ],
+  "categories": {
+    "Compute": {
+      "description": "AI Hardware & Semiconductors",
+      "max_allocation": 0.35
+    },
+    "Frontier Labs": {
+      "description": "Frontier AI Model Development",
+      "max_allocation": 0.30
+    },
+    "Cloud": {
+      "description": "Cloud Infrastructure & Platforms",
+      "max_allocation": 0.25
+    },
+    "Enterprise AI": {
+      "description": "Enterprise AI Applications",
+      "max_allocation": 0.20
+    },
+    "Security AI": {
+      "description": "AI-Powered Cybersecurity",
+      "max_allocation": 0.15
+    },
+    "Creative AI": {
+      "description": "Creative & Content AI",
+      "max_allocation": 0.10
+    },
+    "Productivity": {
+      "description": "AI-Enhanced Productivity Tools",
+      "max_allocation": 0.10
+    },
+    "Observability": {
+      "description": "AI Monitoring & Analytics",
+      "max_allocation": 0.10
+    },
+    "Edge AI": {
+      "description": "Edge Computing AI",
+      "max_allocation": 0.10
+    }
+  },
+  "metadata": {
+    "total_stocks": 30,
+    "last_updated": "2026-01-01",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,21 @@
+﻿address,bio_text,clinic_name,collected_at,external_link_url,extracted_person_name,fact_check_confidence,fact_check_status,follower_count,instagram_handle,is_business_account,needs_manual_review,phone_number,postal_code,posts_count,verification_source,verified_address
+,"Connecting over 270,000 dental professionals around the world. 
+For links to all content posted tap below",Dentaltown,2026-01-02T19:06:37.744632,http://sprout.link/dentaltown,,,,14770,dentaltown,True,True,,,3780,,
+東京都渋谷区,\n                〒150-0043 東京都渋谷区道玄坂1-2-3\n                電話: 03-1234-5678\n                院長: 山田太郎\n                一般歯科、小児歯科、矯正歯科\n                平日 9:00-18:00、土曜 9:00-13:00\n            ,サンプル歯科クリニック,2026-01-02T19:52:18.381044,https://sample-dental.example.com,山田太郎,1.00,demo,1500,sample_dental,,false,03-1234-5678,150-0043,,https://sample-dental.example.com,東京都渋谷区
+東京都新宿区,\n                東京スマイル歯科医院\n                審美歯科・ホワイトニング専門\n                〒160-0023 東京都新宿区西新宿2-8-1\n                営業時間: 10:00-20:00\n                院長: 佐藤花子\n            ,東京スマイル歯科医院,2026-01-02T19:52:18.381148,https://tokyo-smile-dental.example.com,佐藤花子,0.95,demo,2800,tokyo_smile_dental,,false,,160-0023,,https://tokyo-smile-dental.example.com,東京都新宿区
+東京都中央区,\n                銀座矯正歯科\n                〒104-0061 東京都中央区銀座5-3-1\n                インビザライン・マウスピース矯正専門\n                院長: 鈴木一郎\n                TEL: 03-3456-7890\n            ,銀座矯正歯科,2026-01-02T19:52:18.381253,https://ginza-ortho.example.com,鈴木一郎,1.00,demo,4200,ginza_orthodontics,,false,03-3456-7890,104-0061,,https://ginza-ortho.example.com,東京都中央区
+神奈川県横浜市,\n                横浜ファミリー歯科\n                お子様からご年配の方まで\n                〒220-0004 神奈川県横浜市西区北幸1-5-10\n                院長: 田中健太\n                予約優先制\n                平日 9:00-17:00\n            ,横浜ファミリー歯科,2026-01-02T19:52:18.381323,https://yokohama-family.example.com,田中健太,0.95,demo,1890,yokohama_family_dental,,false,,220-0004,,https://yokohama-family.example.com,神奈川県横浜市
+東京都渋谷区,\n                渋谷ホワイトニングデンタル\n                当日予約OK\n                〒150-0002 東京都渋谷区渋谷1-1-8\n                ホワイトニング・審美歯科\n            ,渋谷ホワイトニングデンタル,2026-01-02T19:52:18.381385,https://shibuya-whitening.example.com,,0.90,demo,5600,shibuya_whitening,,false,,150-0002,,https://shibuya-whitening.example.com,東京都渋谷区
+,"МЫ ПЕРЕЕХАЛИ НА НОВУЮ СТРАНИЧКУ
+@dentalbeauty.msk
+⠀
+◻️Все виды стоматологических услуг
+◻️Косметология 𝗴𝘂𝗶𝗻𝗼𝘁
+◻️Архитектоника лица 
+⠀",Стоматология & Косметология,2026-01-02T19:56:58.770687,,,,,948,dental_beauty,False,True,,,1,,
+,"Consulta odontológica cámara intraoral 
+Limpieza con ultra sonido 
+Led de foto curado inalámbrico
+Blanqueamiento dental
+Prótesis total
+Prótesis fija",eco dental estetic,2026-01-02T19:57:26.225205,,,,,2,eco_dental,False,True,,,0,,

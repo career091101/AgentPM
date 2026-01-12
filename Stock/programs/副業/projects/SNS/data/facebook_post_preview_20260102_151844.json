@@ -1,0 +1,9 @@
+{
+  "platform": "facebook",
+  "variant": "案2: 衝撃発言型",
+  "original_char_count": 1247,
+  "facebook_char_count": 436,
+  "content": "「Elon Muskは、マジで異次元のエンジニアだ」\n\n$3兆企業NVIDIA CEO Jensen Huangが、Tesla創業者をここまで評価した。\n\n【衝撃の予測】\n・2026年末：Optimus年間100万台生産体制\n・目標価格：$20,000〜$30,000\n・5年以内：工場でヒューマノイドロボット標準化\n・「ロボティクスの10年」が始まる\n\nただし、懐疑派の声も重要だ。\n\niRobot共同創業者Rodney Brooksは辛辣に指摘する。\n「万能アシスタントとしてのヒューマノイドロボットは、純粋なファンタジー思考」\n\n【現実の課題】\n✗ テレオペレーション依存\n✗ 生産遅延（目標5,000台→実績数百台）\n✗ 自律性の限界\n\n経営者として見るべきは「いつ、どの領域で実用化されるか」。\n\nJensen Huangは「工場」と明言した。\nあなたの会社では、5年後の競争環境を想定していますか？\n\n#HumanoidRobot #Tesla #NVIDIA",
+  "test_mode": true,
+  "prepared_at": "2026-01-02T15:18:44.915692"
+}

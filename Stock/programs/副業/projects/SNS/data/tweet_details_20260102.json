@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "processed_at": "2026-01-12T10:44:24.965615",
+    "source_file": "top_10_tweets_20260102.json",
+    "total_tweets_processed": 10,
+    "success_count": 10,
+    "error_count": 0,
+    "mode": "Playwright (real browser)"
+  },
+  "tweet_details": [
+    {
+      "tweet_id": "2006844025702330801",
+      "username": "MAGAVoice",
+      "url": "https://x.com/MAGAVoice/status/2006844025702330801",
+      "engagement_score": 57375,
+      "is_japanese": false,
+      "links": [
+        {
+          "url": "https://oscarkarma.org/",
+          "type": "article",
+          "title": "http://\noscarkarma.org",
+          "domain": "oscarkarma.org"
+        }
+      ],
+      "replies": [
+        {
+          "username": "Donnie_Tesla",
+          "text": "",
+          "likes": 5,
+          "created_at": "2026-01-02T00:49:54.000Z"
+        },
+        {
+          "username": "My Beautiful Destination",
+          "text": "Bravo, another 4 years of weaking of the USA. \nPLEASE fund massively, so that the rest of the world can distance itself more and more, from this ridiculous circus.",
+          "likes": 3,
+          "created_at": "2026-01-02T06:32:14.000Z"
+        },
+        {
+          "username": "MoonPie Joe  ",
+          "text": "Trumpback whale will provide",
+          "likes": 4,
+          "created_at": "2026-01-02T05:48:59.000Z"
+        },
+        {
+          "username": "Leawin ",
+          "text": "loyalty has turned into devotion, check the looks he’s getting from the crowd",
+          "likes": 5,
+          "created_at": "2026-01-02T02:57:54.000Z"
+        },
+        {
+          "username": "Coinvo",
+          "text": "Insane",
+          "likes": 3,
+          "created_at": "2026-01-02T18:11:38.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 6,
+        "has_video": true,
+        "view_count": "2",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006794972515983522",
+      "username": "iam_smx",
+      "url": "https://x.com/iam_smx/status/2006794972515983522",
+      "engagement_score": 9455,
+      "is_japanese": false,
+      "links": [
+        {
+          "url": "https://animestore.docomo.ne.jp/animestore/book/CF/setcomics_202512?utm_medium=tw&utm_source=display&utm_campaign=das-202512-holidayset&utm_content=tg-25-1_gen_b_p&twclid=2-32b3o5f0eo6hyefhx4ucaw5x3",
+          "type": "article",
+          "title": "2025年話題のマンガ全巻50％OFF！",
+          "domain": "animestore.docomo.ne.jp"
+        },
+        {
+          "url": "https://horiemon.ai/side-business/side-x?utm_source=twitter&utm_medium=cpc&utm_campaign=conversion&utm_content=ads5&twclid=2-55sgfz4dvsa388zdc59s4r9k1",
+          "type": "article",
+          "title": "まずは詳細をみる",
+          "domain": "horiemon.ai"
+        }
+      ],
+      "replies": [
+        {
+          "username": "tran cong ly",
+          "text": "For \"yes\" person: try phrases like, \"I appreciate the offer, but I can't commit right now,\" or \"Thanks, but I need to focus on other priorities.\" Be polite yet firm to maintain respect",
+          "likes": 5,
+          "created_at": "2026-01-02T00:33:15.000Z"
+        },
+        {
+          "username": "Semper Gumby",
+          "text": "Very true\nMy favorite quote is:\n' When you say no, you are only saying no to one option. When you say yes, you are saying no to every other option. No is a decision. Yes is a responsibility. Be careful what (and who) you say yes to. It will shape your day, your career, your",
+          "likes": 5,
+          "created_at": "2026-01-02T01:34:45.000Z"
+        },
+        {
+          "username": "Solix Trading",
+          "text": "That bit about every 'No' being a deeper 'Yes' to what matters is so spot on. It’s not about being dismissive; it’s about having a clear enough vision that you're willing to protect it. Thanks for sharing this.",
+          "likes": 3,
+          "created_at": "2026-01-01T19:28:13.000Z"
+        },
+        {
+          "username": "Helena Olejnik",
+          "text": "Our Canadian from Peterborough Ontario. Oh Elon She's the best.",
+          "likes": 3,
+          "created_at": "2026-01-01T19:54:46.000Z"
+        },
+        {
+          "username": "Bob's Listless Vessel of Deplorable TACOS//SCI™",
+          "text": "\"Always set boundaries, but never justify them. Just say 'no'. You might see justification as communication and fairness, but they see justification as an opening for negotiation and leverage.\"\n\n-- Taco Bob",
+          "likes": 5,
+          "created_at": "2026-01-02T00:18:12.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": false,
+        "media_count": 0,
+        "has_video": false,
+        "view_count": "",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006676783991787563",
+      "username": "cb_doge",
+      "url": "https://x.com/cb_doge/status/2006676783991787563",
+      "engagement_score": 7479,
+      "is_japanese": false,
+      "links": [
+        {
+          "url": "https://grok.com/imagine/post/d5899cac-0a80-412a-9aa1-dc92e7a9566b",
+          "type": "article",
+          "title": "Grokでオリジナルバージョンを作成",
+          "domain": "grok.com"
+        },
+        {
+          "url": "https://help.x.com/rules-and-policies/authenticity",
+          "type": "article",
+          "title": "パロディアカウント",
+          "domain": "help.x.com"
+        },
+        {
+          "url": "https://grok.com/imagine/post/f938fc49-1e32-4511-902b-96f10793762d",
+          "type": "article",
+          "title": "Grokでオリジナルバージョンを作成",
+          "domain": "grok.com"
+        }
+      ],
+      "replies": [
+        {
+          "username": "Wassi",
+          "text": "Okay",
+          "likes": 1,
+          "created_at": "2026-01-01T19:13:15.000Z"
+        },
+        {
+          "username": "Himanshu Kumar",
+          "text": "DogeDesigner observes Elon Musk builds computers; future plans solidify.",
+          "likes": 1,
+          "created_at": "2026-01-01T18:15:59.000Z"
+        },
+        {
+          "username": "Mo",
+          "text": "@AOC\n, a career politician who’s built nothing, risked nothing, and achieved nothing, says \n@elonmusk\n isn’t an engineer, but a conman with money. Bold words from the frontwoman of an organized political cartel cosplaying as a party while actively conning Americans. Imagine that.",
+          "likes": 121,
+          "created_at": "2026-01-01T10:49:44.000Z"
+        },
+        {
+          "username": "3ddy",
+          "text": "He's absolutely right in what he says",
+          "likes": 0,
+          "created_at": "2026-01-02T00:56:12.000Z"
+        },
+        {
+          "username": "Dee(❖,❖) Noya",
+          "text": "Smart and well educated that's Elon himself",
+          "likes": 0,
+          "created_at": "2026-01-02T20:58:08.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 7,
+        "has_video": true,
+        "view_count": "",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006666568302998015",
+      "username": "prscustom24apna",
+      "url": "https://x.com/prscustom24apna/status/2006666568302998015",
+      "engagement_score": 4680,
+      "is_japanese": true,
+      "links": [
+        {
+          "url": "https://shop.neolab.one/products/sleepia?twclid=25awct84avx4bu8hmsd1roepni",
+          "type": "article",
+          "title": "入眠を30％短縮する、Sleepiaサングラス",
+          "domain": "shop.neolab.one"
+        }
+      ],
+      "replies": [
+        {
+          "username": "田中＠株式研究",
+          "text": "",
+          "likes": 3,
+          "created_at": "2026-01-02T02:13:37.000Z"
+        },
+        {
+          "username": "スギナ",
+          "text": "ノルウェー政府が大株主の一つになることで、古河電工への市場の信頼感が高まりますね。",
+          "likes": 2,
+          "created_at": "2026-01-02T17:30:55.000Z"
+        },
+        {
+          "username": "ざーぼん",
+          "text": "ちなみに日揮もノルウェー政府が数%保有してます。\nなお、株価はそれほどでも…",
+          "likes": 2,
+          "created_at": "2026-01-02T13:36:47.000Z"
+        },
+        {
+          "username": "a_nThreeFlow",
+          "text": "ノルウェーの妖精さんは去るのも早いですよ。\n外から失礼しました。",
+          "likes": 2,
+          "created_at": "2026-01-02T08:32:25.000Z"
+        },
+        {
+          "username": "りんか",
+          "text": "確かに、ノルウェー政府が大株主になるという話は興味深いですね！これが安定性や長期的な戦略的成長をもたらすかもしれません",
+          "likes": 2,
+          "created_at": "2026-01-02T16:10:02.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": false,
+        "media_count": 0,
+        "has_video": false,
+        "view_count": "1",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006606313392886251",
+      "username": "Oc4Um",
+      "url": "https://x.com/Oc4Um/status/2006606313392886251",
+      "engagement_score": 1826,
+      "is_japanese": true,
+      "links": [],
+      "replies": [
+        {
+          "username": "23130821",
+          "text": "AIに書かせてるのバレバレですよ",
+          "likes": 3,
+          "created_at": "2026-01-01T10:27:34.000Z"
+        },
+        {
+          "username": "あ",
+          "text": "まだ消さないんですか？",
+          "likes": 1,
+          "created_at": "2026-01-01T08:39:42.000Z"
+        },
+        {
+          "username": "やよいさん",
+          "text": "貰ったメモ？？？？笑\nAIじゃん",
+          "likes": 1,
+          "created_at": "2026-01-01T12:41:30.000Z"
+        },
+        {
+          "username": "株ゴリラ",
+          "text": "AIに取られない資格ランキング\n【令和8年　最新版】\n\nSS     力士\nS+　 宇宙飛行士・地面師・相場士\nS　　医師・公認会計士・弁護士\nAAA  税理士・中小企業診断士・司法書士\nAA　行政書士・棋士\nA　　宅建士・USCPA\nB　　第二種電気工事士\nC　　FP1級・ITパスポート\nD 　   FP2級・簿記1級",
+          "likes": 23771,
+          "created_at": "2026-01-11T12:04:57.000Z"
+        },
+        {
+          "username": "あめ",
+          "text": "最近見たYouTubeで、勝間和代さんが「365日使う物には2倍まで払っても良いことにしている」と言っていて、勉強になった！\nこれまでも、使う頻度が高い物は、お金をかける、上質なものを選ぶ、というのは意識してきたけど、具体的な頻度や金額が曖昧だったから、この基準でやってみようと思った。",
+          "likes": 8946,
+          "created_at": "2026-01-11T12:37:34.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 5,
+        "has_video": false,
+        "view_count": "32.7万",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006683955190497543",
+      "username": "argos_M1111",
+      "url": "https://x.com/argos_M1111/status/2006683955190497543",
+      "engagement_score": 1358,
+      "is_japanese": true,
+      "links": [
+        {
+          "url": "https://appleshinja.com/us-jis-hikaku",
+          "type": "article",
+          "title": "【Mac】どっちがおすすめ？US or JISキーボード７つの違いとは？",
+          "domain": "appleshinja.com"
+        },
+        {
+          "url": "https://auctions.yahoo.co.jp/jp/auction/1158097729",
+          "type": "article",
+          "title": "Content from auctions.yahoo.co.jp",
+          "domain": "auctions.yahoo.co.jp"
+        }
+      ],
+      "replies": [
+        {
+          "username": "あるごす",
+          "text": "おじさんがUS配列選ぶのは手癖もあるしまあ、と思うけどねえ",
+          "likes": 4,
+          "created_at": "2026-01-01T11:12:10.000Z"
+        },
+        {
+          "username": "tairan",
+          "text": "慣れなのでどちらでもいいとは思うのですが、10年以上US配列を使っている身としてはキーボードの中央付近から左右に均等になっているUS配列の方が打ちやすいと感じてしまいます",
+          "likes": 34,
+          "created_at": "2026-01-02T06:05:33.000Z"
+        },
+        {
+          "username": "マダカヘリボカロP",
+          "text": "いや、単純に色んなソフトのショートカットがUS向けに作られてるから合理的な配置になってて、JISは記号の位置が違うからヘンテコなショートカットに慣れないといけない。\n[]とかもUSだと左右に並んでるけどJISは縦に並んでます。\n結局どっちも慣れの問題ですが、USの方がしっくりきます。",
+          "likes": 39,
+          "created_at": "2026-01-01T18:48:19.000Z"
+        },
+        {
+          "username": "金井康訓",
+          "text": "JIS配列は、配列中央がずれてるので、トラックパッドとホームポジションの位置関係がおかしくなるから",
+          "likes": 23,
+          "created_at": "2026-01-01T22:01:00.000Z"
+        },
+        {
+          "username": "ozawako1",
+          "text": ";などプログラミングで使いがちな記号は、（macでなくても）US配列の方が打ちやすくないですか？\n\nプログラマーでない場合、「キーボードのカナ文字刻印がダサい」と、美意識の高い笑 macユーザー好みなんでしょう。",
+          "likes": 10,
+          "created_at": "2026-01-02T00:15:12.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 1,
+        "has_video": false,
+        "view_count": "1",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006663806278152565",
+      "username": "cozeblog",
+      "url": "https://x.com/cozeblog/status/2006663806278152565",
+      "engagement_score": 1318,
+      "is_japanese": true,
+      "links": [],
+      "replies": [
+        {
+          "username": "ゆるり",
+          "text": "人生がつまらないと感じたら東大卒業生の名文を読めば5倍気持ちが楽になります",
+          "likes": 20827,
+          "created_at": "2026-01-11T08:00:01.000Z"
+        },
+        {
+          "username": "ただひろ思考の片づけ専門コーチ",
+          "text": "行動できない一番の理由は、自分の人生に対して「観客」になってるから。\n\nポップコーン食べながら「いつか面白い展開にならないかな」ってスクリーンを眺めてても、脚本家なんて現れない。\n\n人生の主導権を取り戻すって、客席から立ち上がることです。\n\nアドリブでいい。",
+          "likes": 4444,
+          "created_at": "2026-01-10T22:32:05.000Z"
+        },
+        {
+          "username": "ゴルウパ",
+          "text": "生活が荒れてきた人へ。\n\n研究で明らかになった\n生活が荒れる習慣20選\n\n① 睡眠時間が不規則（ハーバード大学）\n② 朝起きてすぐスマホを見る（スタンフォード大学）\n③ 食事の時間が毎日バラバラ（コロンビア大学）\n④ コンビニ・外食中心の生活（アメリカ栄養学会）\n⑤",
+          "likes": 3319,
+          "created_at": "2026-01-10T21:00:00.000Z"
+        },
+        {
+          "username": "あめ",
+          "text": "最近見たYouTubeで、勝間和代さんが「365日使う物には2倍まで払っても良いことにしている」と言っていて、勉強になった！\nこれまでも、使う頻度が高い物は、お金をかける、上質なものを選ぶ、というのは意識してきたけど、具体的な頻度や金額が曖昧だったから、この基準でやってみようと思った。",
+          "likes": 8953,
+          "created_at": "2026-01-11T12:37:34.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 3,
+        "has_video": false,
+        "view_count": "8.7万",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006709253453783168",
+      "username": "yukimamax",
+      "url": "https://x.com/yukimamax/status/2006709253453783168",
+      "engagement_score": 1143,
+      "is_japanese": true,
+      "links": [],
+      "replies": [
+        {
+          "username": "lantastic79",
+          "text": "（全部岐阜さんじゃ）",
+          "likes": 2,
+          "created_at": "2026-01-01T12:52:22.000Z"
+        },
+        {
+          "username": "井上たまる",
+          "text": "岐阜さんには響かないんだね",
+          "likes": 2,
+          "created_at": "2026-01-01T23:40:15.000Z"
+        },
+        {
+          "username": "ノアのゆっくり投資コツコツ投資家",
+          "text": "パウロさんのnote買ってきました",
+          "likes": 1,
+          "created_at": "2026-01-01T13:02:20.000Z"
+        },
+        {
+          "username": "セルジオ・K・ゴリラ",
+          "text": "ママのブログやpostにも価値あるよ。ことよろ。",
+          "likes": 0,
+          "created_at": "2026-01-01T12:56:36.000Z"
+        },
+        {
+          "username": "ゆきママ",
+          "text": "一番の地獄、たぶんこれ\n\n【連休明け火曜日の日経平均】\n\n 前場：+2,000円 \n「うおおおお！大正義自民党大勝利確定！ご祝儀買いだあああ！」 \n↓\n 昼休み「レバ全力！売り豚丸焼きｗｗｗ」\n↓\n 後場：高市総理「解散？しません…」\n↓\n大引け：高値から▲5,000円で5万円割れコース",
+          "likes": 630,
+          "created_at": "2026-01-11T14:16:21.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 3,
+        "has_video": false,
+        "view_count": "",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006645454810001487",
+      "username": "pirania0630",
+      "url": "https://x.com/pirania0630/status/2006645454810001487",
+      "engagement_score": 995,
+      "is_japanese": true,
+      "links": [],
+      "replies": [
+        {
+          "username": "puzzlefish",
+          "text": "そうですね、今年の相場は為替介入実施まではある程度の余力確保は必須かなと",
+          "likes": 3,
+          "created_at": "2026-01-01T13:16:50.000Z"
+        },
+        {
+          "username": "hey",
+          "text": "あけましておめでとうございます！こんな固有名詞上げてお互いの企業を勧めるのあるんですね、知らなかったです。勉強になります。また今年もよろしくお願いします！",
+          "likes": 0,
+          "created_at": "2026-01-02T06:45:39.000Z"
+        },
+        {
+          "username": "puzzlefish",
+          "text": "あけましておめでとうございます、今年もよろしくお願いします\n自画自賛してる企業が無いのがせめてもの救いですね",
+          "likes": 1,
+          "created_at": "2026-01-03T09:48:29.000Z"
+        },
+        {
+          "username": "佐藤健一｜退職済",
+          "text": "とても冷静な相場観だと思います。\n高値更新そのものよりも、どの需給で更新するかが本質ですね。\n為替に引っ張られた上昇は脆い。\n信用が一度きれいに整理された後の高値こそ、意味がある。\n\n2026年は「上がるか」ではなく、\n 上がる前に、どれだけ落とせるかを見る年だと思います。",
+          "likes": 2,
+          "created_at": "2026-01-01T12:34:21.000Z"
+        },
+        {
+          "username": "そーめん",
+          "text": "2026年は円高ドル安が進行するとみてますか？",
+          "likes": 1,
+          "created_at": "2026-01-01T12:06:45.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": true,
+        "media_count": 2,
+        "has_video": false,
+        "view_count": "1",
+        "is_thread": false
+      }
+    },
+    {
+      "tweet_id": "2006763630138966389",
+      "username": "JapanTank",
+      "url": "https://x.com/JapanTank/status/2006763630138966389",
+      "engagement_score": 952,
+      "is_japanese": true,
+      "links": [],
+      "replies": [
+        {
+          "username": "みみりん投資系女子",
+          "text": "ゆな先生絶対女医じゃないだろ",
+          "likes": 7,
+          "created_at": "2026-01-02T01:11:47.000Z"
+        },
+        {
+          "username": "おののき＠意識を低く持て！",
+          "text": "LLMの凄いのは、報酬システムよね\nそこら中のテキストをかき集めて投入\nLLM「この文脈なら次の言葉はこれやろ？」\n当たったら報酬。\n全ての文章のすべての単語が報酬対象に出来る、\nわざわざ教師データや評価関数を作る必要はない、\nなのに「言語と知識記述」がばっちり学習される",
+          "likes": 5,
+          "created_at": "2026-01-01T19:59:51.000Z"
+        },
+        {
+          "username": "forin",
+          "text": "その通りで、この辺りの仕組みを変えずにRAGを銀の弾丸のように扱う企業や自治体が多すぎや。",
+          "likes": 5,
+          "created_at": "2026-01-02T00:48:08.000Z"
+        },
+        {
+          "username": "ドレアム米国株投資",
+          "text": "RAGを現場で構築してる身としては共感します（本当に医者ですか？笑）\nIT部門ではなく、現場側にデジタルと業務が分かる架け橋的な人材を置くというのが大事と思ってます。",
+          "likes": 4,
+          "created_at": "2026-01-02T16:45:44.000Z"
+        },
+        {
+          "username": "どらたんわん",
+          "text": "ゆな先生の考え方って、システム部門のおっさんの考え方にみえるんだよなあ。",
+          "likes": 4,
+          "created_at": "2026-01-02T01:07:11.000Z"
+        }
+      ],
+      "metadata": {
+        "has_media": false,
+        "media_count": 0,
+        "has_video": false,
+        "view_count": "",
+        "is_thread": false
+      }
+    }
+  ],
+  "errors": []
+}

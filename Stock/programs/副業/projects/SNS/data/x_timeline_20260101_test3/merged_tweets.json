@@ -1,0 +1,110 @@
+{
+  "collected_at": "2026-01-01T21:19:08.012482",
+  "total_tweets": 8,
+  "tweets": [
+    {
+      "tweet_id": "2006498218251808776",
+      "username": "elonmusk",
+      "text": "",
+      "likes": 25264,
+      "retweets": 2556,
+      "replies": 1180,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:17:26.552814",
+      "engagement_score": 38832,
+      "impressions_estimated": 1450000,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006669611627065807",
+      "username": "tweet_tokyo_web",
+      "text": "SONYの「プレイステーション」の心臓部を開発してきた半導体技術者たちが集結！ AI半導体で1強の「NVIDIA」に挑む日本のスタートアップ企業「LENZO」が開発するAI半導体「CGLA」は、NVI",
+      "likes": 1580,
+      "retweets": 392,
+      "replies": 29,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:15:45.055826",
+      "engagement_score": 2901,
+      "impressions_estimated": 100050,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006672688073597415",
+      "username": "ns123abc",
+      "text": "HOLYSHIT Deepseek made a fundamental architecture innovation in the transformer CEO Wenfeng Liang ..",
+      "likes": 239,
+      "retweets": 11,
+      "replies": 13,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:17:26.552982",
+      "engagement_score": 337,
+      "impressions_estimated": 13150,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006671323368759664",
+      "username": "sikeda23",
+      "text": "大手テック株の年間騰落率 ＊参考：S&P500、NASDAQ100",
+      "likes": 125,
+      "retweets": 34,
+      "replies": 2,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:17:26.552639",
+      "engagement_score": 237,
+      "impressions_estimated": 8050,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006682155670208664",
+      "username": "nikkei",
+      "text": "「鉛から金」現代の錬金術成功 CERN加速器実験、大量合成は困難",
+      "likes": 93,
+      "retweets": 30,
+      "replies": 3,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:17:26.552896",
+      "engagement_score": 198,
+      "impressions_estimated": 6300,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006374187729125767",
+      "username": "syossan27",
+      "text": "Obsidianでのタスク管理模索してたんだけどこの考え方すごくいいなぁ。 来年からはこれでいこう。 TaskMD Shelf - 積極的棚上げを由とする怠惰なタスク管理 | おそらくはそれさえも平.",
+      "likes": 164,
+      "retweets": 8,
+      "replies": 1,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:18:52.049779",
+      "engagement_score": 193,
+      "impressions_estimated": 8650,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006668809055379938",
+      "username": "Money_tweet1118",
+      "text": "米銀行の流動性、銀、金利、AIバブル、この辺は常に敏感になっておかないと、突然牙をむきはじめそうで怖いわ。さっきのRTもこの話だけども(´・ω・｀) 速報",
+      "likes": 38,
+      "retweets": 4,
+      "replies": 0,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:15:45.055929",
+      "engagement_score": 50,
+      "impressions_estimated": 2100,
+      "engagement_rate": 0.02
+    },
+    {
+      "tweet_id": "2006459151510286552",
+      "username": "tommy_love123",
+      "text": "これって、段々、笑えなくなってきている。 実質、開発の仕事のほとんどが、こんな感じになっていると思う。",
+      "likes": 12,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "",
+      "collected_at": "2026-01-01T21:17:26.552729",
+      "engagement_score": 12,
+      "impressions_estimated": 600,
+      "engagement_rate": 0.02
+    }
+  ]
+}

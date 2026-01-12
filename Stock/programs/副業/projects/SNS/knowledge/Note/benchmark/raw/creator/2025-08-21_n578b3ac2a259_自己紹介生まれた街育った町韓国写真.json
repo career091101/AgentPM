@@ -1,0 +1,62 @@
+{
+  "id": "n578b3ac2a259",
+  "title": "自己紹介（♩）生まれた街｜育った町｜韓国｜写真",
+  "url": "https://note.com/golddust/n/n578b3ac2a259",
+  "author": "もえぎ",
+  "author_id": "golddust",
+  "published_at": "2025-08-21T01:34:30+09:00",
+  "like_count": 20,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "golddust",
+  "genre": "creator",
+  "content": {
+    "word_count": 920,
+    "heading_count": 6,
+    "hashtags": [
+      "#自己紹介",
+      "#写真",
+      "#韓国",
+      "#福岡",
+      "#長崎"
+    ]
+  },
+  "quality": {
+    "score": 60,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 920,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 5,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 15,
+        "count": 20,
+        "status": "moderate"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 6,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 1,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:00"
+}

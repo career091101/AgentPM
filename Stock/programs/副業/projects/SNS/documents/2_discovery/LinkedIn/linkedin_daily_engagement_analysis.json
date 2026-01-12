@@ -1,0 +1,287 @@
+{
+  "data_source": "linkedin_エンゲージメント.csv（日次データ）",
+  "overall_stats": {
+    "total_days": 89,
+    "date_range": {
+      "start": "2025-09-23",
+      "end": "2025-12-21"
+    },
+    "total_impressions": 474921,
+    "total_engagements": 4823,
+    "overall_er": 1.02,
+    "daily_avg": {
+      "impressions": 5336.2,
+      "engagements": 54.2,
+      "er": 1.2
+    },
+    "daily_median": {
+      "impressions": 4294,
+      "engagements": 52,
+      "er": 1.04
+    },
+    "er_range": {
+      "min": 0.21,
+      "max": 3.2
+    }
+  },
+  "monthly_trends": {
+    "2025-09": {
+      "days": 8,
+      "total_impressions": 33207,
+      "avg_impressions": 4150.9,
+      "total_engagements": 231,
+      "avg_engagements": 28.9,
+      "avg_er": 0.75
+    },
+    "2025-10": {
+      "days": 31,
+      "total_impressions": 220206,
+      "avg_impressions": 7103.4,
+      "total_engagements": 2051,
+      "avg_engagements": 66.2,
+      "avg_er": 1.05
+    },
+    "2025-11": {
+      "days": 29,
+      "total_impressions": 168333,
+      "avg_impressions": 5804.6,
+      "total_engagements": 1501,
+      "avg_engagements": 51.8,
+      "avg_er": 0.98
+    },
+    "2025-12": {
+      "days": 21,
+      "total_impressions": 53175,
+      "avg_impressions": 2532.1,
+      "total_engagements": 1040,
+      "avg_engagements": 49.5,
+      "avg_er": 1.89
+    }
+  },
+  "weekday_patterns": {
+    "Monday": {
+      "days_count": 12,
+      "avg_impressions": 5672.8,
+      "avg_engagements": 59.8,
+      "avg_er": 1.18
+    },
+    "Tuesday": {
+      "days_count": 13,
+      "avg_impressions": 5688.6,
+      "avg_engagements": 49.8,
+      "avg_er": 1.09
+    },
+    "Wednesday": {
+      "days_count": 13,
+      "avg_impressions": 5103.8,
+      "avg_engagements": 52.5,
+      "avg_er": 1.23
+    },
+    "Thursday": {
+      "days_count": 13,
+      "avg_impressions": 4785.2,
+      "avg_engagements": 47.6,
+      "avg_er": 1.09
+    },
+    "Friday": {
+      "days_count": 13,
+      "avg_impressions": 5990.5,
+      "avg_engagements": 50.8,
+      "avg_er": 1.13
+    },
+    "Saturday": {
+      "days_count": 13,
+      "avg_impressions": 5281.5,
+      "avg_engagements": 59.6,
+      "avg_er": 1.28
+    },
+    "Sunday": {
+      "days_count": 12,
+      "avg_impressions": 4816.8,
+      "avg_engagements": 60.1,
+      "avg_er": 1.4
+    }
+  },
+  "top_bottom_comparison": {
+    "top_10": {
+      "avg_er": 2.53,
+      "avg_impressions": 2561.8,
+      "avg_engagements": 66.0,
+      "dates": [
+        {
+          "date": "2025-12-07",
+          "er_pct": 3.2,
+          "impressions": 3751,
+          "engagements": 120
+        },
+        {
+          "date": "2025-12-06",
+          "er_pct": 2.94,
+          "impressions": 2889,
+          "engagements": 85
+        },
+        {
+          "date": "2025-10-01",
+          "er_pct": 2.74,
+          "impressions": 2521,
+          "engagements": 69
+        },
+        {
+          "date": "2025-12-11",
+          "er_pct": 2.7,
+          "impressions": 2407,
+          "engagements": 65
+        },
+        {
+          "date": "2025-12-13",
+          "er_pct": 2.58,
+          "impressions": 2633,
+          "engagements": 68
+        },
+        {
+          "date": "2025-12-14",
+          "er_pct": 2.34,
+          "impressions": 2051,
+          "engagements": 48
+        },
+        {
+          "date": "2025-12-05",
+          "er_pct": 2.25,
+          "impressions": 2048,
+          "engagements": 46
+        },
+        {
+          "date": "2025-12-10",
+          "er_pct": 2.2,
+          "impressions": 2676,
+          "engagements": 59
+        },
+        {
+          "date": "2025-12-02",
+          "er_pct": 2.17,
+          "impressions": 2303,
+          "engagements": 50
+        },
+        {
+          "date": "2025-12-01",
+          "er_pct": 2.14,
+          "impressions": 2339,
+          "engagements": 50
+        }
+      ]
+    },
+    "bottom_10": {
+      "avg_er": 0.5,
+      "avg_impressions": 9277.1,
+      "avg_engagements": 49.6,
+      "dates": [
+        {
+          "date": "2025-11-29",
+          "er_pct": 0.21,
+          "impressions": 1455,
+          "engagements": 3
+        },
+        {
+          "date": "2025-09-26",
+          "er_pct": 0.42,
+          "impressions": 5471,
+          "engagements": 23
+        },
+        {
+          "date": "2025-11-04",
+          "er_pct": 0.47,
+          "impressions": 21649,
+          "engagements": 101
+        },
+        {
+          "date": "2025-09-30",
+          "er_pct": 0.49,
+          "impressions": 2027,
+          "engagements": 10
+        },
+        {
+          "date": "2025-09-28",
+          "er_pct": 0.5,
+          "impressions": 2789,
+          "engagements": 14
+        },
+        {
+          "date": "2025-10-24",
+          "er_pct": 0.56,
+          "impressions": 22783,
+          "engagements": 127
+        },
+        {
+          "date": "2025-09-24",
+          "er_pct": 0.57,
+          "impressions": 6974,
+          "engagements": 40
+        },
+        {
+          "date": "2025-10-29",
+          "er_pct": 0.58,
+          "impressions": 5325,
+          "engagements": 31
+        },
+        {
+          "date": "2025-10-10",
+          "er_pct": 0.6,
+          "impressions": 14013,
+          "engagements": 84
+        },
+        {
+          "date": "2025-10-28",
+          "er_pct": 0.61,
+          "impressions": 10285,
+          "engagements": 63
+        }
+      ]
+    }
+  },
+  "imp_er_correlation": {
+    "high_impressions_days": {
+      "count": 44,
+      "avg_impressions": 7877.7,
+      "avg_er": 0.92
+    },
+    "low_impressions_days": {
+      "count": 45,
+      "avg_impressions": 2851.2,
+      "avg_er": 1.47
+    }
+  },
+  "er_distribution": {
+    "under_1pct": 42,
+    "1_2pct": 37,
+    "2_3pct": 9,
+    "3_4pct": 1,
+    "4_5pct": 0,
+    "5_6pct": 0,
+    "over_6pct": 0
+  },
+  "december_analysis": {
+    "december": {
+      "days": 21,
+      "avg_er": 1.89,
+      "avg_impressions": 2532.1,
+      "total_impressions": 53175
+    },
+    "november": {
+      "days": 29,
+      "avg_er": 0.98,
+      "avg_impressions": 5804.6,
+      "total_impressions": 168333
+    },
+    "october": {
+      "days": 31,
+      "avg_er": 1.05,
+      "avg_impressions": 7103.4,
+      "total_impressions": 220206
+    }
+  },
+  "benchmark_takano": {
+    "er_range": "4-6%",
+    "user_overall_er": 1.02,
+    "gap": -3.98
+  }
+}

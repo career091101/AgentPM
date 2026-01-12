@@ -1,0 +1,265 @@
+---
+# ideal_partner_matching プロジェクトインデックス
+# Stock移行日: 2025-12-31
+# Phase 2スコア: 77.1% (review_queue)
+
+project:
+  name: ideal_partner_matching
+  title: 理想のパートナーマッチング
+  tagline: "真剣な出会いを、6ヶ月で実現"
+  description: AI婚活コーチ × 真剣度スコアリングで本物のパートナーに出会うプラットフォーム
+
+  dates:
+    created: 2025-12-28
+    phase1_completed: 2025-12-28
+    stock_migrated: 2025-12-31
+
+  status:
+    phase: Phase1 Complete
+    next_milestone: "LP実装・公開、メール登録1,000件獲得"
+
+  scores:
+    cpf_score: 75%  # Customer Problem Fit
+    psf_axes: 3     # 10x優位性達成軸数（時間20倍、使いやすさ30倍、導入障壁5倍）
+    phase1_scorecard: 37/40  # 92%
+    phase2_completeness: 77.1%  # 3層マーカーシステム評価
+
+  classification:
+    phase2_status: review_queue
+    auto_migrate_files: 10
+    review_queue_files: 1
+    skip_files: 0
+
+# ドキュメント構造
+documents:
+  1_initiating:
+    - name: demand_discovery.md
+      title: 需要発見レポート
+      score: 90/100
+      pmbok_phase: Phase 1 - Initiating
+      key_points:
+        - 真剣交際プラットフォーム需要スコア18/20
+        - 日本語圏・英語圏の生ログ多数引用
+        - 5つの需要候補を詳細分析
+
+  2_discovery:
+    - name: lean_canvas.md
+      title: リーンキャンバス
+      score: 88/100
+      pmbok_phase: Phase 2 - Discovery
+      key_points:
+        - 9ブロック全て完備
+        - 収益予測Year 3: ARR 3.3億円
+        - TAM 1,080億円、SAM 300億円
+
+    - name: flywheel.md
+      title: 成長フライホイール設計
+      score: 85/100
+      pmbok_phase: Phase 2 - Discovery
+      key_points:
+        - フライホイールスコア95/100
+        - ネットワーク効果、データのネットワーク効果、ブランド効果
+        - 6ステージ詳細設計
+
+    - name: problem_research.md
+      title: 課題リサーチ報告
+      score: 88/100
+      pmbok_phase: Phase 2 - Discovery
+      key_points:
+        - 5軸評価43/50点
+        - 切実度9/10、頻度10/10
+        - 日本語圏7件、英語圏5件の出典
+
+    - name: interview_simulation.md
+      title: 仮想ペルソナインタビュー
+      score: 80/100
+      pmbok_phase: Phase 2 - Discovery
+      key_points:
+        - 3Uスコア13/15（87%）
+        - UVP刺さり度32.5/40
+        - WTP平均8.5/10
+
+    - name: 10x_validation.md
+      title: 10倍優位性検証レポート
+      score: 85/100
+      pmbok_phase: Phase 2 - Discovery
+      key_points:
+        - 10倍達成3軸/5軸
+        - 時間効率20倍、使いやすさ30倍、導入障壁5倍
+        - PSF達成
+
+  3_planning:
+    - name: mvv.md
+      title: MVV（Mission/Vision/Values）
+      score: 85/100
+      pmbok_phase: Phase 3 - Planning
+      key_points:
+        - Mission/Vision/Values明確
+        - 2030年目標: 10万組のカップル
+        - 5つのValues（Authenticity, Empowerment, Respect, Innovation, Commitment）
+
+    - name: cpf_diagnosis.md
+      title: CPF診断レポート
+      score: 88/100
+      pmbok_phase: Phase 3 - Planning
+      key_points:
+        - CPFスコア75%
+        - ステージゲート1通過
+        - 5項目評価詳細
+
+  5_monitoring:
+    - name: scorecard.md
+      title: スタートアップ・スコアカード
+      score: 90/100
+      pmbok_phase: Phase 5 - Monitoring
+      key_points:
+        - 総合スコア37/40（92%）
+        - 4視点評価（Financial 9/10, Customer 10/10, Internal Process 9/10, Learning & Growth 9/10）
+        - Phase1完了判定
+
+# MVP成果物
+mvp:
+  lp:
+    - name: README.md
+      title: ランディングページ設計書
+      score: 84/100
+      key_points:
+        - 7セクション構成完備
+        - KPI設定（訪問10,000人、登録1,000件、CVR 10%）
+        - A/Bテスト計画
+
+  sns_contents:
+    - name: posts.md
+      title: SNSコンテンツ投稿案
+      score: 78/100
+      classification: review_queue
+      key_points:
+        - X投稿3パターン、LinkedIn投稿1パターン
+        - ハッシュタグ戦略完備
+        - 投稿スケジュール（フェーズ1-3）
+
+# サマリードキュメント
+summary:
+  - name: phase1_summary.md
+    title: Phase1実行サマリー
+    score: 87/100
+    key_points:
+      - 全11ステップの成果詳細
+      - CPF 75%、PSF 3軸達成
+      - Phase2への推奨アクション明記
+
+# 主要な成果
+key_achievements:
+  cpf:
+    score: 75%
+    status: passed
+    details: "3U検証13/15、UVP刺さり度32.5/40、支払い意欲8.5/10"
+
+  psf:
+    axes_achieved: 3
+    status: passed
+    details:
+      - "時間効率: 20倍（100時間 → 5時間）"
+      - "使いやすさ: 30倍（30日 → 1日）"
+      - "導入障壁: 5倍（10ステップ → 2ステップ）"
+
+  uvp:
+    primary: "真剣度 × AI成長支援で、本物の出会いを6ヶ月で実現"
+    components:
+      - 真剣度スコアリング（独自アルゴリズム）
+      - AI婚活コーチ24時間常駐
+      - 価値観マッチング（条件ではなく価値観）
+
+  market:
+    tam: "1,080億円"
+    sam: "300億円"
+    target_users: "30-40代、真剣交際希望者、都市圏、テクノロジーリテラシー高い"
+
+# ビジネスモデル
+business_model:
+  revenue_model: "月額サブスクリプション"
+  pricing:
+    basic: "¥3,980/月"
+    premium: "¥7,980/月"
+
+  projections:
+    year1:
+      users: 5000
+      arr: "¥30M"
+    year3:
+      users: 50000
+      arr: "¥330M"
+
+  unit_economics:
+    ltv: "¥33,000"  # 6ヶ月 x ¥5,500/月
+    cpa: "¥3,000"
+    ltv_cpa_ratio: 11
+
+# 次のステップ（Phase2）
+next_steps:
+  priority_1:
+    - action: "LP実装・公開"
+      timeline: "3-5日"
+
+    - action: "SNS広告開始"
+      timeline: "即時"
+
+    - action: "メール登録1,000件獲得"
+      timeline: "3ヶ月"
+
+  priority_2:
+    - action: "ベータ版開発"
+      timeline: "6ヶ月"
+      components:
+        - 真剣度スコアリングアルゴリズム
+        - AI婚活コーチ（LLMベース）
+        - 価値観マッチングエンジン
+
+  priority_3:
+    - action: "PMF検証"
+      timeline: "6-12ヶ月"
+      kpis:
+        - "リテンション率40%以上"
+        - "NPS 60以上"
+        - "真剣交際移行率30%"
+
+# 改善余地（Phase2で対応）
+improvement_areas:
+  - area: "実際のユーザーインタビュー"
+    current: "仮想インタビューのみ"
+    target: "10-20人の実際のインタビュー実施"
+    impact: "interview_simulation.md 80点 → 90点"
+
+  - area: "SNS投稿実績"
+    current: "投稿案のみ"
+    target: "実際の投稿実績を追記"
+    impact: "sns_contents/posts.md 78点 → 85点"
+
+  - area: "LP実装"
+    current: "設計書のみ"
+    target: "HTML/CSS/JS実装完了"
+    impact: "lp/README.md 84点 → 90点"
+
+  - area: "YAML frontmatter追加"
+    current: "全ファイル未実装"
+    target: "全ファイルにYAML frontmatter追加"
+    impact: "検索性向上、メタデータ管理"
+
+# Stock移行ステータス
+migration:
+  status: completed
+  date: 2025-12-31
+  total_files: 12
+  migrated_files: 12
+  migration_path: "Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/ideal_partner_matching/"
+
+  files_by_classification:
+    auto_migrate: 10
+    review_queue: 1
+    skip: 0
+
+# 参照
+references:
+  phase2_report: "/Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-31/phase2_ideal_partner_scores.yaml"
+  flow_source: "/Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-28/ideal_partner_matching/"
+  stock_destination: "/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/ideal_partner_matching/"

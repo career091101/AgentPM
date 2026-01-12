@@ -1,0 +1,35 @@
+file,name,id,status,references_added,references
+case_studies/blake_anderson/sns_analysis.md,blake anderson,unknown,UPDATED,2,../01_App/case_studies/024_blake_anderson.md; ../01_App/case_studies/021_zach_yadegari.md
+case_studies/brock/sns_analysis.md,brock,unknown,UPDATED,4,../01_App/case_studies/005_brock_anderson.md; ../01_App/case_studies/016_success_patterns.md; ../01_App/case_studies/118_kelechi_onyeama.md; ../01_App/case_studies/ai_famous_006_greg_brockman.md
+case_studies/catnose99/sns_analysis.md,catnose99,unknown,NO_REFS,0,
+case_studies/chase_jarvis/sns_analysis.md,chase jarvis,unknown,NO_REFS,0,
+case_studies/chris_do/sns_analysis.md,chris do,unknown,NO_REFS,0,
+case_studies/chris_williamson/sns_analysis.md,chris williamson,unknown,NO_REFS,0,
+case_studies/codie_sanchez/sns_analysis.md,codie sanchez,unknown,UPDATED,1,../02_Newsletter/case_studies/NL_CASE_P1_020_newsletter_operator.md
+case_studies/connor/sns_analysis.md,connor,unknown,UPDATED,2,../01_App/case_studies/040_alex_slater.md; ../01_App/case_studies/131_jordan_oconnor.md
+case_studies/courtland_allen/sns_analysis.md,courtland allen,unknown,UPDATED,3,../02_Newsletter/newsletter_articles_list.md; ../02_Newsletter/case_studies/NL_CASE_P1_012_indie_hackers.md; ../01_App/case_studies/136_courtland_allen.md
+case_studies/dagobert_renouf/sns_analysis.md,dagobert renouf,unknown,UPDATED,1,../01_App/case_studies/157_dagobert_renouf.md
+case_studies/damon_chen/sns_analysis.md,damon chen,unknown,UPDATED,1,../01_App/case_studies/062_damon_chen.md
+case_studies/dan_koe/sns_analysis.md,dan koe,unknown,NO_REFS,0,
+case_studies/daniel_bitton/sns_analysis.md,daniel bitton,unknown,UPDATED,1,../01_App/case_studies/022_daniel_bitton.md
+case_studies/daniel_nguyen/sns_analysis.md,daniel nguyen,unknown,UPDATED,1,../01_App/case_studies/055_daniel_nguyen.md
+case_studies/daniel_vassallo/sns_analysis.md,daniel vassallo,unknown,UPDATED,1,../01_App/case_studies/164_daniel_vassallo.md
+case_studies/danny_postma/sns_analysis.md,danny postma,unknown,UPDATED,3,../01_App/case_studies/016_success_patterns.md; ../01_App/case_studies/014_danny_postma.md; ../01_App/case_studies/001_wilson_senja.md
+case_studies/david_perell/sns_analysis.md,david perell,unknown,UPDATED,1,../02_Newsletter/case_studies/NL_CASE_P1_009_not_boring.md
+case_studies/des_traynor/sns_analysis.md,des traynor,unknown,NO_REFS,0,
+case_studies/desmond/sns_analysis.md,desmond,unknown,UPDATED,2,../01_App/case_studies/016_success_patterns.md; ../01_App/case_studies/002_desmond_rise.md
+case_studies/dharmesh_shah/sns_analysis.md,dharmesh shah,unknown,NO_REFS,0,
+case_studies/dhh/sns_analysis.md,dhh,unknown,NO_REFS,0,
+case_studies/dickie_bush/sns_analysis.md,dickie bush,unknown,UPDATED,1,../02_Newsletter/strategies/NL_STRATEGY_034_newsletter_storefront.md
+case_studies/diego_roshardt/sns_analysis.md,diego roshardt,unknown,UPDATED,1,../01_App/case_studies/050_diego_roshardt.md
+case_studies/elise_darma/sns_analysis.md,elise darma,unknown,NO_REFS,0,
+case_studies/florin_pop/sns_analysis.md,florin pop,unknown,NO_REFS,0,
+case_studies/gary_vaynerchuk/sns_analysis.md,gary vaynerchuk,unknown,NO_REFS,0,
+case_studies/gil_hildebrand/sns_analysis.md,gil hildebrand,unknown,UPDATED,1,../01_App/case_studies/033_gil_hildebrand.md
+case_studies/graham_stephan/sns_analysis.md,graham stephan,unknown,NO_REFS,0,
+case_studies/grant_mcconnaughey/sns_analysis.md,grant mcconnaughey,unknown,UPDATED,1,../01_App/case_studies/052_grant_mcconnaughey.md
+case_studies/greg_isenberg/sns_analysis.md,greg isenberg,unknown,NO_REFS,0,
+case_studies/hahnbee_lee/sns_analysis.md,hahnbee lee,unknown,NO_REFS,0,
+case_studies/harry_dry/sns_analysis.md,harry dry,unknown,UPDATED,1,../02_Newsletter/case_studies/NL_CASE_P1_011_growth_design.md
+case_studies/hassan_el_mghari/sns_analysis.md,hassan el mghari,unknown,NO_REFS,0,
+case_studies/ikehaya/sns_analysis.md,ikehaya,unknown,NO_REFS,0,

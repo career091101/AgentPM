@@ -1,0 +1,66 @@
+{
+  "id": "nd3c12f01c8c3",
+  "title": "写真で振り返る京都旅｜Day 1",
+  "url": "https://note.com/golddust/n/nd3c12f01c8c3",
+  "author": "もえぎ",
+  "author_id": "golddust",
+  "published_at": "2025-12-07T13:57:21+09:00",
+  "like_count": 7,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "golddust",
+  "genre": "creator",
+  "content": {
+    "word_count": 593,
+    "heading_count": 1,
+    "hashtags": [
+      "#写真",
+      "#京都",
+      "#わたしの旅行記",
+      "#旅行記",
+      "#喫茶店",
+      "#蕎麦",
+      "#京都旅行",
+      "#京都グルメ",
+      "#京都旅"
+    ]
+  },
+  "quality": {
+    "score": 30,
+    "tier": "D",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 593,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 9,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 10,
+        "count": 7,
+        "status": "low"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 1,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 13,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:06"
+}

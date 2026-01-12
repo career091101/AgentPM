@@ -1,0 +1,10 @@
+{
+  "twitter": {
+    "status": "dry_run",
+    "scheduled_for": "2026-01-08T20:00:00+09:00"
+  },
+  "threads": {
+    "status": "dry_run",
+    "scheduled_for": "2026-01-08T20:00:00+09:00"
+  }
+}

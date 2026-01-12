@@ -1,0 +1,67 @@
+{
+  "id": "n7f4771f8b098",
+  "title": "韓国 全州旅を写真で振り返る",
+  "url": "https://note.com/golddust/n/n7f4771f8b098",
+  "author": "もえぎ",
+  "author_id": "golddust",
+  "published_at": "2025-08-16T20:25:21+09:00",
+  "like_count": 9,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "golddust",
+  "genre": "creator",
+  "content": {
+    "word_count": 1701,
+    "heading_count": 1,
+    "hashtags": [
+      "#写真",
+      "#旅行記",
+      "#韓国",
+      "#韓国ドラマ",
+      "#韓国旅行",
+      "#韓国料理",
+      "#韓国グルメ",
+      "#韓国旅行記",
+      "#全州",
+      "#キムテリ"
+    ]
+  },
+  "quality": {
+    "score": 45,
+    "tier": "C",
+    "details": {
+      "word_count": {
+        "score": 15,
+        "value": 1701,
+        "status": "acceptable"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 10,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 10,
+        "count": 9,
+        "status": "low"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 1,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 10,
+        "hour": 20,
+        "status": "golden_hour"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:04"
+}

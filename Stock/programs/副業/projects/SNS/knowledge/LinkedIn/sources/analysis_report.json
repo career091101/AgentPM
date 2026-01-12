@@ -1,0 +1,453 @@
+{
+  "statistics": {
+    "char_count": {
+      "mean": 760.1,
+      "median": 668.5,
+      "min": 370,
+      "max": 2105,
+      "std": 354.1
+    },
+    "distribution": {
+      "0-500": 12,
+      "501-1000": 28,
+      "1001-1500": 9,
+      "1501+": 1
+    },
+    "total_posts": 50
+  },
+  "patterns": {
+    "matches": {
+      "question_first": [],
+      "conclusion_last": [],
+      "bullet_points": [
+        {
+          "post_index": 24,
+          "post_id": "urn:li:activity:7401037928723935232",
+          "char_count": 696,
+          "preview": "【本音だけを話す場所】月4,980円で、億単位の知見に触れる僕の顧問料は月20万〜50万。1時間のミーティングだけで、です。それに比べたら、このサロンは破格すぎる。正直、全く儲かりません。でも、やる理..."
+        }
+      ],
+      "numbered_list": [],
+      "story_opening": [],
+      "call_to_action": [
+        {
+          "post_index": 6,
+          "post_id": "urn:li:activity:7409768824054575104",
+          "char_count": 449,
+          "preview": "広島市立基町高校でアントレプレナーシップ推進大使として講演させていただきました。校訓「自主自律」のもと、自ら考え行動する力を育む進学校。東大・京大など難関大学への進学実績と、美術を通じて世界に発信する..."
+        },
+        {
+          "post_index": 7,
+          "post_id": "urn:li:activity:7409551256077271040",
+          "char_count": 2105,
+          "preview": "孫正義、史上最大の「オールイン」：OpenAIへの225億ドルの賭けかつて世界一の富豪だった男が、自らの帝国すべてをたった一つの会社に賭けたとは、にわかには信じがたい。しかも、その勝負を決めるまでの猶..."
+        },
+        {
+          "post_index": 8,
+          "post_id": "urn:li:activity:7409443037908660224",
+          "char_count": 370,
+          "preview": "【限定30名】資金調達・M&A・採用の修羅場を乗り越えた経営者2名と、腹を割って話せるランチ交流会大学在学中に起業して上場企業でM&Aと出資を経験した創業者。IT/ベンチャー特化のM&A仲介で急成長を..."
+        },
+        {
+          "post_index": 26,
+          "post_id": "urn:li:activity:7400435236054081536",
+          "char_count": 1275,
+          "preview": "日経の「エッセンシャルワーカーへの転職わずか1割」という記事、衝撃的な数字が並んでいる。2040年には470万人不足で、必要な人員の8割しか賄えない。事務職や生産職から介護、建設、運輸への転職は13%..."
+        },
+        {
+          "post_index": 37,
+          "post_id": "urn:li:activity:7396067063867420672",
+          "char_count": 1058,
+          "preview": "REALVALUE溝口さんのスピーチに心が震えた。ここまで本質を突いた言葉を聞いたのは久しぶり。 REALVALUEクラブのメンバーへのメッセージがあまりにも良すぎるので、どうしても皆さんにシェアさせ..."
+        },
+        {
+          "post_index": 46,
+          "post_id": "urn:li:activity:7392350083394105345",
+          "char_count": 532,
+          "preview": "【ご紹介】スタートアップに強い税理士をお探しの方へ起業したばかりの知人から「良い税理士さんいませんか?」と相談されることが増えました。そこで、私が信頼できる「スタートアップ専門」の税理士をご紹介します..."
+        },
+        {
+          "post_index": 48,
+          "post_id": "urn:li:activity:7391990881639313408",
+          "char_count": 407,
+          "preview": "CFOの方を副業で手伝ってもらいたい会社さん、スタートアップ、ベンチャーの方いますか？現役CFO、投資銀行出身、公認会計士など、その後フルタイムも検討可能な方々、多数優秀なお知り合いの方がいます。次世..."
+        },
+        {
+          "post_index": 50,
+          "post_id": "urn:li:activity:7391254568908681217",
+          "char_count": 934,
+          "preview": "秘密グループ11月募集。自分の月額顧問料が小さい会社で20万、大きい会社で50万となっています。1ヶ月1時間ミーティングです。秘密グループは月額4,980円なので、それに比べると破格に安いとは思います..."
+        }
+      ],
+      "emoji_usage": [
+        {
+          "post_index": 9,
+          "post_id": "urn:li:activity:7409153661718822913",
+          "char_count": 698,
+          "preview": "🚨緊急速報 ソフトバンクG孫正義の長女が、倒産危機のユニコーン企業を救済へスパイバー、借入金362億円の返済期限が年末に迫る中、BOLD代表の川名麻耶氏による事業支援が決定川名氏の経歴がエグい・ゴール..."
+        },
+        {
+          "post_index": 47,
+          "post_id": "urn:li:activity:7392214501137371136",
+          "char_count": 535,
+          "preview": "40代の転職支援に「年収の2倍」を出す企業が現れた。LINEヤフーの「NEXTキャリア制度」→退職者に１０００万、２０００万レベルで支給する一見、太っ腹に見えるけど…これ、実は「三方良し」の超戦略的な..."
+        }
+      ]
+    },
+    "summary": {
+      "question_first": {
+        "count": 0,
+        "percentage": 0.0,
+        "avg_char_count": 0
+      },
+      "conclusion_last": {
+        "count": 0,
+        "percentage": 0.0,
+        "avg_char_count": 0
+      },
+      "bullet_points": {
+        "count": 1,
+        "percentage": 2.0,
+        "avg_char_count": 696
+      },
+      "numbered_list": {
+        "count": 0,
+        "percentage": 0.0,
+        "avg_char_count": 0
+      },
+      "story_opening": {
+        "count": 0,
+        "percentage": 0.0,
+        "avg_char_count": 0
+      },
+      "call_to_action": {
+        "count": 8,
+        "percentage": 16.0,
+        "avg_char_count": 891.2
+      },
+      "emoji_usage": {
+        "count": 2,
+        "percentage": 4.0,
+        "avg_char_count": 616.5
+      }
+    }
+  },
+  "keywords": [
+    {
+      "word": "てる",
+      "count": 126,
+      "pos": "keyword"
+    },
+    {
+      "word": "企業",
+      "count": 79,
+      "pos": "keyword"
+    },
+    {
+      "word": "会社",
+      "count": 74,
+      "pos": "keyword"
+    },
+    {
+      "word": "経営",
+      "count": 72,
+      "pos": "keyword"
+    },
+    {
+      "word": "表示",
+      "count": 50,
+      "pos": "keyword"
+    },
+    {
+      "word": "採用",
+      "count": 49,
+      "pos": "keyword"
+    },
+    {
+      "word": "投資",
+      "count": 47,
+      "pos": "keyword"
+    },
+    {
+      "word": "AI",
+      "count": 47,
+      "pos": "keyword"
+    },
+    {
+      "word": "日本",
+      "count": 46,
+      "pos": "keyword"
+    },
+    {
+      "word": "アップ",
+      "count": 44,
+      "pos": "keyword"
+    },
+    {
+      "word": "思う",
+      "count": 43,
+      "pos": "keyword"
+    },
+    {
+      "word": "スタート",
+      "count": 42,
+      "pos": "keyword"
+    },
+    {
+      "word": "成長",
+      "count": 41,
+      "pos": "keyword"
+    },
+    {
+      "word": "見る",
+      "count": 33,
+      "pos": "keyword"
+    },
+    {
+      "word": "言う",
+      "count": 33,
+      "pos": "keyword"
+    },
+    {
+      "word": "ハッシュ",
+      "count": 33,
+      "pos": "keyword"
+    },
+    {
+      "word": "タグ",
+      "count": 33,
+      "pos": "keyword"
+    },
+    {
+      "word": "さん",
+      "count": 31,
+      "pos": "keyword"
+    },
+    {
+      "word": "社長",
+      "count": 31,
+      "pos": "keyword"
+    },
+    {
+      "word": "本気",
+      "count": 30,
+      "pos": "keyword"
+    },
+    {
+      "word": "完全",
+      "count": 29,
+      "pos": "keyword"
+    },
+    {
+      "word": "自分",
+      "count": 29,
+      "pos": "keyword"
+    },
+    {
+      "word": "人材",
+      "count": 29,
+      "pos": "keyword"
+    },
+    {
+      "word": "資金",
+      "count": 28,
+      "pos": "keyword"
+    },
+    {
+      "word": "10",
+      "count": 28,
+      "pos": "keyword"
+    },
+    {
+      "word": "ドル",
+      "count": 26,
+      "pos": "keyword"
+    },
+    {
+      "word": "30",
+      "count": 26,
+      "pos": "keyword"
+    },
+    {
+      "word": "OpenAI",
+      "count": 25,
+      "pos": "keyword"
+    },
+    {
+      "word": "調達",
+      "count": 24,
+      "pos": "keyword"
+    },
+    {
+      "word": "いい",
+      "count": 24,
+      "pos": "keyword"
+    },
+    {
+      "word": "時間",
+      "count": 24,
+      "pos": "keyword"
+    },
+    {
+      "word": "出す",
+      "count": 24,
+      "pos": "keyword"
+    },
+    {
+      "word": "労働",
+      "count": 23,
+      "pos": "keyword"
+    },
+    {
+      "word": "働く",
+      "count": 23,
+      "pos": "keyword"
+    },
+    {
+      "word": "作る",
+      "count": 23,
+      "pos": "keyword"
+    },
+    {
+      "word": "組織",
+      "count": 22,
+      "pos": "keyword"
+    },
+    {
+      "word": "起業",
+      "count": 22,
+      "pos": "keyword"
+    },
+    {
+      "word": "上場",
+      "count": 21,
+      "pos": "keyword"
+    },
+    {
+      "word": "成功",
+      "count": 21,
+      "pos": "keyword"
+    },
+    {
+      "word": "続ける",
+      "count": 21,
+      "pos": "keyword"
+    },
+    {
+      "word": "以上",
+      "count": 21,
+      "pos": "keyword"
+    },
+    {
+      "word": "事業",
+      "count": 21,
+      "pos": "keyword"
+    },
+    {
+      "word": "市場",
+      "count": 20,
+      "pos": "keyword"
+    },
+    {
+      "word": "持つ",
+      "count": 20,
+      "pos": "keyword"
+    },
+    {
+      "word": "変わる",
+      "count": 19,
+      "pos": "keyword"
+    },
+    {
+      "word": "時代",
+      "count": 19,
+      "pos": "keyword"
+    },
+    {
+      "word": "入る",
+      "count": 18,
+      "pos": "keyword"
+    },
+    {
+      "word": "創業",
+      "count": 18,
+      "pos": "keyword"
+    },
+    {
+      "word": "必要",
+      "count": 18,
+      "pos": "keyword"
+    },
+    {
+      "word": "理由",
+      "count": 18,
+      "pos": "keyword"
+    }
+  ],
+  "engagement": {
+    "note": "エンゲージメントデータ未取得のため、文字数トップ20%の投稿を分析",
+    "top_performing_count": 10,
+    "avg_char_count_top20": 1350.1,
+    "pattern_frequency_top20": {
+      "question_first": 0,
+      "conclusion_last": 0,
+      "bullet_points": 0,
+      "numbered_list": 0,
+      "story_opening": 0,
+      "call_to_action": 3,
+      "emoji_usage": 0
+    },
+    "top_posts": [
+      {
+        "post_id": "urn:li:activity:7409551256077271040",
+        "char_count": 2105,
+        "preview": "孫正義、史上最大の「オールイン」：OpenAIへの225億ドルの賭けかつて世界一の富豪だった男が、自らの帝国すべてをたった一つの会社に賭けたとは、にわかには信じがたい。しかも、その勝負を決めるまでの猶予はあと9日。ソフトバンクは、12月31日までに225億ドル（約3.2兆円）をOpenAIに届けるた..."
+      },
+      {
+        "post_id": "urn:li:activity:7410181638476898304",
+        "char_count": 1377,
+        "preview": "2026年、採用の常識が完全に壊れる衝撃の事実：ESで差がつかない時代が来た就活生の90%がAI、ChatGPTなど使ってエントリーシート書いてる企業の人事も当然それを知ってる→もう誰も紙の文章なんか信じてないこれからは「5分間の雑談」で人生が決まる準備してきた志望動機より、ふとした瞬間の受け答え完..."
+      },
+      {
+        "post_id": "urn:li:activity:7399949786822418432",
+        "char_count": 1364,
+        "preview": "サイバーエージェント藤田社長がYouTubeで語っていた仕事論が、マジで刺さりすぎて唸った。特にスタートアップの経営者や20代の若手は、絶対に見た方がいい。「3ヶ月でプロになれる」の真実藤田社長が言い切ったのがこれ。「どの業界でも、3ヶ月間死ぬ気でやれば、その分野の中の人レベルになれる」これ、本当に..."
+      },
+      {
+        "post_id": "urn:li:activity:7393065620516368384",
+        "char_count": 1355,
+        "preview": "3年前、勢いで30人採用した会社がありました。半年後、15人が辞めました。理由は単純で、「誰も教えてくれない」「何をすればいいかわからない」「上司が忙しすぎて質問できない」これ、他人事じゃないんですよね。急成長している会社の多くが、同じ轍を踏んでる。ーーー経営で最も重要なのは「再現性」だと思ってます..."
+      },
+      {
+        "post_id": "urn:li:activity:7408078208669192192",
+        "char_count": 1325,
+        "preview": "この本、本気でヤバい。読んで衝撃受けた。『SHIFT解剖 究極の人的資本経営』「部下の給与を増やせない上司は不要」最初この言葉見たとき、かなり攻めてるなと思った。でも読み進めたら、これを本気で実践してる会社があることに驚愕した。上場10年で売上高50倍という現実。時価総額も数十億から数千億に。今や日..."
+      },
+      {
+        "post_id": "urn:li:activity:7408646321403883520",
+        "char_count": 1293,
+        "preview": "ファストリ、初任給37万円に。柳井氏「世界水準ではまだ低い」2026年春入社から4万円アップ。20年以降4度目の引き上げ。これ、めちゃくちゃ重要な話。ユニクロを展開するファストリテイリングが、新卒初任給を37万円へ引き上げる。25年春の33万円から4万円増。20年の21万円から段階的に上げ続け、6年..."
+      },
+      {
+        "post_id": "urn:li:activity:7400435236054081536",
+        "char_count": 1275,
+        "preview": "日経の「エッセンシャルワーカーへの転職わずか1割」という記事、衝撃的な数字が並んでいる。2040年には470万人不足で、必要な人員の8割しか賄えない。事務職や生産職から介護、建設、運輸への転職は13%しかない。なぜか。答えは単純で、賃金が1割低いから。この問題、実は採用市場で毎日見ている。スタートア..."
+      },
+      {
+        "post_id": "urn:li:activity:7406511424795049984",
+        "char_count": 1208,
+        "preview": "東北大学ビジネスアイデアコンテスト2025、審査員を務めさせていただきました。率直に言って、これは衝撃的な体験でした。今年で9回目を迎える本コンテスト。10組のファイナリストが披露したアイデアの質とスケールは、正直、並の起業家を軽く超えています。最優秀賞の「myo」は、MCI(軽度認知障害)患者のた..."
+      },
+      {
+        "post_id": "urn:li:activity:7397914646042726400",
+        "char_count": 1141,
+        "preview": "田端信太郎氏がPIVOTに物申す。この対談、ガチでヤバい。動画メディアが自社コンテンツの中で、ここまで赤裸々に自己批判を展開する光景なんて、日本のメディア業界でほぼ見たことがない。PIVOTは本気でメディアの未来と向き合っている。これこそが、これからのメディアのあるべき姿だと思う。佐々木紀彦氏とは2..."
+      },
+      {
+        "post_id": "urn:li:activity:7396067063867420672",
+        "char_count": 1058,
+        "preview": "REALVALUE溝口さんのスピーチに心が震えた。ここまで本質を突いた言葉を聞いたのは久しぶり。 REALVALUEクラブのメンバーへのメッセージがあまりにも良すぎるので、どうしても皆さんにシェアさせてください。「幸せになれない人、成功できない人の共通点。 それは『与えてもらえるか』ばかり考えている..."
+      }
+    ]
+  }
+}

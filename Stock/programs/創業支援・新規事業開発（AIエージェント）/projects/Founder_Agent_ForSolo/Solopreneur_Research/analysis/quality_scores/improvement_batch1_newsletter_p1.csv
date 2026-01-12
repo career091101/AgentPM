@@ -1,0 +1,21 @@
+id,newsletter_name,status,updated_date,metrics_added,growth_stage_added,failure_analysis_added,cross_reference_added,quality_score,notes
+NL_CASE_P1_001,ByteByteGo Newsletter,completed,2025-12-29,yes,yes,yes,yes,95,Full YAML v2.1 implementation
+NL_CASE_P1_002,Morning Brew,completed,2025-12-29,yes,yes,yes,yes,98,Full YAML v2.1 implementation
+NL_CASE_P1_003,The Hustle,in_progress,2025-12-29,pending,pending,pending,pending,85,Requires YAML update
+NL_CASE_P1_004,Lenny's Newsletter,in_progress,2025-12-29,pending,pending,pending,pending,92,Has partial YAML
+NL_CASE_P1_005,Milk Road,in_progress,2025-12-29,pending,pending,pending,pending,88,Has partial YAML
+NL_CASE_P1_006,Ben's Bites,in_progress,2025-12-29,pending,pending,pending,pending,90,Has partial YAML
+NL_CASE_P1_007,TLDR Newsletter,in_progress,2025-12-29,pending,pending,pending,pending,91,Has partial YAML
+NL_CASE_P1_008,The Rundown AI,in_progress,2025-12-29,pending,pending,pending,pending,93,Has partial YAML
+NL_CASE_P1_009,Not Boring,in_progress,2025-12-29,pending,pending,pending,pending,87,Has partial YAML
+NL_CASE_P1_010,The Generalist,in_progress,2025-12-29,pending,pending,pending,pending,89,Has partial YAML
+NL_CASE_P1_011,Growth.design,in_progress,2025-12-29,pending,pending,pending,pending,86,Has partial YAML
+NL_CASE_P1_012,Indie Hackers Newsletter,in_progress,2025-12-29,pending,pending,pending,pending,84,Has partial YAML
+NL_CASE_P1_013,Dense Discovery,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_014,Trends.vc,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_015,Bootstrapped Founder,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_016,Liberty's Highlights,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_017,Compounding Quality,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_018,Product Hunt Daily,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_019,SparkLoop,pending,2025-12-29,no,no,no,no,75,Awaiting processing
+NL_CASE_P1_020,Newsletter Operator,pending,2025-12-29,no,no,no,no,75,Awaiting processing

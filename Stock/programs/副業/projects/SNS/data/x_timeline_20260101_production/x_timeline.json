@@ -1,0 +1,1308 @@
+{
+  "collected_at": "2026-01-01T21:54:26.550470",
+  "total_tweets": 130,
+  "unique_tweets": 130,
+  "cursors_collected": 4,
+  "tweets": [
+    {
+      "tweet_id": "2006642278543274414",
+      "username": "satori_sz9",
+      "text": "設計と実装のスキマを埋める上で、類型の成功例をChatGPTにリサーチさせるのはとても良い。「ここの実装があと一歩刺さらなさそう」という点について、類似例を探してもらえば、いい感じに見つけてくれるので埋められる。完全にAIの使い方次第で成否が分かれる時代になったな。",
+      "likes": 16,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 08:22:55 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789975"
+    },
+    {
+      "tweet_id": "2006373315934556349",
+      "username": "mitsu20190908",
+      "text": "米津さん（米津玄師）が『夢や目的は達成することではなく、達成するための努力をする過程で生まれる運動や感性の方に価値がある』と答えていて、言語化能力が鬼だった件。\n\n努力が報われる・報われない論争、ここに終結。 https://t.co/ejivCBpiQX",
+      "likes": 36341,
+      "retweets": 4183,
+      "replies": 56,
+      "timestamp_text": "Wed Dec 31 14:34:09 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.789980"
+    },
+    {
+      "tweet_id": "2006350636435362142",
+      "username": "DBVolkov",
+      "text": "Instead of watching a 2 hour movie, watch this masterclass on the future of work\nhttps://t.co/d14sL113Zi",
+      "likes": 514,
+      "retweets": 106,
+      "replies": 6,
+      "timestamp_text": "Wed Dec 31 13:04:02 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.789983"
+    },
+    {
+      "tweet_id": "2006593530878427310",
+      "username": "zion_00",
+      "text": "円キャリーから考える\n今後のドル円\n3月円先物から円安圧力はまだあるものの\n金利差が安定して取れるx\n縮小してとれない\n借りた円はいつでも返すことができる◯\n返せる返すのを急ぐと急円高になる\n他の市場が安定している△\nマグマが溜まっていて数ヶ月しか持たない\n具体的に日米の信用買残高\n\n思惑1 https://t.co/jYdkzM8bQb",
+      "likes": 40,
+      "retweets": 0,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 05:09:13 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789984"
+    },
+    {
+      "tweet_id": "2006671535344595318",
+      "username": "paurooteri",
+      "text": "生産量は増えないですからね\n既にメモリ市場にとってはニッチになった\nPC、スマホ、産業機器、家電、車載は厳しいと思います",
+      "likes": 39,
+      "retweets": 1,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 10:19:10 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789986"
+    },
+    {
+      "tweet_id": "2006255297212358686",
+      "username": "DavidMoss",
+      "text": "I am proud to announce that I have successfully completed the world’s first USA coast to coast fully autonomous drive!\n\nI left the Tesla Diner in Los Angeles 2 days &amp; 20 hours ago, and now have ended in Myrtle Beach, SC (2,732.4 miles)\n\nThis was accomplished with Tesla FSD V14.2 https://t.co/DFA8HiH5Yf",
+      "likes": 29495,
+      "retweets": 2966,
+      "replies": 1762,
+      "timestamp_text": "Wed Dec 31 06:45:11 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.789988"
+    },
+    {
+      "tweet_id": "2006485291511734528",
+      "username": "iruletheworldmo",
+      "text": "elon wouldn’t do this to us. \n\nopenai may have paused ads. but they’ll be shoved down our throats soon 😭😭😭 https://t.co/UpHDrT4bod",
+      "likes": 40,
+      "retweets": 2,
+      "replies": 12,
+      "timestamp_text": "Wed Dec 31 21:59:06 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.789990"
+    },
+    {
+      "tweet_id": "2006629740543881731",
+      "username": "teru_tesla",
+      "text": "めちゃくちゃお得なキャンペーンきたぁ‼️\n\n金利0%は実質60万円割引になります！\n\nこのキャンペーンはSC無料やFSD移行同様テスラジャパンの最大割引率です㊗️\nhttps://t.co/vZ50Rxltkt\n↑リンクから注文でさらに追加で35,000円割引を受けられます‼️\n\n公式HP経由だと割引を受けられません‼️(後付け不可) https://t.co/sh0kztmCyD",
+      "likes": 30,
+      "retweets": 2,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 07:33:06 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789992"
+    },
+    {
+      "tweet_id": "2006621662981271829",
+      "username": "QQ_Timmy",
+      "text": "半導體產業進入「Foundry 2.0」時代，台積電主導先進封裝，但2026年訂單外溢與風險分散需求，將帶動「非台積體系」OSAT廠崛起。台系三雄日月光投控、力成、京元電積極卡位先進封測下半場，資本支出同步進入高原期。",
+      "likes": 45,
+      "retweets": 4,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 07:01:00 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789993"
+    },
+    {
+      "tweet_id": "2006357952098410504",
+      "username": "bei_wayaku",
+      "text": "*米国新規失業保険申請件数は12月27日の週で19万9,000件、予想は22万件\n*米国継続失業保険受給者数は12月20日の週で186万6,000人、前回は192万3,000人",
+      "likes": 83,
+      "retweets": 14,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 13:33:06 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.789995"
+    },
+    {
+      "tweet_id": "2006587352052019275",
+      "username": "milbon_",
+      "text": "技術承継機構やらミダスやら、超マイクロキャップでやってみたい。単なる安く買うだけの戦法が機能せず、バリューアップ必須だから超難しいけど。",
+      "likes": 13,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 04:44:39 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789997"
+    },
+    {
+      "tweet_id": "2006624792473120990",
+      "username": "rauchg",
+      "text": "Happy new year! 🖤\nMay the new year bring wonderful ships https://t.co/x47yywqwp2",
+      "likes": 473,
+      "retweets": 11,
+      "replies": 51,
+      "timestamp_text": "Thu Jan 01 07:13:26 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.789998"
+    },
+    {
+      "tweet_id": "2006470740699500589",
+      "username": "theo",
+      "text": "gpt-4o got less than 100 messages a day on T3 Chat. We also don't have \"memory\", which prevents a lot of the negative behaviors and relationship building that is uniquely problematic with 4o.\n\nThat said, offering it caused confusion, so I chose to deprecate gpt-4o on T3 Chat. https://t.co/f5VVkYxhZJ",
+      "likes": 907,
+      "retweets": 7,
+      "replies": 29,
+      "timestamp_text": "Wed Dec 31 21:01:17 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790000"
+    },
+    {
+      "tweet_id": "2006389894848057707",
+      "username": "oikon48",
+      "text": "Happy New Year! Let’s ultrathink this year!\n\n明けましておめでとうございます！ https://t.co/vxB1atSV7c",
+      "likes": 151,
+      "retweets": 1,
+      "replies": 3,
+      "timestamp_text": "Wed Dec 31 15:40:02 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790001"
+    },
+    {
+      "tweet_id": "2006613328618205572",
+      "username": "junichisaito",
+      "text": "Testosteroneさんのnoteヤバすぎる・・・\n面白すぎて絶対に人気出る・・・・\n良すぎて独り占めしたいからシェアしたくないまである・・・・・\n\n2026年は @badassceo さんが学んで社会イノベーションを促進する!",
+      "likes": 74,
+      "retweets": 3,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 06:27:53 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790003"
+    },
+    {
+      "tweet_id": "2006430044063932654",
+      "username": "firstadopter",
+      "text": "Nvidia will close up 40% this year, generating trillion+ in wealth. If you listened to FUD from usual outlets, you would have missed out.\n\nTrust those who focus on facts, reality, and logic, not conflated clickbait. Happy New Year. Let’s crush it again next year. https://t.co/z5ZfHjlzd6",
+      "likes": 207,
+      "retweets": 15,
+      "replies": 13,
+      "timestamp_text": "Wed Dec 31 18:19:34 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790005"
+    },
+    {
+      "tweet_id": "2006699100729929932",
+      "username": "Fumiya_Kume",
+      "text": "Thinkpad E シリーズの適当なやつ買ったけど、良かった",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:08:42 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790007"
+    },
+    {
+      "tweet_id": "2006668139514491295",
+      "username": "umiyuki_ai",
+      "text": "Wan2.2用のハードカットLoRAってので動画の途中でカットが入るようにできるらしい。そんでSVIとハードカットLoRAの組み合わせで長尺動画がいい感じにカット割りされてナイスだという\nhttps://t.co/qltVFouSlE",
+      "likes": 8,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 10:05:41 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790008"
+    },
+    {
+      "tweet_id": "2006700790996521375",
+      "username": "deredleritt3r",
+      "text": "2026 will be the year of continual learning",
+      "likes": 10,
+      "retweets": 0,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 12:15:25 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790010"
+    },
+    {
+      "tweet_id": "2006176159541944574",
+      "username": "takahiroanno",
+      "text": "【2025年振り返り】\n\n今年もラスト1日となりました。",
+      "likes": 2254,
+      "retweets": 147,
+      "replies": 31,
+      "timestamp_text": "Wed Dec 31 01:30:44 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790011"
+    },
+    {
+      "tweet_id": "2006653361496666250",
+      "username": "kensuu",
+      "text": "2026年のお正月はなんとかバレずに残ると思ったのに消されてしまった…",
+      "likes": 47,
+      "retweets": 0,
+      "replies": 3,
+      "timestamp_text": "Thu Jan 01 09:06:57 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790013"
+    },
+    {
+      "tweet_id": "2006629300087517682",
+      "username": "ishiharajun",
+      "text": "石原順の日々の泡～音楽と出会った日 ラジオNIKKEI第1 2026/1/1(木) 13:30-15:30 \n\nhttps://t.co/Q219jw5boz #",
+      "likes": 20,
+      "retweets": 2,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 07:31:21 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790014"
+    },
+    {
+      "tweet_id": "2006521004433027091",
+      "username": "nvidia",
+      "text": "We’re heading to Vegas next week for #CES2026.\n\nJoin us early for NVIDIA Live: Setting the Stage on Monday, January 5 at 11:45 a.m. PT. for a moderated discussion on building the AI-native era.\n\nIndustry leaders will dive into AI infrastructure, open models, and physical AI https://t.co/1jm88SiZGz",
+      "likes": 195,
+      "retweets": 23,
+      "replies": 22,
+      "timestamp_text": "Thu Jan 01 00:21:01 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790016"
+    },
+    {
+      "tweet_id": "2006696457710317996",
+      "username": "ipusiron",
+      "text": "RT @nukonuko: 2025 年振り返り\n\n・記事を 49 本書いた\n・イベント 7 件登壇した\n・イベント 21 件主催した\n・人工知能学会で発表した\n・ハッカソンのメンターを 2 回した\n・X のフォロワー数が 16000 人を超えた\n・Discord のメンバーが…",
+      "likes": 0,
+      "retweets": 5,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 11:58:12 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790018"
+    },
+    {
+      "tweet_id": "2006704981970464955",
+      "username": "Goldriver2020",
+      "text": "プライベートキャピタル：\n\n市場はベンチャー支援のユニコーン企業に\n現在3.7兆ドルがロックアップされた\n深刻な非流動性危機に直面しています\n9/30までの1年間で投資家はIPO、M&amp;A\nセカンダリーセールからわずか3070億㌦\nしか回収できませんでした",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:32:05 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790020"
+    },
+    {
+      "tweet_id": "2006620848032227567",
+      "username": "kinopee_ai",
+      "text": "プロダクトについての壁打ちは、Cursor Ask モードで多数並行して進めて、ピン留め。\n他のセッションのコーディング、PR レビューなどの進行に合わせて、専用ブランチを切って、プラン以降のプロセスに移行。",
+      "likes": 10,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 06:57:46 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790021"
+    },
+    {
+      "tweet_id": "2006591364746850345",
+      "username": "tslaming",
+      "text": "GOOD NEWS 🇺🇸 Tesla's mega deal worth $16.5 billion for AI5 and AI6 chips at Samsung's Taylor fab until 2033 has been VERIFIED 🔥 https://t.co/mvqAQGnGJV",
+      "likes": 222,
+      "retweets": 36,
+      "replies": 3,
+      "timestamp_text": "Thu Jan 01 05:00:36 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790023"
+    },
+    {
+      "tweet_id": "2006691080075694462",
+      "username": "zephyr_z9",
+      "text": "\"Google reportedly lowered the production target for its proprietary AI accelerator, the Tensor Processing Unit (TPU), by 1 million units from its original goal of 4 million because it lost out to NVIDIA in the battle for CoWoS capacity.\"\n\nThis will cause some serious problems",
+      "likes": 69,
+      "retweets": 7,
+      "replies": 3,
+      "timestamp_text": "Thu Jan 01 11:36:50 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790024"
+    },
+    {
+      "tweet_id": "2006278560059916582",
+      "username": "takaichi_sanae",
+      "text": "令和７年も残すところあと数時間となりました。\n\n１０月２１日の総理就任以来、高市内閣では、今の暮らしや未来への不安を希望に変え、強い経済を作るとともに、世界の真ん中で咲き誇る日本外交を実現するために懸命に働いてまいりました。",
+      "likes": 218251,
+      "retweets": 15240,
+      "replies": 4545,
+      "timestamp_text": "Wed Dec 31 08:17:38 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790026"
+    },
+    {
+      "tweet_id": "2006702348559855642",
+      "username": "realpawny",
+      "text": "⭐️月初noteご案内⭐️\n明けましておめでとうございますパウ🎍\nXの投稿記事のルーツとなる独自の取材で収集している数々の水面下のマーケット情報をnoteで共有しています。\n少数制で運営していますが、今晩は若干追加募集しようと思います‼️\n\nご興味ある方はこちらからパウ！\nhttps://t.co/iEszCXZAjb",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 12:21:37 +0000 2026",
+      "collected_at": "2026-01-01T21:51:49.790027"
+    },
+    {
+      "tweet_id": "2006429968688128226",
+      "username": "SawyerMerritt",
+      "text": "NEWS: Tesla's redesigned Semi truck has just been spotted for the first time ever.\n\n• Model Y style light bar\n• More efficient\n• Increased payload capability\n• 1.7kWh/mile (15% improvement vs old Semi)\n• Designed for autonomy\n• 500 mile range\n• 1.2MW (1,200kW) peak https://t.co/8kf1ECqT3Q",
+      "likes": 5492,
+      "retweets": 426,
+      "replies": 142,
+      "timestamp_text": "Wed Dec 31 18:19:16 +0000 2025",
+      "collected_at": "2026-01-01T21:51:49.790028"
+    },
+    {
+      "tweet_id": "2006500845693944230",
+      "username": "iruletheworldmo",
+      "text": "whoever has the most compute wins. i’m not sure how elon is doing it but this is insane.",
+      "likes": 117,
+      "retweets": 5,
+      "replies": 18,
+      "timestamp_text": "Wed Dec 31 23:00:55 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815542"
+    },
+    {
+      "tweet_id": "2006681422187364747",
+      "username": "paurooteri",
+      "text": "Samsung 抱き合わせ商法展開か\nHBMを確保するにはファウンダリ事業へのチップ発注を求める\n\nうーん、メモリ強すぎる",
+      "likes": 48,
+      "retweets": 6,
+      "replies": 5,
+      "timestamp_text": "Thu Jan 01 10:58:28 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815545"
+    },
+    {
+      "tweet_id": "2006699928320618647",
+      "username": "CeoImed",
+      "text": "凄い！ 興味深い！\n \n｢宇宙からのインターネットStarlinkがカバーする地域｣\n \n･ 155以上の国々をカバー\n･ 32億人が暮らすグローバルな地域を網羅\n \nUS → EU → アフリカ → 日本 → 、、、\nという感じで拡大\n \n今、カバーしていない地域（動画の最後）も興味深い\n \nhttps://t.co/jnCCdeREbz",
+      "likes": 5,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:12:00 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815547"
+    },
+    {
+      "tweet_id": "2006546660927877353",
+      "username": "papanda",
+      "text": "この中で意外と? 味わいがあるのが「リクエスト(要望)」だと感じていて、「課題はXXXです」で終わると課題解決の話にいくしかないが、「なのでXXXしてください」とか「XXXについてフィードバックください」まで語ってもらうと、どういう解像度で状況を見ているのかの手がかりになる。",
+      "likes": 20,
+      "retweets": 3,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 02:02:58 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815549"
+    },
+    {
+      "tweet_id": "2006570324159324368",
+      "username": "MacopeninSUTABA",
+      "text": "組織をマネジメントする上での大切な考え方や方法論がまとめられている。エンジニア以外の人も読むべき記事。\n\nこちら👉\nhttps://t.co/jLaiaIqvxf",
+      "likes": 168,
+      "retweets": 9,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 03:37:00 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815551"
+    },
+    {
+      "tweet_id": "2006429880297336867",
+      "username": "mckaywrigley",
+      "text": "the claude agent sdk will do for knowledge work in 2026 what claude code did for coding in 2025.\n\nwant to live in the future?\n\nbuild your own agents with it.\n\nyou’ll have a personal magic tool belt that the public won’t have for another 6-12mo.\n\nit 100% feels like personal agi.",
+      "likes": 2400,
+      "retweets": 119,
+      "replies": 106,
+      "timestamp_text": "Wed Dec 31 18:18:55 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815552"
+    },
+    {
+      "tweet_id": "2006371544872943695",
+      "username": "thekitze",
+      "text": "can't believe claude won the browser automation game with ... an extension 💀",
+      "likes": 1429,
+      "retweets": 23,
+      "replies": 75,
+      "timestamp_text": "Wed Dec 31 14:27:07 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815554"
+    },
+    {
+      "tweet_id": "2006702069470916883",
+      "username": "danielnewmanUV",
+      "text": "It appears the New Year’s resolutions start a little later in the day. \n\nLove my alone time in the gym. 💪🏻😎❤️ https://t.co/elpiSD8Z84",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 12:20:30 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815556"
+    },
+    {
+      "tweet_id": "2006698712073122189",
+      "username": "zephyr_z9",
+      "text": "He is repeating Jensen GTC 2025 statement\nIntelligence per dollar is basically tokens/$",
+      "likes": 7,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:07:10 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815558"
+    },
+    {
+      "tweet_id": "2006648308740260265",
+      "username": "Fumiya_Kume",
+      "text": "Claude Code の SandboxでHEREDOCを拒否する設定になってるの厳しいな",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 08:46:53 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815559"
+    },
+    {
+      "tweet_id": "2006037676944736500",
+      "username": "sidi_jeddou_dev",
+      "text": "If you're a developer, trust me, this is for you.\n\nThese are and gonna be the best tech in 2026:\n\n-@opencode: A coding agent that works in Terminal, IDE, and it's so good.\n\n-@tan_stack: The best ecosystem for frontend, if you hate or want an alternative to Nextjs, they have",
+      "likes": 2657,
+      "retweets": 242,
+      "replies": 74,
+      "timestamp_text": "Tue Dec 30 16:20:27 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815561"
+    },
+    {
+      "tweet_id": "2006666753741561930",
+      "username": "jukan05",
+      "text": "AI Chip Order Explosion… TSMC Increases 'Packaging Outsourcing'\n\nTSMC is recently handing over a portion of the advanced packaging volume ordered by clients to ‘Outsourced Semiconductor Assembly and Test’ (OSAT) companies, such as Taiwan’s ASE and the US’s Amkor. This is because",
+      "likes": 69,
+      "retweets": 10,
+      "replies": 3,
+      "timestamp_text": "Thu Jan 01 10:00:10 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815563"
+    },
+    {
+      "tweet_id": "2006485012057829855",
+      "username": "enoyann",
+      "text": "【知らないと確実に損する】WEBマーケター志望なら、最初に叩き込むべきは Googleアナリティクス（GA4）。\n\n広告もSNS運用も、GA4を知らない時点で“改善の地図なしで走ってる状態”。逆にここを理解すると 数字で勝てるマーケター になれる。",
+      "likes": 84,
+      "retweets": 3,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 21:58:00 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815564"
+    },
+    {
+      "tweet_id": "2006455568303612259",
+      "username": "EvenRealities",
+      "text": "As the clock ticks over, we want to wish our entire community a very Happy New Year. Thank you for being a part of our journey through 2025. \nHere’s to a year of clarity, presence, and new perspectives. See you in 2026. https://t.co/LzHiWn2K2b",
+      "likes": 46,
+      "retweets": 2,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 20:01:00 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815565"
+    },
+    {
+      "tweet_id": "2006402944779133173",
+      "username": "super_bonochin",
+      "text": "ほんとこれで、中には「最強の検索インデックスがあればいいんじゃないの？」って意見もあると思うんだけど、結論としては、「それでもやっぱりAgenticに行動する能力は必要」なんだよね。 \nなぜかというと、全ての検索対象に対して、自分でインデックスを作れるわけじゃないから。",
+      "likes": 74,
+      "retweets": 3,
+      "replies": 1,
+      "timestamp_text": "Wed Dec 31 16:31:53 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815567"
+    },
+    {
+      "tweet_id": "2006447533665743315",
+      "username": "pipelineabuser",
+      "text": "giving a mf like me access to DigitalOcean + Factory AI is like handing a forum kid root access in 2009.\n\n5 minutes. 47 automations. half my business runs itself now.\n\ni should be stopped but i won't be jajajajajaj https://t.co/CygPovhTQo",
+      "likes": 533,
+      "retweets": 10,
+      "replies": 17,
+      "timestamp_text": "Wed Dec 31 19:29:04 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815568"
+    },
+    {
+      "tweet_id": "2006682937316528275",
+      "username": "mark_k",
+      "text": "In a year of rapid expansion, @xAI Memphis has grown from a single site to five locations across the Mid-South. The operation currently powers over 450,000 active GPUs, with construction already underway to double that capacity by Q2 2026.\n\nThis massive undertaking is supported https://t.co/QYJGaimEjy",
+      "likes": 13,
+      "retweets": 1,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 11:04:29 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815569"
+    },
+    {
+      "tweet_id": "2006513223466709011",
+      "username": "kosuge_tsutomu",
+      "text": "あけましておめでとうございます。\n\n今年も地道にやっていきます。",
+      "likes": 104,
+      "retweets": 0,
+      "replies": 2,
+      "timestamp_text": "Wed Dec 31 23:50:06 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815571"
+    },
+    {
+      "tweet_id": "2006704804983140385",
+      "username": "nikkei",
+      "text": "朝のコーヒーが長生きにつながる　心臓も健康に\nhttps://t.co/HKmSX0JOMZ\n\n#2025年読まれた記事",
+      "likes": 52,
+      "retweets": 12,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 12:31:22 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815572"
+    },
+    {
+      "tweet_id": "2006709499919216714",
+      "username": "BrandonKHill",
+      "text": "新年に贈る言葉。「あなたがどんなに素晴らしくても、間違った場所にいたとしたら、その価値は評価されません。」 https://t.co/zHjGDAAbqD",
+      "likes": 6,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:50:02 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815574"
+    },
+    {
+      "tweet_id": "2006699760753979559",
+      "username": "donvito",
+      "text": "what! saw this in linkedin\n\nis GLM 4.7 this good\n\nback from the holidays, gotta try this beast https://t.co/n8h5nTlZ8T",
+      "likes": 6,
+      "retweets": 0,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 12:11:20 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815575"
+    },
+    {
+      "tweet_id": "2006513055136649572",
+      "username": "ShinyaMatsuura",
+      "text": "「選択と集中」が如何に愚かで間抜けだったかという話。",
+      "likes": 3071,
+      "retweets": 590,
+      "replies": 7,
+      "timestamp_text": "Wed Dec 31 23:49:26 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815576"
+    },
+    {
+      "tweet_id": "2006618527579648447",
+      "username": "hbkr",
+      "text": "サンタさんにMacBookをもらった長女、冬休みずっとプログラミング頑張ってる https://t.co/pZmSyEXTdD",
+      "likes": 504,
+      "retweets": 8,
+      "replies": 6,
+      "timestamp_text": "Thu Jan 01 06:48:32 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815578"
+    },
+    {
+      "tweet_id": "2006375216185016340",
+      "username": "MrSimonBennett",
+      "text": "It's live.\n\nTailPDF — send Tailwind HTML, get a pixel-perfect PDF back. One API call. No Puppeteer. No headless browsers.\n\nFlexbox, Grid, and arbitrary values like h-[200px] — all render correctly.\n\nFree tier: 100 PDFs/month\n\nhttps://t.co/YcL2bVHA8b",
+      "likes": 499,
+      "retweets": 17,
+      "replies": 18,
+      "timestamp_text": "Wed Dec 31 14:41:42 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815579"
+    },
+    {
+      "tweet_id": "2006465228876456051",
+      "username": "Beth_Kindig",
+      "text": "Nvidia $NVDA is reportedly seeing strong H200 demand from China, with Chinese firms said to have placed orders for more than 2 million chips in 2026, whereas Nvidia’s inventory is just 700,000, per Reuters.\n\n$BABA $BIDU $AMD",
+      "likes": 327,
+      "retweets": 30,
+      "replies": 18,
+      "timestamp_text": "Wed Dec 31 20:39:23 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815581"
+    },
+    {
+      "tweet_id": "2006275886765703235",
+      "username": "honglaklee",
+      "text": "Had a conversation with Lee Sedol, the legendary Go master who played the historic match against AlphaGo. We discussed the past 10 years of AI evolution and the future. I am grateful to Lee Sedol for the insightful dialogues. \n\nHe is currently a Professor at UNIST, focusing on https://t.co/uf72QGkhjO",
+      "likes": 685,
+      "retweets": 49,
+      "replies": 20,
+      "timestamp_text": "Wed Dec 31 08:07:00 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815582"
+    },
+    {
+      "tweet_id": "2006411219557663017",
+      "username": "benln",
+      "text": "Who's building on New Year's Eve?",
+      "likes": 1779,
+      "retweets": 34,
+      "replies": 784,
+      "timestamp_text": "Wed Dec 31 17:04:46 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815583"
+    },
+    {
+      "tweet_id": "2006575803098943599",
+      "username": "aelluswamy",
+      "text": "🎆 🎊 Happy New Year!! 🎊🎆 \n\n2026 will be a historical year! Effects of AI will be felt in a visceral manner by common people.",
+      "likes": 4636,
+      "retweets": 365,
+      "replies": 233,
+      "timestamp_text": "Thu Jan 01 03:58:46 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815585"
+    },
+    {
+      "tweet_id": "2006623164894425462",
+      "username": "minorun365",
+      "text": "RT @moritalous: 塚田さんと本を書きました！！\n\n話題のMCPをAWSと組み合わせてどう使うか/どう作るかというところにフォーカスした書籍となっております！！\n\n発売は2/26発売予定と少し先ですが、すでにAmazonで予約できるようになっています！！\n\nhttp…",
+      "likes": 0,
+      "retweets": 10,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 07:06:58 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815586"
+    },
+    {
+      "tweet_id": "2006636356433309840",
+      "username": "AnjneyMidha",
+      "text": "quant trading has become a popular research petri dish for long horizon rl at frontier labs faster than i expected",
+      "likes": 337,
+      "retweets": 13,
+      "replies": 18,
+      "timestamp_text": "Thu Jan 01 07:59:23 +0000 2026",
+      "collected_at": "2026-01-01T21:52:36.815588"
+    },
+    {
+      "tweet_id": "2006514122977063350",
+      "username": "simonw",
+      "text": "Here's my enormous round-up of everything we learned about LLMs in 2025 - the third in my annual series of reviews of the past twelve months\nhttps://t.co/HD9Zf85SG2\nThis year it's divided into 26 sections! This is the table of contents: https://t.co/DFlzgXudLy",
+      "likes": 1515,
+      "retweets": 206,
+      "replies": 34,
+      "timestamp_text": "Wed Dec 31 23:53:40 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815589"
+    },
+    {
+      "tweet_id": "2006253785577103744",
+      "username": "wholemars",
+      "text": "Yes, Larry Page the inventor of Google\nrobbed you by giving you access to all the world’s information for free, and a free email account with unlimited storage",
+      "likes": 10526,
+      "retweets": 418,
+      "replies": 134,
+      "timestamp_text": "Wed Dec 31 06:39:11 +0000 2025",
+      "collected_at": "2026-01-01T21:52:36.815590"
+    },
+    {
+      "tweet_id": "2006353578072608935",
+      "username": "paurooteri",
+      "text": "フォロワーの皆様 本年も応援ありがとうございました。\n\n今年はnoteを始めて、すべてが変わった一年でした。",
+      "likes": 491,
+      "retweets": 8,
+      "replies": 15,
+      "timestamp_text": "Wed Dec 31 13:15:43 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847024"
+    },
+    {
+      "tweet_id": "2006666132674195770",
+      "username": "jukan05",
+      "text": "TSMC is outsourcing part of the advanced packaging volume for Rubin to OSATs such as ASE and Amkor.\n\nThere are also reports that as these subcontractors’ technical capabilities have improved, firms like Amkor are now handling even the process of attaching HBM to the interposer.",
+      "likes": 42,
+      "retweets": 5,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 09:57:42 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847027"
+    },
+    {
+      "tweet_id": "2006648270655992038",
+      "username": "zephyr_z9",
+      "text": "\"From 2015-2022, industrial robot replaced 4-6m mfg sector jobs.\"\n\nVery interesting",
+      "likes": 54,
+      "retweets": 4,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 08:46:44 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847029"
+    },
+    {
+      "tweet_id": "2006488466511770077",
+      "username": "iruletheworldmo",
+      "text": "elon is building out energy like a mad dog. would not count him out.",
+      "likes": 93,
+      "retweets": 3,
+      "replies": 9,
+      "timestamp_text": "Wed Dec 31 22:11:43 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847030"
+    },
+    {
+      "tweet_id": "2006371094555664766",
+      "username": "sdand",
+      "text": "introducing vmux:\n\n`vmux run` bundles and runs your code in a long-running cloudflare container and gives you a preview url in under 5s\n\nits a drop-in for uv run - close your laptop, run a tinker training job, come back and reattach via tmux! https://t.co/h6hasAj2ZI",
+      "likes": 816,
+      "retweets": 46,
+      "replies": 30,
+      "timestamp_text": "Wed Dec 31 14:25:20 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847032"
+    },
+    {
+      "tweet_id": "2006698925764575403",
+      "username": "sikeda23",
+      "text": "2026年、初note✍️\n昨年12月の中国国産EUV露光装置開発報道を踏まえて、露光装置プレイヤーの戦略とその見通しを1万字で解説しました\n\n\"シリコンカーテン\" の向こう側／ASMLの要塞、中国の「半導体版マンハッタン計画」、そして2026年の見通し\nhttps://t.co/tSeAPtsCUA\n※noteメンシ初月無料中",
+      "likes": 29,
+      "retweets": 15,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:08:01 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847034"
+    },
+    {
+      "tweet_id": "2006694302622298418",
+      "username": "Fumiya_Kume",
+      "text": "Google AI Pro は契約と解約を繰り返すのがコスパいい",
+      "likes": 12,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 11:49:38 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847036"
+    },
+    {
+      "tweet_id": "2006450738508214498",
+      "username": "MillionInt",
+      "text": "2026, this year is our year\nWe can never forget this tigress\nI’m focused on it\nWe will execute this year",
+      "likes": 290,
+      "retweets": 12,
+      "replies": 21,
+      "timestamp_text": "Wed Dec 31 19:41:48 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847037"
+    },
+    {
+      "tweet_id": "2006414843302281419",
+      "username": "shiri_shh",
+      "text": "fun fact: you’re 40% more likely to hit your goals if you keep them private.\n\nsharing your 2026 plans prematurely triggers a \"social reality\" in your brain\n\nit gives you a fake dopamine hit of success before you've even started. \n\nthat premature satisfaction kills the drive",
+      "likes": 2378,
+      "retweets": 147,
+      "replies": 131,
+      "timestamp_text": "Wed Dec 31 17:19:10 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847039"
+    },
+    {
+      "tweet_id": "2006526972281999871",
+      "username": "Alibaba_Qwen",
+      "text": "Qwen-Image-2512 has been added to AI-Toolkit. Big thanks to @ostrisai",
+      "likes": 207,
+      "retweets": 11,
+      "replies": 5,
+      "timestamp_text": "Thu Jan 01 00:44:44 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847040"
+    },
+    {
+      "tweet_id": "2006698173230964943",
+      "username": "cb_doge",
+      "text": "We are one year closer to Mars. \n\n https://t.co/rSxFeQEJpT",
+      "likes": 305,
+      "retweets": 47,
+      "replies": 138,
+      "timestamp_text": "Thu Jan 01 12:05:01 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847042"
+    },
+    {
+      "tweet_id": "2006515436368834595",
+      "username": "ammaar",
+      "text": "2025 was a special one ❤️\n\n🇺🇸 Became a US citizen (and voted!)\n\n🧠 Joined @GoogleDeepMind and participated in my first Google I/O\n\n🛠️ Shipped a redesigned AI Studio from the ground up and our new vibe coding experience\n\n🎤 Covered every major launch live from Nano Banana to https://t.co/EqgUlw1NbZ",
+      "likes": 300,
+      "retweets": 5,
+      "replies": 45,
+      "timestamp_text": "Wed Dec 31 23:58:53 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847044"
+    },
+    {
+      "tweet_id": "2006499125618155923",
+      "username": "Investor__X",
+      "text": "15年間相場で負け続けた私が、ここ6年で700万円の元金を5億円以上に増やすことが出来たのは、IPOセカンダリー投資に出会い、割安・小型・成長株への集中投資を始めたからです。\n\nこの手法に切り替えてからテンバガー株2銘柄を含む、バガー株（株価2倍以上）29銘柄を掴むことに成功しました。 https://t.co/lKMNLvEQVL",
+      "likes": 389,
+      "retweets": 18,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 22:54:05 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847045"
+    },
+    {
+      "tweet_id": "2006263049926439014",
+      "username": "adxtyahq",
+      "text": "If you don’t know design, let AI set UI/UX rules before you build\n\nLiterally just tell it:\n“Make it something Steve Jobs and Jony Ive would approve. Apple-level aesthetics.”\n\nGets you surprisingly far (tested) https://t.co/d2scbDQpWQ",
+      "likes": 1559,
+      "retweets": 49,
+      "replies": 55,
+      "timestamp_text": "Wed Dec 31 07:16:00 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847046"
+    },
+    {
+      "tweet_id": "2006326241125953720",
+      "username": "2okutameo",
+      "text": "ソフトバンクGの孫さんはopenAIの今後の隠し球を知っているからこれだけ張れるのか、引くに引けなくなってWeWorkと同じ展開になっているのか。\n開発中と言われる「AIデバイス」で世界を「あっ」と言わせるのかな。",
+      "likes": 472,
+      "retweets": 23,
+      "replies": 7,
+      "timestamp_text": "Wed Dec 31 11:27:06 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847048"
+    },
+    {
+      "tweet_id": "2006631048038564073",
+      "username": "venturecapita",
+      "text": "今後日本のスタートアップもこれぐらいに落ち着いていくと思う。投資額の桁が違うじゃん！と言われるだろうが、時価総額も同じく桁が少ないので…。投資として成立させるために必要なシェアは、投資額でなく資本効率にリンクする。\n\nその結果として中小企業的SUが増えるとも思う（むしろそれが普通）。",
+      "likes": 50,
+      "retweets": 1,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 07:38:17 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847049"
+    },
+    {
+      "tweet_id": "2006456088066142683",
+      "username": "latkins",
+      "text": "Opencode is such a tremendously well-designed, well-executed piece of software. Helps enforce the idea that if you build something you want to use, in the open, and with consistency over time, people will come.",
+      "likes": 305,
+      "retweets": 6,
+      "replies": 5,
+      "timestamp_text": "Wed Dec 31 20:03:04 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847051"
+    },
+    {
+      "tweet_id": "2006670228722426212",
+      "username": "Miles_Brundage",
+      "text": "RT @YouJiacheng: Interesting. HyperConnection and LatentMoE are actually doing similar things.\nscreenshot taken from deepseek's new paper h…",
+      "likes": 0,
+      "retweets": 23,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 10:13:59 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847053"
+    },
+    {
+      "tweet_id": "2006360590625988843",
+      "username": "Dimillian",
+      "text": "I'm not leaking anything but Cursor is coming with an iOS simulator tab that will work just like the browser tab.",
+      "likes": 1644,
+      "retweets": 27,
+      "replies": 78,
+      "timestamp_text": "Wed Dec 31 13:43:35 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847054"
+    },
+    {
+      "tweet_id": "2006367308005204159",
+      "username": "paranishian",
+      "text": "個人開発のおかげでエンジニア人生に彩りが！ありがとう！🥳 https://t.co/sPPWB7q9sZ",
+      "likes": 113,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 14:10:17 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847055"
+    },
+    {
+      "tweet_id": "2006647712209588665",
+      "username": "mizchi",
+      "text": "正月なのでレンダリングエンジンを作りました。\nレイアウトエンジンを実装して、CSS Engine 実装して、実際にHTML+CSSを入力に計算した座標をターミナルでSixelに展開したところ https://t.co/WHDE0ADl6M",
+      "likes": 168,
+      "retweets": 6,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 08:44:30 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847057"
+    },
+    {
+      "tweet_id": "2006500111732597187",
+      "username": "KobeissiLetter",
+      "text": "US housing affordability remains historically weak:\n\nIt now takes ~7 years for a median-income US household to save for the typical down payment on a median-priced home.\n\nThis is the 2nd-highest reading in 12 years, excluding the 2021-2022 period when the personal saving rate https://t.co/2cKAzJ6mGc",
+      "likes": 461,
+      "retweets": 66,
+      "replies": 35,
+      "timestamp_text": "Wed Dec 31 22:58:00 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847058"
+    },
+    {
+      "tweet_id": "2006594588342120744",
+      "username": "takuya_fukatsu",
+      "text": "金融工学の世界では最適停止問題と言って、期待報酬を最大化するような意思決定のタイミングを最適化する理論があるんですが（アメリカンオプションの権利行使のタイミングの決定とか）、この枠組みを予知保全（部品の交換のタイミングの決定）に使うという発想は面白い！\nhttps://t.co/wwgWvRRNgf https://t.co/krKiU82JpG",
+      "likes": 828,
+      "retweets": 136,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 05:13:25 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847060"
+    },
+    {
+      "tweet_id": "2006661717582033064",
+      "username": "davidpattersonx",
+      "text": "We will be experiencing rapid change this year.\n\nTry to relax and enjoy it.\n\nRigid things break easily. Engineers design flexibility into everything. Watch the wings of an airplane bend and flex as you fly. Your life should be no different. Design flexibility into your life, and",
+      "likes": 41,
+      "retweets": 4,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 09:40:10 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847061"
+    },
+    {
+      "tweet_id": "2006631801222267047",
+      "username": "yukimamax",
+      "text": "全身全霊で拾うぜ！",
+      "likes": 55,
+      "retweets": 1,
+      "replies": 6,
+      "timestamp_text": "Thu Jan 01 07:41:17 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847063"
+    },
+    {
+      "tweet_id": "2006060751589622043",
+      "username": "0x0SojalSec",
+      "text": "Run 70B LLMs on a 4GB GPU with layer-wise inference and memory optimization, quantization optional🫣\n\n- https://t.co/fKHuTeCrH3\n- https://t.co/oKo2dDyqwo\n\n#Ai #infosec #AIAgent https://t.co/qHGjt1OHxY",
+      "likes": 1915,
+      "retweets": 172,
+      "replies": 35,
+      "timestamp_text": "Tue Dec 30 17:52:08 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847064"
+    },
+    {
+      "tweet_id": "2006472233938726962",
+      "username": "kyle_e_walker",
+      "text": "My most popular post of the year: mapping 1.7 million Texas oil &amp; gas wells with zero performance lag. Draw a lasso, instantly query operators.\n\nThere are so many opportunities for advanced GIS + AI to impact oil and gas, helping operators, mineral buyers, brokers, and more. https://t.co/6uOWPYle3G",
+      "likes": 1989,
+      "retweets": 100,
+      "replies": 25,
+      "timestamp_text": "Wed Dec 31 21:07:13 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847065"
+    },
+    {
+      "tweet_id": "2006660692246704130",
+      "username": "hayesdev_",
+      "text": "How to build a plan for January to actually achieve your goals: https://t.co/10Er56umDW",
+      "likes": 38,
+      "retweets": 15,
+      "replies": 5,
+      "timestamp_text": "Thu Jan 01 09:36:05 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847067"
+    },
+    {
+      "tweet_id": "2006520699444510890",
+      "username": "ZachWarunek",
+      "text": "so it turns out the LLMs aren't \"just predicting the next token\"",
+      "likes": 1205,
+      "retweets": 24,
+      "replies": 166,
+      "timestamp_text": "Thu Jan 01 00:19:48 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847068"
+    },
+    {
+      "tweet_id": "2006402920447881573",
+      "username": "PatentlyApple",
+      "text": "https://t.co/4MuJPIsD7C",
+      "likes": 14,
+      "retweets": 4,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 16:31:48 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847070"
+    },
+    {
+      "tweet_id": "2006647182288629890",
+      "username": "ryuichitarao",
+      "text": "RT @Kyukimasa: ヒモを1本引っ張るだけで任意の3D形状を作り出せる設計アルゴリズム（MIT）\nhttps://t.co/7d7WjIKffb https://t.co/coBOTrA6m2",
+      "likes": 0,
+      "retweets": 145,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 08:42:24 +0000 2026",
+      "collected_at": "2026-01-01T21:53:18.847071"
+    },
+    {
+      "tweet_id": "2006273533270507583",
+      "username": "picmory",
+      "text": "前職でヒットが続いた頃、偶然かなり近い体制で作れてたから納得感が強い。特に組織哲学。\n\n・核心は権限委譲\n・現場が開発計画の決定権を持つ\n・承認プロセスの少なさ\n・自由最良と責任\n・会議を減ら\n・ドキュメント地獄より、まず動くものを作る\n・プレイ可能ビルドで高速反復",
+      "likes": 1951,
+      "retweets": 296,
+      "replies": 1,
+      "timestamp_text": "Wed Dec 31 07:57:39 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847073"
+    },
+    {
+      "tweet_id": "2006460475131965481",
+      "username": "tunguz",
+      "text": "TIL https://t.co/T0tM3mWdQQ",
+      "likes": 35,
+      "retweets": 0,
+      "replies": 3,
+      "timestamp_text": "Wed Dec 31 20:20:30 +0000 2025",
+      "collected_at": "2026-01-01T21:53:18.847074"
+    },
+    {
+      "tweet_id": "2006612229026885902",
+      "username": "zephyr_z9",
+      "text": "🤣🤣🤣🤣🤣",
+      "likes": 16,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 06:23:31 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232454"
+    },
+    {
+      "tweet_id": "2006663928097681580",
+      "username": "jukan05",
+      "text": "I did hear something interesting too.\n\nApparently, Samsung is playing hardball—if a fabless company wants to secure Samsung’s HBM, Samsung is demanding that they place at least some of their chip orders with Samsung Foundry.\n\nIsn’t it wild how times have changed? No one wanted to",
+      "likes": 177,
+      "retweets": 16,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 09:48:57 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232458"
+    },
+    {
+      "tweet_id": "2006350103632625684",
+      "username": "iruletheworldmo",
+      "text": "new paper worth reading if you want to understand what’s actually happening inside these systems.\n\nresearchers showed that standard transformer training implicitly runs an EM algorithm. attention = E-step (soft assignment of which positions matter). values = M-step (updating https://t.co/kv2FBLp5Oo",
+      "likes": 652,
+      "retweets": 70,
+      "replies": 35,
+      "timestamp_text": "Wed Dec 31 13:01:55 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232461"
+    },
+    {
+      "tweet_id": "2006622949026181571",
+      "username": "minorun365",
+      "text": "RT @ma_tsukada: 「AWSで始めるMCP実践ガイド」を出します！\n\n森田さんと一緒に書いた本です！\nMCPの基礎からAWSを使ったハンズオンまでMCPを使う人にも作る人にも参考になる内容となっています！\n\n興味を持っていただけた方は是非Amazonで予約お願いしま…",
+      "likes": 0,
+      "retweets": 11,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 07:06:06 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232463"
+    },
+    {
+      "tweet_id": "2006667488399077743",
+      "username": "paurooteri",
+      "text": "HBMとCoWoSの支配力が2026年を制すと",
+      "likes": 38,
+      "retweets": 0,
+      "replies": 3,
+      "timestamp_text": "Thu Jan 01 10:03:05 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232465"
+    },
+    {
+      "tweet_id": "2006473892655935903",
+      "username": "OmerCheeema",
+      "text": "One drawback of $NVDA's acquisition of Groq is the change of public perception of Nvidia GPUs. Before acquisition, the perception that Nvidia GPUs were all you needed to do AI. It was a mental moat of Nvidia. \n\nNow people are wondering if Groq is OK for AI, then what about",
+      "likes": 26,
+      "retweets": 1,
+      "replies": 10,
+      "timestamp_text": "Wed Dec 31 21:13:49 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232468"
+    },
+    {
+      "tweet_id": "2006466097634255274",
+      "username": "gigafactories",
+      "text": "Congratulations to the Giga Nevada team for producing their 6 millionth Drive Unit! https://t.co/NiOSRANFlX",
+      "likes": 4994,
+      "retweets": 479,
+      "replies": 370,
+      "timestamp_text": "Wed Dec 31 20:42:50 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232470"
+    },
+    {
+      "tweet_id": "2006257557929877762",
+      "username": "burkov",
+      "text": "Holy shit. Apparently at Anthropic, Claude Code just looks at Clade Code, decides to write some more of Claude Code code, and then this guy calls this new Claude Code code his contributions.",
+      "likes": 1367,
+      "retweets": 28,
+      "replies": 94,
+      "timestamp_text": "Wed Dec 31 06:54:10 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232471"
+    },
+    {
+      "tweet_id": "2006474217206985085",
+      "username": "bearlyai",
+      "text": "Instagram head Adam Mosseri just wrote 1,240 words on how AI will affect Instagram creators and social media.\n\nHere are 9 takeaways: \n\n1. By 2026, “authenticity” will be infinitely reproducible: deepfakes and AI media will look real.\n\n2. The internet already shifted power from https://t.co/LOz18JJc9l",
+      "likes": 1318,
+      "retweets": 172,
+      "replies": 61,
+      "timestamp_text": "Wed Dec 31 21:15:06 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232473"
+    },
+    {
+      "tweet_id": "2006620361883083179",
+      "username": "rosinality",
+      "text": "Detailed report on an agentic RL training framework, environment engine, and training strategies. I think this is one of the most comprehensive ones for agentic RL pipelines. https://t.co/gnJKu4fnc1",
+      "likes": 32,
+      "retweets": 5,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 06:55:50 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232475"
+    },
+    {
+      "tweet_id": "2006658435358835076",
+      "username": "kinopee_ai",
+      "text": "PR で CodeRabbit も Bugbot も検知しなかった問題を Codex CLI の /review コマンドが検知。GPT-5.2 Extra High に確かめたら \"指摘の「事実関係」は正しい\"\nこんなこともあるのが生成AIの不確実性 https://t.co/DfVc3eW9IC",
+      "likes": 7,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 09:27:07 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232477"
+    },
+    {
+      "tweet_id": "2006705329200148813",
+      "username": "Goldriver2020",
+      "text": "エヌビデア：\n\nは主要なクラウドプロバイダーと競合するのではなく\n内部チップ開発とAI研究に注力するために\nDGX Cloud部門を再編しています",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 12:33:27 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232479"
+    },
+    {
+      "tweet_id": "2006090208823910573",
+      "username": "rahulgs",
+      "text": "yes things are changing fast, but also I see companies (even faang) way behind the frontier for no reason.\n\nyou are guaranteed to lose if you fall behind. \n\nthe no unforced-errors ai leader playbook:\n\nFor your team:\n- use coding agents. give all engineers their pick of harnesses,",
+      "likes": 4746,
+      "retweets": 361,
+      "replies": 150,
+      "timestamp_text": "Tue Dec 30 19:49:11 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232480"
+    },
+    {
+      "tweet_id": "2006602316431110231",
+      "username": "cwrbp",
+      "text": "新年あけましておめでとうございます。\n本年もよろしくお願いいたします。\n\n私は今日から仕事始め。\nVCとスタートアップを取り巻く環境がますます厳しくなるなか、年末年始問わず稼働している関係者が今年は特に多い印象です。",
+      "likes": 10,
+      "retweets": 0,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 05:44:07 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232482"
+    },
+    {
+      "tweet_id": "2006657746930905292",
+      "username": "sammy_suyama",
+      "text": "確率推論として解く最適制御: モデル予測経路積分制御(MPPI)の理論と導出 https://t.co/o2fHd4d1S5",
+      "likes": 44,
+      "retweets": 6,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 09:24:23 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232483"
+    },
+    {
+      "tweet_id": "2006559846896668919",
+      "username": "ModdedQuad",
+      "text": "2026 is going to be lit y’all 🔥🦾",
+      "likes": 304,
+      "retweets": 14,
+      "replies": 16,
+      "timestamp_text": "Thu Jan 01 02:55:22 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232485"
+    },
+    {
+      "tweet_id": "2006410559269273614",
+      "username": "PeterDiamandis",
+      "text": "My moonshot with longevity is not immortality, but rather adding 10–20 years of vibrant, disease‑free life for billions of people around the world.",
+      "likes": 726,
+      "retweets": 46,
+      "replies": 82,
+      "timestamp_text": "Wed Dec 31 17:02:09 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232486"
+    },
+    {
+      "tweet_id": "2006637507652497525",
+      "username": "goto_finance",
+      "text": "◆ note運営の考え方\n2026年は後藤noteが5年目に入る年になります。会員の9割が1年以上継続の方で、運営の意識もものすごく常連シフトになっています。率直な考え方を、年頭あいさつとして記事にしました。【全文無料】で読みやすいので、よければ合間に。\n\n👇note\nhttps://t.co/9A0EKt2waj",
+      "likes": 457,
+      "retweets": 22,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 08:03:58 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232488"
+    },
+    {
+      "tweet_id": "2006671425768403171",
+      "username": "MinatoYuichiro",
+      "text": "SEMICON JAPAN 2025 ついに姿を現した半導体量子コンピュータ実機展示レポート https://t.co/CkFookq48n @YouTubeより",
+      "likes": 30,
+      "retweets": 4,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 10:18:44 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232490"
+    },
+    {
+      "tweet_id": "2006352680101515686",
+      "username": "kanesoko",
+      "text": "そこで分業するなよ！←これがおれの言いたかったこと。あと「フロントを極めた人」がスター扱いされるのマジ謎。",
+      "likes": 270,
+      "retweets": 26,
+      "replies": 6,
+      "timestamp_text": "Wed Dec 31 13:12:09 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232491"
+    },
+    {
+      "tweet_id": "2006485283106373889",
+      "username": "tszzl",
+      "text": "unbelievable. it’s been ten years since alphago. frankly there hasn’t been a moment like that since",
+      "likes": 509,
+      "retweets": 11,
+      "replies": 38,
+      "timestamp_text": "Wed Dec 31 21:59:04 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232493"
+    },
+    {
+      "tweet_id": "2006261893351256228",
+      "username": "KOBA789",
+      "text": "23時間かけて、自作 TCP/IP スタックでウェブサーバーできました！！！！！！！！　キリ番踏み逃げ禁止です！！！！！！！！！\nhttps://t.co/ZugIMzmkDV\n#ch789 https://t.co/d1HI5PwJjX",
+      "likes": 2648,
+      "retweets": 302,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 07:11:24 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232494"
+    },
+    {
+      "tweet_id": "2006431678596587548",
+      "username": "hamandcheese",
+      "text": "Jensen's CEOship is a national security emergency.",
+      "likes": 251,
+      "retweets": 11,
+      "replies": 6,
+      "timestamp_text": "Wed Dec 31 18:26:04 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232495"
+    },
+    {
+      "tweet_id": "2006655558506655756",
+      "username": "teslaownersSV",
+      "text": "Optimus walks like us.\nOptimus works like us.\nOptimus dances like us.\nOptimus even does kung fu.\n\nAnd now?\nOptimus can run. 🦾🔥\n https://t.co/MEnYLbfDCm",
+      "likes": 212,
+      "retweets": 35,
+      "replies": 43,
+      "timestamp_text": "Thu Jan 01 09:15:41 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232497"
+    },
+    {
+      "tweet_id": "2006320764639920486",
+      "username": "JsonBasedman",
+      "text": "This right here is why Palantir is a valuable company btw",
+      "likes": 2420,
+      "retweets": 75,
+      "replies": 25,
+      "timestamp_text": "Wed Dec 31 11:05:20 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232499"
+    },
+    {
+      "tweet_id": "2006629742674370779",
+      "username": "tom_doerr",
+      "text": "Generates video animations from audio waveforms\n\nhttps://t.co/fNfhg5uyEg https://t.co/3wc3qRFaBu",
+      "likes": 54,
+      "retweets": 5,
+      "replies": 2,
+      "timestamp_text": "Thu Jan 01 07:33:06 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232500"
+    },
+    {
+      "tweet_id": "2006278523649155296",
+      "username": "jy_msc",
+      "text": "転職先にはツヨツヨなML人材が多くて、良い刺激を受けている。古典から最先端まで技術領域の視野も広がった。たくさんGPU使いたいというのが転職のモチベの一つだったが、想像以上にGPUを使わせてもらえている。また入社前に思っていた以上に成果を出して貢献できたと思う",
+      "likes": 138,
+      "retweets": 2,
+      "replies": 1,
+      "timestamp_text": "Wed Dec 31 08:17:29 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232502"
+    },
+    {
+      "tweet_id": "2006649306674246054",
+      "username": "davidpattersonx",
+      "text": "This will be a very long year.\n\nI hope you enjoy it.",
+      "likes": 19,
+      "retweets": 1,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 08:50:51 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232503"
+    },
+    {
+      "tweet_id": "2006379834394419208",
+      "username": "sebkrier",
+      "text": "Gradually discovering that some of my friends in AI have the politics of your average German social democrat local councillor. It's going to be a long decade.",
+      "likes": 194,
+      "retweets": 6,
+      "replies": 10,
+      "timestamp_text": "Wed Dec 31 15:00:03 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232504"
+    },
+    {
+      "tweet_id": "2006639853736521869",
+      "username": "A7_data",
+      "text": "RT @A7_data: コンサル本も安くなっていたのでぽちぽちしちゃおかな\n\nBCG「20の思考ツール」（https://t.co/JnwWOdElKR）\n外資系コンサルの仕事の進め方（https://t.co/RvNzANvfI0）\n論点を研ぐ（https://t.co/g…",
+      "likes": 0,
+      "retweets": 24,
+      "replies": 0,
+      "timestamp_text": "Thu Jan 01 08:13:17 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232506"
+    },
+    {
+      "tweet_id": "2006389197595389961",
+      "username": "icoxfog417",
+      "text": "明けましておめでとうございます。2026 年の 12 月 31 日に \"2026 年は仕事で AI エージェントを作るのが当たり前になった一年でした\" といろんな方が振り返るようになるのを目指し働いていく所存です。作るのはもちろん AWS でね！",
+      "likes": 24,
+      "retweets": 1,
+      "replies": 0,
+      "timestamp_text": "Wed Dec 31 15:37:16 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232507"
+    },
+    {
+      "tweet_id": "2006428443060351262",
+      "username": "paularambles",
+      "text": "must suck to be writing code at any ai lab that's not anthropic right now (you can't use opus 4.5)",
+      "likes": 701,
+      "retweets": 5,
+      "replies": 21,
+      "timestamp_text": "Wed Dec 31 18:13:13 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232508"
+    },
+    {
+      "tweet_id": "2006640987184214034",
+      "username": "xiangze750",
+      "text": "拡散モデルのエントロピー生成、これはやりたかった…と思ったけど熱力学的速度限界、最適輸送との関連が岡野原さんらの論文で示された後何かが得られたのだろうか\n\nhttps://t.co/Uygfdd0CSY",
+      "likes": 79,
+      "retweets": 9,
+      "replies": 1,
+      "timestamp_text": "Thu Jan 01 08:17:47 +0000 2026",
+      "collected_at": "2026-01-01T21:54:01.232510"
+    },
+    {
+      "tweet_id": "2006428684404592674",
+      "username": "Yuchenj_UW",
+      "text": "Last day, we have 1 last day to solve this!! https://t.co/IiphRIK5yN",
+      "likes": 2213,
+      "retweets": 109,
+      "replies": 121,
+      "timestamp_text": "Wed Dec 31 18:14:10 +0000 2025",
+      "collected_at": "2026-01-01T21:54:01.232511"
+    }
+  ]
+}

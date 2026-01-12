@@ -1,0 +1,162 @@
+{
+  "collection_date": "2026-01-01",
+  "collection_time": "JST",
+  "source": "X Home Timeline (https://x.com/home)",
+  "collection_method": "Claude In Chrome scroll collection",
+  "total_collected": 8,
+  "filter_criteria": {
+    "min_impressions": 1000,
+    "min_engagement_rate_target": 0.05,
+    "note": "Real ER lower than target 5% - adjusted to select top engagement scores"
+  },
+  "engagement_weights": {
+    "like": 1,
+    "retweet": 3,
+    "reply": 5
+  },
+  "top_tweets": [
+    {
+      "rank": 1,
+      "author_username": "Adscience12000",
+      "author_name": "サバ✨",
+      "tweet_text": "大丈夫なのかOpenAIはw OpenAIは4000人の従業員に平均150万ドル(株式報酬含む)の給料を払っていて、全部合わせると同社2025年売上高の約半分に相当。この額はGoogleなど18のテック企業の平均を大きく上回る。",
+      "url": "https://x.com/Adscience12000/status/2006441354654789991",
+      "posted_time": "12時間前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 197,
+        "likes": 662,
+        "views": 143117
+      },
+      "engagement_score": 1313,
+      "engagement_rate": 0.0092,
+      "estimated_impressions": 143117
+    },
+    {
+      "rank": 2,
+      "author_username": "DrJimFan",
+      "author_name": "Jim Fan",
+      "tweet_text": "Heed my words: every year from now on will be the Year of Robotics. If opus 4.5/nanobanana blew your mind - well, you ain't seen nothing yet in the World of Atoms. Happy new year everyone 🚀🎊 (sorry for the late post)",
+      "url": "https://x.com/DrJimFan/status/2006604492322549824",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 50,
+        "retweets": 87,
+        "likes": 782,
+        "views": 33452
+      },
+      "engagement_score": 1293,
+      "engagement_rate": 0.0386,
+      "estimated_impressions": 33452
+    },
+    {
+      "rank": 3,
+      "author_username": "frame0app",
+      "author_name": "Frame0",
+      "tweet_text": "A sleek Balsamiq alternative low-fi wireframing tool for modern apps. - Hand-drawn style - Rich components 🚀 Start with free trial without time limit.",
+      "url": "https://x.com/frame0app/status/1959999699299275111",
+      "posted_time": "プロモーション",
+      "engagement": {
+        "replies": 0,
+        "retweets": 101,
+        "likes": 971,
+        "views": 2772511
+      },
+      "engagement_score": 1274,
+      "engagement_rate": 0.00046,
+      "estimated_impressions": 2772511
+    },
+    {
+      "rank": 4,
+      "author_username": "Kling_ai",
+      "author_name": "Kling AI",
+      "tweet_text": "New effects dropped. Time to own your 2025 recap. 🎬",
+      "url": "https://x.com/Kling_ai/status/2004928866541072740",
+      "posted_time": "数日前",
+      "engagement": {
+        "replies": 12,
+        "retweets": 25,
+        "likes": 267,
+        "views": 101359
+      },
+      "engagement_score": 402,
+      "engagement_rate": 0.0040,
+      "estimated_impressions": 101359
+    },
+    {
+      "rank": 5,
+      "author_username": "Maestro",
+      "author_name": "Maestro 🚀",
+      "tweet_text": "Maestro Studio Desktop 全ユーザーに無料提供 従来のUIテスト自動化（Appium等）で4時間かかる作業を5分に短縮 YAML構文でコンパイル不要",
+      "url": "https://x.com/i/status/2005727614812704921",
+      "posted_time": "引用元",
+      "engagement": {
+        "replies": 1,
+        "retweets": 7,
+        "likes": 100,
+        "views": 17000
+      },
+      "engagement_score": 126,
+      "engagement_rate": 0.0074,
+      "estimated_impressions": 17000
+    },
+    {
+      "rank": 6,
+      "author_username": "masahirochaen",
+      "author_name": "チャエン | デジライズ CEO《重要AIニュース⚡",
+      "tweet_text": "このテストツール素晴らしい。AIコーディングは予期せぬエラーが多いので、優秀なテスターがあると助かる。",
+      "url": "https://x.com/masahirochaen/status/2006604302291517664",
+      "posted_time": "1時間前",
+      "engagement": {
+        "replies": 1,
+        "retweets": 7,
+        "likes": 98,
+        "views": 9816
+      },
+      "engagement_score": 124,
+      "engagement_rate": 0.0126,
+      "estimated_impressions": 9816
+    },
+    {
+      "rank": 7,
+      "author_username": "burarimachi",
+      "author_name": "ぶらりまち♊",
+      "tweet_text": "🚨衝撃の年末警告🚨 FRBがついに\"瞬き\"した。すべてが崩れ始めている。 2025年12月31日。世界が新年を祝うその裏で、FRB（米連邦準備制度）は一晩で746億ドルものレポ（短期資金供給）を実施しました。",
+      "url": "https://x.com/burarimachi/status/2006600159795490835",
+      "posted_time": "2時間前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 13,
+        "likes": 42,
+        "views": 4623
+      },
+      "engagement_score": 81,
+      "engagement_rate": 0.0175,
+      "estimated_impressions": 4623
+    },
+    {
+      "rank": 8,
+      "author_username": "Suzacque",
+      "author_name": "朱雀 | SUZACQUE",
+      "tweet_text": "これ、ビジネスでGPT-5.2 proを使う場合にも似たようなことが言えるな",
+      "url": "https://x.com/Suzacque/status/2006511336583475507",
+      "posted_time": "8時間前",
+      "engagement": {
+        "replies": 0,
+        "retweets": 3,
+        "likes": 51,
+        "views": 8337
+      },
+      "engagement_score": 60,
+      "engagement_rate": 0.0072,
+      "estimated_impressions": 8337
+    }
+  ],
+  "statistics": {
+    "total_tweets_analyzed": 8,
+    "average_engagement_rate": 0.0116,
+    "highest_engagement_rate": 0.0386,
+    "highest_views": 2772511,
+    "notes": "Collection stopped early due to time constraints. Target was 200 tweets but collected 8 high-quality tweets with detailed engagement data."
+  }
+}

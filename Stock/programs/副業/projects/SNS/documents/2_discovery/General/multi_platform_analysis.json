@@ -1,0 +1,23 @@
+{
+  "facebook": {
+    "total_posts": 77,
+    "total_impressions": 516782,
+    "avg_impressions": 6711.454545454545
+  },
+  "x": {
+    "total_days": 90,
+    "total_impressions": 45726,
+    "avg_daily_impressions": 508.06666666666666
+  },
+  "linkedin": {
+    "total_posts": 90,
+    "total_impressions": 477791,
+    "avg_impressions": 5308.788888888889,
+    "total_engagement": 4794,
+    "engagement_rate": 1.00,
+    "period": "2025/9/23 - 2025/12/21 (90 days)",
+    "monthly_avg_impressions": 159263.67,
+    "data_source": "LinkedIn/linkedin_エンゲージメント.csv",
+    "last_updated": "2026-01-01"
+  }
+}

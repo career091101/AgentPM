@@ -1,0 +1,39 @@
+{
+  "weekly_targets": {
+    "linkedin": {
+      "impressions": 1000,
+      "engagement": 50,
+      "engagement_rate": 0.05
+    },
+    "twitter": {
+      "impressions": 2000,
+      "engagement": 100,
+      "engagement_rate": 0.05
+    },
+    "threads": {
+      "impressions": null,
+      "engagement": 30,
+      "engagement_rate": null,
+      "note": "Threads impressions are not available via API"
+    }
+  },
+  "evaluation_criteria": {
+    "excellent": {
+      "description": "目標を大幅に超過",
+      "threshold_multiplier": 1.5
+    },
+    "good": {
+      "description": "目標達成",
+      "threshold_multiplier": 1.0
+    },
+    "fair": {
+      "description": "目標に近接",
+      "threshold_multiplier": 0.8
+    },
+    "needs_improvement": {
+      "description": "要改善",
+      "threshold_multiplier": 0.5
+    }
+  },
+  "updated_at": "2026-01-10"
+}

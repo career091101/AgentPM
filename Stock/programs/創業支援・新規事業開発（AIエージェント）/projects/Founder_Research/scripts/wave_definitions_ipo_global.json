@@ -1,0 +1,289 @@
+{
+  "project": "Founder_Research_IPO_Global",
+  "description": "25 IPO Global case studies generation with 15-20 parallel agents",
+  "total_targets": 25,
+  "created_at": "2025-12-29",
+  "waves": [
+    {
+      "id": "ipo_wave1",
+      "name": "US Tech Giants Wave 1",
+      "description": "US enterprise software and cloud leaders",
+      "count": 5,
+      "targets": [
+        {
+          "id": "FOUNDER_357",
+          "company": "Snowflake",
+          "founder": "Frank Slootman",
+          "industry": "Data Cloud",
+          "ipo_year": 2020,
+          "ipo_valuation": "$70B"
+        },
+        {
+          "id": "FOUNDER_358",
+          "company": "Palantir",
+          "founder": "Peter Thiel & Alex Karp",
+          "industry": "Big Data Analytics",
+          "ipo_year": 2020,
+          "ipo_valuation": "$16B"
+        },
+        {
+          "id": "FOUNDER_359",
+          "company": "DoorDash",
+          "founder": "Tony Xu",
+          "industry": "Food Delivery",
+          "ipo_year": 2020,
+          "ipo_valuation": "$39B"
+        },
+        {
+          "id": "FOUNDER_360",
+          "company": "Airbnb",
+          "founder": "Brian Chesky",
+          "industry": "Travel/Hospitality",
+          "ipo_year": 2020,
+          "ipo_valuation": "$47B"
+        },
+        {
+          "id": "FOUNDER_361",
+          "company": "Pinterest",
+          "founder": "Ben Silbermann",
+          "industry": "Social Media",
+          "ipo_year": 2019,
+          "ipo_valuation": "$12.7B"
+        }
+      ]
+    },
+    {
+      "id": "ipo_wave2",
+      "name": "US Mobility & Enterprise",
+      "description": "Mobility platforms and cybersecurity",
+      "count": 5,
+      "targets": [
+        {
+          "id": "FOUNDER_362",
+          "company": "Uber",
+          "founder": "Travis Kalanick",
+          "industry": "Mobility/Ride-sharing",
+          "ipo_year": 2019,
+          "ipo_valuation": "$82B"
+        },
+        {
+          "id": "FOUNDER_363",
+          "company": "Lyft",
+          "founder": "Logan Green",
+          "industry": "Mobility/Ride-sharing",
+          "ipo_year": 2019,
+          "ipo_valuation": "$24B"
+        },
+        {
+          "id": "FOUNDER_364",
+          "company": "Snap",
+          "founder": "Evan Spiegel",
+          "industry": "Social Media",
+          "ipo_year": 2017,
+          "ipo_valuation": "$24B"
+        },
+        {
+          "id": "FOUNDER_365",
+          "company": "Shopify",
+          "founder": "Tobi Lütke",
+          "industry": "E-commerce Platform",
+          "ipo_year": 2015,
+          "ipo_valuation": "$1.3B"
+        },
+        {
+          "id": "FOUNDER_375",
+          "company": "CrowdStrike",
+          "founder": "George Kurtz",
+          "industry": "Cybersecurity",
+          "ipo_year": 2019,
+          "ipo_valuation": "$6.7B"
+        }
+      ]
+    },
+    {
+      "id": "ipo_wave3",
+      "name": "European Leaders",
+      "description": "European tech unicorns and IPO successes",
+      "count": 5,
+      "targets": [
+        {
+          "id": "FOUNDER_366",
+          "company": "Spotify",
+          "founder": "Daniel Ek",
+          "industry": "Music Streaming",
+          "ipo_year": 2018,
+          "ipo_valuation": "$29.5B"
+        },
+        {
+          "id": "FOUNDER_367",
+          "company": "Adyen",
+          "founder": "Pieter van der Does",
+          "industry": "FinTech/Payments",
+          "ipo_year": 2018,
+          "ipo_valuation": "$7.1B"
+        },
+        {
+          "id": "FOUNDER_368",
+          "company": "Deliveroo",
+          "founder": "Will Shu",
+          "industry": "Food Delivery",
+          "ipo_year": 2021,
+          "ipo_valuation": "$7.6B"
+        },
+        {
+          "id": "FOUNDER_369",
+          "company": "Revolut",
+          "founder": "Nikolay Storonsky",
+          "industry": "FinTech/Banking",
+          "ipo_year": null,
+          "ipo_valuation": "$33B (private)",
+          "note": "Pre-IPO unicorn planning IPO"
+        },
+        {
+          "id": "FOUNDER_379",
+          "company": "Wise",
+          "founder": "Kristo Käärmann",
+          "industry": "FinTech/Remittance",
+          "ipo_year": 2021,
+          "ipo_valuation": "$11B"
+        }
+      ]
+    },
+    {
+      "id": "ipo_wave4",
+      "name": "Asian Super Apps",
+      "description": "Asian regional champions and super apps",
+      "count": 5,
+      "targets": [
+        {
+          "id": "FOUNDER_370",
+          "company": "Grab",
+          "founder": "Anthony Tan",
+          "industry": "Super App/Mobility",
+          "ipo_year": 2021,
+          "ipo_valuation": "$39.6B"
+        },
+        {
+          "id": "FOUNDER_371",
+          "company": "Sea Limited",
+          "founder": "Forrest Li",
+          "industry": "Gaming/E-commerce",
+          "ipo_year": 2017,
+          "ipo_valuation": "$6.3B"
+        },
+        {
+          "id": "FOUNDER_372",
+          "company": "Coupang",
+          "founder": "Bom Kim",
+          "industry": "E-commerce",
+          "ipo_year": 2021,
+          "ipo_valuation": "$60B"
+        },
+        {
+          "id": "FOUNDER_373",
+          "company": "Kakao",
+          "founder": "Brian Kim",
+          "industry": "Messaging/Platform",
+          "ipo_year": 2017,
+          "ipo_valuation": "$10B+"
+        },
+        {
+          "id": "FOUNDER_374",
+          "company": "Line",
+          "founder": "Takeshi Idezawa",
+          "industry": "Messaging/Platform",
+          "ipo_year": 2016,
+          "ipo_valuation": "$9B"
+        }
+      ]
+    },
+    {
+      "id": "ipo_wave5",
+      "name": "Recent IPO Mix",
+      "description": "Recent IPOs across diverse sectors",
+      "count": 5,
+      "targets": [
+        {
+          "id": "FOUNDER_376",
+          "company": "Datadog",
+          "founder": "Olivier Pomel",
+          "industry": "Monitoring/Observability",
+          "ipo_year": 2019,
+          "ipo_valuation": "$10.9B"
+        },
+        {
+          "id": "FOUNDER_377",
+          "company": "Coinbase",
+          "founder": "Brian Armstrong",
+          "industry": "Crypto Exchange",
+          "ipo_year": 2021,
+          "ipo_valuation": "$86B"
+        },
+        {
+          "id": "FOUNDER_378",
+          "company": "Rivian",
+          "founder": "RJ Scaringe",
+          "industry": "Electric Vehicles",
+          "ipo_year": 2021,
+          "ipo_valuation": "$66B"
+        },
+        {
+          "id": "FOUNDER_380",
+          "company": "Auto1",
+          "founder": "Christian Bertermann",
+          "industry": "Auto E-commerce",
+          "ipo_year": 2021,
+          "ipo_valuation": "$5.7B"
+        },
+        {
+          "id": "FOUNDER_381",
+          "company": "Zomato",
+          "founder": "Deepinder Goyal",
+          "industry": "Food Delivery",
+          "ipo_year": 2021,
+          "ipo_valuation": "$8.6B"
+        }
+      ]
+    }
+  ],
+  "execution_strategy": {
+    "max_parallel_tasks": 20,
+    "wave_overlap": true,
+    "overlap_trigger_percent": 60,
+    "auto_execute": true,
+    "retry_failed": true,
+    "max_retries": 2,
+    "timeout_per_task": 900,
+    "quality_requirements": {
+      "min_sources": 12,
+      "min_interview_count": 10,
+      "min_ten_x_axes": 2,
+      "required_fact_check": "pass",
+      "min_file_size_kb": 18
+    }
+  },
+  "geographic_distribution": {
+    "us": 13,
+    "europe": 6,
+    "asia": 6
+  },
+  "industry_distribution": {
+    "fintech": 4,
+    "mobility": 3,
+    "food_delivery": 3,
+    "e_commerce": 3,
+    "enterprise_software": 3,
+    "social_media": 2,
+    "other": 7
+  },
+  "ipo_year_distribution": {
+    "2015": 1,
+    "2016": 1,
+    "2017": 3,
+    "2018": 2,
+    "2019": 5,
+    "2020": 4,
+    "2021": 8,
+    "pre_ipo": 1
+  }
+}

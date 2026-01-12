@@ -1,0 +1,34 @@
+{
+  "api_key": "sk_25a52d19aa714c4811832be20a11717c27c3b77c59c1d0df62f270609429cff4",
+  "base_url": "https://getlate.dev/api/v1",
+  "profiles": [
+    {
+      "_id": "69576d1e96773ceb34903b09",
+      "name": "SNS",
+      "isDefault": true
+    }
+  ],
+  "accounts": {
+    "linkedin": {
+      "accountId": "69576d354207e06f4ca837e1",
+      "username": "優一 佐藤",
+      "platform": "linkedin"
+    },
+    "twitter": {
+      "accountId": "69576e284207e06f4ca837e4",
+      "username": "yuichisatoeco",
+      "platform": "twitter"
+    },
+    "threads": {
+      "accountId": "69576df34207e06f4ca837e3",
+      "username": "ysato1101",
+      "platform": "threads"
+    },
+    "instagram": {
+      "accountId": "69576de24207e06f4ca837e2",
+      "username": "ysato1101",
+      "platform": "instagram"
+    }
+  },
+  "updated_at": "2026-01-02T17:58:00.000000"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "nddeac480dee3",
+  "title": "ゼロから始めた食品輸入、すべては1枚のライスペーパーから",
+  "url": "https://note.com/azusa/n/nddeac480dee3",
+  "author": "azusa ",
+  "author_id": "azusa",
+  "published_at": "2025-05-07T21:54:21+09:00",
+  "like_count": 3,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "azusa",
+  "genre": "creator",
+  "content": {
+    "word_count": 0,
+    "heading_count": 0,
+    "hashtags": []
+  },
+  "quality": {
+    "score": 5,
+    "tier": "D",
+    "details": {
+      "word_count": {
+        "score": 0,
+        "value": 0,
+        "status": "too_short"
+      },
+      "hashtags": {
+        "score": 0,
+        "count": 0,
+        "status": "suboptimal"
+      },
+      "likes": {
+        "score": 0,
+        "count": 3,
+        "status": "very_low"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 0,
+        "headings": 0,
+        "status": "flat"
+      },
+      "timing": {
+        "score": 5,
+        "hour": 21,
+        "status": "good_time"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:46:26"
+}

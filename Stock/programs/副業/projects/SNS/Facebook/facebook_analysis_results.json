@@ -1,0 +1,257 @@
+{
+  "basic_stats": {
+    "total_posts": 77,
+    "impressions": {
+      "total": 516782,
+      "mean": 6711.454545454545,
+      "median": 4162,
+      "max": 38875,
+      "min": 643
+    },
+    "engagement_rate": {
+      "mean": 1.2113135627152336,
+      "median": 1.109350237717908
+    }
+  },
+  "top_posts": [
+    {
+      "id": null,
+      "title": "たった1社で18万台。テスラが人型ロボット量産に向けて動き出した規模は、業界の常識を完全に覆すものだった。約1000億円という巨額を投じて中国サンファ社から調達する駆動部品は、2026年から納入が始まる。これまで年間数千台が限界だった人型ロボット業界に、自動車メーカーの量産思想が持ち込まれた瞬間だ。高級車1台分の価格で人型ロボットが買える時代が、もう2年後に迫っている。\n\nこの18万台分の部品発注",
+      "date": "10/21/2025 04:18",
+      "type": "写真",
+      "impressions": 38875,
+      "interactions": 298,
+      "reactions": 383,
+      "saves": 9,
+      "shares": 46,
+      "engagement_rate": 0.7665594855305466,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0pTtaQFYPQMUQTNUD6ZENkN9q8C9EDDPGs1ZLsC5aj8Y1GLVabuvkdCV4L8safCmzl"
+    },
+    {
+      "id": null,
+      "title": "「投資銀行のジュニアが週100時間こなす業務を、AIが代替できる時代がやってきた」とOpenAIは断言する。同社は元ゴールドマン・サックスやモルガン・スタンレー出身者など100人以上の投資銀行経験者を時給150ドルで雇用し、金融モデリング業務のAI訓練プロジェクトに着手した。5000億ドルの企業価値を誇る世界最大の非上場企業が、金融業界の働き方改革に本格参入する。\n\n「プロジェクト・マーキュリー」",
+      "date": "10/24/2025 04:58",
+      "type": "写真",
+      "impressions": 26597,
+      "interactions": 114,
+      "reactions": 109,
+      "saves": 10,
+      "shares": 17,
+      "engagement_rate": 0.4286197691468963,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0v7JVV5spVk1KykTCPnGBHKPoJyUx2UkzHqWvFwzg1b5LBtBptiZWuNEVDeT9M9hFl"
+    },
+    {
+      "id": null,
+      "title": "OpenAIのサム・アルトマンCEOは「現在提供できるサービスは非常に限られており、需要に全く追いついていない」と語る。同社とエヌビディアは史上最大規模となる1000億ドルのAIインフラ投資を発表した。10ギガワット規模の計算能力構築を目指すこのプロジェクトは、まさにAI産業革命の到来を告げるものだ。\n\nチャットGPTの利用者は7億人を超え、史上最速で成長を続けている。エヌビディアのジェンスン・フ",
+      "date": "09/24/2025 03:38",
+      "type": "写真",
+      "impressions": 23576,
+      "interactions": 94,
+      "reactions": 77,
+      "saves": 7,
+      "shares": 9,
+      "engagement_rate": 0.3987105531048524,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0ViV5pHeRdRioPhKVWK6BFCtgy9HSXXzDxSnYnV87yY6ibvMFu8MiBni9gS9qCSgul"
+    },
+    {
+      "id": null,
+      "title": "OpenAIのDevDay 2025で開発責任者らは「エージェントがコード開発を完全に自動化し、APIサーバーの起動からテスト、修正まで自律的に実行できるようになる」と断言する。同社が発表したAgentKit、Agent Builder、Codex CLIの新機能群は、企業内でのAIエージェント展開を大きく加速させる。Agent BuilderからAgents SDKへのエクスポート機能により、あ",
+      "date": "10/11/2025 03:11",
+      "type": "写真",
+      "impressions": 21709,
+      "interactions": 82,
+      "reactions": 76,
+      "saves": 6,
+      "shares": 11,
+      "engagement_rate": 0.37772352480538024,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid02wpMYDgXF6WMxKnZN3YjMegiC8v6Xh561XRgSAq9zFna6hMoJajbGGwtgDUkjih1Zl"
+    },
+    {
+      "id": null,
+      "title": "オープンAIのサム・アルトマンCEOは「スマートフォンとは異なる新しいコンピューティングの形態を生み出したい」と語る。10月6日のサンフランシスコ開発者会議で、元アップルのジョナサン・アイブと共同開発中のAIデバイスについて初めて言及した。両社は今年5月に共同プロジェクト「io」の買収を発表、2026年後半の製品化を目指している。\n\nアイブが強調したのは、生産性向上ではなく人間の幸福を追求するデザ",
+      "date": "10/10/2025 02:51",
+      "type": "写真",
+      "impressions": 20786,
+      "interactions": 112,
+      "reactions": 114,
+      "saves": 3,
+      "shares": 6,
+      "engagement_rate": 0.5388242086019436,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid036qUGRE4c9V867TA7ERRcw7rQKv66DufxAw13KsUsJiYE95R7DF12fH7QtBXSiFjpl"
+    },
+    {
+      "id": null,
+      "title": "「ChatGPTの中でアプリと直接会話できる時代が始まった」とOpenAIは発表した。8億人のユーザーが、ブッキングドットコム、Canva、Spotifyなど大手7社のアプリを自然な会話で操作できるようになる。開発者向けのApps SDKも本日公開され、誰でも対話型アプリを作れる環境が整った。\n\n従来のアプリ操作が根本から変わる。住宅購入の話をしていれば、Zillowが自動的に現れて地図上で物件を",
+      "date": "10/07/2025 04:54",
+      "type": "写真",
+      "impressions": 18529,
+      "interactions": 127,
+      "reactions": 192,
+      "saves": 16,
+      "shares": 24,
+      "engagement_rate": 0.6854120567758648,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid032f8jQjwowAeGA6AEa9TiKTLzmVcaEH5hvaGApKzbwxd3AAk3riEsGwcQsEgwiyTRl"
+    },
+    {
+      "id": null,
+      "title": "「AIインフラの真の勝者は冷却設備だった」とゴールドマン・サックスの最新分析が明らかにした。2022年以降の米国AIハードウェア支出で、HVAC(暖房・換気・空調)が半導体やデータセンターを上回る成長を記録。3カ月平均で2770億ドルという巨額投資の中で、最も急成長している分野として注目を集めている。\n\nAIブームで誰もが半導体やサーバーに目を向ける中、実は冷却システムこそが最大の制約要因となって",
+      "date": "11/07/2025 04:52",
+      "type": "写真",
+      "impressions": 17790,
+      "interactions": 111,
+      "reactions": 104,
+      "saves": 15,
+      "shares": 8,
+      "engagement_rate": 0.6239460370994941,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0NLpQke6z8frdiY2YSGAU1XdXiAihCN1EJKXJFS8K6Xpz6jHkKQLUbzjqmaHZ5SqAl"
+    }
+  ],
+  "bottom_posts": [
+    {
+      "id": null,
+      "title": "米中対立再燃で半導体供給網に一段の不透明感が広がっている。中国政府が10月に発表したレアアース輸出規制により、半導体製造装置大手ASMLで数週間の出荷遅延が発生する可能性が浮上。戦略国際問題研究所のバスカラン氏は「これまでで最も厳しい輸出規制だ。中国は世界の企業を従わせる力を持つことを示した」と指摘する。\n\n今回の規制は、自国産レアアースを微量でも含む素材の輸出に政府承認を義務付けるもので、半導体",
+      "date": "10/12/2025 03:49",
+      "type": "写真",
+      "impressions": 988,
+      "interactions": 8,
+      "reactions": 6,
+      "saves": 0,
+      "shares": 1,
+      "engagement_rate": 0.8097165991902834,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0RZtsVoxvRz71eFEUiYGBGnAoU2rSHcwXvkcgf2Hp7GmkEsZ9Bw83hXpY9uZ7piUul"
+    },
+    {
+      "id": null,
+      "title": "ジム・ゼムリン氏は「AIは対話型から、共に働く自律型エージェントへと新たなフェーズに入った」と述べました。\n同団体はアンスロピックやオープンエーアイらと共に、AIエージェントの標準化を目指す「エージェンティックAIファウンデーション（AAIF）」を設立。アンスロピックは自社開発の接続規格「モデル・コンテキスト・プロトコル（MCP）」をこれに寄贈します。グーグル、マイクロソフト、AWSなどの主要プレ",
+      "date": "12/11/2025 03:12",
+      "type": "写真",
+      "impressions": 955,
+      "interactions": 13,
+      "reactions": 13,
+      "saves": 0,
+      "shares": 0,
+      "engagement_rate": 1.3612565445026177,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid033DTdHVhztofgaWF31ZGdPEtfWPnGFkgcaXu9d2XhjetLRs6MbRrkvj1cvdDS93Q3l"
+    },
+    {
+      "id": null,
+      "title": "「今後2年以内に、Sora2は数秒から数時間の映像を一貫して生成できるようになる。しかもコストはほぼゼロだ」と元オープンAIチーフリサーチオフィサーのボブ・マグリュー氏は断言する。6年半にわたり同社の研究を率いてきた同氏が語る、次世代Soraの姿は映像制作の常識を根底から覆すものだ。\n\n現在のSoraが生成できるのは数秒の映像に過ぎない。だが数時間への拡張に必要な計算量1万倍という壁も、01モデル",
+      "date": "10/04/2025 18:25",
+      "type": "リール動画",
+      "impressions": 821,
+      "interactions": 19,
+      "reactions": 19,
+      "saves": 0,
+      "shares": 0,
+      "engagement_rate": 2.3142509135200973,
+      "link": "https://www.facebook.com/reel/822880967063564/"
+    },
+    {
+      "id": null,
+      "title": "OpenAIによる150兆円規模のデータセンター投資コミットメントをきっかけに、半導体関連株が急騰。その勢いを受け、株価指数、特に日経平均も大きく上昇した。\n\nしかし、トランプ氏の「中国製品への関税を大幅に引き上げ」発言を契機とする米中摩擦の激化やそれに伴うレアアース禁輸への懸念から、半導体サプライチェーンに混乱の兆しが見え始めている。\n\nこうした流れを受けて、半導体関連株が急落し、株価指数(特に",
+      "date": "10/10/2025 18:52",
+      "type": "コンテンツ",
+      "impressions": 783,
+      "interactions": 15,
+      "reactions": 13,
+      "saves": 0,
+      "shares": 1,
+      "engagement_rate": 1.9157088122605364,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0gbW36Y9Kb7RJEGQdMmWFBmL1zzdvKzKsQjChZP2KYUbvvLbuoSaT7qSAa5P8vY4zl"
+    },
+    {
+      "id": null,
+      "title": "心理学者のフロイトは「科学は人間の自尊心を傷つけてきた」と過去の歴史的転換点を指摘した。天動説→地動説が宇宙の中心的地位を奪い、産業革命が肉体的優位性を無効化したように、現代のAIはこれまで人間固有と思われていた「知能」という領域に、かつてない変化をもたらしている。\n\nしかし、この流れは人間が不要になることを意味しない。むしろ、過去の歴史が証明するように、私たちは新たな役割の再定義と価値の転換点に",
+      "date": "12/07/2025 02:40",
+      "type": "写真",
+      "impressions": 697,
+      "interactions": 10,
+      "reactions": 10,
+      "saves": 0,
+      "shares": 0,
+      "engagement_rate": 1.4347202295552368,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0bM2JQGJZTLkUs9b65mK2qscmHbdWDh4ybnMnmpdtVSWoAkaTePfuxFtp4NvjKEhvl"
+    },
+    {
+      "id": null,
+      "title": "「AIエージェントが1,000時間以上の自律作業ができるようになり、世界で10億体が稼働して初めて、GDPへの本格的な影響が現れる」。現在、欧州主要国の経済成長率は0％にとどまる。数千万人がChatGPTを利用しているにもかかわらず、マクロ経済への影響は限定的だ。\n\n転換点は自律作業能力の飛躍的向上にある。つい最近まで7時間が限界だったAIエージェントの連続稼働時間は、Claude 4.5の登場で",
+      "date": "10/03/2025 04:31",
+      "type": "写真",
+      "impressions": 681,
+      "interactions": 22,
+      "reactions": 21,
+      "saves": 1,
+      "shares": 1,
+      "engagement_rate": 3.2305433186490458,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid0237teEP7eybVNFHhW7bgzL5SVBkq1ExqjVssf9u2eiiF5tcvSiSHPqNbVAJJDUV8Vl"
+    },
+    {
+      "id": null,
+      "title": "「AIエージェントがユーザーの購買プロセスを代行し、チャット内で買い物を完結させる新たなECが拡大する」とエバン合同会社の川添隆CEOは指摘する。OpenAIは2025年9月に米国でInstant Checkout機能を開始。ChatGPT内で商品探しから購入まで完結できる仕組みだ。Googleも今年5月にShop with AI Modeを発表し、対話形式での商品探索を実現している。\n\nしかし日",
+      "date": "11/01/2025 03:44",
+      "type": "写真",
+      "impressions": 643,
+      "interactions": 10,
+      "reactions": 8,
+      "saves": 0,
+      "shares": 0,
+      "engagement_rate": 1.5552099533437014,
+      "link": "https://www.facebook.com/ysato1101/posts/pfbid02iLr6sPe1gWzX9ts9NPpxxKxXbW58KESJ52Kinkh4N7oSGiC8HRzcXcS2RjsrZtLSl"
+    }
+  ],
+  "type_stats": {
+    "写真": {
+      "count": 69,
+      "total_imp": 495097,
+      "total_eng": 3963,
+      "avg_imp": 7175.31884057971,
+      "avg_eng": 57.43478260869565
+    },
+    "リール動画": {
+      "count": 7,
+      "total_imp": 20902,
+      "total_eng": 272,
+      "avg_imp": 2986.0,
+      "avg_eng": 38.857142857142854
+    },
+    "コンテンツ": {
+      "count": 1,
+      "total_imp": 783,
+      "total_eng": 15,
+      "avg_imp": 783.0,
+      "avg_eng": 15.0
+    }
+  },
+  "topic_stats": {
+    "OpenAI": {
+      "count": 43,
+      "total_imp": 327098,
+      "avg_imp": 7606.930232558139
+    },
+    "AI全般": {
+      "count": 71,
+      "total_imp": 461564,
+      "avg_imp": 6500.901408450704
+    },
+    "半導体": {
+      "count": 14,
+      "total_imp": 116330,
+      "avg_imp": 8309.285714285714
+    },
+    "投資/経済": {
+      "count": 22,
+      "total_imp": 152899,
+      "avg_imp": 6949.954545454545
+    },
+    "ロボット": {
+      "count": 6,
+      "total_imp": 73013,
+      "avg_imp": 12168.833333333334
+    },
+    "Google/Gemini": {
+      "count": 12,
+      "total_imp": 37839,
+      "avg_imp": 3153.25
+    }
+  }
+}

@@ -1,0 +1,227 @@
+# Founder Agent - ForSolo Domain Configuration
+# ソロプレナー特化版設定ファイル
+
+variant: ForSolo
+version: "1.0"
+last_updated: "2025-12-30"
+description: "1人で事業を運営するソロプレナー向け特化版。コスト最小化、利益率重視"
+
+# ドメイン知識
+domain_knowledge:
+  focus_areas:
+    - "1人実行可能性"
+    - "コスト最小化"
+    - "利益率重視"
+    - "Build in Public戦略"
+    - "Micro-SaaSモデル"
+
+  reference_paths:
+    - "../../Solopreneur_Research/documents/01_App/case_studies/"
+    - "../../../startup_science/"
+
+  additional_frameworks:
+    - name: "ソロプレナーFIT"
+      path: "frameworks/solo_fit.md"
+      priority: "critical"
+    - name: "Build in Public戦略"
+      path: "frameworks/build_in_public.md"
+      priority: "high"
+    - name: "Micro-SaaS収益モデル"
+      path: "frameworks/micro_saas.md"
+      priority: "high"
+    - name: "Boilerplateビジネス"
+      path: "frameworks/boilerplate_business.md"
+      priority: "medium"
+
+# スキルオーバーライド（実行可能性・利益率重視）
+skill_overrides:
+  validate_cpf:
+    cpf_threshold: 55  # Originは60（ニッチ市場OK）
+    reason: "ニッチ市場でも1人で実行可能なら許容"
+    interview_count: 10  # Originは20
+
+  validate_psf:
+    min_10x_axes: 1  # Originは2
+    reason: "明確な1軸の優位性があればOK"
+    uvp_min_score: 25  # Originは28/40
+    solo_execution_check: true  # 1人実行可能性チェック追加
+
+  validate_unit_economics:
+    ltv_cac_ratio: 10.0  # Originは3.0（広告費ゼロ前提）
+    reason: "SEO・Build in Publicでマーケティングコストゼロ化"
+    gross_margin_target: 80  # 粗利率80%以上（Originは不問）
+    cac_target: 10  # CAC $0-10
+
+  startup_scorecard:
+    passing_score: 28  # Originは32/40
+    reason: "ニッチ市場でも利益率が高ければOK"
+    # 追加評価項目
+    solo_execution_weight: 0.3  # 実行可能性の重み30%
+
+# カスタムスキル（ForSolo限定）
+custom_skills:
+  - name: "validate-solo-fit"
+    description: "ソロプレナーFIT検証（スキル・時間・動機）"
+    trigger_keywords:
+      - "ソロプレナーFIT"
+      - "/validate-solo-fit"
+    execution_time: "30-45分"
+    priority: "P0"
+
+  - name: "create-bip-strategy"
+    description: "Build in Public戦略作成（X/Twitter活用）"
+    trigger_keywords:
+      - "Build in Public"
+      - "/create-bip-strategy"
+    execution_time: "40-60分"
+    priority: "P1"
+
+  - name: "assess-solo-execution"
+    description: "1人実行可能性評価"
+    trigger_keywords:
+      - "実行可能性"
+      - "/assess-solo-execution"
+    execution_time: "20-35分"
+    priority: "P0"
+
+  - name: "design-micro-saas-model"
+    description: "Micro-SaaS収益モデル設計"
+    trigger_keywords:
+      - "Micro-SaaS"
+      - "/design-micro-saas-model"
+    execution_time: "35-50分"
+    priority: "P1"
+
+# ソロプレナーFIT評価
+solo_fit_evaluation:
+  skills:
+    required:
+      - name: "コーディング"
+        options: ["フルスタック", "No-Code（Bubble, Webflow）"]
+        weight: 0.4
+      - name: "デザイン"
+        options: ["Figma", "Tailwind CSS", "テンプレート活用"]
+        weight: 0.2
+      - name: "マーケティング"
+        options: ["SEO", "SNS（X/Twitter）", "Build in Public"]
+        weight: 0.3
+      - name: "カスタマーサポート"
+        options: ["メール対応", "チャット対応"]
+        weight: 0.1
+
+  time_allocation:
+    minimum_hours_per_week: 20
+    ideal_hours_per_week: 40
+    sustainability_check: "6ヶ月以上継続可能か"
+
+  motivation:
+    - "なぜソロでやるのか？"
+    - "チームを作らない理由は？"
+    - "利益率重視の理由は？"
+
+# コスト最小化戦略
+cost_minimization:
+  initial_investment:
+    target: "$0-1,000"
+    breakdown:
+      domain: "$10-20/年"
+      hosting: "$0-50/月（Vercel無料枠活用）"
+      tools: "$0-100/月（必要最小限）"
+
+  monthly_cost:
+    target: "$0-50"
+    breakdown:
+      hosting: "$0-20（Vercel, Supabase）"
+      tools: "$0-30（必要最小限）"
+      marketing: "$0（SEO, Twitter）"
+
+  tech_stack_recommendation:
+    - "Frontend: Next.js + Tailwind CSS"
+    - "Backend: Vercel Serverless"
+    - "Database: Supabase（無料枠）"
+    - "Auth: Clerk / Supabase Auth"
+    - "Payment: Stripe"
+    - "Analytics: Posthog（無料枠）"
+
+# Build in Public戦略
+build_in_public:
+  platforms:
+    primary: "X/Twitter"
+    secondary: ["LinkedIn", "IndieHackers", "Product Hunt"]
+
+  content_strategy:
+    - "週3-5回投稿（開発進捗、収益報告）"
+    - "透明性重視（失敗も共有）"
+    - "コミュニティ参加（#buildinpublic, #indiehackers）"
+
+  follower_targets:
+    - "3ヶ月: 500フォロワー"
+    - "6ヶ月: 1,000フォロワー"
+    - "12ヶ月: 5,000フォロワー"
+    - "24ヶ月: 10,000フォロワー"
+
+# 収益化ロードマップ（Micro-SaaS）
+revenue_roadmap:
+  phase_0:
+    duration: "1-2ヶ月"
+    mrr_target: "$0"
+    milestones:
+      - "MVP構築"
+      - "LP公開"
+      - "Product Hunt準備"
+
+  phase_1:
+    duration: "3-6ヶ月"
+    mrr_target: "$1,000"
+    milestones:
+      - "Product Hunt #1 Product of the Day"
+      - "初期ユーザー100人"
+      - "有料プラン月額$10-50"
+
+  phase_2:
+    duration: "6-12ヶ月"
+    mrr_target: "$5,000"
+    milestones:
+      - "SEO確立（月間訪問1万PV）"
+      - "コンテンツマーケティング（ブログ50記事）"
+      - "Xフォロワー5,000人"
+
+  phase_3:
+    duration: "12ヶ月以降"
+    mrr_target: "$10,000+"
+    milestones:
+      - "フルタイム転換"
+      - "ARR $120K+"
+      - "複数プロダクト運営検討"
+
+# 成功事例パターン（参照）
+success_patterns:
+  - name: "Marc Lou"
+    product: "ShipFast"
+    model: "Boilerplate販売"
+    arr: "$500K+"
+    strategy: "Build in Public + X/Twitter"
+
+  - name: "Tony Dinh"
+    product: "BlackMagic.so"
+    model: "Micro-SaaS"
+    arr: "$500K+"
+    strategy: "Build in Public + 複数プロダクト"
+
+  - name: "Pieter Levels"
+    product: "Nomad List"
+    model: "Community + SaaS"
+    arr: "$3.5M"
+    strategy: "SEO + Build in Public"
+
+# 注意事項
+notes:
+  - "ForSoloは1人実行可能性を最優先。チーム拡大を目指す場合は他のバリアントへ移行"
+  - "利益率80%以上を目標とするため、広告費ゼロ前提"
+  - "Build in Publicは必須戦略（透明性でファン獲得）"
+
+# 更新履歴
+changelog:
+  - date: "2025-12-30"
+    version: "1.0"
+    changes: "初版作成（ForSolo特化版設定）"

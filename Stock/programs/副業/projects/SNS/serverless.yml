@@ -1,0 +1,68 @@
+# Serverless Framework設定（AWS Lambda簡単デプロイ）
+# インストール: npm install -g serverless
+# デプロイ: serverless deploy
+
+service: sns-analytics-automation
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: ap-northeast-1  # 東京リージョン
+  stage: ${opt:stage, 'prod'}
+  memorySize: 512  # MB
+  timeout: 900  # 15分（最大）
+
+  environment:
+    LATE_API_KEY: ${env:LATE_API_KEY}
+    TZ: Asia/Tokyo
+
+  iam:
+    role:
+      statements:
+        # S3アクセス（データベースバックアップ用）
+        - Effect: Allow
+          Action:
+            - s3:PutObject
+            - s3:GetObject
+          Resource:
+            - arn:aws:s3:::sns-analytics-backup/*
+
+functions:
+  dailyAnalytics:
+    handler: lambda_function.lambda_handler
+    description: Late API 日次アナリティクス収集
+    events:
+      # EventBridge Scheduler
+      - schedule:
+          rate: cron(0 0 * * ? *)  # 毎日00:00 UTC (JST 9:00)
+          enabled: true
+          input:
+            source: eventbridge-scheduler
+
+    layers:
+      # Lambda Layerで依存ライブラリ管理（オプション）
+      # - arn:aws:lambda:ap-northeast-1:123456789012:layer:python-dependencies:1
+
+plugins:
+  - serverless-python-requirements  # requirements.txt自動パッケージング
+
+custom:
+  pythonRequirements:
+    dockerizePip: true  # Lambdaと互換性のあるパッケージをビルド
+    slim: true  # 不要ファイル削除でサイズ削減
+
+# リソース定義
+resources:
+  Resources:
+    # S3バケット（データベースバックアップ用）
+    AnalyticsBackupBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: sns-analytics-backup-${self:provider.stage}
+        VersioningConfiguration:
+          Status: Enabled
+        LifecycleConfiguration:
+          Rules:
+            - Id: DeleteOldBackups
+              Status: Enabled
+              ExpirationInDays: 90  # 90日後に自動削除

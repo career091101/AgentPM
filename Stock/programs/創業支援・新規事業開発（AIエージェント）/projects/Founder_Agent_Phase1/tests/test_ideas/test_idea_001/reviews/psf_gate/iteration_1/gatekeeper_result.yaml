@@ -1,0 +1,81 @@
+# PSFゲート判定結果 - Iteration 1
+
+gatekeeper_result:
+  timestamp: "2025-12-29T20:35:00+09:00"
+  iteration: 1
+  gate_type: "PSF"
+
+  score_summary:
+    peter_thiel: 0
+    yc: 0
+    startup_science: 0
+    total: 0
+
+  verdict: "PASS"
+  action: "PROCEED_TO_STEP_7"
+
+  aggregated_issues:
+    critical: []
+    major: []
+    minor:
+      - issue: "音声入力SFAの競合調査が未実施"
+        source: "peter_thiel"
+        suggested_fix: "日米市場で音声特化SFAの存在を確認し、差別化ポイントを明確化"
+      - issue: "大手SFA参入リスクへの対策が弱い"
+        source: "peter_thiel"
+        suggested_fix: "データ蓄積を2年で1,000社に加速、SFA連携APIを早期提供"
+      - issue: "ポジショニングが曖昧（SFA置き換え vs 補完）"
+        source: "yc"
+        suggested_fix: "「SFA補完ツール」として明確化、連携を強みに訴求"
+      - issue: "業種別優先順位が不明確"
+        source: "startup_science"
+        suggested_fix: "IT/人材を第1弾、製造を第2弾と明記"
+
+  updater_instructions:
+    new_rules: []  # Minor指摘のみのためルール追加なし
+    priority_fixes:
+      - "競合調査を2週間以内に実施"
+      - "ポジショニングを明確化"
+
+  next_iteration_focus: []
+
+  # PSFゲート固有情報
+  psf_score: 88
+  psf_threshold: 80
+  ten_x_axes_achieved: 3
+  ten_x_axes_required: 2
+  pass_reason: "PSFスコア88%で優秀、10倍優位性3軸達成（目標2軸以上）。ソリューション実現可能性高く、MOAT構築可能。"
+
+# Reviewers評価サマリー（疑似実行）
+
+reviewers_summary:
+  peter_thiel:
+    total_score: 0  # 致命的な問題なし
+    verdict: "PASS"
+    key_points:
+      - "10倍優位性3軸達成は優秀"
+      - "データ蓄積型MOATは評価"
+      - "大手SFA参入リスクは要注意だが、対策方針は妥当"
+
+  yc:
+    total_score: 0
+    verdict: "PASS"
+    key_points:
+      - "UVP独自性が明確（音声3分、営業特化）"
+      - "MVP段階的アプローチが適切（オズ → LP → 本格）"
+      - "ユニットエコノミクス健全（粗利710円/月）"
+
+  startup_science:
+    total_score: 0
+    verdict: "PASS"
+    key_points:
+      - "PSFスコア88%は起業の科学の基準（80%）を上回る"
+      - "5軸比較が適切に実施されている"
+      - "フライホイール設計が明確"
+
+# 次のステップ
+next_steps:
+  - "STEP 7: LP構築に進む"
+  - "STEP 9: SNSコンテンツ作成"
+  - "STEP 10.5: スタートアップスコアカード作成"
+  - "MVP構築・PMF検証フェーズへ移行"

@@ -1,0 +1,63 @@
+{
+  "id": "nf29563eb5a56",
+  "title": "認知はお金で買えるが、興味・好意・信頼はお金では買えない。ということで、マーケターのみなさん、改めて「広報PR」を学び直してみないか？",
+  "url": "https://note.com/ikedanoriyuki/n/nf29563eb5a56",
+  "author": "池田紀行@トライバル代表",
+  "author_id": "ikedanoriyuki",
+  "published_at": "2025-08-22T08:15:32+09:00",
+  "like_count": 309,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ikedanoriyuki",
+  "genre": "business",
+  "content": {
+    "word_count": 10889,
+    "heading_count": 14,
+    "hashtags": [
+      "#マーケティング",
+      "#マーケティングの仕事",
+      "#広報の仕事",
+      "#広報PR",
+      "#マープス",
+      "#MARPS"
+    ]
+  },
+  "quality": {
+    "score": 65,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 10889,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 6,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 25,
+        "count": 309,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 14,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 8,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:53:56"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "n9ee7944ea0d0",
+  "title": "これからのマーケティングは「エンターテインメント」がブランドと顧客をつなぐ強力な結節点になるだろう、というお話",
+  "url": "https://note.com/ikedanoriyuki/n/n9ee7944ea0d0",
+  "author": "池田紀行@トライバル代表",
+  "author_id": "ikedanoriyuki",
+  "published_at": "2025-09-12T08:51:16+09:00",
+  "like_count": 241,
+  "comment_count": 3,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ikedanoriyuki",
+  "genre": "business",
+  "content": {
+    "word_count": 12446,
+    "heading_count": 10,
+    "hashtags": [
+      "#マーケティング",
+      "#SNSマーケティング",
+      "#マーケティングの仕事",
+      "#ファンダムマーケティング",
+      "#ファンダムプロモーション"
+    ]
+  },
+  "quality": {
+    "score": 80,
+    "tier": "A",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 12446,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 5,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 241,
+        "status": "high"
+      },
+      "comments": {
+        "score": 10,
+        "count": 3,
+        "status": "has_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 10,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 8,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:01"
+}

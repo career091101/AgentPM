@@ -1,0 +1,60 @@
+{
+  "id": "n8ee6b5be5f55",
+  "title": "落合陽一が何者かわからないときに読むnote 2025年版（無料配信）",
+  "url": "https://note.com/ochyai/n/n8ee6b5be5f55",
+  "author": "落合陽一",
+  "author_id": "ochyai",
+  "published_at": "2025-02-04T16:50:59+09:00",
+  "like_count": 270,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ochyai",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 112472,
+    "heading_count": 139,
+    "hashtags": [
+      "#落合陽一",
+      "#落合陽一公式",
+      "#デジタルネイチャー"
+    ]
+  },
+  "quality": {
+    "score": 70,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 112472,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 15,
+        "count": 3,
+        "status": "optimal"
+      },
+      "likes": {
+        "score": 25,
+        "count": 270,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 139,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 16,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:09"
+}

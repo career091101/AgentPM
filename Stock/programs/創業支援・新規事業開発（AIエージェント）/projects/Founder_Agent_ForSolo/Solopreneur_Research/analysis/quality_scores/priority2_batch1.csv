@@ -1,0 +1,4 @@
+filename,old_score,new_score,improvement,mrr_usd,arr_usd,japan_total
+ai_famous_002_raquel_urtasun.md,75,92,+17,1250000,15000000,11
+ai_famous_005_ilya_sutskever.md,82,95,+13,166666667,2000000000,4
+ai_famous_006_greg_brockman.md,88,98,+10,275000000,3300000000,14

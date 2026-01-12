@@ -1,0 +1,91 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-01-01T18:03:47.284943",
+    "data_period": {
+      "start": "2024-08-01",
+      "end": "2024-11-08",
+      "total_days": 100
+    },
+    "price_stats": {
+      "close_min": 30000.0,
+      "close_max": 33034.59694596363,
+      "close_mean": 31214.732810964753,
+      "close_std": 892.9037168279253
+    },
+    "volume_stats": {
+      "volume_min": 500404,
+      "volume_max": 1998189,
+      "volume_mean": 1250190.13
+    }
+  },
+  "indicator_results": {
+    "ma": {
+      "sma50": 31816.428862004086,
+      "sma200": NaN,
+      "current_price": 32919.98707879314,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 2.0
+    },
+    "macd": {
+      "macd": 292.72320198886155,
+      "signal_line": 324.6205951938934,
+      "histogram": -31.897393205031847,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.8
+    },
+    "rsi": {
+      "rsi": 69.02375748640891,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.6
+    },
+    "bollinger": {
+      "upper": 33224.519571730874,
+      "middle": 32597.83940965654,
+      "lower": 31971.159247582204,
+      "current_price": 32919.98707879314,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.4
+    },
+    "atr": {
+      "atr": 234.07823203385846,
+      "atr_percent": 0.7110520167386404,
+      "volatility": "normal",
+      "avg_atr": 278.8989307921824,
+      "weight": 1.2
+    },
+    "volume": {
+      "volume_ratio": 0.5668644431497303,
+      "current_volume": 672312,
+      "avg_volume": 1186019.0,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.0
+    },
+    "vwma": {
+      "vwma": 32608.435208924744,
+      "current_price": 32919.98707879314,
+      "diff_percent": 0.9554333652389708,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.5
+    },
+    "stochastic": {
+      "k": 76.12366571834168,
+      "d": 68.84143884217038,
+      "signal": "neutral",
+      "strength": 0.0,
+      "weight": 1.4
+    }
+  },
+  "weighted_voting": {
+    "buy_score": "0.0",
+    "sell_score": "0.0",
+    "total_weight": "10.700000000000001",
+    "final_signal": "neutral",
+    "confidence": "50.0"
+  }
+}

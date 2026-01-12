@@ -1,0 +1,202 @@
+# Founder Agent - ForStartup Domain Configuration
+# スタートアップ特化版設定ファイル
+
+variant: ForStartup
+version: "1.0"
+last_updated: "2025-12-30"
+description: "VC資金調達とスケールアップを前提としたスタートアップ向け特化版"
+
+# ドメイン知識
+domain_knowledge:
+  focus_areas:
+    - "VC ピッチング"
+    - "急成長戦略（3x YoY）"
+    - "資金調達ラウンド（Seed/Series A-C）"
+    - "スケーラビリティ検証"
+    - "ユニットエコノミクス最適化"
+
+  reference_paths:
+    - "../../Founder_Research/documents/pitch_decks/"
+    - "../../Founder_Research/documents/vc_feedback/"
+    - "../../../startup_science/"
+
+  additional_frameworks:
+    - name: "VC ピッチデッキ"
+      path: "frameworks/vc_pitch_deck.md"
+      priority: "critical"
+    - name: "資金調達ロードマップ"
+      path: "frameworks/fundraising_roadmap.md"
+      priority: "high"
+    - name: "成長率指標"
+      path: "frameworks/growth_metrics.md"
+      priority: "high"
+
+# スキルオーバーライド（Origin基準からの変更）
+skill_overrides:
+  validate_cpf:
+    cpf_threshold: 70  # Originは60
+    reason: "VC投資水準では高い課題の切実度が必要"
+    interview_count: 30  # Originは20
+    3u_min_score: 8  # 各項目最低8点（Originは不問）
+
+  validate_psf:
+    min_10x_axes: 3  # Originは2
+    reason: "スケーラビリティ重視、競合優位性の強化"
+    uvp_min_score: 35  # Originは28/40
+    uvp_max_score: 40
+
+  validate_10x:
+    min_multiplier: 10  # Originと同じ
+    required_axes:
+      - "時間短縮"
+      - "コスト削減"
+      - "品質向上"
+      # 3軸のうち最低3つで10倍達成必須
+
+  startup_scorecard:
+    passing_score: 35  # Originは32/40
+    reason: "VC調達推奨レベルのため厳格化"
+    vcready_score: 35  # 35点以上でVC調達推奨
+
+  validate_unit_economics:
+    ltv_cac_ratio: 5.0  # Originは3.0
+    reason: "高い利益率が求められる"
+    payback_period: 12  # 12ヶ月以内（Originは18ヶ月）
+
+# カスタムスキル（ForStartup限定）
+custom_skills:
+  - name: "build-pitch-deck"
+    description: "VC向けピッチデッキ自動生成（10-15スライド）"
+    trigger_keywords:
+      - "ピッチデッキ"
+      - "/build-pitch-deck"
+    execution_time: "60-90分"
+    priority: "P0"
+
+  - name: "prepare-vc-meeting"
+    description: "VC対応Q&A準備"
+    trigger_keywords:
+      - "VC準備"
+      - "/prepare-vc-meeting"
+    execution_time: "30-50分"
+    priority: "P1"
+
+  - name: "create-fundraising-plan"
+    description: "資金調達計画作成（ラウンド別マイルストーン）"
+    trigger_keywords:
+      - "資金調達計画"
+      - "/create-fundraising-plan"
+    execution_time: "40-60分"
+    priority: "P1"
+
+# 成果物テンプレート
+output_templates:
+  pitch_deck:
+    format: "Markdown → Canva/Figma"
+    slides:
+      - "Problem（課題）"
+      - "Solution（ソリューション）"
+      - "Market Size（市場規模）"
+      - "Product（プロダクト）"
+      - "Traction（トラクション）"
+      - "Business Model（収益モデル）"
+      - "Competition（競合分析）"
+      - "Go-to-Market（販売戦略）"
+      - "Team（チーム）"
+      - "Financials（財務計画）"
+      - "Ask（調達額・用途）"
+
+  financial_model:
+    format: "Excel/Google Sheets"
+    projections: "3年間"
+    key_metrics:
+      - "MRR/ARR"
+      - "Customer Acquisition"
+      - "Churn Rate"
+      - "LTV/CAC"
+      - "Burn Rate"
+      - "Runway"
+
+# メトリクス目標
+metrics_targets:
+  growth_rate:
+    monthly: 20  # 月次成長率20%以上
+    yearly: 3.0  # 年次3倍以上（3x YoY）
+
+  unit_economics:
+    ltv_cac: 5.0  # LTV/CAC比率5.0以上
+    gross_margin: 70  # 粗利率70%以上
+    payback_period: 12  # ペイバック期間12ヶ月以内
+
+  traction:
+    mrr_seed: 1_000_000  # Seed調達時MRR目標（¥100万/月）
+    mrr_series_a: 10_000_000  # Series A調達時MRR目標（¥1,000万/月）
+    customer_count_seed: 10  # Seed調達時顧客数
+    customer_count_series_a: 100  # Series A調達時顧客数
+
+# 資金調達ロードマップ
+fundraising_roadmap:
+  pre_seed:
+    amount: "¥30-50M"
+    milestones:
+      - "CPF達成（70%以上）"
+      - "MVP完成"
+      - "初期ユーザー10人"
+    valuation: "¥100-300M"
+
+  seed:
+    amount: "¥50-200M"
+    milestones:
+      - "PSF達成（10倍3軸）"
+      - "MRR ¥100万"
+      - "月次成長率15%+"
+    valuation: "¥300M-1B"
+
+  series_a:
+    amount: "¥200M-1B"
+    milestones:
+      - "PMF達成"
+      - "MRR ¥1,000万"
+      - "月次成長率20%+"
+    valuation: "¥1-5B"
+
+  series_b:
+    amount: "¥1-5B"
+    milestones:
+      - "スケール確立"
+      - "ARR ¥1億+"
+      - "収益化開始"
+    valuation: "¥5-20B"
+
+# VC典型質問リスト
+vc_typical_questions:
+  - question: "なぜ今なのか？（Why now?）"
+    answer_template: "技術トレンド、市場変化、規制変更などのタイミング要因を説明"
+
+  - question: "なぜあなたなのか？（Why you?）"
+    answer_template: "FIF（Founder-Issue-Fit）の6項目で回答"
+
+  - question: "10倍どこで勝つのか？"
+    answer_template: "10倍優位性の3軸を具体的数値で示す"
+
+  - question: "1年後のKPIは？"
+    answer_template: "MRR、ユーザー数、成長率の具体的数値目標"
+
+  - question: "競合が真似したらどうするのか？"
+    answer_template: "参入障壁（ネットワーク効果、独自技術、規模の経済）を説明"
+
+  - question: "Exit戦略は？"
+    answer_template: "M&A、IPOの具体的シナリオと時期"
+
+# 注意事項
+notes:
+  - "ForStartupは急成長を前提とするため、Originよりも厳格な基準を設定"
+  - "VC調達を目指さない場合は、Originまたは他のバリアントを推奨"
+  - "skill_overridesは全スキルに自動適用される"
+  - "custom_skillsは手動で実行する必要がある"
+
+# 更新履歴
+changelog:
+  - date: "2025-12-30"
+    version: "1.0"
+    changes: "初版作成（ForStartup特化版設定）"

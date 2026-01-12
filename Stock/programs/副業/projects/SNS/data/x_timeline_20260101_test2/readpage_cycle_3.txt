@@ -1,0 +1,110 @@
+article [ref_285]
+ link [ref_286] href="/SawyerMerritt"
+ link [ref_290] href="/SawyerMerritt"
+  generic "@SawyerMerritt" [ref_291]
+ link "2 時間前" [ref_292] href="/SawyerMerritt/status/2006636520812188143"
+ generic "'s history. • Optimus robot (Gen 3) • Cybercab • Tesla Semi • Megapack 3/Megablock • New residentia." [ref_298]
+ group "99 件の返信、226 件のリポスト、1895 件のいいね、52 件のブックマーク、52208 件の表示" [ref_311]
+  button "99 件の返信。返信する" [ref_312]
+  button "226 件のリポスト件。リポスト" [ref_313]
+  button "1895 件のいいね。いいねする" [ref_315]
+article [ref_323]
+ link [ref_324] href="/harrisonfjobe"
+ link [ref_329] href="/harrisonfjobe"
+  generic "@harrisonfjobe" [ref_330]
+ link "13 時間前" [ref_331] href="/harrisonfjobe/status/2006465515397722320"
+ generic "2025 \"wrapped\" at 6.5 billion tokens! dug through my AIS prompts to find day 1 of building..." [ref_338]
+ group "17 件の返信、10 件のリポスト、225 件のいいね、53 件のブックマーク、21321 件の表示" [ref_345]
+  button "17 件の返信。返信する" [ref_346]
+  button "10 件のリポスト件。リポスト" [ref_347]
+  button "225 件のいいね。いいねする" [ref_348]
+article [ref_354]
+ link [ref_355] href="/slow_developer"
+ link [ref_360] href="/slow_developer"
+  generic "@slow_developer" [ref_361]
+ link "1 時間前" [ref_362] href="/slow_developer/status/2006654126780764338"
+ generic "Mathematician Terence Tao says: \"AI tools are now starting to solve the easiest 'open' Erdős proble." [ref_366]
+ group "15 件の返信、9 件のリポスト、133 件のいいね、11 件のブックマーク、12465 件の表示" [ref_372]
+  button "15 件の返信。返信する" [ref_373]
+  button "9 件のリポスト件。リポスト" [ref_374]
+  button "133 件のいいね。いいねする" [ref_375]
+article [ref_381]
+ link [ref_382] href="/PaulSolt"
+ link [ref_386] href="/PaulSolt"
+  generic "@PaulSolt" [ref_387]
+ link "13 時間前" [ref_388] href="/PaulSolt/status/2006474542223708327"
+ generic "I am literally 100x faster with Codex 5.2 now than I was with ChatGPT back in January-March. I upda." [ref_392]
+ group "4 件の返信、1 件のリポスト、78 件のいいね、28 件のブックマーク、4656 件の表示" [ref_399]
+  button "4 件の返信。返信する" [ref_400]
+  button "1 件のリポスト件。リポスト" [ref_401]
+  button "78 件のいいね。いいねする" [ref_402]
+article [ref_578]
+ link [ref_579] href="/SuguruKun_ai"
+ link [ref_583] href="/SuguruKun_ai"
+  generic "@SuguruKun_ai" [ref_584]
+ link "4 時間前" [ref_585] href="/SuguruKun_ai/status/2006615830725873802"
+ generic "速報。Google AI Pro、年末年始限定で「半額」に。 年額14,500円は流石に破格すぎる... ㅤ" [ref_589]
+ group "2 件の返信、22 件のリポスト、224 件のいいね、151 件のブックマーク、60034 件の表示" [ref_609]
+  button "2 件の返信。返信する" [ref_610]
+  button "22 件のリポスト件。リポスト" [ref_611]
+  button "224 件のいいね。いいねする" [ref_612]
+article [ref_641]
+ link [ref_642] href="/SuguruKun_ai"
+ link [ref_646] href="/SuguruKun_ai"
+  generic "@SuguruKun_ai" [ref_647]
+ link "5 時間前" [ref_648] href="/SuguruKun_ai/status/2006615844223111418"
+ generic "5人で共有すれば1人あたり月240円になる計算。 家族やチームで使えば最新AI機能が実質タダ。 Deep ResearchとかNano Banana Proみたいな最新機能が全部使える... これマジ" [ref_652]
+ group "2 件の返信、1 件のリポスト、3 件のいいね、2977 件の表示" [ref_653]
+  button "2 件の返信。返信する" [ref_654]
+  button "1 件のリポスト件。リポスト" [ref_655]
+  button "3 件のいいね。いいねする" [ref_656]
+article [ref_661]
+ link [ref_662] href="/SuguruKun_ai"
+ link [ref_666] href="/SuguruKun_ai"
+  generic "@SuguruKun_ai" [ref_667]
+ link "5 時間前" [ref_668] href="/SuguruKun_ai/status/2006615865798578434"
+ generic "注意点2つ：" [ref_672]
+ group "1 件の返信、1 件のリポスト、5 件のいいね、6 件のブックマーク、3331 件の表示" [ref_682]
+  button "1 件の返信。返信する" [ref_683]
+  button "1 件のリポスト件。リポスト" [ref_684]
+  button "5 件のいいね。いいねする" [ref_685]
+article [ref_694]
+ link [ref_695] href="/dexhorthy"
+ link [ref_699] href="/dexhorthy"
+  generic "@dexhorthy" [ref_700]
+ link "19 時間前" [ref_701] href="/dexhorthy/status/2006405908096758044"
+ generic "This is sick this guy f**** ships" [ref_704]
+ group "3 件の返信、14 件のリポスト、456 件のいいね、322 件のブックマーク、56102 件の表示" [ref_719]
+  button "3 件の返信。返信する" [ref_720]
+  button "14 件のリポスト件。リポスト" [ref_721]
+  button "456 件のいいね。いいねする" [ref_722]
+article [ref_745]
+ link [ref_746] href="/Haruki_dev"
+ link [ref_750] href="/Haruki_dev"
+  generic "@Haruki_dev" [ref_751]
+ link "5 時間前" [ref_752] href="/Haruki_dev/status/2006610756582916173"
+ generic "Claudeでskillsが話題になっている背後で、淡々とNotionでこれを再現している。 Anthropicの論文やブログを全て読み込ませ、そこから見える最適解をNotionらしく改変したものを." [ref_756]
+ group "1 件の返信、17 件のいいね、12 件のブックマーク、1289 件の表示" [ref_760]
+  button "1 件の返信。返信する" [ref_761]
+  button "0 件のリポスト件。リポスト" [ref_762]
+  button "17 件のいいね。いいねする" [ref_763]
+article [ref_769]
+ link [ref_770] href="/beagle_dog_inu"
+ link [ref_774] href="/beagle_dog_inu"
+  generic "@beagle_dog_inu" [ref_775]
+ link "2025年12月31日" [ref_776] href="/beagle_dog_inu/status/2006324805713399865"
+ generic "Claude CodeによるAI駆動開発入門を読んだ" [ref_780]
+ group "6 件のリポスト、26 件のいいね、11 件のブックマーク、2178 件の表示" [ref_789]
+  button "0 件の返信。返信する" [ref_790]
+  button "6 件のリポスト件。リポスト" [ref_791]
+  button "26 件のいいね。いいねする" [ref_792]
+article [ref_797]
+ link [ref_798] href="/jarrodwatts"
+ link [ref_803] href="/jarrodwatts"
+  generic "@jarrodwatts" [ref_804]
+ link "2025年12月31日" [ref_805] href="/jarrodwatts/status/2006231693435486563"
+ generic "The \"Librarian\" Claude Code subagent. Use this to avoid context bloat by delegating token-heavy res." [ref_809]
+ group "24 件の返信、31 件のリポスト、548 件のいいね、736 件のブックマーク、30775 件の表示" [ref_813]
+  button "24 件の返信。返信する" [ref_814]
+  button "31 件のリポスト件。リポスト" [ref_815]
+  button "548 件のいいね。いいねする" [ref_816]

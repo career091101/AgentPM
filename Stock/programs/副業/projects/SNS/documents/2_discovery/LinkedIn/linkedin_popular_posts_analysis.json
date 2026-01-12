@@ -1,0 +1,203 @@
+{
+  "data_source": "linkedin_人気の投稿.csv（Top 50投稿のみ）",
+  "data_constraint": "コメント・シェア・保存の個別内訳なし。総エンゲージメントのみ。",
+  "overall_stats": {
+    "total_posts": 37,
+    "avg_impressions": 8196.54054054054,
+    "median_impressions": 6443.0,
+    "avg_engagement": 77.89189189189189,
+    "median_engagement": 69.0,
+    "avg_er": 1.1275675675675676,
+    "median_er": 1.02,
+    "min_er": 0.42,
+    "max_er": 3.38
+  },
+  "er_distribution": {
+    "under_1pct": 18,
+    "1_2pct": 16,
+    "2_3pct": 1,
+    "3_4pct": 2,
+    "4_5pct": 0,
+    "5_6pct": 0,
+    "over_6pct": 0
+  },
+  "top_bottom_comparison": {
+    "by_er": {
+      "top_10": {
+        "avg_er": 1.839,
+        "avg_impressions": 5615.0,
+        "avg_engagement": 92.7,
+        "urls": [
+          "https://www.linkedin.com/feed/update/urn:li:activity:7403206821307510786",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7402844501893132288",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7403931698029162496",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7380739059624824832",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7388348969321525248",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7390523221969842177",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7392335299948867584",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7405015647757230080",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7385449848394915840",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7386899610977386496"
+        ]
+      },
+      "bottom_10": {
+        "avg_er": 0.627,
+        "avg_impressions": 13113.3,
+        "avg_engagement": 79.6,
+        "urls": [
+          "https://www.linkedin.com/feed/update/urn:li:activity:7391248047881555968",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7376390117722304512",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7388711668756770816",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7393422340535087105",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7394147030954119168",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7387624577327280128",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7397046302108372992",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7382188254583812097",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7385087381571428352",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7381826174106296320"
+        ]
+      }
+    },
+    "by_impressions": {
+      "top_10": {
+        "avg_er": 0.8459999999999999,
+        "avg_impressions": 14264.9,
+        "avg_engagement": 111.1
+      },
+      "bottom_10": {
+        "avg_er": 1.75,
+        "avg_impressions": 4377.1,
+        "avg_engagement": 72.2
+      }
+    }
+  },
+  "monthly_trends": {
+    "2025-09": {
+      "impressions": 8794.0,
+      "engagement": 50.0,
+      "er_pct": 0.57,
+      "post_id": 1
+    },
+    "2025-10": {
+      "impressions": 9315.764705882353,
+      "engagement": 85.58823529411765,
+      "er_pct": 0.9805882352941175,
+      "post_id": 17
+    },
+    "2025-11": {
+      "impressions": 8247.214285714286,
+      "engagement": 67.5,
+      "er_pct": 0.9500000000000001,
+      "post_id": 14
+    },
+    "2025-12": {
+      "impressions": 4129.8,
+      "engagement": 86.4,
+      "er_pct": 2.2359999999999998,
+      "post_id": 5
+    }
+  },
+  "impression_er_correlation": {
+    "high_impressions": {
+      "avg_impressions": 11497.777777777777,
+      "avg_er": 0.8033333333333333
+    },
+    "low_impressions": {
+      "avg_impressions": 5069.0526315789475,
+      "avg_er": 1.434736842105263
+    },
+    "note": "高インプレッション投稿はERが低い傾向があるか？"
+  },
+  "win_loss_analysis": {
+    "winners_count": 5,
+    "winners_avg_er": 1.16,
+    "winners_avg_imp": 9152.0,
+    "losers_count": 4,
+    "losers_avg_er": 0.9450000000000001,
+    "losers_avg_imp": 5410.5,
+    "winner_urls": [
+      "https://www.linkedin.com/feed/update/urn:li:activity:7380024848393297920",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7386899610977386496",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7388348969321525248",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7391610530077106176",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7399583018341998592"
+    ]
+  },
+  "benchmark_takano": {
+    "er_range": "4-6%",
+    "user_avg_er": 1.1275675675675676,
+    "gap": -3.8724324324324324
+  },
+  "top_10_posts_by_er": [
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7403206821307510786",
+      "date_eng": "2025/12/6",
+      "er_pct": 3.38,
+      "impressions": 3399.0,
+      "engagement": 115.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7402844501893132288",
+      "date_eng": "2025/12/5",
+      "er_pct": 3.2,
+      "impressions": 3746.0,
+      "engagement": 120.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7403931698029162496",
+      "date_eng": "2025/12/8",
+      "er_pct": 2.08,
+      "impressions": 3455.0,
+      "engagement": 72.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7380739059624824832",
+      "date_eng": "2025/10/5",
+      "er_pct": 1.82,
+      "impressions": 4619.0,
+      "engagement": 84.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7388348969321525248",
+      "date_eng": "2025/10/26",
+      "er_pct": 1.37,
+      "impressions": 11065.0,
+      "engagement": 152.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7390523221969842177",
+      "date_eng": "2025/11/1",
+      "er_pct": 1.36,
+      "impressions": 4478.0,
+      "engagement": 61.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7392335299948867584",
+      "date_eng": "2025/11/6",
+      "er_pct": 1.34,
+      "impressions": 5076.0,
+      "engagement": 68.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7405015647757230080",
+      "date_eng": "2025/12/11",
+      "er_pct": 1.33,
+      "impressions": 3907.0,
+      "engagement": 52.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7385449848394915840",
+      "date_eng": "2025/10/18",
+      "er_pct": 1.31,
+      "impressions": 5739.0,
+      "engagement": 75.0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386899610977386496",
+      "date_eng": "2025/10/22",
+      "er_pct": 1.2,
+      "impressions": 10666.0,
+      "engagement": 128.0
+    }
+  ]
+}

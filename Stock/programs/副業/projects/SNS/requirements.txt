@@ -1,0 +1,28 @@
+# SNS自動化プロジェクト依存ライブラリ
+# Month 1-3段階的追加
+
+# 既存（Meta API、データ分析）
+requests==2.31.0
+pandas==2.1.4
+python-dotenv==1.0.0
+playwright==1.57.0
+
+# Month 1追加: X API統合（非推奨 - Claude In Chromeに移行）
+# tweepy==4.14.0  # Twitter API v2クライアント（API制限のため使用中止）
+
+# Month 1追加: 設定ファイル管理
+pyyaml==6.0.1  # automation_config.yaml読み込み
+
+# Month 2追加予定: 投稿文自動生成
+anthropic>=0.40.0  # Claude API（投稿文プロンプトv6実行用）
+
+# SNS管理UI統合（Phase B: 自動スケジューリング）
+Flask==3.0.0  # Flask Web API
+Flask-CORS==4.0.0  # CORS対応
+Flask-APScheduler==1.13.1  # 自動スケジューリング（Phase B）
+python-dateutil==2.8.2  # ISO 8601日時パース
+openai>=1.60.0  # OpenAI GPT-5.2（AI修正機能）
+
+# Month 3追加予定: データベース連携
+# notion-client>=2.0.0  # Notion API
+# psycopg2-binary>=2.9.0  # PostgreSQL（将来的なデータ蓄積用）

@@ -1,0 +1,63 @@
+{
+  "id": "nf36173f71304",
+  "title": "来たる本格的なAI時代に備えてマーケターが鍛え直すべき能力は「国語力」だと思うぞ、というお話",
+  "url": "https://note.com/ikedanoriyuki/n/nf36173f71304",
+  "author": "池田紀行@トライバル代表",
+  "author_id": "ikedanoriyuki",
+  "published_at": "2025-05-22T11:06:23+09:00",
+  "like_count": 131,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ikedanoriyuki",
+  "genre": "business",
+  "content": {
+    "word_count": 20547,
+    "heading_count": 13,
+    "hashtags": [
+      "#仕事",
+      "#AI",
+      "#生成AI",
+      "#マーケティング",
+      "#マーケティングの仕事",
+      "#マーケター"
+    ]
+  },
+  "quality": {
+    "score": 65,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 10,
+        "value": 20547,
+        "status": "short"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 6,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 25,
+        "count": 131,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 20,
+        "headings": 13,
+        "status": "well_structured"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 11,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:06"
+}

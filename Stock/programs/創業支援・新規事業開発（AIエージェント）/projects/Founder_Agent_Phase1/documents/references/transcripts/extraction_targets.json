@@ -1,0 +1,5306 @@
+{
+  "generated_at": "2025-12-30T09:10:00+09:00",
+  "source": "/Users/yuichi/AIPM/aipm_v0/Stock/programs/創業支援・新規事業開発（AIエージェント）/projects/Founder_Agent_Phase1/documents/1_initiating/project_charter_youtube_videos_from_channels_all.md",
+  "total_count": 522,
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "EJB2Oj_VAk8",
+      "url": "https://www.youtube.com/watch?v=EJB2Oj_VAk8",
+      "title": "AI Token Economics, Agent Swarms, and the Path to AGI | Val Bercovici, Chief AI Officer of Weka",
+      "tags": [
+        "AGI/ロードマップ",
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 2,
+      "video_id": "xeFPr1bBhj8",
+      "url": "https://www.youtube.com/watch?v=xeFPr1bBhj8",
+      "title": "João (Joe) Moura, Founder, CrewAI: Building an AI-Driven Company with Agents",
+      "tags": [
+        "AIエージェント",
+        "起業/新規事業",
+        "フレームワーク"
+      ],
+      "channel_id": "UCckOvibZFUOMpBZd2FDKhnw"
+    },
+    {
+      "index": 3,
+      "video_id": "_PxkYZ_4z50",
+      "url": "https://www.youtube.com/watch?v=_PxkYZ_4z50",
+      "title": "My Startup’s AI Agent Playbook for 5-10x Engineering Speed (with Claude Code, MCP’s, etc)",
+      "tags": [
+        "AIエージェント",
+        "起業/新規事業",
+        "フレームワーク"
+      ],
+      "channel_id": "UCEMA_xj3YeAI7Z6jsOw3peg"
+    },
+    {
+      "index": 4,
+      "video_id": "u5Vcrwpzoz8",
+      "url": "https://www.youtube.com/watch?v=u5Vcrwpzoz8",
+      "title": "\"I want Llama3 to perform 10x with my private knowledge\" - Local Agentic RAG w/ llama3",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 5,
+      "video_id": "epAUEgF8OfQ",
+      "url": "https://www.youtube.com/watch?v=epAUEgF8OfQ",
+      "title": "#305 RAG 2.0 and The New Era of RAG Agents | Douwe Kiela, CEO at Contextual AI | Inventor of RAG",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 6,
+      "video_id": "PYJSIp6JU94",
+      "url": "https://www.youtube.com/watch?v=PYJSIp6JU94",
+      "title": "#319 Building & Managing Human+Agent Hybrid Teams with Karen Ng, Head of Product at HubSpot",
+      "tags": [
+        "AGI/ロードマップ",
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 7,
+      "video_id": "jld--NLqTMg",
+      "url": "https://www.youtube.com/watch?v=jld--NLqTMg",
+      "title": "#3【Dify挑戦編】Dify × Zapier連携！MCPプラグインを使ったAIエージェント開発",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 8,
+      "video_id": "Chl-cRcwVpA",
+      "url": "https://www.youtube.com/watch?v=Chl-cRcwVpA",
+      "title": "5-Getting Started With Agentic RAG With Detailed Implementation Using LangGraph",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 9,
+      "video_id": "09tJS0ZEHms",
+      "url": "https://www.youtube.com/watch?v=09tJS0ZEHms",
+      "title": "AI Agent Crypto MCP Trading - Can AI make bag on Hyperliquid?",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 10,
+      "video_id": "Y-rQSxACvOg",
+      "url": "https://www.youtube.com/watch?v=Y-rQSxACvOg",
+      "title": "AI Dev 25 x NYC | João Moura: Design, Develop, and Deploy Multi Agent Systems with CrewAI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 11,
+      "video_id": "Xel_mF5CCAo",
+      "url": "https://www.youtube.com/watch?v=Xel_mF5CCAo",
+      "title": "AI Dev 25 x NYC | Scott Yak: Building MCP Servers That Make Agents More Effective",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 12,
+      "video_id": "QGrLG_zqxJU",
+      "url": "https://www.youtube.com/watch?v=QGrLG_zqxJU",
+      "title": "AI, AIOps & Agentic AI in Data Storage Observability",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 13,
+      "video_id": "Bk9sYapiow8",
+      "url": "https://www.youtube.com/watch?v=Bk9sYapiow8",
+      "title": "Advanced Agentic RAG And Its Types New Series-Generative AI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 14,
+      "video_id": "hSO4zjeQO48",
+      "url": "https://www.youtube.com/watch?v=hSO4zjeQO48",
+      "title": "Agentic AI 3.0 - Live Ultimate RAG Bootcamp Course Announcement",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 15,
+      "video_id": "goc2yyg2eH4",
+      "url": "https://www.youtube.com/watch?v=goc2yyg2eH4",
+      "title": "Agentic AI Transformation: Workforce Strategy & Leadership | Amazon Web Services",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCd6MoB9NC6uYN2grvUNT-Zg"
+    },
+    {
+      "index": 16,
+      "video_id": "dIb-DujRNEo",
+      "url": "https://www.youtube.com/watch?v=dIb-DujRNEo",
+      "title": "Agentic AI With Langgraph And MCP Crash Course-Part 1",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 17,
+      "video_id": "KurGnK76-EU",
+      "url": "https://www.youtube.com/watch?v=KurGnK76-EU",
+      "title": "Agentic RAG Simply Explained",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 18,
+      "video_id": "CAKGKkWf0tI",
+      "url": "https://www.youtube.com/watch?v=CAKGKkWf0tI",
+      "title": "Anatomy of AI Agents: Inside LLMs, RAG Systems, & Generative AI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 19,
+      "video_id": "WozA_qHEAqo",
+      "url": "https://www.youtube.com/watch?v=WozA_qHEAqo",
+      "title": "BeeAI Framework: Extending LLMs with Tools, RAG, & AI Agents",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 20,
+      "video_id": "Be2OQ3LQZcQ",
+      "url": "https://www.youtube.com/watch?v=Be2OQ3LQZcQ",
+      "title": "Build a RAG AI Agent with REAL-TIME Source Validation (CopilotKit + Pydantic AI)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 21,
+      "video_id": "hLSTGgc7gDc",
+      "url": "https://www.youtube.com/watch?v=hLSTGgc7gDc",
+      "title": "Building agentic RAG for e-commerce with ADK and Vector Search",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 22,
+      "video_id": "1WImBwiA7RA",
+      "url": "https://www.youtube.com/watch?v=1WImBwiA7RA",
+      "title": "Claude Skills - the SOP for your agent that is bigger than MCP",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 23,
+      "video_id": "BER3EhUIyz0",
+      "url": "https://www.youtube.com/watch?v=BER3EhUIyz0",
+      "title": "Claude plays Catan: Managing agent context with Sonnet 4.5",
+      "tags": [
+        "AGI/ロードマップ",
+        "AIエージェント"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 24,
+      "video_id": "JnKkdHaatwU",
+      "url": "https://www.youtube.com/watch?v=JnKkdHaatwU",
+      "title": "Connecting ADK Agents to MCP Servers",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 25,
+      "video_id": "G42J2MSKyc8",
+      "url": "https://www.youtube.com/watch?v=G42J2MSKyc8",
+      "title": "CrewAI Tutorial | Agentic AI Tutorial",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 26,
+      "video_id": "7iAWXJO-MbY",
+      "url": "https://www.youtube.com/watch?v=7iAWXJO-MbY",
+      "title": "Cursor 2.0 Agent Mode & Testing with MCP Servers",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 27,
+      "video_id": "guXhZ_q6sVY",
+      "url": "https://www.youtube.com/watch?v=guXhZ_q6sVY",
+      "title": "Design, Develop, and Deploy Multi-Agent Systems with CrewAI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 28,
+      "video_id": "Y_5eTTw6p58",
+      "url": "https://www.youtube.com/watch?v=Y_5eTTw6p58",
+      "title": "Full stack AI with Python: LLMs, RAG, Agents and LangGraph (Udemy)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCXgGY0wkgOzynnHvSEVmE3A"
+    },
+    {
+      "index": 29,
+      "video_id": "6B0p9rCN_p0",
+      "url": "https://www.youtube.com/watch?v=6B0p9rCN_p0",
+      "title": "GPT-5 Codex: The Best Agentic Coding Model? | MCP Testing",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 30,
+      "video_id": "od5zckQpJRo",
+      "url": "https://www.youtube.com/watch?v=od5zckQpJRo",
+      "title": "Gemini 2.5 Computer Use MCP | On The Edge #7",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "フレームワーク"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 31,
+      "video_id": "Hu3lQfg20Og",
+      "url": "https://www.youtube.com/watch?v=Hu3lQfg20Og",
+      "title": "Gemini 3.0 Computer Use: Google's FULLY FREE Browser Use AI Agent! Automate ANYTHING! (Ranked #1)",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 32,
+      "video_id": "irg-2IfAjpo",
+      "url": "https://www.youtube.com/watch?v=irg-2IfAjpo",
+      "title": "Gemini's New File Search Just Leveled Up RAG Agents (10x Cheaper)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 33,
+      "video_id": "RDvKjiR9bBU",
+      "url": "https://www.youtube.com/watch?v=RDvKjiR9bBU",
+      "title": "How To Use OpenAI Agent MCPs For Beginners",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 34,
+      "video_id": "ASjITM7lVC8",
+      "url": "https://www.youtube.com/watch?v=ASjITM7lVC8",
+      "title": "How to Add a Smart AI Agent to Your Website in 2025",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 35,
+      "video_id": "TvW4A0a75mw",
+      "url": "https://www.youtube.com/watch?v=TvW4A0a75mw",
+      "title": "How to Build Your First RAG Agent with Agent Development Kit (ADK + Vertex AI RAG Service)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 36,
+      "video_id": "AUQJ9eeP-Ls",
+      "url": "https://www.youtube.com/watch?v=AUQJ9eeP-Ls",
+      "title": "How to Build a Production-Ready RAG AI Agent in Python (Step-by-Step)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 37,
+      "video_id": "p0FERNkpyHE",
+      "url": "https://www.youtube.com/watch?v=p0FERNkpyHE",
+      "title": "Introducing RAG 2.0: Agentic RAG + Knowledge Graphs (FREE Template)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 38,
+      "video_id": "rohkXyzbryI",
+      "url": "https://www.youtube.com/watch?v=rohkXyzbryI",
+      "title": "Is WordPress outdated? We tried out \"Readdy,\" an AI agent specialized in web development that can...",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCfapRkagDtoQEkGeyD3uERQ"
+    },
+    {
+      "index": 39,
+      "video_id": "mv7G38U8iYY",
+      "url": "https://www.youtube.com/watch?v=mv7G38U8iYY",
+      "title": "Jason Lopatecki, CEO & Co-founder, Arize: Beyond Black Boxes: Rigorous Evaluation of AI Agents",
+      "tags": [
+        "AIエージェント",
+        "起業/新規事業"
+      ],
+      "channel_id": "UCckOvibZFUOMpBZd2FDKhnw"
+    },
+    {
+      "index": 40,
+      "video_id": "J7j5tCB_y4w",
+      "url": "https://www.youtube.com/watch?v=J7j5tCB_y4w",
+      "title": "LangChain Full Crash Course - AI Agents in Python",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC8wZnXYK_CGKlBcZp-GxYPA"
+    },
+    {
+      "index": 41,
+      "video_id": "HkzOrj2qeXI",
+      "url": "https://www.youtube.com/watch?v=HkzOrj2qeXI",
+      "title": "MCP + Agent Development Kit (ADK): Crash Course",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 42,
+      "video_id": "3qjb6RL3nJo",
+      "url": "https://www.youtube.com/watch?v=3qjb6RL3nJo",
+      "title": "MCP - Model Context Protocol | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 43,
+      "video_id": "X95MFcYH1_s",
+      "url": "https://www.youtube.com/watch?v=X95MFcYH1_s",
+      "title": "MCP vs. RAG: How AI Agents & LLMs Connect to Data",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 44,
+      "video_id": "Ons1Fv3IE4U",
+      "url": "https://www.youtube.com/watch?v=Ons1Fv3IE4U",
+      "title": "Orchestrator Agents & MCP: How AI Agents Drive Automation",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 45,
+      "video_id": "v0btR9rK5NM",
+      "url": "https://www.youtube.com/watch?v=v0btR9rK5NM",
+      "title": "Panel 3: Security and Governance in MCP Deployment | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 46,
+      "video_id": "04Gap8vWV28",
+      "url": "https://www.youtube.com/watch?v=04Gap8vWV28",
+      "title": "Power your AI agents with MCP tools on Google Cloud Run",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 47,
+      "video_id": "yKPAwTF1SGY",
+      "url": "https://www.youtube.com/watch?v=yKPAwTF1SGY",
+      "title": "Preparing IT for AI Agents: How MCP Shapes the Future of AI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 48,
+      "video_id": "Dc1y_pulshw",
+      "url": "https://www.youtube.com/watch?v=Dc1y_pulshw",
+      "title": "RAG is dead, long live RAG: Retrieval in the age of agents - LightOn @ Fully Connected London '25",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 49,
+      "video_id": "fB2JQXEH_94",
+      "url": "https://www.youtube.com/watch?v=fB2JQXEH_94",
+      "title": "RAG vs Agentic AI: How LLMs Connect Data for Smarter AI",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 50,
+      "video_id": "RJXio_jpc_Y",
+      "url": "https://www.youtube.com/watch?v=RJXio_jpc_Y",
+      "title": "SEM Startup Procedure and Demonstration - Electron Microscopy In The Garage",
+      "tags": [
+        "起業/新規事業",
+        "フレームワーク"
+      ],
+      "channel_id": "UC7E8-0Ou69hwScPW1_fQApA"
+    },
+    {
+      "index": 51,
+      "video_id": "3p11YqelPLs",
+      "url": "https://www.youtube.com/watch?v=3p11YqelPLs",
+      "title": "Sander van Donkelaar - Building, Deploying and Managing AI Agents at Scale - PyData Eindhoven 2025",
+      "tags": [
+        "AGI/ロードマップ",
+        "AIエージェント"
+      ],
+      "channel_id": "UCOjD18EJYcsBog4IozkF_7w"
+    },
+    {
+      "index": 52,
+      "video_id": "US18jDIDUfQ",
+      "url": "https://www.youtube.com/watch?v=US18jDIDUfQ",
+      "title": "Scale AI builds agentic workflows with AWS | Amazon Web Services",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCd6MoB9NC6uYN2grvUNT-Zg"
+    },
+    {
+      "index": 53,
+      "video_id": "7EH0VjM3dTk",
+      "url": "https://www.youtube.com/watch?v=7EH0VjM3dTk",
+      "title": "SemiAnalysis Founder Dylan Patel on New AI Regulations, Chinese AI & xAI's Surge to Hyperscale",
+      "tags": [
+        "Macrohard/xAI",
+        "起業/新規事業"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 54,
+      "video_id": "8mvUXjpqzUU",
+      "url": "https://www.youtube.com/watch?v=8mvUXjpqzUU",
+      "title": "Simplilearn Reviews | How Victor Pivoted His Career with Agile Skills #GetCertifiedGetAhead",
+      "tags": [
+        "AGI/ロードマップ",
+        "MVP/PMF/リーン"
+      ],
+      "channel_id": "UCsvqVGtbbyHaMoevxPAq9Fg"
+    },
+    {
+      "index": 55,
+      "video_id": "ciE8IHxsKno",
+      "url": "https://www.youtube.com/watch?v=ciE8IHxsKno",
+      "title": "Suger.io builds agentic AI go-to-market workflows with AWS | Amazon Web Services",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCd6MoB9NC6uYN2grvUNT-Zg"
+    },
+    {
+      "index": 56,
+      "video_id": "lqokpIme47A",
+      "url": "https://www.youtube.com/watch?v=lqokpIme47A",
+      "title": "The Finance Startup Bringing Agentic AI to Wall Street",
+      "tags": [
+        "AIエージェント",
+        "起業/新規事業"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 57,
+      "video_id": "QojPKL96Dx4",
+      "url": "https://www.youtube.com/watch?v=QojPKL96Dx4",
+      "title": "The NEW Easiest Way to Build RAG Agents in Minutes (no code)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 58,
+      "video_id": "X39OZndIWSY",
+      "url": "https://www.youtube.com/watch?v=X39OZndIWSY",
+      "title": "The Startup Powering The Data Behind AGI",
+      "tags": [
+        "AGI/ロードマップ",
+        "起業/新規事業"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 59,
+      "video_id": "l3u_FAv33G0",
+      "url": "https://www.youtube.com/watch?v=l3u_FAv33G0",
+      "title": "The arrival of AGI | Shane Legg (co-founder of DeepMind)",
+      "tags": [
+        "AGI/ロードマップ",
+        "起業/新規事業"
+      ],
+      "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
+    },
+    {
+      "index": 60,
+      "video_id": "JYZXsH1Xz0I",
+      "url": "https://www.youtube.com/watch?v=JYZXsH1Xz0I",
+      "title": "The power of context: From traditional RAG to multi-agent retrieval - Contextual AI @ FC London '25",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 61,
+      "video_id": "TlIOk8VuEBU",
+      "url": "https://www.youtube.com/watch?v=TlIOk8VuEBU",
+      "title": "Tool Calling VS MCP in AI Agents | Model Context Protocol Explained",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 62,
+      "video_id": "fqcKRn4ZjDI",
+      "url": "https://www.youtube.com/watch?v=fqcKRn4ZjDI",
+      "title": "Toolhouse: First-Ever Agent UI - Fastest & Easiest Way to Create AI Agents! NEW MCP + Toolkit!",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 63,
+      "video_id": "iWtVbgqFSFg",
+      "url": "https://www.youtube.com/watch?v=iWtVbgqFSFg",
+      "title": "Top 20 AI News Stories: OpenAI Devday 2025, Agentkit, Gemini Enterprise, MCP Update, Define Knowl...",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 64,
+      "video_id": "ObAFqcuX9MA",
+      "url": "https://www.youtube.com/watch?v=ObAFqcuX9MA",
+      "title": "Trae AI- Better Than Cursor IDE? MCP Integration, Custom AI Agents With MCP Tutorials",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 65,
+      "video_id": "WVrLGsq48dc",
+      "url": "https://www.youtube.com/watch?v=WVrLGsq48dc",
+      "title": "Trellix accelerates security workflows with agentic AI on AWS | Amazon Web Services",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCd6MoB9NC6uYN2grvUNT-Zg"
+    },
+    {
+      "index": 66,
+      "video_id": "xOO8Wt_i72s",
+      "url": "https://www.youtube.com/watch?v=xOO8Wt_i72s",
+      "title": "Turn Claude Code into Your Own INCREDIBLE UI Designer (using Playwright MCP Subagents)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCEMA_xj3YeAI7Z6jsOw3peg"
+    },
+    {
+      "index": 67,
+      "video_id": "_0qEIu78LYs",
+      "url": "https://www.youtube.com/watch?v=_0qEIu78LYs",
+      "title": "Tutorial: Building GraphRAG for All Data Types | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 68,
+      "video_id": "4P0mtuGfyx8",
+      "url": "https://www.youtube.com/watch?v=4P0mtuGfyx8",
+      "title": "Udemy- Complete Agentic AI Bootcamp With LangGraph And LangChain Is Live",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 69,
+      "video_id": "5p5cV0yVDvQ",
+      "url": "https://www.youtube.com/watch?v=5p5cV0yVDvQ",
+      "title": "Unlock the Full Power of Your n8n Agents (new instance MCP)",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 70,
+      "video_id": "sMQ5R92F86o",
+      "url": "https://www.youtube.com/watch?v=sMQ5R92F86o",
+      "title": "Unlocking Smarter AI Agents with Unstructured Data, RAG & Vector Databases",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 71,
+      "video_id": "vzJOAnwIokM",
+      "url": "https://www.youtube.com/watch?v=vzJOAnwIokM",
+      "title": "Updated Langchain Version V1 Crash Course- Build Autonomous Agents",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 72,
+      "video_id": "iV5RZ_XKXBc",
+      "url": "https://www.youtube.com/watch?v=iV5RZ_XKXBc",
+      "title": "Your ULTIMATE n8n RAG AI Agent Template just got a Massive Upgrade",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 73,
+      "video_id": "dWeWL0qRmag",
+      "url": "https://www.youtube.com/watch?v=dWeWL0qRmag",
+      "title": "phData develops agentic AI frameworks using AWS | Amazon Web Services",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UCd6MoB9NC6uYN2grvUNT-Zg"
+    },
+    {
+      "index": 74,
+      "video_id": "ZB_U5QlyY0Y",
+      "url": "https://www.youtube.com/watch?v=ZB_U5QlyY0Y",
+      "title": "rtrvr.ai v2: FULLY FREE Browser Use AI Agent! Automate ANYTHING! (Ranked #1 AI Web Agent)",
+      "tags": [
+        "Operator/ブラウザ自動化",
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 75,
+      "video_id": "npkGMKCD9wI",
+      "url": "https://www.youtube.com/watch?v=npkGMKCD9wI",
+      "title": "【AIエージェント活用術 vol.7】PIVOT MC野嶋が挑戦！ノーコードでも作れる Difyを使ったAIエージェント開発／イチから解説「戦略企画エージェント」の作り方",
+      "tags": [
+        "AIエージェント",
+        "MVP/PMF/リーン"
+      ],
+      "channel_id": "UC8yHePe_RgUBE-waRWy6olw"
+    },
+    {
+      "index": 76,
+      "video_id": "HEknPXDlTmc",
+      "url": "https://www.youtube.com/watch?v=HEknPXDlTmc",
+      "title": "【週刊AI】「AGI達成したことにして次に行きましょう」(Sam Altman氏）。業界のオピニオンリーダーKarpathy氏の2025年総括",
+      "tags": [
+        "AGI/ロードマップ",
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 77,
+      "video_id": "MGkByeDm-90",
+      "url": "https://www.youtube.com/watch?v=MGkByeDm-90",
+      "title": "\"Make Agent 10x cheaper, faster & better?\" - LLM System Evaluation 101",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 78,
+      "video_id": "EWBsmEi4V9g",
+      "url": "https://www.youtube.com/watch?v=EWBsmEi4V9g",
+      "title": "#0 [Introduction to AI Agents] Basic knowledge about AI agents for beginners!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 79,
+      "video_id": "Q9VBfj_LzUI",
+      "url": "https://www.youtube.com/watch?v=Q9VBfj_LzUI",
+      "title": "#14 Operators in Python",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC59K-uG2A5ogwIrHw4bmlEg"
+    },
+    {
+      "index": 80,
+      "video_id": "weJ83HRc5zU",
+      "url": "https://www.youtube.com/watch?v=weJ83HRc5zU",
+      "title": "#16【Dify入門】Dify×Perplexity連携挑戦！飲食店検索AIエージェント",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 81,
+      "video_id": "LMr4FjgLIzE",
+      "url": "https://www.youtube.com/watch?v=LMr4FjgLIzE",
+      "title": "#20 【Dify入門】新機能『AIエージェントノード』をゼロから理解しよう！",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 82,
+      "video_id": "OSeVMcz8p-A",
+      "url": "https://www.youtube.com/watch?v=OSeVMcz8p-A",
+      "title": "#3 【n8n入門 】AIエージェントで“自動ポケモン図鑑”を作る！初心者でも今すぐ動かせる手順を解説！",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 83,
+      "video_id": "t8jNXTe2_Gk",
+      "url": "https://www.youtube.com/watch?v=t8jNXTe2_Gk",
+      "title": "#316 Enterprise AI Agents with Jun Qian, VP of Generative AI Services at Oracle",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 84,
+      "video_id": "nTD4wZBC0CI",
+      "url": "https://www.youtube.com/watch?v=nTD4wZBC0CI",
+      "title": "#328 The Challenges of Enterprise Agentic AI | Manasi Vartak, Chief AI Architect at Cloudera",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 85,
+      "video_id": "SyS-GJ1p8Fo",
+      "url": "https://www.youtube.com/watch?v=SyS-GJ1p8Fo",
+      "title": "#329 Building Trust in AI Agents | Shane Murray, SVP of Digital Platform Analytics at Versant Media",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 86,
+      "video_id": "2YLoX7FSwYQ",
+      "url": "https://www.youtube.com/watch?v=2YLoX7FSwYQ",
+      "title": "#50 Operator Overloading in Python",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC59K-uG2A5ogwIrHw4bmlEg"
+    },
+    {
+      "index": 87,
+      "video_id": "_vrPvYBtmTk",
+      "url": "https://www.youtube.com/watch?v=_vrPvYBtmTk",
+      "title": "#6 [Dify Challenge] What is Parent-Child Chunk? Sales Analysis AI Agent Development Challenge",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 88,
+      "video_id": "38eCCc9ffIw",
+      "url": "https://www.youtube.com/watch?v=38eCCc9ffIw",
+      "title": "#6【MCP入門 】Claude × Dify 連携で業務自動化！話すだけで企業調査が完了する方法とは？",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 89,
+      "video_id": "Pe_Cyp2Fyjg",
+      "url": "https://www.youtube.com/watch?v=Pe_Cyp2Fyjg",
+      "title": "#7【MCP入門 】AI自動操作で企業問い合わせを自動化してみよう！",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 90,
+      "video_id": "fbPDcVnY1gk",
+      "url": "https://www.youtube.com/watch?v=fbPDcVnY1gk",
+      "title": "#8 [AI-Driven Development] Basic knowledge of OpenAI AgentKit that beginners should know!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 91,
+      "video_id": "ouaEORSQatY",
+      "url": "https://www.youtube.com/watch?v=ouaEORSQatY",
+      "title": "(再アップ)AIエージェントから A to Aへ (AIビジネスの基礎知識) 超知能&近未来社会 AI Business Note 第1回 9/16収録",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKaQevFzchUw5TzqjL_tBRQ"
+    },
+    {
+      "index": 92,
+      "video_id": "MW3t6jP9AOs",
+      "url": "https://www.youtube.com/watch?v=MW3t6jP9AOs",
+      "title": ".agent folder is making claude code 10x better...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 93,
+      "video_id": "HMymN0O1hrM",
+      "url": "https://www.youtube.com/watch?v=HMymN0O1hrM",
+      "title": "10x Terminals with AI Coding Agents = 100x Dev? - Codex + Claude Code",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 94,
+      "video_id": "KIOmoUrlKn0",
+      "url": "https://www.youtube.com/watch?v=KIOmoUrlKn0",
+      "title": "21 Popular AI News Items - Gamma 3.0, Notion 3.0, Gem Sharing, Zoom 3.0, Amazon's Sales AI Agent,...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 95,
+      "video_id": "NAwykfigzQ4",
+      "url": "https://www.youtube.com/watch?v=NAwykfigzQ4",
+      "title": "22 Top AI News Items - Gemini 3, Nano Banana Pro, Slide Creation with NotebookLM, Free Agent Mode...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 96,
+      "video_id": "rooK0exeBQU",
+      "url": "https://www.youtube.com/watch?v=rooK0exeBQU",
+      "title": "23 Must-See AI News Stories: Claude Skills, Copilot Vision, Gemini 3.0, DGX Spark, Agentforce360,...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 97,
+      "video_id": "Onw9znAKHWQ",
+      "url": "https://www.youtube.com/watch?v=Onw9znAKHWQ",
+      "title": "25 Top AI News Stories: Sora, Claude 4.5, Copilot Agent Mode, ChatGPT Shared Projects, Canva AI, ...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 98,
+      "video_id": "lcNN3X9gXls",
+      "url": "https://www.youtube.com/watch?v=lcNN3X9gXls",
+      "title": "3 Hidden Data Table Hacks for Smarter AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 99,
+      "video_id": "mnQmBFJEqPg",
+      "url": "https://www.youtube.com/watch?v=mnQmBFJEqPg",
+      "title": "6 simple AI Agents you must have - beginners guide",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 100,
+      "video_id": "ELBIb8z0jxc",
+      "url": "https://www.youtube.com/watch?v=ELBIb8z0jxc",
+      "title": "7 New AI Agents You Won’t Believe",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 101,
+      "video_id": "PADG1LqgVo8",
+      "url": "https://www.youtube.com/watch?v=PADG1LqgVo8",
+      "title": "70% of Enterprises Adopt AI Agents: The Real-World Impact",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 102,
+      "video_id": "ZHCB09O6zUk",
+      "url": "https://www.youtube.com/watch?v=ZHCB09O6zUk",
+      "title": "A Brief History of AI: From Machine Learning to Gen AI to Agentic AI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 103,
+      "video_id": "JIDil4HVcrw",
+      "url": "https://www.youtube.com/watch?v=JIDil4HVcrw",
+      "title": "A brain-inspired agentic architecture to improve planning with LLMs",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ"
+    },
+    {
+      "index": 104,
+      "video_id": "BFWviieMyGw",
+      "url": "https://www.youtube.com/watch?v=BFWviieMyGw",
+      "title": "AG-UI Just Released: The NEW WAVE of AI Agent Apps",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 105,
+      "video_id": "4OOS96i2gfI",
+      "url": "https://www.youtube.com/watch?v=4OOS96i2gfI",
+      "title": "AI Agents Are Overused. Here’s What to Build Instead",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 106,
+      "video_id": "BiN-NTTQ7tc",
+      "url": "https://www.youtube.com/watch?v=BiN-NTTQ7tc",
+      "title": "AI Agents Explained: The Technology That's Changing Everything (2025 Guide) & How to Build Your Own",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4MZ7zUHb5eAxU75Dc_nqdQ"
+    },
+    {
+      "index": 107,
+      "video_id": "leC9vkDsGqM",
+      "url": "https://www.youtube.com/watch?v=leC9vkDsGqM",
+      "title": "AI Agents and Data Integration: Redefining Data Engineering",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 108,
+      "video_id": "aoX_pGQMbEM",
+      "url": "https://www.youtube.com/watch?v=aoX_pGQMbEM",
+      "title": "AI Agents can write 10,000 lines of hacking code in seconds [Dr. Ilia Shumailov]",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMLtBahI5DMrt0NPvDSoIRQ"
+    },
+    {
+      "index": 109,
+      "video_id": "HCh3nOLuUCA",
+      "url": "https://www.youtube.com/watch?v=HCh3nOLuUCA",
+      "title": "AI Agents for Visual Inspection in Manufacturing",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g"
+    },
+    {
+      "index": 110,
+      "video_id": "t_zeCzH7u1w",
+      "url": "https://www.youtube.com/watch?v=t_zeCzH7u1w",
+      "title": "AI Agents, Mega Rounds, and 2026 Predictions | Equity Podcast",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 111,
+      "video_id": "9-6LtfjYmpg",
+      "url": "https://www.youtube.com/watch?v=9-6LtfjYmpg",
+      "title": "AI Agents: No Code vs Code Frameworks - Which one is right for you?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 112,
+      "video_id": "XrYwFUdu2lk",
+      "url": "https://www.youtube.com/watch?v=XrYwFUdu2lk",
+      "title": "AI Dev 25 x NYC | Christoph Meyer, Lars Heling: Improving AI Agent Discovery with a Knowledge Graph",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 113,
+      "video_id": "K_GD2Y0O4JM",
+      "url": "https://www.youtube.com/watch?v=K_GD2Y0O4JM",
+      "title": "AI Dev 25 x NYC | David Park: Impact of Agentic AI in Financial Services on Document Extraction",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 114,
+      "video_id": "8tg8z-Fi0MU",
+      "url": "https://www.youtube.com/watch?v=8tg8z-Fi0MU",
+      "title": "AI Dev 25 x NYC | Tanveer Mittal, Utkarsh Lamba: Building with the Claude Agent SDK",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 115,
+      "video_id": "fGSpr8bHxcM",
+      "url": "https://www.youtube.com/watch?v=fGSpr8bHxcM",
+      "title": "AI Dev 25 x NYC | Tyler Slaton: Build User Facing Agentic Applications with AG UI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 116,
+      "video_id": "1HHZdB2O2tI",
+      "url": "https://www.youtube.com/watch?v=1HHZdB2O2tI",
+      "title": "AI Is CHANGING EVERYTHING: Veo 3.1, ChatGPT Checkout & The Agentic Era",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCOFl0wDeBMSBbK3jNJQHHFg"
+    },
+    {
+      "index": 117,
+      "video_id": "z7YsP05thd0",
+      "url": "https://www.youtube.com/watch?v=z7YsP05thd0",
+      "title": "AI JUST LEVELED UP: ChatGPT Agents, Robots & China’s Power Move",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCOFl0wDeBMSBbK3jNJQHHFg"
+    },
+    {
+      "index": 118,
+      "video_id": "BCW-wrDzWCs",
+      "url": "https://www.youtube.com/watch?v=BCW-wrDzWCs",
+      "title": "AI NEWS: Can ChatGPT's Agent Do Everything For You Now?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UChpleBmo18P08aKCIgti38g"
+    },
+    {
+      "index": 119,
+      "video_id": "lglldcu24ok",
+      "url": "https://www.youtube.com/watch?v=lglldcu24ok",
+      "title": "AI Round-up: Karpathy Reactions, OpenAI’s Dealmaking, & Bubble Reality Check",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 120,
+      "video_id": "zt0JA5rxdfM",
+      "url": "https://www.youtube.com/watch?v=zt0JA5rxdfM",
+      "title": "AI Trends 2026: Quantum, Agentic AI & Smarter Automation",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 121,
+      "video_id": "S6wc6yvoZLY",
+      "url": "https://www.youtube.com/watch?v=S6wc6yvoZLY",
+      "title": "AI agents are paying each other now…",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "index": 122,
+      "video_id": "SdNRWJ-oqjY",
+      "url": "https://www.youtube.com/watch?v=SdNRWJ-oqjY",
+      "title": "AI agents in 2025: Why agentic commerce isn't ready for Black Friday yet",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 123,
+      "video_id": "l93vxp-jcvY",
+      "url": "https://www.youtube.com/watch?v=l93vxp-jcvY",
+      "title": "AI agents: The future of secure code",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 124,
+      "video_id": "HXy3J1mGHRE",
+      "url": "https://www.youtube.com/watch?v=HXy3J1mGHRE",
+      "title": "AI and automation expert on how leaders use AI agents to get ahead | Pascal Bornet",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw"
+    },
+    {
+      "index": 125,
+      "video_id": "ITyxrAdt4Gs",
+      "url": "https://www.youtube.com/watch?v=ITyxrAdt4Gs",
+      "title": "AI エージェントによる臨床研究と商業化の加速",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 126,
+      "video_id": "GJpfVaRaPNY",
+      "url": "https://www.youtube.com/watch?v=GJpfVaRaPNY",
+      "title": "AI エージェントの可能性を最大限に引き出す AI-Q NVIDIA Blueprint",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 127,
+      "video_id": "w5xtbdoPfTg",
+      "url": "https://www.youtube.com/watch?v=w5xtbdoPfTg",
+      "title": "AI-Driven Collaboration with Notion's Ryan Nystrom | Exploring Notion 3.0 and Custom AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 128,
+      "video_id": "aPXJLb6-uxM",
+      "url": "https://www.youtube.com/watch?v=aPXJLb6-uxM",
+      "title": "AIは既に次のフェーズへ！AIベンチマーク開発者の講演から《知能の仕組み》を紐解き、「エージェントの時代」から「イノベーターの時代」への移行の真価を理解した一週間（2025年7月12日配信版_後編）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 129,
+      "video_id": "eVXMETKLqxw",
+      "url": "https://www.youtube.com/watch?v=eVXMETKLqxw",
+      "title": "AIエージェントとは何かがスッキリ分かる動画【仕組みも解説】",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC9AuyS7U4PxeDSNMJ2srarA"
+    },
+    {
+      "index": 130,
+      "video_id": "SsjV88U84uo",
+      "url": "https://www.youtube.com/watch?v=SsjV88U84uo",
+      "title": "AIエージェントに必要？ClaudeのThink Toolが良さそうだったので解説してみた",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 131,
+      "video_id": "4eSfT8QuYFc",
+      "url": "https://www.youtube.com/watch?v=4eSfT8QuYFc",
+      "title": "AIエージェントの力を解き放つ：CACEISがVAST DataとNVIDIAとともに、顧客との対話を再定義",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 132,
+      "video_id": "ZLW87bBYeJE",
+      "url": "https://www.youtube.com/watch?v=ZLW87bBYeJE",
+      "title": "AIエージェント新時代の到来？「学ぶ」を変えるMicrosoft Amplifierとは｜伊藤穰一",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCdpNM_rxeWmHuzqoVDgBayw"
+    },
+    {
+      "index": 133,
+      "video_id": "847eGg-X7Us",
+      "url": "https://www.youtube.com/watch?v=847eGg-X7Us",
+      "title": "AIエージェント時代に活躍する7つの習慣～どのようにAIに向き合うべきか？について、いけともの経験から徹底解説",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 134,
+      "video_id": "pablEq295Wc",
+      "url": "https://www.youtube.com/watch?v=pablEq295Wc",
+      "title": "AWS needs you to believe in AI agents | Equity Podcast",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 135,
+      "video_id": "P4VFL9nIaIA",
+      "url": "https://www.youtube.com/watch?v=P4VFL9nIaIA",
+      "title": "Agent Development Kit (ADK) Masterclass: Build AI Agents & Automate Workflows (Beginner to Pro)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 136,
+      "video_id": "AF5BBIj3N-Q",
+      "url": "https://www.youtube.com/watch?v=AF5BBIj3N-Q",
+      "title": "Agent Handoffs | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 137,
+      "video_id": "FqF4b7Uemfc",
+      "url": "https://www.youtube.com/watch?v=FqF4b7Uemfc",
+      "title": "Agentic AI & LLMs Power Real‑Time Insights at Wimbledon & US Open",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 138,
+      "video_id": "l5GLvMlfIyg",
+      "url": "https://www.youtube.com/watch?v=l5GLvMlfIyg",
+      "title": "Agentic AI Bootcamp With No Code Tools n8n Udemy Course Announcement",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 139,
+      "video_id": "IaJ2jXmljmM",
+      "url": "https://www.youtube.com/watch?v=IaJ2jXmljmM",
+      "title": "Agentic AI Meets Shadow AI : Zero Trust Security for AI Automation",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 140,
+      "video_id": "SP-b_G74Nuk",
+      "url": "https://www.youtube.com/watch?v=SP-b_G74Nuk",
+      "title": "Agentic AI Project in LangGraph | Build Lovable Clone",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 141,
+      "video_id": "DNBaUCCST3I",
+      "url": "https://www.youtube.com/watch?v=DNBaUCCST3I",
+      "title": "Agentic AI Roadmap 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 142,
+      "video_id": "CnXdddeZ4tQ",
+      "url": "https://www.youtube.com/watch?v=CnXdddeZ4tQ",
+      "title": "Agentic AI Tutorial for Beginners | Langgraph Tutorial",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 143,
+      "video_id": "yDpV_jgO93c",
+      "url": "https://www.youtube.com/watch?v=yDpV_jgO93c",
+      "title": "Agentic AI With Autogen Crash Course Ft: @tech.mayankagg",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 144,
+      "video_id": "mlLdzM2Xp08",
+      "url": "https://www.youtube.com/watch?v=mlLdzM2Xp08",
+      "title": "Agentic Behavior & Multi-Agent Basics | Multi Agent Workflows for Beginners | Part 1",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 145,
+      "video_id": "5TBsXGdmkc0",
+      "url": "https://www.youtube.com/watch?v=5TBsXGdmkc0",
+      "title": "Agentic With LangGraph Crash Course-Part 2- Debugging And Monitering",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 146,
+      "video_id": "cTBGIKAckKE",
+      "url": "https://www.youtube.com/watch?v=cTBGIKAckKE",
+      "title": "Amazon Bedrock AgentCore Tutorial | Build, Deploy, Operate AI Agents using AgentCore",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 147,
+      "video_id": "wXujj978x6o",
+      "url": "https://www.youtube.com/watch?v=wXujj978x6o",
+      "title": "An AI agent can continue developing autonomously for \"several days\"?! Claude explains the new mec...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 148,
+      "video_id": "X5z1ZaEaJjU",
+      "url": "https://www.youtube.com/watch?v=X5z1ZaEaJjU",
+      "title": "Anatomy of an Agent: Anthropic’s Claude 4 and Enterprise-Grade Autonomy | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 149,
+      "video_id": "iaZS1jer8MY",
+      "url": "https://www.youtube.com/watch?v=iaZS1jer8MY",
+      "title": "Android malware that acts like a person and AI agents that act like malware",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 150,
+      "video_id": "sVXOYsgIig8",
+      "url": "https://www.youtube.com/watch?v=sVXOYsgIig8",
+      "title": "Ansh Kanwar and Shon Burton on the Future of AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCckOvibZFUOMpBZd2FDKhnw"
+    },
+    {
+      "index": 151,
+      "video_id": "JdT78t1Offo",
+      "url": "https://www.youtube.com/watch?v=JdT78t1Offo",
+      "title": "Anthropic Co-founder: Building Claude Code, Lessons From GPT-3 & LLM System Design",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 152,
+      "video_id": "cCAdoswM8WM",
+      "url": "https://www.youtube.com/watch?v=cCAdoswM8WM",
+      "title": "Anthropic founder warns the world of what's coming...",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "index": 153,
+      "video_id": "EcwsvwVJnY4",
+      "url": "https://www.youtube.com/watch?v=EcwsvwVJnY4",
+      "title": "Anthropic's co-founder is throwing up MASSIVE red flags...",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "index": 154,
+      "video_id": "nItsfXwujjg",
+      "url": "https://www.youtube.com/watch?v=nItsfXwujjg",
+      "title": "Anthropic’s NEW Claude Code Review Agent (Full Open Source Workflow)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEMA_xj3YeAI7Z6jsOw3peg"
+    },
+    {
+      "index": 155,
+      "video_id": "2jOnoTEk-xA",
+      "url": "https://www.youtube.com/watch?v=2jOnoTEk-xA",
+      "title": "Aravind Srinivas: Perplexity's Race to Build Agentic Search",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 156,
+      "video_id": "2HVFruvFf08",
+      "url": "https://www.youtube.com/watch?v=2HVFruvFf08",
+      "title": "Are you ready for AI agents?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 157,
+      "video_id": "TiN_QaEfCYc",
+      "url": "https://www.youtube.com/watch?v=TiN_QaEfCYc",
+      "title": "Atlas Browser by ChatGPT: The Smartest (and Creepiest?) Browser Yet",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCCKx8mAHiFus-XYQLy_WnaA"
+    },
+    {
+      "index": 158,
+      "video_id": "8NKhyaBpfIU",
+      "url": "https://www.youtube.com/watch?v=8NKhyaBpfIU",
+      "title": "Automate Tasks with Pre-Built AI Agents | n8n Tutorial 🔥",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCeVMnSShP_Iviwkknt83cww"
+    },
+    {
+      "index": 159,
+      "video_id": "5jwiwaPyZCE",
+      "url": "https://www.youtube.com/watch?v=5jwiwaPyZCE",
+      "title": "Automating knowledge work with AI agents - LlamaIndex @ Fully Connected London '25",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 160,
+      "video_id": "6sSPFNrDFMI",
+      "url": "https://www.youtube.com/watch?v=6sSPFNrDFMI",
+      "title": "Automation without coding! Create commands incorporating Skills/Subagents with Claude Code Workfl...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 161,
+      "video_id": "ESIL0Rzl5VQ",
+      "url": "https://www.youtube.com/watch?v=ESIL0Rzl5VQ",
+      "title": "Autoscaling your AI agent under load",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 162,
+      "video_id": "8_liatgLkLc",
+      "url": "https://www.youtube.com/watch?v=8_liatgLkLc",
+      "title": "Avoid Messy Code: Design Patterns for AI Agents in Python",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCVhQ2NnY5Rskt6UjCUkJ_DA"
+    },
+    {
+      "index": 163,
+      "video_id": "HFEwfd7OMLQ",
+      "url": "https://www.youtube.com/watch?v=HFEwfd7OMLQ",
+      "title": "Best AI Agent Frameworks & Dev Kits [2025] – Top 7 Ranked",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCGdOo5ARCSpxFQ-ssIsgi4Q"
+    },
+    {
+      "index": 164,
+      "video_id": "Wr0AsdR-I3k",
+      "url": "https://www.youtube.com/watch?v=Wr0AsdR-I3k",
+      "title": "Best Agentic AI Framework",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 165,
+      "video_id": "824Fyh146_w",
+      "url": "https://www.youtube.com/watch?v=824Fyh146_w",
+      "title": "Better than Cursor? Future Agentic Coding available today",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 166,
+      "video_id": "UuMznUFQflo",
+      "url": "https://www.youtube.com/watch?v=UuMznUFQflo",
+      "title": "Bioshok explains the difference between AI and AGI: AI will increase economic growth by 10 to 20 ...",
+      "tags": [
+        "AGI/ロードマップ"
+      ],
+      "channel_id": "UCKaQevFzchUw5TzqjL_tBRQ"
+    },
+    {
+      "index": 167,
+      "video_id": "eSbeub2ZeNk",
+      "url": "https://www.youtube.com/watch?v=eSbeub2ZeNk",
+      "title": "Build & Deploy a Python AI Agent in 20 Minutes",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 168,
+      "video_id": "ni8Xl0ANx0E",
+      "url": "https://www.youtube.com/watch?v=ni8Xl0ANx0E",
+      "title": "Build ANY AI Agent with this Context Engineering Blueprint",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 169,
+      "video_id": "tFFKuq2t0rI",
+      "url": "https://www.youtube.com/watch?v=tFFKuq2t0rI",
+      "title": "Build ANYTHING with Base44 and n8n AI Agents (beginner's guide)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 170,
+      "video_id": "X80ljdCPM_U",
+      "url": "https://www.youtube.com/watch?v=X80ljdCPM_U",
+      "title": "Build ANYTHING with Claude Sonnet 4.5 and n8n AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 171,
+      "video_id": "Vb1SwBAn9cQ",
+      "url": "https://www.youtube.com/watch?v=Vb1SwBAn9cQ",
+      "title": "Build ANYTHING with Gemini 3 Pro and n8n AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 172,
+      "video_id": "hj0nTLbhIEY",
+      "url": "https://www.youtube.com/watch?v=hj0nTLbhIEY",
+      "title": "Build ANYTHING with Gemini 3 | The Agent Factory Podcast",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 173,
+      "video_id": "gGCwSIlIRlY",
+      "url": "https://www.youtube.com/watch?v=gGCwSIlIRlY",
+      "title": "Build Anything with GPT-5 and n8n AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 174,
+      "video_id": "VKAq_PA_21U",
+      "url": "https://www.youtube.com/watch?v=VKAq_PA_21U",
+      "title": "Build MCP business for vibe coder",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 175,
+      "video_id": "8jfcloETVVI",
+      "url": "https://www.youtube.com/watch?v=8jfcloETVVI",
+      "title": "Build Multiple Projects in Parallel with This Agentic AI Tool 🔥",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCeVMnSShP_Iviwkknt83cww"
+    },
+    {
+      "index": 176,
+      "video_id": "BMt-qvrEcFY",
+      "url": "https://www.youtube.com/watch?v=BMt-qvrEcFY",
+      "title": "Build Serverless AI Agents with Langbase",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+    },
+    {
+      "index": 177,
+      "video_id": "Jekzc6BM5_w",
+      "url": "https://www.youtube.com/watch?v=Jekzc6BM5_w",
+      "title": "Build Your First AI Agent in 20 Minutes (No Coding Required)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 178,
+      "video_id": "TXVyxJdlzQs",
+      "url": "https://www.youtube.com/watch?v=TXVyxJdlzQs",
+      "title": "Build Your First Voice AI Agent in 20 Minutes with LiveKit (Open Source)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 179,
+      "video_id": "gaGaPpnexxA",
+      "url": "https://www.youtube.com/watch?v=gaGaPpnexxA",
+      "title": "Build a Python AI Agent in 10 Minutes",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 180,
+      "video_id": "9i3ic1sVhlI",
+      "url": "https://www.youtube.com/watch?v=9i3ic1sVhlI",
+      "title": "Build an AI Army With Claude Code’s New Sub-Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 181,
+      "video_id": "q4YnO0MBaeI",
+      "url": "https://www.youtube.com/watch?v=q4YnO0MBaeI",
+      "title": "Build reliable AI agents using W&B Training",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 182,
+      "video_id": "ZkYxLIsqJoo",
+      "url": "https://www.youtube.com/watch?v=ZkYxLIsqJoo",
+      "title": "Build your own AI Agent with OpenAI Agent Builder",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 183,
+      "video_id": "JXJJ34loId8",
+      "url": "https://www.youtube.com/watch?v=JXJJ34loId8",
+      "title": "Building AI & Agentic Workflows with Inngest Backend and Next.js",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 184,
+      "video_id": "Wg8ue17LMT8",
+      "url": "https://www.youtube.com/watch?v=Wg8ue17LMT8",
+      "title": "Building AI Agents & Agentic AI System via Microsoft AutoGen Udemy Course Is Live!!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 185,
+      "video_id": "hwWGx91hwY0",
+      "url": "https://www.youtube.com/watch?v=hwWGx91hwY0",
+      "title": "Building Production-Ready AI Agents with Strands Agents — Du’An Lightfoot (AWS)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCckOvibZFUOMpBZd2FDKhnw"
+    },
+    {
+      "index": 186,
+      "video_id": "BJpBp2gwk2Y",
+      "url": "https://www.youtube.com/watch?v=BJpBp2gwk2Y",
+      "title": "Building Smart Cities With Digital Twins and Agentic AI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g"
+    },
+    {
+      "index": 187,
+      "video_id": "tRGoT1QV8VA",
+      "url": "https://www.youtube.com/watch?v=tRGoT1QV8VA",
+      "title": "Building agentic AI workflows with W&B Weave: a hiring assistant case study",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 188,
+      "video_id": "uhJJgc-0iTQ",
+      "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+      "title": "Building more effective AI agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 189,
+      "video_id": "d-l0SH8PYqM",
+      "url": "https://www.youtube.com/watch?v=d-l0SH8PYqM",
+      "title": "Building observable AI agent ecosystems in the $1 trillion post-SaaS economy | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 190,
+      "video_id": "CCV5fKgmdQc",
+      "url": "https://www.youtube.com/watch?v=CCV5fKgmdQc",
+      "title": "Building our first AI Agent - Hello World | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 191,
+      "video_id": "XuvKFsktX0Q",
+      "url": "https://www.youtube.com/watch?v=XuvKFsktX0Q",
+      "title": "Building the future of agents with Claude",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 192,
+      "video_id": "JKW8InX3mdQ",
+      "url": "https://www.youtube.com/watch?v=JKW8InX3mdQ",
+      "title": "Building with Gemini 3, AI Studio, Antigravity, and Nano Banana | The Agent Factory Podcast",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 193,
+      "video_id": "BWLiso9RrRA",
+      "url": "https://www.youtube.com/watch?v=BWLiso9RrRA",
+      "title": "Can an AI agent run a $1M influencer marketing campaign? | TechCrunch Disrupt 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 194,
+      "video_id": "dD-oYfhSKhg",
+      "url": "https://www.youtube.com/watch?v=dD-oYfhSKhg",
+      "title": "Ch 11: What are unitary operators? | Maths of Quantum Mechanics",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCjZeJQVSkkydgZmSUucB9kA"
+    },
+    {
+      "index": 195,
+      "video_id": "A7yDvA8VQC8",
+      "url": "https://www.youtube.com/watch?v=A7yDvA8VQC8",
+      "title": "Ch 14: Where does the momentum operator come from? | Maths of Quantum Mechanics",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCjZeJQVSkkydgZmSUucB9kA"
+    },
+    {
+      "index": 196,
+      "video_id": "ANLRQ7X6h5A",
+      "url": "https://www.youtube.com/watch?v=ANLRQ7X6h5A",
+      "title": "Ch 7: How are observables operators? | Maths of Quantum Mechanics",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCjZeJQVSkkydgZmSUucB9kA"
+    },
+    {
+      "index": 197,
+      "video_id": "da1rH0Hq62Q",
+      "url": "https://www.youtube.com/watch?v=da1rH0Hq62Q",
+      "title": "Ch 9: What are Hermitian operators? | Maths of Quantum Mechanics",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCjZeJQVSkkydgZmSUucB9kA"
+    },
+    {
+      "index": 198,
+      "video_id": "R8zCOp5WyLk",
+      "url": "https://www.youtube.com/watch?v=R8zCOp5WyLk",
+      "title": "ChatGPT Agent Full Breakdown & More AI Use Cases",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ"
+    },
+    {
+      "index": 199,
+      "video_id": "KKdsSO1-LQE",
+      "url": "https://www.youtube.com/watch?v=KKdsSO1-LQE",
+      "title": "ChatGPT Atlas - The Battle for your Browser",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC55ODQSvARtgSyc8ThfiepQ"
+    },
+    {
+      "index": 200,
+      "video_id": "iT1fWrKhD9M",
+      "url": "https://www.youtube.com/watch?v=iT1fWrKhD9M",
+      "title": "ChatGPT Atlas is live | Testing OpenAI's new AI browser",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "index": 201,
+      "video_id": "FXgOgAJrhis",
+      "url": "https://www.youtube.com/watch?v=FXgOgAJrhis",
+      "title": "ChatGPT Launched a New Browser You’ll Actually Use",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UChpleBmo18P08aKCIgti38g"
+    },
+    {
+      "index": 202,
+      "video_id": "sxTNACldK3Y",
+      "url": "https://www.youtube.com/watch?v=sxTNACldK3Y",
+      "title": "ChatGPT Operator is expensive....use this instead (FREE + Open Source)",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ"
+    },
+    {
+      "index": 203,
+      "video_id": "3RqfJoa_138",
+      "url": "https://www.youtube.com/watch?v=3RqfJoa_138",
+      "title": "ChatGPT agent発表前にOpenAIの「AI時代のOS」構想の全容を妄想した一週間（2025年7月18日配信版）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 204,
+      "video_id": "OX9b9hrMQCk",
+      "url": "https://www.youtube.com/watch?v=OX9b9hrMQCk",
+      "title": "ChatGPT is now a browser! A comprehensive explanation of OpenAI's free AI browser \"ChatGPT Atlas\"!",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCXo1SsIDZ_dke2Nr1r3qk6w"
+    },
+    {
+      "index": 205,
+      "video_id": "oowzvdpH_2o",
+      "url": "https://www.youtube.com/watch?v=oowzvdpH_2o",
+      "title": "ChatGPT just became 100X more agentic…",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 206,
+      "video_id": "ZlAs79nW4P4",
+      "url": "https://www.youtube.com/watch?v=ZlAs79nW4P4",
+      "title": "ChatGPT ❌ This Agentic AI ✅ (Game Changer) | Manus 1.5",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCeVMnSShP_Iviwkknt83cww"
+    },
+    {
+      "index": 207,
+      "video_id": "fOxC44g8vig",
+      "url": "https://www.youtube.com/watch?v=fOxC44g8vig",
+      "title": "Claude Agent Skills Explained",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 208,
+      "video_id": "8izATKqcF-8",
+      "url": "https://www.youtube.com/watch?v=8izATKqcF-8",
+      "title": "Claude Code NEW Update IS HUGE! Sub Agents, Claude Ultra, LSPs, & MORE!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 209,
+      "video_id": "OdtGN27LchE",
+      "url": "https://www.youtube.com/watch?v=OdtGN27LchE",
+      "title": "Claude Code Skills just Built me an AI Agent Team (2026 Guide)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 210,
+      "video_id": "hWJBTQtmLoc",
+      "url": "https://www.youtube.com/watch?v=hWJBTQtmLoc",
+      "title": "Claude Code Subagents Hack - Don't Sleep On THIS! + 5 WORDPRESS Subagents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCGdOo5ARCSpxFQ-ssIsgi4Q"
+    },
+    {
+      "index": 211,
+      "video_id": "239JDMFuGcQ",
+      "url": "https://www.youtube.com/watch?v=239JDMFuGcQ",
+      "title": "Claude Code Subagents SIMPLIFIED in 7 Minutes! + QUICKSTART Tutorial",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCGdOo5ARCSpxFQ-ssIsgi4Q"
+    },
+    {
+      "index": 212,
+      "video_id": "7LlQZKPBKgs",
+      "url": "https://www.youtube.com/watch?v=7LlQZKPBKgs",
+      "title": "Claude Code can build any AI Agent in n8n… just watch",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 213,
+      "video_id": "s71I9pVdsv8",
+      "url": "https://www.youtube.com/watch?v=s71I9pVdsv8",
+      "title": "Claude Code has added new features (Hooks, SlashCommand, SubAgents), so I'll explain them here.",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 214,
+      "video_id": "KOK7wT4BEsw",
+      "url": "https://www.youtube.com/watch?v=KOK7wT4BEsw",
+      "title": "Claude Code is easy to use! I thought I could use the Claude Agent SDK, so I explained it.",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 215,
+      "video_id": "AXsrrF07u2k",
+      "url": "https://www.youtube.com/watch?v=AXsrrF07u2k",
+      "title": "Claude Code vs. Cursor vs. Codex: Cloud Agents Showdown",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCSxPE9PHHxQUEt6ajGmQyMA"
+    },
+    {
+      "index": 216,
+      "video_id": "QK6HBp_dJu0",
+      "url": "https://www.youtube.com/watch?v=QK6HBp_dJu0",
+      "title": "Claude Opus 4.5: BEST Coding Model EVER! INSANE Agentic Capabilties! (Fully Tested)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 217,
+      "video_id": "fvUGQFtJaT4",
+      "url": "https://www.youtube.com/watch?v=fvUGQFtJaT4",
+      "title": "Claude Skills - SOPs For Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC55ODQSvARtgSyc8ThfiepQ"
+    },
+    {
+      "index": 218,
+      "video_id": "ALpxsPCE2Jw",
+      "url": "https://www.youtube.com/watch?v=ALpxsPCE2Jw",
+      "title": "Claude has finally released a browser. The AI ​​browser war is in full swing. And 6 other AI news...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCti6dG0zSAetLGGYcgNML4Q"
+    },
+    {
+      "index": 219,
+      "video_id": "mCS3xE81O04",
+      "url": "https://www.youtube.com/watch?v=mCS3xE81O04",
+      "title": "Claude's new feature! Explaining what changes with Agent Skills",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 220,
+      "video_id": "wXtEcg8xH_k",
+      "url": "https://www.youtube.com/watch?v=wXtEcg8xH_k",
+      "title": "Conversation and Chat Threads | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 221,
+      "video_id": "6yEzQSEtO4Y",
+      "url": "https://www.youtube.com/watch?v=6yEzQSEtO4Y",
+      "title": "Core Components of an Agentic Workflow | Multi Agent Workflows for Beginners | Part 4",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 222,
+      "video_id": "Vm8QOo9MiC4",
+      "url": "https://www.youtube.com/watch?v=Vm8QOo9MiC4",
+      "title": "Create ANYTHING with Sora 2 + n8n AI Agents (Full Beginner's Guide)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 223,
+      "video_id": "oOylEw3tPQ8",
+      "url": "https://www.youtube.com/watch?v=oOylEw3tPQ8",
+      "title": "Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 224,
+      "video_id": "AU9Fdgs0ZaI",
+      "url": "https://www.youtube.com/watch?v=AU9Fdgs0ZaI",
+      "title": "David Luan: DeepSeek’s Significance, What’s Next for Agents & Lessons from OpenAI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 225,
+      "video_id": "5iGSyS5M80A",
+      "url": "https://www.youtube.com/watch?v=5iGSyS5M80A",
+      "title": "Dead Internet Theory is now True | AgentKit by OpenAI | Apps in ChatGPT and other AI News",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw"
+    },
+    {
+      "index": 226,
+      "video_id": "rMO_P4nnATI",
+      "url": "https://www.youtube.com/watch?v=rMO_P4nnATI",
+      "title": "Deep Agent Builder: Easily Create AI Agents That Can Automate Anything! n8n Alternative!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 227,
+      "video_id": "k-qPKE8pZAw",
+      "url": "https://www.youtube.com/watch?v=k-qPKE8pZAw",
+      "title": "DeepSeek‑r1, o3‑mini & Gemini Flash 2.0: Which model should you use in your AI Agents?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 228,
+      "video_id": "igUpMlGqyWo",
+      "url": "https://www.youtube.com/watch?v=igUpMlGqyWo",
+      "title": "Defining factors for enterprise AI agents - JetBrains @ FC London '25",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 229,
+      "video_id": "uMVRPqC7cL4",
+      "url": "https://www.youtube.com/watch?v=uMVRPqC7cL4",
+      "title": "Demonstration of app creation using OpenAI's AgentKit (Agent Builder & Chatkit)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCfapRkagDtoQEkGeyD3uERQ"
+    },
+    {
+      "index": 230,
+      "video_id": "A4UOeBpgNU0",
+      "url": "https://www.youtube.com/watch?v=A4UOeBpgNU0",
+      "title": "Designing for Autonomy: How Agentic AI Will Reshape Enterprise Architecture | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 231,
+      "video_id": "DChzGCf1pOo",
+      "url": "https://www.youtube.com/watch?v=DChzGCf1pOo",
+      "title": "Engineer Autonomous AI Agents – Infrastructure for Next-Level Customer Experience VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 232,
+      "video_id": "rTKt5Wv_HTI",
+      "url": "https://www.youtube.com/watch?v=rTKt5Wv_HTI",
+      "title": "Eric Ma - Building LLM Agents Made Simple a - PyData Boston 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCOjD18EJYcsBog4IozkF_7w"
+    },
+    {
+      "index": 233,
+      "video_id": "x2n_kbeUODI",
+      "url": "https://www.youtube.com/watch?v=x2n_kbeUODI",
+      "title": "Ex-OpenAI Founder Deposition is WILD",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "index": 234,
+      "video_id": "lB8jythC-vQ",
+      "url": "https://www.youtube.com/watch?v=lB8jythC-vQ",
+      "title": "From Models to Agentic Systems: The Next Enterprise AI S-Curve | Andrew Ng joins VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 235,
+      "video_id": "OtJV9SCyfuE",
+      "url": "https://www.youtube.com/watch?v=OtJV9SCyfuE",
+      "title": "Full Stack AI Agent course with inngest and Gemini",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCXgGY0wkgOzynnHvSEVmE3A"
+    },
+    {
+      "index": 236,
+      "video_id": "YoRNgLXzrVo",
+      "url": "https://www.youtube.com/watch?v=YoRNgLXzrVo",
+      "title": "Fully Connected 2025 kickoff: The rise (and the challenges) of the agentic era",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 237,
+      "video_id": "khZS7dMkqek",
+      "url": "https://www.youtube.com/watch?v=khZS7dMkqek",
+      "title": "Fully Connected London 2025: Agentic AI applications from prototype to production",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 238,
+      "video_id": "fpAbYRNxYPM",
+      "url": "https://www.youtube.com/watch?v=fpAbYRNxYPM",
+      "title": "GPT 5.2, realtime video editor, AI stereo videos, mobile AI agents, full body control: AI NEWS",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A"
+    },
+    {
+      "index": 239,
+      "video_id": "eRl6UWSjlxM",
+      "url": "https://www.youtube.com/watch?v=eRl6UWSjlxM",
+      "title": "GPT-5 Pro is the most powerful AI agent ever… just watch",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 240,
+      "video_id": "PA6tjgpDvHU",
+      "url": "https://www.youtube.com/watch?v=PA6tjgpDvHU",
+      "title": "Gemini 3 + Deep Think: Enhancing Gemini to Become a Super Agent! Build & Automate ANYTHING!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 241,
+      "video_id": "nHkS-JQyThE",
+      "url": "https://www.youtube.com/watch?v=nHkS-JQyThE",
+      "title": "Gemini 3.0 Pro Coder: Powerful Autonomous AI Coding Agent Can Build ANYTHING & IS FULLY FREE!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 242,
+      "video_id": "VEpQvHyAUa0",
+      "url": "https://www.youtube.com/watch?v=VEpQvHyAUa0",
+      "title": "Gemini Builder: NEW Powerful Autonomous AI Coding Agent Can Build & Design ANYTHING & IS FULLY FREE!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 243,
+      "video_id": "eVqMkaYjEps",
+      "url": "https://www.youtube.com/watch?v=eVqMkaYjEps",
+      "title": "Gemini CLI Update: GEMINI 3.0 Integration + NEW Mulit AI Coding Agent + NEW Level of Interactivity!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 244,
+      "video_id": "UACj1WqXU2Q",
+      "url": "https://www.youtube.com/watch?v=UACj1WqXU2Q",
+      "title": "Gemini Flows: Google's NEW AI Agent Builder! EASILY Create AI Agents To Do Anything!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 245,
+      "video_id": "AMRxbIO04kQ",
+      "url": "https://www.youtube.com/watch?v=AMRxbIO04kQ",
+      "title": "Gemini Robotics 1.5: Using agentic capabilities",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
+    },
+    {
+      "index": 246,
+      "video_id": "1choivCbZDg",
+      "url": "https://www.youtube.com/watch?v=1choivCbZDg",
+      "title": "Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 247,
+      "video_id": "OgPxmeIiOeI",
+      "url": "https://www.youtube.com/watch?v=OgPxmeIiOeI",
+      "title": "Gen AI & Agentic AI Course is now LIVE",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 248,
+      "video_id": "O2gerCxEXvc",
+      "url": "https://www.youtube.com/watch?v=O2gerCxEXvc",
+      "title": "Generative AI vs AI agents vs Agentic AI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 249,
+      "video_id": "ayUZdS3ikqQ",
+      "url": "https://www.youtube.com/watch?v=ayUZdS3ikqQ",
+      "title": "Genspark's Super AI Agent is INSANE",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 250,
+      "video_id": "TV8SyEuSMIA",
+      "url": "https://www.youtube.com/watch?v=TV8SyEuSMIA",
+      "title": "Give Me 28 Minutes and I'll Completely Change the Way You Build AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 251,
+      "video_id": "f5Ihdw32tTw",
+      "url": "https://www.youtube.com/watch?v=f5Ihdw32tTw",
+      "title": "Google ADK for Beginners: Developing AI Agents with Google",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 252,
+      "video_id": "bPtKnDIVEsg",
+      "url": "https://www.youtube.com/watch?v=bPtKnDIVEsg",
+      "title": "Google Agent Development Kit (ADK): How to deploy Your First Agent to Vertex AI Agent Engine",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 253,
+      "video_id": "6H5gQXzN6vQ",
+      "url": "https://www.youtube.com/watch?v=6H5gQXzN6vQ",
+      "title": "Google Antigravity IDE- The Best Agentic Next Gen IDE",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 254,
+      "video_id": "U3sTlFaQ1Nw",
+      "url": "https://www.youtube.com/watch?v=U3sTlFaQ1Nw",
+      "title": "Google Antigravity: FULLY FREE Agentic Coding Platform! Cursor Killer!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 255,
+      "video_id": "z7JijNu5j4w",
+      "url": "https://www.youtube.com/watch?v=z7JijNu5j4w",
+      "title": "Google Cloud's CTO on their agentic AI plans | TechCrunch Disrupt 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 256,
+      "video_id": "UodANk7TDBY",
+      "url": "https://www.youtube.com/watch?v=UodANk7TDBY",
+      "title": "Google Workspace Studioがでた！ワークフロー型AIエージェントを簡単に作れて、無料で、しかもセキュリティも安心！これは使うしかない！",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 257,
+      "video_id": "TlbcAphLGSc",
+      "url": "https://www.youtube.com/watch?v=TlbcAphLGSc",
+      "title": "Google, Anthropic, and OpenAI's Guides to AI Agents ALL in 18 Minutes",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 258,
+      "video_id": "7T_TjH6P8CE",
+      "url": "https://www.youtube.com/watch?v=7T_TjH6P8CE",
+      "title": "Google’s Gemini 3: AI agents, reasoning and search mode",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 259,
+      "video_id": "2D72MYTqUbE",
+      "url": "https://www.youtube.com/watch?v=2D72MYTqUbE",
+      "title": "Google’s New AI Agent is FREE & More AI Use Cases",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ"
+    },
+    {
+      "index": 260,
+      "video_id": "ULszsXDyjMY",
+      "url": "https://www.youtube.com/watch?v=ULszsXDyjMY",
+      "title": "How AI Agents Will Transform in 2026 (a16z Big Ideas)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA"
+    },
+    {
+      "index": 261,
+      "video_id": "-mldKsBR0UM",
+      "url": "https://www.youtube.com/watch?v=-mldKsBR0UM",
+      "title": "How AI Agents and Decision Agents Combine Rules & ML in Automation",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 262,
+      "video_id": "YjIggq7wzL8",
+      "url": "https://www.youtube.com/watch?v=YjIggq7wzL8",
+      "title": "How AI agents are reshaping businesses & team dynamics | Microsoft CMO of AI at Work Jared Spataro",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw"
+    },
+    {
+      "index": 263,
+      "video_id": "hfTirr59BO4",
+      "url": "https://www.youtube.com/watch?v=hfTirr59BO4",
+      "title": "How Different Roles Build GenAI Applications #GenAI #AIAgents #LLMs #Flotorch",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 264,
+      "video_id": "HNKlFTd1maM",
+      "url": "https://www.youtube.com/watch?v=HNKlFTd1maM",
+      "title": "How I Sold These 4 AI Agents for $23,000 (as a beginner)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 265,
+      "video_id": "g8s6HZZLQsk",
+      "url": "https://www.youtube.com/watch?v=g8s6HZZLQsk",
+      "title": "How I Won Google's AI Agent Challenge in 5 Hours! [Free Code + 5 AI Dev Strategies]",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 266,
+      "video_id": "k-Cj6H6Zwos",
+      "url": "https://www.youtube.com/watch?v=k-Cj6H6Zwos",
+      "title": "How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 267,
+      "video_id": "mkACzUDc8Vc",
+      "url": "https://www.youtube.com/watch?v=mkACzUDc8Vc",
+      "title": "How To Create Upgraded AI Agents with Gram",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 268,
+      "video_id": "47G1aEaNOKU",
+      "url": "https://www.youtube.com/watch?v=47G1aEaNOKU",
+      "title": "How To Use ChatKit UI with OpenAI Agent Builder",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 269,
+      "video_id": "S4L8Xz0rV_k",
+      "url": "https://www.youtube.com/watch?v=S4L8Xz0rV_k",
+      "title": "How To Use OpenAI Agent Builder For Advanced Users",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 270,
+      "video_id": "Vas26bqtbQg",
+      "url": "https://www.youtube.com/watch?v=Vas26bqtbQg",
+      "title": "How To Use OpenAI Agent Builder with PDFs",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 271,
+      "video_id": "TebGzQRBGgc",
+      "url": "https://www.youtube.com/watch?v=TebGzQRBGgc",
+      "title": "How Walmart’s Agentic AI Is Redefining Consumer Confidence and Retail Leadership | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 272,
+      "video_id": "E_ToyA780YU",
+      "url": "https://www.youtube.com/watch?v=E_ToyA780YU",
+      "title": "How to Build AI Agents Capable of Competing in Real-World Settings",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 273,
+      "video_id": "WQLzDDNEBGY",
+      "url": "https://www.youtube.com/watch?v=WQLzDDNEBGY",
+      "title": "How to Build AI Agents Using Python | AI Agents Tutorial | Build AI Agents Using Python |Simplilearn",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCsvqVGtbbyHaMoevxPAq9Fg"
+    },
+    {
+      "index": 274,
+      "video_id": "OKwDzKY_WN8",
+      "url": "https://www.youtube.com/watch?v=OKwDzKY_WN8",
+      "title": "How to Build AI Agents in Python",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 275,
+      "video_id": "2qU3SPPojDA",
+      "url": "https://www.youtube.com/watch?v=2qU3SPPojDA",
+      "title": "How to Build a NextJS MVP using v0, Claude, and Cursor",
+      "tags": [
+        "MVP/PMF/リーン"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 276,
+      "video_id": "ZqBnen0Om6g",
+      "url": "https://www.youtube.com/watch?v=ZqBnen0Om6g",
+      "title": "How to Build an AI Agent using AI",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4MZ7zUHb5eAxU75Dc_nqdQ"
+    },
+    {
+      "index": 277,
+      "video_id": "xNplBYQSUAw",
+      "url": "https://www.youtube.com/watch?v=xNplBYQSUAw",
+      "title": "How to Scrape Job Boards with OpenAI Operators (ChatGPT + Sheets)",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC4S-xqgZ-czBRCx7I7ztiGw"
+    },
+    {
+      "index": 278,
+      "video_id": "bwvfdFWR1RI",
+      "url": "https://www.youtube.com/watch?v=bwvfdFWR1RI",
+      "title": "How to Use Agentic AI: LLMs, AI Agents & Prompt Engineering in Action",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 279,
+      "video_id": "Udx7SLFDsxo",
+      "url": "https://www.youtube.com/watch?v=Udx7SLFDsxo",
+      "title": "How to build context systems for AI agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 280,
+      "video_id": "H-R2gmDkpps",
+      "url": "https://www.youtube.com/watch?v=H-R2gmDkpps",
+      "title": "Human in Loop Pattern | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 281,
+      "video_id": "k_5NcmxWlVg",
+      "url": "https://www.youtube.com/watch?v=k_5NcmxWlVg",
+      "title": "I Built 3 Lead Gen AI Agents Using ONLY My Words (beginner tutorial)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 282,
+      "video_id": "HJ9VvIG3Rps",
+      "url": "https://www.youtube.com/watch?v=HJ9VvIG3Rps",
+      "title": "I Built My Claude Code Subagents DREAM TEAM to Create Any AI Agent",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 283,
+      "video_id": "vnzt4lwzbXU",
+      "url": "https://www.youtube.com/watch?v=vnzt4lwzbXU",
+      "title": "I Built a Hedge Fund Run by AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCWN3xxRkmTPmbKwht9FuE5A"
+    },
+    {
+      "index": 284,
+      "video_id": "7UNsK9LoORo",
+      "url": "https://www.youtube.com/watch?v=7UNsK9LoORo",
+      "title": "I Built a Photoshop AI Agent in n8n with no code (NanoBanana)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 285,
+      "video_id": "uAI5NLoojso",
+      "url": "https://www.youtube.com/watch?v=uAI5NLoojso",
+      "title": "I Built a SUPER App to Control All My AI Agents (No Code)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 286,
+      "video_id": "-NrAX4OapkQ",
+      "url": "https://www.youtube.com/watch?v=-NrAX4OapkQ",
+      "title": "I Built an AI Agent That Made $2,345 in a Day",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCWN3xxRkmTPmbKwht9FuE5A"
+    },
+    {
+      "index": 287,
+      "video_id": "iLtU0wQvCBU",
+      "url": "https://www.youtube.com/watch?v=iLtU0wQvCBU",
+      "title": "I Built an Entire Marketing Team With One AI Agent (no code with n8n)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 288,
+      "video_id": "AYsg5gAMWyo",
+      "url": "https://www.youtube.com/watch?v=AYsg5gAMWyo",
+      "title": "I Built the Ultimate UGC Content System with AI Agents (free template)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 289,
+      "video_id": "1jenfjT2PW8",
+      "url": "https://www.youtube.com/watch?v=1jenfjT2PW8",
+      "title": "I Just Gave An AI AGENT $1000 to Trade Stocks With This Week...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 290,
+      "video_id": "E5y8BlRo6r4",
+      "url": "https://www.youtube.com/watch?v=E5y8BlRo6r4",
+      "title": "I Let an AI AGENT Trade Stocks for One Week… Should We Be Worried?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 291,
+      "video_id": "XeIx4S6YvGo",
+      "url": "https://www.youtube.com/watch?v=XeIx4S6YvGo",
+      "title": "I Tested OpenAI's AgentKit Against n8n: What You Need to Know",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 292,
+      "video_id": "vePNTU3T8WY",
+      "url": "https://www.youtube.com/watch?v=vePNTU3T8WY",
+      "title": "I built a team of AI Agents with Nano Banana (it’s I-N-S-A-N-E)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 293,
+      "video_id": "bxGE_LXPyAU",
+      "url": "https://www.youtube.com/watch?v=bxGE_LXPyAU",
+      "title": "I built an AI Agent in 2 hours (and got paid $2600)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 294,
+      "video_id": "8C6iCpJ9HPo",
+      "url": "https://www.youtube.com/watch?v=8C6iCpJ9HPo",
+      "title": "I built this AI Agent in 2 hours (and got paid $1200)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 295,
+      "video_id": "GxEC9GgMZ7c",
+      "url": "https://www.youtube.com/watch?v=GxEC9GgMZ7c",
+      "title": "I let Anthropic’s new AI agents control my computer. What happened next is INSANE- Claude for Chrome",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg"
+    },
+    {
+      "index": 296,
+      "video_id": "pFEQYg7uEXU",
+      "url": "https://www.youtube.com/watch?v=pFEQYg7uEXU",
+      "title": "I tried the tool that gives me and my AI agents infinite memory",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 297,
+      "video_id": "d6TEqre0ueU",
+      "url": "https://www.youtube.com/watch?v=d6TEqre0ueU",
+      "title": "I used Replit to build an AI agent that manages my life in 13 minutes",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg"
+    },
+    {
+      "index": 298,
+      "video_id": "qgqiSDV8FsQ",
+      "url": "https://www.youtube.com/watch?v=qgqiSDV8FsQ",
+      "title": "INSANE Codex CLI MCP AI Video Automation Workflow",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 299,
+      "video_id": "Q-qZyaN5sAU",
+      "url": "https://www.youtube.com/watch?v=Q-qZyaN5sAU",
+      "title": "Industry Roundup #5: AI Agents Hype vs. Reality, Meta’s $15B stake in Scale AI, and the NBA's AI Ad",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 300,
+      "video_id": "-ROpc8jXYig",
+      "url": "https://www.youtube.com/watch?v=-ROpc8jXYig",
+      "title": "Input Guardrails in AI Agents | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 301,
+      "video_id": "Awvj4yLYafo",
+      "url": "https://www.youtube.com/watch?v=Awvj4yLYafo",
+      "title": "Inside OpenAI's New Agent Development Tools",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 302,
+      "video_id": "M_WsbhUIlQ0",
+      "url": "https://www.youtube.com/watch?v=M_WsbhUIlQ0",
+      "title": "Introducing Atlas, a browser with ChatGPT | AI butlers take care of your internet operations | An...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCtadcNeydAUCkcUF5t5YNtw"
+    },
+    {
+      "index": 303,
+      "video_id": "Zphax4f6Rls",
+      "url": "https://www.youtube.com/watch?v=Zphax4f6Rls",
+      "title": "Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents.",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
+    },
+    {
+      "index": 304,
+      "video_id": "pecSfrcQZbI",
+      "url": "https://www.youtube.com/watch?v=pecSfrcQZbI",
+      "title": "Introducing serverless reinforcement learning: Train reliable AI agents without worrying about GPUs",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 305,
+      "video_id": "NrgoZLcY3Kk",
+      "url": "https://www.youtube.com/watch?v=NrgoZLcY3Kk",
+      "title": "Introduction to Vertex AI Agent Engine",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 306,
+      "video_id": "ilaDQLa1Lrk",
+      "url": "https://www.youtube.com/watch?v=ilaDQLa1Lrk",
+      "title": "Is Agentic AI upending the corporate ladder? EY's Global Consulting AI Leader shares what’s coming",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCFtEEv80fQVKkD4h1PF-Xqw"
+    },
+    {
+      "index": 307,
+      "video_id": "ZeZozy3lsJg",
+      "url": "https://www.youtube.com/watch?v=ZeZozy3lsJg",
+      "title": "Is this the YEAR or DECADE of AI Agents & Agentic AI?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 308,
+      "video_id": "UklCxmEvz2w",
+      "url": "https://www.youtube.com/watch?v=UklCxmEvz2w",
+      "title": "LangGraph Tutorial for Beginners: Build Your First AI Agent",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 309,
+      "video_id": "i5kwX7jeWL8",
+      "url": "https://www.youtube.com/watch?v=i5kwX7jeWL8",
+      "title": "Learn 90% of Building AI Agents in 30 Minutes",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 310,
+      "video_id": "dMlFnkIGBpc",
+      "url": "https://www.youtube.com/watch?v=dMlFnkIGBpc",
+      "title": "Less Control, More Tools: Why Enterprises Need AI Agents Over Rigid Workflows | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 311,
+      "video_id": "rBJnWMD0Pho",
+      "url": "https://www.youtube.com/watch?v=rBJnWMD0Pho",
+      "title": "Let Claude handle work in your browser",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 312,
+      "video_id": "a0BNjXs5cSc",
+      "url": "https://www.youtube.com/watch?v=a0BNjXs5cSc",
+      "title": "Long Running AI Agents | On The Edge #4",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 313,
+      "video_id": "fJgFZRGO9AQ",
+      "url": "https://www.youtube.com/watch?v=fJgFZRGO9AQ",
+      "title": "MCP = Next Big Opportunity? EASIST way to build your own MCP business",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 314,
+      "video_id": "N72-fAI5V9k",
+      "url": "https://www.youtube.com/watch?v=N72-fAI5V9k",
+      "title": "Make your AI agents production-ready with Nvidia’s NeMo Toolkit",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 315,
+      "video_id": "hOqgFNlbrYE",
+      "url": "https://www.youtube.com/watch?v=hOqgFNlbrYE",
+      "title": "Master Claude Code: Proven Daily Workflows from 3 Technical Founders (Real Examples)",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCEMA_xj3YeAI7Z6jsOw3peg"
+    },
+    {
+      "index": 316,
+      "video_id": "fuscptIrNEw",
+      "url": "https://www.youtube.com/watch?v=fuscptIrNEw",
+      "title": "Microsoft Copilot「エージェントモード」でExcel作業を半自動化！",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    },
+    {
+      "index": 317,
+      "video_id": "1v7HPnyaaPU",
+      "url": "https://www.youtube.com/watch?v=1v7HPnyaaPU",
+      "title": "Ministry, NIWA Embark On Training For Boat Operators",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCEXGDNclvmg6RW0vipJYsTQ"
+    },
+    {
+      "index": 318,
+      "video_id": "VkqYmwIIeOg",
+      "url": "https://www.youtube.com/watch?v=VkqYmwIIeOg",
+      "title": "Mistral Agents API Tutorial: Build Powerful AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC79Gv3mYp6zKiSwYemEik9A"
+    },
+    {
+      "index": 319,
+      "video_id": "UcLDeH9PaI0",
+      "url": "https://www.youtube.com/watch?v=UcLDeH9PaI0",
+      "title": "Mistral Devstral 2: NEW Agentic Coding LLM With Vision - Opensource + Powerful (Fully Tested)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 320,
+      "video_id": "sWH0T4Zez6I",
+      "url": "https://www.youtube.com/watch?v=sWH0T4Zez6I",
+      "title": "Multi Agent Systems Explained: How AI Agents & LLMs Work Together",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 321,
+      "video_id": "j91NMeQgy20",
+      "url": "https://www.youtube.com/watch?v=j91NMeQgy20",
+      "title": "Multi-agent System Design - Agent As Tool Pattern in OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 322,
+      "video_id": "OFfwN23hR8U",
+      "url": "https://www.youtube.com/watch?v=OFfwN23hR8U",
+      "title": "My Top 20 Lessons from Building 100s of AI Agents (Super Actionable)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 323,
+      "video_id": "NAhKdzo99NI",
+      "url": "https://www.youtube.com/watch?v=NAhKdzo99NI",
+      "title": "N8n Complete Guide: Building AI Agents That Make REAL $$ Money",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 324,
+      "video_id": "TISRD930_qc",
+      "url": "https://www.youtube.com/watch?v=TISRD930_qc",
+      "title": "NEW All-In-One AI Agent CAN DO IT ALL! Automate Your Computer and Build Anything! Recursive Agents!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 325,
+      "video_id": "C-5FJ6oin-g",
+      "url": "https://www.youtube.com/watch?v=C-5FJ6oin-g",
+      "title": "NVIDIA Agent Intelligence Toolkitを使用してAIエージェントを開発する方法",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 326,
+      "video_id": "fhl1zyNXHls",
+      "url": "https://www.youtube.com/watch?v=fhl1zyNXHls",
+      "title": "NVIDIA NIMを使ってシンプルなAIエージェントを5分で構築する方法",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 327,
+      "video_id": "WFm0nao9hlY",
+      "url": "https://www.youtube.com/watch?v=WFm0nao9hlY",
+      "title": "Nathan Fulton - Generative Programming with Mellea: from Agentic - PyData Boston 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCOjD18EJYcsBog4IozkF_7w"
+    },
+    {
+      "index": 328,
+      "video_id": "q6DU_9CzgXA",
+      "url": "https://www.youtube.com/watch?v=q6DU_9CzgXA",
+      "title": "Navigating the Rise of AI Agents | Mat Honan, Will Douglas Heaven & Grace Huckins | LinkedIn Live",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCgy4Mf_tlZGqesYNqPNxjPw"
+    },
+    {
+      "index": 329,
+      "video_id": "cLteGDv1bgA",
+      "url": "https://www.youtube.com/watch?v=cLteGDv1bgA",
+      "title": "NeMoマイクロサービスでエージェント AIをカスタマイズ",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 330,
+      "video_id": "m_dNwtoxqd8",
+      "url": "https://www.youtube.com/watch?v=m_dNwtoxqd8",
+      "title": "New course: Semantic Caching for AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w"
+    },
+    {
+      "index": 331,
+      "video_id": "6TXXMTYQtHk",
+      "url": "https://www.youtube.com/watch?v=6TXXMTYQtHk",
+      "title": "Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "index": 332,
+      "video_id": "_QfxGZGITGw",
+      "url": "https://www.youtube.com/watch?v=_QfxGZGITGw",
+      "title": "Open Source vs Closed AI: LLMs, Agents & the AI Stack Explained",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 333,
+      "video_id": "9Hj55Ycg2fA",
+      "url": "https://www.youtube.com/watch?v=9Hj55Ycg2fA",
+      "title": "OpenAI Agent SDK Series - Introduction to brand-new series on building AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 334,
+      "video_id": "gER0ceSzD7M",
+      "url": "https://www.youtube.com/watch?v=gER0ceSzD7M",
+      "title": "OpenAI Agentkit Is Lit- Automate Workflows With Ease",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 335,
+      "video_id": "mcxeEUC5B4M",
+      "url": "https://www.youtube.com/watch?v=mcxeEUC5B4M",
+      "title": "OpenAI Founder Reveals The HARSH Truth About AI’s Future",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCOFl0wDeBMSBbK3jNJQHHFg"
+    },
+    {
+      "index": 336,
+      "video_id": "NAFaWr4UPFI",
+      "url": "https://www.youtube.com/watch?v=NAFaWr4UPFI",
+      "title": "OpenAI Just Dropped an AI BROWSER... And It Changes EVERYTHING!",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCOFl0wDeBMSBbK3jNJQHHFg"
+    },
+    {
+      "index": 337,
+      "video_id": "lokbsA5VXOk",
+      "url": "https://www.youtube.com/watch?v=lokbsA5VXOk",
+      "title": "OpenAI Just Leveled Up n8n AI Agents (here's how it works)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 338,
+      "video_id": "fg0O0VlVhp8",
+      "url": "https://www.youtube.com/watch?v=fg0O0VlVhp8",
+      "title": "OpenAI and Google unite! The strongest alliance \"AAIF\" launches to standardize AI agents | Google...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtadcNeydAUCkcUF5t5YNtw"
+    },
+    {
+      "index": 339,
+      "video_id": "IHb_TKFAIf0",
+      "url": "https://www.youtube.com/watch?v=IHb_TKFAIf0",
+      "title": "OpenAI just destroyed 100 startups… yours is next",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 340,
+      "video_id": "JfM1mr2bCuk",
+      "url": "https://www.youtube.com/watch?v=JfM1mr2bCuk",
+      "title": "OpenAI's Agent 2.0: Excited or Scared?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 341,
+      "video_id": "yD-hKFj78g0",
+      "url": "https://www.youtube.com/watch?v=yD-hKFj78g0",
+      "title": "OpenAI's Agent Builder",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC55ODQSvARtgSyc8ThfiepQ"
+    },
+    {
+      "index": 342,
+      "video_id": "HjdeJupTzzA",
+      "url": "https://www.youtube.com/watch?v=HjdeJupTzzA",
+      "title": "OpenAI's AgentBuilder Changes Everything!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEzrs7gK6Nf6t_tadEprzxQ"
+    },
+    {
+      "index": 343,
+      "video_id": "PT1dgVTOGWI",
+      "url": "https://www.youtube.com/watch?v=PT1dgVTOGWI",
+      "title": "OpenAI's browser \"ChatGPT Atlas\" is the best! Explaining AI use cases and key points",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCfapRkagDtoQEkGeyD3uERQ"
+    },
+    {
+      "index": 344,
+      "video_id": "9HZVqxGV55g",
+      "url": "https://www.youtube.com/watch?v=9HZVqxGV55g",
+      "title": "OpenAI’s Agent Stack: Shipping Secure, Evaluable Automation at Enterprise Scale | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 345,
+      "video_id": "g93XqSRxcAs",
+      "url": "https://www.youtube.com/watch?v=g93XqSRxcAs",
+      "title": "OpenAI’s New Agent Builder is Insane - Full Tutorial",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg"
+    },
+    {
+      "index": 346,
+      "video_id": "5uSboan45Zg",
+      "url": "https://www.youtube.com/watch?v=5uSboan45Zg",
+      "title": "OpenAI’s new browser feels familiar…",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "index": 347,
+      "video_id": "v4j1_qHLq9s",
+      "url": "https://www.youtube.com/watch?v=v4j1_qHLq9s",
+      "title": "OpenCode Desktop: BEST AI Coding Agent Ever + FULLY FREE! BYE Gemini CLI & ClaudeCode! (Opensource)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 348,
+      "video_id": "ipY_e9sldFM",
+      "url": "https://www.youtube.com/watch?v=ipY_e9sldFM",
+      "title": "OpenCode: The BEST AI Coding Agent Ever! BYE Gemini CLI & ClaudeCode! (Opensource)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 349,
+      "video_id": "O5nQKzBb0oc",
+      "url": "https://www.youtube.com/watch?v=O5nQKzBb0oc",
+      "title": "Operators in R | R for Data Analytics Series",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC7cs8q-gJRlGwj4A8OmCmXg"
+    },
+    {
+      "index": 350,
+      "video_id": "YOwDdwtNmPU",
+      "url": "https://www.youtube.com/watch?v=YOwDdwtNmPU",
+      "title": "Optimizing agentic AI workflows: Metrics-driven evaluation with W&B Weave and NVIDIA - FC London '25",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCBp3w4DCEC64FZr4k9ROxig"
+    },
+    {
+      "index": 351,
+      "video_id": "k-tDMvsym-o",
+      "url": "https://www.youtube.com/watch?v=k-tDMvsym-o",
+      "title": "Output Guardrails in AI Agents | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 352,
+      "video_id": "UhhAgc9tvic",
+      "url": "https://www.youtube.com/watch?v=UhhAgc9tvic",
+      "title": "Panel 1: Designing Intelligent Agents | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 353,
+      "video_id": "JdQOPVCcZxo",
+      "url": "https://www.youtube.com/watch?v=JdQOPVCcZxo",
+      "title": "Panel 2: Architecting Scalable Multi-Agent Workflows | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 354,
+      "video_id": "O96HGfeMfBo",
+      "url": "https://www.youtube.com/watch?v=O96HGfeMfBo",
+      "title": "Phase 1 of AI Agent Series | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 355,
+      "video_id": "TISROlsLYQg",
+      "url": "https://www.youtube.com/watch?v=TISROlsLYQg",
+      "title": "Physical AI for Smart Cities : Simulate and Build City-Scale AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g"
+    },
+    {
+      "index": 356,
+      "video_id": "WKF__cJTxvg",
+      "url": "https://www.youtube.com/watch?v=WKF__cJTxvg",
+      "title": "Programming with LLM Agents in 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ"
+    },
+    {
+      "index": 357,
+      "video_id": "abppwF3MCG0",
+      "url": "https://www.youtube.com/watch?v=abppwF3MCG0",
+      "title": "Projects You Should Build For Gen AI And Agentic AI Roles",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 358,
+      "video_id": "pPRoAs8xh2o",
+      "url": "https://www.youtube.com/watch?v=pPRoAs8xh2o",
+      "title": "Put your AI Agents on a VPS… trust me",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 359,
+      "video_id": "-WB0T0XmDrY",
+      "url": "https://www.youtube.com/watch?v=-WB0T0XmDrY",
+      "title": "PydanticAI: the AI Agent Framework Winner",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCVhQ2NnY5Rskt6UjCUkJ_DA"
+    },
+    {
+      "index": 360,
+      "video_id": "_esGZDtDjPs",
+      "url": "https://www.youtube.com/watch?v=_esGZDtDjPs",
+      "title": "Python Operators and Expressions: Arithmetic and Comparison",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCI0vQvr9aFn27yR6Ej6n5UA"
+    },
+    {
+      "index": 361,
+      "video_id": "R43Q0nIXa1Q",
+      "url": "https://www.youtube.com/watch?v=R43Q0nIXa1Q",
+      "title": "Python SDK Meets AI Agents: Automating Data Pipelines with LLMs",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 362,
+      "video_id": "zjwhh2MEa0Q",
+      "url": "https://www.youtube.com/watch?v=zjwhh2MEa0Q",
+      "title": "Python's ternary operator",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCaiL2GDNpLYH6Wokkk1VNcg"
+    },
+    {
+      "index": 363,
+      "video_id": "NNGbaiN1L7Y",
+      "url": "https://www.youtube.com/watch?v=NNGbaiN1L7Y",
+      "title": "RFT Launch, How OpenAI Improves Its Models & the State of AI Agents Today",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 364,
+      "video_id": "B7TjQyBCGk4",
+      "url": "https://www.youtube.com/watch?v=B7TjQyBCGk4",
+      "title": "RIP HUMAN CODERS! CREATE ANY APP With AI AGENTS in 1 PROMPT!",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCEAbqW0HFB_UxZoUDO0kJBw"
+    },
+    {
+      "index": 365,
+      "video_id": "UjQBgwTcvng",
+      "url": "https://www.youtube.com/watch?v=UjQBgwTcvng",
+      "title": "Rogue AI Agents: How AI Observability Builds Autonomous Trust",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 366,
+      "video_id": "gqaW3MktdsM",
+      "url": "https://www.youtube.com/watch?v=gqaW3MktdsM",
+      "title": "Runtime Local-Context Management | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 367,
+      "video_id": "XgKs0aw8ssg",
+      "url": "https://www.youtube.com/watch?v=XgKs0aw8ssg",
+      "title": "Scaling LinkedIn’s Hiring Assistant with Multi-Agent LLM Systems | VB Transform 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 368,
+      "video_id": "p8Jx4qvDoSo",
+      "url": "https://www.youtube.com/watch?v=p8Jx4qvDoSo",
+      "title": "Scaling and the Road to Human-Level AI | Anthropic Co-founder Jared Kaplan",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 369,
+      "video_id": "bDAEsnVBoRI",
+      "url": "https://www.youtube.com/watch?v=bDAEsnVBoRI",
+      "title": "Server Conversation and Chat Threads | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 370,
+      "video_id": "oEgiCgQwi-A",
+      "url": "https://www.youtube.com/watch?v=oEgiCgQwi-A",
+      "title": "Shipmas Day 14: Can AI Agents \"Dream\" In a Simulation?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 371,
+      "video_id": "Yd9oAPNXxs8",
+      "url": "https://www.youtube.com/watch?v=Yd9oAPNXxs8",
+      "title": "Shipmas Day 8: Image to Code AI Subagents in Claude Code",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 372,
+      "video_id": "V-0ExE6imTg",
+      "url": "https://www.youtube.com/watch?v=V-0ExE6imTg",
+      "title": "Should I Build My AI Agents with n8n or Python?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 373,
+      "video_id": "QHOTpStej2g",
+      "url": "https://www.youtube.com/watch?v=QHOTpStej2g",
+      "title": "Should You Use OpenAI's New Browser?",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ"
+    },
+    {
+      "index": 374,
+      "video_id": "4LQYWziOg0Q",
+      "url": "https://www.youtube.com/watch?v=4LQYWziOg0Q",
+      "title": "So You’re Building AI Agents... Now What?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 375,
+      "video_id": "a8L0QKI7Kro",
+      "url": "https://www.youtube.com/watch?v=a8L0QKI7Kro",
+      "title": "Specialized AI Agent Response Teams Defend Against Cyber Threats",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g"
+    },
+    {
+      "index": 376,
+      "video_id": "DL82mGde6wo",
+      "url": "https://www.youtube.com/watch?v=DL82mGde6wo",
+      "title": "State-Of-The-Art Prompting For AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg"
+    },
+    {
+      "index": 377,
+      "video_id": "w9-gfaV5vlM",
+      "url": "https://www.youtube.com/watch?v=w9-gfaV5vlM",
+      "title": "Stop Selling AI Agents, Sell AI Solutions Instead",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 378,
+      "video_id": "mrWdrh-6E6g",
+      "url": "https://www.youtube.com/watch?v=mrWdrh-6E6g",
+      "title": "Streaming LLM Responses | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 379,
+      "video_id": "2WDJbXsjdhI",
+      "url": "https://www.youtube.com/watch?v=2WDJbXsjdhI",
+      "title": "Structured AI Outputs with Zod | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 380,
+      "video_id": "pjF-0dliYhg",
+      "url": "https://www.youtube.com/watch?v=pjF-0dliYhg",
+      "title": "Super Special Livestream this Weekend! (LIVE AI Agent Build)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 381,
+      "video_id": "6MCxSJd1ZPY",
+      "url": "https://www.youtube.com/watch?v=6MCxSJd1ZPY",
+      "title": "The 3 AI Agents everyone should have…",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 382,
+      "video_id": "KRjJd-F49Y0",
+      "url": "https://www.youtube.com/watch?v=KRjJd-F49Y0",
+      "title": "The AI Agent Everyone Will Be Using Soon - Make AI Agent",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 383,
+      "video_id": "y__qEgqXcF4",
+      "url": "https://www.youtube.com/watch?v=y__qEgqXcF4",
+      "title": "The AI Awards 2025 - Best LLM? Biggest Moment in AI? Best Agentic Coder?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 384,
+      "video_id": "SsqwRLy0CNQ",
+      "url": "https://www.youtube.com/watch?v=SsqwRLy0CNQ",
+      "title": "The Agentic AI Playbook That a $200B Company Uses",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 385,
+      "video_id": "QB6k_i8RU0k",
+      "url": "https://www.youtube.com/watch?v=QB6k_i8RU0k",
+      "title": "The Agentic Autonomy Curve is INSANE",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCvKRFNawVcuz4b9ihUTApCg"
+    },
+    {
+      "index": 386,
+      "video_id": "URmsLghSQwA",
+      "url": "https://www.youtube.com/watch?v=URmsLghSQwA",
+      "title": "The Best Memory Engine for LLM and AI Agents | Memori",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 387,
+      "video_id": "5AfJ0N3MvpA",
+      "url": "https://www.youtube.com/watch?v=5AfJ0N3MvpA",
+      "title": "The Future Of Coding Is With AI Agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig"
+    },
+    {
+      "index": 388,
+      "video_id": "BcvjGTxzK40",
+      "url": "https://www.youtube.com/watch?v=BcvjGTxzK40",
+      "title": "The Future of AI and SaaS is Agentic Experiences (Here's How to Build Them)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 389,
+      "video_id": "2j26a5dmCnI",
+      "url": "https://www.youtube.com/watch?v=2j26a5dmCnI",
+      "title": "The Power of AI Agents and Agentic AI Explained",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ"
+    },
+    {
+      "index": 390,
+      "video_id": "xk6J70MPVkA",
+      "url": "https://www.youtube.com/watch?v=xk6J70MPVkA",
+      "title": "The Truth about ChatGPT Agent",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 391,
+      "video_id": "mNcXue7X8H0",
+      "url": "https://www.youtube.com/watch?v=mNcXue7X8H0",
+      "title": "The Ultimate Guide to Local AI and AI Agents (The Future is Here)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 392,
+      "video_id": "fru2vDxy7gs",
+      "url": "https://www.youtube.com/watch?v=fru2vDxy7gs",
+      "title": "The cutting edge of AI agents! 8 examples of exceptional AI agents in action",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCWMrA-2fEycFnOwqzzdwWuQ"
+    },
+    {
+      "index": 393,
+      "video_id": "iF9iV4xponk",
+      "url": "https://www.youtube.com/watch?v=iF9iV4xponk",
+      "title": "The future of agentic coding with Claude Code",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 394,
+      "video_id": "tHoJAwrs1q8",
+      "url": "https://www.youtube.com/watch?v=tHoJAwrs1q8",
+      "title": "The latest AI agent! Claude Code from Anthropic is so amazing that I'll explain it here",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 395,
+      "video_id": "LVt1WpjSgBU",
+      "url": "https://www.youtube.com/watch?v=LVt1WpjSgBU",
+      "title": "The latest from OpenAI! Explaining the announcements at DevDay 2025 (Agent Builder, Apps SDK, etc.)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 396,
+      "video_id": "2z0WM3CWgX4",
+      "url": "https://www.youtube.com/watch?v=2z0WM3CWgX4",
+      "title": "The pros and cons of using AI agents as early employees | TechCrunch Disrupt 2025",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 397,
+      "video_id": "Y4B4QuDxCos",
+      "url": "https://www.youtube.com/watch?v=Y4B4QuDxCos",
+      "title": "This AI Agent Just Wrote a Book in 60 Seconds",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UChpleBmo18P08aKCIgti38g"
+    },
+    {
+      "index": 398,
+      "video_id": "2o0mgt5mdbE",
+      "url": "https://www.youtube.com/watch?v=2o0mgt5mdbE",
+      "title": "This AI Agent built an entire Workflow with just one PROMPT | Replit Agent 3",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 399,
+      "video_id": "knT3kN4EpOo",
+      "url": "https://www.youtube.com/watch?v=knT3kN4EpOo",
+      "title": "This AI agent runs on Cloud Run + NVIDIA GPUs",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCJS9pqu9BzkAMNTmzNMNhvg"
+    },
+    {
+      "index": 400,
+      "video_id": "kG69Ry0kXXM",
+      "url": "https://www.youtube.com/watch?v=kG69Ry0kXXM",
+      "title": "This Claude Code for Web workflow will change how you vibe code forever",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg"
+    },
+    {
+      "index": 401,
+      "video_id": "CwvzZgKG_JI",
+      "url": "https://www.youtube.com/watch?v=CwvzZgKG_JI",
+      "title": "This Is How You Actually Build an AI Agent (Step-by-Step)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 402,
+      "video_id": "Pek0KQQmELw",
+      "url": "https://www.youtube.com/watch?v=Pek0KQQmELw",
+      "title": "This New AI Agent Can Create Anything - Hailuo AI Agent",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 403,
+      "video_id": "oAoigBWLZgE",
+      "url": "https://www.youtube.com/watch?v=oAoigBWLZgE",
+      "title": "Those MCP totally 10x my Cursor workflow…",
+      "tags": [
+        "フレームワーク"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 404,
+      "video_id": "2kQ6fF2wIw8",
+      "url": "https://www.youtube.com/watch?v=2kQ6fF2wIw8",
+      "title": "Tool Calling in AI Agents | OpenAI Agent SDK with Typescript",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCf9T51_FmMlfhiGpoes0yFA"
+    },
+    {
+      "index": 405,
+      "video_id": "lx813D-mb7Y",
+      "url": "https://www.youtube.com/watch?v=lx813D-mb7Y",
+      "title": "Tool-space Interference: An emerging problem for LLM agents",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ"
+    },
+    {
+      "index": 406,
+      "video_id": "HM0i1-0Xr0c",
+      "url": "https://www.youtube.com/watch?v=HM0i1-0Xr0c",
+      "title": "Top 20 AI News Topics: Agent Skills, New Gem, GPT-Image 1.5, Gemini 3 Flash, OpenAI Over 1 Millio...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 407,
+      "video_id": "5SbLJNVuqR0",
+      "url": "https://www.youtube.com/watch?v=5SbLJNVuqR0",
+      "title": "Tutorial: Agentic AI Workflow Deployment with Ejento | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 408,
+      "video_id": "1eNoNadJfHE",
+      "url": "https://www.youtube.com/watch?v=1eNoNadJfHE",
+      "title": "Tutorial: Agentic Document Extraction with LandingAI | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 409,
+      "video_id": "Izm3TrJpwrY",
+      "url": "https://www.youtube.com/watch?v=Izm3TrJpwrY",
+      "title": "Tutorial: Agentic Research Assistants with Reka AI | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 410,
+      "video_id": "SB7QtiDfKPQ",
+      "url": "https://www.youtube.com/watch?v=SB7QtiDfKPQ",
+      "title": "Tutorial: Build Vision-Enabled Agents with Deepset | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 411,
+      "video_id": "bbKn3z2tjK0",
+      "url": "https://www.youtube.com/watch?v=bbKn3z2tjK0",
+      "title": "Tutorial: Building Agentic Workflows with FloTorch | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 412,
+      "video_id": "m8ohXrzqoO0",
+      "url": "https://www.youtube.com/watch?v=m8ohXrzqoO0",
+      "title": "Tutorial: Building Event-Driven Agents with Docker | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 413,
+      "video_id": "jVazhPkg-8Q",
+      "url": "https://www.youtube.com/watch?v=jVazhPkg-8Q",
+      "title": "Tutorial: Self-Improving Agentic System on AWS | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 414,
+      "video_id": "_U-ur9uOrac",
+      "url": "https://www.youtube.com/watch?v=_U-ur9uOrac",
+      "title": "Tutorial: Vertical AI Agents | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 415,
+      "video_id": "7LWTZqksmSg",
+      "url": "https://www.youtube.com/watch?v=7LWTZqksmSg",
+      "title": "Unlock AI Agent real power?! Long term memory & Self improving",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 416,
+      "video_id": "NoVMk_P6fgY",
+      "url": "https://www.youtube.com/watch?v=NoVMk_P6fgY",
+      "title": "Unpacking AI Agent Hype vs. Reality with Arvind Narayanan",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 417,
+      "video_id": "bhqLatL1Km8",
+      "url": "https://www.youtube.com/watch?v=bhqLatL1Km8",
+      "title": "Verdent: NEW Agentic Coder IS POWERFUL! Can Build ANYTHING! (Sub Agents + SOTA)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 418,
+      "video_id": "on623d5EfPw",
+      "url": "https://www.youtube.com/watch?v=on623d5EfPw",
+      "title": "Watch ChatGPT Build a Finance Startup",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCWN3xxRkmTPmbKwht9FuE5A"
+    },
+    {
+      "index": 419,
+      "video_id": "hL2hLFUwuqQ",
+      "url": "https://www.youtube.com/watch?v=hL2hLFUwuqQ",
+      "title": "Watch ChatGPT Build an AI Startup",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCWN3xxRkmTPmbKwht9FuE5A"
+    },
+    {
+      "index": 420,
+      "video_id": "rLxJzeRGzV8",
+      "url": "https://www.youtube.com/watch?v=rLxJzeRGzV8",
+      "title": "What 30K JPMorgan AI Agents Taught Me",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCHFEou9pndBIAW5NA200TAQ"
+    },
+    {
+      "index": 421,
+      "video_id": "qsO5jVrzoas",
+      "url": "https://www.youtube.com/watch?v=qsO5jVrzoas",
+      "title": "What are AI Agents. Let's build one",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCXgGY0wkgOzynnHvSEVmE3A"
+    },
+    {
+      "index": 422,
+      "video_id": "RoIVDn5RQ4E",
+      "url": "https://www.youtube.com/watch?v=RoIVDn5RQ4E",
+      "title": "What are the highly anticipated Agent Skills? You can give your AI agents \"job recipes + tools\"! ...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 423,
+      "video_id": "P6y0gr-W2-k",
+      "url": "https://www.youtube.com/watch?v=P6y0gr-W2-k",
+      "title": "What has PMF Today, Google is Cooking & GPT Wrappers are Winning | With Latent Space",
+      "tags": [
+        "MVP/PMF/リーン"
+      ],
+      "channel_id": "UCUl-s_Vp-Kkk_XVyDylNwLA"
+    },
+    {
+      "index": 424,
+      "video_id": "15_pppse4fY",
+      "url": "https://www.youtube.com/watch?v=15_pppse4fY",
+      "title": "What is Agentic AI and How Does it Work?",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCh9nVJoWXmFb7sLApWGcLPQ"
+    },
+    {
+      "index": 425,
+      "video_id": "2VroIM26s84",
+      "url": "https://www.youtube.com/watch?v=2VroIM26s84",
+      "title": "What startups want from OpenAI | Equity Podcast",
+      "tags": [
+        "起業/新規事業"
+      ],
+      "channel_id": "UCCjyq_K1Xwfg8Lndy7lKMpA"
+    },
+    {
+      "index": 426,
+      "video_id": "ZpC1FZ2yAFA",
+      "url": "https://www.youtube.com/watch?v=ZpC1FZ2yAFA",
+      "title": "Why Smart Routing Matters: Reduce LLM Cost & Latency with FloTorch #flotorch #agenticai #genai",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 427,
+      "video_id": "F1I9JN0z0w0",
+      "url": "https://www.youtube.com/watch?v=F1I9JN0z0w0",
+      "title": "Why is Everyone Missing This with AI Agents?! (Memory + Tools that Scale)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA"
+    },
+    {
+      "index": 428,
+      "video_id": "cNEs710IRsQ",
+      "url": "https://www.youtube.com/watch?v=cNEs710IRsQ",
+      "title": "Workshop: Agentic AI for Semantic Search | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 429,
+      "video_id": "_UojjKvC_s4",
+      "url": "https://www.youtube.com/watch?v=_UojjKvC_s4",
+      "title": "Workshop: Agentic Document Extraction with LandingAI | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 430,
+      "video_id": "qmu5ncGuUVM",
+      "url": "https://www.youtube.com/watch?v=qmu5ncGuUVM",
+      "title": "Workshop: Building AI Agents with Weaviate | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 431,
+      "video_id": "nMKS-QXjqo8",
+      "url": "https://www.youtube.com/watch?v=nMKS-QXjqo8",
+      "title": "Workshop: Building Smarter Agents, Faster with Arize | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 432,
+      "video_id": "7fTuBQTR7rg",
+      "url": "https://www.youtube.com/watch?v=7fTuBQTR7rg",
+      "title": "Workshop: Transformer Models with @SerranoAcademy | Future of Data and AI | Agentic AI Conference",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCzL_0nIe8B4-7ShhVPfJkgw"
+    },
+    {
+      "index": 433,
+      "video_id": "xRmzLHnssXE",
+      "url": "https://www.youtube.com/watch?v=xRmzLHnssXE",
+      "title": "You Won’t Believe What the Notion AI Agent Can Do Now",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCwSozl89jl2zUDzQ4jGJD3g"
+    },
+    {
+      "index": 434,
+      "video_id": "-Csoj96rIrs",
+      "url": "https://www.youtube.com/watch?v=-Csoj96rIrs",
+      "title": "[10x Productivity] What is AIX? | The \"AI Agent Revolution\" that can create the workforce of 10,0...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCGlgXjYVoHLD86TQQ799WIw"
+    },
+    {
+      "index": 435,
+      "video_id": "Z6gluxYKQcs",
+      "url": "https://www.youtube.com/watch?v=Z6gluxYKQcs",
+      "title": "[AI Autonomous Development] Building an Engineering Team with Claude Code and Having It Write Cod...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNTxclE0N4qsUuirssL_D8w"
+    },
+    {
+      "index": 436,
+      "video_id": "SUvuVmB6fRg",
+      "url": "https://www.youtube.com/watch?v=SUvuVmB6fRg",
+      "title": "[AI News] Runway Gen-4.5 surpasses Google and OpenAI to take first place in benchmarks!",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCswNRnSQstgW_ePcJWx4zXQ"
+    },
+    {
+      "index": 437,
+      "video_id": "CZmx2iF8hoM",
+      "url": "https://www.youtube.com/watch?v=CZmx2iF8hoM",
+      "title": "[AI Security] Basics of preventing information leaks and AI agent hijacking",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC9AuyS7U4PxeDSNMJ2srarA"
+    },
+    {
+      "index": 438,
+      "video_id": "slN-Ms8rdxw",
+      "url": "https://www.youtube.com/watch?v=slN-Ms8rdxw",
+      "title": "[Absolutely the best] ClaudeCode now has a new feature called Rules! Subagent has also been impro...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 439,
+      "video_id": "3-K1paNSbm4",
+      "url": "https://www.youtube.com/watch?v=3-K1paNSbm4",
+      "title": "[Amazing Feature] Claude Code's unique browser tool has arrived! It's super useful, so I'll expla...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 440,
+      "video_id": "uRa0_Oq2U5Y",
+      "url": "https://www.youtube.com/watch?v=uRa0_Oq2U5Y",
+      "title": "[Boosting Japan] What is omakase.ai, the world's number one AI product that surpasses Gemini? - M...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCtadcNeydAUCkcUF5t5YNtw"
+    },
+    {
+      "index": 441,
+      "video_id": "i8xz9HIQnQo",
+      "url": "https://www.youtube.com/watch?v=i8xz9HIQnQo",
+      "title": "[ChatGPT Unrivaled] OpenAI releases Dify-like workflow tool \"Agent Builder.\" It also enables exte...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC9buL3Iph_f7AZxdzmiBL8Q"
+    },
+    {
+      "index": 442,
+      "video_id": "zC-_g1UtEP0",
+      "url": "https://www.youtube.com/watch?v=zC-_g1UtEP0",
+      "title": "[Complete Comparison] A thorough review of 14 AI agents in development! How good are Cursor and A...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 443,
+      "video_id": "hLJkuDle4OE",
+      "url": "https://www.youtube.com/watch?v=hLJkuDle4OE",
+      "title": "[Create PowerPoint files in an instant] Claude's new \"File Generation\" feature surpasses ChatGPT ...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC9buL3Iph_f7AZxdzmiBL8Q"
+    },
+    {
+      "index": 444,
+      "video_id": "JJxYFfE-5Y8",
+      "url": "https://www.youtube.com/watch?v=JJxYFfE-5Y8",
+      "title": "[Fall 2025 Update] Top 5 Free AI Agents! ~An era where AI automatically creates slides, Japanese ...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCXo1SsIDZ_dke2Nr1r3qk6w"
+    },
+    {
+      "index": 445,
+      "video_id": "lhr-drVknW0",
+      "url": "https://www.youtube.com/watch?v=lhr-drVknW0",
+      "title": "[Finally surpassing humans] Gemini 3 fully automates document creation and development! The power...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC9buL3Iph_f7AZxdzmiBL8Q"
+    },
+    {
+      "index": 446,
+      "video_id": "DZGeiKiaoww",
+      "url": "https://www.youtube.com/watch?v=DZGeiKiaoww",
+      "title": "[Great Deal!!] Life-changing! 9 Free AI Tools - Carefully selected generative AI tools/AI agents ...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 447,
+      "video_id": "T5ry8nlFAkg",
+      "url": "https://www.youtube.com/watch?v=T5ry8nlFAkg",
+      "title": "[Growth Surpasses ChatGPT] Complete Guide to Google Gemini, Updated December 2025! This single vi...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCXo1SsIDZ_dke2Nr1r3qk6w"
+    },
+    {
+      "index": 448,
+      "video_id": "btqoPyFjqTI",
+      "url": "https://www.youtube.com/watch?v=btqoPyFjqTI",
+      "title": "[It's finally here!!] The most powerful AI browser, ChatGPT \"Atlas,\" is here! A thorough explanat...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 449,
+      "video_id": "FI-YJOxe3Xw",
+      "url": "https://www.youtube.com/watch?v=FI-YJOxe3Xw",
+      "title": "[New Feature] OpenAI releases ChatGPT-enabled browser \"Atlas.\" AI understands pages and enables s...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC9buL3Iph_f7AZxdzmiBL8Q"
+    },
+    {
+      "index": 450,
+      "video_id": "fsKp0WBFqGU",
+      "url": "https://www.youtube.com/watch?v=fsKp0WBFqGU",
+      "title": "[Physics AI Revolution] Google's latest robot finally features AI agent functionality. \"Google's ...",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCYrbht7gNUX3xlbGRXjhrnQ"
+    },
+    {
+      "index": 451,
+      "video_id": "fsZ4mUTZZ7E",
+      "url": "https://www.youtube.com/watch?v=fsZ4mUTZZ7E",
+      "title": "[Recommended] We recommend the new browser AI \"Claude for Chrome\"! Easy to install and convenient...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCvHpETRVi1tXeRJoYiXHJqw"
+    },
+    {
+      "index": 452,
+      "video_id": "xyvyYDW1K6A",
+      "url": "https://www.youtube.com/watch?v=xyvyYDW1K6A",
+      "title": "[Surpassing ChatGPT] Google releases the most powerful image generation AI, \"Nano Banana Pro.\" It...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UC9buL3Iph_f7AZxdzmiBL8Q"
+    },
+    {
+      "index": 453,
+      "video_id": "NuJzg3jTleI",
+      "url": "https://www.youtube.com/watch?v=NuJzg3jTleI",
+      "title": "[Weekly Latest AI Tools & News] Sora announces multiple new features / ChatGPT-powered AI browser...",
+      "tags": [
+        "Operator/ブラウザ自動化"
+      ],
+      "channel_id": "UCXo1SsIDZ_dke2Nr1r3qk6w"
+    },
+    {
+      "index": 454,
+      "video_id": "oWdJMJp2HgM",
+      "url": "https://www.youtube.com/watch?v=oWdJMJp2HgM",
+      "title": "n8n JUST Leveled Up AI Agents With Guardrails: Here's How It Works",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA"
+    },
+    {
+      "index": 455,
+      "video_id": "5N763y3HNRU",
+      "url": "https://www.youtube.com/watch?v=5N763y3HNRU",
+      "title": "【1本で全てわかる】パワポはもう不要？Gensparkの使い方・初心者入門講座（AIスライド/AIシート/スーパーエージェント）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCgwv7JsLDvGTtRdFI4TVRQw"
+    },
+    {
+      "index": 456,
+      "video_id": "y_N5oaBOdcs",
+      "url": "https://www.youtube.com/watch?v=y_N5oaBOdcs",
+      "title": "【1本で全て分かる】Genspark超え？最新AIエージェント「Skywork」の使い方・初心者入門講座。（スーパーエージェント/ドキュメント/スプレッドシート）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCgwv7JsLDvGTtRdFI4TVRQw"
+    },
+    {
+      "index": 457,
+      "video_id": "QvEdfnr4ge4",
+      "url": "https://www.youtube.com/watch?v=QvEdfnr4ge4",
+      "title": "【1本で全て分かる】初心者でも簡単に自動化！究極のAIエージェント「n8n」の使い方・入門講座。（活用事例：ChatGPT/Google/Slack連携）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCgwv7JsLDvGTtRdFI4TVRQw"
+    },
+    {
+      "index": 458,
+      "video_id": "XKBQGe7Z7is",
+      "url": "https://www.youtube.com/watch?v=XKBQGe7Z7is",
+      "title": "【7月編】生成AI最新ニュース10選【Gemini CLI、o3-Pro、Deep Research、ChatGPT Agentなど】",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCWMrA-2fEycFnOwqzzdwWuQ"
+    },
+    {
+      "index": 459,
+      "video_id": "UjV9hy_83O4",
+      "url": "https://www.youtube.com/watch?v=UjV9hy_83O4",
+      "title": "【8割の企業に給料もらいすぎ人材】給料と成果のミスマッチが起きる理由／過小評価の多くが30~40代／給料が下がる転職の許容ライン／生成AIを活用しポジションチェンジせよ【PIVOT BUSINESS】",
+      "tags": [
+        "MVP/PMF/リーン"
+      ],
+      "channel_id": "UC8yHePe_RgUBE-waRWy6olw"
+    },
+    {
+      "index": 460,
+      "video_id": "BCQ2omAzPko",
+      "url": "https://www.youtube.com/watch?v=BCQ2omAzPko",
+      "title": "【AI時代 勝つ営業の条件】ハイパフォーマー・ローパフォーマーの傾向／データドリブン組織の変革／AIエージェントで変わる営業の未来",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UC8yHePe_RgUBE-waRWy6olw"
+    },
+    {
+      "index": 461,
+      "video_id": "4JKT-ILXeU8",
+      "url": "https://www.youtube.com/watch?v=4JKT-ILXeU8",
+      "title": "【AI詐欺】AIエージェントブラウザの危険性｜プロンプトインジェクション等の新攻撃手口を解説",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCNGl42gLlwmjHGUnpytYr0Q"
+    },
+    {
+      "index": 462,
+      "video_id": "3xzRQN3LbBY",
+      "url": "https://www.youtube.com/watch?v=3xzRQN3LbBY",
+      "title": "【AI駆動開発カンファレンス 2025秋】Agents that work Better Together (Windsurf + Devin = Cognition)",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCTILP8NYy3l5xMb87IkbH3g"
+    },
+    {
+      "index": 463,
+      "video_id": "6dDcV6FNMMM",
+      "url": "https://www.youtube.com/watch?v=6dDcV6FNMMM",
+      "title": "【AI駆動開発カンファレンス 2025秋】仕様駆動開発を実現する上流工程におけるAIエージェント活用",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCTILP8NYy3l5xMb87IkbH3g"
+    },
+    {
+      "index": 464,
+      "video_id": "8DAQdtFufpU",
+      "url": "https://www.youtube.com/watch?v=8DAQdtFufpU",
+      "title": "【完全版】音楽生成AI「Suno」でSpotify配信＆収益化！全手順を徹底解説",
+      "tags": [
+        "収益化/決済"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    },
+    {
+      "index": 465,
+      "video_id": "qKMc-uzDxEk",
+      "url": "https://www.youtube.com/watch?v=qKMc-uzDxEk",
+      "title": "【簡単】自分好みのAIニュースが勝手に届く自動化の仕方【n8n/Grok/Tavily】【読み込むだけで動画内のワークフローが作れるファイル用意してます】",
+      "tags": [
+        "Macrohard/xAI"
+      ],
+      "channel_id": "UC9AuyS7U4PxeDSNMJ2srarA"
+    },
+    {
+      "index": 466,
+      "video_id": "gv70MYxpAVk",
+      "url": "https://www.youtube.com/watch?v=gv70MYxpAVk",
+      "title": "【資料も動画もAIに丸投げ】完全自律型のAIエージェント「Manus」の使い方・初心者入門講座（活用事例、スライド、動画・画像生成）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCgwv7JsLDvGTtRdFI4TVRQw"
+    },
+    {
+      "index": 467,
+      "video_id": "URTNmXWyWhI",
+      "url": "https://www.youtube.com/watch?v=URTNmXWyWhI",
+      "title": "【週刊AI】AIエージェント時代の企業と個人の戦い方",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 468,
+      "video_id": "tIaHUtRgh_4",
+      "url": "https://www.youtube.com/watch?v=tIaHUtRgh_4",
+      "title": "【週刊AI】OpenAIのACP（Agentic Commerce Protocol）登場で、Amazon／楽天はどうなる？",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 469,
+      "video_id": "ZxDQ2EDhL5A",
+      "url": "https://www.youtube.com/watch?v=ZxDQ2EDhL5A",
+      "title": "【週刊AI】OpenAIの新ブラウザやAIエージェントの進化のニュースを聞いて既にシンギュラリティに入ってるかもと思った１週間",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 470,
+      "video_id": "sucokz-tMWU",
+      "url": "https://www.youtube.com/watch?v=sucokz-tMWU",
+      "title": "【遂にキタ‼️】ChatGPT完全版エージェント「Agent Mode」爆誕！徹底解説します（vs Genspark AIエージェント）",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 471,
+      "video_id": "SdUm7P49xno",
+      "url": "https://www.youtube.com/watch?v=SdUm7P49xno",
+      "title": "エージェント AI のためのNVIDIA AI ビルディングブロック",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 472,
+      "video_id": "TpAMd9Csir8",
+      "url": "https://www.youtube.com/watch?v=TpAMd9Csir8",
+      "title": "オープンソース、エージェント、特化型： AIの次なる展開とは？",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 473,
+      "video_id": "gYlA_xSslQE",
+      "url": "https://www.youtube.com/watch?v=gYlA_xSslQE",
+      "title": "ゴールシーク型カーソルエージェントの使い方",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCm5pEuCJ4joI4aPnpMIBaDQ"
+    },
+    {
+      "index": 474,
+      "video_id": "kmAXSlpPyvE",
+      "url": "https://www.youtube.com/watch?v=kmAXSlpPyvE",
+      "title": "データ フライホイールを活用した継続的なモデル蒸留と評価によるAIエージェントの最適化",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 475,
+      "video_id": "OlWX0pse4EQ",
+      "url": "https://www.youtube.com/watch?v=OlWX0pse4EQ",
+      "title": "注目AIニュース16選～Geminiのシェアアップ、GPT-5.2リリース間近、Amazonの3つのフロンティアAIエージェント、Mistral3、OpenAIコードレッドなど",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCpUQnk6MaY4o3NdgJmv10cw"
+    },
+    {
+      "index": 476,
+      "video_id": "JegtD4Ku3u8",
+      "url": "https://www.youtube.com/watch?v=JegtD4Ku3u8",
+      "title": "自律型AIエージェント！Manusが凄かったので解説してみた",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 477,
+      "video_id": "fES4j8oDN1M",
+      "url": "https://www.youtube.com/watch?v=fES4j8oDN1M",
+      "title": "話題の検索AIエージェント！OpenAI Deep Researchについて解説してみた",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCZQVTC3uLCyuJUOcRlguazA"
+    },
+    {
+      "index": 478,
+      "video_id": "6z3d3dyMilg",
+      "url": "https://www.youtube.com/watch?v=6z3d3dyMilg",
+      "title": "通信業界向け生成AIエージェントの内側とは",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtpJJpXnmHgI6ecoz-KyB5w"
+    },
+    {
+      "index": 479,
+      "video_id": "ddoPk6DwCFE",
+      "url": "https://www.youtube.com/watch?v=ddoPk6DwCFE",
+      "title": "［切抜解説］エージェントは自動化の話だが、イノベーターは自律的な発明の話。いよいよパラダイムシフトが始まるか！？",
+      "tags": [
+        "AIエージェント"
+      ],
+      "channel_id": "UCtugWOg4u2SyuenPfeO1xYQ"
+    },
+    {
+      "index": 480,
+      "video_id": "WhooDE1x2P4",
+      "url": "https://www.youtube.com/watch?v=WhooDE1x2P4",
+      "title": "#5【AI駆動開発】Gemini CLI入門｜AIにブログ記事を丸投げ！検索〜執筆まで自動化できる方法とは？",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCjLBXoQdZUnJgl-nGAX6iJQ"
+    },
+    {
+      "index": 481,
+      "video_id": "dA3iXx1Rf7A",
+      "url": "https://www.youtube.com/watch?v=dA3iXx1Rf7A",
+      "title": "11/14 Did Anthropic catch a Chinese AI spy? Gamma's founding story shows how VCs' business predic...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCKaQevFzchUw5TzqjL_tBRQ"
+    },
+    {
+      "index": 482,
+      "video_id": "yAslhELtKEg",
+      "url": "https://www.youtube.com/watch?v=yAslhELtKEg",
+      "title": "5 simple Claude Code workflows you must have - beginners guide",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCPGrgwfbkjTIgPoOh2q1BAg"
+    },
+    {
+      "index": 483,
+      "video_id": "xe39_2W05B0",
+      "url": "https://www.youtube.com/watch?v=xe39_2W05B0",
+      "title": "A complete guide to using GPT-5 in business | A thorough explanation of how to use it and example...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCWMrA-2fEycFnOwqzzdwWuQ"
+    },
+    {
+      "index": 484,
+      "video_id": "P1YZLjNZC-Y",
+      "url": "https://www.youtube.com/watch?v=P1YZLjNZC-Y",
+      "title": "ChatGPT Erotica: A once-in-a-century business opportunity! Explaining everything from business to...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCKaQevFzchUw5TzqjL_tBRQ"
+    },
+    {
+      "index": 485,
+      "video_id": "yw3QQxX9FZQ",
+      "url": "https://www.youtube.com/watch?v=yw3QQxX9FZQ",
+      "title": "ChatGPTが全てのアプリを飲み込む日到来か——DevDayで明かされたプラットフォーム戦略の衝撃、SaaS企業は生き残れるか? 超知能&未来ビジネス編(第4回 10/7収録)",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCKaQevFzchUw5TzqjL_tBRQ"
+    },
+    {
+      "index": 486,
+      "video_id": "YJ3Z9XhlF5w",
+      "url": "https://www.youtube.com/watch?v=YJ3Z9XhlF5w",
+      "title": "Claude Designer is insane...Ultimate vibe coding UI workflow",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 487,
+      "video_id": "PLbwB5_HIdc",
+      "url": "https://www.youtube.com/watch?v=PLbwB5_HIdc",
+      "title": "Claude Designer is insane...Ultimate vibe coding UI workflow",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 488,
+      "video_id": "7SrkvlgIKFs",
+      "url": "https://www.youtube.com/watch?v=7SrkvlgIKFs",
+      "title": "Claude Opus 4.5 Just Changed Video Automation FOREVER",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA"
+    },
+    {
+      "index": 489,
+      "video_id": "5KTHvKCrQ00",
+      "url": "https://www.youtube.com/watch?v=5KTHvKCrQ00",
+      "title": "Claude ran a business in our office",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA"
+    },
+    {
+      "index": 490,
+      "video_id": "DfaRahn_dwo",
+      "url": "https://www.youtube.com/watch?v=DfaRahn_dwo",
+      "title": "Gemini 3 Flash: Orchestrate a function call kitchen",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A"
+    },
+    {
+      "index": 491,
+      "video_id": "JgMA92GXVmU",
+      "url": "https://www.youtube.com/watch?v=JgMA92GXVmU",
+      "title": "Gemini 3 Pro Workflow That Changes Everything",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCJFMlSxcvlZg5yZUYJT0Pug"
+    },
+    {
+      "index": 492,
+      "video_id": "62v5ZUail3c",
+      "url": "https://www.youtube.com/watch?v=62v5ZUail3c",
+      "title": "Gemini 3.0 Pro + Claude Opus 4.5 = The Ultimate AI Coding Workflow! Incredible Coding Results!",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 493,
+      "video_id": "EGZwuKOTXk8",
+      "url": "https://www.youtube.com/watch?v=EGZwuKOTXk8",
+      "title": "Geminiで定型業務を完全自動化！ボタン一つでGoogle Workspaceのアプリが勝手に動き出す",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCsnpplLSIXyFO5vUN6wXxkw"
+    },
+    {
+      "index": 494,
+      "video_id": "i5J0tVwJv-s",
+      "url": "https://www.youtube.com/watch?v=i5J0tVwJv-s",
+      "title": "GeminiとGoogleカレンダーの連携で日程調整を完全自動化",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    },
+    {
+      "index": 495,
+      "video_id": "U2iFkardx9g",
+      "url": "https://www.youtube.com/watch?v=U2iFkardx9g",
+      "title": "Google Antigravity: Gemini 3.0 + Opus 4.5 = The Ultimate AI Coding Workflow - FULLY FREE!",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw"
+    },
+    {
+      "index": 496,
+      "video_id": "d9DF40vLz78",
+      "url": "https://www.youtube.com/watch?v=d9DF40vLz78",
+      "title": "I found the Gemini x automation tool called Google Workspace Studio (formerly Flows) very useful,...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCfapRkagDtoQEkGeyD3uERQ"
+    },
+    {
+      "index": 497,
+      "video_id": "UZb0if-7wGE",
+      "url": "https://www.youtube.com/watch?v=UZb0if-7wGE",
+      "title": "I was using Claude Code wrong... The Ultimate Workflow",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw"
+    },
+    {
+      "index": 498,
+      "video_id": "5MwExvt7dfQ",
+      "url": "https://www.youtube.com/watch?v=5MwExvt7dfQ",
+      "title": "Introducing an AI coding workflow that intelligently uses Codex and GPT-5 [Codex vs Claude Code]",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCNTxclE0N4qsUuirssL_D8w"
+    },
+    {
+      "index": 499,
+      "video_id": "nKuXMDCtyQI",
+      "url": "https://www.youtube.com/watch?v=nKuXMDCtyQI",
+      "title": "OpenAI on OpenAI: Applying AI to Our Own Workflows",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A"
+    },
+    {
+      "index": 500,
+      "video_id": "hkSj-QapfZo",
+      "url": "https://www.youtube.com/watch?v=hkSj-QapfZo",
+      "title": "OpenAI’s new slop machine is open for business…",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA"
+    },
+    {
+      "index": 501,
+      "video_id": "QhDLHWR04Rk",
+      "url": "https://www.youtube.com/watch?v=QhDLHWR04Rk",
+      "title": "S3 E12 Rocky Duan, from OpenAI to Covariant: Building Foundation Models for Robotic Automation",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCXNviQjBONXljxkJzNV-Xbw"
+    },
+    {
+      "index": 502,
+      "video_id": "T4XDMeoyvU0",
+      "url": "https://www.youtube.com/watch?v=T4XDMeoyvU0",
+      "title": "SmolLMv3 - A Small Reasoner with Tool Use.",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UC55ODQSvARtgSyc8ThfiepQ"
+    },
+    {
+      "index": 503,
+      "video_id": "dk97zcYaq_o",
+      "url": "https://www.youtube.com/watch?v=dk97zcYaq_o",
+      "title": "The Complete Claude Code Workflow (to Build Anything)",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw"
+    },
+    {
+      "index": 504,
+      "video_id": "TaKmTrsx2Lo",
+      "url": "https://www.youtube.com/watch?v=TaKmTrsx2Lo",
+      "title": "The greatest Claude Code workflow you’ll ever see...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCfQNB91qRP_5ILeu_S_bSkg"
+    },
+    {
+      "index": 505,
+      "video_id": "VCLgnUQVnPk",
+      "url": "https://www.youtube.com/watch?v=VCLgnUQVnPk",
+      "title": "Your New Party Planner | Microsoft Copilot",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCnba_sSOe_umiHCpYYvRCqQ"
+    },
+    {
+      "index": 506,
+      "video_id": "yFisfVMWtcw",
+      "url": "https://www.youtube.com/watch?v=yFisfVMWtcw",
+      "title": "Yu Chen, Snowflake: Empowering Sales with LLM-Powered Data Insights and Workflow Automation",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCckOvibZFUOMpBZd2FDKhnw"
+    },
+    {
+      "index": 507,
+      "video_id": "RBDsF93oHyg",
+      "url": "https://www.youtube.com/watch?v=RBDsF93oHyg",
+      "title": "[Amazing Evolution!] Google Gemini \"Gems\" Amazing Update! Generate Apps and AI Workflows in Secon...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 508,
+      "video_id": "GjWQsfQX7C0",
+      "url": "https://www.youtube.com/watch?v=GjWQsfQX7C0",
+      "title": "[ChatGPT Image Generation] Learn how to create an automated workflow that can mass-produce images...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UC9AuyS7U4PxeDSNMJ2srarA"
+    },
+    {
+      "index": 509,
+      "video_id": "XMPn9GXIUGE",
+      "url": "https://www.youtube.com/watch?v=XMPn9GXIUGE",
+      "title": "[Disney × Sora] The Business Strategy Behind Disney's $1B OpenAI Investment",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCNGl42gLlwmjHGUnpytYr0Q"
+    },
+    {
+      "index": 510,
+      "video_id": "C0PWJJLSjSo",
+      "url": "https://www.youtube.com/watch?v=C0PWJJLSjSo",
+      "title": "[Gemini Increases Productivity by 10 Times] 15 Gemini Work Techniques for Businesses [How to Use ...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCWMrA-2fEycFnOwqzzdwWuQ"
+    },
+    {
+      "index": 511,
+      "video_id": "KaiWoqGak9I",
+      "url": "https://www.youtube.com/watch?v=KaiWoqGak9I",
+      "title": "[Urgent] How to end ChatGPT-5 thread handover with one click! A must-see for business owners and ...",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCp7qTB4PB4KZALKjsR6vQaw"
+    },
+    {
+      "index": 512,
+      "video_id": "9BuDHyopVGA",
+      "url": "https://www.youtube.com/watch?v=9BuDHyopVGA",
+      "title": "【AI検索】GeminiのDeep Researchで情報収集やレポート作成を自動化！",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCsnpplLSIXyFO5vUN6wXxkw"
+    },
+    {
+      "index": 513,
+      "video_id": "S0qm82fW8eo",
+      "url": "https://www.youtube.com/watch?v=S0qm82fW8eo",
+      "title": "【Claude×Cursor】AI使ってSaaS開発してみた！エンジニアはもう不要？",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCF7P4f0l_gh_DibDxzxr7ig"
+    },
+    {
+      "index": 514,
+      "video_id": "Z2r_pqtPSTE",
+      "url": "https://www.youtube.com/watch?v=Z2r_pqtPSTE",
+      "title": "【上位プラン限定ワークショップセミナー】初心者向けChatGPTでカスタムAIを作ろう！",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCfapRkagDtoQEkGeyD3uERQ"
+    },
+    {
+      "index": 515,
+      "video_id": "1AWFAWfHNcs",
+      "url": "https://www.youtube.com/watch?v=1AWFAWfHNcs",
+      "title": "【永久保存版】名刺や領収書のデータ入力業務を自動化する方法を徹底解説【ChatGPT × ノーコード】",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCxIhrizwm_tZrkQ9fphEQig"
+    },
+    {
+      "index": 516,
+      "video_id": "8Zv17mLNcdk",
+      "url": "https://www.youtube.com/watch?v=8Zv17mLNcdk",
+      "title": "【無料で使える‼️】Google最新生成AI「Opal」爆誕！自然言語でアプリ・AIワークフローを秒で生成！徹底解説",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 517,
+      "video_id": "_LSGM1COT4I",
+      "url": "https://www.youtube.com/watch?v=_LSGM1COT4I",
+      "title": "【生成AIのプロ伝授】面倒なメール作成・送信をコードを書かずに自動化【Claude 3.5 Sonnet×Cursor】",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCF7P4f0l_gh_DibDxzxr7ig"
+    },
+    {
+      "index": 518,
+      "video_id": "ebIFBi47Hhg",
+      "url": "https://www.youtube.com/watch?v=ebIFBi47Hhg",
+      "title": "【神連携‼️】NotebookLM×Gemini2.5Proを使って業務を半自動化する方法を徹底解説（プロンプト付）",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 519,
+      "video_id": "NRJoGjynDOE",
+      "url": "https://www.youtube.com/watch?v=NRJoGjynDOE",
+      "title": "【自動化】ChatGPTのAIブラウザ「Atlas」仕事活用術10選",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    },
+    {
+      "index": 520,
+      "video_id": "94WKYiQLK6M",
+      "url": "https://www.youtube.com/watch?v=94WKYiQLK6M",
+      "title": "【超効率化‼️】ChatGPT×Gemini Canvas/DeepThinkを使ってデータ分析⇨グラフ作成を半自動化する方法を徹底解説（プロンプト付）",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UChxtIA33ty53Hh4MmkXNASg"
+    },
+    {
+      "index": 521,
+      "video_id": "jTuwNBcsOXQ",
+      "url": "https://www.youtube.com/watch?v=jTuwNBcsOXQ",
+      "title": "【音声データ対応】Geminiだけで「自分専用」議事録自動化ツールの作成法",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    },
+    {
+      "index": 522,
+      "video_id": "2fpkT6i1YRc",
+      "url": "https://www.youtube.com/watch?v=2fpkT6i1YRc",
+      "title": "【音声操作】Gemini搭載のGoogleスプシでグラフ作成～データ分析までを半自動化！",
+      "tags": [
+        "タグなし"
+      ],
+      "channel_id": "UCboaqA4fwGpljEKeUjO1iVQ"
+    }
+  ]
+}

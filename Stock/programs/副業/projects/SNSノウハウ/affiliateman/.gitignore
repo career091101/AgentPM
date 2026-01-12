@@ -1,0 +1,32 @@
+# 環境変数ファイル
+.env
+.env.local
+
+# APIキーや機密情報
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Whisper一時ファイル
+/tmp/
+scripts/whisper_progress.json
+scripts/transcript_status_report.json
+scripts/whisper_output*.log
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,195 @@
+{
+  "twitter": {
+    "post": {
+      "userId": "69576c822a740175fba74d89",
+      "title": "",
+      "content": "1/7: 🚨 Late APIを使ったX & Threads同時投稿のテストです",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "twitter",
+          "accountId": {
+            "byokCredentials": {
+              "isActive": false
+            },
+            "_id": "69576e284207e06f4ca837e4",
+            "platformUserId": "155369088",
+            "profileId": "69576d1e96773ceb34903b09",
+            "platform": "twitter",
+            "__v": 0,
+            "accessToken": "V1JXYlpTSnJTLU1udW1nUk5qU2lrQWszV3g3ekRJUklmSm5YS282QkVZcGZuOjE3Njc3MjI2MDEzNzA6MToxOmF0OjE",
+            "createdAt": "2026-01-02T07:05:12.424Z",
+            "displayName": "佐藤優一 | AIプロダクト開発・AI業務改革",
+            "isActive": true,
+            "metadata": {
+              "token_type": "bearer",
+              "expires_in": 7200,
+              "access_token": "U2JaX1JQQUwxbUNwallKbHVmUlZiV3NRUnJDUjJMQ052cUhvSUZNdnB3czBsOjE3NjczMzc1MTIyNTk6MTowOmF0OjE",
+              "scope": "offline.access tweet.write media.write users.read tweet.read",
+              "refresh_token": "X3NDSmxhaVljSzFRODRFRmY2aElBbXVTUXRuLTJ1OHJUN2RieGVqTkM4TWlEOjE3NjczMzc1MTIyNTk6MTowOnJ0OjE",
+              "profileData": {
+                "id": "155369088",
+                "username": "yuichisatoeco",
+                "displayName": "佐藤優一 | AIプロダクト開発・AI業務改革",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1943889708649533440/BfCIYAJU_normal.jpg",
+                "profileUrl": "https://x.com/yuichisatoeco",
+                "isPremium": true,
+                "verifiedType": "blue",
+                "subscriptionType": "Premium",
+                "followersCount": 10298
+              },
+              "connectedAt": "2026-01-02T07:05:12.423Z",
+              "lastTokenRefreshAt": "2026-01-06T18:03:21.386Z"
+            },
+            "permissions": [
+              "offline.access",
+              "tweet.write",
+              "media.write",
+              "users.read",
+              "tweet.read"
+            ],
+            "profilePicture": "https://pbs.twimg.com/profile_images/1943889708649533440/BfCIYAJU_normal.jpg",
+            "profileUrl": "https://x.com/yuichisatoeco",
+            "refreshToken": "c2QtMmQ5OTZPNlI3R3VMNUtMc0NiRDVVRk94SlJtWmMyTHhCblhuVmdEZ293OjE3Njc3MjI2MDEzNzA6MTowOnJ0OjE",
+            "tokenExpiresAt": "2026-01-06T20:03:21.386Z",
+            "updatedAt": "2026-01-06T18:03:21.386Z",
+            "userId": "69576c822a740175fba74d89",
+            "username": "yuichisatoeco",
+            "followersCount": 10309,
+            "followersLastUpdated": "2026-01-06T02:05:52.641Z"
+          },
+          "profileId": "69576d1e96773ceb34903b09",
+          "customMedia": [],
+          "scheduledFor": "2026-01-08T11:00:00.000Z",
+          "platformSpecificData": {
+            "threadItems": [
+              {
+                "content": "1/7: 🚨 Late APIを使ったX & Threads同時投稿のテストです"
+              },
+              {
+                "content": "2/7: このスレッドは本番環境での動作確認を目的としています。"
+              },
+              {
+                "content": "3/7: 主な機能:\n- X: スレッド形式（7ツイート）\n- Threads: 最適化された単一投稿"
+              },
+              {
+                "content": "4/7: 予約投稿スケジュール:\n- 翌日20:00 JST固定\n- 既存予約との競合自動検出"
+              },
+              {
+                "content": "5/7: エラーハンドリング:\n- 指数バックオフリトライ\n- レート制限対応\n- 詳細ログ記録"
+              },
+              {
+                "content": "6/7: 開発環境:\n- Python 3.11+\n- Late API v1\n- pytest 8.0+"
+              },
+              {
+                "content": "7/7: このテストが成功すれば、本番運用開始可能です。🎉"
+              }
+            ],
+            "__platformUserIdSnapshot": "155369088",
+            "__usernameSnapshot": "yuichisatoeco"
+          },
+          "status": "pending",
+          "_id": "695db33c1ce639671166ec42"
+        }
+      ],
+      "scheduledFor": "2026-01-08T11:00:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "status": "scheduled",
+      "tags": [],
+      "hashtags": [],
+      "mentions": [],
+      "visibility": "public",
+      "crosspostingEnabled": false,
+      "metadata": {
+        "usageCounted": true
+      },
+      "publishAttempts": 0,
+      "_id": "695db33c1ce639671166ec41",
+      "createdAt": "2026-01-07T01:13:32.711Z",
+      "updatedAt": "2026-01-07T01:13:32.711Z",
+      "__v": 0
+    },
+    "message": "Post scheduled successfully"
+  },
+  "threads": {
+    "post": {
+      "userId": "69576c822a740175fba74d89",
+      "title": "",
+      "content": "🚨 🚨 Late APIを使ったX & Threads同時投稿のテストマジです このスレッドは本番環境での動作確認を目的としています。主な機能: - X: スレッド形式（7ツイート） - Threads: 最適化された単一投稿 予約投稿スケジュール: - 翌日20:00 JST固定 - 既存予約との競合自動検出 エラーハンドリング: - 指数バックオフリトライ - レート制限対応 - 詳細ログ記録 開発環境: - Python 3.11+ - Late API v1 - pytest 8.0+ このテストが成功すれば、本番運用開始可能です。\n\n💡 Late APIでの同時投稿をテストしています。\n\n#テスト\n\nどう思いますか？🤔",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "threads",
+          "accountId": {
+            "byokCredentials": {
+              "isActive": false
+            },
+            "_id": "69576df34207e06f4ca837e3",
+            "platform": "threads",
+            "platformUserId": "33132896526324960",
+            "profileId": "69576d1e96773ceb34903b09",
+            "__v": 0,
+            "accessToken": "THAAUC41UtkBZABUVJwYnRWT3NURFlpQ2tLZAW5ReE1jc2lJZA2IyaEEyS0ZAqcnVRWDYxOTdUTVAwT2JRMFZAseWdpTFVXcm94RWtQWHRTR0NtR0NmMnF3UzNuUi13TGtPUVNyN3VubkRGVXpiUkJiVWhBVFpvdndWUFdiN3JfbXRXZAVhsdwZDZD",
+            "createdAt": "2026-01-02T07:04:19.830Z",
+            "displayName": "ysato1101",
+            "isActive": true,
+            "metadata": {
+              "access_token": "THAAUC41UtkBZABUVJwYnRWT3NURFlpQ2tLZAW5ReE1jc2lJZA2IyaEEyS0ZAqcnVRWDYxOTdUTVAwT2JRMFZAseWdpTFVXcm94RWtQWHRTR0NtR0NmMnF3UzNuUi13TGtPUVNyN3VubkRGVXpiUkJiVWhBVFpvdndWUFdiN3JfbXRXZAVhsdwZDZD",
+              "expires_in": 5184000,
+              "token_type": "Bearer",
+              "profileData": {
+                "id": "33132896526324960",
+                "username": "ysato1101",
+                "displayName": "ysato1101",
+                "profilePicture": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/543036313_17858726193500113_757075898242652001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiUFJPRklMRV9QSUMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RKzvHCFtpgoQ7kNvwE89ynd&_nc_oc=Adl0BrhyS3asvsxAqk9FMIgGXskjNdKhfDVhMEJ8HubqnPq7PBzekDovgl_9vrysQn4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=upm4J_BnhoNL1Qa4J07z4Q&oh=00_AfpRQ4y6yl6MCAsdyjx3IChP2fMTNjgsAeIAlKFhNHKrNQ&oe=695D4C6D",
+                "profileUrl": "https://threads.net/@ysato1101",
+                "followersCount": 67
+              },
+              "connectedAt": "2026-01-02T07:04:19.830Z"
+            },
+            "permissions": [
+              "threads_basic",
+              "threads_content_publish",
+              "threads_manage_replies",
+              "threads_manage_insights"
+            ],
+            "profilePicture": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/543036313_17858726193500113_757075898242652001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiUFJPRklMRV9QSUMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dinCdGAqJPwQ7kNvwHh6L60&_nc_oc=AdkxX1HBtv5Ovcs99IPu3E7to0YetNZ_P7VO2-fRT-n2Q2cx2bRW1miThPJ4O39Ff8I&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=pqAWQ1mKk_LowBjAFpeCKQ&oh=00_AfpkifO_K3_8rtc9T4S8OTHLENx4BjR780hYfYozGbIkBw&oe=69625A2D",
+            "profileUrl": "https://threads.net/@ysato1101",
+            "tokenExpiresAt": "2026-03-03T07:04:19.830Z",
+            "updatedAt": "2026-01-06T02:05:52.767Z",
+            "userId": "69576c822a740175fba74d89",
+            "username": "ysato1101",
+            "followersCount": 76,
+            "followersLastUpdated": "2026-01-06T02:05:52.767Z"
+          },
+          "profileId": "69576d1e96773ceb34903b09",
+          "customMedia": [],
+          "scheduledFor": "2026-01-08T11:00:00.000Z",
+          "platformSpecificData": {
+            "__platformUserIdSnapshot": "33132896526324960",
+            "__usernameSnapshot": "ysato1101"
+          },
+          "status": "pending",
+          "_id": "695db33e6ac9aa9ffcadaf90"
+        }
+      ],
+      "scheduledFor": "2026-01-08T11:00:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "status": "scheduled",
+      "tags": [],
+      "hashtags": [],
+      "mentions": [],
+      "visibility": "public",
+      "crosspostingEnabled": false,
+      "metadata": {
+        "usageCounted": true
+      },
+      "publishAttempts": 0,
+      "_id": "695db33e6ac9aa9ffcadaf8f",
+      "createdAt": "2026-01-07T01:13:34.600Z",
+      "updatedAt": "2026-01-07T01:13:34.600Z",
+      "__v": 0
+    },
+    "message": "Post scheduled successfully"
+  }
+}

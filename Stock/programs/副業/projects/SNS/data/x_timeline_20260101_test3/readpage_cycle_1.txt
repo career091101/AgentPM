@@ -1,0 +1,39 @@
+article [ref_98]
+ link [ref_99] href="/kimmonismus"
+ link [ref_104] href="/kimmonismus"
+  generic "@kimmonismus" [ref_105]
+ link "24 分前" [ref_106] href="/kimmonismus/status/2006694119591280760"
+ generic "2026 is one minute old and the race for the future is already underway:" [ref_109]
+ group "5 件の返信、2 件のリポスト、26 件のいいね、2 件のブックマーク、2349 件の表示" [ref_120]
+  button "5 件の返信。返信する" [ref_121]
+  button "2 件のリポスト件。リポスト" [ref_122]
+  button "26 件のいいね。いいねする" [ref_123]
+article [ref_127]
+ link [ref_128] href="/tweet_tokyo_web"
+ link [ref_132] href="/tweet_tokyo_web"
+  generic "@tweet_tokyo_web" [ref_133]
+ link "2 時間前" [ref_134] href="/tweet_tokyo_web/status/2006669611627065807"
+ generic "SONYの「プレイステーション」の心臓部を開発してきた半導体技術者たちが集結！ AI半導体で1強の「NVIDIA」に挑む日本のスタートアップ企業「LENZO」が開発するAI半導体「CGLA」は、NVI" [ref_137]
+ group "29 件の返信、392 件のリポスト、1580 件のいいね、350 件のブックマーク、86408 件の表示" [ref_142]
+  button "29 件の返信。返信する" [ref_143]
+  button "392 件のリポスト件。リポスト" [ref_144]
+  button "1580 件のいいね。いいねする" [ref_147]
+article [ref_154]
+ link [ref_155] href="/watch_UNEXT"
+ link [ref_159] href="/watch_UNEXT"
+  generic "@watch_UNEXT" [ref_160]
+ generic "サザンオールスターズ LIVE TOUR 2025「THANK YOU SO MUCH!!」U-NEXT Edition U-NEXTで独占配信中" [ref_162]
+ group "32 件の返信、417 件のリポスト、8211 件のいいね、755 件のブックマーク、40093247 件の表示" [ref_172]
+  button "32 件の返信。返信する" [ref_173]
+  button "417 件のリポスト件。リポスト" [ref_174]
+  button "8211 件のいいね。いいねする" [ref_176]
+article [ref_362]
+ link [ref_363] href="/Money_tweet1118"
+ link [ref_367] href="/Money_tweet1118"
+  generic "@Money_tweet1118" [ref_368]
+ link "2 時間前" [ref_369] href="/Money_tweet1118/status/2006668809055379938"
+ generic "米銀行の流動性、銀、金利、AIバブル、この辺は常に敏感になっておかないと、突然牙をむきはじめそうで怖いわ。さっきのRTもこの話だけども(´・ω・｀) 速報" [ref_372]
+ group "4 件のリポスト、38 件のいいね、7 件のブックマーク、6261 件の表示" [ref_394]
+  button "0 件の返信。返信する" [ref_395]
+  button "4 件のリポスト件。リポスト" [ref_396]
+  button "38 件のいいね。いいねする" [ref_397]

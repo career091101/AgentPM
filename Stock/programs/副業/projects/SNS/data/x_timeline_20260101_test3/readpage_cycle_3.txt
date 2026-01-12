@@ -1,0 +1,108 @@
+article [ref_525]
+ link [ref_526] href="/kimmonismus"
+ link [ref_531] href="/kimmonismus"
+  generic "@kimmonismus" [ref_532]
+ link "27 分前" [ref_533] href="/kimmonismus/status/2006694119591280760"
+ generic "2026 is one minute old and the race for the future is already underway:" [ref_536]
+ group "5 件の返信、2 件のリポスト、26 件のいいね、2 件のブックマーク、2349 件の表示" [ref_547]
+  button "5 件の返信。返信する" [ref_548]
+  button "2 件のリポスト件。リポスト" [ref_549]
+  button "26 件のいいね。いいねする" [ref_550]
+article [ref_127]
+ link [ref_128] href="/tweet_tokyo_web"
+ link [ref_132] href="/tweet_tokyo_web"
+  generic "@tweet_tokyo_web" [ref_133]
+ link "2 時間前" [ref_134] href="/tweet_tokyo_web/status/2006669611627065807"
+ generic "SONYの「プレイステーション」の心臓部を開発してきた半導体技術者たちが集結！ AI半導体で1強の「NVIDIA」に挑む日本のスタートアップ企業「LENZO」が開発するAI半導体「CGLA」は、NVI" [ref_137]
+ group "30 件の返信、434 件のリポスト、1783 件のいいね、350 件のブックマーク、102564 件の表示" [ref_142]
+  button "30 件の返信。返信する" [ref_143]
+  button "434 件のリポスト件。リポスト" [ref_144]
+  button "1783 件のいいね。いいねする" [ref_147]
+article [ref_154]
+ link [ref_155] href="/watch_UNEXT"
+ link [ref_159] href="/watch_UNEXT"
+  generic "@watch_UNEXT" [ref_160]
+ generic "サザンオールスターズ LIVE TOUR 2025「THANK YOU SO MUCH!!」U-NEXT Edition U-NEXTで独占配信中" [ref_162]
+ group "32 件の返信、418 件のリポスト、8219 件のいいね、755 件のブックマーク、40099520 件の表示" [ref_172]
+  button "32 件の返信。返信する" [ref_173]
+  button "418 件のリポスト件。リポスト" [ref_174]
+  button "8219 件のいいね。いいねする" [ref_176]
+article [ref_362]
+ link [ref_363] href="/Money_tweet1118"
+ link [ref_367] href="/Money_tweet1118"
+  generic "@Money_tweet1118" [ref_368]
+ link "2 時間前" [ref_369] href="/Money_tweet1118/status/2006668809055379938"
+ generic "米銀行の流動性、銀、金利、AIバブル、この辺は常に敏感になっておかないと、突然牙をむきはじめそうで怖いわ。さっきのRTもこの話だけども(´・ω・｀) 速報" [ref_372]
+ group "5 件のリポスト、38 件のいいね、7 件のブックマーク、6261 件の表示" [ref_394]
+  button "0 件の返信。返信する" [ref_395]
+  button "5 件のリポスト件。リポスト" [ref_396]
+  button "38 件のいいね。いいねする" [ref_397]
+article [ref_576]
+ link [ref_577] href="/sikeda23"
+ link [ref_581] href="/sikeda23"
+  generic "@sikeda23" [ref_582]
+ link "1 時間前" [ref_583] href="/sikeda23/status/2006671323368759664"
+ generic "大手テック株の年間騰落率 ＊参考：S&P500、NASDAQ100" [ref_587]
+ group "2 件の返信、37 件のリポスト、129 件のいいね、34 件のブックマーク、51634 件の表示" [ref_604]
+  button "2 件の返信。返信する" [ref_605]
+  button "37 件のリポスト件。リポスト" [ref_606]
+  button "129 件のいいね。いいねする" [ref_607]
+article [ref_615]
+ link [ref_616] href="/frame0app"
+ link [ref_622] href="/frame0app"
+  generic "@frame0app" [ref_623]
+ generic "A sleek Balsamiq alternative low-fi wireframing tool for modern apps. - Hand-drawn style - Rich com." [ref_625]
+ group "100 件のリポスト、972 件のいいね、1076 件のブックマーク、2777195 件の表示" [ref_633]
+  button "0 件の返信。返信する" [ref_634]
+  button "100 件のリポスト件。リポスト" [ref_635]
+  button "972 件のいいね。いいねする" [ref_637]
+article [ref_687]
+ link [ref_688] href="/tommy_love123"
+ link [ref_692] href="/tommy_love123"
+  generic "@tommy_love123" [ref_693]
+ link "16 時間前" [ref_694] href="/tommy_love123/status/2006459151510286552"
+ generic "これって、段々、笑えなくなってきている。 実質、開発の仕事のほとんどが、こんな感じになっていると思う。 "software developers merging code written by Op." [ref_697]
+ group "12 件のいいね、1930 件の表示" [ref_712]
+  button "0 件の返信。返信する" [ref_713]
+  button "0 件のリポスト件。リポスト" [ref_714]
+  button "12 件のいいね。いいねする" [ref_715]
+article [ref_719]
+ link [ref_720] href="/elonmusk"
+ link [ref_725] href="/elonmusk"
+  generic "@elonmusk" [ref_726]
+ link "13 時間前" [ref_727] href="/elonmusk/status/2006498218251808776"
+ generic "Yes" [ref_730]
+ group "1180 件の返信、2565 件のリポスト、25291 件のいいね、467 件のブックマーク、19982550 件の表示" [ref_741]
+  button "1180 件の返信。返信する" [ref_742]
+  button "2565 件のリポスト件。リポスト" [ref_744]
+  button "25291 件のいいね。いいねする" [ref_746]
+article [ref_752]
+ link [ref_753] href="/nikkei"
+ link [ref_759] href="/nikkei"
+  generic "@nikkei" [ref_760]
+ link "1 時間前" [ref_761] href="/nikkei/status/2006682155670208664"
+ generic "「鉛から金」現代の錬金術成功 CERN加速器実験、大量合成は困難" [ref_764]
+ group "3 件の返信、31 件のリポスト、93 件のいいね、16 件のブックマーク、34707 件の表示" [ref_772]
+  button "3 件の返信。返信する" [ref_773]
+  button "31 件のリポスト件。リポスト" [ref_774]
+  button "93 件のいいね。いいねする" [ref_775]
+article [ref_780]
+ link [ref_781] href="/ns123abc"
+ link [ref_785] href="/ns123abc"
+  generic "@ns123abc" [ref_786]
+ link "1 時間前" [ref_787] href="/ns123abc/status/2006672688073597415"
+ generic "HOLYSHIT Deepseek made a fundamental architecture innovation in the transformer CEO Wenfeng Liang .." [ref_790]
+ group "13 件の返信、11 件のリポスト、251 件のいいね、66 件のブックマーク、15036 件の表示" [ref_809]
+  button "13 件の返信。返信する" [ref_810]
+  button "11 件のリポスト件。リポスト" [ref_811]
+  button "251 件のいいね。いいねする" [ref_812]
+article [ref_832]
+ link [ref_833] href="/syossan27"
+ link [ref_837] href="/syossan27"
+  generic "@syossan27" [ref_838]
+ link "21 時間前" [ref_839] href="/syossan27/status/2006374187729125767"
+ generic "Obsidianでのタスク管理模索してたんだけどこの考え方すごくいいなぁ。 来年からはこれでいこう。 TaskMD Shelf - 積極的棚上げを由とする怠惰なタスク管理 | おそらくはそれさえも平." [ref_843]
+ group "1 件の返信、8 件のリポスト、164 件のいいね、159 件のブックマーク、10597 件の表示" [ref_849]
+  button "1 件の返信。返信する" [ref_850]
+  button "8 件のリポスト件。リポスト" [ref_851]
+  button "164 件のいいね。いいねする" [ref_852]

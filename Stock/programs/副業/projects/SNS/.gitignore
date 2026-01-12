@@ -1,0 +1,13 @@
+# Runtime data
+data/
+logs/
+
+# Frontend artifacts
+frontend/.vite/
+frontend/dist/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/

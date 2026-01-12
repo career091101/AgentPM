@@ -1,0 +1,29 @@
+{
+  "api_key": "${LATE_API_KEY}",
+  "base_url": "https://getlate.dev/api/v1",
+  "accounts": {
+    "linkedin": {
+      "accountId": "YOUR_LINKEDIN_ACCOUNT_ID",
+      "platform": "linkedin"
+    },
+    "twitter": {
+      "accountId": "YOUR_TWITTER_ACCOUNT_ID",
+      "platform": "twitter"
+    },
+    "facebook": {
+      "accountId": "YOUR_FACEBOOK_ACCOUNT_ID",
+      "platform": "facebook"
+    },
+    "threads": {
+      "accountId": "YOUR_THREADS_ACCOUNT_ID",
+      "platform": "threads"
+    }
+  },
+  "timezone": "Asia/Tokyo",
+  "optimal_times": {
+    "linkedin": "08:00",
+    "twitter": "12:00",
+    "threads": "20:00",
+    "facebook": "19:00"
+  }
+}

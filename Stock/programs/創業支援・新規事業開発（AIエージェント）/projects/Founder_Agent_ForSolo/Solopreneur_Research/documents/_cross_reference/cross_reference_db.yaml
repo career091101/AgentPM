@@ -1,0 +1,495 @@
+# ============================================================
+# Cross Reference Database v1.0
+# SNS × App × Newsletter 3軸統合インデックス
+# ============================================================
+
+version: "1.0"
+created_at: "2025-12-28"
+updated_at: "2025-12-28"
+
+# ============================================================
+# 統合対象者リスト（優先10件）
+# ============================================================
+
+persons:
+  # Tier 1: 3軸フル活用者
+  - person_id: "PERSON_001_pieter_levels"
+    name: "Pieter Levels"
+    name_ja: "ピーター・レベルス"
+    handle: "@levelsio"
+    nationality: "Netherlands"
+    mrr_usd: 360000
+    tier: "100k+"
+    cross_reference:
+      app_id: "APP_003"
+      sns_id: "SNS_001"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.5
+    tags:
+      - build_in_public
+      - ship_fast
+      - ai_tools
+    analysis_status: "complete"
+
+  - person_id: "PERSON_002_tony_dinh"
+    name: "Tony Dinh"
+    name_ja: "トニー・ディン"
+    handle: "@tdinh_me"
+    nationality: "Vietnam"
+    mrr_usd: 142000
+    tier: "100k+"
+    cross_reference:
+      app_id: "APP_018"
+      sns_id: "SNS_tony_dinh"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.0
+    tags:
+      - build_in_public
+      - developer_tools
+    analysis_status: "complete"
+
+  - person_id: "PERSON_003_arvid_kahl"
+    name: "Arvid Kahl"
+    name_ja: "アービッド・カール"
+    handle: "@arvidkahl"
+    nationality: "Germany"
+    mrr_usd: 50000
+    tier: "50k+"
+    cross_reference:
+      app_id: "APP_079"
+      sns_id: "SNS_arvid_kahl"
+      newsletter_id: "NL_P1_015"
+      funnel_integration: "full"
+      cross_leverage_score: 5.0
+    tags:
+      - build_in_public
+      - bootstrapping
+      - thought_leadership
+    analysis_status: "pending"
+
+  - person_id: "PERSON_004_marc_lou"
+    name: "Marc Lou"
+    name_ja: "マーク・ルー"
+    handle: "@marc_lou"
+    nationality: "France"
+    mrr_usd: 100000
+    tier: "100k+"
+    cross_reference:
+      app_id: "APP_004"
+      sns_id: "SNS_marc_lou"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.5
+    tags:
+      - ship_fast
+      - build_in_public
+      - boilerplate
+    analysis_status: "complete"
+
+  - person_id: "PERSON_005_nathan_barry"
+    name: "Nathan Barry"
+    name_ja: "ネイサン・バリー"
+    handle: "@nathanbarry"
+    nationality: "USA"
+    mrr_usd: 3000000
+    tier: "100k+"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_nathan_barry"
+      newsletter_id: "NL_P1_019"
+      funnel_integration: "full"
+      cross_leverage_score: 5.0
+    tags:
+      - creator_economy
+      - newsletter
+      - saas
+    analysis_status: "pending"
+
+  - person_id: "PERSON_006_pat_flynn"
+    name: "Pat Flynn"
+    name_ja: "パット・フリン"
+    handle: "@patflynn"
+    nationality: "USA"
+    mrr_usd: 200000
+    tier: "100k+"
+    cross_reference:
+      app_id: "APP_069"
+      sns_id: "SNS_pat_flynn"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.0
+    tags:
+      - passive_income
+      - podcast
+      - education
+    analysis_status: "pending"
+
+  - person_id: "PERSON_007_dan_koe"
+    name: "Dan Koe"
+    name_ja: "ダン・コー"
+    handle: "@thedankoe"
+    nationality: "USA"
+    mrr_usd: 350000
+    tier: "100k+"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_dan_koe"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.0
+    tags:
+      - one_person_business
+      - digital_products
+      - education
+    analysis_status: "complete"
+
+  - person_id: "PERSON_008_justin_welsh"
+    name: "Justin Welsh"
+    name_ja: "ジャスティン・ウェルシュ"
+    handle: "@thejustinwelsh"
+    nationality: "USA"
+    mrr_usd: 400000
+    tier: "100k+"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_justin_welsh"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.5
+    tags:
+      - linkedin
+      - solopreneur
+      - course
+    analysis_status: "complete"
+
+  - person_id: "PERSON_009_lenny_rachitsky"
+    name: "Lenny Rachitsky"
+    name_ja: "レニー・ラチツキー"
+    handle: "@lennysan"
+    nationality: "USA"
+    mrr_usd: 500000
+    tier: "100k+"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_lenny_rachitsky"
+      newsletter_id: "NL_P1_004"
+      funnel_integration: "full"
+      cross_leverage_score: 5.0
+    tags:
+      - product_management
+      - newsletter
+      - podcast
+    analysis_status: "pending"
+
+  - person_id: "PERSON_010_noah_kagan"
+    name: "Noah Kagan"
+    name_ja: "ノア・ケーガン"
+    handle: "@noahkagan"
+    nationality: "USA"
+    mrr_usd: 1000000
+    tier: "100k+"
+    cross_reference:
+      app_id: "APP_028"
+      sns_id: "SNS_noah_kagan"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: 4.5
+    tags:
+      - appsumo
+      - youtube
+      - entrepreneurship
+    analysis_status: "complete"
+
+# ============================================================
+# 日本人事例（Batch A対象）
+# ============================================================
+
+japan_persons:
+  - person_id: "PERSON_JP_001_takuya_matsuyama"
+    name: "Takuya Matsuyama"
+    name_ja: "松山拓也"
+    handle: "@craftzdog"
+    nationality: "Japan"
+    mrr_usd: 10000
+    tier: "10k+"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_001"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - inkdrop
+      - youtube
+      - developer
+    analysis_status: "pending"
+    priority: "S"
+
+  - person_id: "PERSON_JP_002_catnose99"
+    name: "catnose99"
+    name_ja: "catnose99"
+    handle: "@catnose99"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_002"
+      newsletter_id: "N/A"
+      funnel_integration: "none"
+      cross_leverage_score: null
+    tags:
+      - zenn
+      - community
+      - developer
+    analysis_status: "pending"
+    priority: "S"
+
+  - person_id: "PERSON_JP_003_umatan"
+    name: "ウマたん"
+    name_ja: "ウマたん"
+    handle: "@uma_and_finance"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_003"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - tiktok
+      - education
+      - finance
+    analysis_status: "pending"
+    priority: "S"
+
+  - person_id: "PERSON_JP_004_manabu"
+    name: "マナブ"
+    name_ja: "マナブ"
+    handle: "@manaborabot"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_004"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - blog
+      - youtube
+      - affiliate
+    analysis_status: "pending"
+    priority: "A"
+
+  - person_id: "PERSON_JP_005_ryuken"
+    name: "やまもとりゅうけん"
+    name_ja: "やまもとりゅうけん"
+    handle: "@rylovetimex"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_005"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - online_salon
+      - freelance
+      - programming
+    analysis_status: "pending"
+    priority: "A"
+
+  - person_id: "PERSON_JP_006_yuki_sako"
+    name: "迫佑樹"
+    name_ja: "迫佑樹"
+    handle: "@yuki_99_s"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_006"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - programming_education
+      - skillhacks
+      - young_entrepreneur
+    analysis_status: "pending"
+    priority: "A"
+
+  - person_id: "PERSON_JP_007_kensu"
+    name: "けんすう"
+    name_ja: "けんすう（古川健介）"
+    handle: "@kensuu"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_007"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - alu
+      - marshmallow
+      - startup
+    analysis_status: "pending"
+    priority: "B"
+
+  - person_id: "PERSON_JP_008_yukos"
+    name: "ゆうこす"
+    name_ja: "ゆうこす（菅本裕子）"
+    handle: "@yukos_kawaii"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_008"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - influencer
+      - beauty
+      - female_entrepreneur
+    analysis_status: "pending"
+    priority: "B"
+
+  - person_id: "PERSON_JP_009_ikehaya"
+    name: "イケハヤ"
+    name_ja: "イケハヤ（池田勇人）"
+    handle: "@IHayato"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_009"
+      newsletter_id: "N/A"
+      funnel_integration: "partial"
+      cross_leverage_score: null
+    tags:
+      - crypto
+      - nft
+      - blog
+    analysis_status: "pending"
+    priority: "B"
+
+  - person_id: "PERSON_JP_010_seiya"
+    name: "せいや"
+    name_ja: "せいや"
+    handle: "@seiya_ttt"
+    nationality: "Japan"
+    mrr_usd: null
+    tier: "unknown"
+    cross_reference:
+      app_id: "N/A"
+      sns_id: "SNS_JP_010"
+      newsletter_id: "N/A"
+      funnel_integration: "none"
+      cross_leverage_score: null
+    tags:
+      - side_business
+      - freelance
+      - independence
+    analysis_status: "pending"
+    priority: "B"
+
+# ============================================================
+# クロス分析レポート対象
+# ============================================================
+
+cross_analysis_targets:
+  - target_id: "XRPT_001"
+    person_id: "PERSON_001_pieter_levels"
+    status: "pending"
+    priority: "S"
+
+  - target_id: "XRPT_002"
+    person_id: "PERSON_003_arvid_kahl"
+    status: "pending"
+    priority: "S"
+
+  - target_id: "XRPT_003"
+    person_id: "PERSON_002_tony_dinh"
+    status: "pending"
+    priority: "S"
+
+  - target_id: "XRPT_004"
+    person_id: "PERSON_005_nathan_barry"
+    status: "pending"
+    priority: "A"
+
+  - target_id: "XRPT_005"
+    person_id: "PERSON_006_pat_flynn"
+    status: "pending"
+    priority: "A"
+
+  - target_id: "XRPT_006"
+    person_id: "PERSON_007_dan_koe"
+    status: "pending"
+    priority: "A"
+
+  - target_id: "XRPT_007"
+    person_id: "PERSON_008_justin_welsh"
+    status: "pending"
+    priority: "A"
+
+  - target_id: "XRPT_008"
+    person_id: "PERSON_009_lenny_rachitsky"
+    status: "pending"
+    priority: "A"
+
+  - target_id: "XRPT_009"
+    person_id: "PERSON_010_noah_kagan"
+    status: "pending"
+    priority: "B"
+
+  - target_id: "XRPT_010"
+    person_id: "PERSON_004_marc_lou"
+    status: "pending"
+    priority: "B"
+
+# ============================================================
+# ファネル統合レベル定義
+# ============================================================
+
+funnel_integration_levels:
+  full:
+    description: "SNS→Newsletter→Productの3軸すべてを活用"
+    example: "Arvid Kahl, Nathan Barry, Lenny Rachitsky"
+    cross_leverage_score_min: 4.5
+
+  partial:
+    description: "2軸を活用（SNS+App または SNS+Newsletter）"
+    example: "Pieter Levels, Tony Dinh, Marc Lou"
+    cross_leverage_score_min: 3.0
+
+  none:
+    description: "単一軸のみ（SNSのみなど）"
+    example: "多くの初期段階の人物"
+    cross_leverage_score_min: 1.0
+
+# ============================================================
+# 更新履歴
+# ============================================================
+
+changelog:
+  - date: "2025-12-28"
+    changes:
+      - "初版作成"
+      - "統合対象者10名登録"
+      - "日本人事例10名登録"
+      - "クロス分析レポート対象10件登録"

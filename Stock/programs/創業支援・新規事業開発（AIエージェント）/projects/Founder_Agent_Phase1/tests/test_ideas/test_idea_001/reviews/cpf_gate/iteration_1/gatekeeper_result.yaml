@@ -1,0 +1,73 @@
+# CPFゲート判定結果 - Iteration 1
+
+gatekeeper_result:
+  timestamp: "2025-12-29T20:10:00+09:00"
+  iteration: 1
+  gate_type: "CPF"
+
+  score_summary:
+    peter_thiel: 0
+    yc: 0
+    startup_science: 0
+    total: 0
+
+  verdict: "PASS"
+  action: "PROCEED_TO_STEP_5.5"
+
+  aggregated_issues:
+    critical: []
+    major: []
+    minor:
+      - issue: "既存SFAとの差別化をより明確化すべき"
+        source: "peter_thiel"
+        suggested_fix: "独自技術（業界用語辞書、商談パターン学習）を強調"
+      - issue: "アーリーアダプター規模（3.4万社）の検証不足"
+        source: "yc"
+        suggested_fix: "LP事前登録で実際の関心度を測定"
+      - issue: "業種別優先順位が不明確"
+        source: "startup_science"
+        suggested_fix: "IT/人材を第1弾と明記"
+
+  updater_instructions:
+    new_rules: []  # Minor指摘のみのためルール追加なし
+    priority_fixes: []
+
+  next_iteration_focus: []
+
+  # CPFゲート固有情報
+  cpf_score: 72
+  cpf_threshold: 60
+  pass_reason: "CPFスコア72%で閾値60%を上回る。顧客と課題が明確で、高頻度・高切実度を実証。"
+
+# Reviewers評価サマリー（疑似実行）
+
+reviewers_summary:
+  peter_thiel:
+    total_score: 0  # 致命的な問題なし
+    verdict: "PASS"
+    key_points:
+      - "独自技術の差別化が若干弱いが、CPF段階では許容範囲"
+      - "音声入力特化というポジショニングは明確"
+      - "独占可能性（ネットワーク効果）を評価"
+
+  yc:
+    total_score: 0
+    verdict: "PASS"
+    key_points:
+      - "顧客の切実度が高く（感情強度8/10）、PMF達成の見込みあり"
+      - "アーリーアダプター規模は要検証だが、LP事前登録で確認可能"
+      - "日次課題は理想的な頻度"
+
+  startup_science:
+    total_score: 0
+    verdict: "PASS"
+    key_points:
+      - "CPFスコア72%は起業の科学の基準（60%）をクリア"
+      - "3U+1検証が適切に実施されている"
+      - "ペルソナの行動タイムラインが詳細で評価"
+
+# 次のステップ
+next_steps:
+  - "STEP 5.5: 10倍検証に進む"
+  - "STEP 6: PSF診断を実施"
+  - "PSFゲートで最終判定"

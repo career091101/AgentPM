@@ -1,0 +1,68 @@
+{
+  "collected_at": "2026-01-09T08:54:17",
+  "total_articles": 8,
+  "by_genre": {
+    "tech_ai": {
+      "count": 8,
+      "avg_quality_score": 58.8
+    }
+  },
+  "articles": [
+    {
+      "genre": "tech_ai",
+      "article_id": "nebe958c4651c",
+      "title": "新党『チームみらい』結党に関する記者会見の全文書き起こし（安野たかひろ）",
+      "quality_score": 60,
+      "filename": "2025-05-08_nebe958c4651c_新党チームみらい結党に関する記者会見の全文書き起こし安野たかひろ"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n8ee6b5be5f55",
+      "title": "落合陽一が何者かわからないときに読むnote 2025年版（無料配信）",
+      "quality_score": 70,
+      "filename": "2025-02-04_n8ee6b5be5f55_落合陽一が何者かわからないときに読むnote 2025年版無料配信"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "nc278c895e1a5",
+      "title": "５０億あったら何ができる？　１００億あったら何ができる？　３００億あったら何ができる？",
+      "quality_score": 60,
+      "filename": "2026-01-06_nc278c895e1a5_５０億あったら何ができる　１００億あったら何ができる　３００億あったら何ができる"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n6689780bc7f7",
+      "title": "雑音とどう向かい合うかを考える1月4日",
+      "quality_score": 60,
+      "filename": "2026-01-04_n6689780bc7f7_雑音とどう向かい合うかを考える1月4日"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n95f2fd2ff0b2",
+      "title": "正月休みが終わって怒涛の何か，ではなく日本で粛々と作業をしている",
+      "quality_score": 50,
+      "filename": "2026-01-06_n95f2fd2ff0b2_正月休みが終わって怒涛の何かではなく日本で粛々と作業をしている"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n6b8a12c6bfc5",
+      "title": "お茶碗一杯分くらいのアイデアを",
+      "quality_score": 55,
+      "filename": "2026-01-08_n6b8a12c6bfc5_お茶碗一杯分くらいのアイデアを"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n8d62941fcac3",
+      "title": "UXデザインの民主化は組織に何をもたらすか？【後編】",
+      "quality_score": 60,
+      "filename": "2025-07-19_n8d62941fcac3_UXデザインの民主化は組織に何をもたらすか後編"
+    },
+    {
+      "genre": "tech_ai",
+      "article_id": "n597e7c6f64ab",
+      "title": "UXデザインの民主化は組織に何をもたらすか？【前編】",
+      "quality_score": 55,
+      "filename": "2025-07-19_n597e7c6f64ab_UXデザインの民主化は組織に何をもたらすか前編"
+    }
+  ]
+}

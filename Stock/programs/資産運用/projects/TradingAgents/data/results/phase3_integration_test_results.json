@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-01-01T19:07:28.934361",
+  "tests": {
+    "test_1_end_to_end": {
+      "status": "PASS",
+      "total_trades": 10,
+      "win_rate": 50.0,
+      "total_return": 6.40763525068857,
+      "sharpe_ratio": 1.4285468039922364,
+      "max_drawdown": 4.314641526907709,
+      "final_capital": 1064076.3525068858,
+      "checks": {
+        "trades_executed": true,
+        "positive_trades": true,
+        "realistic_metrics": true
+      }
+    },
+    "test_2_four_pillars": {
+      "status": "PASS",
+      "overall_score": 100.0,
+      "pillars": {
+        "data_integrity": {
+          "score": 100.0,
+          "checks": {
+            "lookahead_bias_eliminated": true,
+            "survivorship_bias_documented": true
+          }
+        },
+        "trading_costs": {
+          "score": 100.0,
+          "checks": {
+            "slippage_implemented": true,
+            "commission_implemented": true,
+            "market_impact_considered": true
+          }
+        },
+        "model_validation": {
+          "score": 100.0,
+          "checks": {
+            "parameter_optimization": true,
+            "overfitting_detection": true
+          }
+        },
+        "market_environment": {
+          "score": 100.0,
+          "checks": {
+            "regime_detection": true,
+            "regime_analysis": true,
+            "all_regimes_evaluated": true,
+            "regime_stability": true
+          }
+        }
+      }
+    },
+    "test_3_kpi_validation": {
+      "status": "PARTIAL",
+      "overall_achievement": 40.0,
+      "kpi_achievements": {
+        "weekly_return": {
+          "target": 3.0,
+          "actual": 0.640763525068857,
+          "achieved": false,
+          "achievement_rate": 21.3587841689619
+        },
+        "win_rate": {
+          "target": 60.0,
+          "actual": 50.0,
+          "achieved": false,
+          "achievement_rate": 83.33333333333334
+        },
+        "profit_factor": {
+          "target": 1.5,
+          "actual": 0.0,
+          "achieved": false,
+          "achievement_rate": 0.0
+        },
+        "max_drawdown": {
+          "target": 10.0,
+          "actual": 4.314641526907709,
+          "achieved": true,
+          "achievement_rate": 43.146415269077096
+        },
+        "sharpe_ratio": {
+          "target": 1.0,
+          "actual": 1.4285468039922364,
+          "achieved": true,
+          "achievement_rate": 142.85468039922364
+        }
+      }
+    },
+    "test_4_visualization": {
+      "status": "PASS",
+      "visualization_available": true,
+      "output_dir": "/Users/yuichi/AIPM/aipm_v0/Stock/programs/資産運用/projects/TradingAgents/data/visualizations/phase3_integration"
+    }
+  },
+  "summary": {
+    "total_tests": 4,
+    "passed": 3,
+    "partial": 1,
+    "failed": 0,
+    "success_rate": 87.5,
+    "phase3_complete": true
+  }
+}

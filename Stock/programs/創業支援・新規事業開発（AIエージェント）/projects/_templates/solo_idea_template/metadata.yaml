@@ -1,0 +1,30 @@
+# id: "{ID}"
+name: "{NAME}"
+name_ja: ""
+agent: "SolopreneurAgent"
+created_at: "{CREATED_AT}"
+updated_at: "{UPDATED_AT}"
+
+# ステータス
+status: "initiating" # initiating | discovery | planning | executing | monitoring | closed
+cpf_achieved: false
+psf_achieved: false
+pmf_achieved: false
+
+# ターゲット（ソロプレナー向け）
+target_mrr: 1000000 # 月100万円目標
+target_users: 100
+pricing_model: "" # freemium | subscription | one-time | ads
+
+# 参照事例（SolopreneurAgent特有）
+reference_cases:
+  solo_app: [] # 例: ["003_pieter_levels", "004_marc_lou"]
+  solo_sns: [] # 例: ["@levelsio", "@marc_louvion"]
+  newsletter: [] # 例: ["referral_strategy"]
+
+# スコア
+scores:
+  cpf: null
+  psf: null
+  uvp_fit: null
+  ten_x_validation: null

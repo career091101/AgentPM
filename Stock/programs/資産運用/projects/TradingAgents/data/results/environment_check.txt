@@ -1,0 +1,11 @@
+Environment Check Report
+Generated: 2026-01-01 20:59:22.393775
+
+============================================================
+Python Version: PASS
+yfinance: FAIL
+Dependencies: PASS
+Data Fetch: FAIL
+============================================================
+
+Overall: HAS ISSUES

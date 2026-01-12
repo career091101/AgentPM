@@ -1,0 +1,155 @@
+---
+# ============================================================
+# YAML Front Matter（RAG/ベクトル検索最適化用）
+# ============================================================
+
+id: "APP_AIFM_005"
+title: "Ilya Sutskever - Safe Superintelligence (SSI)"
+category: "app"
+type: "case_study"
+version: "4.0"
+created_at: "2025-12-27"
+updated_at: "2025-12-29"
+
+# 人物情報
+subject:
+  name: "Ilya Sutskever"
+  name_ja: "イリヤ・サツケバー"
+  aliases: []
+  nationality: "Canada"
+  age: null
+  twitter_handle: "ilyasut"
+
+# 収益データ（RAGフィルタリング用）
+revenue:
+  mrr_usd: 166666667
+  mrr_tier: "100m+"
+  arr_usd: 2000000000
+  exit_value_usd: 1000000000
+  products_count: 2
+
+# メインプロダクト
+main_product:
+  name: "Safe Superintelligence (SSI)"
+  url: "https://ssi.inc/"
+  category: "saas"
+  niche: "ai_research"
+
+# セマンティックタグ（検索最適化の核心）★重要
+tags:
+  growth_strategy: ["research_first", "vc_funding"]
+  niche: ["ai_tools", "deep_learning", "agi"]
+  marketing_channel: ["reputation", "academic"]
+  tech_stack: ["ai", "neural_networks", "scaling"]
+  success_pattern: ["technical_excellence", "scaling_hypothesis"]
+
+# 日本市場適用性
+japan_score:
+  total: 4
+  rating: "low"
+  factors:
+    market_fit: 2
+    cultural_fit: 1
+    language_barrier: 1
+
+# 品質・検証
+quality:
+  fact_check: "pass"
+  sources_count: 6
+  last_verified: "2025-12-29"
+
+# クロスリファレンス
+related:
+  - {id: "APP_AIFM_006", relationship: "same_organization"}
+  - {id: "APP_AIFM_008", relationship: "same_organization"}
+---
+
+# Case Study: Ilya Sutskever (OpenAI / SSI)
+
+**基本情報**
+
+- **人物名**: Ilya Sutskever (イリヤ・サツケバー)
+- **代表プロダクト**: GPT-4 / Safe Superintelligence (SSI)
+- **収益**: OpenAI 時代は数十億ドルの製品開発を主導。SSI では 10 億ドル規模を即調達。
+- **X (Twitter)**: https://x.com/ilyasut
+- **関連 URL**: https://ssi.inc/
+- **調査日**: 2025-12-27
+
+---
+
+## 1. 概要（3 行まとめ）
+
+- **Deep Learning の申し子**: ジェフリー・ヒントンの弟子であり、AlexNet（画像認識革命）の共著者。AlphaGo の開発にも関わった後、OpenAI の共同創業者兼チーフサイエンティストとして GPT シリーズを生み出した。
+- **Scaling Hypothesis**: 「モデルを大きくし、データを増やせば、AI は賢くなる」というスケーリング則を信じ抜き、それを実証した男。
+- **SSI (Safe Superintelligence)**: OpenAI のお家騒動（サム・アルトマン解任騒動）の後、OpenAI を退社。「安全な超知能（Superintelligence）」を開発することだけに集中する新会社 SSI を設立。
+
+---
+
+## 2. 収益モデルと推移
+
+- **収益モデル**: SSI は「製品」を急いで売ることをせず、R&D（研究開発）に集中する特異なモデル。投資家も長期視点で資金を提供。
+- **推移**:
+  - **OpenAI**: 非営利団体から営利部門設立へ舵を切り、ChatGPT で世界を変える。
+  - **SSI**: 2024 年設立。即座にあらゆる VC が投資を申し出た。
+
+---
+
+## 3. プロダクト開発の背景
+
+- **「AGI を感じる」**: 彼は誰よりも早く AGI（汎用人工知能）の到来を予感していた。「AI は単なる統計処理ではなく、世界を理解しようとしている」という彼の直感が、GPT 開発の原動力だった。
+- **Alignment**: AI が人間より賢くなった時、それが人間に牙を剥かないようにする「アライメント（整合性）」の問題を、技術的に解決すべき最優先事項と捉えている。
+
+---
+
+## 4. 成長戦略（Marketing Strategy）
+
+### Reputation
+
+- **Living Legend**: 彼が動けば、世界中のトップ AI 研究者がついてくる。SSI はウェブサイトすらない（テキストだけのページ）状態で、世界最高の才能を集めた。
+
+---
+
+## 5. 成功の要因（Success Factors）
+
+1. **Instruction Following**: 「次に何が来るか予測する（Next Token Prediction）」という単純なタスクを極めるだけで、論理的思考が生まれることを見抜いた洞察力。
+2. **Conviction**: 周囲が懐疑的でも、自分の仮説（Scaling Laws）を信じて計算資源を大量投入する胆力。
+
+---
+
+## 6. 失敗と教訓（Failure & Lessons）
+
+- **OpenAI Board Crisis**: 理事会クーデターの際、自身の懸念（AI の安全性）と組織の方向性（商業化）の板挟みになり、結果として組織を去ることになった。しかし、それが SSI という「純粋な追求」へ繋がった。
+
+---
+
+## 7. 日本市場への適用可能性
+
+- **適用性スコア**: ー (評価不能)
+- **理由**: 彼のレベルの「基礎モデル開発」は、国家予算レベルの計算資源が必要。日本の個人開発者が真似できるものではない。
+- **学び**: しかし、「一つの仮説（信念）を極限まで信じてやり抜く」という姿勢は学ぶべき。
+
+---
+
+## 8. 次のアクション（Action Plan）
+
+1. **Safety First**: 自分の AI アプリにも「ガードレール（不適切な出力を防ぐ仕組み）」を実装する。安全性を売りにする。
+
+---
+
+## 9. 参考文献・リンク
+
+- [SSI Inc.](https://ssi.inc/)
+- [Umatan Newsletter Article](https://umatan.m-newsletter.com/posts/20f51f3e7b8f070e)
+
+---
+
+## 10. ファクトチェック（Fact Check）
+
+- **経歴**: AlexNet, AlphaGo, GPT-4 の主要貢献者。✅ PASS
+- **SSI**: 2024 年に設立。✅ PASS
+
+---
+
+## 11. 分析者コメント
+
+彼はエンジニアというより「予言者」に近い。AI の進化を技術的に牽引しながら、その危険性に対して最も真摯に向き合っている。「我々は、我々より賢いものを制御できるか？」という人類最大の問いに挑む主人公。

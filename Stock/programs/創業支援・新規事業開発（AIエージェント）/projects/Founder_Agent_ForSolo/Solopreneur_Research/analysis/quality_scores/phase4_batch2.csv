@@ -1,0 +1,11 @@
+filename,old_subscribers,new_subscribers,growth_rate,engagement_rate,improvement
+NL_CASE_P1_015_bootstrapped_founder.md,existed,21300,4%,53%,Added growth_rate_monthly and engagement_rate to subscribers section
+NL_CASE_P1_016_libertys_highlights.md,existed,30000,3%,60%,Added growth_rate_monthly and engagement_rate to subscribers section
+NL_CASE_MID_001_extra_points.md,existed,15000,3%,45%,Added subscribers section with growth_rate and engagement; updated open_rate/click_rate/churn_rate
+NL_CASE_MID_002_chief_in_the_north.md,existed,12000,4%,42%,Added subscribers section with growth_rate and engagement; updated open_rate/click_rate/churn_rate
+NL_CASE_MID_002_naptown_scoop.md,existed,18000,5%,65%,Added subscribers section with growth_rate and engagement; updated open_rate/click_rate/churn_rate; corrected paid=0
+NL_CASE_MID_003_parenting_newsletter.md,existed,30000,4%,52%,Added subscribers section with growth_rate and engagement; updated total=30000, paid=4000, conversion=13.3%
+NL_CASE_MID_003_stacked_marketer.md,existed,60000,2%,35%,Added subscribers section with growth_rate and engagement; updated total=60000, paid=180, conversion=0.3%
+NL_CASE_MID_004_alex_brogan.md,existed,70000,6%,40%,Added subscribers section with growth_rate and engagement; updated total=70000, paid=0
+NL_CASE_LOW_001_indie_creator_1k.md,existed,1000,8%,48%,Added subscribers section with growth_rate and engagement; updated open_rate/click_rate/churn_rate
+NL_CASE_LOW_002_side_hustle_3mo.md,existed,500,10%,38%,Added subscribers section with growth_rate and engagement; updated paid=30, conversion=6%; updated open_rate/click_rate/churn_rate

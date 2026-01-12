@@ -1,0 +1,59 @@
+{
+  "id": "nc278c895e1a5",
+  "title": "５０億あったら何ができる？　１００億あったら何ができる？　３００億あったら何ができる？",
+  "url": "https://note.com/ochyai/n/nc278c895e1a5",
+  "author": "落合陽一",
+  "author_id": "ochyai",
+  "published_at": "2026-01-06T16:14:49+09:00",
+  "like_count": 136,
+  "comment_count": 0,
+  "is_paid": false,
+  "price": 0,
+  "creator_source": "ochyai",
+  "genre": "tech_ai",
+  "content": {
+    "word_count": 1235,
+    "heading_count": 2,
+    "hashtags": [
+      "#落合陽一",
+      "#落合陽一公式"
+    ]
+  },
+  "quality": {
+    "score": 60,
+    "tier": "B",
+    "details": {
+      "word_count": {
+        "score": 15,
+        "value": 1235,
+        "status": "acceptable"
+      },
+      "hashtags": {
+        "score": 10,
+        "count": 2,
+        "status": "acceptable"
+      },
+      "likes": {
+        "score": 25,
+        "count": 136,
+        "status": "high"
+      },
+      "comments": {
+        "score": 0,
+        "count": 0,
+        "status": "no_comments"
+      },
+      "structure": {
+        "score": 10,
+        "headings": 2,
+        "status": "has_structure"
+      },
+      "timing": {
+        "score": 0,
+        "hour": 16,
+        "status": "off_peak"
+      }
+    }
+  },
+  "collected_at": "2026-01-09T08:54:10"
+}

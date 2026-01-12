@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-01-02T10:35:22.097907",
+  "current_price": 50339.48,
+  "analysis": {
+    "primary": {
+      "wave": "Wave (III) または (V)",
+      "direction": "Up",
+      "confidence": 70,
+      "description": "2020年安値24,682円から上昇トレンド継続中",
+      "major_low": 24681.74,
+      "major_low_date": "2022-03-09",
+      "major_high": 52636.87,
+      "major_high_date": "2025-11-04",
+      "wave_1_length": 27955.13,
+      "targets": {
+        "fibo_100": 52636.87,
+        "fibo_618": 69913.14,
+        "fibo_161": 97868.27
+      }
+    },
+    "intermediate": {
+      "wave": "Wave (5) Final",
+      "direction": "Up (completion risk)",
+      "confidence": 65,
+      "correction_type": null,
+      "intermediate_low": 38026.32,
+      "intermediate_low_date": "2025-06-23",
+      "intermediate_high": 52636.87,
+      "intermediate_high_date": "2025-11-04",
+      "wave_count": 7,
+      "targets": {
+        "fibo_100": 52636.87,
+        "fibo_618": 61666.19,
+        "fibo_161": 76276.74
+      },
+      "retracements": {
+        "fibo_382": 47055.64,
+        "fibo_500": 45331.6,
+        "fibo_618": 43607.55
+      }
+    },
+    "minor": {
+      "wave": "Wave c (corrective)",
+      "direction": "Correction",
+      "confidence": 65,
+      "minor_low": 48235.3,
+      "minor_low_date": "2025-11-19",
+      "minor_high": 52636.87,
+      "minor_high_date": "2025-11-04",
+      "wave_count": 0
+    },
+    "levels": {
+      "support": [
+        {
+          "price": 48235.3,
+          "description": "Minor degree安値"
+        },
+        {
+          "price": 47055.64,
+          "description": "フィボ38.2%リトレースメント"
+        },
+        {
+          "price": 45331.6,
+          "description": "フィボ50.0%リトレースメント"
+        }
+      ],
+      "resistance": [
+        {
+          "price": 52636.87,
+          "description": "直近高値"
+        },
+        {
+          "price": 61666.19,
+          "description": "フィボ61.8%エクステンション"
+        },
+        {
+          "price": 76276.74,
+          "description": "フィボ161.8%エクステンション"
+        }
+      ]
+    },
+    "scenarios": {
+      "main": {
+        "description": "Noneによる調整が47,055円まで進行後、反転上昇",
+        "probability": 70,
+        "targets": [
+          47055
+        ],
+        "invalidation": "43,607円割れ"
+      },
+      "sub": {
+        "description": "複雑調整（Expanded Flat）で43,607円まで深掘り",
+        "probability": 30,
+        "targets": [
+          43607
+        ],
+        "warning": "深い調整に注意"
+      }
+    },
+    "trade": {
+      "direction": "買い（押し目待ち）",
+      "entry_range": [
+        46585.08,
+        47526.2
+      ],
+      "target": 52636.87,
+      "stop_loss": 43607.55,
+      "expected_return": 4.56,
+      "max_risk": -13.37,
+      "risk_reward_ratio": 0.34
+    }
+  }
+}

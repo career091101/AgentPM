@@ -1,0 +1,27 @@
+{
+  "batch_id": "ipo_global_batch_20251229_142046",
+  "started_at": "2025-12-29T14:20:46.506421",
+  "total_targets": 25,
+  "completed": [],
+  "failed": [],
+  "in_progress": [],
+  "waves": {
+    "ipo_wave1": {
+      "total": 5,
+      "completed": 0,
+      "failed": 0,
+      "in_progress": 0,
+      "targets": {}
+    }
+  },
+  "real_time_stats": {
+    "tasks_running": 0,
+    "tasks_completed": 0,
+    "tasks_failed": 0,
+    "avg_duration_seconds": 0,
+    "avg_sources_count": 0,
+    "fact_check_pass_rate": 0
+  },
+  "retry_queue": [],
+  "completed_at": null
+}

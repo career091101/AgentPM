@@ -1,0 +1,73 @@
+{
+  "linkedin": {
+    "platform": "LinkedIn",
+    "total_posts": 90,
+    "time_data_available": true,
+    "hour_distribution": {
+      "0": 90
+    },
+    "peak_hours": [
+      [
+        0,
+        90
+      ]
+    ],
+    "morning_6_12": 0,
+    "afternoon_12_18": 0,
+    "evening_18_22": 0,
+    "night_22_6": 90
+  },
+  "facebook": {
+    "platform": "Facebook",
+    "total_posts": 83,
+    "time_data_available": true,
+    "hour_distribution": {
+      "3": 29,
+      "4": 20,
+      "18": 2,
+      "9": 2,
+      "2": 10,
+      "6": 2,
+      "15": 1,
+      "5": 7,
+      "1": 7,
+      "16": 1,
+      "19": 1,
+      "14": 1
+    },
+    "peak_hours": [
+      [
+        3,
+        29
+      ],
+      [
+        4,
+        20
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "morning_6_12": 4,
+    "afternoon_12_18": 3,
+    "evening_18_22": 3,
+    "night_22_6": 73
+  },
+  "x": {
+    "platform": "X",
+    "error": "日時列が見つかりませんでした",
+    "available_columns": [
+      "ポストID",
+      "日付",
+      "ポスト本文",
+      "ポストのリンク",
+      "インプレッション数",
+      "いいね",
+      "エンゲージメント",
+      "ブックマーク",
+      "共有された回数\\",
+      "新しいフォロー"
+    ]
+  }
+}
