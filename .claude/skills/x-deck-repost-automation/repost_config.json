@@ -1,0 +1,70 @@
+{
+  "description": "X Pro Deck海外AI動向リポスト自動化設定",
+  "version": "1.0.0",
+  "filters": {
+    "min_impressions": 100000,
+    "ai_related_only": true,
+    "engagement_threshold": {
+      "min_likes": 1000,
+      "min_retweets": 100
+    }
+  },
+  "posting": {
+    "posts_per_day": {
+      "min": 4,
+      "max": 6
+    },
+    "time_slots": [
+      {
+        "name": "morning",
+        "start": "07:00",
+        "end": "09:00",
+        "slots": ["07:30", "08:30"]
+      },
+      {
+        "name": "lunch",
+        "start": "12:00",
+        "end": "13:00",
+        "slots": ["12:00", "12:30"]
+      },
+      {
+        "name": "evening",
+        "start": "20:00",
+        "end": "22:00",
+        "slots": ["20:00", "21:00"]
+      }
+    ],
+    "timezone": "Asia/Tokyo"
+  },
+  "takano_style": {
+    "min_length": 700,
+    "max_length": 1500,
+    "quality_threshold": 70,
+    "required_elements": [
+      "Hook（100-150字）",
+      "Data/Evidence（300-500字）",
+      "Insight（200-400字）",
+      "CTA（100-200字）"
+    ],
+    "patterns": [
+      "数字×断定型",
+      "衝撃×企業名",
+      "～の件型",
+      "問題提起型",
+      "対比型",
+      "ストーリー型",
+      "要約×洞察型"
+    ]
+  },
+  "late_api": {
+    "url_embed_format": "\n\n🔗 元の投稿: {tweet_url}",
+    "retry_delays": [5, 15, 30],
+    "fallback_enabled": true
+  },
+  "data_collection": {
+    "decks_to_scan": 16,
+    "tweets_per_deck": 30,
+    "max_tweets_to_analyze": 20,
+    "final_selection": 6
+  }
+}
