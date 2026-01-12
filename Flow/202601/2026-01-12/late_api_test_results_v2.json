@@ -1,0 +1,282 @@
+{
+  "linkedin": {
+    "post": {
+      "userId": "69576c822a740175fba74d89",
+      "title": "",
+      "content": "**AIエージェントの本質は「スキル」にある。**\n\n答えは単純だ。SlashCommandでもSubagentでもない。最大の武器は「ポータビリティー」なんだよね。\n\nNappsTechnologiesの榎本氏が年末に公開したnote記事を読んで、痺れた。\n\n**これはテスト投稿です（URL参照機能検証）**",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "linkedin",
+          "accountId": {
+            "byokCredentials": {
+              "isActive": false
+            },
+            "_id": "69576d354207e06f4ca837e1",
+            "profileId": "69576d1e96773ceb34903b09",
+            "platform": "linkedin",
+            "__v": 0,
+            "accessToken": "AQVVSmWWOa5NeZa39jR_LhPolWcoto6JGA4O1p-tXQHs9Cc10EIJfJGam-y64MxM_0UNc-hNbhwuS38MNdF0FbMPjMfgwIx-FoN75XfK0pvhjoT1rmdsPSktyDIvxcF4qq3mJxWn0eE2H5X7nsr6h3kuCsvecb-XKtQMIO_3A2SEk_JSBpDcd7UqKzPK-gTu_vxUVMxlrRQEvMTnL3YH0cy3qv-u2TitJLEmF3HqKOpwO9Af2-g6BkBJekWzG-IFt4OyAXu6K7OYrY_2-3iz7D2ePjvtko4GeQXjFNuvSPXJpne95qzJFg6OxvoF7WsY7lES03UZaXF8TgNkfc9FWnmripXpHw",
+            "createdAt": "2026-01-02T07:01:09.490Z",
+            "displayName": "優一 佐藤",
+            "isActive": true,
+            "metadata": {
+              "accountType": "personal",
+              "userProfile": {
+                "id": "fa-ee_YFEe",
+                "username": "優一 佐藤",
+                "displayName": "優一 佐藤",
+                "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQHpp0Vb5EW6FA/profile-displayphoto-scale_200_200/B56Zf84D1gHYAc-/0/1752294244284?e=1769040000&v=beta&t=RFtfUiMfYf8P0Qe4bBlDIGz0ciXuRROwRURdMUJ5drg",
+                "profileUrl": "https://www.linkedin.com/in/y-sato/"
+              },
+              "connectedAt": "2026-01-02T07:01:09.489Z",
+              "organizationsFetchedAt": "2026-01-04T04:46:53.876Z",
+              "availableOrganizations": [
+                {
+                  "id": "67165653",
+                  "urn": "urn:li:organization:67165653",
+                  "name": "Test12094372",
+                  "vanityName": "test12094372",
+                  "logoUrl": null,
+                  "website": null,
+                  "industry": "urn:li:industry:132"
+                }
+              ]
+            },
+            "permissions": [
+              "openid",
+              "profile",
+              "email",
+              "w_member_social",
+              "w_member_social_feed",
+              "r_member_postAnalytics",
+              "r_member_profileAnalytics",
+              "r_1st_connections_size",
+              "w_organization_social",
+              "w_organization_social_feed",
+              "r_organization_admin",
+              "r_organization_social",
+              "r_organization_social_feed",
+              "r_organization_followers"
+            ],
+            "platformUserId": "fa-ee_YFEe",
+            "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQHpp0Vb5EW6FA/profile-displayphoto-scale_200_200/B56Zf84D1gHYAc-/0/1752294244284?e=1769644800&v=beta&t=JCvAdWKGOiuCUhTyA1h4YJZ24ogSPfUIT59xPFqjOmw",
+            "profileUrl": "https://www.linkedin.com/in/y-sato/",
+            "refreshToken": "AQXsSdiEj1TpE759vWqa_M-P6soHTPFWjpSkR_xlBvnDOKmZfxWUYoYm8Meuz_g2sKGFYtGKufWeYh8XqTU_DO8m-gxtvm9g7y_oMYPGvI4bj4YNCRRF-LpvatY8Yz9TyXoSmh5BllEQGQhNa00jC37xbJzORdvLXGKSCNcLJve7UPdcLeU1kdkyOsSYVQ66Dn1hPPPA96_35K5ADovVnHSL1pRoh57JHMUH7mjKLCEA_9fvxvTw_ylgeB4yc2BlkkiLFsivgcXaiyTf-AF7Rb0_Mehfp2oSqiQxqriFfz1WtIDQ1gdcm1ncwJhNCMj4XJUORqlMw3GFwJkH2RQR7LZbKzMk7w",
+            "tokenExpiresAt": "2026-03-03T07:01:08.405Z",
+            "updatedAt": "2026-01-12T02:06:12.822Z",
+            "userId": "69576c822a740175fba74d89",
+            "username": "優一 佐藤",
+            "followersCount": 32133,
+            "followersLastUpdated": "2026-01-12T02:06:12.822Z"
+          },
+          "profileId": "69576d1e96773ceb34903b09",
+          "customMedia": [],
+          "scheduledFor": "2026-01-12T07:04:45.000Z",
+          "platformSpecificData": {
+            "firstComment": "■ ソース\n\nhttps://note.com/napps_technologies\nhttps://www.anthropic.com/claude-code",
+            "__platformUserIdSnapshot": "fa-ee_YFEe",
+            "__usernameSnapshot": "優一 佐藤"
+          },
+          "status": "pending",
+          "_id": "69649be2bf05fa3bf6d594b5"
+        }
+      ],
+      "scheduledFor": "2026-01-12T07:04:45.000Z",
+      "timezone": "Asia/Tokyo",
+      "status": "scheduled",
+      "tags": [],
+      "hashtags": [],
+      "mentions": [],
+      "visibility": "public",
+      "crosspostingEnabled": true,
+      "metadata": {
+        "usageCounted": true
+      },
+      "publishAttempts": 0,
+      "_id": "69649be2bf05fa3bf6d594b4",
+      "createdAt": "2026-01-12T06:59:46.579Z",
+      "updatedAt": "2026-01-12T06:59:46.579Z",
+      "__v": 0
+    },
+    "message": "Post scheduled successfully"
+  },
+  "twitter": {
+    "post": {
+      "userId": "69576c822a740175fba74d89",
+      "title": "",
+      "content": "AIコーディングの実務で効いた5つの型が公開された\n\n松尾研究所の中川氏がZennで詳細レポート",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "twitter",
+          "accountId": {
+            "byokCredentials": {
+              "isActive": false
+            },
+            "_id": "69576e284207e06f4ca837e4",
+            "platformUserId": "155369088",
+            "profileId": "69576d1e96773ceb34903b09",
+            "platform": "twitter",
+            "__v": 0,
+            "accessToken": "bmpNQXBoU2NKMS00WHkyY1RGNVVQd1A0THNJMnhHWmdHNDllOUp6RF9hRnFrOjE3NjgxOTY2MDg5NTA6MTowOmF0OjE",
+            "createdAt": "2026-01-02T07:05:12.424Z",
+            "displayName": "佐藤優一 | AIプロダクト開発・AI業務改革",
+            "isActive": true,
+            "metadata": {
+              "token_type": "bearer",
+              "expires_in": 7200,
+              "access_token": "U2JaX1JQQUwxbUNwallKbHVmUlZiV3NRUnJDUjJMQ052cUhvSUZNdnB3czBsOjE3NjczMzc1MTIyNTk6MTowOmF0OjE",
+              "scope": "offline.access tweet.write media.write users.read tweet.read",
+              "refresh_token": "X3NDSmxhaVljSzFRODRFRmY2aElBbXVTUXRuLTJ1OHJUN2RieGVqTkM4TWlEOjE3NjczMzc1MTIyNTk6MTowOnJ0OjE",
+              "profileData": {
+                "id": "155369088",
+                "username": "yuichisatoeco",
+                "displayName": "佐藤優一 | AIプロダクト開発・AI業務改革",
+                "profilePicture": "https://pbs.twimg.com/profile_images/1943889708649533440/BfCIYAJU_normal.jpg",
+                "profileUrl": "https://x.com/yuichisatoeco",
+                "isPremium": true,
+                "verifiedType": "blue",
+                "subscriptionType": "Premium",
+                "followersCount": 10298
+              },
+              "connectedAt": "2026-01-02T07:05:12.423Z",
+              "lastTokenRefreshAt": "2026-01-12T03:41:09.366Z"
+            },
+            "permissions": [
+              "offline.access",
+              "tweet.write",
+              "media.write",
+              "users.read",
+              "tweet.read"
+            ],
+            "profilePicture": "https://pbs.twimg.com/profile_images/1943889708649533440/BfCIYAJU_normal.jpg",
+            "profileUrl": "https://x.com/yuichisatoeco",
+            "refreshToken": "Vlc1MjVobnBTQXVrak5rZ09LakF3MXpSdl95WkNPYnhMMzl0NDdTTjRNTGV2OjE3NjgxOTY2MDg5NTA6MToxOnJ0OjE",
+            "tokenExpiresAt": "2026-01-12T07:43:28.964Z",
+            "updatedAt": "2026-01-12T05:43:28.965Z",
+            "userId": "69576c822a740175fba74d89",
+            "username": "yuichisatoeco",
+            "followersCount": 10305,
+            "followersLastUpdated": "2026-01-12T02:06:12.230Z"
+          },
+          "profileId": "69576d1e96773ceb34903b09",
+          "customMedia": [],
+          "scheduledFor": "2026-01-12T07:09:45.000Z",
+          "platformSpecificData": {
+            "threadItems": [
+              {
+                "content": "なぜAIコーディングは「補助」では不十分なのか？\n\n答えはシンプル"
+              },
+              {
+                "content": "あなたはAIコーディングをどう位置づけていますか？\n\n**テスト投稿（URL参照機能検証）**\n\n■ ソース\n\nhttps://zenn.dev/matsuo_lab\nhttps://www.anthropic.com/claude-code"
+              }
+            ],
+            "__platformUserIdSnapshot": "155369088",
+            "__usernameSnapshot": "yuichisatoeco"
+          },
+          "status": "pending",
+          "_id": "69649be4bf05fa3bf6d594f6"
+        }
+      ],
+      "scheduledFor": "2026-01-12T07:09:45.000Z",
+      "timezone": "Asia/Tokyo",
+      "status": "scheduled",
+      "tags": [],
+      "hashtags": [],
+      "mentions": [],
+      "visibility": "public",
+      "crosspostingEnabled": true,
+      "metadata": {
+        "usageCounted": true
+      },
+      "publishAttempts": 0,
+      "_id": "69649be4bf05fa3bf6d594f5",
+      "createdAt": "2026-01-12T06:59:48.751Z",
+      "updatedAt": "2026-01-12T06:59:48.751Z",
+      "__v": 0
+    },
+    "message": "Post scheduled successfully"
+  },
+  "threads": {
+    "post": {
+      "userId": "69576c822a740175fba74d89",
+      "title": "",
+      "content": "AI Code Reviewsが開発を変える\n\nCodeRabbitのレポートが示すデータが衝撃的\n\n**これはテスト投稿です（URL参照機能検証）**\n\n■ ソース\n\nhttps://coderabbit.ai/blog/\nhttps://github.blog/ai-and-ml/",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "threads",
+          "accountId": {
+            "byokCredentials": {
+              "isActive": false
+            },
+            "_id": "69576df34207e06f4ca837e3",
+            "platform": "threads",
+            "platformUserId": "33132896526324960",
+            "profileId": "69576d1e96773ceb34903b09",
+            "__v": 0,
+            "accessToken": "THAAUC41UtkBZABUVJwYnRWT3NURFlpQ2tLZAW5ReE1jc2lJZA2IyaEEyS0ZAqcnVRWDYxOTdUTVAwT2JRMFZAseWdpTFVXcm94RWtQWHRTR0NtR0NmMnF3UzNuUi13TGtPUVNyN3VubkRGVXpiUkJiVWhBVFpvdndWUFdiN3JfbXRXZAVhsdwZDZD",
+            "createdAt": "2026-01-02T07:04:19.830Z",
+            "displayName": "ysato1101",
+            "isActive": true,
+            "metadata": {
+              "access_token": "THAAUC41UtkBZABUVJwYnRWT3NURFlpQ2tLZAW5ReE1jc2lJZA2IyaEEyS0ZAqcnVRWDYxOTdUTVAwT2JRMFZAseWdpTFVXcm94RWtQWHRTR0NtR0NmMnF3UzNuUi13TGtPUVNyN3VubkRGVXpiUkJiVWhBVFpvdndWUFdiN3JfbXRXZAVhsdwZDZD",
+              "expires_in": 5184000,
+              "token_type": "Bearer",
+              "profileData": {
+                "id": "33132896526324960",
+                "username": "ysato1101",
+                "displayName": "ysato1101",
+                "profilePicture": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/543036313_17858726193500113_757075898242652001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiUFJPRklMRV9QSUMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RKzvHCFtpgoQ7kNvwE89ynd&_nc_oc=Adl0BrhyS3asvsxAqk9FMIgGXskjNdKhfDVhMEJ8HubqnPq7PBzekDovgl_9vrysQn4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=upm4J_BnhoNL1Qa4J07z4Q&oh=00_AfpRQ4y6yl6MCAsdyjx3IChP2fMTNjgsAeIAlKFhNHKrNQ&oe=695D4C6D",
+                "profileUrl": "https://threads.net/@ysato1101",
+                "followersCount": 67
+              },
+              "connectedAt": "2026-01-02T07:04:19.830Z"
+            },
+            "permissions": [
+              "threads_basic",
+              "threads_content_publish",
+              "threads_manage_replies",
+              "threads_manage_insights"
+            ],
+            "profilePicture": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/543036313_17858726193500113_757075898242652001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiUFJPRklMRV9QSUMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=HJQaSMrd65kQ7kNvwGbIU2n&_nc_oc=AdmP4lyBSXv-NuXac_YTVJzCubseHDh3jyA2T1BHrlW6GsKY6Bi3RvDPoOlAyJem1Lg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=UjBHZhyUHMCX9qPDZWK8cg&oh=00_AfqDWJcrogb4eALYr2vwLVx7celoryTbJvxqifcJPZsoAQ&oe=696A432D",
+            "profileUrl": "https://threads.net/@ysato1101",
+            "tokenExpiresAt": "2026-03-03T07:04:19.830Z",
+            "updatedAt": "2026-01-12T02:06:12.559Z",
+            "userId": "69576c822a740175fba74d89",
+            "username": "ysato1101",
+            "followersCount": 78,
+            "followersLastUpdated": "2026-01-12T02:06:12.559Z"
+          },
+          "profileId": "69576d1e96773ceb34903b09",
+          "customMedia": [],
+          "scheduledFor": "2026-01-12T07:14:45.000Z",
+          "platformSpecificData": {
+            "__platformUserIdSnapshot": "33132896526324960",
+            "__usernameSnapshot": "ysato1101"
+          },
+          "status": "pending",
+          "_id": "69649be6bf05fa3bf6d5952d"
+        }
+      ],
+      "scheduledFor": "2026-01-12T07:14:45.000Z",
+      "timezone": "Asia/Tokyo",
+      "status": "scheduled",
+      "tags": [],
+      "hashtags": [],
+      "mentions": [],
+      "visibility": "public",
+      "crosspostingEnabled": true,
+      "metadata": {
+        "usageCounted": true
+      },
+      "publishAttempts": 0,
+      "_id": "69649be6bf05fa3bf6d5952c",
+      "createdAt": "2026-01-12T06:59:50.593Z",
+      "updatedAt": "2026-01-12T06:59:50.593Z",
+      "__v": 0
+    },
+    "message": "Post scheduled successfully"
+  }
+}

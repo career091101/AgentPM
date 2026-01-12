@@ -100,12 +100,14 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     """
     LinkedIn投稿（案N）のコンテンツを抽出
 
+    v2.1: 「最初のコメント（firstComment）」セクションも抽出
+
     Args:
         markdown: Phase 3生成されたMarkdownファイルの内容
         variant_number: バリアント番号（デフォルト: 案2が最推奨）
 
     Returns:
-        dict: {"title": str, "body": str, "full_content": str}
+        dict: {"title": str, "body": str, "full_content": str, "first_comment": str}
     """
     # 新フォーマット: ## LinkedIn投稿案2（パターンX: 名称）
     pattern = rf'## LinkedIn投稿案{variant_number}（パターン\d+:.*?\）\n\n\*\*トピック\*\*:.*?\n\n---\n\n(.*?)(?=\n---\n|\n## |\Z)'
@@ -125,11 +127,33 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
         return {
             "title": title,
             "body": body,
-            "full_content": f"{title}\n\n{body}"
+            "full_content": f"{title}\n\n{body}",
+            "first_comment": None  # 旧フォーマットではfirstComment未対応
         }
 
-    # 新フォーマットの場合は全体をbodyとして扱う
-    body = remove_markdown(match.group(1).strip())
+    # 新フォーマットの場合
+    full_section = match.group(1).strip()
+
+    # 「#### 最初のコメント（firstComment）」セクションを抽出
+    first_comment_pattern = r'####\s+最初のコメント（firstComment）.*?\n\n.*?\n\n(.*?)(?=\n####|\Z)'
+    first_comment_match = re.search(first_comment_pattern, full_section, re.DOTALL)
+
+    first_comment = None
+    if first_comment_match:
+        # 「■ ソース」セクションのみを抽出（実装手順や注意事項は除外）
+        first_comment_raw = first_comment_match.group(1).strip()
+        # 「```」で囲まれたコードブロックや「**実装手順**:」以降を除外
+        if '■ ソース' in first_comment_raw:
+            # 「■ ソース」から始まる部分のみ抽出
+            source_match = re.search(r'■ ソース\n\n(.*?)(?=\n\*\*|\Z)', first_comment_raw, re.DOTALL)
+            if source_match:
+                first_comment = f"■ ソース\n\n{source_match.group(1).strip()}"
+            else:
+                first_comment = first_comment_raw
+
+    # 本文部分（「#### 最初のコメント」より前）を抽出
+    body_match = re.search(r'^(.*?)(?=\n####\s+最初のコメント|\Z)', full_section, re.DOTALL)
+    body = remove_markdown(body_match.group(1).strip()) if body_match else remove_markdown(full_section)
 
     # タイトルは本文の最初の行を使用
     lines = body.split('\n', 1)
@@ -138,7 +162,8 @@ def extract_linkedin_content(markdown: str, variant_number: int = 2) -> Optional
     return {
         "title": title,
         "body": body,
-        "full_content": body
+        "full_content": body,
+        "first_comment": first_comment
     }
 
 
@@ -297,10 +322,13 @@ def post_to_late_api(
     account_id: str,
     scheduled_datetime: datetime,
     api_key: str,
-    thread_items: Optional[List[str]] = None
+    thread_items: Optional[List[str]] = None,
+    first_comment: Optional[str] = None
 ) -> dict:
     """
     Late APIに1件の投稿を送信
+
+    v2.1: LinkedIn firstComment対応追加
 
     Args:
         content: 投稿本文（スレッド時は最初の投稿）
@@ -309,6 +337,7 @@ def post_to_late_api(
         scheduled_datetime: 予約日時（JST）
         api_key: Late API キー
         thread_items: Xスレッド投稿時の各ツイートリスト
+        first_comment: LinkedIn firstComment（LinkedInのみ対応）
 
     Returns:
         dict: Late APIレスポンス
@@ -327,6 +356,12 @@ def post_to_late_api(
         "platform": platform,
         "accountId": account_id
     }
+
+    # LinkedIn firstComment対応
+    if first_comment and platform == "linkedin":
+        platform_config["platformSpecificData"] = {
+            "firstComment": first_comment
+        }
 
     # Xスレッド投稿の場合
     if thread_items and platform == "twitter":
@@ -560,7 +595,8 @@ def main():
                 'content': contents['linkedin']['full_content'],
                 'account_id': linkedin_account_id,
                 'title': contents['linkedin']['title'][:50],
-                'thread_items': None
+                'thread_items': None,
+                'first_comment': contents['linkedin'].get('first_comment')
             })
 
         # X派生（7:30）
@@ -682,7 +718,8 @@ def main():
                     account_id=plan['account_id'],
                     scheduled_datetime=scheduled_datetime,
                     api_key=api_key,
-                    thread_items=plan['thread_items']
+                    thread_items=plan['thread_items'],
+                    first_comment=plan.get('first_comment')
                 )
 
                 post_id = result.get("post", {}).get("_id") or result.get("id")
