@@ -618,4 +618,9 @@ Professional Dashboardで確認した実際のデータ：
 ## 更新履歴
 
 - 2026-01-12: 初版作成（Chrome MCP対応）
+- 2026-01-12: Content Library対応追加（投稿別詳細データ収集）
+  - 各投稿の閲覧数、閲覧者数、インタラクション、収益、インプレッション、コメント、新フォロー数を取得
+  - STEP 6としてContent Library収集ステップを追加
+  - 出力JSONにcontent_libraryセクションを追加
 - 調査結果: Professional Dashboardで閲覧数・インタラクション・オーディエンス取得可能を確認
+- 調査結果: Content Library（/content/content_library）で投稿別詳細データ取得可能を確認

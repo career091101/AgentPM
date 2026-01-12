@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "created_at": "2026-01-12",
+    "purpose": "AI関連度判定の精度検証用テストケース",
+    "source": "extracted_contents_ai_20260102.json",
+    "total_cases": 11,
+    "evaluation_criteria": "@.claude/skills/_shared/ai_relevance_criteria.md"
+  },
+  "test_cases": [
+    {
+      "case_id": 1,
+      "url": "https://event.rakuten.co.jp/fashion/thesale/...",
+      "title": "【楽天市場】全額ポイントバックキャンペーン｜Rakuten Fashion THE SALE(楽天ファッション・ザ・セール)",
+      "content_summary": "13,000ショップ以上が対象抽選で1,000名様に当たる！エントリー期間：2025年12月24日...",
+      "word_count": 7,
+      "domain": "event.rakuten.co.jp",
+      "expected_score": 0,
+      "expected_reason": "非AI関連（ファッション・ポイントバックキャンペーン）",
+      "keywords_present": [],
+      "category": "ファッション・EC"
+    },
+    {
+      "case_id": 2,
+      "url": "https://video.unext.jp/...",
+      "title": "- 動画配信 | U-NEXT 31日間無料トライアル",
+      "content_summary": "",
+      "word_count": 0,
+      "domain": "video.unext.jp",
+      "expected_score": 0,
+      "expected_reason": "非AI関連（動画配信サービス）、本文なし",
+      "keywords_present": [],
+      "category": "エンタメ・動画配信"
+    },
+    {
+      "case_id": 3,
+      "url": "https://microlaunch.net/",
+      "title": "World-class Tech Products on Microlaunch",
+      "content_summary": "Turn today's news into tomorrow's SEO & LLM traffic. Save hours with complete SaaS starter kits...",
+      "word_count": 181,
+      "domain": "microlaunch.net",
+      "expected_score": 1,
+      "expected_reason": "LLM言及あり（SEO & LLM traffic）だが主題はSaaS製品紹介",
+      "keywords_present": ["LLM", "AI"],
+      "category": "SaaS製品紹介（AI技術言及あり）"
+    },
+    {
+      "case_id": 4,
+      "url": "https://drvape.jp/lp/...",
+      "title": "【公式】DR.VAPE（ドクターベイプ） Model 3｜香りを吸う。未来が変わる。",
+      "content_summary": "香りを吸う×ウェルネス　DR.VAPE Model 3｜200万人の方々に吸いごたえや味わい深さを提供...",
+      "word_count": 141,
+      "domain": "drvape.jp",
+      "expected_score": 0,
+      "expected_reason": "非AI関連（電子タバコ製品）",
+      "keywords_present": [],
+      "category": "製品紹介（健康・ウェルネス）"
+    },
+    {
+      "case_id": 5,
+      "url": "https://tver.jp/series/...",
+      "title": null,
+      "content_summary": "",
+      "word_count": 0,
+      "domain": "tver.jp",
+      "expected_score": 0,
+      "expected_reason": "抽出失敗（タイトル・本文なし）",
+      "keywords_present": [],
+      "category": "抽出エラー"
+    },
+    {
+      "case_id": 6,
+      "url": "https://note.com/napps/n/na65725437971",
+      "title": "Skillsはホワイトワーカの切り札なので乗った方がいいぞ｜ナッピー通信",
+      "content_summary": "AIShain(エーアイシャイン)を開発...Skillsについて...Claude Appや、APIでも使用できる...",
+      "word_count": 16,
+      "domain": "note.com",
+      "expected_score": 3,
+      "expected_reason": "タイトルにSkills（AI技術）、本文にAI, Claude, API等の3点キーワード含有",
+      "keywords_present": ["AI", "Claude", "Skills", "GPTs", "エージェント"],
+      "category": "AI技術解説"
+    },
+    {
+      "case_id": 7,
+      "url": "https://www.open-access.bcu.ac.uk/16180/",
+      "title": "The Alchemy of Multibagger Stocks: An empirical investigation of factors that drive outperformance in the stock market",
+      "content_summary": "Hot growth stocks attract substantial interest...Fama-French factors, including size, value and profitability...",
+      "word_count": 530,
+      "domain": "www.open-access.bcu.ac.uk",
+      "expected_score": 0,
+      "expected_reason": "非AI関連（株式投資の実証研究）、AI技術キーワードなし",
+      "keywords_present": [],
+      "category": "金融・投資研究"
+    },
+    {
+      "case_id": 8,
+      "url": "https://lp.levtech-direct.jp/lp/...",
+      "title": "エンジニア・デザイナーの年収診断｜ITエンジニア・デザイナーの求人・転職なら【レバテックダイレクト】",
+      "content_summary": "",
+      "word_count": 0,
+      "domain": "lp.levtech-direct.jp",
+      "expected_score": 0,
+      "expected_reason": "非AI関連（IT求人サービス）、本文なし",
+      "keywords_present": [],
+      "category": "求人・転職"
+    },
+    {
+      "case_id": 9,
+      "url": "https://coderabbit.ai/...",
+      "title": "AI Code Reviews | CodeRabbit | Try for Free",
+      "content_summary": "Reviews for AI-powered teams...We find bugs humans miss...AI agent feedback in natural language...",
+      "word_count": 302,
+      "domain": "coderabbit.ai",
+      "expected_score": 3,
+      "expected_reason": "タイトルにAI、本文にAI agent, AI-powered, AI coding等の3点キーワード含有",
+      "keywords_present": ["AI", "AI agent", "AI-powered", "MCP", "coding tool"],
+      "category": "AI開発ツール"
+    },
+    {
+      "case_id": 10,
+      "url": "https://zenn.dev/mkj/articles/868e0723efa060",
+      "title": "Claude Code中心のAIコーディング運用：実務で効いた5つの型",
+      "content_summary": "AIコーディングを前提に...Claude Codeの運用における並列化・プロンプト運用...Claude Skills...",
+      "word_count": 89,
+      "domain": "zenn.dev",
+      "expected_score": 3,
+      "expected_reason": "タイトルにClaude Code（AI技術）、本文にAI, Claude, Skills, subagent等の3点キーワード含有",
+      "keywords_present": ["AI", "Claude", "Claude Code", "Skills", "subagent", "プロンプト"],
+      "category": "AI技術実践記事"
+    },
+    {
+      "case_id": 11,
+      "url": "https://songmu.jp/riji/entry/2025-06-22-taskmd-shelf.html",
+      "title": "TaskMD Shelf - 積極的棚上げを由とする怠惰なタスク管理 | おそらくはそれさえも平凡な日々",
+      "content_summary": "タスク管理方法を見直した...Claude Codeに書いてもらっている...AIに学習もさせやすく、支援も受けやすくなる...",
+      "word_count": 56,
+      "domain": "songmu.jp",
+      "expected_score": 2,
+      "expected_reason": "タスク管理が主題だが、Claude Code, AIによる支援に言及（2点キーワード）",
+      "keywords_present": ["AI", "Claude Code", "MCP"],
+      "category": "タスク管理（AI活用言及）"
+    }
+  ],
+  "expected_distribution": {
+    "3点": 3,
+    "2点": 1,
+    "1点": 1,
+    "0点": 6
+  },
+  "expected_metrics": {
+    "ai_relevant_rate": 45.5,
+    "high_relevance_rate": 27.3,
+    "retention_rate": 45.5
+  }
+}

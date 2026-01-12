@@ -6,11 +6,11 @@
 
 ## 実行順序
 
-以下の3スキルを**1→2→3の順序で逐次実行**
+以下の4スキルを**1→1.5→2→3の順序で逐次実行**
 
 > **📋 逐次実行パターン（必須）**
 >
-> 以下の3つのTaskを**順番に1つずつ実行**すること。
+> 以下の4つのTaskを**順番に1つずつ実行**すること。
 > 各タスク完了後、次のタスクを開始。
 
 ---
@@ -48,6 +48,49 @@ Task(
 ### 完了判定
 
 ファイルが生成され、12リンク中8リンク以上が正常処理されている
+
+---
+
+## STEP 2.15: コンテンツフィルタリング（5-10分）
+
+### 実行
+
+```python
+# Task 1.5: コンテンツフィルタリング（5-10分）
+Task(
+    description="コンテンツフィルタリング",
+    subagent_type="general-purpose",
+    model="sonnet",
+    prompt="""
+    filter-extracted-contentスキルを実行してください。
+
+    パラメータ:
+    - 入力: Stock/programs/副業/projects/SNS/data/extracted_contents_{date}.json
+    - 出力1: Stock/programs/副業/projects/SNS/data/extracted_contents_filtered_{date}.json （AI関連のみ）
+    - 出力2: Stock/programs/副業/projects/SNS/data/non_ai_contents_{date}.json （除外コンテンツ）
+    - 処理内容:
+      - 各記事のタイトル + 本文からAI関連度スコア（0-3点）を判定
+      - スコア0のコンテンツを除外
+      - AI関連コンテンツのみをフィルタリング済みファイルに出力
+      - 除外コンテンツを別ファイルに保存
+
+    AI関連度判定基準: @.claude/skills/_shared/ai_relevance_criteria.md
+
+    エラー発生時は即座に停止し、エラー内容を報告してください。
+    """
+)
+```
+
+### 期待出力
+
+1. `Stock/programs/副業/projects/SNS/data/extracted_contents_filtered_{date}.json` （AI関連のみ、9件程度）
+2. `Stock/programs/副業/projects/SNS/data/non_ai_contents_{date}.json` （除外コンテンツ、3件程度）
+
+### 完了判定
+
+- フィルタリング済みファイルが生成されている
+- AI関連コンテンツが60%以上保持されている（保持率60-90%）
+- 除外コンテンツファイルが生成されている
 
 ---
 
@@ -134,16 +177,19 @@ Task(
 ### 必須条件
 
 - **STEP 2.1（コンテンツ抽出）成功必須**
+- **STEP 2.15（コンテンツフィルタリング）成功必須**
 - **STEP 2.2（リプライ分析）**: データなし時はスキップ可
 - **STEP 2.3（Web調査）成功必須**
 
 ### 期待される成果物
 
-1. `extracted_contents_{date}.json` - 記事・YouTube・PDF等から抽出したコンテンツ
-2. `reply_insights_{date}.json` - リプライから抽出したインサイト（データなし時は生成されない）
-3. `research_findings_{date}.json` - Web調査結果、ファクトチェック、専門家意見
+1. `extracted_contents_{date}.json` - 記事・YouTube・PDF等から抽出したコンテンツ（AI関連度スコア付き）
+2. `extracted_contents_filtered_{date}.json` - AI関連コンテンツのみ（フィルタリング済み）
+3. `non_ai_contents_{date}.json` - 除外された非AI関連コンテンツ
+4. `reply_insights_{date}.json` - リプライから抽出したインサイト（データなし時は生成されない）
+5. `research_findings_{date}.json` - Web調査結果、ファクトチェック、専門家意見
 
-**総実行時間**: 30-45分（逐次実行）
+**総実行時間**: 35-55分（逐次実行、フィルタリング追加により5-10分延長）
 
 ---
 
@@ -154,6 +200,7 @@ Task(
 | ステップ | エラー時の対応 | 理由 |
 |---------|-----------|------|
 | **STEP 2.1** | **即時停止** | 後続処理が依存するため必須 |
+| **STEP 2.15** | **即時停止** | AI関連コンテンツのみを投稿生成に使用 |
 | **STEP 2.2** | データなし時はスキップ可 | オプショナル |
 | **STEP 2.3** | **即時停止** | Web調査結果は投稿品質を大きく左右 |
 

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://github.com/modelcontextprotocol/servers/blob/main/mcp.schema.json",
+  "mcpServers": {
+    "_comment_slack": "Slack MCP disabled to reduce context usage by ~1k tokens. Restore from .mcp.json.backup if needed.",
+    "bigquery": {
+      "command": "python3",
+      "args": ["/Users/yuichi/AIPM/aipm_v0/scripts/mcp_servers/bigquery_server.py"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}",
+        "GCP_PROJECT_ID": "${GCP_PROJECT_ID}"
+      }
+    },
+    "sentry": {
+      "command": "python3",
+      "args": ["/Users/yuichi/AIPM/aipm_v0/scripts/mcp_servers/sentry_server.py"],
+      "env": {
+        "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}",
+        "SENTRY_ORG_SLUG": "${SENTRY_ORG_SLUG}"
+      }
+    },
+    "late": {
+      "command": "uvx",
+      "args": ["--from", "late-sdk[mcp]", "late-mcp"],
+      "env": {
+        "LATE_API_KEY": "${LATE_API_KEY}"
+      }
+    }
+  }
+}

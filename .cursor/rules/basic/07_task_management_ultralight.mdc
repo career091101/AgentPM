@@ -1,0 +1,432 @@
+---
+description: "Ultra Light 4コマンド運用 - タスクを考えない日次タスク管理（Cursor用）"
+globs:
+alwaysApply: false
+---
+
+# =========================
+# 07_task_management_ultralight.mdc
+# =========================
+
+# Ultra Light 4コマンド運用
+# バージョン: 2.1
+# 前提: タスクを考えるのが苦手な人向け
+# 運用方法: 入力→AI整形→選択→実行
+
+path_reference: "pmbok_paths.mdc"
+
+# =========================
+# AI注意事項 - AIが必ず守るべきルール
+# =========================
+ai_instructions:
+  - "Ultra Light 4コマンド（タスクメモ/次の一手/これやる/タスクプロンプト生成）以外の処理は追加しないこと"
+  - "inbox/candidates/tasks の構造を厳守すること"
+  - "Done定義はタスクの性質に応じて2〜5個の候補から選択させること（数字制限なし、柔軟な表現）"
+  - "tasksが3個を超えたら警告を表示すること"
+  - "candidates は使い捨て（上書きOK）、inbox は無制限蓄積"
+  - "タスクID（T001, T002...）は自動採番すること"
+  - "whyフィールドは使用しない（Ultra Light版では削除済み）"
+
+# =========================
+# トリガーワード
+# =========================
+triggers:
+  task_memo:
+    keywords: ["タスクメモ"]
+    action: "inbox に気がかりを追加（何行でもOK）"
+
+  next_step:
+    keywords: ["次の一手"]
+    action: "inbox から完了までのTodoパターン生成（2〜5パターン）"
+
+  do_this:
+    keywords: ["これやる"]
+    action: "candidates から tasks へ確定"
+
+  task_prompt_generation:
+    keywords: ["タスクプロンプト生成"]
+    action: "tasks を Claude Code 実行可能なプロンプト形式に変換"
+
+# =========================
+# ファイルパス
+# =========================
+paths:
+  daily_tasks: "Flow/202512/2025-12-30/daily_tasks.yaml"
+  failure_log: "Flow/202512/2025-12-30/failure_log.yaml"
+  intake_prompt: ".claude/daily/intake_prompt.md"
+  readme: ".claude/daily/README.md"
+
+# =========================
+# YAML構造
+# =========================
+yaml_structure: |
+  date: 2025-12-30
+
+  inbox:
+    - "企画書が進まない"
+    - "メール返信が溜まってる"
+    - "睡眠不足"
+
+  candidates:
+    - "A. 企画書の目次を箇条書きで5行書く"
+    - "B. 参考資料を1つ見つけてブックマーク"
+    - "C. 誰に相談するか決めてメモ1行"
+
+  tasks:
+    - id: T001
+      what: "企画書の目次を箇条書きで5行書く"
+      done: "メモが5行ある"
+      status: pending
+      created_at: "2025-12-30 09:00"
+
+# =========================
+# 1️⃣ タスクメモ（inbox追記）
+# =========================
+task_memo_workflow:
+  trigger: "タスクメモ"
+
+  steps:
+    - step: 1
+      action: "prompt_user"
+      message: |
+        何が気がかりですか？何行でも入力できます。
+
+        【入力例】
+        ・企画書が進まない
+        ・メール返信が溜まってる
+        ・睡眠不足
+
+    - step: 2
+      action: "update_yaml"
+      file: "{{daily_tasks}}"
+      operation: "append_to_inbox"
+      description: "ユーザー入力をinbox配列に追加（既存項目は削除しない、何行でもOK）"
+
+    - step: 3
+      action: "confirm"
+      message: |
+        ✅ inboxに追加しました
+
+        inbox:
+          - "[入力内容1]"
+          - "[入力内容2]"
+          - "[入力内容3]"
+          - ...
+
+# =========================
+# 2️⃣ 次の一手（候補生成：1件選択）
+# =========================
+next_step_workflow:
+  trigger: "次の一手"
+
+  steps:
+    - step: 1
+      action: "read_yaml"
+      file: "{{daily_tasks}}"
+      field: "inbox"
+      description: "inbox項目を読み込み"
+
+    - step: 2
+      action: "prompt_user"
+      message: |
+        inboxから1件選んでください：
+
+        1. [inbox項目1]
+        2. [inbox項目2]
+        3. [inbox項目3]
+
+        番号で指定:
+
+    - step: 3
+      action: "generate_todo_patterns"
+      description: "選択した項目を完了までのTodoパターンに分解（2〜5パターン）"
+      rules:
+        - "パターン数は柔軟に: 2〜5パターン程度、要件の複雑さに応じて調整"
+        - "各パターンは完了までのTodoリスト: 最初のTodoから最終成果物までの全ステップを提示"
+        - "Todoは具体的で実行可能: 「目次を5行書く」など明確に"
+        - "時間指定は不要: 所要時間や期間の記載は一切不要"
+        - "必ずレコメンドを提示: 最も効果的なパターンとTodo実行順序を推奨し、理由を1-2行で説明"
+        - "状況に応じた柔軟性: 簡単な課題なら2-3パターン、複雑なら4-5パターン提示"
+
+    - step: 4
+      action: "prompt_user"
+      message: |
+        「[選択した項目]」の完了までのTodo候補：
+
+        【パターンA: [アプローチ名]】
+        1. [Todo1]
+        2. [Todo2]
+        3. [Todo3]
+        → 完了: [最終成果物]
+
+        【パターンB: [アプローチ名]】
+        1. [Todo1]
+        2. [Todo2]
+        3. [Todo3]
+        4. [Todo4]
+        → 完了: [最終成果物]
+
+        （必要に応じてパターンC, D... と追加）
+
+        💡 おすすめ: パターン[A/B/C...]（1→2→3の順で実行）
+        理由: [このTodo組み合わせを推奨する理由を1-2行で説明]
+
+        どのパターンで進めますか？(A/B/C...)
+
+    - step: 5
+      action: "update_yaml"
+      file: "{{daily_tasks}}"
+      operation: "overwrite_candidates"
+      description: "candidatesを上書き（前回のA/B/Cは削除）"
+
+    - step: 6
+      action: "confirm"
+      message: |
+        ✅ candidatesに追加しました
+
+        candidates:
+          - "A. [候補A内容]"
+          - "B. [候補B内容]"
+          - "C. [候補C内容]"
+
+# =========================
+# 2️⃣-B 全部の一手（候補生成：全件一括）
+# =========================
+all_next_steps_workflow:
+  trigger: "全部の一手"
+
+  steps:
+    - step: 1
+      action: "read_yaml"
+      file: "{{daily_tasks}}"
+      field: "inbox"
+      description: "inbox全項目を読み込み"
+
+    - step: 2
+      action: "generate_all_candidates"
+      description: "全inbox項目についてA/B/C候補を生成"
+      rules:
+        - "A: 短期（数日程度）- すぐ着手できて数日で完了"
+        - "B: 中期（1〜2週間程度）- 計画的に進めて1〜2週間で完了"
+        - "C: 長期（数週間程度）- 段階的に進めて数週間で完了"
+        - "各候補は具体的な成果物レベル"
+
+    - step: 3
+      action: "prompt_user"
+      message: |
+        inbox全件の次の一手（数日〜数週間）：
+
+        【例1: [inbox項目1]】
+        A. [候補A]
+        B. [候補B]
+        C. [候補C]
+        💡 おすすめ: A（理由）
+
+        【例2: [inbox項目2]】
+        A. [候補A]
+        B. [候補B]
+        C. [候補C]
+        💡 おすすめ: A（理由）
+
+        【例3: [inbox項目3]】
+        A. [候補A]
+        B. [候補B]
+        C. [候補C]
+        💡 おすすめ: A（理由）
+
+        どの項目について作業しますか？番号で指定:
+        1. [inbox項目1]
+        2. [inbox項目2]
+        3. [inbox項目3]
+
+    - step: 4
+      action: "prompt_user"
+      message: |
+        どれをやりますか？(A/B/C)
+
+    - step: 5
+      action: "update_yaml"
+      file: "{{daily_tasks}}"
+      operation: "overwrite_candidates"
+      description: "選択した項目のA/B/Cをcandidatesに上書き"
+
+    - step: 6
+      action: "confirm"
+      message: |
+        ✅ candidatesに追加しました
+
+        candidates:
+          - "A. [選択した候補A内容]"
+          - "B. [選択した候補B内容]"
+          - "C. [選択した候補C内容]"
+
+# =========================
+# 3️⃣ これやる（tasks確定）
+# =========================
+do_this_workflow:
+  trigger: "これやる"
+
+  steps:
+    - step: 1
+      action: "prompt_user"
+      message: |
+        どれをやりますか？(A/B/C、複数選択可、例: A,C または 全部)
+
+    - step: 2
+      action: "prompt_user_bulk_done_selection"
+      message: |
+        各パターンのDone定義を選んでください：
+
+        パターンA: [アプローチ名]
+        1. [A用完了基準1]
+        2. [A用完了基準2]
+        3. [A用完了基準3]
+
+        パターンC: [アプローチ名]
+        1. [C用完了基準1]
+        2. [C用完了基準2]
+
+        💡 おすすめ: A=1または2, C=1
+        理由: パターンAは1と2のどちらも適切（1は早期完了重視、2は品質重視）。パターンCは1が最適。
+
+        入力形式: A=1, C=2（カンマ区切りで指定）
+
+    - step: 3
+      action: "update_yaml"
+      file: "{{daily_tasks}}"
+      operation: "append_to_tasks"
+      description: |
+        選択した各パターンをtasksに追加:
+        - id: 自動採番（既存最大ID+1、初回はT001、複数選択時はT001, T002...）
+        - what: 選択した各パターンの内容
+        - done: 各パターンに対して選択したDone定義
+        - status: pending
+        - created_at: 現在時刻（YYYY-MM-DD HH:MM）
+
+    - step: 4
+      action: "confirm"
+      message: |
+        ✅ tasksに追加しました（[N]個追加）
+
+        tasks:
+          - id: T[番号1]
+            what: "[選択した候補1の内容]"
+            done: "[選択したDone定義1]"
+            status: pending
+            created_at: "[現在時刻]"
+
+          - id: T[番号2]
+            what: "[選択した候補2の内容]"
+            done: "[選択したDone定義2]"
+            status: pending
+            created_at: "[現在時刻]"
+
+          （選択した数だけ表示）
+
+# =========================
+# 4️⃣ タスクプロンプト生成（task_prompts.md作成）
+# =========================
+task_prompt_generation_workflow:
+  trigger: "タスクプロンプト生成"
+
+  steps:
+    - step: 1
+      action: "read_yaml"
+      file: "{{daily_tasks}}"
+      field: "tasks"
+      description: "pending状態のタスク数を確認"
+
+    - step: 2
+      action: "generate_task_prompts"
+      description: "各タスクをClaude Code実行可能なプロンプトに変換"
+      rules:
+        - "タスクID: T001-1, T001-2... の形式"
+        - "what: タスクの内容"
+        - "done: 完了基準"
+        - "実行手順: ステップバイステップの詳細手順"
+        - "Claude Codeコピペ用プロンプト: そのままコピペして実行できる形式"
+
+    - step: 3
+      action: "write_markdown"
+      file: "Flow/202512/2025-12-30/task_prompts.md"
+      description: "task_prompts.mdを作成"
+
+    - step: 4
+      action: "confirm"
+      message: |
+        ✅ task_prompts.md を作成しました
+
+        対象タスク: [N]個
+        保存先: Flow/202512/2025-12-30/task_prompts.md
+
+        各タスクのプロンプトをClaude Codeにコピペして実行できます。
+
+# =========================
+# Done定義生成ルール
+# =========================
+done_generation_rules:
+  - "タスクの性質に応じて適切な候補（2〜5個）を提示"
+  - "数字制限なし、柔軟な表現を使用"
+  - "具体的で測定可能な基準を提示"
+  - "レコメンドは複数選択肢OK（例: A=1または2, C=1）"
+  - "推奨理由は選択肢ごとに簡潔に説明"
+
+done_pattern_examples:
+  - "成果物系: 送れる/提出できる状態、レビュー通過、承認済み"
+  - "検証系: 動作確認が通る、テスト全通過"
+  - "調査系: メモがある、レポート完成"
+  - "計画系: 次のステップが明確、アクションプラン完成"
+  - "その他: ファイルが増える、MTG完了、後で決める（空）"
+
+# =========================
+# 運用ルール
+# =========================
+rules:
+  inbox:
+    limit: "無制限"
+    delete: "不要（蓄積OK）"
+    format: "「〇〇が進まない」「△△が不安」など単語でOK"
+
+  candidates:
+    limit: "3個（A/B/C）"
+    delete: "使い捨て（選んだらtasksへ移動、選ばなかったB/Cは削除OK）"
+    format: "10〜20分でできる具体的な行動"
+
+  tasks:
+    limit: "制限なし"
+    status: ["pending", "completed"]
+    done: "Todoの性質に応じて2〜5個から選択（数字制限なし、柔軟な表現）"
+
+# =========================
+# エラーハンドリング
+# =========================
+error_handling:
+  candidates_not_match:
+    message: "「次の一手」を再実行してください。別の候補が出ます。"
+
+  inbox_empty:
+    message: |
+      📭 inboxが空です。
+      「タスクメモ」で気がかりを何行でも入れてください。
+
+# =========================
+# 参考ファイル
+# =========================
+references:
+  - "対話台本: /Users/yuichi/AIPM/aipm_v0/.claude/daily/intake_prompt.md"
+  - "使い方ガイド: /Users/yuichi/AIPM/aipm_v0/.claude/daily/README.md"
+  - "タスクリスト: /Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-30/daily_tasks.yaml"
+  - "失敗記録: /Users/yuichi/AIPM/aipm_v0/Flow/202512/2025-12-30/failure_log.yaml"
+
+# =========================
+# 更新履歴
+# =========================
+version_history:
+  - version: "2.1"
+    date: "2025-12-30"
+    description: "Ultra Light 4コマンド運用（タスクプロンプト生成機能追加）"
+    author: "Claude Sonnet 4.5"
+  - version: "2.0"
+    date: "2025-12-30"
+    description: "Ultra Light 3コマンド運用（Cursor対応）"
+    author: "Claude Sonnet 4.5"

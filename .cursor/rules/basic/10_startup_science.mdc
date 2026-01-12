@@ -1,0 +1,338 @@
+---
+description: 「起業の科学フレームワークに基づくスタートアップ検証・リーンキャンバス・PMF検証の質問リストとテンプレートを提供」
+globs: 
+alwaysApply: false
+---
+# =========================
+# 10_startup_science.mdc
+# =========================
+
+# ----------------------------------------------------------
+# パス参照設定 - このファイルは pmbok_paths.mdc を参照します
+# ----------------------------------------------------------
+path_reference: "pmbok_paths.mdc"
+
+**厳守事項:**
+- 利用・引用した全情報・データ・知見には必ず【出典: 田所雅之「起業の科学」シリーズ】を明記してください。
+- 各ステージの検証は順番に実施し、前ステージの検証が完了してから次のステージに進むこと。
+
+# =========================
+# 知識ベース参照
+# =========================
+knowledge_base:
+  primary: "{{dirs.programs}}/創業支援・新規事業開発（AIエージェント）/startup_science_knowledge.md"
+  checklist: "{{dirs.programs}}/創業支援・新規事業開発（AIエージェント）/startup_validation_checklist.md"
+
+# =========================
+# 起業検証 質問リスト
+# =========================
+
+startup_validation_questions:
+  - category: "0. 現在のステージ確認"
+    items:
+      - question: "現在のプロジェクトステージを選択してください"
+        key: "current_stage"
+        options: ["Idea（アイデア段階）", "CPF（顧客課題検証）", "PSF（ソリューション検証）", "PMF（プロダクト市場適合）", "Scale（スケール段階）"]
+        required: true
+
+  - category: "1. プロジェクト基本情報"
+    items:
+      - question: "プロジェクト/プロダクト名を教えてください"
+        key: "project_name"
+        required: true
+      - question: "ターゲット顧客は誰ですか？（具体的に）"
+        key: "target_customer"
+        required: true
+      - question: "解決しようとしている課題は何ですか？"
+        key: "problem_statement"
+        required: true
+
+  - category: "2. アイデア検証"
+    condition: "current_stage === 'Idea（アイデア段階）'"
+    items:
+      - question: "自分が欲しいと思うプロダクトですか？"
+        key: "self_want"
+        options: ["はい", "いいえ"]
+        required: true
+      - question: "一言で説明できますか？（説明を記入）"
+        key: "one_liner"
+        required: true
+      - question: "既存の解決策の問題点は何ですか？"
+        key: "existing_problem"
+        required: false
+
+  - category: "3. CPF検証"
+    condition: "current_stage === 'CPF（顧客課題検証）'"
+    items:
+      - question: "顧客インタビューを何人に実施しましたか？"
+        key: "interview_count"
+        required: true
+      - question: "顧客が「お金を払ってでも解決したい」と言っていますか？"
+        key: "willingness_to_pay"
+        options: ["はい", "いいえ", "まだ確認していない"]
+        required: true
+      - question: "ペルソナを作成しましたか？"
+        key: "persona_created"
+        options: ["はい", "いいえ"]
+        required: true
+
+  - category: "4. PSF検証"
+    condition: "current_stage === 'PSF（ソリューション検証）'"
+    items:
+      - question: "MVPを作成しましたか？（種類を選択）"
+        key: "mvp_type"
+        options: ["ペーパープロトタイプ", "ランディングページ", "コンシェルジュMVP", "オズの魔法使いMVP", "実際のプロダクト", "まだ作成していない"]
+        required: true
+      - question: "独自の価値提案（UVP）を1文で説明してください"
+        key: "uvp"
+        required: true
+      - question: "顧客からのフィードバックはどうでしたか？"
+        key: "feedback_summary"
+        required: false
+
+  - category: "5. PMF検証"
+    condition: "current_stage === 'PMF（プロダクト市場適合）'"
+    items:
+      - question: "NPS（Net Promoter Score）はいくつですか？"
+        key: "nps_score"
+        required: false
+      - question: "「このプロダクトが使えなくなったら非常に残念」と答えた割合は？"
+        key: "sean_ellis_test"
+        required: false
+      - question: "LTV（顧客生涯価値）を算出していますか？"
+        key: "ltv_calculated"
+        options: ["はい（値を入力）", "いいえ"]
+        required: true
+      - question: "CAC（顧客獲得コスト）を算出していますか？"
+        key: "cac_calculated"
+        options: ["はい（値を入力）", "いいえ"]
+        required: true
+
+# =========================
+# リーンキャンバス 質問リスト
+# =========================
+
+lean_canvas_questions:
+  - category: "リーンキャンバス作成"
+    items:
+      - question: "プロジェクト名を教えてください"
+        key: "project_name"
+        required: true
+      - question: "【課題】顧客が抱える上位3つの課題は？"
+        key: "problems"
+        required: true
+      - question: "【顧客セグメント】ターゲット顧客は誰ですか？"
+        key: "customer_segments"
+        required: true
+      - question: "【独自の価値提案】競合と差別化された価値は？"
+        key: "unique_value_proposition"
+        required: true
+      - question: "【ソリューション】課題に対する解決策は？"
+        key: "solutions"
+        required: true
+      - question: "【チャネル】顧客へのリーチ方法は？"
+        key: "channels"
+        required: false
+      - question: "【収益の流れ】マネタイズ方法は？"
+        key: "revenue_streams"
+        required: false
+      - question: "【コスト構造】主要なコスト項目は？"
+        key: "cost_structure"
+        required: false
+      - question: "【主要指標】成功を測るKPIは？"
+        key: "key_metrics"
+        required: false
+      - question: "【圧倒的な優位性】模倣困難な競争優位は？"
+        key: "unfair_advantage"
+        required: false
+
+# =========================
+# PMF検証 質問リスト
+# =========================
+
+pmf_validation_questions:
+  - category: "PMF検証"
+    items:
+      - question: "プロジェクト名を教えてください"
+        key: "project_name"
+        required: true
+      - question: "現在のアクティブユーザー数は？"
+        key: "active_users"
+        required: true
+      - question: "月次成長率（MoM）は何%ですか？"
+        key: "mom_growth"
+        required: false
+      - question: "解約率（Churn Rate）は何%ですか？"
+        key: "churn_rate"
+        required: false
+      - question: "口コミによる新規獲得はありますか？"
+        key: "word_of_mouth"
+        options: ["多い", "少しある", "ほとんどない"]
+        required: true
+      - question: "ユーザーが自発的にプロダクトを推薦していますか？"
+        key: "organic_recommendation"
+        options: ["はい", "いいえ"]
+        required: true
+
+# =========================
+# テンプレート定義
+# =========================
+
+startup_validation_template: |
+  # スタートアップ検証レポート
+  
+  **プロジェクト名**: {{project_name}}
+  **検証日**: {{today}}
+  **現在のステージ**: {{current_stage}}
+  
+  ---
+  
+  ## 1. プロジェクト概要
+  
+  | 項目 | 内容 |
+  |-----|-----|
+  | ターゲット顧客 | {{target_customer}} |
+  | 課題 | {{problem_statement}} |
+  
+  ## 2. 検証結果
+  
+  {{#if self_want}}
+  ### アイデア検証
+  - 自分が欲しいプロダクト: {{self_want}}
+  - ワンライナー: {{one_liner}}
+  - 既存解決策の問題点: {{existing_problem}}
+  {{/if}}
+  
+  {{#if interview_count}}
+  ### CPF検証
+  - インタビュー実施数: {{interview_count}}人
+  - 支払い意思: {{willingness_to_pay}}
+  - ペルソナ作成: {{persona_created}}
+  {{/if}}
+  
+  {{#if mvp_type}}
+  ### PSF検証
+  - MVP種類: {{mvp_type}}
+  - UVP: {{uvp}}
+  - フィードバック: {{feedback_summary}}
+  {{/if}}
+  
+  {{#if nps_score}}
+  ### PMF検証
+  - NPS: {{nps_score}}
+  - Sean Ellisテスト: {{sean_ellis_test}}%
+  - LTV算出: {{ltv_calculated}}
+  - CAC算出: {{cac_calculated}}
+  {{/if}}
+  
+  ## 3. 次のアクション
+  
+  {{#if current_stage === 'Idea（アイデア段階）'}}
+  - [ ] 顧客インタビューを20人以上実施する
+  - [ ] ペルソナを作成する
+  - [ ] 課題仮説を言語化する
+  {{/if}}
+  
+  {{#if current_stage === 'CPF（顧客課題検証）'}}
+  - [ ] MVPを作成する（ペーパープロトタイプ推奨）
+  - [ ] 独自の価値提案（UVP）を定義する
+  - [ ] 顧客にMVPを見せてフィードバックを得る
+  {{/if}}
+  
+  {{#if current_stage === 'PSF（ソリューション検証）'}}
+  - [ ] 実際のプロダクトを開発する
+  - [ ] 初期ユーザーを獲得する
+  - [ ] NPSを測定する
+  {{/if}}
+  
+  {{#if current_stage === 'PMF（プロダクト市場適合）'}}
+  - [ ] ユニットエコノミクスを最適化する（LTV > CAC × 3）
+  - [ ] 再現可能なセールスプロセスを構築する
+  - [ ] スケールの準備を整える
+  {{/if}}
+  
+  ---
+  
+  **出典**: 田所雅之「起業の科学」シリーズ
+
+lean_canvas_template: |
+  # リーンキャンバス
+  
+  **プロジェクト名**: {{project_name}}
+  **作成日**: {{today}}
+  
+  ---
+  
+  | | 左側 | 中央 | 右側 |
+  |---|---|---|---|
+  | **上段** | **課題** | **独自の価値提案** | **圧倒的な優位性** |
+  | | {{problems}} | {{unique_value_proposition}} | {{unfair_advantage}} |
+  | **中段** | **ソリューション** | | **顧客セグメント** |
+  | | {{solutions}} | | {{customer_segments}} |
+  | **下段** | **チャネル** | **主要指標** | |
+  | | {{channels}} | {{key_metrics}} | |
+  
+  ---
+  
+  ## コスト構造
+  {{cost_structure}}
+  
+  ## 収益の流れ
+  {{revenue_streams}}
+  
+  ---
+  
+  **出典**: 田所雅之「起業の科学」/ Ash Maurya「Running Lean」
+
+pmf_validation_template: |
+  # PMF（Product-Market Fit）検証レポート
+  
+  **プロジェクト名**: {{project_name}}
+  **検証日**: {{today}}
+  
+  ---
+  
+  ## 1. 定量指標
+  
+  | 指標 | 現在値 | 目標値 | 判定 |
+  |-----|-------|-------|-----|
+  | アクティブユーザー数 | {{active_users}} | - | - |
+  | 月次成長率（MoM） | {{mom_growth}}% | 10%+ | {{mom_growth >= 10 ? '✅' : '⚠️'}} |
+  | 解約率（Churn Rate） | {{churn_rate}}% | 5%以下 | {{churn_rate <= 5 ? '✅' : '⚠️'}} |
+  
+  ## 2. 定性指標
+  
+  | 項目 | 結果 |
+  |-----|-----|
+  | 口コミ獲得 | {{word_of_mouth}} |
+  | 自発的推薦 | {{organic_recommendation}} |
+  
+  ## 3. Sean Ellisテスト
+  
+  「このプロダクトが使えなくなったらどう思いますか？」
+  
+  - **非常に残念**: {{sean_ellis_test}}%（目標: 40%以上）
+  
+  ## 4. PMF達成判定
+  
+  {{#if sean_ellis_test >= 40 && churn_rate <= 5}}
+  ✅ **PMF達成の可能性が高い**
+  {{else}}
+  ⚠️ **PMF達成にはさらなる改善が必要**
+  {{/if}}
+  
+  ## 5. 次のアクション
+  
+  {{#if sean_ellis_test < 40}}
+  - [ ] 「非常に残念」と答えるユーザーの共通点を分析
+  - [ ] コアユーザーにフォーカスした改善を実施
+  {{/if}}
+  
+  {{#if churn_rate > 5}}
+  - [ ] 解約理由を分析
+  - [ ] オンボーディングを改善
+  {{/if}}
+  
+  ---
+  
+  **出典**: 田所雅之「起業の科学」/ Sean Ellis

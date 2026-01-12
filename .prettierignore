@@ -1,0 +1,62 @@
+# .prettierignore - prettier exclusion patterns
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.min.js
+*.min.css
+
+# Logs and cache
+*.log
+*.cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.tox/
+coverage/
+.coverage
+htmlcov/
+
+# Data files (may be large or auto-generated)
+*.csv
+*.sqlite
+*.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Project-specific excludes
+Flow/
+Archived/
+
+# Claude Code internals
+.claude/plans/
+
+# Generated reports
+*_report.md
+quality_score.json
+
+# Backups
+*.bak
+*.backup
+*~

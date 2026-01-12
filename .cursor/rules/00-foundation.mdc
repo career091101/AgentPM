@@ -1,0 +1,34 @@
+---
+description: 共通ルール基盤 - 全ルールが参照する基本設定
+globs: 
+alwaysApply: true
+---
+
+# Foundation Rules
+
+## 参照ドキュメント
+
+すべてのAIツールは以下の共通コアドキュメントを参照してください：
+
+- @docs/ai/overview.md - プロダクト概要
+- @docs/ai/setup.md - セットアップ
+- @docs/ai/commands.md - コマンド一覧
+- @docs/ai/pmbok_workflow.md - PMBOKワークフロー詳細
+- @docs/ai/conventions.md - コーディング規約
+- @docs/ai/security.md - セキュリティ
+
+## パス辞書
+
+すべてのパス参照は以下を使用：
+- @basic/pmbok_paths.mdc
+
+## マルチエージェント対応
+
+このリポジトリは以下のツールで共通運用できます：
+- Antigravity: `.antigravity/` 参照
+- Codex: `AGENTS.md` + `.codex/skills/` 参照
+- Claude Code: `CLAUDE.md` + `.claude/` 参照
+
+## 作業引継ぎ
+
+ツール切替時は `HANDOVER.md` を生成して引き継ぐこと。

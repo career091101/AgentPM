@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "processed_at": "2026-01-12T10:42:15.013496",
+    "source_file": "x_timeline_20260102_110035.json",
+    "total_tweets": 127,
+    "filtered_tweets": 124,
+    "top_tweets_count": 10,
+    "japanese_tweets_count": 7,
+    "foreign_tweets_count": 3,
+    "japanese_ratio": 0.7,
+    "filter_criteria": {
+      "excluded_usernames": [
+        "elonmusk",
+        "billgates",
+        "barackobama",
+        "tim_cook",
+        "realdonaldtrump",
+        "jeffbezos",
+        "sundarPichai",
+        "satyanadella"
+      ],
+      "target_japanese_ratio": 0.7,
+      "min_engagement_score": 952
+    },
+    "ai_filtered_at": "2026-01-12T11:31:17.197132",
+    "ai_filter_min_score": 1,
+    "ai_filter_passed": 2,
+    "ai_filter_rejected": 8,
+    "ai_filter_pass_rate": 0.2
+  },
+  "top_tweets": [
+    {
+      "tweet_id": "2006676783991787563",
+      "username": "cb_doge",
+      "text": "\"Elon Musk is just an extraordinary engineer, and I love working with him. We're going to build many more computers together. I'm delighted to be working with him. I think the Optimus opportunity is just right around the corner. It's very likely that human robots are going to be https://t.co/jbgzCS1hl9",
+      "likes": 4114,
+      "retweets": 655,
+      "replies": 280,
+      "timestamp_text": "Thu Jan 01 10:40:02 +0000 2026",
+      "collected_at": "2026-01-02T10:58:11.867416",
+      "engagement_score": 7479,
+      "is_japanese": false,
+      "rank": 3,
+      "url": "https://x.com/cb_doge/status/2006676783991787563",
+      "ai_relevance_score": 1,
+      "ai_relevance_reason": "Optimusロボット言及"
+    },
+    {
+      "tweet_id": "2006763630138966389",
+      "username": "JapanTank",
+      "text": "ここ数日RAGが話題だから専門家の一員として私見を述べるけど、RAGの本質的問題は検索技術がどうのとかいうものではないのよ。経理や人事も含めた総合的問題なのよ。\n\n・情報共有インセンティブがない\nサラリーマンのオッサンが他人に情報共有を積極的にするインセンティブが皆無なことが最大の問題。",
+      "likes": 641,
+      "retweets": 87,
+      "replies": 10,
+      "timestamp_text": "Thu Jan 01 16:25:07 +0000 2026",
+      "collected_at": "2026-01-02T10:58:11.867421",
+      "engagement_score": 952,
+      "is_japanese": true,
+      "rank": 10,
+      "url": "https://x.com/JapanTank/status/2006763630138966389",
+      "ai_relevance_score": 3,
+      "ai_relevance_reason": "RAG技術の詳細解説"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# .claudeignore_format - Files to exclude from auto-formatting
+# One file path per line (absolute or relative to project root)
+
+# Example excludes (uncomment as needed):
+
+# Legacy code (formatting would break compatibility)
+# Stock/programs/legacy_module/old_script.py
+
+# Auto-generated files
+# scripts/auto_generated_config.py
+
+# Third-party vendored code
+# vendor/external_library/
+
+# Documentation with specific formatting
+# docs/manual_formatted.md
+
+# Test fixtures (exact formatting required for tests)
+# tests/fixtures/precise_format.json
+
+# Large data files
+# data/large_dataset.csv
+
+# Archived projects
+Archived/
+
+# Flow directory (work in progress, formatting may change)
+# Flow/
+
+# Note: Add specific file paths here to exclude them from auto-formatting
+# Paths can be absolute or relative to /Users/yuichi/AIPM/aipm_v0
+excluded/
+Flow/202601/excluded_test/

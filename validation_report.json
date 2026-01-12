@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-01-09T10:18:15.963007",
+  "errors": [
+    {
+      "file": ".claude/skills/for_startup/validate-psf/SKILL.md",
+      "message": "Error during validation: Invalid YAML frontmatter: while parsing a block mapping\n  in \"<unicode string>\", line 1, column 1:\n    name: validate-psf\n    ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 34, column 26:\n    output_file: {OUTPUT_DIR}/psf_diagnosis.md\n                             ^",
+      "severity": "error"
+    }
+  ],
+  "warnings": [
+    {
+      "file": ".claude/skills/for_startup/startup-scorecard/SKILL.md",
+      "message": "stage 'Phase5（Monitoring）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/research-competitors/SKILL.md",
+      "message": "stage 'Phase2（Research）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/orchestrate-review-loop/SKILL.md",
+      "message": "stage 'Manager→SubAgent→Review→Integration' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/inventory-internal-resources/SKILL.md",
+      "message": "stage 'Phase1（Initiating）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/prepare-vc-meeting/SKILL.md",
+      "message": "stage 'Phase4（Executing）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/analyze-competitive-moat/SKILL.md",
+      "message": "stage 'Phase3（Planning）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/design-exit-strategy/SKILL.md",
+      "message": "stage 'Phase3（Planning）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-pmf/SKILL.md",
+      "message": "stage 'Phase2（PMF検証）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/build-synergy-map/SKILL.md",
+      "message": "stage 'Phase1（Initiating）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/analyze-aarrr/SKILL.md",
+      "message": "stage 'Phase3（スケール）、成長段階段階' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-ring-criteria/SKILL.md",
+      "message": "stage 'Phase5（Monitoring）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/monitor-burn-rate/SKILL.md",
+      "message": "stage '全Phase（Phase1-4共通）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-unit-economics/SKILL.md",
+      "message": "stage 'PSF検証後' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/create-fundraising-plan/SKILL.md",
+      "message": "stage 'Phase2-3（PMF検証〜Series A準備）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/build-pitch-deck/SKILL.md",
+      "message": "stage 'PSF/PMF検証後' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-market-timing/SKILL.md",
+      "message": "stage 'Phase1（Idea検証）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/design-pricing/SKILL.md",
+      "message": "stage 'Phase3（Planning）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/measure-aarrr/SKILL.md",
+      "message": "stage 'Phase3（スケール）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/build-approval-deck/SKILL.md",
+      "message": "stage 'Phase3（Planning）' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-unit-economics-strict/SKILL.md",
+      "message": "stage 'Series A準備' may not be in standard format. Common values: Phase1, Phase2, Phase3, Phase4, planning, discovery, research, Phase1（需要発見）, Phase2（CPF検証）, Phase3（PSF検証）, Phase4（実装）",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/validate-pmf/SKILL.md",
+      "message": "ForRecruit reference found: forrecruit",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/design-pricing/SKILL.md",
+      "message": "ForRecruit reference found: forrecruit",
+      "severity": "warning"
+    },
+    {
+      "file": ".claude/skills/for_startup/build-approval-deck/SKILL.md",
+      "message": "ForRecruit reference found: forrecruit",
+      "severity": "warning"
+    }
+  ],
+  "summary": {
+    "total_files": 30,
+    "valid_files": 29,
+    "invalid_files": 1,
+    "total_issues": 24
+  }
+}
