@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-12",
+  "last_updated": "2026-01-12T16:00:00+09:00",
   "weeks": [
     {
       "week_id": "2026-W01",
@@ -116,87 +116,135 @@
       "period_start": "2026-01-01",
       "period_end": "2026-01-11",
       "kpi": {
-        "total_posts": 190,
-        "total_impressions": 162943,
-        "total_engagement": 1053,
-        "engagement_rate": 0.57,
+        "total_posts": 150,
+        "total_impressions": 164440,
+        "total_engagement": 1069,
+        "engagement_rate": 0.65,
         "platforms": {
           "linkedin": {
             "posts": 10,
-            "impressions": 85653,
-            "engagement": 559,
-            "engagement_rate": 0.6526332994757919,
-            "avg_impressions_per_post": 8565.3
+            "impressions": 87150,
+            "engagement": 575,
+            "engagement_rate": 0.66,
+            "avg_impressions_per_post": 8715
           },
           "x": {
-            "posts": 116,
+            "posts": 117,
             "impressions": 77290,
             "engagement": 363,
-            "engagement_rate": 0.46965972312071425,
-            "avg_impressions_per_post": 666.2931034482758
+            "engagement_rate": 0.47,
+            "avg_impressions_per_post": 661
           },
           "threads": {
-            "posts": 22,
-            "views": 13957,
+            "posts": 23,
+            "views": 14170,
             "impressions": 0,
             "engagement": 131,
-            "engagement_rate": 0.9385971197248693,
-            "avg_views_per_post": 634.4090909090909,
+            "engagement_rate": 0.92,
+            "avg_views_per_post": 616,
             "note": "viewsフィールド使用。views>0の場合のみエンゲージメント率計算"
+          },
+          "facebook": {
+            "posts": 10,
+            "views": 223804,
+            "viewers": 82205,
+            "interactions": 1361,
+            "reactions": 1134,
+            "comments": 106,
+            "shares": 121,
+            "engagement_rate": 0.61,
+            "followers": 6648,
+            "net_followers": 191,
+            "views_change": "+357.1%",
+            "interactions_change": "+162.2%",
+            "followers_change": "+2.9%",
+            "data_source": "Professional Dashboard (Chrome MCP)",
+            "data_quality": 85.0,
+            "note": "1/1-1/11期間の正式評価値、Late API期間と完全一致"
           }
         }
       },
       "top_posts": [
         {
           "rank": 1,
+          "platform": "facebook",
+          "published_at": "2026-01-02T17:28:00+09:00",
+          "impressions": 51423,
+          "engagement_rate": 0.43,
+          "theme": "衝撃的予測・未来予測",
+          "text_preview": "「6年後、プログラマーは1人も要らなくなる」MIT/Epochが公開したAI未来モデルの予測が衝撃的。"
+        },
+        {
+          "rank": 2,
+          "platform": "facebook",
+          "published_at": "2026-01-04T19:39:00+09:00",
+          "impressions": 49991,
+          "engagement_rate": 0.22,
+          "theme": "概念反転・哲学系",
+          "text_preview": "なぜ、私たちは「考えること」「意味を探すこと」に価値を置きすぎるのか？落合陽一氏がプロデュースする「null2」。"
+        },
+        {
+          "rank": 3,
           "platform": "twitter",
           "published_at": "2026-01-04T11:05:08.095Z",
           "impressions": 40040,
           "engagement_rate": 0.49,
-          "theme": "未分類",
-          "text_preview": "N/A"
+          "theme": "概念反転・哲学系",
+          "text_preview": "なぜ、私たちは「考えること」に価値を置きすぎるのか？落合陽一氏のnull2が問いかける。"
         },
         {
-          "rank": 2,
+          "rank": 4,
           "platform": "linkedin",
           "published_at": "2026-01-04T23:02:21.446Z",
           "impressions": 36513,
           "engagement_rate": 0.65,
-          "theme": "未分類",
-          "text_preview": "N/A"
-        },
-        {
-          "rank": 3,
-          "platform": "linkedin",
-          "published_at": "2026-01-07T23:40:29.777Z",
-          "impressions": 19803,
-          "engagement_rate": 0.27,
-          "theme": "未分類",
-          "text_preview": "N/A"
-        },
-        {
-          "rank": 4,
-          "platform": "twitter",
-          "published_at": "2026-01-04T11:05:07.000Z",
-          "impressions": 16907,
-          "engagement_rate": 0.22,
-          "theme": "未分類",
-          "text_preview": "N/A"
+          "theme": "衝撃的事実・権威引用",
+          "text_preview": "Googleの社員が、Geminiではなく「Claude Code」を使っている。世界最高峰のAI企業で働く人たちが、自社製品ではなく競合のツールを選んでいる。"
         },
         {
           "rank": 5,
-          "platform": "linkedin",
-          "published_at": "2026-01-03T23:01:57.116Z",
-          "impressions": 14049,
-          "engagement_rate": 0.5,
-          "theme": "未分類",
-          "text_preview": "N/A"
+          "platform": "facebook",
+          "published_at": "2026-01-10T18:56:00+09:00",
+          "impressions": 25886,
+          "engagement_rate": 0.66,
+          "theme": "隠れた情報・プロンプトガイド",
+          "text_preview": "OpenAIが「ひっそり公開」したGPT-5.2プロンプトガイド、知らないと損する7つの落とし穴"
         }
       ],
       "success_patterns": {
-        "top_themes": [],
+        "top_themes": [
+          {
+            "theme": "概念反転・哲学系",
+            "count": 2,
+            "avg_impressions": 45015,
+            "percentage": 40
+          },
+          {
+            "theme": "衝撃的事実・権威引用",
+            "count": 1,
+            "avg_impressions": 36513,
+            "percentage": 20
+          },
+          {
+            "theme": "衝撃的予測・未来予測",
+            "count": 1,
+            "avg_impressions": 51423,
+            "percentage": 20
+          },
+          {
+            "theme": "隠れた情報",
+            "count": 1,
+            "avg_impressions": 25886,
+            "percentage": 20
+          }
+        ],
         "pattern_library_reference": "x_patterns_detailed.md",
-        "high_performing_patterns": []
+        "high_performing_patterns": [
+          "概念反転（Pattern #12）",
+          "衝撃的数値（Pattern #07）",
+          "権威引用（Pattern #23）",
+          "隠れた情報（Pattern #18）"
+        ]
       }
     }
   ]

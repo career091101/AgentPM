@@ -43,6 +43,164 @@ deduplication:
   deduplication_strategy: "exclude_used_topics_and_select_new_from_top10"
 ---
 
+## URL抽出ヘルパー関数
+
+このセクションでは、Top記事のツイートから関連URLを抽出し、統一フォーマットで整形するためのヘルパー関数を定義します。
+
+### extract_urls_for_top_article()
+
+**目的**: Top記事のツイートIDから、成功抽出されたURL一覧を取得します。
+
+**処理フロー**:
+1. `tweet_details_{date}.json` からツイートIDで検索
+2. 該当ツイートの `links[]` 配列を取得
+3. `extracted_contents_{date}.json` の `contents[]` 内で `status == "success"` のURLと照合
+4. フィルタリングされたURL一覧を返却
+
+**実装例**（疑似コード）:
+```python
+def extract_urls_for_top_article(tweet_id: str,
+                                  tweet_details: dict,
+                                  extracted_contents: dict) -> list[str]:
+    """
+    Top記事のツイートIDから、関連URL一覧を取得
+
+    Args:
+        tweet_id: Top記事のツイートID（例: "2010295119803760902"）
+        tweet_details: tweet_details_{date}.json の全データ
+        extracted_contents: extracted_contents_{date}.json の全データ
+
+    Returns:
+        成功抽出されたURL一覧（2-5件程度）
+    """
+    # 1. tweet_detailsからツイートを検索
+    target_tweet = None
+    for tweet in tweet_details["tweet_details"]:
+        if tweet["tweet_id"] == tweet_id:
+            target_tweet = tweet
+            break
+
+    if not target_tweet:
+        return []
+
+    # 2. リンク一覧取得
+    links = target_tweet.get("links", [])
+
+    # 3. extracted_contentsと照合（成功抽出URLのみ）
+    success_urls = {
+        content["url"]
+        for content in extracted_contents["contents"]
+        if content["status"] == "success"
+    }
+
+    # 4. フィルタリング
+    filtered_urls = [
+        link["url"]
+        for link in links
+        if link["url"] in success_urls
+    ]
+
+    return filtered_urls
+```
+
+**使用例**:
+```python
+# Top 1記事のURL取得
+top1_urls = extract_urls_for_top_article(
+    tweet_id="2010295119803760902",
+    tweet_details=tweet_details_data,
+    extracted_contents=extracted_contents_data
+)
+# => ["https://example.com/article1", "https://youtube.com/watch?v=xyz"]
+```
+
+### format_url_section()
+
+**目的**: URL一覧を統一フォーマット「■ ソース」で整形します。
+
+**処理フロー**:
+1. URLリストが空の場合は空文字列を返却
+2. 「■ ソース」見出し + 空行 + URL一覧（各行1URL、箇条書き記号なし）
+
+**実装例**（疑似コード）:
+```python
+def format_url_section(urls: list[str]) -> str:
+    """
+    URL一覧を統一フォーマットで整形
+
+    Args:
+        urls: URL一覧
+
+    Returns:
+        「■ ソース\n\n{url1}\n{url2}...」形式の文字列
+    """
+    if not urls:
+        return ""
+
+    return "■ ソース\n\n" + "\n".join(urls)
+```
+
+**使用例**:
+```python
+url_section = format_url_section([
+    "https://example.com/article1",
+    "https://youtube.com/watch?v=xyz"
+])
+# => "■ ソース\n\nhttps://example.com/article1\nhttps://youtube.com/watch?v=xyz"
+```
+
+### check_character_limit()
+
+**目的**: コンテンツ + URLセクションが文字数制約内に収まるかチェックします。
+
+**処理フロー**:
+1. 既存コンテンツ + 空行 + URLセクションを結合
+2. 文字数をカウント
+3. 制約内に収まるか判定し、結果を返却
+
+**実装例**（疑似コード）:
+```python
+def check_character_limit(content: str, url_section: str, limit: int) -> dict:
+    """
+    コンテンツ + URLセクションが文字数制約内に収まるか確認
+
+    Args:
+        content: 既存コンテンツ（CTAまで）
+        url_section: URLセクション
+        limit: 文字数制約（X=280, Threads=500）
+
+    Returns:
+        {
+            "fits": bool,  # 制約内に収まるか
+            "combined": str,  # 統合後の文字列（収まる場合のみ）
+            "char_count": int,  # 文字数
+            "separate_url_section": str  # 超過時の分離URL（超過時のみ）
+        }
+    """
+    combined = content + "\n\n" + url_section
+    char_count = len(combined)
+
+    return {
+        "fits": char_count <= limit,
+        "combined": combined if char_count <= limit else content,
+        "char_count": char_count,
+        "separate_url_section": url_section if char_count > limit else None
+    }
+```
+
+**使用例**:
+```python
+# X 280文字制約（収まる場合）
+result = check_character_limit("あなたはどう思いますか？", url_section, 280)
+# => {"fits": True, "combined": "あなたはどう思いますか？\n\n■ ソース\n\n...", "char_count": 275, "separate_url_section": None}
+
+# X 280文字制約（超過する場合）
+result = check_character_limit(long_cta, long_url_section, 280)
+# => {"fits": False, "combined": long_cta, "char_count": 350, "separate_url_section": long_url_section}
+```
+
+---
+
 # Generate SNS Posts Takano Skill（高野メソッド完全準拠版 v6）
 
 高野メソッド完全準拠の 3 案同時生成スキル。
@@ -64,6 +222,90 @@ deduplication:
 - エラーハンドリング基本方針
 
 **詳細パターン情報**: [@takano_patterns_detailed.md](./takano_patterns_detailed.md)
+
+---
+
+## 📎 URL参照データの取得と使用
+
+### データソース
+
+**必須ファイル**:
+- `tweet_details_{date}.json`: Top記事のツイート情報（リンク一覧含む）
+- `extracted_contents_{date}.json`: 抽出成功したURL一覧
+
+### URL取得手順
+
+投稿生成時、以下の手順でTop記事（Top 1-3）のURL参照データを取得してください：
+
+1. **Top 1記事のURL取得**:
+   ```python
+   # tweet_details_{date}.json から Top 1記事のツイートID取得
+   top1_tweet_id = tweet_details["tweet_details"][0]["tweet_id"]
+
+   # extract_urls_for_top_article() でURL抽出
+   top1_urls = extract_urls_for_top_article(
+       tweet_id=top1_tweet_id,
+       tweet_details=tweet_details_data,
+       extracted_contents=extracted_contents_data
+   )
+   ```
+
+2. **Top 2記事のURL取得** (Xスレッド深掘り型で使用):
+   ```python
+   top2_tweet_id = tweet_details["tweet_details"][1]["tweet_id"]
+   top2_urls = extract_urls_for_top_article(
+       tweet_id=top2_tweet_id,
+       tweet_details=tweet_details_data,
+       extracted_contents=extracted_contents_data
+   )
+   ```
+
+3. **Top 3記事のURL取得** (Xスレッド深掘り型で使用):
+   ```python
+   top3_tweet_id = tweet_details["tweet_details"][2]["tweet_id"]
+   top3_urls = extract_urls_for_top_article(
+       tweet_id=top3_tweet_id,
+       tweet_details=tweet_details_data,
+       extracted_contents=extracted_contents_data
+   )
+   ```
+
+### URL配置ルール
+
+**LinkedIn投稿（3案）**:
+- 各案の「最初のコメント（firstComment）」セクションに、対応するTop記事のURL一覧を含める
+- 案1: Top 1記事のURL一覧
+- 案2: Top 1記事のURL一覧（案1と同じTop記事を使用）
+- 案3: Top 1記事のURL一覧（案1と同じTop記事を使用）
+
+**X派生投稿 / Xスレッド深掘り型**:
+- Top 1記事のURL（X派生投稿）
+- Top 2記事のURL（Xスレッド1深掘り型）
+- Top 3記事のURL（Xスレッド2深掘り型）
+- 配置: スレッド最後のツイート（7ツイート目）に追加（280文字制約対応は後述）
+
+**Threads派生投稿 / Threads新規投稿**:
+- Top 1記事のURL（Threads派生投稿）
+- Top 2記事のURL（Threads新規投稿）
+- 配置: 投稿最後に追加（500文字制約対応は後述）
+
+### フォーマット統一
+
+全プラットフォームで以下の統一フォーマットを使用：
+
+```
+■ ソース
+
+https://example.com/article1
+https://youtube.com/watch?v=xyz
+https://example.com/related-article
+```
+
+**実装**:
+```python
+url_section = format_url_section(top1_urls)
+# => "■ ソース\n\nhttps://...\nhttps://..."
+```
 
 ---
 
@@ -149,8 +391,8 @@ AI・テクノロジーの最新情報を、**CEO/経営者向けに断定的な
 
 ## 禁止事項（10 項目）
 
-1. **ハッシュタグの使用**（完全禁止、0個）→ LinkedInではハッシュタグを一切使用しない
-2. **絵文字の過度な使用**（控えめに、2-4%程度）
+1. **ハッシュタグの使用**（完全禁止、0個）→ 全プラットフォーム（LinkedIn、X、Threads）でハッシュタグを一切使用しない
+2. **絵文字の使用**（完全禁止、0個）→ 全プラットフォーム（LinkedIn、X、Threads）で絵文字を一切使用しない
 3. **伝聞型表現**（"〜と述べた"、"〜との見解を示した"）→ **断定型に変換必須**
 4. **曖昧な表現**（"〜かもしれない"、"〜と思われる"）→ **明確な主張に**
 5. **呼びかけ表現**（"経営者のあなたへ:"、"CEO のあなたへ:"）→ **直接問いかけに
@@ -669,15 +911,32 @@ SNS数値を削除した結果、数値データが5つ未満になった場合�
 (ソースはコメント欄に記載)
 ```
 
-#### 最初のコメント
+#### 最初のコメント（firstComment）
 
-**【詳報・出典】**
+**【ソース】**
 
-- 権威者の引用（原文）
-- データ出典：調査機関、レポート名
-- 参考：記事タイトル、URL
+このセクションには、Top記事のオリジナルURL + 関連リンク全てを、以下の統一フォーマットで記載してください。
 
-**【私見】** 立場表明を 1〜2 文（根拠の数値を添える）。
+**フォーマット**:
+```
+■ ソース
+
+https://example.com/article1
+https://youtube.com/watch?v=xyz
+https://example.com/related-article
+```
+
+**実装手順**:
+1. Top記事のツイートIDを特定（例: Top 1記事なら `tweet_details[0].tweet_id`）
+2. `extract_urls_for_top_article()` ヘルパー関数を使用してURLを抽出
+3. `format_url_section()` ヘルパー関数を使用してフォーマット
+4. 上記フォーマットをこのセクションに出力
+
+**注意事項**:
+- 「■ ソース」見出しの直後に空行を入れる
+- URL各行に箇条書き記号（-、*等）は不要
+- 成功抽出されたURL（`extracted_contents_{date}.json` で `status == "success"`）のみを含める
+- URL数が多い場合は最大3件に制限（優先度: 記事URL > YouTube > PDF）
 
 #### 視覚的要素の提案
 
@@ -799,8 +1058,8 @@ SNS数値を削除した結果、数値データが5つ未満になった場合�
 
 ### 禁止事項（全て回避すること）
 
-- [ ] ハッシュタグ完全禁止（0個、一切使用しない）
-- [ ] 絵文字の使用なし
+- [ ] ハッシュタグ完全禁止（0個、全プラットフォームで一切使用しない）
+- [ ] 絵文字完全禁止（0個、全プラットフォームで一切使用しない）
 - [ ] 伝聞型表現なし（"〜と述べた"、"〜との見解を示した"）
 - [ ] 曖昧な表現なし（"〜かもしれない"、"〜と思われる"）
 - [ ] 呼びかけ表現なし（"経営者のあなたへ:"、"CEO のあなたへ:"など）
@@ -1066,9 +1325,9 @@ OpenAIとNVIDIAが仕掛けた資金調達手法が「ITバブルの再来」と
 ```
 
 **フック変更ポイント**:
-- 絵文字1つを冒頭に追加（🚨/🔥/⚡/💡/🎯）
 - 核心的な数字を独立させてインパクト強調
 - 1ツイート目は140文字以内に収める
+- 絵文字・ハッシュタグは一切使用しない
 
 **文字数**: 140文字（1ツイート目のみ、LinkedInの最初の段落を圧縮）
 
@@ -1078,13 +1337,13 @@ OpenAIとNVIDIAが仕掛けた資金調達手法が「ITバブルの再来」と
 
 **構成**（5-7ツイート）:
 ```
-ツイート1 (Hook): 衝撃的な事実 + 絵文字
+ツイート1 (Hook): 衝撃的な事実
 ツイート2 (Why): なぜこれが重要なのか
 ツイート3 (Data): 具体的な数値データ
 ツイート4 (Expert): 専門家の見解
 ツイート5 (Implication): 日本企業への影響
 ツイート6 (Action): 今すぐやるべきこと
-ツイート7 (CTA): 問いかけ + ハッシュタグ
+ツイート7 (CTA): 問いかけ（ハッシュタグ・絵文字なし）
 ```
 
 **例**:
@@ -1294,21 +1553,21 @@ OpenAIとNVIDIA、売り手と買い手で資金が循環する手法で史上�
 - ❌ `**変換元**: ...`
 - ❌ `**文字数**: N/M`
 - ❌ `**チェックリスト**:` セクション全体（フック強度、データ裏付け、ストーリー性等）
-- ❌ LinkedInハッシュタグ（`#ElonMusk #政治資金` 等、高野式では禁止）
+- ❌ ハッシュタグ（`#ElonMusk #政治資金` 等、全プラットフォームで禁止）
 - ❌ メタ情報の後の区切り線 `---`
 
 **正しい出力形式**:
 
 ✅ セクション見出し（`## X派生投稿（Top 1トピック、フック変更）`）の直後に本文を開始
 ✅ メタ情報は一切含めない
-✅ ハッシュタグは一切含めない（高野式の禁止事項）
+✅ ハッシュタグは一切含めない（全プラットフォームで禁止）
 ✅ チェックリストは一切含めない
 ✅ 本文のみを出力
 
 ### X派生投稿
 - [ ] フック部分のみ変更（本文の主要構成は維持）
-- [ ] 絵文字1つを冒頭に配置
 - [ ] 1ツイート目は140文字以内
+- [ ] 絵文字・ハッシュタグは一切使用しない
 - [ ] **元ネタ**、**文字数** などのメタ情報を含めない
 
 ### Xスレッド深掘り型
@@ -1317,12 +1576,14 @@ OpenAIとNVIDIA、売り手と買い手で資金が循環する手法で史上�
 - [ ] Hook → Why → Data → Expert → Implication → Action → CTA の流れ
 - [ ] Top 2/Top 3トピックを使用（Top 1と重複しない）
 - [ ] `**N/M**` 形式で各ツイートを分割（例: `**1/6**`、`**2/6**`）
+- [ ] 絵文字・ハッシュタグは一切使用しない
 - [ ] **トピック**、**スレッド構成** などのメタ情報を含めない
 
 ### Threads派生投稿
 - [ ] フック部分のみ変更
 - [ ] カジュアルな口語体を使用
 - [ ] 500文字以内
+- [ ] 絵文字・ハッシュタグは一切使用しない
 - [ ] **元ネタ**、**文字数** などのメタ情報を含めない
 
 ### Threads新規投稿
@@ -1330,6 +1591,7 @@ OpenAIとNVIDIA、売り手と買い手で資金が循環する手法で史上�
 - [ ] LinkedIn風の高野式構成
 - [ ] 400-500文字
 - [ ] 問いかけ終結必須
+- [ ] 絵文字・ハッシュタグは一切使用しない
 - [ ] **トピック**、**文字数** などのメタ情報を含めない
 
 ---

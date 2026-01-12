@@ -1,0 +1,11 @@
+{
+  "linkedin": {
+    "error": "HTTP Error 400: Bad Request"
+  },
+  "twitter": {
+    "error": "HTTP Error 400: Bad Request"
+  },
+  "threads": {
+    "error": "HTTP Error 400: Bad Request"
+  }
+}

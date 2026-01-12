@@ -161,37 +161,68 @@ for i, date in enumerate(available_dates, 1):
 
 ### STEP 4.2: 投稿コンテンツ抽出（1分）
 
-**目的**: Phase 3出力ファイルから投稿コンテンツを抽出
+**目的**: Phase 3出力ファイルから投稿コンテンツを抽出（**URL参照機能対応版**）
 
 **処理**:
 ```python
 import json
+import re
 
 def extract_linkedin_posts(file_path):
     """
     Phase 3出力からLinkedIn投稿3案を抽出
 
+    **v2.1: URL参照機能対応 - firstCommentセクションも抽出**
+
     Args:
-        file_path: linkedin_posts_v2_{date}.md のパス
+        file_path: posts_generated_takano_{date}.md のパス
 
     Returns:
-        list: LinkedIn投稿3案のリスト
+        list: LinkedIn投稿3案のリスト（各案にfirst_commentを含む）
     """
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # 正規表現で案1, 案2, 案3を抽出
-    import re
-
     posts = []
-    pattern = r'## 案(\d+):.*?\n\n### 投稿本文.*?\n\n(.*?)\n\n\(ソースはコメント欄に記載\)'
+
+    # 各案のセクションを抽出
+    pattern = r'## 投稿案(\d+)（.*?）(.*?)(?=\n## |$)'
     matches = re.findall(pattern, content, re.DOTALL)
 
     for match in matches:
-        post_number, post_content = match
+        post_number, pattern_name, full_section = match
+
+        # 投稿本文を抽出（タイトル除外版）
+        body_pattern = r'\*\*(.*?)\*\*\n\n(.*?)(?=\n---|\n###|\Z)'
+        body_match = re.search(body_pattern, full_section, re.DOTALL)
+
+        if not body_match:
+            continue
+
+        title = body_match.group(1).strip()
+        body = body_match.group(2).strip()
+
+        # 「#### 最初のコメント（firstComment）」セクションを抽出
+        first_comment_pattern = r'####\s+最初のコメント（firstComment）.*?\n\n(.*?)(?=\n####|\n###|\Z)'
+        first_comment_match = re.search(first_comment_pattern, full_section, re.DOTALL)
+
+        first_comment = None
+        if first_comment_match:
+            first_comment_raw = first_comment_match.group(1).strip()
+
+            # 「■ ソース」セクションを抽出
+            if '■ ソース' in first_comment_raw:
+                source_match = re.search(r'■ ソース\n\n(.*?)(?=\n\*\*|\Z)', first_comment_raw, re.DOTALL)
+                if source_match:
+                    first_comment = f"■ ソース\n\n{source_match.group(1).strip()}"
+                else:
+                    first_comment = first_comment_raw
+
         posts.append({
             'post_number': int(post_number),
-            'content': post_content.strip()
+            'title': title,
+            'content': body,
+            'first_comment': first_comment  # **URL参照データ**
         })
 
     return posts
@@ -263,16 +294,19 @@ for schedule in linkedin_schedule:
     print(f"  {schedule['topic']}: {schedule['date']}")
 ```
 
-**Late APIペイロード**:
+**Late APIペイロード（**URL参照機能対応版**）**:
 ```python
-def schedule_linkedin_post(content, scheduled_for, linkedin_account_id):
+def schedule_linkedin_post(content, scheduled_for, linkedin_account_id, first_comment=None):
     """
     Late APIでLinkedIn予約投稿
+
+    **v2.1: URL参照機能対応 - firstCommentパラメータ追加**
 
     Args:
         content: 投稿本文
         scheduled_for: ISO 8601形式の日時
         linkedin_account_id: LinkedInアカウントID
+        first_comment: 最初のコメント（URL参照データ、オプション）
 
     Returns:
         dict: Late APIレスポンス
@@ -282,14 +316,23 @@ def schedule_linkedin_post(content, scheduled_for, linkedin_account_id):
         "Content-Type": "application/json"
     }
 
+    # プラットフォーム設定
+    platform_config = {
+        'platform': 'linkedin',
+        'accountId': linkedin_account_id
+    }
+
+    # **LinkedIn firstComment対応（URL参照機能）**
+    if first_comment:
+        platform_config['platformSpecificData'] = {
+            'firstComment': first_comment
+        }
+
     payload = {
         'content': content,  # 投稿本文（必須）
         'scheduledFor': scheduled_for,  # ISO 8601形式
         'timezone': 'Asia/Tokyo',
-        'platforms': [{
-            'platform': 'linkedin',
-            'accountId': linkedin_account_id
-        }],
+        'platforms': [platform_config],
         'publishNow': False,
         'crosspostingEnabled': False
     }
@@ -308,15 +351,20 @@ def schedule_linkedin_post(content, scheduled_for, linkedin_account_id):
 # LinkedIn アカウントIDを取得（環境変数またはconfigから）
 LINKEDIN_ACCOUNT_ID = os.getenv("LATE_API_LINKEDIN_ACCOUNT_ID")
 
-# 各投稿をスケジュール
+# 各投稿をスケジュール（**URL参照機能使用**）
 for schedule in linkedin_schedule:
     try:
         result = schedule_linkedin_post(
             content=schedule['post']['content'],
             scheduled_for=schedule['date'],
-            linkedin_account_id=LINKEDIN_ACCOUNT_ID
+            linkedin_account_id=LINKEDIN_ACCOUNT_ID,
+            first_comment=schedule['post'].get('first_comment')  # **URL参照データを渡す**
         )
         print(f"✅ LinkedIn {schedule['topic']} 予約成功: {schedule['date']}")
+
+        # firstCommentが設定されたか確認
+        if schedule['post'].get('first_comment'):
+            print(f"   📎 firstComment付き（URL参照: {len(schedule['post']['first_comment'].split('https://'))-1}件）")
     except Exception as e:
         print(f"❌ LinkedIn {schedule['topic']} 予約失敗: {e}")
 ```
@@ -369,8 +417,15 @@ def schedule_x_thread(thread_data, scheduled_for, twitter_account_id):
     """
     Late APIでXスレッド予約投稿
 
+    **v2.1: URL参照機能対応 - スレッド最後のツイートにURL一覧が含まれる**
+
+    URL参照の実装方法:
+    - Phase 3で生成されたXスレッドの最後のツイート（7ツイート目）に「■ ソース」+ URL一覧が統合済み
+    - Late APIには通常のthreadItemsとして渡す（特別なパラメータ不要）
+    - LinkedInのfirstCommentと異なり、ツイートコンテンツ内にURLが埋め込まれている
+
     Args:
-        thread_data: Xスレッドデータ（tweets配列を含む）
+        thread_data: Xスレッドデータ（tweets配列を含む、最後のツイートにURL参照含む）
         scheduled_for: ISO 8601形式の日時
         twitter_account_id: TwitterアカウントID
 
@@ -427,6 +482,12 @@ for schedule in x_threads_schedule:
             twitter_account_id=TWITTER_ACCOUNT_ID
         )
         print(f"✅ X {schedule['topic']} 予約成功: {scheduled_datetime}")
+
+        # **URL参照機能確認ログ**
+        last_tweet = schedule['x_thread']['tweets'][-1]['content']
+        if '■ ソース' in last_tweet:
+            url_count = last_tweet.count('https://')
+            print(f"   📎 URL参照統合済み（最後のツイートにURL {url_count}件含む）")
     except Exception as e:
         print(f"❌ X {schedule['topic']} 予約失敗: {e}")
 ```
@@ -437,8 +498,15 @@ def schedule_threads_post(threads_data, scheduled_for, threads_account_id):
     """
     Late APIでThreads予約投稿（単一 or スレッド対応）
 
+    **v2.1: URL参照機能対応 - 投稿最後にURL一覧が含まれる**
+
+    URL参照の実装方法:
+    - Phase 3で生成されたThreads投稿の最後（単一投稿の末尾 or スレッド最後の投稿）に「■ ソース」+ URL一覧が統合済み
+    - Late APIには通常のcontentまたはthreadItemsとして渡す（特別なパラメータ不要）
+    - LinkedInのfirstCommentと異なり、投稿コンテンツ内にURLが埋め込まれている
+
     Args:
-        threads_data: Threads投稿データ
+        threads_data: Threads投稿データ（単一またはスレッド、URL参照含む）
         scheduled_for: ISO 8601形式の日時
         threads_account_id: ThreadsアカウントID
 
@@ -510,6 +578,18 @@ for schedule in x_threads_schedule:
             threads_account_id=THREADS_ACCOUNT_ID
         )
         print(f"✅ Threads {schedule['topic']} 予約成功: {scheduled_datetime}")
+
+        # **URL参照機能確認ログ**
+        threads_content = ""
+        if schedule['threads_post']['type'] == 'single':
+            threads_content = schedule['threads_post']['content']
+        else:
+            # スレッドの場合、最後の投稿を確認
+            threads_content = schedule['threads_post']['posts'][-1]['content']
+
+        if '■ ソース' in threads_content:
+            url_count = threads_content.count('https://')
+            print(f"   📎 URL参照統合済み（投稿末尾にURL {url_count}件含む）")
     except Exception as e:
         print(f"❌ Threads {schedule['topic']} 予約失敗: {e}")
 ```
@@ -518,6 +598,29 @@ for schedule in x_threads_schedule:
 - X予約成功/失敗のログ（3件）
 - Threads予約成功/失敗のログ（3件）
 - 予約投稿ID
+
+---
+
+#### 📋 v2.1新機能: プラットフォーム別URL参照実装方法の比較
+
+| プラットフォーム | URL参照の配置 | Late APIパラメータ | 実装方法 |
+|----------------|-------------|------------------|---------|
+| **LinkedIn** | 投稿直後のコメント | `platformSpecificData.firstComment` | Phase 3で生成した「■ ソース」セクションを`firstComment`として渡す |
+| **X (Twitter)** | スレッド最後のツイート（7ツイート目） | 通常の`threadItems` | Phase 3でスレッド生成時に最後のツイートに統合済み。Late APIには特別な処理不要 |
+| **Threads** | 単一投稿末尾 or スレッド最後の投稿 | 通常の`content`または`threadItems` | Phase 3で投稿生成時に末尾に統合済み。Late APIには特別な処理不要 |
+
+**統一フォーマット（全プラットフォーム共通）**:
+```
+■ ソース
+
+https://example.com/article1
+https://example.com/article2
+https://example.com/article3
+```
+
+**実装上の重要な違い**:
+- **LinkedIn**: Late APIの`platformSpecificData`機能を使用してコメントとして投稿後追加
+- **X/Threads**: Phase 3でコンテンツ生成時にURLを統合し、Late APIには通常のコンテンツとして渡す
 
 ---
 

@@ -297,6 +297,19 @@ kpi_targets = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-
 3. フォロワー増加達成率 = (純フォロー数 / 目標150) * 100
 ```
 
+**総リーチ計算**（全プラットフォーム統合）:
+```python
+# 総リーチ = LinkedIn impressions + X impressions + Threads views + Facebook views
+total_reach = linkedin_impressions + x_impressions + threads_views + facebook_views
+
+# 総リーチ達成率
+total_reach_target = 500_000  # 週間目標
+total_reach_achievement = (total_reach / total_reach_target * 100)
+total_reach_status = "✅" if total_reach_achievement >= 100 else "⚠️" if total_reach_achievement >= 80 else "❌"
+```
+
+**重要**: 総リーチはすべてのプラットフォームの「リーチ数」を統合した指標です。LinkedInとXは`impressions`、ThreadsとFacebookは`views`を使用します。この統一指標により、全体的なリーチパフォーマンスを一目で把握できます。
+
 **Facebookデータ取得オプション**:
 - **自動収集**: collect-facebook-performance スキルを STEP 2の前に実行
 - **手動収集**: 既存の fb_performance_{YYYY-MM-DD}.json を使用
@@ -348,18 +361,85 @@ Facebook:
 - ⚠️ = 要改善（80-99%）
 - ❌ = 未達成（80%未満）
 
-#### 3-6. トップ5投稿抽出（LLM推論）
+#### 3-6. トップ20投稿抽出（全プラットフォーム統合、LLM推論）
 
+**目的**: Late API（LinkedIn, X, Threads）とFacebookの投稿を統合し、リーチ数でTop 20を抽出します。
+
+**実装手順**:
+
+```python
+# STEP 1: Late API投稿データの構造化
+all_posts = []
+
+for post in late_data["data"]:
+    all_posts.append({
+        "platform": post["platform"],
+        "platform_icon": get_platform_icon(post["platform"]),  # 💼/🐦/🧵
+        "title_100chars": post.get("text", "")[:100],
+        "reach": post.get("impressions", post.get("views", 0)),
+        "likes": post.get("likes", 0),
+        "comments": post.get("comments", 0),
+        "shares": post.get("shares", 0),
+        "engagement_rate": calculate_engagement_rate(post)
+    })
+
+# STEP 2: Facebook投稿データの構造化
+for post in fb_data["content_library"]["posts"]:
+    # Content Libraryのpost_idとTimeline Postsのfull_textを紐付け
+    full_text = get_full_text_from_timeline(post["post_id"], fb_data["timeline_posts"])
+
+    all_posts.append({
+        "platform": "facebook",
+        "platform_icon": "📘",
+        "title_100chars": full_text[:100] if full_text else post["title"][:100],
+        "reach": post["metrics"]["views"],
+        "likes": post["metrics"].get("reactions", 0),  # Facebookは"reactions"
+        "comments": post["metrics"].get("comments", 0),
+        "shares": post["metrics"].get("shares", 0) if "shares" in post["metrics"] else 0,
+        "engagement_rate": post.get("engagement_rate", 0)
+    })
+
+# STEP 3: Reachでソート、Top 20抽出
+top_20_posts = sorted(all_posts, key=lambda x: x["reach"], reverse=True)[:20]
 ```
-1. インプレッション降順でソート
-2. 上位5件を抽出
-3. 各投稿の以下の情報を取得:
-   - プラットフォーム
-   - 投稿日時（published_at）
-   - インプレッション数
-   - エンゲージメント率
-   - 内容プレビュー（text_preview）
+
+**ヘルパー関数**:
+
+```python
+def get_platform_icon(platform: str) -> str:
+    """プラットフォームアイコンを返す"""
+    icons = {
+        "linkedin": "💼",
+        "x": "🐦",
+        "threads": "🧵",
+        "facebook": "📘"
+    }
+    return icons.get(platform, "❓")
+
+def get_full_text_from_timeline(post_id: str, timeline_posts: list) -> str:
+    """Content Libraryのpost_idとTimeline Postsのfull_textを紐付け"""
+    for tp in timeline_posts:
+        if tp.get("post_id") == post_id:
+            return tp.get("full_text", "")
+    return ""
+
+def calculate_engagement_rate(post: dict) -> float:
+    """エンゲージメント率を計算"""
+    reach = post.get("impressions", post.get("views", 0))
+    engagement = post.get("likes", 0) + post.get("comments", 0) + post.get("shares", 0)
+    return (engagement / reach * 100) if reach > 0 else 0.0
 ```
+
+**取得データ（各投稿）**:
+- `platform_icon`: プラットフォームアイコン（💼/🐦/🧵/📘）
+- `title_100chars`: 投稿本文の最初100文字
+- `reach`: リーチ数（impressions or views）
+- `likes`: いいね数（Facebookはreactions）
+- `comments`: コメント数
+- `shares`: シェア数
+- `engagement_rate`: エンゲージメント率（%）
+
+**重要**: Facebookのfull_textは`timeline_posts`セクション（collect-facebook-performanceスキルで取得）から取得します。titleのみの場合は省略されている可能性があるため、full_textを優先使用します。
 
 ---
 
@@ -373,45 +453,87 @@ template = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-sns
 
 #### 4-2. プレースホルダー置換（LLM推論）
 
-以下のプレースホルダーを実際の値で置換:
+以下の**236個のプレースホルダー**を実際の値で置換:
 
-**期間・メタデータ**:
+**期間・メタデータ（3個）**:
 - `{period_start}` → 開始日（YYYY-MM-DD）
 - `{period_end}` → 終了日（YYYY-MM-DD）
 - `{generated_at}` → 生成日時（YYYY-MM-DD HH:MM:SS）
 
-**エグゼクティブサマリー**:
+**エグゼクティブサマリー（8個）**:
 - `{total_posts}` → 総投稿数
-- `{total_impressions:,}` → 総インプレッション（カンマ区切り）
+- `{total_reach:,}` → **総リーチ**（全プラットフォーム統合、カンマ区切り）
+- `{linkedin_impressions:,}` → LinkedInインプレッション
+- `{x_impressions:,}` → Xインプレッション
+- `{threads_views:,}` → Threads Views
+- `{facebook_views:,}` → Facebook閲覧数
 - `{total_engagement:,}` → 総エンゲージメント（カンマ区切り）
 - `{engagement_rate}` → エンゲージメント率（小数点1桁）
 
-**LinkedIn**:
+**KPI達成状況（21個）**:
+- `{total_reach:,}` → 総リーチ実績値
+- `{total_reach_achievement}` → 総リーチ達成率（%）
+- `{total_reach_status}` → 総リーチ評価（✅/⚠️/❌）
+- `{total_impressions:,}` → Late API総インプレッション
+- `{impressions_achievement}` → Late APIインプレッション達成率
+- `{impressions_status}` → 評価（✅/⚠️/❌）
+- `{threads_views:,}` → Threads Views実績値
+- `{threads_views_achievement}` → Threads達成率
+- `{threads_views_status}` → 評価
+- `{facebook_views:,}` → Facebook閲覧数実績値
+- `{facebook_views_achievement}` → Facebook閲覧数達成率
+- `{facebook_views_status}` → 評価
+- `{engagement_rate}` → エンゲージメント率実績値
+- `{engagement_achievement}` → エンゲージメント率達成率
+- `{engagement_status}` → 評価
+- `{linkedin_avg_impressions:,}` → LinkedIn投稿あたり平均インプレッション
+- `{linkedin_achievement}` → LinkedIn達成率
+- `{linkedin_status}` → 評価
+- `{x_avg_impressions:,}` → X投稿あたり平均インプレッション
+- `{x_achievement}` → X達成率
+- `{x_status}` → 評価
+
+**トップ20投稿（全プラットフォーム統合、140個）**:
+- `{top1_platform_icon}` 〜 `{top20_platform_icon}` → プラットフォームアイコン（💼/🐦/🧵/📘）
+- `{top1_title_100chars}` 〜 `{top20_title_100chars}` → 投稿本文の最初100文字
+- `{top1_reach:,}` 〜 `{top20_reach:,}` → リーチ数（impressions or views）
+- `{top1_likes}` 〜 `{top20_likes}` → いいね数
+- `{top1_comments}` 〜 `{top20_comments}` → コメント数
+- `{top1_shares}` 〜 `{top20_shares}` → シェア数
+- `{top1_rate}` 〜 `{top20_rate}` → エンゲージメント率（%）
+
+**推奨アクション（3アクション × 7属性 = 21個）**:
+- `{action1_title}` 〜 `{action3_title}` → アクションタイトル
+- `{action1_expected_effect}` 〜 `{action3_expected_effect}` → 期待効果
+- `{action1_priority}` 〜 `{action3_priority}` → 優先度スコア（/100）
+- `{action1_step1_analysis}` 〜 `{action3_step1_analysis}` → STEP 1: 現状分析
+- `{action1_step2_goal}` 〜 `{action3_step2_goal}` → STEP 2: 目標設定
+- `{action1_step3_implementation}` 〜 `{action3_step3_implementation}` → STEP 3: 実施
+- `{action1_step4_measurement}` 〜 `{action3_step4_measurement}` → STEP 4: 測定
+- `{action1_step5_adjustment}` 〜 `{action3_step5_adjustment}` → STEP 5: 調整
+
+**LinkedIn詳細（5個）**:
 - `{linkedin_posts}` → 投稿数
 - `{linkedin_impressions:,}` → 総インプレッション
 - `{linkedin_avg_impressions:,}` → 投稿あたり平均インプレッション
 - `{linkedin_engagement:,}` → 総エンゲージメント
 - `{linkedin_engagement_rate}` → エンゲージメント率
 
-**X (Twitter)**:
+**X (Twitter)詳細（5個）**:
 - `{x_posts}` → 投稿数
 - `{x_impressions:,}` → 総インプレッション
 - `{x_avg_impressions:,}` → 投稿あたり平均インプレッション
 - `{x_engagement:,}` → 総エンゲージメント
 - `{x_engagement_rate}` → エンゲージメント率
 
-**Threads**（viewsフィールド使用）:
+**Threads詳細（5個）**:
 - `{threads_posts}` → 投稿数
 - `{threads_views:,}` → 総Views
 - `{threads_avg_views:,}` → 投稿あたり平均Views
 - `{threads_engagement:,}` → 総エンゲージメント
 - `{threads_engagement_rate}` → エンゲージメント率（views>0の場合のみ計算）
-- `{threads_views_achievement}` → Threads達成率（views_per_post目標比）
-- `{threads_views_status}` → 評価（✅/⚠️/❌）
 
-**注意**: viewsが0の場合は「計測不可」と表示し、エンゲージメント絶対数のみで評価
-
-**Facebook**（Chrome MCP経由）:
+**Facebook詳細（13個）**:
 - `{facebook_views:,}` → 総閲覧数
 - `{facebook_viewers:,}` → 閲覧者数
 - `{facebook_interactions:,}` → 総インタラクション
@@ -426,28 +548,15 @@ template = Read(file_path="/Users/yuichi/AIPM/aipm_v0/.claude/skills/analyze-sns
 - `{facebook_followers_change}` → フォロワー変化率（例: +3.8%）
 - `{facebook_data_source}` → "Professional Dashboard (Chrome MCP)"（固定値）
 
-**KPI達成状況**:
-- `{impressions_achievement}` → 総インプレッション達成率
-- `{impressions_status}` → 評価（✅/⚠️/❌）
-- `{engagement_achievement}` → エンゲージメント率達成率
-- `{engagement_status}` → 評価
-- `{linkedin_achievement}` → LinkedIn達成率
-- `{linkedin_status}` → 評価
-- `{x_achievement}` → X達成率
-- `{x_status}` → 評価
-- `{facebook_views_achievement}` → Facebook閲覧数達成率
-- `{facebook_views_status}` → 評価
-- `{facebook_interactions_achievement}` → Facebookインタラクション達成率
-- `{facebook_interactions_status}` → 評価
-- `{facebook_followers_achievement}` → Facebookフォロワー増加達成率
-- `{facebook_followers_status}` → 評価
+**前週比較・トレンド（15個）**:
+- `{week_over_week_impressions_change}` → 前週比インプレッション変化
+- `{week_over_week_engagement_change}` → 前週比エンゲージメント変化
+- `{4week_avg_impressions:,}` → 4週間平均インプレッション
+- `{4week_avg_engagement:,}` → 4週間平均エンゲージメント
+- `{4week_trend_direction}` → トレンド方向（上昇/横ばい/下降）
+- その他トレンド関連プレースホルダー（10個）
 
-**トップ5投稿**（1-5位）:
-- `{top1_platform}` 〜 `{top5_platform}` → プラットフォーム名
-- `{top1_published_at}` 〜 `{top5_published_at}` → 投稿日時
-- `{top1_impressions:,}` 〜 `{top5_impressions:,}` → インプレッション
-- `{top1_engagement_rate}` 〜 `{top5_engagement_rate}` → エンゲージメント率
-- `{top1_text_preview}` 〜 `{top5_text_preview}` → 内容プレビュー
+**合計**: **236プレースホルダー**
 
 #### 4-3. レポートファイル出力
 
@@ -951,24 +1060,90 @@ for theme in top_themes:
 - 不確実性が高い: 0-29点
 ```
 
-#### 7-4. 推奨アクション出力（LLM推論）
+#### 7-4. 推奨アクション出力（5ステップ実装手順、LLM推論）
 
-優先度順にTop 3を出力:
+優先度順にTop 3のアクションを生成し、各アクションに**5ステップ実装手順**を自動生成します。
 
-**テンプレート**:
+**テンプレート（新フォーマット）**:
 ```markdown
-#### 🎯 優先度1: {アクション名}（優先度スコア: {score}/100）
+### 📍 アクション{N}: {アクション名}
 
 **期待効果**: {インプレッション増加予測}回（+{増加率}%）
-**根拠**: {過去データまたは成功パターン}
-**実装方法**:
-1. {具体的な手順ステップ1}
-2. {具体的な手順ステップ2}
-3. {具体的な手順ステップ3}
+**優先度**: {score}/100
 
-**実行期限**: 次週（{next_week_date}まで）
-**担当スキル**: {実行すべきClaude Skill名}
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action_step1_analysis}
+
+**STEP 2: 目標設定**
+{action_step2_goal}
+
+**STEP 3: 実施**
+{action_step3_implementation}
+
+**STEP 4: 測定**
+{action_step4_measurement}
+
+**STEP 5: 調整**
+{action_step5_adjustment}
 ```
+
+**5ステップ生成ロジック**:
+
+```python
+for i, action in enumerate(top_3_actions, 1):
+    # STEP 1: 現状分析
+    step1_analysis = f"""
+**現状**: {action['metric_name']} {action['current_value']}（目標: {action['target_value']}）
+**課題**: {action['gap_description']}
+**根本原因**: {action['root_cause_analysis']}
+    """
+
+    # STEP 2: 目標設定
+    step2_goal = f"""
+**目標値**: {action['goal_value']}（現状+{action['expected_increase']}）
+**達成期限**: {action['deadline']}（{action['timeframe']}）
+**成功基準**: {action['success_criteria']}
+    """
+
+    # STEP 3: 実施
+    step3_implementation = f"""
+{action['implementation_detail']}
+1. {action['step_1']}
+2. {action['step_2']}
+3. {action['step_3']}
+4. {action['step_4']}（担当: {action['responsible_team']}）
+5. {action['step_5']}（使用ツール: {action['tools']}）
+    """
+
+    # STEP 4: 測定
+    step4_measurement = f"""
+**測定KPI**:
+- {action['kpi_1']}: 目標 {action['kpi_1_target']}
+- {action['kpi_2']}: 目標 {action['kpi_2_target']}
+- {action['kpi_3']}: 目標 {action['kpi_3_target']}
+
+**測定頻度**: {action['measurement_frequency']}（{action['measurement_tool']}）
+**ダッシュボード**: {action['dashboard_path']}
+    """
+
+    # STEP 5: 調整
+    step5_adjustment = f"""
+**評価基準**: {action['evaluation_period']}後の{action['primary_kpi']}が目標の80%未満の場合調整
+
+**調整トリガー**:
+- {action['trigger_1']} → {action['adjustment_1']}
+- {action['trigger_2']} → {action['adjustment_2']}
+- {action['trigger_3']} → {action['adjustment_3']}
+
+**代替アクション**:
+- {action['alternative_1']}
+- {action['alternative_2']}
+    """
+```
+
+**実装例（LinkedIn投稿数増加アクション）**:
 
 **アクション例**:
 

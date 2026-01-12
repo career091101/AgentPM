@@ -10,7 +10,11 @@
 | 指標 | 値 |
 |------|-----|
 | 総投稿数 | {total_posts}件 |
-| 総インプレッション | {total_impressions:,}回 |
+| **総リーチ** | **{total_reach:,}回** |
+| ├ LinkedIn impressions | {linkedin_impressions:,}回 |
+| ├ X impressions | {x_impressions:,}回 |
+| ├ Threads views | {threads_views:,}回 |
+| └ Facebook views | {facebook_views:,}回 |
 | 総エンゲージメント | {total_engagement:,}件 |
 | エンゲージメント率 | {engagement_rate}% |
 
@@ -76,12 +80,14 @@
 
 | KPI指標 | 目標値 | 実績値 | 達成率 | 評価 |
 |---------|--------|--------|--------|------|
-| 総インプレッション（週間） | 150,000 | {total_impressions:,} | {impressions_achievement}% | {impressions_status} |
+| **総リーチ** | **500,000** | **{total_reach:,}** | **{total_reach_achievement}%** | **{total_reach_status}** |
+| └ Late API impressions | 150,000 | {total_impressions:,} | {impressions_achievement}% | {impressions_status} |
+| └ Threads views | 5,000 | {threads_views:,} | {threads_views_achievement}% | {threads_views_status} |
+| └ Facebook views | 100,000 | {facebook_views:,} | {facebook_views_achievement}% | {facebook_views_status} |
 | 平均エンゲージメント率（週間） | 1.5% | {engagement_rate}% | {engagement_achievement}% | {engagement_status} |
 | LinkedIn投稿あたり平均インプレッション | 8,000 | {linkedin_avg_impressions:,} | {linkedin_achievement}% | {linkedin_status} |
 | X投稿あたり平均インプレッション | 2,000 | {x_avg_impressions:,} | {x_achievement}% | {x_status} |
 | Threads投稿あたり平均Views | 100 | {threads_avg_views:,} | {threads_views_achievement}% | {threads_views_status} |
-| **Facebook週間閲覧数** | **100,000** | **{facebook_views:,}** | **{facebook_views_achievement}%** | **{facebook_views_status}** |
 | **Facebookインタラクション** | **1,500** | **{facebook_interactions:,}** | **{facebook_interactions_achievement}%** | **{facebook_interactions_status}** |
 | **Facebookフォロワー増** | **150** | **{facebook_net_followers}** | **{facebook_followers_achievement}%** | **{facebook_followers_status}** |
 
@@ -89,47 +95,36 @@
 
 ---
 
-## 🏆 トップ5投稿（インプレッション順）
+## 🏆 トップ20投稿（全プラットフォーム統合）
 
-### 1位
+| 順位 | Platform | タイトル（最初100文字） | Reach | 💙 Likes | 💬 Comments | 🔄 Shares | Engagement Rate |
+|------|----------|---------------------|-------|----------|-------------|----------|----------------|
+| 1 | {top1_platform_icon} | {top1_title_100chars} | {top1_reach:,} | {top1_likes} | {top1_comments} | {top1_shares} | {top1_rate}% |
+| 2 | {top2_platform_icon} | {top2_title_100chars} | {top2_reach:,} | {top2_likes} | {top2_comments} | {top2_shares} | {top2_rate}% |
+| 3 | {top3_platform_icon} | {top3_title_100chars} | {top3_reach:,} | {top3_likes} | {top3_comments} | {top3_shares} | {top3_rate}% |
+| 4 | {top4_platform_icon} | {top4_title_100chars} | {top4_reach:,} | {top4_likes} | {top4_comments} | {top4_shares} | {top4_rate}% |
+| 5 | {top5_platform_icon} | {top5_title_100chars} | {top5_reach:,} | {top5_likes} | {top5_comments} | {top5_shares} | {top5_rate}% |
+| 6 | {top6_platform_icon} | {top6_title_100chars} | {top6_reach:,} | {top6_likes} | {top6_comments} | {top6_shares} | {top6_rate}% |
+| 7 | {top7_platform_icon} | {top7_title_100chars} | {top7_reach:,} | {top7_likes} | {top7_comments} | {top7_shares} | {top7_rate}% |
+| 8 | {top8_platform_icon} | {top8_title_100chars} | {top8_reach:,} | {top8_likes} | {top8_comments} | {top8_shares} | {top8_rate}% |
+| 9 | {top9_platform_icon} | {top9_title_100chars} | {top9_reach:,} | {top9_likes} | {top9_comments} | {top9_shares} | {top9_rate}% |
+| 10 | {top10_platform_icon} | {top10_title_100chars} | {top10_reach:,} | {top10_likes} | {top10_comments} | {top10_shares} | {top10_rate}% |
+| 11 | {top11_platform_icon} | {top11_title_100chars} | {top11_reach:,} | {top11_likes} | {top11_comments} | {top11_shares} | {top11_rate}% |
+| 12 | {top12_platform_icon} | {top12_title_100chars} | {top12_reach:,} | {top12_likes} | {top12_comments} | {top12_shares} | {top12_rate}% |
+| 13 | {top13_platform_icon} | {top13_title_100chars} | {top13_reach:,} | {top13_likes} | {top13_comments} | {top13_shares} | {top13_rate}% |
+| 14 | {top14_platform_icon} | {top14_title_100chars} | {top14_reach:,} | {top14_likes} | {top14_comments} | {top14_shares} | {top14_rate}% |
+| 15 | {top15_platform_icon} | {top15_title_100chars} | {top15_reach:,} | {top15_likes} | {top15_comments} | {top15_shares} | {top15_rate}% |
+| 16 | {top16_platform_icon} | {top16_title_100chars} | {top16_reach:,} | {top16_likes} | {top16_comments} | {top16_shares} | {top16_rate}% |
+| 17 | {top17_platform_icon} | {top17_title_100chars} | {top17_reach:,} | {top17_likes} | {top17_comments} | {top17_shares} | {top17_rate}% |
+| 18 | {top18_platform_icon} | {top18_title_100chars} | {top18_reach:,} | {top18_likes} | {top18_comments} | {top18_shares} | {top18_rate}% |
+| 19 | {top19_platform_icon} | {top19_title_100chars} | {top19_reach:,} | {top19_likes} | {top19_comments} | {top19_shares} | {top19_rate}% |
+| 20 | {top20_platform_icon} | {top20_title_100chars} | {top20_reach:,} | {top20_likes} | {top20_comments} | {top20_shares} | {top20_rate}% |
 
-- **プラットフォーム**: {top1_platform}
-- **投稿日時**: {top1_published_at}
-- **インプレッション**: {top1_impressions:,}回
-- **エンゲージメント率**: {top1_engagement_rate}%
-- **内容**: {top1_text_preview}
-
-### 2位
-
-- **プラットフォーム**: {top2_platform}
-- **投稿日時**: {top2_published_at}
-- **インプレッション**: {top2_impressions:,}回
-- **エンゲージメント率**: {top2_engagement_rate}%
-- **内容**: {top2_text_preview}
-
-### 3位
-
-- **プラットフォーム**: {top3_platform}
-- **投稿日時**: {top3_published_at}
-- **インプレッション**: {top3_impressions:,}回
-- **エンゲージメント率**: {top3_engagement_rate}%
-- **内容**: {top3_text_preview}
-
-### 4位
-
-- **プラットフォーム**: {top4_platform}
-- **投稿日時**: {top4_published_at}
-- **インプレッション**: {top4_impressions:,}回
-- **エンゲージメント率**: {top4_engagement_rate}%
-- **内容**: {top4_text_preview}
-
-### 5位
-
-- **プラットフォーム**: {top5_platform}
-- **投稿日時**: {top5_published_at}
-- **インプレッション**: {top5_impressions:,}回
-- **エンゲージメント率**: {top5_engagement_rate}%
-- **内容**: {top5_text_preview}
+**プラットフォームアイコン**:
+- 💼 = LinkedIn
+- 🐦 = X (Twitter)
+- 🧵 = Threads
+- 📘 = Facebook
 
 ---
 
@@ -200,7 +195,75 @@
 
 ## 🎯 推奨アクション（優先度順）
 
-{recommended_actions_section}
+### 📍 アクション1: {action1_title}
+
+**期待効果**: {action1_expected_effect}
+**優先度**: {action1_priority}/100
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action1_step1_analysis}
+
+**STEP 2: 目標設定**
+{action1_step2_goal}
+
+**STEP 3: 実施**
+{action1_step3_implementation}
+
+**STEP 4: 測定**
+{action1_step4_measurement}
+
+**STEP 5: 調整**
+{action1_step5_adjustment}
+
+---
+
+### 📍 アクション2: {action2_title}
+
+**期待効果**: {action2_expected_effect}
+**優先度**: {action2_priority}/100
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action2_step1_analysis}
+
+**STEP 2: 目標設定**
+{action2_step2_goal}
+
+**STEP 3: 実施**
+{action2_step3_implementation}
+
+**STEP 4: 測定**
+{action2_step4_measurement}
+
+**STEP 5: 調整**
+{action2_step5_adjustment}
+
+---
+
+### 📍 アクション3: {action3_title}
+
+**期待効果**: {action3_expected_effect}
+**優先度**: {action3_priority}/100
+
+#### 5ステップ実装手順
+
+**STEP 1: 現状分析**
+{action3_step1_analysis}
+
+**STEP 2: 目標設定**
+{action3_step2_goal}
+
+**STEP 3: 実施**
+{action3_step3_implementation}
+
+**STEP 4: 測定**
+{action3_step4_measurement}
+
+**STEP 5: 調整**
+{action3_step5_adjustment}
 
 ---
 
